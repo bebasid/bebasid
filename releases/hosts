@@ -4,8 +4,8 @@
 # Hosts listed by Komunitas Internet Netral
 #
 # Rules
-# Dengan mengunduh BEBASID dan perangkat lunak terkait dan menggunakan aplikasi ini, Anda menerima dan setuju untuk terikat dan mematuhi ketentuan berikut:
-# Disclaimer: https://github.com/gvoze32/bebasid/blob/master/RULES.md
+# Dengan mengunduh BEBASID dan perangkat lunak terkait dan menggunakan aplikasi ini, Anda menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut.
+# https://github.com/bebasid/bebasid/blob/master/RULES.md
 # Apabila sengaja mengedit apa saja yang ada di dalam file ini berarti file ini sudah tidak terkait dengan BEBASID.
 #
 # Sample
@@ -630,21 +630,6 @@
 # [HENTAIMAMA.IO]
 104.18.54.140 hentaimama.io www.hentaimama.io
 
-# [GIPHY.COM]
-151.101.38.2 media2.giphy.com
-66.6.32.22 blog.giphy.com
-151.101.38.2 media3.giphy.com
-151.101.38.2 tv.giphy.com
-151.101.38.2 media0.giphy.com
-52.216.64.210 labs.giphy.com
-151.101.193.185 giphy.com www.giphy.com
-151.101.38.2 media1.giphy.com
-151.101.38.2 media.giphy.com
-151.101.38.2 api.giphy.com
-34.201.177.177 developers.giphy.com
-52.202.213.23 developers.giphy.com
-151.101.54.2 developers.giphy.com
-
 # [JAVFULL.TV]
 104.24.104.142 javfull.tv www.javfull.tv
 104.27.172.92 javfull.net www.javfull.net
@@ -964,6 +949,10 @@
 104.24.30.59 hanime.tv www.hanime.tv uploads.hanime.tv ark.hanime.tv cdn.hanime.tv search.hanime.tv
 104.24.30.59 oberon.hanime.tv m.hanime.tv tapi.hanime.tv htv3.hanime.tv members.hanime.tv
 151.101.65.195 player.hanime.tv
+104.24.30.59 uploads.hanime.tv ark.hanime.tv cdn.hanime.tv search.hanime.tv
+104.24.30.59 oberon.hanime.tv m.hanime.tv tapi.hanime.tv htv3.hanime.tv
+172.64.199.21 members.hanime.tv www.hanime.tv hanime.tv player.hanime.tv player2.hanime.tv
+104.28.24.161 search.htv-services.com uploader.htv-services.com
 104.28.8.205 search.freeanimehentai.net
 104.28.8.124 cdn.freeanimehentai.net
 104.28.9.124 i2.freeanimehentai.net
@@ -1281,8 +1270,8 @@
 185.221.200.12 sukebei.nyaa.si
 
 # [SEX.COM]
-206.125.164.82 sex.com www.sex.com hd.sex.com m.sex.com video.sex.com gay.sex.com upload.sex.com premium.sex.com city.sex.com
-206.125.164.83 images.sex.com images1.sex.com images2.sex.com images3.sex.com images4.sex.com images5.sex.com
+15.222.131.21 sex.com www.sex.com hd.sex.com m.sex.com video.sex.com gay.sex.com upload.sex.com premium.sex.com city.sex.com
+15.222.131.21 images.sex.com images1.sex.com images2.sex.com images3.sex.com images4.sex.com images5.sex.com
 
 # [THEFAPPENING.PRO]
 104.25.103.26 thefappening.pro www.thefappening.pro
@@ -1673,7 +1662,7 @@
 144.217.181.47 api.bitporno.com
 
 # [PRIMEVIDEO.COM]
-52.85.201.207 primevideo.com www.primevideo.com
+52.84.125.59 primevideo.com www.primevideo.com
 
 # [HENTAI-COSPLAY.COM]
 104.24.126.173 hentai-cosplay.com www.hentai-cosplay.com
@@ -2191,6 +2180,7 @@
 104.27.146.208 7mm.tv www.7mm.tv
 104.18.39.251 7mmtv.tv  www.7mmtv.tv 
 163.172.90.92 file.7mmtv.tv 
+163.172.215.71 video.7mmtv.tv
 
 # [THISAV.COM]
 104.27.196.89 thisav.com www.thisav.com
@@ -2333,9 +2323,11 @@
 
 # [USAGOALS.NET]
 104.18.39.6 usagoals.net www.usagoals.net
+104.31.73.65 usagoals.video www.usagoals.video
 
 # [KSHOW123.NET]
 104.27.150.41 kshow123.net www.kshow123.net
+104.27.150.41 icdn.kshow123.net api3.kshow123.net api.kshow123.net api2.kshow123.net load.kshow123.net
 
 # [ASHEMALETUBE.COM]
 213.174.148.157 ashemaletube.com www.ashemaletube.com
@@ -2351,6 +2343,7 @@
 
 # [JAVPORTAL.NET]
 104.24.100.59 javportal.net www.javportal.net
+104.28.27.138 thejav.net www.thejav.net
 
 # [REALDOLL.COM]
 104.26.12.200 realdoll.com www.realdoll.com
@@ -2369,3 +2362,27 @@
 
 # [PAHE.IN]
 104.27.132.141 pahe.in www.pahe.in
+
+# [TERK.NL]
+37.128.144.49 terk.nl www.terk.nl
+
+# [141JAV.COM]
+104.31.7.180 141jav.com www.141jav.com
+
+# [PSARIPS.ONE]
+104.27.168.213 psarips.one
+
+# [FAP-NATION.COM]
+104.25.72.6 fap-nation.com
+
+# [CAMVAULT.XYZ]
+172.64.128.35 camvault.xyz
+
+# [VEPORN.IO]
+104.31.8.161 veporn.io www.veporn.io m.veporn.io
+
+# [JAVHIHI.ME]
+104.18.61.71 javhihi.me www.javhihi.me
+
+# [SEXY-YOUTUBERS.COM]
+104.31.67.100 sexy-youtubers.com www.sexy-youtubers.com

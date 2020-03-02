@@ -521,3 +521,9 @@
 - Unjayv.xyz
 - Pahe.in
 - Javportal.net
+- Camvault.xyz
+- Veporn.io
+- Sexy-youtubers.com
+- Fap-nation.com
+- Terk.nl
+- Psarips.one

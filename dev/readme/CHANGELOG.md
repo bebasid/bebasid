@@ -1,4 +1,18 @@
 # Changelog
+**v8.1** New sites added, bugs fixed
+- Camvault.xyz
+- Veporn.io
+- Sexy-youtubers.com
+- Fap-nation.com
+- Terk.nl
+- Psarips.one
+
+```
+Fixed bug on Hanime, Kshow123, Primevideo, Javportal, Sex, 7mm, Usagoals
+Deleted Giphy
+Repository moved to organization - managed by organization: Komunitas Internet Netral Indonesia
+```
+
 **v8.0** New sites added, bugs fixed
 - Realdoll.com
 - Javfinder.sh
