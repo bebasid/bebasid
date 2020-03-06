@@ -322,12 +322,16 @@
 152.195.13.91 static-egc.xvideos-cdn.com
 69.55.53.169 static-ss.xvideos-cdn.com
 8.247.111.123 hls4-l3.xvideos-cdn.com
+209.197.3.84 video-hw.xvideos-cdn.com
 152.195.13.88 vid-egc.xvideos-cdn.com
 185.180.13.220 cdn77-pic.xvideos-cdn.com
 152.195.13.91 img-egc.xvideos-cdn.com
-152.195.13.91 img-hw.xvideos-cdn.com
+209.197.3.84 img-hw.xvideos-cdn.com
 8.253.209.251 img-l3.xvideos-cdn.com
+89.187.171.3 cdn77-pic.xvideos-cdn.com
 8.240.44.251 static-l3.xvideos-cdn.com
+8.247.48.123 hls2-l3.xvideos-cdn.com
+209.197.3.84 hls-hw.xvideos-cdn.com
 209.197.3.84 static-hw.xvideos-cdn.com
 178.79.244.53 porn1-im-7688ec00-10333156-hlsinths.x.xvideos.com
 
