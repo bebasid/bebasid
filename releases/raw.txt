@@ -2365,3 +2365,15 @@ Apabila sengaja mengedit apa saja yang ada di dalam file ini berarti file ini su
 
 # [SEXY-YOUTUBERS.COM]
 104.31.67.100 sexy-youtubers.com www.sexy-youtubers.com
+
+# [HDSTREAMS.CLUB]
+104.28.26.10 hdstreams.club
+
+# [FOOTBALLSTREAM.TO]
+104.31.9.190 footballstream.to
+
+# [LIVEONSCORE.NET]
+104.26.8.211 liveonscore.net
+
+# [SAMEHADA.TV]
+104.18.35.212 samehada.tv www.samehada.tv
