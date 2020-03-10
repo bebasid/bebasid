@@ -2377,3 +2377,7 @@ Apabila sengaja mengedit apa saja yang ada di dalam file ini berarti file ini su
 
 # [SAMEHADA.TV]
 104.18.35.212 samehada.tv www.samehada.tv
+
+# [EUROPIXHD.IO]
+172.64.163.10 europixhd.io www.europixhd.io
+104.24.101.202 123europix.pro
