@@ -1,4 +1,4 @@
-![Netflix Error Playback](https://www.ghacks.net/wp-content/uploads/2016/02/netflix-error-unblocker.jpg)
+![Netflix Error Playback](https://preview.redd.it/2b36et324w611.png?width=2722&format=png&auto=webp&s=f51780f3264251c65dba03cf13267e02cedf298c)
 
 Setelah menginstall BEBASID, kamu akan bisa membuka Netflix, tetapi saat masuk playback mode akan ada tulisan:
 
@@ -14,40 +14,40 @@ Setelah menginstall BEBASID, kamu akan bisa membuka Netflix, tetapi saat masuk p
 
     ======================
 
-Kurang lebih seperti itu, karena akses kecepatan Netflix dilimit oleh Internet Positif jadi harus memakai GoodbyeDPI juga.
-
+Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI untuk Netflix.
+    
 # Windows
 
-Sebelumnya, install dahulu BEBASID - [USAGE.md](USAGE.md#windows)
+- [GoodbyeDPI] (https://github.com/bebasid/bebasid/tree/master/dev/scripts/goodbyedpi)
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel).
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases).
 
-Selanjutnya, kamu bisa download GoodbyeDPI disini:  
-[Download](http://adena.me/goodbyedpi-0.1.5.zip) / [Mirrors](https://pastebin.com/raw/YCjrgF2G)
-
-**Cara pakai:**  
-Pertama, klik service_install.cmd untuk mulai menginstall aplikasinya.  
-Kemudian tinggal klik run.cmd untuk memulai aplikasi.  
-Silahkan coba untuk memutar film di Netflix.  
-Jika sudah selesai, silahkan service_remove.cmd untuk memberhentikan aplikasi.
+Rekomendasi: GoodbyeDPI
 
 # Linux
 
-Sebelumnya, install dahulu BEBASID - [USAGE.md](USAGE.md#linux)
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel).
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases).
+- [zapret](https://github.com/bol-van/zapret).
 
-Selanjutnya, kamu bisa menggunakan [Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel) yang sudah dilengkapi dengan GUI, instalasinya mudah, tinggal install seperti package biasa, lalu jalankan dan tekan tombol menjadi on.
-
-Alternatifnya, kamu bisa menggunakan [zapret](https://github.com/bol-van/zapret) dengan cara download, kemudian jalankan, install_easy.sh dan jawab pertanyaan yang tersedia.
+Rekomendasi: GreenTunnel
 
 # MacOS
 
-Sebelumnya, install dahulu BEBASID - [USAGE.md](USAGE.md#bsd--macos)
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel).
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases).
 
-Selanjutnya, kamu bisa menggunakan [Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel) juga, instalasinya kurang lebih sama dengan Linux.
+Rekomendasi: GreenTunnel
 
 # Android
 
-Sebelumnya, install dahulu BEBASID - [USAGE.md](USAGE.md#android)
+Untuk android, ada beberapa aplikasi yang bisa kamu gunakan
 
-Untuk android silahkan gunakan aplikasi [Dawn](https://play.google.com/store/apps/details?id=com.wktkf.dawn). Tinggal aktifkan saja.
+- [Dawn](https://play.google.com/store/apps/details?id=com.wktkf.dawn).
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel-Android/releases).
+- [DPITunnel](https://github.com/zhenyolka/DPITunnel/releases).
+
+Rekomendasi: PowerTunnel
 
 # VPN (Alternatif)
 
