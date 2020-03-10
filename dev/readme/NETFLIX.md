@@ -18,7 +18,7 @@ Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI unt
     
 # Windows
 
-- [GoodbyeDPI] (https://github.com/bebasid/bebasid/tree/master/dev/scripts/goodbyedpi)
+- [GoodbyeDPI](https://github.com/bebasid/bebasid/tree/master/dev/scripts/goodbyedpi)
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel).
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases).
 
