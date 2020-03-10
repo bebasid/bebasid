@@ -19,33 +19,31 @@ Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI unt
 # Windows
 
 - [GoodbyeDPI](https://github.com/bebasid/bebasid/tree/master/dev/scripts/goodbyedpi)
-- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel).
-- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases).
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
 Rekomendasi: GoodbyeDPI
 
 # Linux
 
-- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel).
-- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases).
-- [zapret](https://github.com/bol-van/zapret).
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
+- [zapret](https://github.com/bol-van/zapret)
 
 Rekomendasi: GreenTunnel
 
 # MacOS
 
-- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel).
-- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases).
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
 Rekomendasi: GreenTunnel
 
 # Android
 
-Untuk android, ada beberapa aplikasi yang bisa kamu gunakan
-
-- [Dawn](https://play.google.com/store/apps/details?id=com.wktkf.dawn).
-- [PowerTunnel](https://github.com/krlvm/PowerTunnel-Android/releases).
-- [DPITunnel](https://github.com/zhenyolka/DPITunnel/releases).
+- [Dawn](https://play.google.com/store/apps/details?id=com.wktkf.dawn)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel-Android/releases)
+- [DPITunnel](https://github.com/zhenyolka/DPITunnel/releases)
 
 Rekomendasi: PowerTunnel
 
