@@ -1180,7 +1180,7 @@ Apabila sengaja mengedit apa saja yang ada di dalam file ini berarti file ini su
 91.212.150.157 katcr.co www.katcr.co
 
 # [1337X.TO]
-104.31.88.65 1337x.to www.1337x.to cdn.1337x.to ssa.1337x.to chat.1337x.to
+104.31.88.65 1337x.to www.1337x.to
 
 # [YTS.LT]
 104.25.135.117 yts.lt www.yts.lt
