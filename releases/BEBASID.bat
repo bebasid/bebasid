@@ -96,17 +96,18 @@ GOTO TANYA
 
 :TANYA {
 echo.
-echo Dengan melanjutkan berarti menyetujui apa yang ada di RULES.md
-echo.
-echo Jawab N jika tidak setuju
-echo Jawab Y jika setuju dan ingin melanjutkan
+echo Apa kamu yakin ingin membuka akses pada website yang diblokir oleh internet positif?
+echo Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di RULES.md
+echo Untuk mengembalikan hosts ke default, kamu cukup menekan tombol keyboard [W], kemudian tekan tombol keyboard [Enter]
+echo Untuk menkonfirmasi, kamu cukup menekan salah satu tombol keyboard [Y] atau [N] kemudian tekan tombol keyboard [Enter]
 echo.
 )
 
 :KONFIRMASI (
-SET /P yakin=[Y/N] ? 
+SET /P yakin=[Y/N/W] ? 
 IF /I "%yakin%" EQU "Y" GOTO YAKIN
 IF /I "%yakin%" EQU "N" GOTO TIDAK
+IF /I "%yakin%" EQU "W" GOTO RESTORE
 GOTO KONFIRMASI
 )
 
@@ -129,10 +130,18 @@ powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw
 ipconfig /flushdns
 ipconfig /release
 ipconfig /renew
-echo.
+cls
+  echo.
+  echo   ____  _____ ____    _    ____ ___ ____  
+  echo "| __ )| ____| __ )  / \  / ___|_ _|  _ \ "
+  echo "|  _ \|  _| |  _ \ / _ \ \___ \| || | | |"
+  echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
+  echo "|____/|_____|____/_/   \_\____/___|____/ "
+  echo.
+  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo.
 echo BEBASID telah berhasil terpasang
-echo. && echo.
-
+echo.
 echo Tekan tombol apa saja untuk keluar
 pause >nul
 exit
@@ -154,6 +163,60 @@ cls
   echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
   echo.
 echo BEBASID telah berhasil terpasang
+echo.
+echo Tekan tombol apa saja untuk keluar
+pause >nul
+exit
+)
+
+:RESTORE
+if "%version%" == "10.0" GOTO RESTORE3
+if "%version%" == "6.3" GOTO RESTORE3
+if "%version%" == "6.2" GOTO RESTORE3
+if "%version%" == "6.1" GOTO RESTORE3
+if "%version%" == "6.0" GOTO RESTORE2
+if "%version%" == "5.2" GOTO RESTORE2
+if "%version%" == "5.1" GOTO RESTORE2
+)
+
+:RESTORE2
+powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts', 'hosts')"
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+cls
+  echo.
+  echo   ____  _____ ____    _    ____ ___ ____  
+  echo "| __ )| ____| __ )  / \  / ___|_ _|  _ \ "
+  echo "|  _ \|  _| |  _ \ / _ \ \___ \| || | | |"
+  echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
+  echo "|____/|_____|____/_/   \_\____/___|____/ "
+  echo.
+  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo.
+echo BEBASID telah berhasil dikembalikan ke default
+echo.
+echo Tekan tombol apa saja untuk keluar
+pause >nul
+exit
+)
+
+:RESTORE3
+powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts' -OutFile 'hosts'"
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+cls
+  echo.
+  echo   ____  _____ ____    _    ____ ___ ____  
+  echo "| __ )| ____| __ )  / \  / ___|_ _|  _ \ "
+  echo "|  _ \|  _| |  _ \ / _ \ \___ \| || | | |"
+  echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
+  echo "|____/|_____|____/_/   \_\____/___|____/ "
+  echo.
+  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo.
+echo BEBASID telah berhasil dikembalikan ke default
 echo.
 echo Tekan tombol apa saja untuk keluar
 pause >nul
