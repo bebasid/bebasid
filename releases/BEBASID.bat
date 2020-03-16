@@ -8,11 +8,11 @@ Title BEBASID ^> %~nx0
 
 :ADMINISTRATOR_VALIDATION (
 if '%ErrorLevel%' NEQ '0' ( echo.
-echo BEBASID sedang meminta hak akses administrator . .
-timeout 1 >nul && echo. && echo Memulai proses 4 . .
-timeout 1 >nul && echo. && echo Memulai proses 3 . . .
-timeout 1 >nul && echo. && echo Memulai proses 2 . . . .
-timeout 1 >nul && echo. && echo Memulai proses 1 . . . . .
+echo BEBASID sedang meminta hak akses administrator 5 .
+timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 4 . .
+timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 3 . . .
+timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 2 . . . .
+timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 1 . . . . .
 GOTO :UAC_PROMPT
  ) else ( GOTO :GOT_ADMIN )
 )
@@ -95,16 +95,29 @@ GOTO TANYA
 )
 
 :TANYA {
+cls
+  echo.
+  echo   ____  _____ ____    _    ____ ___ ____  
+  echo "| __ )| ____| __ )  / \  / ___|_ _|  _ \ "
+  echo "|  _ \|  _| |  _ \ / _ \ \___ \| || | | |"
+  echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
+  echo "|____/|_____|____/_/   \_\____/___|____/ "
+  echo.
+  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo.
+  echo.
+echo (#) Apa kamu yakin ingin membuka akses pada website yang diblokir oleh internet positif?
 echo.
-echo Apa kamu yakin ingin membuka akses pada website yang diblokir oleh internet positif?
-echo Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di RULES.md
-echo Untuk mengembalikan hosts ke default, kamu cukup menekan tombol keyboard [W], kemudian tekan tombol keyboard [Enter]
-echo Untuk menkonfirmasi, kamu cukup menekan salah satu tombol keyboard [Y] atau [N] kemudian tekan tombol keyboard [Enter]
+echo (#) Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di RULES.md
+echo.
+echo (#) Untuk mengembalikan hosts ke default, kamu cukup menekan tombol keyboard [W], kemudian tekan tombol keyboard [Enter]
+echo.
+echo (#) Untuk mengonfirmasi, kamu cukup menekan salah satu tombol keyboard [Y] atau [N] kemudian tekan tombol keyboard [Enter]
 echo.
 )
 
 :KONFIRMASI (
-SET /P yakin=[Y/N/W] ? 
+SET /P yakin=[Y/N/W]? 
 IF /I "%yakin%" EQU "Y" GOTO YAKIN
 IF /I "%yakin%" EQU "N" GOTO TIDAK
 IF /I "%yakin%" EQU "W" GOTO RESTORE
