@@ -27,7 +27,7 @@ Semua daftar situs yang support bisa kamu cek [di sini](https://github.com/bebas
 Untuk panduan penggunaan, silahkan menuju [USAGE.md](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 # Donate
-Fitur ini hanya bisa didapatkan dari donasi. Untuk donasi bisa kontak melalui email kami: bebasid@tutanota.com. 
+Fitur ini hanya bisa didapatkan dari donasi. Untuk donasi bisa kirim saldo berapapun ke rekening DANA dengan nomor 0895395141873 a/n YUSUP MEILANSAH. 
 
 Note: Bagi yang gagal login, silahkan download [2007 Office System Driver: Data Connectivity Components](https://download.cnet.com/2007-Office-System-Driver-Data-Connectivity-Components/3000-10254_4-75452798.html) karena database hanya mendukung komponen lama.
 
