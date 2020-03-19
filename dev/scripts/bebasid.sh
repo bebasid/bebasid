@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# Instalasi hosts untuk Linux
+# Instalasi Aplikasi BEBASID untuk Linux
 # Tested on RHEL (CentOS, Fedora), Debian (Ubuntu, Linux Mint, etc) and Arch Linux (Manjaro)
-# Coded by Icaksh
-# Fixed by gvoze32
-# BEBASID
 
 bebasid_banner(){
   echo " ____  _____ ____    _    ____ ___ ____  "
@@ -13,12 +10,54 @@ bebasid_banner(){
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo ""
-  echo "==   SUPPORT INDONESIAN NET NEUTRALITY  =="
+  echo "==  SUPPORT INDONESIAN NET NEUTRALITY  =="
   echo ""
 }
+about(){
+  echo "Name of File  : BEBASID"
+  echo "Version       : v2.0 (March 2020)"
+  echo "Tested on     :"
+  echo "    - Debian: Debian, Ubuntu, Linux Mint"
+  echo "    - RHEL  : CentOS, Fedora"
+  echo "    - Arch  : Arch Linux, Manjaro"
+  echo ""
+  echo "Built with love by Icaksh for BEBASID"
+  echo "Fixed by gvoze32 (The author of BEBASID)"
+}
 
-# FUNCTION UNBLOCK WEBSITE
-# USED TO UNBLOCK A WEBSITE WHAT YOU WANT WITH MODIFYING HOSTS FILE
+# =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #
+
+renew_bebasid(){
+  echo "======= MEMPERBARUI APLIKASI BEBASID ======"
+  if sudo curl -o /usr/local/bin/bebasid https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh; then
+    echo ""
+    echo "Berhasil mengunduh script aplikasi BEBASID"
+    echo "Mengecek aplikasi"
+    sudo bebasid --about
+    echo ""
+    echo "== BERHASIL MEMPERBARUI APLIKASI BEBASID =="
+  else
+    echo ""
+    echo "Tidak dapat mengunduh script aplikasi BEBASID"
+    echo ""
+    echo "==== GAGAL MEMPERBARUI APLIKASI BEBASID ==="
+  fi
+}
+
+remove_bebasid(){
+  read -p "Apakah anda yakin ingin menghapus BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+  echo "== MEMULAI PENGHAPUSAN APLIKASI BEBASID =="
+  echo ""
+  echo "Menghapus aplikasi BEBASID"
+  if sudo rm -rf /usr/local/bin/bebasid; then
+    echo ""
+    echo "===== APLIKASI BEBASID TELAH DIHAPUS ====="
+  else
+    echo ""
+    echo "===== APLIKASI BEBASID GAGAL DIHAPUS ====="
+  fi
+}
+
 unblock_hosts(){
 sudo bash -c 'cat >> /etc/hosts-own'<<EOF
 
@@ -33,8 +72,6 @@ $ip $domain
 EOF
 }
 
-# FUNCTION BLOCK
-# USED TO BLOCK A WEBSITE WHAT YOU WANT WITH MODYFING HOSTS FILE
 block_hosts(){
 sudo bash -c 'cat >> /etc/hosts-own'<<EOF
 
@@ -49,8 +86,6 @@ sudo bash -c 'cat >> /etc/hosts'<<EOF
 EOF
 }
 
-# RESTORE HOSTS FUNCTION
-# FIX HOSTS FILE USING UNIVERSAL LINUX'S HOSTS FILE
 restore_hosts(){
 sudo bash -c "cat > /etc/hosts" <<EOF
 127.0.1.1 myhostname
@@ -64,28 +99,123 @@ ff02::2 ip6-allrouters
 ff02::1 ip6-allnodes
 ff02::3 ip6-allhosts
 EOF
+echo "Berhasil memasang hosts bawaan Linux"
 }
 
-# CURL + CHECKING THE RESULT OF CURL FUNCTION
-# ONLY USING CURL IS BIG PROBLEM
-# BECAUSE SOMEONE CAN FORGET ABOUT INTERNET CONNECTION
-# AND DESTROYING THE HOSTS FILE
-check_curl(){
-  if sudo curl -o /etc/hosts https://raw.githubusercontent.com/gvoze32/bebasid/master/releases/hosts; then
-    sudo bash -c 'cat /etc/hosts-own >> /etc/hosts'
-    sudo service network-manager restart
-    sudo systemctl restart NetworkManager.service
+restart_network(){
+  echo "Memulai ulang Network Manager"
+  if [[ -e /etc/debian_version ]]; then
+    source /etc/os-release
+    OS=$ID # debian or ubuntu
+  elif [[ -e /etc/fedora-release ]]; then
+    OS=fedora
+  elif [[ -e /etc/centos-release ]]; then
+    OS=centos
+  elif [[ -e /etc/arch-release ]]; then
+    OS=arch
+  else
     echo ""
-    echo "== BEBASID BERHASIL DIPASANG =="
+    echo "Tidak dapat memulai ulang Network Manager"
+    echo "Anda bisa memulai ulang Network Manager secara manual"
+  fi
+
+  case $OS in
+    # DEBIAN DERIVATIVE
+    "debian")
+      sudo /etc/init.d/network-manager restart
+      ;;
+    "ubuntu")
+      sudo service network-manager restart
+      ;;
+    # RHEL DERIVATIVE
+    "centos")
+      sudo systemctl restart NetworkManager.service
+      ;;
+    "fedora")
+      sudo systemctl restart NetworkManager.service
+      ;;
+    # ARCH DERIVATIVE
+    "arch")
+      sudo systemctl restart NetworkManager.service
+      ;;
+  esac
+}
+
+check_curl(){
+  if sudo curl -o /etc/hosts https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts; then
+    sudo bash -c 'cat /etc/hosts-own >> /etc/hosts'
+    echo ""
+    echo "Berhasil mengambil file hosts BEBASID"
+    restart_network
+    echo ""
+    echo "====== BERHASIL MEMASANG BEBASID ====="
   else
     sudo mv /etc/hosts.bak-bebasid /etc/hosts
+    echo "Gagal mengambil file hosts BEBASID"
     echo ""
-    echo "== BEBASID GAGAL DIPASANG =="
+    echo "======= GAGAL MEMASANG BEBASID ======="
   fi
 }
 
-# GET DOMAIN'S IP ADDRESS
-# YOU CAN MODIFY THE URL WITH YOUR OWN SERVER/HOSTING
+install_bebasid(){
+  echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
+  echo ""
+  echo "Memeriksa kondisi"
+  if [ -e /etc/hosts.bak-bebasid ]; then
+    echo "Anda telah memasang BEBASID, silahkan uninstall BEBASID anda terlebih dahulu"
+    echo ""
+    echo "==== GAGAL MEMASANG HOSTS BEBASID ===="
+    exit 1
+  else
+    echo "Pastikan anda telah terkoneksi dengan internet dan telah terpasang cURL"
+    read -p "Apakah anda yakin ingin memasang BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+    sudo mv /etc/hosts /etc/hosts.bak-bebasid
+    sudo touch /etc/hosts-own
+    echo ""
+    check_curl
+  fi
+}
+
+update_bebasid(){
+  echo "===== MEMPERBARUI HOSTS BEBASID ======"
+  echo ""
+  echo "Memeriksa kondisi"
+  if [ -e /etc/hosts.bak-bebasid ]; then
+    sudo rm /etc/hosts
+    check_curl
+    exit 1
+  else
+    echo "Backup hosts asli tidak ditemukan, opsi pemasangan BEBASID akan dilakukan"
+    echo ""
+    install_bebasid
+  fi
+}
+
+uninstall_bebasid(){
+  echo "=== MEMULAI PENCOPOTAN HOSTS BEBASID ==="
+  echo ""
+  echo "Memeriksa Hosts Cadangan"
+  echo ""
+  if [ -e /etc/hosts.bak-bebasid ]; then
+    echo "Hosts cadangan ditemukan, memulai pencopotan BEBASID"
+    sudo rm /etc/hosts
+    sudo rm /etc/hosts-own
+    sudo mv /etc/hosts.bak-bebasid /etc/hosts
+    restart_network
+    echo ""
+    echo "== HOSTS BEBASID TELAH SUKSES DICOPOT =="
+  else
+    echo "Hosts cadangan tidak ditemukan"
+    echo "Pencopotan dengan host konfigurasi bawaan Linux"
+    restore_hosts
+    restart_network
+    echo ""
+    echo "== HOSTS BEBASID TELAH SUKSES DICOPOT =="
+  fi
+}
+
+# ====== OKAY, YOU CAN ADD YOUR CUSTOM FUNCTION BELOW HERE ====== #
+
 grep_ip(){
   ip=$(curl http://two-ply-mixtures.000webhostapp.com/?domain=$domain)
   if ! [[ "$ip" =~ ^(([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))\.){3}([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))$ ]]; then
@@ -94,65 +224,15 @@ grep_ip(){
   fi
 }
 
-install_bebasid(){
-  if [ -f /etc/hosts.bak-bebasid ]; then
-    echo "Anda telah memasang BEBASID, silahkan uninstall BEBASID anda terlebih dahulu"
-    exit 1
-  else
-    echo "Pastikan anda telah terkoneksi dengan internet dan telah terpasang cURL"
-    read -p "Apakah anda yakin ingin memasang BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-    sudo mv /etc/hosts /etc/hosts.bak-bebasid
-    sudo touch /etc/hosts-own
-    echo "== SEDANG MEMASANG BEBASID, PASTIKAN MENUNGGU HINGGA SELESAI =="
-    echo ""
-    check_curl
-  fi
-}
-
-update_bebasid(){
-  if [ -f /etc/hosts.bak-bebasid ]; then
-    sudo rm /etc/hosts
-    echo "== SEDANG MEMASANG BEBASID, PASTIKAN MENUNGGU HINGGA SELESAI =="
-    echo ""
-    check_curl
-    exit 1
-  else
-    echo "BACKUP HOSTS ASLI TIDAK DITEMUKAN, OPSI INSTALL BEBASID AKAN DIGUNAKAN"
-    sudo mv /etc/hosts /etc/hosts.bak-bebasid
-    echo "== SEDANG MEMASANG BEBASID, PASTIKAN MENUNGGU HINGGA SELESAI =="
-    echo ""
-    check_curl
-    exit 1
-  fi
-}
-
-uninstall_bebasid(){
-  echo "== MEMERIKSA HOSTS BACKUP =="
-  if [ -f /etc/hosts.bak-bebasid ]; then
-    echo "HOSTS BACKUP DITEMUKAN, MULAI MENGHAPUS BEBASID"
-    sudo rm /etc/hosts
-    sudo rm /etc/hosts-own
-    sudo mv /etc/hosts.bak-bebasid /etc/hosts
-    sudo service network-manager restart
-    sudo systemctl restart NetworkManager.service
-    echo "== BEBASID TELAH SUKSES DIHAPUS =="
-  else
-    echo "== HOSTS BACKUP TIDAK DITEMUKAN =="
-    echo "PENCOPOTAN DENGAN HOSTS BACKUP DEFAULT LINUX"
-    restore_hosts
-    sudo service network-manager restart
-    sudo systemctl restart NetworkManager.service
-    echo "== BEBASID TELAH SUKSES DICOPOT =="
-  fi
-}
-
 fix_hosts(){
+  echo "== MEMULAI PERBAIKAN FILE HOSTS =="
+  echo ""
   sudo rm "/etc/hosts"
   restore_hosts
-  sudo service network-manager restart
-  sudo systemctl restart NetworkManager.service
-  echo "HOSTS TELAH DIKEMBALIKAN KE DEFAULT"
-  echo "UNTUK MENGGUNAKAN BEBASID KEMBALI, SILAHKAN MENGGUNAKAN FUNGSI UPDATE"
+  restart_network
+  echo ""
+  echo "== BERHASIL MELAKUKAN PERBAIKAN =="
+  echo "Catatan: untuk menggunakan BEBASID kembali, dapat menggunakan fungsi update"
 }
 
 
@@ -162,7 +242,7 @@ case $1 in
     bebasid_banner
     PS3='Pilih salah satu opsi: '
     echo ""
-    options=("Install" "Update" "Uninstall" "Fix DNS Not Resolved Error" "Exit")
+    options=("Install" "Update" "Uninstall" "Fix DNS Not Resolved Error" "Renew BEBASID Application" "Remove BEBASID Application" "Exit")
     select opt in "${options[@]}"
     do
       case $opt in
@@ -180,6 +260,14 @@ case $1 in
           ;;
         "Fix DNS Not Resolved Error")
           fix_hosts
+          break
+          ;;
+        "Renew BEBASID Application")
+          renew_bebasid
+          break
+          ;;
+        "Remove BEBASID Application")
+          remove_bebasid
           break
           ;;
         "Exit")
@@ -205,6 +293,8 @@ case $1 in
     echo "update    : Memperbarui hosts"
     echo "uninstall : Menghapus hosts"
     echo "fix       : Memperbaiki error DNS Not Resolved"
+    echo "renew     : Memperbarui aplikasi"
+    echo "remove    : Menghapus aplikasi"
     echo ""
     echo "Apabila setelah pemasangan BEBASID terjadi error DNS Not Resolved,"
     echo "Mohon untuk segera menggunakan opsi fix, hal ini"
@@ -247,6 +337,16 @@ case $1 in
     ;;
   "fix")
     fix_hosts
+    ;;
+  "renew")
+    renew_bebasid
+    ;;
+  "remove")
+    remove_bebasid
+    ;;
+  "--about")
+    bebasid_banner
+    about
     ;;
   *)
     echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
