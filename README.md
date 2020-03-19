@@ -20,9 +20,6 @@ Untuk menggunakan aplikasi ini, kamu bisa download [di sini](https://bebasid.git
 
 Selengkapnya: [VirusTotal](https://www.virustotal.com/gui/file/a160cd098a0bda38eae924b4a457a6059bed6662d4833271397728aaa3bd8aa6/detection)
 
-# Supported Sites
-Semua daftar situs yang support bisa kamu cek [di sini](https://github.com/bebasid/bebasid/blob/master/dev/readme/SITES.md).
-
 # Usage
 Untuk panduan penggunaan, silahkan menuju [USAGE.md](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
@@ -33,9 +30,6 @@ Note: Bagi yang gagal login, silahkan download [2007 Office System Driver: Data 
 
 # Netflix
 Untuk cara menembus blokiran Netflix, silahkan menuju [NETFLIX.md](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
-
-# Changelog
-Histori lengkap changelog bisa dilihat [di sini](https://github.com/bebasid/bebasid/blob/master/dev/readme/CHANGELOG.md).
 
 # Licence
 BEBASID dilisensikan di bawah MIT. Lihat [LICENSE](https://github.com/bebasid/bebasid/blob/master/LICENSE) untuk informasi lebih lanjut.
