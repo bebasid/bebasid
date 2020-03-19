@@ -8,4 +8,4 @@ assignees: ''
 ---
 
 **Ketentuan**
-Pastikan website yang akan direquest belum tersedia di list [SITES.md](https://github.com/gvoze32/unblockhostid/blob/master/SITES.md)
+Pastikan website yang akan direquest belum tersedia di hosts
