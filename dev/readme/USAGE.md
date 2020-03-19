@@ -1,7 +1,7 @@
 # Cara Penggunaan
 ## Windows
 
-Jalankan BEBASID.exe dengan "Run as administrator". Kemudian ikuti instruksi yang ada.
+Jalankan BEBASID.exe atau BEBASID.bat dengan "Run as administrator". Kemudian ikuti instruksi yang ada.
 
 Untuk instalasi secara manual, bisa copy file hosts bebasid ke
 ```
@@ -24,7 +24,7 @@ Alternatif (jika ingin install melewati aplikasi atau menambahkan list hosts lai
 Install aplikasi [AdAway](https://f-droid.org/en/packages/org.adaway)
 
 ```
-https://raw.githubusercontent.com/gvoze32/bebasid/master/releases/hosts
+https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
 ```
 
 Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
@@ -41,10 +41,10 @@ Buka terminal, lalu ketik atau salin kode di bawah ini, lalu enter.
 
 ```
 # Install
-sudo curl -sfLS https://raw.githubusercontent.com/gvoze32/bebasid/master/dev/scripts/bebasid.sh >> /usr/local/bin/bebasid
+sudo curl -sfLS https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh >> /usr/local/bin/bebasid
 
 # Alternatif Install (Gunakan jika saat menggunakan curl muncul permission denied, kamu bisa memakai wget)
-sudo wget https://raw.githubusercontent.com/gvoze32/bebasid/master/dev/scripts/bebasid.sh -O /usr/local/bin/bebasid
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh -O /usr/local/bin/bebasid
 
 # Kemudian berikan permission ke folder bash
 sudo chmod +x /usr/local/bin/bebasid
@@ -55,11 +55,11 @@ bebasid --help
 
 Alternatif (jika hanya ingin memasang file hosts):
 ```
-sudo curl -sfLS https://raw.githubusercontent.com/gvoze32/bebasid/master/releases/hosts >> /etc/hosts
+sudo curl -sfLS https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts >> /etc/hosts
 ```
 atau
 ```
-sudo wget https://raw.githubusercontent.com/gvoze32/bebasid/master/releases/hosts -O /etc/hosts
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
 
 ## BSD / macOS
@@ -67,10 +67,10 @@ sudo wget https://raw.githubusercontent.com/gvoze32/bebasid/master/releases/host
 Buka terminal, lalu ketik atau salin kode di bawah ini lalu enter.
 
 ```
-sudo curl -sfLS https://raw.githubusercontent.com/gvoze32/bebasid/master/releases/hosts >> /etc/hosts
+sudo curl -sfLS https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts >> /etc/hosts
 ```
 
 Alternatif
 ```
-sudo wget https://raw.githubusercontent.com/gvoze32/bebasid/master/releases/hosts -O /etc/hosts
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
