@@ -27,9 +27,43 @@ about(){
 
 # =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #
 
+load(){
+  for (( i = 0; i < 101; i++ )); do
+    echo -ne "\\r"
+    sleep $rand
+    if [[ $i = 100 ]]; then
+      echo -ne "$text    "
+    else
+      echo -ne "$text $i%"
+    fi
+  done
+  echo ""
+}
+
+check_connection(){
+  text="Mengecek koneksi dengan internet"
+  rand=0.01
+  load
+  ipo="8.8.8.8"
+  nee=1
+  if ping -c ${nee} ${ipo} > /dev/null; then
+    echo "Komputer terhubung dengan internet"
+    echo ""
+    echo ""
+  else
+    echo "Komputer tidak terhubung dengan internet"
+    echo "Silahkan cek koneksi komputer dengan internet terlebih dahulu"
+    exit 1
+  fi
+}
+
 renew_bebasid(){
+  check_connection
   echo "======= MEMPERBARUI APLIKASI BEBASID ======"
-  if sudo curl -o /usr/local/bin/bebasid https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh; then
+  echo ""
+  echo "Memulai pengambilan script bash BEBASID"
+  echo ""
+  if sudo curl -o /usr/local/bin/bebasid https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh --progress-bar; then
     echo ""
     echo "Berhasil mengunduh script aplikasi BEBASID"
     echo "Mengecek aplikasi"
@@ -48,7 +82,9 @@ remove_bebasid(){
   read -p "Apakah anda yakin ingin menghapus BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
   echo "== MEMULAI PENGHAPUSAN APLIKASI BEBASID =="
   echo ""
-  echo "Menghapus aplikasi BEBASID"
+  text="Menghapus aplikasi BEBASID"
+  rand=0.01
+  load
   if sudo rm -rf /usr/local/bin/bebasid; then
     echo ""
     echo "===== APLIKASI BEBASID TELAH DIHAPUS ====="
@@ -56,34 +92,6 @@ remove_bebasid(){
     echo ""
     echo "===== APLIKASI BEBASID GAGAL DIHAPUS ====="
   fi
-}
-
-unblock_hosts(){
-sudo bash -c 'cat >> /etc/hosts-own'<<EOF
-
-# [${domain^^}]
-$ip $domain
-EOF
-
-sudo bash -c 'cat >> /etc/hosts'<<EOF
-
-# [${domain^^}]
-$ip $domain
-EOF
-}
-
-block_hosts(){
-sudo bash -c 'cat >> /etc/hosts-own'<<EOF
-
-# [${domain^^} - BLOCKED]
-0.0.0.0 $domain
-EOF
-
-sudo bash -c 'cat >> /etc/hosts'<<EOF
-
-# [${domain^^} - BLOCKED]
-0.0.0.0 $domain
-EOF
 }
 
 restore_hosts(){
@@ -103,7 +111,9 @@ echo "Berhasil memasang hosts bawaan Linux"
 }
 
 restart_network(){
-  echo "Memulai ulang Network Manager"
+  text="Memulai ulang Network Manager"  
+  rand=0.01
+  load
   if [[ -e /etc/debian_version ]]; then
     source /etc/os-release
     OS=$ID # debian or ubuntu
@@ -142,7 +152,9 @@ restart_network(){
 }
 
 check_curl(){
-  if sudo curl -o /etc/hosts https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts; then
+  echo "Memulai pengambilan file hosts BEBASID"
+  echo ""
+  if sudo curl -o /etc/hosts https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts --progress-bar; then
     sudo bash -c 'cat /etc/hosts-own >> /etc/hosts'
     echo ""
     echo "Berhasil mengambil file hosts BEBASID"
@@ -158,9 +170,12 @@ check_curl(){
 }
 
 install_bebasid(){
+  check_connection
   echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
   echo ""
-  echo "Memeriksa kondisi"
+  text="Memeriksa kondisi"
+  rand=0.01
+  load
   if [ -e /etc/hosts.bak-bebasid ]; then
     echo "Anda telah memasang BEBASID, silahkan uninstall BEBASID anda terlebih dahulu"
     echo ""
@@ -177,9 +192,12 @@ install_bebasid(){
 }
 
 update_bebasid(){
+  check_connection
   echo "===== MEMPERBARUI HOSTS BEBASID ======"
   echo ""
-  echo "Memeriksa kondisi"
+  text="Memeriksa kondisi"
+  rand=0.01
+  load
   if [ -e /etc/hosts.bak-bebasid ]; then
     sudo rm /etc/hosts
     check_curl
@@ -194,7 +212,9 @@ update_bebasid(){
 uninstall_bebasid(){
   echo "=== MEMULAI PENCOPOTAN HOSTS BEBASID ==="
   echo ""
-  echo "Memeriksa Hosts Cadangan"
+  text="Memeriksa Hosts Cadangan"
+  rand=0.01
+  load
   echo ""
   if [ -e /etc/hosts.bak-bebasid ]; then
     echo "Hosts cadangan ditemukan, memulai pencopotan BEBASID"
@@ -206,7 +226,9 @@ uninstall_bebasid(){
     echo "== HOSTS BEBASID TELAH SUKSES DICOPOT =="
   else
     echo "Hosts cadangan tidak ditemukan"
-    echo "Pencopotan dengan host konfigurasi bawaan Linux"
+    text="Pencopotan dengan host konfigurasi bawaan Linux"
+    rand=0.01
+    load
     restore_hosts
     restart_network
     echo ""
@@ -217,10 +239,17 @@ uninstall_bebasid(){
 # ====== OKAY, YOU CAN ADD YOUR CUSTOM FUNCTION BELOW HERE ====== #
 
 grep_ip(){
+  echo "Mengambil IP dari $domain"
+  echo ""
   ip=$(curl http://two-ply-mixtures.000webhostapp.com/?domain=$domain)
   if ! [[ "$ip" =~ ^(([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))\.){3}([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))$ ]]; then
+  echo ""
   echo "$domain tidak dapat diunblock dikarenakan tidak ditemukan IP Address yang valid"
+  echo ""
+  echo "=== GAGAL MELAKUKAN PROSES UNBLOCK ===="
   exit 1
+  else
+    echo "Berhasil mendapatkan IP dari $domain"
   fi
 }
 
@@ -235,6 +264,38 @@ fix_hosts(){
   echo "Catatan: untuk menggunakan BEBASID kembali, dapat menggunakan fungsi update"
 }
 
+unblock_hosts(){
+text="Menuliskan domain ke dalam file hosts"
+rand=0.01
+load
+sudo bash -c 'cat >> /etc/hosts-own'<<EOF
+
+# [${domain^^}]
+$ip $domain
+EOF
+
+sudo bash -c 'cat >> /etc/hosts'<<EOF
+
+# [${domain^^}]
+$ip $domain
+EOF
+echo ""
+echo "== BERHASIL MELAKUKAN PROSES UNBLOCK =="
+}
+
+block_hosts(){
+sudo bash -c 'cat >> /etc/hosts-own'<<EOF
+
+# [${domain^^} - BLOCKED]
+0.0.0.0 $domain
+EOF
+
+sudo bash -c 'cat >> /etc/hosts'<<EOF
+
+# [${domain^^} - BLOCKED]
+0.0.0.0 $domain
+EOF
+}
 
 # INPUTING COMMAND
 case $1 in
@@ -306,10 +367,14 @@ case $1 in
       echo "[website] tidak ditentukan"
       read -p "Masukkan website yang ingin diunblock: " domain
       read -p "Apakah sudah benar? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+      check_connection
       grep_ip
       unblock_hosts
     else
       domain=$2
+      check_connection
+      echo "===== MEMULAI PROSES UNBLOCK HOSTS ===="
+      echo ""
       grep_ip
       unblock_hosts
     fi
