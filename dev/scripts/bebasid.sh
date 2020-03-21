@@ -177,15 +177,41 @@ install_bebasid(){
   rand=0.01
   load
   if [ -e /etc/hosts.bak-bebasid ]; then
-    echo "Anda telah memasang BEBASID, silahkan uninstall BEBASID anda terlebih dahulu"
+    echo "Komputer ini telah terpasang BEBASID, silahkan uninstall BEBASID terlebih dahulu"
     echo ""
     echo "==== GAGAL MEMASANG HOSTS BEBASID ===="
     exit 1
   else
-    echo "Pastikan anda telah terkoneksi dengan internet dan telah terpasang cURL"
-    read -p "Apakah anda yakin ingin memasang BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+    echo "Pastikan komputer telah terpasang cURL"
+    text="Memulai instalasi"
+    rand=0.01
+    load
+    reset
+    bebasid_banner
+    sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md
+    echo ""
+    echo "Dengan melanjutkan berarti secara langsung dan tidak langsung, anda menyetujui apa yang tertulis diatas "
+    read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+    reset
+    # Codingan "Yang Penting Jalan" 
+    echo "Mengecek koneksi dengan internet"
+    echo "Komputer terhubung dengan internet"
+    echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
+    echo ""
+    echo "Memeriksa kondisi"
+    echo "Pastikan komputer telah terpasang cURL"
+    echo "Memulai Instalasi"
+    # End 
     sudo mv /etc/hosts /etc/hosts.bak-bebasid
-    sudo touch /etc/hosts-own
+    backup="$(cat /etc/hosts.bak-bebasid)"
+    sudo bash -c "cat > /etc/hosts-own" <<EOF
+
+# Konfigurasi Asli
+
+$backup
+
+# Konfigurasi Tambahan Pribadi
+EOF
     echo ""
     check_curl
   fi
@@ -226,7 +252,8 @@ uninstall_bebasid(){
     echo "== HOSTS BEBASID TELAH SUKSES DICOPOT =="
   else
     echo "Hosts cadangan tidak ditemukan"
-    text="Pencopotan dengan host konfigurasi bawaan Linux"
+    read -p "Apakah anda yakin ingin menggunakan konfigurasi hosts bawaan Linux? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+    text="Pencopotan dengan konfigurasi hosts bawaan Linux"
     rand=0.01
     load
     restore_hosts
@@ -308,6 +335,7 @@ case $1 in
     do
       case $opt in
         "Install")
+          clear
           install_bebasid
           break
           ;;
@@ -392,6 +420,7 @@ case $1 in
     fi
     ;;
   "install")
+    clear
     install_bebasid
     ;;
   "update")
