@@ -41,10 +41,7 @@ Buka terminal, lalu ketik atau salin kode di bawah ini, lalu enter.
 
 ```
 # Install
-sudo curl -sfLS https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh >> /usr/local/bin/bebasid
-
-# Alternatif Install (Gunakan jika saat menggunakan curl muncul permission denied, kamu bisa memakai wget)
-sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh -O /usr/local/bin/bebasid
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -O /usr/local/bin/bebasid
 
 # Kemudian berikan permission ke folder bash
 sudo chmod +x /usr/local/bin/bebasid
@@ -55,22 +52,12 @@ bebasid --help
 
 Alternatif (jika hanya ingin memasang file hosts):
 ```
-sudo curl -sfLS https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts >> /etc/hosts
-```
-atau
-```
 sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
 
 ## BSD / macOS
 
 Buka terminal, lalu ketik atau salin kode di bawah ini lalu enter.
-
-```
-sudo curl -sfLS https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts >> /etc/hosts
-```
-
-Alternatif
 ```
 sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
