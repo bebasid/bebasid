@@ -2365,9 +2365,6 @@
 # [UNJAV.XYZ]
 104.28.3.119 unjav.xyz www.unjav.xyz
 
-# [PAHE.IN]
-104.27.132.141 pahe.in www.pahe.in
-
 # [TERK.NL]
 37.128.144.49 terk.nl www.terk.nl
 
@@ -2413,3 +2410,7 @@
 
 # [ADDIC7ED.COM]
 46.105.102.174 addic7ed.com www.addic7ed.com
+
+# [OPENSUBTITLES.ORG]
+104.26.8.126 opensubtitles.org www.opensubtitles.org static.opensubtitles.org blog.opensubtitles.org
+104.26.9.126 forum.opensubtitles.org ads2.opensubtitles.org trac.opensubtitles.org
