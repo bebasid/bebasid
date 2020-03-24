@@ -191,7 +191,7 @@ install_bebasid(){
     sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md
     echo ""
     echo "Dengan melanjutkan berarti secara langsung dan tidak langsung, anda menyetujui apa yang tertulis diatas "
-    read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || reset && exit 1
+    read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
     reset
     # Codingan "Yang Penting Jalan" 
     echo "Mengecek koneksi dengan internet"
