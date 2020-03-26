@@ -47,6 +47,22 @@ Rekomendasi: GreenTunnel
 
 Rekomendasi: PowerTunnel
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # TUTORIAL
 
 ## VPN
@@ -54,7 +70,7 @@ Rekomendasi: PowerTunnel
 VPN yang
 
 ### Bahan:
-- [BEBASID](bebasid.github.io/)
+- [BEBASID](https://bebasid.github.io/)
 - [OpenVPN GUI](https://openvpn.net/community-downloads)
 - Config Server [Indonesia TCPVPN](https://www.tcpvpn.com/vpn-server-indonesia)
 
@@ -86,7 +102,7 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 ## GoodbyeDPI
 
 ### Bahan
-- [BEBASID](bebasid.github.io/)
+- [BEBASID](https://bebasid.github.io/)
 - [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
 
 ### Langkah:
