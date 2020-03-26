@@ -10,12 +10,14 @@ about(){
   echo "    - Arch      : Manjaro"
   echo ""
   echo "Built with love by Icaksh for BEBASID"
+  echo "Specially thanks to LeLe & gvoze32"
 }
 
 open_gt(){
-	screen -d -m gt --ip 127.0.0.1 --port 1945 --dns-server https://185.235.81.1/dns-query
-	killall chrome
-	screen -d -m google-chrome-stable --proxy-server=127.0.0.1:1945	
+	random=$(shuf -i 6000-8000 -n 1)
+	screen -d -m gt --ip 127.0.0.1 --port $random --dns-server https://doh.dnslify.com/dns-query
+	killall chrome && killall screen
+	screen -d -m google-chrome-stable netflix.com --proxy-server=127.0.0.1:$random
 }
 
 if ! [ -e /usr/bin/gt ]; then
