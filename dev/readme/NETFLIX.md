@@ -16,30 +16,30 @@ Setelah menginstall BEBASID, kamu akan bisa membuka Netflix, tetapi saat masuk p
 
 Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI untuk Netflix.
     
-# Windows
+## Windows
 
-- [GoodbyeDPI](https://github.com/bebasid/bebasid/tree/master/dev/scripts/goodbyedpi)
+- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
 Rekomendasi: GoodbyeDPI
 
-# Linux
+## Linux
 
-- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
+- [GreenTunnel](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gt.zip)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 - [zapret](https://github.com/bol-van/zapret)
 
 Rekomendasi: GreenTunnel
 
-# MacOS
+## MacOS
 
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
 Rekomendasi: GreenTunnel
 
-# Android
+## Android
 
 - [Dawn](https://play.google.com/store/apps/details?id=com.wktkf.dawn)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel-Android/releases)
@@ -47,12 +47,14 @@ Rekomendasi: GreenTunnel
 
 Rekomendasi: PowerTunnel
 
-# VPN (Alternatif)
+# TUTORIAL
 
-Kalau cara di atas masih tidak bisa digunakan, kamu bisa menggunakan cara ini.
+## VPN
+
+VPN yang
 
 ### Bahan:
-- BEBASID
+- [BEBASID](bebasid.github.io/)
 - [OpenVPN GUI](https://openvpn.net/community-downloads)
 - Config Server [Indonesia TCPVPN](https://www.tcpvpn.com/vpn-server-indonesia)
 
@@ -73,10 +75,23 @@ IP :
 5. Buka OpenVPN GUI lalu import file hasil ekstrak tadi (yang ada 443)
 6. Isi Username dan Password sesuai dengan langkah kedua (sesuai dengan SSH anda)
 7. Sambungkan koneksi dan pilih 443
-8. Selesai, silahkan mencoba 
+8. Selesai, selamat menonton
 
 ### Rekomendasi Server:
 - TCP VPN ID1
 - TCP VPN ID2
 
 Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
+
+## GoodbyeDPI
+
+### Bahan
+- [BEBASID](bebasid.github.io/)
+- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
+
+### Langkah:
+1. Jalankan service_install_dnsredir.cmd untuk mulai menginstall
+2. Buka run_dnsredir.cmd atau pilihan dns yang lainnya untuk kecepatan yang berbeda (pilih salah satu)
+3. Selesai, selamat menonton
+
+Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih belum bisa, hanya melalui browser saja
