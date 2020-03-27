@@ -51,18 +51,6 @@ Rekomendasi: PowerTunnel
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 # TUTORIAL
 
 ## VPN
@@ -111,3 +99,32 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 3. Selesai, selamat menonton
 
 Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih belum bisa, hanya melalui browser saja
+
+## Green Tunnel
+
+### Bahan
+- [BEBASID](https://bebasid.github.io/)
+- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
+
+### Langkah:
+1. Pasang aplikasinya
+```
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt.sh -O /usr/local/bin/bebasid-gt
+```
+
+2. Berikan permisi
+```
+chmod +x /usr/local/bin/bebasid-gt
+```
+
+3. Perintah
+```
+Jalankan
+bebasid-gt start
+
+Berhentikan
+bebasid-gt stop
+
+Menampilkan log
+bebasid-gt gete
+```
