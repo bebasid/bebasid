@@ -124,7 +124,4 @@ bebasid-gt start
 
 Berhentikan
 bebasid-gt stop
-
-Menampilkan log
-bebasid-gt gete
 ```
