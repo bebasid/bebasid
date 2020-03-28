@@ -1,7 +1,7 @@
 # Cara Penggunaan
 ## Windows
 
-Jalankan BEBASID.exe atau BEBASID.bat dengan "Run as administrator". Kemudian ikuti instruksi yang ada.
+Jalankan bebasid.bat dengan "Run as administrator", kemudian ikuti instruksi yang ada.
 
 Untuk instalasi secara manual, bisa copy file hosts bebasid ke
 ```
@@ -15,7 +15,7 @@ ipconfig /renew
 ipconfig /flushdns
 ```
 
-## Android
+## Android (Uji Coba)
 
 Salin file hosts dan paste di folder /etc kemudian restart HP.
 
