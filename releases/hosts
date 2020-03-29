@@ -2400,7 +2400,7 @@
 
 # [opensubtitles.org]
 104.26.8.126 opensubtitles.org www.opensubtitles.org static.opensubtitles.org blog.opensubtitles.org
-104.26.9.126 forum.opensubtitles.org ads2.opensubtitles.org trac.opensubtitles.org
+104.26.9.126 forum.opensubtitles.org ads2.opensubtitles.org trac.opensubtitles.org api.opensubtitles.org
 
 # [pahe.in]
 104.27.133.141 pahe.in www.pahe.in
@@ -2420,3 +2420,6 @@
 # [mydramalist.com]
 104.26.10.48 mydramalist.com www.mydramalist.com i.mydramalist.com es.mydramalist.com pt.mydramalist.com
 104.26.11.48 store.mydramalist.com
+
+# [nyafuu.org]
+104.27.169.208 archive.nyafuu.org
