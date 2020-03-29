@@ -10,7 +10,7 @@ bebasid_banner(){
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo ""
-  echo "==  SUPPORT INDONESIAN NET NEUTRALITY  =="
+  echo "==  PEDULI INTERNET NETRAL  =="
   echo ""
 }
 about(){
@@ -22,7 +22,6 @@ about(){
   echo "    - Arch      : Arch Linux, Manjaro"
   echo ""
   echo "Built with love by Icaksh for BEBASID"
-  echo "Fixed by gvoze32 (The author of BEBASID)"
 }
 
 # =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #

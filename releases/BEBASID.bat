@@ -42,7 +42,7 @@ cd /d %SystemRoot%\System32\Drivers\etc\
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo.
-  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 
 echo. && echo Mengecek koneksi internet
@@ -103,7 +103,7 @@ cls
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo.
-  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo ==   PEDULI INTERNET NETRAL  ==
   echo.
   echo.
 echo (#) Apa kamu yakin ingin membuka akses pada website yang diblokir oleh internet positif?
@@ -151,7 +151,7 @@ cls
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo.
-  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 echo BEBASID telah berhasil terpasang
 echo.
@@ -173,7 +173,7 @@ cls
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo.
-  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 echo BEBASID telah berhasil terpasang
 echo.
@@ -205,7 +205,7 @@ cls
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo.
-  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 echo BEBASID telah berhasil dikembalikan ke default
 echo.
@@ -227,7 +227,7 @@ cls
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo.
-  echo ==   SUPPORT INDONESIAN NET NEUTRALITY  ==
+  echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 echo BEBASID telah berhasil dikembalikan ke default
 echo.
