@@ -518,17 +518,6 @@
 216.18.168.88 www.mofos.com
 66.254.112.121 enter.mofos.com
 
-# [imgur.com]
-151.101.40.193 imgur.com
-151.101.52.193 m.imgur.com
-151.101.52.193 api.imgur.com
-151.101.40.193 www.imgur.com
-151.101.52.193 store.imgur.com
-151.101.52.193 s.imgur.com
-151.101.52.193 p.imgur.com
-151.101.40.193 i.imgur.com
-151.101.52.193 z.imgur.com
-
 # [a-ads.com]
 104.25.250.34 a-ads.com
 
@@ -598,15 +587,6 @@
 52.36.243.167 api-global.netflix.com
 52.42.153.22 ichnaea.netflix.com
 35.160.69.163 account.netflix.com
-
-# [kissmanga.com]
-104.25.45.113 kissmanga.com www.kissmanga.com
-
-# [kissanime.ru]
-104.20.26.43 kissanime.ru www.kissanime.ru
-
-# [kissasian.com]
-104.25.46.113 kissasian.com www.kissasian.com
 
 # [raw.senmanga.com]
 104.28.10.14 raw.senmanga.com
@@ -1012,9 +992,6 @@
 
 # [cerdas.com]
 91.192.111.145 cerdas.com www.cerdas.com
-
-# [mantanmuslim.com]
-107.161.23.204 mantanmuslim.com www.mantanmuslim.com
 
 # [hakihome.com]
 104.28.20.122 hakihome.com www.hakihome.com
@@ -2166,7 +2143,6 @@
 82.192.65.67 s14-n10-nl-cdn.eporner.com
 82.192.65.67 s15-n10-nl-cdn.eporner.com
 
-
 # [7mm.tv]
 104.27.146.208 7mm.tv www.7mm.tv
 104.18.39.251 7mmtv.tv  www.7mmtv.tv 
@@ -2358,13 +2334,13 @@
 104.31.7.180 141jav.com www.141jav.com
 
 # [psarips.one]
-104.27.168.213 psarips.one
+104.27.168.213 psarips.one www.psarips.one
 
 # [fap-nation.com]
-104.25.72.6 fap-nation.com
+104.25.72.6 fap-nation.com www.fap-nation.com
 
 # [camvault.xyz]
-172.64.128.35 camvault.xyz
+172.64.128.35 camvault.xyz www.camvault.xyz
 
 # [veporn.io]
 104.31.8.161 veporn.io www.veporn.io m.veporn.io
