@@ -43,6 +43,7 @@ Untuk yang ingin request dan melaporkan adanya bug, silahkan untuk open issue [d
 
 # Daftar Tugas
 - [ ] Menambahkan format dukungan untuk Android
-- [ ] Memisahkan hosts campuran, sfw dan nfsw
+- [ ] Memisahkan hosts campuran, sfw dan nsfw
+- [ ] Membuat module bebasid-magisk
 - [X] Rilis alpha bebasid-gt
 - [X] Memperbaiki bug versi cli
