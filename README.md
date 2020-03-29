@@ -42,8 +42,9 @@ Jika menurutmu proyek ini membantu, kamu juga bisa bantu agar proyek ini tetap j
 Untuk yang ingin request dan melaporkan adanya bug, silahkan untuk open issue [di sini](https://github.com/bebasid/bebasid/issues/new/choose).
 
 # Daftar Tugas
-- [ ] Menambahkan format dukungan untuk Android
-- [ ] Memisahkan hosts campuran, sfw dan nsfw
+- [ ] Menambahkan format dukungan untuk sistem operasi Android
+- [X] Membuat dan memisahkan menjadi hosts.sfw
+- [ ] Memperbaiki bug di hosts.sfw
 - [ ] Membuat module bebasid-magisk
 - [X] Rilis alpha bebasid-gt
 - [X] Memperbaiki bug versi cli
