@@ -10,7 +10,7 @@ bebasid_banner(){
   echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
   echo "|____/|_____|____/_/   \_\____/___|____/ "
   echo ""
-  echo "==  PEDULI INTERNET NETRAL  =="
+  echo "=======  PEDULI INTERNET NETRAL  ========"
   echo ""
 }
 about(){
@@ -22,6 +22,7 @@ about(){
   echo "    - Arch      : Arch Linux, Manjaro"
   echo ""
   echo "Built with love by Icaksh for BEBASID"
+  echo "Thanks for gvoze32 (The Author of BEBASID)"
 }
 
 # =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #
@@ -56,13 +57,33 @@ check_connection(){
   fi
 }
 
+curl_wget(){
+  if [[ -x $(command -v curl) ]]; then
+    ambil="sudo curl $url $copt"
+  elif [[ -x $(command -v wget) ]]; then
+    ambil="sudo wget $wopt $url"
+  else
+    echo "Harap install cURL atau wget"
+    exit 1
+  fi
+}
+
 renew_bebasid(){
   check_connection
   echo "======= MEMPERBARUI APLIKASI BEBASID ======"
   echo ""
   echo "Memulai pengambilan script bash BEBASID"
   echo ""
-  if sudo curl -o /usr/local/bin/bebasid "$(curl http://two-ply-mixtures.000webhostapp.com/?geturl=app --silent)" --progress-bar; then
+  url=http://two-ply-mixtures.000webhostapp.com/?geturl=app
+  copt="--silent"
+  wopt="-qO- --quiet"
+  curl_wget
+  url=$($ambil)
+  dir=/usr/local/bin/bebasid
+  copt="-o $dir --progress-bar"
+  wopt="-O $dir -q --show-progress --progress=bar:force"
+  curl_wget
+  if $ambil ; then
     echo ""
     echo "Berhasil mengunduh script aplikasi BEBASID"
     echo "Mengecek aplikasi"
@@ -153,7 +174,12 @@ restart_network(){
 get_bebasid_hosts(){
   echo "Memulai pengambilan file hosts BEBASID"
   echo ""
-  if sudo curl -o /etc/hosts https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts --progress-bar; then
+  url=https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
+  dir=/etc/hosts
+  copt="-o $dir --progress-bar"
+  wopt="-O $dir -q --show-progress --progress=bar:force"
+  curl_wget
+  if $ambil; then
     sudo bash -c 'cat /etc/hosts-own >> /etc/hosts'
     echo ""
     echo "Berhasil mengambil file hosts BEBASID"
@@ -181,13 +207,17 @@ install_bebasid(){
     echo "==== GAGAL MEMASANG HOSTS BEBASID ===="
     exit 1
   else
-    echo "Pastikan komputer telah terpasang cURL"
+    echo "Pastikan komputer telah terpasang cURL atau wget"
     text="Memulai instalasi"
     rand=0.01
     load
     reset
     bebasid_banner
-    sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md
+    url=https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md
+    copt=""
+    wopt="-qO-"
+    curl_wget
+    $ambil
     echo ""
     echo "Dengan melanjutkan berarti secara langsung dan tidak langsung, anda menyetujui apa yang tertulis diatas "
     read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
@@ -198,7 +228,7 @@ install_bebasid(){
     echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
     echo ""
     echo "Memeriksa kondisi"
-    echo "Pastikan komputer telah terpasang cURL"
+    echo "Pastikan komputer telah terpasang cURL atau wget"
     echo "Memulai Instalasi"
     # End 
     sudo mv /etc/hosts /etc/hosts.bak-bebasid
@@ -278,7 +308,11 @@ check_duplicate_unblock(){
 grep_ip(){
   echo "Mengambil IP dari $domain"
   echo ""
-  ip=$(curl http://two-ply-mixtures.000webhostapp.com/?domain=$domain)
+  url=http://two-ply-mixtures.000webhostapp.com/?domain=$domain
+  copt=""
+  wopt="-qO-"
+  curl_wget
+  ip=$($ambil)
   if ! [[ "$ip" =~ ^(([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))\.){3}([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))$ ]]; then
   echo ""
   echo "$domain tidak dapat diunblock dikarenakan tidak ditemukan IP Address yang valid"
