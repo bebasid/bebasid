@@ -45,6 +45,7 @@ install_all(){
   case $OS in
       # ANAK CUCU DEBIAN
       "debian")
+      sudo apt update && sudo apt install curl
       curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
       sudo bash nodesource_setup.sh
       sudo rm -rf nodesource_setup.sh
@@ -55,33 +56,38 @@ install_all(){
       # DINASTI ARCH, HOHOHO
       "arch")
       sudo pacman -Syy
-      sudo pacman -S npm tmux
+      sudo pacman -S npm tmux curl
       sudo npm i -g green-tunnel
       ;;
   esac
 }
 
 open_gt(){
-  random=$(shuf -i 6000-8000 -n 1)
-  killall chrome
-  cek_distro
-  case $OS in
-    "debian" )
-      stable=""
-      ;;
-    "arch" )
-      stable="-stable"
-      ;;
-  esac
-  # TMUX IS NOT TERMUX.. OKAY
-  tmux new-session -d -s 6f4f9a675d5c67aa28350b0276bf911d -x 252 -y 29
+  tmux has-session -t 6f4f9a675d5c67aa28350b0276bf911d 2>/dev/null
+  if [ $? != 0 ]; then
+    tmux new-session -d -s 6f4f9a675d5c67aa28350b0276bf911d -x 252 -y 29
+  else
+    tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
+    tmux new-session -d -s 6f4f9a675d5c67aa28350b0276bf911d -x 252 -y 29
+  fi
+	random=$(shuf -i 6000-8000 -n 1)
   tmux split-window -v
-  tmux split-window -h
   tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server https://doh.dnslify.com/dns-query --system-proxy false --silent true -v 'green-tunnel:*'" Enter
-  text="Tunggu sebentar, sedang membuka Google Chrome"
-  rand=0.1
-  load
-  tmux send-keys -t 2 "google-chrome$stable netflix.com --proxy-server=127.0.0.1:$random" Enter
+  if [[ $browser="yes" ]]; then
+    if [[ -x $(command -v google-chrome-stable) ]]; then
+      browser="google-chrome-stable"
+      killall chrome
+    elif [[ -x $(command -v google-chrome) ]]; then
+      browser="google-chrome"
+      killall chrome
+    #elif command -v chromium > /dev/null; then
+      #browser="chromium"
+      #killall chromium
+      #return
+    fi
+    tmux split-window -h
+    tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+  fi
   tmux send-keys -t 0 "bebasid-gt 6f4f9a675d5c67aa28350b0276bf911d $random" Enter
   tmux select-pane -t 0
   tmux a
@@ -89,11 +95,11 @@ open_gt(){
 
 case $1 in
   start )
-    if ! command -v gt > /dev/null; then
+    if ! [[ -x $(command -v gt) ]]; then
       echo "Install Dulu Green-Tunnelnya"
       exit 1
     else
-      if ! command -v tmux > /dev/null ; then
+      if ! [[ -x $(command -v tmux) ]]; then
         echo "Install Dulu Tmuxnya"
         exit 1
       else
@@ -134,8 +140,13 @@ case $1 in
   6f4f9a675d5c67aa28350b0276bf911d )
     reset
     echo "Green Tunnel berhasil dibuka (127.0.0.1:$2)"
-    echo "Terminal ini jangan ditutup selama masih streaming"
-    echo "Untuk menonaktifkan, silahkan ketik perintah bebasid-gt stop"
+    echo "Walaupun terminal ini dapat ditutup"
+    echo "Disarankan terminal ini jangan ditutup selama masih streaming"
+    read -n 1 -s -r -p "Untuk menonaktifkan, cukup tekan [Enter]"
+    bebasid-gt stop
+    ;;
+  --about )
+    about
     ;;
   *)
     echo "Perintah tidak dikenali, ketik bebasid-gt --help untuk bantuan"
