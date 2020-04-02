@@ -45,7 +45,6 @@ open_gt(){
   killall 'Google Chrome'
   tmux split-window -h
   tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
-  fi
   tmux send-keys -t 0 "bebasid-gt 6f4f9a675d5c67aa28350b0276bf911d $random" Enter
   tmux select-pane -t 0
   tmux a
