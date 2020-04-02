@@ -104,24 +104,27 @@ Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih
 
 ### Bahan
 - [BEBASID](https://bebasid.github.io/)
-- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
+- Chrome (opsional)
 
 ### Langkah:
-1. Pasang aplikasinya
+1. Pastikan aplikasi BEBASID telah terpasang
 ```
-sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt.sh -O /usr/local/bin/bebasid-gt
-```
-
-2. Berikan permisi
-```
-chmod +x /usr/local/bin/bebasid-gt
+bebasid --help
 ```
 
-3. Perintah
+2. Install Green Tunnel lewat aplikasi (Debian dan Arch (serta turunannya))
 ```
-Jalankan
-bebasid-gt start
+bebasid netflix install
+```
+
+3. Jalankan perintah
+```
+Jalankan (dengan Chrome)
+bebasid netflix start
+
+Jalankan (tanpa Chrome)
+bebasid netflix start --nb
 
 Berhentikan
-bebasid-gt stop
+bebasid netflix stop
 ```
