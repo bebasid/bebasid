@@ -47,5 +47,5 @@ Untuk yang ingin request dan melaporkan adanya bug, silahkan untuk open issue [d
 - [X] Membuat dan memisahkan menjadi hosts.sfw
 - [ ] Memperbaiki bug di hosts.sfw
 - [ ] Membuat module bebasid-magisk
-- [X] Rilis alpha bebasid-gt
+- [X] Rilis alpha bebasid-gt -> integrasi ke aplikasi bebasid
 - [X] Memperbaiki bug versi cli
