@@ -15,7 +15,7 @@ bebasid_banner(){
 }
 about(){
   echo "Name of File  : BEBASID"
-  echo "Version       : 2020.4 [BETA]"
+  echo "Version       : 2020.4"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
@@ -43,8 +43,9 @@ bantuan(){
     echo "  uninstall : Menghapus aplikasi BEBASID"
     echo "netflix"
     echo "  start     : Memulai aplikasi bypass DPI untuk akses Netflix"
-    #echo "    --nb    : Memulai aplikasi bypass DPI tanpa membuka browser (ops)"
+    echo "    --nb    : Memulai aplikasi bypass DPI tanpa membuka browser (ops)"
     echo "  stop      : Memberhentikan aplikasi bypass DPI"
+    echo "  install   : Memasang aplikasi bypass DPI"
     echo "block"
     echo "  [website] : Memblokir akses ke [website] (ops)" 
     echo "unblock"
@@ -59,7 +60,6 @@ bantuan(){
     echo "belum kami ketahui penyebabnya, yang pasti error terjadi karena"
     echo "ada kesalahan pada file hosts"
 }
-
 cakepin(){
   for (( i = 0; i < 101; i++ )); do
     echo -ne "\\r"
@@ -72,7 +72,6 @@ cakepin(){
   done
   echo ""
 }
-
 curl_wget(){
   if [[ -x $(command -v curl) ]]; then
     ambil="sudo curl $url $copt"
@@ -83,7 +82,6 @@ curl_wget(){
     exit 1
   fi
 }
-
 check_duplicate_unblock(){
   echo "Memeriksa apakah domain $domain telah tercatat dalam file hosts"
   begin="$(grep -n "${domain^^}" /etc/hosts | head -n 1 | cut -d: -f1)"
@@ -94,10 +92,6 @@ check_duplicate_unblock(){
     exit 1
   fi
 }
-
-
-# =========== NETWORK =========== #
-
 cek_koneksi_dengan_internet(){
   text="Mengecek koneksi dengan internet"
   rand=0.01
@@ -114,7 +108,6 @@ cek_koneksi_dengan_internet(){
     exit 1
   fi
 }
-
 memulai_ulang_network(){
   text="Memulai ulang Network Manager"  
   rand=0.01
@@ -156,9 +149,7 @@ memulai_ulang_network(){
   esac
 }
 
-# =========== NETWORK END =========== #
-
-# =========== APLIKASI =========== #
+# =============================================================== #
 
 perbarui_aplikasi_bebasid(){
   cek_koneksi_dengan_internet
@@ -189,7 +180,6 @@ perbarui_aplikasi_bebasid(){
     echo "==== GAGAL MEMPERBARUI APLIKASI BEBASID ==="
   fi
 }
-
 hapus_aplikasi_bebasid(){
   read -p "Apakah anda yakin ingin menghapus BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
   echo "== MEMULAI PENGHAPUSAN APLIKASI BEBASID =="
@@ -205,11 +195,6 @@ hapus_aplikasi_bebasid(){
     echo "===== APLIKASI BEBASID GAGAL DIHAPUS ====="
   fi
 }
-
-# =========== END =========== #
-
-# =========== HOSTS =========== #
-
 ambil_hosts_bebasid(){
   echo "Memulai pengambilan file hosts BEBASID"
   echo ""
@@ -232,7 +217,6 @@ ambil_hosts_bebasid(){
     echo "======= GAGAL MEMASANG BEBASID ======="
   fi
 }
-
 pasang_hosts_bebasid(){
   cek_koneksi_dengan_internet
   echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
@@ -284,7 +268,6 @@ EOF
     ambil_hosts_bebasid
   fi
 }
-
 perbarui_hosts_bebasid(){
   cek_koneksi_dengan_internet
   echo "===== MEMPERBARUI HOSTS BEBASID ======"
@@ -302,7 +285,6 @@ perbarui_hosts_bebasid(){
     pasang_hosts_bebasid
   fi
 }
-
 hapus_hosts_bebasid(){
   echo "=== MEMULAI PENCOPOTAN HOSTS BEBASID ==="
   echo ""
@@ -331,16 +313,15 @@ hapus_hosts_bebasid(){
   fi
 }
 
-# =========== END =========== #
+# =============================================================== #
 
-# =========== NETFLIX =========== #
 mulai_streaming_netflix(){
   if ! [[ -x $(command -v gt) ]]; then
-    echo "Install Dulu Green-Tunnelnya"
+    echo "Green Tunnel belum terinstal, ketik bebasid --help untuk bantuan"
     exit 1
   else
     if ! [[ -x $(command -v tmux) ]]; then
-      echo "Install Dulu Tmuxnya"
+      echo "Tmux belum terinstal, ketik bebasid --help untuk bantuan"
       exit 1
     else
       tmux has-session -t 6f4f9a675d5c67aa28350b0276bf911d 2>/dev/null
@@ -354,41 +335,42 @@ mulai_streaming_netflix(){
       tmux split-window -v
       tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server https://doh.dnslify.com/dns-query --system-proxy false --silent true -v 'green-tunnel:*'" Enter
       tmux split-window -h
-      #if [[ "$3" == "--nb" ]]; then
-      #  tmux send-keys -t 2 "bebasid netflix 8e3f1bbb73f0f6c952fcf873332eae9f" Enter
-      #else
+      if [[ "$browser" == "no" ]]; then
+        tmux send-keys -t 2 "bebasid netflix 8e3f1bbb73f0f6c952fcf873332eae9f" Enter
+      else
         if [[ -x $(command -v google-chrome-stable) ]]; then
           browser="google-chrome-stable"
           killall chrome
         elif [[ -x $(command -v google-chrome) ]]; then
           browser="google-chrome"
           killall chrome
-        #elif command -v chromium > /dev/null; then
-          #browser="chromium"
-          #killall chromium
-          #return
         fi
           text="Tunggu sebentar, sedang membuka $browser"
           rand=0.1
           cakepin
           tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
-      #fi
+      fi
       tmux send-keys -t 0 "bebasid netflix 6f4f9a675d5c67aa28350b0276bf911d $random" Enter
       tmux select-pane -t 0
       tmux a
     fi
   fi
 }
-
 berhenti_streaming_neflix(){
   tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
 }
 pasang_aplikasi_bypass_dpi(){
-  echo""
+  url="https://raw.githubusercontent.com/bebasid/bebasid/master/dev/commands/install-gt.sh"
+  dir="install-gt.sh"
+  copt="-o $dir --silent"
+  wopt="-O $dir -q --quiet"
+  curl_wget
+  $ambil
+  sudo bash ./install-gt.sh
+  rm -rf install-gt.sh
 }
-# =========== END =========== #
 
-# =========== PITUR =========== #
+# =============================================================== #
 
 header_bebasid_fitur(){
   echo "== MEMULAI PENGGUNAAN FITUR BEBASID =="
@@ -397,7 +379,6 @@ header_bebasid_fitur(){
   rand=0.01
   cakepin
 }
-
 aktifkan_fitur(){
   grepstart="$(grep -n "# \[$keyword]" /etc/hosts | head -n 1 | cut -d: -f1)"
   begin=$(( $grepstart + 1 ))
@@ -413,12 +394,10 @@ aktifkan_fitur(){
   sudo sed -i "$begin,$end{s/# //}" /etc/hosts
   echo "Berhasil menulis ulang baris ke-$begin hingga baris ke-$end"
 }
-
 footer_bebasid_fitur(){
   echo ""
   echo "============== BERHASIL =============="
 }
-
 matikan_safesearch_google(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Matikan Fitur SafeSearch (Google dan Youtube)"
@@ -430,7 +409,6 @@ matikan_safesearch_google(){
   aktifkan_fitur
   footer_bebasid_fitur
 }
-
 tambahkan_localhost_osx(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost OSX"
@@ -442,7 +420,6 @@ tambahkan_localhost_osx(){
   aktifkan_fitur
   footer_bebasid_fitur
 }
-
 tambahkan_localhost_linux(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost Linux"
@@ -453,7 +430,6 @@ tambahkan_localhost_linux(){
   aktifkan_fitur
   footer_bebasid_fitur
 }
-
 tambahkan_localhost_android(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost Android"
@@ -464,7 +440,6 @@ tambahkan_localhost_android(){
   aktifkan_fitur
   footer_bebasid_fitur
 }
-
 kembalikan_hosts(){
 sudo bash -c "cat > /etc/hosts" <<EOF
 127.0.1.1 myhostname
@@ -480,7 +455,6 @@ ff02::3 ip6-allhosts
 EOF
 echo "Berhasil memasang hosts bawaan Linux"
 }
-
 
 # ====== OKAY, YOU CAN ADD YOUR CUSTOM FUNCTION BELOW HERE ====== #
 
@@ -568,8 +542,9 @@ $ip $domain
 EOF
 }
 
-
-
+# =============================================================== #
+# =============================================================== #
+# =============================================================== #
 
 case $1 in
   menu )
@@ -674,7 +649,7 @@ case $1 in
           echo ""
           PS3='Pilih salah satu opsi: '
           echo ""
-          menu_netflix=("Mulai Streaming Netflix" "Berhenti Streaming Netflix" "Keluar")
+          menu_netflix=("Mulai Streaming Netflix" "Berhenti Streaming Netflix" "Pasang Aplikasi Bypass DPI" "Keluar")
           select menu_netflix_opt in "${menu_netflix[@]}"
           do
             case $menu_netflix_opt in
@@ -688,11 +663,11 @@ case $1 in
                 berhenti_streaming_neflix
                 break
                 ;;
-              #"Pasang Aplikasi Bypass DPI" )
-              #  echo ""
-              #  pasang_aplikasi_bypass_dpi
-              #  break
-              #  ;;
+              "Pasang Aplikasi Bypass DPI" )
+                echo ""
+                pasang_aplikasi_bypass_dpi
+                break
+                ;;
               #"Menu Sebelumnya" )
               #  break
               #  ;;
@@ -779,10 +754,18 @@ case $1 in
   netflix )
     case $2 in
       start )
+        if [[ "$3" == "--nb" ]]; then
+          browser="no"
+        else
+          browser="yes"
+        fi
         mulai_streaming_netflix
         ;;
       stop )
         berhenti_streaming_neflix
+        ;;
+      install )
+        pasang_aplikasi_bypass_dpi
         ;;
       6f4f9a675d5c67aa28350b0276bf911d )
         reset
