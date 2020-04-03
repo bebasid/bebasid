@@ -100,7 +100,7 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 
 Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih belum bisa, hanya melalui browser saja
 
-## Green Tunnel
+## Green Tunnel (untuk Linux)
 
 ### Bahan
 - [BEBASID](https://bebasid.github.io/)
