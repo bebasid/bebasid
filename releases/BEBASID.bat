@@ -128,7 +128,7 @@ GOTO KONFIRMASI
 if "%version%" == "10.0" GOTO DOWN3
 if "%version%" == "6.3" GOTO DOWN3
 if "%version%" == "6.2" GOTO DOWN3
-if "%version%" == "6.1" GOTO DOWN3
+if "%version%" == "6.1" GOTO DOWN2
 if "%version%" == "6.0" GOTO DOWN2
 if "%version%" == "5.2" GOTO DOWN2
 if "%version%" == "5.1" GOTO DOWN2
@@ -186,7 +186,7 @@ exit
 if "%version%" == "10.0" GOTO RESTORE3
 if "%version%" == "6.3" GOTO RESTORE3
 if "%version%" == "6.2" GOTO RESTORE3
-if "%version%" == "6.1" GOTO RESTORE3
+if "%version%" == "6.1" GOTO RESTORE2
 if "%version%" == "6.0" GOTO RESTORE2
 if "%version%" == "5.2" GOTO RESTORE2
 if "%version%" == "5.1" GOTO RESTORE2
