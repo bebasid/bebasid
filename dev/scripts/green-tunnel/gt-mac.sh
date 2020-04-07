@@ -38,7 +38,7 @@ open_gt(){
     tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
     tmux new-session -d -s 6f4f9a675d5c67aa28350b0276bf911d -x 252 -y 29
   fi
-  random=$(jot -i 6000-8000 -n 1)
+  random=$(jot -r 1 6000 8000)
   tmux split-window -v
   tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server https://doh.dnslify.com/dns-query --system-proxy false --silent true -v 'green-tunnel:*'" Enter
   browser="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
