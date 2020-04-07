@@ -52,11 +52,11 @@ open_gt(){
 
 case $1 in
   start )
-    if ! [[ -x $(type -v gt) ]]; then
+    if ! [[ -x $(command -v gt) ]]; then
       echo "Install Dulu Green-Tunnelnya"
       exit 1
     else
-      if ! [[ -x $(type -v tmux) ]]; then
+      if ! [[ -x $(command -v tmux) ]]; then
         echo "Install Dulu Tmuxnya"
         exit 1
       else
