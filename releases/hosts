@@ -34,6 +34,12 @@
 
 # Windows tidak perlu adanya tambahan pada hosts
 
+# DoH / DNS
+
+# [dnslify]
+185.235.81.1 doh.dnslify.com
+2a0d:4d00:81::1 doh.dnslify.com
+
 # Mulai hosts bebasid
 
 # [reddit.com]
