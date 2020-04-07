@@ -55,8 +55,6 @@ Rekomendasi: PowerTunnel
 
 ## VPN
 
-VPN yang
-
 ### Bahan:
 - [BEBASID](https://bebasid.github.io/)
 - [OpenVPN GUI](https://openvpn.net/community-downloads)
@@ -127,4 +125,35 @@ bebasid netflix start --nb
 
 Berhentikan
 bebasid netflix stop
+```
+
+## Green Tunnel (untuk Mac)
+
+### Status
+Terujikan di MacOS Catalina
+
+### Bahan
+- [BEBASID](https://bebasid.github.io/)
+- Aplikasi BEBASID + GT
+- Chrome (wajib)
+
+### Langkah:
+1. Pasang aplikasi BEBASID + GT untuk Mac
+```
+sudo curl -o /usr/local/bin/bebasid-gt https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt-mac.sh
+```
+
+2. Install Green Tunnel lewat Aplikasi
+```
+bebasid-gt install
+```
+NB: Perintah ini akan memasang Homebrew, NodeJS + NPM, Tmux, dan Green Tunnel dalam sistem Mac
+
+3. Jalankan perintah
+```
+Jalankan (dengan Chrome)
+bebasid-gt start
+
+Berhentikan
+bebasid-gt stop
 ```
