@@ -15,7 +15,7 @@ bebasid_banner(){
 }
 about(){
   echo "Name of File  : BEBASID"
-  echo "Version       : 2020.4"
+  echo "Version       : 2020.4 [Adelia] Linux Version"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
@@ -23,6 +23,10 @@ about(){
   echo ""
   echo "Built with love by Icaksh for BEBASID"
   echo "Thanks for gvoze32 (The Author of BEBASID)"
+  echo ""
+  echo "Especially thanks to:"
+  echo "    - Linux Netflix Tester : gvoze32, LeLe"
+  echo "    - MacOS Netflix Tester : Fulk"
 }
 
 # =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #
@@ -54,11 +58,13 @@ bantuan(){
     echo "  [website] : Membuat localhost (untuk proyek) (ops)"
     echo "    [ip]    : Memberikan IP Address Manual (ops)"
     echo "--help      : Menampilkan bantuan"
+    echo "--version   : Menampilkan bantuan"
     echo ""
     echo "Apabila setelah pemasangan BEBASID terjadi error DNS Not Resolved,"
-    echo "Mohon untuk segera menggunakan fitur fix yang ada di menu, hal ini"
-    echo "belum kami ketahui penyebabnya, yang pasti error terjadi karena"
-    echo "ada kesalahan pada file hosts"
+    echo "Mohon untuk segera menggunakan fitur fix yang ada di menu"
+    echo ""
+    echo ""
+    echo "Copyright (c) 2020 BEBASID (under MIT License)"
 }
 cakepin(){
   for (( i = 0; i < 101; i++ )); do
@@ -84,7 +90,7 @@ curl_wget(){
 }
 check_duplicate_unblock(){
   echo "Memeriksa apakah domain $domain telah tercatat dalam file hosts"
-  begin="$(grep -n "${domain^^}" /etc/hosts | head -n 1 | cut -d: -f1)"
+  begin="$(grep -n "$domain" /etc/hosts | head -n 1 | cut -d: -f1)"
   if [[ $begin>0 ]]; then
     echo "Domain $domain telah tercatat dalam file hosts"
     echo ""
@@ -495,13 +501,13 @@ rand=0.01
 cakepin
 sudo bash -c 'cat >> /etc/hosts-own'<<EOF
 
-# [${domain^^}]
+# [$domain]
 $ip $domain
 EOF
 
 sudo bash -c 'cat >> /etc/hosts'<<EOF
 
-# [${domain^^}]
+# [$domain]
 $ip $domain
 EOF
 echo ""
@@ -511,13 +517,13 @@ echo "== BERHASIL MELAKUKAN PROSES UNBLOCK =="
 block_hosts(){
 sudo bash -c 'cat >> /etc/hosts-own'<<EOF
 
-# [${domain^^} - BLOCKED]
+# [$domain - blocked]
 0.0.0.0 $domain
 EOF
 
 sudo bash -c 'cat >> /etc/hosts'<<EOF
 
-# [${domain^^} - BLOCKED]
+# [$domain - blocked]
 0.0.0.0 $domain
 EOF
 }
@@ -525,13 +531,13 @@ EOF
 localhost_hosts(){
 sudo bash -c 'cat >> /etc/hosts-own'<<EOF
 
-# [${domain^^} - LOCALHOST]
+# [$domain - localhost]
 $ip $domain
 EOF
 
 sudo bash -c 'cat >> /etc/hosts'<<EOF
 
-# [${domain^^} - LOCALHOST]
+# [$domain - localhost]
 $ip $domain
 EOF
 
@@ -846,6 +852,9 @@ case $1 in
   "--about" )
     bebasid_banner
     about
+    ;;
+  "--version" )
+    echo "BEBASID - 2020.4 [Adelia] Linux Version"
     ;;
   * )
   echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
