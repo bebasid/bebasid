@@ -589,7 +589,7 @@
 # [mp4hentai.com]
 104.28.8.24 mp4hentai.com www.mp4hentai.com
 
-# [netflix.com] [Update IP berdasarkan dari Tri Indonesia]
+# [netflix.com] [Hasil riset IP berdasarkan jaringan Tri Indonesia]
 54.87.188.169 netflix.com www.netflix.com
 54.210.113.65 netflix.com www.netflix.com
 54.165.246.104 netflix.com www.netflix.com
@@ -620,8 +620,15 @@
 52.38.152.174 help.netflix.com
 34.211.244.70 jobs.netflix.com
 207.45.72.215 nflxext.com nflximg.com
+34.218.19.240 nflxvideo.net
+107.20.175.192 nflxvideo.net
+34.252.74.1 nflxvideo.net
+46.137.171.215 nflxvideo.net
+52.31.48.193 nflxvideo.net
 204.236.236.127 nflxvideo.net
-207.45.72.215 nflximg.net
+44.226.113.145 nflxvideo.net
+50.17.247.9 nflxvideo.net
+18.236.7.30 nflxvideo.net
 52.36.243.167 api-global.netflix.com
 52.42.153.22 ichnaea.netflix.com
 35.160.69.163 account.netflix.com
