@@ -370,3 +370,6 @@
 # [mydramalist.com]
 104.26.10.48 mydramalist.com www.mydramalist.com i.mydramalist.com es.mydramalist.com pt.mydramalist.com
 104.26.11.48 store.mydramalist.com
+
+# [torrents.io]
+151.139.128.10 torrents.io
