@@ -35,6 +35,7 @@ Untuk cara menembus blokiran Netflix, silakan menuju [NETFLIX.md](https://github
 # Berkontribusi
 
 Untuk membantu pengembangan BEBASID, silahkan menuju [CONTRIBUTING.md](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
+
 Untuk melakukan request dan melaporkan adanya bug, silahkan membuka issue [di sini](https://github.com/bebasid/bebasid/issues/new/choose).
 
 # Lisensi
