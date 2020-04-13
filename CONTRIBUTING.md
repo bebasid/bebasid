@@ -1,4 +1,4 @@
-# Berkontribusi ke BEBASID
+# Berkontribusi ke bebasid
 Kontribusi yang dapat dilakukan dapat berupa:
 * Melaporkan bug / issue,
 * Melakakukan request feature baru,
