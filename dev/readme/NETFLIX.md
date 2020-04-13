@@ -18,7 +18,7 @@ Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI unt
     
 ## Windows
 
-- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
+- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#goodbyedpi)
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
@@ -26,7 +26,7 @@ Rekomendasi: GoodbyeDPI
 
 ## Linux
 
-- [GreenTunnel](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gt.zip)
+- [GreenTunnel](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gt.zip) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-linux)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 - [zapret](https://github.com/bol-van/zapret)
 
@@ -34,7 +34,7 @@ Rekomendasi: GreenTunnel
 
 ## MacOS
 
-- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-mac)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
 Rekomendasi: GreenTunnel
@@ -47,7 +47,17 @@ Rekomendasi: GreenTunnel
 
 Rekomendasi: PowerTunnel
 
-&nbsp;
+## Android TV / STB
+
+- [Wireguard](https://play.google.com/store/apps/details?id=com.wktkf.dawn) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#wireguard)
+- [[VPN]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#vpn)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel-Android/releases)
+- [Dawn](https://play.google.com/store/apps/details?id=com.wktkf.dawn)
+
+Rekomendasi: PowerTunnel (Jika mendukung pemasangan dari luar Play Store)
+
+## Alternatif
+Jika diatas tidak mendukung, maka mau tidak mau kamu harus menggunakan VPN - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#vpn)
 
 &nbsp;
 
@@ -84,6 +94,31 @@ IP :
 - TCP VPN ID2
 
 Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
+
+## Wireguard
+
+### Bahan:
+- [Wireguard](https://www.wireguard.com/install/)
+- Config Server [Wireguard Netflix/Torrent](https://www.fastssh.com/page/wireguard-servers/)
+- Alternatif Config Server 2 [AzireVPN](https://www.azirevpn.com/cfg/wireguard)
+
+### Langkah:
+1. Buat config Wireguard Netflix/Torrent
+2. Isi Username dan Password
+
+```
+[+] Username has been successfully created
+[+] setting an expired date.....
+[+] Account valid until ~
+[+] Account is ready to use, please check the detail below:
+```
+
+3. Lihat di bawah halaman sampai ada pilihan copy dan download config
+4. Download config dengan format .conf
+5. Buka Wireguard lalu import file yang didownload tadi
+6. Isi Username dan Password sesuai dengan langkah kedua
+7. Sambungkan koneksi
+8. Selesai, selamat menonton
 
 ## GoodbyeDPI
 
