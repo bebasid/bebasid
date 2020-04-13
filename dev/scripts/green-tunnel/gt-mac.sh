@@ -85,7 +85,7 @@ case $1 in
     tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
     ;;
   update )
-    if sudo curl -o /usr/local/bin/bebasid-gt https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt.sh --progress-bar; then
+    if sudo curl -o /usr/local/bin/bebasid-gt https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt-mac.sh --progress-bar; then
       echo ""
       echo "Berhasil mengunduh script aplikasi BEBASID"
       echo "Mengecek aplikasi"
