@@ -34,9 +34,12 @@ Untuk cara menembus blokiran Netflix, silakan menuju [NETFLIX.md](https://github
 
 # Berkontribusi
 
-Untuk membantu pengembangan BEBASID, silahkan menuju [CONTRIBUTING.md](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
+Untuk membantu pengembangan BEBASID, silakan menuju [CONTRIBUTING.md](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
 
-Untuk melakukan request dan melaporkan adanya bug, silahkan membuka issue [di sini](https://github.com/bebasid/bebasid/issues/new/choose).
+Untuk melakukan request dan melaporkan adanya bug, silakan membuka issue [di sini](https://github.com/bebasid/bebasid/issues/new/choose).
+
+# Soal sering ditanyakan
+Jika mengalami permasalahan saat menggunakan BEBASID, silakan menuju [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di Discord atau membuka issue baru.
 
 # Lisensi
 BEBASID dilisensikan di bawah MIT. Lihat [LICENSE](https://github.com/bebasid/bebasid/blob/master/LICENSE) untuk informasi lebih lanjut.
