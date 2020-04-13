@@ -1,6 +1,6 @@
 ![Netflix Error Playback](https://preview.redd.it/2b36et324w611.png?width=2722&format=png&auto=webp&s=f51780f3264251c65dba03cf13267e02cedf298c)
 
-Setelah menginstall BEBASID, kamu akan bisa membuka Netflix, tetapi saat masuk playback mode akan ada tulisan:
+Setelah menginstall bebasid, kamu akan bisa membuka Netflix, tetapi saat masuk playback mode akan ada tulisan:
 
     ======================
 
@@ -18,7 +18,7 @@ Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI unt
     
 ## Windows
 
-- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#goodbyedpi)
+- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#goodbyedpi)
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
@@ -26,7 +26,7 @@ Rekomendasi: GoodbyeDPI
 
 ## Linux
 
-- [GreenTunnel](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gt.zip) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-linux)
+- [GreenTunnel](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gt.zip) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-linux)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 - [zapret](https://github.com/bol-van/zapret)
 
@@ -34,7 +34,7 @@ Rekomendasi: GreenTunnel
 
 ## MacOS
 
-- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-mac)
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-mac)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
 
 Rekomendasi: GreenTunnel
@@ -49,8 +49,8 @@ Rekomendasi: PowerTunnel
 
 ## Android TV / STB
 
-- [Wireguard](https://play.google.com/store/apps/details?id=com.wktkf.dawn) [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#wireguard)
-- [[VPN]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#vpn)
+- [Wireguard](https://play.google.com/store/apps/details?id=com.wktkf.dawn) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#wireguard)
+- VPN - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#vpn)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel-Android/releases)
 - [Dawn](https://play.google.com/store/apps/details?id=com.wktkf.dawn)
 
@@ -66,7 +66,7 @@ Jika diatas tidak mendukung, maka mau tidak mau kamu harus menggunakan VPN - [[T
 ## VPN
 
 ### Bahan:
-- [BEBASID](https://bebasid.github.io/)
+- [bebasid](https://bebasid.github.io/)
 - [OpenVPN GUI](https://openvpn.net/community-downloads)
 - Config Server [Indonesia TCPVPN](https://www.tcpvpn.com/vpn-server-indonesia)
 
@@ -123,7 +123,7 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 ## GoodbyeDPI
 
 ### Bahan
-- [BEBASID](https://bebasid.github.io/)
+- [bebasid](https://bebasid.github.io/)
 - [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
 
 ### Langkah:
@@ -136,11 +136,11 @@ Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih
 ## Green Tunnel (untuk Linux)
 
 ### Bahan
-- [BEBASID](https://bebasid.github.io/)
+- [bebasid](https://bebasid.github.io/)
 - Chrome (opsional)
 
 ### Langkah:
-1. Pastikan aplikasi BEBASID telah terpasang
+1. Pastikan aplikasi bebasid telah terpasang
 ```
 bebasid --help
 ```
@@ -168,12 +168,12 @@ bebasid netflix stop
 Terujikan di MacOS Catalina
 
 ### Bahan
-- [BEBASID](https://bebasid.github.io/)
-- Aplikasi BEBASID + GT
+- [bebasid](https://bebasid.github.io/)
+- Aplikasi bebasid + GT
 - Chrome (wajib)
 
 ### Langkah:
-1. Pasang aplikasi BEBASID + GT untuk Mac
+1. Pasang aplikasi bebasid + GT untuk Mac
 ```
 sudo curl -o /usr/local/bin/bebasid-gt https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt-mac.sh
 ```
