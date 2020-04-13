@@ -68,7 +68,12 @@ Jika diatas tidak mendukung, maka mau tidak mau kamu harus menggunakan VPN - [[T
 ### Bahan:
 - [bebasid](https://bebasid.github.io/)
 - [OpenVPN GUI](https://openvpn.net/community-downloads)
-- Config Server [Indonesia TCPVPN](https://www.tcpvpn.com/vpn-server-indonesia)
+- Config Server 1 [Indonesia TCPVPN](https://www.tcpvpn.com/vpn-server-indonesia)
+- Alternatif Config Server 2 [VPNBook](https://www.vpnbook.com/)
+- Alternatif Config Server 3 [VPN Jantit](https://www.vpnjantit.com/free-openvpn.html)
+- Alternatif Config Server 4 [ListVPN](https://www.listvpn.net/free-vpn-pptp-l2tp-asia)
+- Alternatif Config Server 5 [FreeVPN](https://freevpn.me/accounts/)
+- Alternatif Config Server 6 [SSHagan](https://www.sshagan.net/?page=vpn-servers)
 
 ### Langkah:
 1. Buat SSH Indonesia di TCPVPN
@@ -99,8 +104,10 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 
 ### Bahan:
 - [Wireguard](https://www.wireguard.com/install/)
-- Config Server [Wireguard Netflix/Torrent](https://www.fastssh.com/page/wireguard-servers/)
+- Config Server 1 [Wireguard Netflix/Torrent](https://www.fastssh.com/page/wireguard-servers/)
 - Alternatif Config Server 2 [AzireVPN](https://www.azirevpn.com/cfg/wireguard)
+- Alternatif Config Server 3 [Cryptostorm](https://cryptostorm.is/wireguard)
+- Alternatif Config Server 4 [TunSafe](https://tunsafe.com/vpn)
 
 ### Langkah:
 1. Buat config Wireguard Netflix/Torrent
