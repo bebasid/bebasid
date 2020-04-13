@@ -59,5 +59,5 @@ sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/host
 
 Buka terminal, lalu ketik atau salin kode di bawah ini lalu enter.
 ```
-sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
+sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
 ```
