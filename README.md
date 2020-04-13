@@ -15,13 +15,13 @@
     <a href="https://discord.gg/q7AAX3W"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&style=for-the-badge"></a>
 </p>
 
-BEBASID dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia (Internet Positif) dengan memanfaatkan [hosts](https://en.wikipedia.org/wiki/Hosts_(file)). 
+bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia (Internet Positif) dengan memanfaatkan [hosts](https://en.wikipedia.org/wiki/Hosts_(file)). 
 
-# BEBASID
+# bebasid
 
 ### Graphical user interface (GUI)
 
-Untuk menggunakan versi GUI dari aplikasi ini, silakan menuju situs web [BEBASID](https://bebasid.github.io).
+Untuk menggunakan versi GUI dari aplikasi ini, silakan menuju situs web [bebasid](https://bebasid.github.io).
 
 Aplikasi ini sangat aman, silakan lihat rinciannya di [VirusTotal](https://www.virustotal.com/gui/file/86d99300c58942ce06f5e05f7cf4241f3fcf64f5737f5201e34934345ea56121/detection).
 
@@ -34,15 +34,15 @@ Untuk cara menembus blokiran Netflix, silakan menuju [NETFLIX.md](https://github
 
 # Berkontribusi
 
-Untuk membantu pengembangan BEBASID, silakan menuju [CONTRIBUTING.md](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
+Untuk membantu pengembangan bebasid, silakan menuju [CONTRIBUTING.md](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
 
 Untuk melakukan request dan melaporkan adanya bug, silakan membuka issue [di sini](https://github.com/bebasid/bebasid/issues/new/choose).
 
 # Soal sering ditanyakan
-Jika mengalami permasalahan saat menggunakan BEBASID, silakan menuju [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di Discord atau membuka issue baru.
+Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di Discord atau membuka issue baru.
 
 # Lisensi
-BEBASID dilisensikan di bawah MIT. Lihat [LICENSE](https://github.com/bebasid/bebasid/blob/master/LICENSE) untuk informasi lebih lanjut.
+bebasid dilisensikan di bawah MIT. Lihat [LICENSE](https://github.com/bebasid/bebasid/blob/master/LICENSE) untuk informasi lebih lanjut.
 
 Sebelum menggunakan aplikasi ini, Anda wajib mematuhi peraturan yang kami buat dan dengan menggunakan aplikasi ini, Anda berarti menerima segala akibat yang ditimbulkan. Lihat [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
 
