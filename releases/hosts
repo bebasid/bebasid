@@ -160,6 +160,10 @@
 151.101.53.140 www.redditstatic.com
 151.101.53.140 i.redd.it
 
+# [twitter.com]
+192.229.210.163 pbs.twimg.com
+192.229.210.163 video.twimg.com
+
 # [vimeo.com]
 151.101.50.109 i.vimeocdn.com
 151.101.64.217 developer.vimeo.com
