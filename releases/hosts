@@ -2498,3 +2498,16 @@
 
 # [anyhentai.com]
 37.59.54.92 anyhentai.com 142.anyhentai.com
+
+# [tumblr.com]
+74.114.154.17 tumblr.com
+74.114.154.22 *.tumblr.com
+152.199.43.87 www.tumblr.com
+152.199.43.87 assets.tumblr.com 
+152.199.43.87 px.srvcs.tumblr.com 
+152.199.43.87 static.tumblr.com
+192.0.74.11 ns3.tumblr.com
+192.0.75.11 ns4.tumblr.com
+198.181.116.11 ns1.tumblr.com
+198.181.117.11 ns2.tumblr.com
+205.185.208.17 static.supuv2.com
