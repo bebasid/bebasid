@@ -1,32 +1,30 @@
 #!/bin/bash
-
-# Instalasi Aplikasi BEBASID untuk Linux
-# Tested on RHEL (CentOS, Fedora), Debian (Ubuntu, Linux Mint, etc) and Arch Linux (Manjaro)
+# Instalasi bash bebasid untuk Linux
 
 bebasid_banner(){
-  echo " ____  _____ ____    _    ____ ___ ____  "
-  echo "| __ )| ____| __ )  / \  / ___|_ _|  _ \ "
-  echo "|  _ \|  _| |  _ \ / _ \ \___ \| || | | |"
-  echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
-  echo "|____/|_____|____/_/   \_\____/___|____/ "
-  echo ""
-  echo "=======  PEDULI INTERNET NETRAL  ========"
-  echo ""
+  echo " _          _               _     _ "
+  echo "| |__   ___| |__   __ _ ___(_) __| |"
+  echo "| '_ \ / _ \ '_ \ / _' / __| |/ _' |"
+  echo "| |_) |  __/ |_) | (_| \__ \ | (_| |"
+  echo "|_.__/ \___|_.__/ \__,_|___/_|\__,_|"
+  echo
+  echo "=====  PEDULI INTERNET NETRAL  ====="
+  echo
 }
 about(){
-  echo "Name of File  : BEBASID"
+  echo "Name of File  : bebasid.sh"
   echo "Version       : 2020.4 [Adelia] Linux Version"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
   echo "    - Arch      : Arch Linux, Manjaro"
-  echo ""
-  echo "Built with love by Icaksh for BEBASID"
-  echo "Thanks for gvoze32 (The Author of BEBASID)"
-  echo ""
+  echo
+  echo "Built with love by icaksh for bebasid"
+  echo "Thanks for gvoze32 (The Author of bebasid)"
+  echo
   echo "Especially thanks to:"
   echo "    - Linux Netflix Tester : gvoze32, LeLe"
-  echo "    - MacOS Netflix Tester : Fulk"
+  echo "    - MacOS Netflix Tester : Fulk, Dan008"
 }
 
 # =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #
@@ -35,16 +33,16 @@ bantuan(){
     bebasid_banner
     echo "Cara penggunaan:"
     echo "bebasid [command] [option/[website]] [tambahan]"
-    echo ""
+    echo
     echo "List command:"
-    echo "menu        : Menampilkan opsi menu BEBASID"
+    echo "menu        : Menampilkan opsi menu bebasid"
     echo "hosts"
-    echo "  install   : Mengganti hosts bawaan dengan hosts BEBASID"
-    echo "  update    : Memperbarui hosts BEBASID"
-    echo "  remove    : Menghapus hosts BEBASID"
+    echo "  install   : Mengganti hosts bawaan dengan hosts bebasid"
+    echo "  update    : Memperbarui hosts bebasid"
+    echo "  remove    : Menghapus hosts bebasid"
     echo "app"
-    echo "  renew     : Memperbarui aplikasi BEBASID"
-    echo "  uninstall : Menghapus aplikasi BEBASID"
+    echo "  renew     : Memperbarui aplikasi bebasid"
+    echo "  uninstall : Menghapus aplikasi bebasid"
     echo "netflix"
     echo "  start     : Memulai aplikasi bypass DPI untuk akses Netflix"
     echo "    --nb    : Memulai aplikasi bypass DPI tanpa membuka browser (ops)"
@@ -58,31 +56,31 @@ bantuan(){
     echo "  [website] : Membuat localhost (untuk proyek) (ops)"
     echo "    [ip]    : Memberikan IP Address Manual (ops)"
     echo "--help      : Menampilkan bantuan"
-    echo "--version   : Menampilkan bantuan"
-    echo ""
-    echo "Apabila setelah pemasangan BEBASID terjadi error DNS Not Resolved,"
+    echo "--version   : Menampilkan versi aplikasi bebasid"
+    echo
+    echo "Apabila setelah pemasangan bebasid terjadi error DNS Not Resolved,"
     echo "Mohon untuk segera menggunakan fitur fix yang ada di menu"
-    echo ""
-    echo ""
+    echo
     echo "Copyright (c) 2020 BEBASID (under MIT License)"
+    echo "by Komunitas Internet Netral Indonesia"
 }
 cakepin(){
-  for (( i = 0; i < 101; i++ )); do
+  for (( persenLoad = 0; persenLoad < 101; persenLoad++ )); do
     echo -ne "\\r"
-    sleep $rand
-    if [[ $i = 100 ]]; then
-      echo -ne "$text    "
+    sleep $1
+    if [[ $persenLoad = 100 ]]; then
+      echo -ne "$2    "
     else
-      echo -ne "$text $i%"
+      echo -ne "$2 $persenLoad%"
     fi
   done
-  echo ""
+  echo
 }
 curl_wget(){
   if [[ -x $(command -v curl) ]]; then
-    ambil="sudo curl $url $copt"
+    ambil="sudo curl $1 $2"
   elif [[ -x $(command -v wget) ]]; then
-    ambil="sudo wget $wopt $url"
+    ambil="sudo wget $3 $1"
   else
     echo "Harap install cURL atau wget"
     exit 1
@@ -93,21 +91,19 @@ check_duplicate_unblock(){
   begin="$(grep -n "$domain" /etc/hosts | head -n 1 | cut -d: -f1)"
   if [[ $begin>0 ]]; then
     echo "Domain $domain telah tercatat dalam file hosts"
-    echo ""
+    echo
     echo "=== GAGAL MELAKUKAN PROSES UNBLOCK ===="
     exit 1
   fi
 }
 cek_koneksi_dengan_internet(){
-  text="Mengecek koneksi dengan internet"
-  rand=0.01
-  cakepin
+  cakepin 0.01 "Mengecek koneksi dengan internet"
   ipo="8.8.8.8"
   nee=1
   if ping -c ${nee} ${ipo} > /dev/null; then
     echo "Komputer terhubung dengan internet"
-    echo ""
-    echo ""
+    echo
+    echo
   else
     echo "Komputer tidak terhubung dengan internet"
     echo "Silahkan cek koneksi komputer dengan internet terlebih dahulu"
@@ -115,9 +111,7 @@ cek_koneksi_dengan_internet(){
   fi
 }
 memulai_ulang_network(){
-  text="Memulai ulang Network Manager"  
-  rand=0.01
-  cakepin
+  cakepin 0.01 "Memulai ulang Network Manager"
   if [[ -e /etc/debian_version ]]; then
     source /etc/os-release
     OS=$ID # debian or ubuntu
@@ -128,7 +122,7 @@ memulai_ulang_network(){
   elif [[ -e /etc/arch-release ]]; then
     OS=arch
   else
-    echo ""
+    echo
     echo "Tidak dapat memulai ulang Network Manager"
     echo "Anda bisa memulai ulang Network Manager secara manual"
   fi
@@ -160,94 +154,76 @@ memulai_ulang_network(){
 perbarui_aplikasi_bebasid(){
   cek_koneksi_dengan_internet
   echo "======= MEMPERBARUI APLIKASI BEBASID ======"
-  echo ""
+  echo
   echo "Memulai pengambilan script bash BEBASID"
-  echo ""
-  url=http://two-ply-mixtures.000webhostapp.com/?geturl=app
-  copt="--silent"
-  wopt="-qO- --quiet"
-  curl_wget
-  url=$($ambil)
+  echo
+  curl_wget http://two-ply-mixtures.000webhostapp.com/?geturl=app "--silent" "-qO- --quiet"
   dir=/usr/local/bin/bebasid
-  copt="-o $dir --progress-bar"
-  wopt="-O $dir -q --show-progress --progress=bar:force"
-  curl_wget
+  curl_wget $($ambil) "-o $dir --progress-bar" "-O $dir -q --show-progress --progress=bar:force"
   if $ambil ; then
-    echo ""
+    echo
     echo "Berhasil mengunduh script aplikasi BEBASID"
     echo "Mengecek aplikasi"
     sudo bebasid --about
-    echo ""
+    echo
     echo "== BERHASIL MEMPERBARUI APLIKASI BEBASID =="
   else
-    echo ""
+    echo
     echo "Tidak dapat mengunduh script aplikasi BEBASID"
-    echo ""
+    echo
     echo "==== GAGAL MEMPERBARUI APLIKASI BEBASID ==="
   fi
 }
 hapus_aplikasi_bebasid(){
   read -p "Apakah anda yakin ingin menghapus BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
   echo "== MEMULAI PENGHAPUSAN APLIKASI BEBASID =="
-  echo ""
-  text="Menghapus aplikasi BEBASID"
-  rand=0.01
-  cakepin
+  echo
+  cakepin 0.01 "Menghapus aplikasi BEBASID"
   if sudo rm -rf /usr/local/bin/bebasid; then
-    echo ""
+    echo
     echo "===== APLIKASI BEBASID TELAH DIHAPUS ====="
   else
-    echo ""
+    echo
     echo "===== APLIKASI BEBASID GAGAL DIHAPUS ====="
   fi
 }
 ambil_hosts_bebasid(){
   echo "Memulai pengambilan file hosts BEBASID"
-  echo ""
-  url=https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
+  echo
   dir=/etc/hosts
-  copt="-o $dir --progress-bar"
-  wopt="-O $dir -q --show-progress --progress=bar:force"
-  curl_wget
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts "-o $dir --progress-bar" "-O $dir -q --show-progress --progress=bar:force"
   if $ambil; then
     sudo bash -c 'cat /etc/hosts-own >> /etc/hosts'
-    echo ""
+    echo
     echo "Berhasil mengambil file hosts BEBASID"
     memulai_ulang_network
-    echo ""
+    echo
     echo "====== BERHASIL MEMASANG BEBASID ====="
   else
     sudo mv /etc/hosts.bak-bebasid /etc/hosts
     echo "Gagal mengambil file hosts BEBASID"
-    echo ""
+    echo
     echo "======= GAGAL MEMASANG BEBASID ======="
   fi
 }
 pasang_hosts_bebasid(){
   cek_koneksi_dengan_internet
   echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
-  echo ""
-  text="Memeriksa kondisi"
-  rand=0.01
-  cakepin
+  echo
+  cakepin 0.01 "Memeriksa kondisi"
   if [ -e /etc/hosts.bak-bebasid ]; then
     echo "Komputer ini telah terpasang BEBASID, silahkan uninstall BEBASID terlebih dahulu"
-    echo ""
+    echo
     echo "==== GAGAL MEMASANG HOSTS BEBASID ===="
     exit 1
   else
     echo "Pastikan komputer telah terpasang cURL atau wget"
-    text="Memulai instalasi"
-    rand=0.01
-    cakepin
+    cakepin 0.01 "Memulai instalasi"
     reset
     bebasid_banner
-    url=https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md
-    copt=""
-    wopt="-qO-"
-    curl_wget
+    curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md "" "-qO-"
     $ambil
-    echo ""
+    echo
     echo "Dengan melanjutkan berarti secara langsung dan tidak langsung, anda menyetujui apa yang tertulis diatas "
     read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
     reset
@@ -255,7 +231,7 @@ pasang_hosts_bebasid(){
     echo "Mengecek koneksi dengan internet"
     echo "Komputer terhubung dengan internet"
     echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
-    echo ""
+    echo
     echo "Memeriksa kondisi"
     echo "Pastikan komputer telah terpasang cURL atau wget"
     echo "Memulai Instalasi"
@@ -270,51 +246,45 @@ $backup
 
 # Konfigurasi Tambahan Pribadi
 EOF
-    echo ""
+    echo
     ambil_hosts_bebasid
   fi
 }
 perbarui_hosts_bebasid(){
   cek_koneksi_dengan_internet
   echo "===== MEMPERBARUI HOSTS BEBASID ======"
-  echo ""
-  text="Memeriksa kondisi"
-  rand=0.01
-  cakepin
+  echo
+  cakepin 0.01 "Memeriksa kondisi"
   if [ -e /etc/hosts.bak-bebasid ]; then
     sudo rm /etc/hosts
     ambil_hosts_bebasid
     exit 1
   else
     echo "Backup hosts asli tidak ditemukan, opsi pemasangan BEBASID akan dilakukan"
-    echo ""
+    echo
     pasang_hosts_bebasid
   fi
 }
 hapus_hosts_bebasid(){
   echo "=== MEMULAI PENCOPOTAN HOSTS BEBASID ==="
-  echo ""
-  text="Memeriksa Hosts Cadangan"
-  rand=0.01
-  cakepin
-  echo ""
+  echo
+  cakepin 0.01 "Memeriksa hosts cadangan"
+  echo
   if [ -e /etc/hosts.bak-bebasid ]; then
     echo "Hosts cadangan ditemukan, memulai pencopotan BEBASID"
     sudo rm /etc/hosts
     sudo rm /etc/hosts-own
     sudo mv /etc/hosts.bak-bebasid /etc/hosts
     memulai_ulang_network
-    echo ""
+    echo
     echo "== HOSTS BEBASID TELAH SUKSES DICOPOT =="
   else
     echo "Hosts cadangan tidak ditemukan"
     read -p "Apakah anda yakin ingin menggunakan konfigurasi hosts bawaan Linux? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-    text="Pencopotan dengan konfigurasi hosts bawaan Linux"
-    rand=0.01
-    cakepin
+    cakepin 0.01 "Pencopotan dengan konfigurasi hosts bawaan Linux"
     kembalikan_hosts
     memulai_ulang_network
-    echo ""
+    echo
     echo "== HOSTS BEBASID TELAH SUKSES DICOPOT =="
   fi
 }
@@ -339,7 +309,30 @@ mulai_streaming_netflix(){
       fi
       random=$(shuf -i 6000-8000 -n 1)
       tmux split-window -v
-      tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server https://doh.dnslify.com/dns-query --system-proxy false --silent true -v 'green-tunnel:*'" Enter
+      bisa="no"
+      i=1
+      while [[ "$bisa" == "no" ]]; do
+        if [[ $i -eq 10 ]]; then
+          echo "Green Tunnel tidak dapat membuka blokiran terhadap Netflix"
+          echo "Silakan menggunakan metode lainnya"
+          tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
+          exit 1
+        fi
+        dns=$(curl https://two-ply-mixtures.000webhostapp.com/mendoangorengbiardapetdns.php?id=$i --silent)
+        cakepin 0.01 "[$i] Mendapatkan DNS $dns"
+        tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server $dns --system-proxy false --silent true -v 'green-tunnel:*'" Enter
+        cakepin 0.01 "Mengetes Koneksi Green Tunnel ke Netflix"
+        sleep 5
+        if curl -x "http://127.0.0.1:$random" https://www.netflix.com --max-time 4; then
+          echo "Berhasil melakukan koneksi dengan Netflix"
+          bisa="ya"
+        else
+          echo "Gagal melakukan koneksi dengan Netflix"
+          echo "Mengulang kembali koneksi dengan DNS yang berbeda"
+          tmux send-keys -t 1 C-c
+          ((i++))
+        fi
+      done
       tmux split-window -h
       if [[ "$browser" == "no" ]]; then
         tmux send-keys -t 2 "bebasid netflix 8e3f1bbb73f0f6c952fcf873332eae9f" Enter
@@ -351,9 +344,7 @@ mulai_streaming_netflix(){
           browser="google-chrome"
           killall chrome
         fi
-          text="Tunggu sebentar, sedang membuka $browser"
-          rand=0.1
-          cakepin
+          cakepin 0.01 "Tunggu sebentar, sedang membuka $browser"
           tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
       fi
       tmux send-keys -t 0 "bebasid netflix 6f4f9a675d5c67aa28350b0276bf911d $random" Enter
@@ -366,11 +357,8 @@ berhenti_streaming_neflix(){
   tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
 }
 pasang_aplikasi_bypass_dpi(){
-  url="https://raw.githubusercontent.com/bebasid/bebasid/master/dev/commands/install-gt.sh"
   dir="install-gt.sh"
-  copt="-o $dir --silent"
-  wopt="-O $dir -q --quiet"
-  curl_wget
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/commands/install-gt.sh "-o $dir --silent" "-O $dir -q --quiet"
   $ambil
   sudo bash ./install-gt.sh
   rm -rf install-gt.sh
@@ -380,70 +368,60 @@ pasang_aplikasi_bypass_dpi(){
 
 header_bebasid_fitur(){
   echo "== MEMULAI PENGGUNAAN FITUR BEBASID =="
-  echo ""
-  text="Memeriksa kondisi"
-  rand=0.01
-  cakepin
+  echo
+  cakepin 0.01 "Memeriksa kondisi"
 }
 aktifkan_fitur(){
-  grepstart="$(grep -n "# \[$keyword]" /etc/hosts | head -n 1 | cut -d: -f1)"
+  grepstart="$(grep -n "# \[$1]" /etc/hosts | head -n 1 | cut -d: -f1)"
   begin=$(( $grepstart + 1 ))
-  text="Memulai penulisan ulang - baris ke-$begin"
-  rand=0.01
-  cakepin
-  ekorkucing="$(sed -n "/# \[$keyword]/,/# \[/p" /etc/hosts | tail -n 1 | cut -d: -f1 | sed 's/[][]/\\&/g')"
+  cakepin 0.01 "Memulai penulisan ulang - baris ke-$begin"
+  ekorkucing="$(sed -n "/# \[$1]/,/# \[/p" /etc/hosts | tail -n 1 | cut -d: -f1 | sed 's/[][]/\\&/g')"
   grepend="$(grep -n "$ekorkucing" /etc/hosts | tail -n 1 | cut -d: -f1)"
   end=$(( $grepend - 2 ))
-  text="Mengakhiri penulisan ulang - baris ke-$end"
-  rand=0.01
-  cakepin
+  cakepin 0.01 "Mengakhiri penulisan ulang - baris ke-$end"
   sudo sed -i "$begin,$end{s/# //}" /etc/hosts
   echo "Berhasil menulis ulang baris ke-$begin hingga baris ke-$end"
 }
 footer_bebasid_fitur(){
-  echo ""
+  echo
   echo "============== BERHASIL =============="
 }
 matikan_safesearch_google(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Matikan Fitur SafeSearch (Google dan Youtube)"
-  echo ""
-  text="Mencari konfigurasi"
-  rand=0.01
-  cakepin
-  keyword="Matikan fitur SafeSearch Google dan Youtube"
-  aktifkan_fitur
+  echo
+  cakepin 0.01 "Mencari konfigurasi"
+  aktifkan_fitur "Matikan fitur SafeSearch Google dan Youtube"
   footer_bebasid_fitur
 }
+#matikan_uzone(){
+#  header_bebasid_fitur
+#  echo "Fitur yang dipilih: Matikan Fitur Internet Positif"
+#  echo
+#  cakepin 0.01 "Mencari konfigurasi"
+#  aktifkan_fitur "BLOCK INTERNET POSITIF"
+#  footer_bebasid_fitur
+#}
 tambahkan_localhost_osx(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost OSX"
-  echo ""
-  text="Mencari konfigurasi"
-  rand=0.01
-  cakepin
-  keyword="MacOS localhost"
-  aktifkan_fitur
+  echo
+  cakepin 0.01 "Mencari konfigurasi"
+  aktifkan_fitur "MacOS localhost"
   footer_bebasid_fitur
 }
 tambahkan_localhost_linux(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost Linux"
-  text="Mencari konfigurasi localhost Linux dalam file hosts"
-  rand=0.01
-  cakepin
-  keyword="Linux localhost"
-  aktifkan_fitur
+  cakepin 0.01 "Mencari konfigurasi localhost Linux dalam file hosts"
+  aktifkan_fitur "Linux localhost"
   footer_bebasid_fitur
 }
 tambahkan_localhost_android(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost Android"
-  text="Mencari konfigurasi localhost Android dalam file hosts"
-  rand=0.01
-  cakepin
-  keyword="Android localhost"
-  aktifkan_fitur
+  cakepin 0.01 "Mencari konfigurasi localhost Android dalam file hosts"
+  aktifkan_fitur "Android localhost"
   footer_bebasid_fitur
 }
 kembalikan_hosts(){
@@ -466,39 +444,34 @@ echo "Berhasil memasang hosts bawaan Linux"
 
 grep_ip(){
   echo "Mengambil IP dari $domain"
-  echo ""
-  url=http://two-ply-mixtures.000webhostapp.com/?domain=$domain
-  copt=""
-  wopt="-qO-"
-  curl_wget
+  echo
+  curl_wget http://two-ply-mixtures.000webhostapp.com/?domain=$domain "" "-qO-"
   ip=$($ambil)
   if ! [[ "$ip" =~ ^(([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))\.){3}([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))$ ]]; then
-  echo ""
+  echo
   echo "$domain tidak dapat diunblock dikarenakan tidak ditemukan IP Address yang valid"
-  echo ""
+  echo
   echo "=== GAGAL MELAKUKAN PROSES UNBLOCK ===="
   exit 1
   else
-    echo ""
+    echo
     echo "Berhasil mendapatkan IP dari $domain"
   fi
 }
 
 fix_hosts(){
   echo "== MEMULAI PERBAIKAN FILE HOSTS =="
-  echo ""
+  echo
   sudo rm "/etc/hosts"
   kembalikan_hosts
   memulai_ulang_network
-  echo ""
+  echo
   echo "== BERHASIL MELAKUKAN PERBAIKAN =="
   echo "Catatan: untuk menggunakan BEBASID kembali, dapat menggunakan fungsi update"
 }
 
 unblock_hosts(){
-text="Menuliskan domain ke dalam file hosts"
-rand=0.01
-cakepin
+cakepin 0.01 "Menuliskan domain ke dalam file hosts"
 sudo bash -c 'cat >> /etc/hosts-own'<<EOF
 
 # [$domain]
@@ -510,7 +483,7 @@ sudo bash -c 'cat >> /etc/hosts'<<EOF
 # [$domain]
 $ip $domain
 EOF
-echo ""
+echo
 echo "== BERHASIL MELAKUKAN PROSES UNBLOCK =="
 }
 
@@ -543,7 +516,7 @@ EOF
 
 sudo bash -c 'cat >> /etc/hosts.bak-bebasid'<<EOF
 
-# [${domain^^} - LOCALHOST]
+# [${domain^^} - localhost]
 $ip $domain
 EOF
 }
@@ -555,40 +528,40 @@ EOF
 case $1 in
   menu )
     bebasid_banner
-    echo ""
+    echo
     echo "+---------------------------------------+"
     echo "|              MENU  UTAMA              |"
     echo "+---------------------------------------+"
     echo""
     PS3='Pilih salah satu opsi: '
-    echo ""
-    menu_utama=("Hosts" "Fitur" "Netflix" "Aplikasi" "Bantuan" "Keluar")
-    select menu_utama_opt in "${menu_utama[@]}"
+    echo
+    menuUtama=("Hosts" "Fitur" "Netflix" "Aplikasi" "Bantuan" "Keluar")
+    select menuUtamaOpt in "${menuUtama[@]}"
     do
-      case $menu_utama_opt in
+      case $menuUtamaOpt in
         Hosts )
-          echo ""
+          echo
           echo "+---------------------------------------+"
           echo "|           MENU UTAMA - HOSTS          |"
           echo "+---------------------------------------+"
-          echo ""
+          echo
           PS3='Pilih salah satu opsi: '
-          echo ""
-          menu_hosts=("Pasang Hosts BEBASID" "Perbarui Hosts BEBASID" "Hapus Hosts BEBASID" "Keluar")
-          select menu_hosts_opt in "${menu_hosts[@]}"
+          echo
+          menuHosts=("Pasang Hosts BEBASID" "Perbarui Hosts BEBASID" "Hapus Hosts BEBASID" "Keluar")
+          select menuHostsOpt in "${menuHosts[@]}"
           do
-            case $menu_hosts_opt in
+            case $menuHostsOpt in
               "Pasang Hosts BEBASID" )
                 pasang_hosts_bebasid
                 break
                 ;;
               "Perbarui Hosts BEBASID" )
-                echo ""
+                echo
                 perbarui_hosts_bebasid
                 break
                 ;;
               "Hapus Hosts BEBASID" )
-                echo ""
+                echo
                 hapus_hosts_bebasid
                 break
                 ;;
@@ -603,38 +576,43 @@ case $1 in
           break
           ;;
         Fitur )
-          echo ""
+          echo
           echo "+---------------------------------------+"
           echo "|           MENU UTAMA - FITUR          |"
           echo "+---------------------------------------+"
-          echo ""
+          echo
           PS3='Pilih salah satu opsi: '
-          menu_fitur=("Matikan Fitur SafeSearch (Google dan Youtube)" "Tambahkan Localhost OSX" "Tambahkan Localhost Linux" "Tambahkan Localhost Android" "Perbaiki Error DNS Not Resolved (Linux)" "Keluar")
-          select menu_fitur_opt in "${menu_fitur[@]}"
+          menuFitur=("Matikan Fitur SafeSearch (Google dan Youtube)" "Tambahkan Localhost OSX" "Tambahkan Localhost Linux" "Tambahkan Localhost Android" "Perbaiki Error DNS Not Resolved (Linux)" "Keluar")
+          select menuFiturOpt in "${menuFitur[@]}"
           do
-            case $menu_fitur_opt in
+            case $menuFiturOpt in
               "Matikan Fitur SafeSearch (Google dan Youtube)" )
-                echo ""
+                echo
                 matikan_safesearch_google
                 break
                 ;;
+              "Matikan Fitur Internet Positif")
+                echo
+                matikan_uzone
+                break
+                ;;
               "Tambahkan Localhost OSX" )
-                echo ""
+                echo
                 tambahkan_localhost_osx
                 break
                 ;;
               "Tambahkan Localhost Linux" )
-                echo ""
+                echo
                 tambahkan_localhost_linux
                 break
                 ;;
               "Tambahkan Localhost Android" )
-                echo ""
+                echo
                 tambahkan_localhost_android
                 break
                 ;;
               "Perbaiki Error DNS Not Resolved (Linux)" )
-                echo ""
+                echo
                 kembalikan_hosts
                 ;;
               #"Menu Sebelumnya" )
@@ -648,29 +626,29 @@ case $1 in
           break
           ;;
         Netflix )
-          echo ""
+          echo
           echo "+---------------------------------------+"
           echo "|          MENU UTAMA - NEFLIX          |"
           echo "+---------------------------------------+"
-          echo ""
+          echo
           PS3='Pilih salah satu opsi: '
-          echo ""
-          menu_netflix=("Mulai Streaming Netflix" "Berhenti Streaming Netflix" "Pasang Aplikasi Bypass DPI" "Keluar")
-          select menu_netflix_opt in "${menu_netflix[@]}"
+          echo
+          menuNetflix=("Mulai Streaming Netflix" "Berhenti Streaming Netflix" "Pasang Aplikasi Bypass DPI" "Keluar")
+          select menuNetflixOpt in "${menuNetflix[@]}"
           do
-            case $menu_netflix_opt in
+            case $menuNetflixOpt in
               "Mulai Streaming Netflix" )
-                echo ""
+                echo
                 mulai_streaming_netflix
                 break
                 ;;
               "Berhenti Streaming Netflix" )
-                echo ""
+                echo
                 berhenti_streaming_neflix
                 break
                 ;;
               "Pasang Aplikasi Bypass DPI" )
-                echo ""
+                echo
                 pasang_aplikasi_bypass_dpi
                 break
                 ;;
@@ -685,24 +663,24 @@ case $1 in
           break
           ;;
         Aplikasi )
-          echo ""
+          echo
           echo "+---------------------------------------+"
           echo "|         MENU UTAMA - APLIKASI         |"
           echo "+---------------------------------------+"
-          echo ""
+          echo
           PS3='Pilih salah satu opsi: '
-          echo ""
-          menu_aplikasi=("Perbarui Aplikasi BEBASID" "Hapus Aplikasi BEBASID" "Keluar")
-          select menu_aplikasi_opt in "${menu_aplikasi[@]}"
+          echo
+          menuAplikasi=("Perbarui Aplikasi BEBASID" "Hapus Aplikasi BEBASID" "Keluar")
+          select menuAplikasiOpt in "${menuAplikasi[@]}"
           do
-            case $menu_aplikasi_opt in
+            case $menuAplikasiOpt in
               "Perbarui Aplikasi BEBASID" )
-                echo ""
+                echo
                 perbarui_aplikasi_bebasid
                 break
                 ;;
               "Hapus Aplikasi BEBASID" )
-                echo ""
+                echo
                 hapus_aplikasi_bebasid
                 break
                 ;;
@@ -717,7 +695,7 @@ case $1 in
           break
           ;;
         Bantuan )
-          echo ""
+          echo
           bantuan
           break
           ;;
@@ -811,7 +789,7 @@ case $1 in
       read -p "Apakah sudah benar? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
       check_connection
       echo "===== MEMULAI PROSES UNBLOCK HOSTS ===="
-      echo ""
+      echo
       cek_koneksi_dengan_internet
       grep_ip
       unblock_hosts
@@ -819,7 +797,7 @@ case $1 in
       domain=$2
       cek_koneksi_dengan_internet
       echo "===== MEMULAI PROSES UNBLOCK HOSTS ===="
-      echo ""
+      echo
       check_duplicate_unblock
       grep_ip
       unblock_hosts
