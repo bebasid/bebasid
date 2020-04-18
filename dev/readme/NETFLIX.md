@@ -185,13 +185,18 @@ Terujikan di MacOS Catalina
 sudo curl -o /usr/local/bin/bebasid-gt https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt-mac.sh
 ```
 
-2. Install Green Tunnel lewat Aplikasi
+2. Berikan akses (_permission_)
+```
+sudo chmod +x /usr/local/bin/bebasid-gt
+```
+
+3. Install Green Tunnel lewat Aplikasi
 ```
 bebasid-gt install
 ```
 NB: Perintah ini akan memasang Homebrew, NodeJS + NPM, Tmux, dan Green Tunnel dalam sistem Mac
 
-3. Jalankan perintah
+4. Jalankan perintah
 ```
 Jalankan (dengan Chrome)
 bebasid-gt start
