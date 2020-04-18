@@ -46,7 +46,10 @@ bebasid dilisensikan di bawah MIT. Lihat [LICENSE](https://github.com/bebasid/be
 
 Sebelum menggunakan aplikasi ini, Anda wajib mematuhi peraturan yang kami buat dan dengan menggunakan aplikasi ini, Anda berarti menerima segala akibat yang ditimbulkan. Lihat [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
 
-Jika menurut Anda proyek ini membantu, Anda juga bisa membantu agar proyek ini tetap berjalan dengan cara berdonasi. Selain itu, ada juga beberapa fitur yang hanya bisa didapatkan dari donasi. Untuk donasi bisa kirim saldo berapapun ke rekening DANA dengan nomor `0895395141873` a/n YUSUP MEILANSAH.
+# Traktir kami kopi
+Bantu proyek ini tetap berjalan dengan cara berdonasi. Untuk caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
+<img src="https://raw.githubusercontent.com/bebasid/bebasid.github.io/master/resources/img/QR_SOTOPAKSALAM.jpg" alt="QRIS" width="347" height="489">
+
 
 # Daftar tugas
 - [X] Menambahkan format dukungan untuk sistem operasi Android
