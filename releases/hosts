@@ -14,6 +14,17 @@
 # 127.0.0.1 forcesafesearch.google.com
 # 216.239.38.120 restrict.youtube.com
 
+# [BLOCK INTERNET POSITIF]
+# 127.0.0.1 cfs.uzone.id
+# 127.0.0.1 internetpositif.uzone.id
+# 127.0.0.1 uzone.id
+# 127.0.0.1 cfs2.uzone.id
+# 127.0.0.1 u-ad.info
+# 127.0.0.1 cfs.u-ad.info
+# 127.0.0.1 cfs2.uadexchange.com
+# 127.0.0.1 www.internetpositif.uzone.id
+# 127.0.0.1 www.uzone.id
+
 # [MacOS localhost]
 # 127.0.0.1 localhost
 # 255.255.255.255 broadcasthost
