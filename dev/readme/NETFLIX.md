@@ -174,10 +174,16 @@ bebasid netflix stop
 ### Status
 Terujikan di MacOS Catalina
 
+### Persyaratan Sistem
+- OSX 10.13 (High Sierra) atau lebih tinggi
+
 ### Bahan
 - [bebasid](https://bebasid.github.io/)
 - Aplikasi bebasid + GT
 - Chrome (wajib)
+
+### Note
+Sebelum melakukan prosedur dibawah ini, anda bisa mengecek perkiraan apakah Netflix dapat dibypass oleh Green Tunnel atau tidak [disini](http://two-ply-mixtures.000webhostapp.com/cek_netflix.php)
 
 ### Langkah:
 1. Pasang aplikasi bebasid + GT untuk Mac
