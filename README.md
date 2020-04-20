@@ -49,7 +49,7 @@ Sebelum menggunakan aplikasi ini, Anda wajib mematuhi peraturan yang kami buat d
 # Traktir kami kopi
 Bantu proyek ini tetap berjalan dengan cara berdonasi. Untuk caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
 
-<img src="https://raw.githubusercontent.com/bebasid/bebasid.github.io/master/resources/img/QR_SOTOPAKSALAM.jpg" alt="QRIS" width="347" height="489">
+<img src="https://raw.githubusercontent.com/bebasid/bebasid.github.io/master/resources/img/QR_SOTOPAKSALAM.jpg" alt="QRIS" width="375" height="375">
 
 
 # Daftar tugas
