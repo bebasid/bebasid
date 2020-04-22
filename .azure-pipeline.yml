@@ -1,0 +1,24 @@
+jobs:
+  - job: Update_bebasin_hosts
+    displayName: Update bebasin hosts
+    pool:
+      vmImage: "ubuntu-18.04"
+    steps:
+      - script: |
+          LAST_COMMIT_MESSAGE="$(git show-branch --no-name)"
+
+          git config --global user.email "andra.antariksa@gmail.com"
+          git config --global user.name "Andra Antariksa"
+          git clone https://andraantariksa:$(ACCESS_TOKEN)@github.com/bebasid/bebasin.git ../bebasin
+
+          if ! cmp ../bebasin/misc/hosts releases/hosts >/dev/null 2>&1
+          then
+            cp releases/hosts ../bebasin/misc/hosts
+
+            cd ../bebasin
+            git remote set-url origin https://andraantariksa:$(ACCESS_TOKEN)@github.com/bebasid/bebasin.git
+            git add misc/hosts
+            git commit -m "Sync with bebasin: " -m "$(LAST_COMMIT_MESSAGE)"
+
+            git push origin master
+          fi
