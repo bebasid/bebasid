@@ -55,7 +55,7 @@ open_gt(){
         sleep 5
         if curl -x "http://127.0.0.1:$random" https://www.netflix.com --max-time 5; then
           echo "Berhasil melakukan koneksi dengan Netflix"
-          curl https://two-ply-mixtures.000webhostapp.com/result.php?status=f --silent
+          curl https://two-ply-mixtures.000webhostapp.com/result.php?status=s --silent
           bisa="ya"
         else
           echo "Gagal melakukan koneksi dengan Netflix"
