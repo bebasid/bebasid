@@ -10,7 +10,11 @@
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?style=flat-square">
     <img src="https://img.shields.io/github/contributors/bebasid/bebasid?style=flat-square">
 </p>
-
+<p align="center">
+    <a href="https://dev.azure.com/andraantariksa/Bebasin/_build/latest?definitionId=4&branchName=master">
+        <img src="https://dev.azure.com/andraantariksa/Bebasin/_apis/build/status/bebasid.bebasid?branchName=master" alt="Build status" />
+    </a>
+</p>
 <p align="center">
     <a href="https://discord.gg/q7AAX3W"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&style=for-the-badge"></a>
 </p>
