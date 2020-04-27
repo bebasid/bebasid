@@ -2503,13 +2503,13 @@
 104.16.28.34 i.stack.imgur.com
 
 # [kissmanga.com]
-104.25.45.113 kissmanga.com
+104.25.45.113 kissmanga.com www.kissmanga.com
 
 # [torrents.io]
-151.139.128.10 torrents.io
+151.139.128.10 torrents.io www.torrents.io
 
 # [zooqle.com]
-104.26.14.84 zooqle.com
+104.26.14.84 zooqle.com www.zooqle.com
 
 # [anyhentai.com]
 37.59.54.92 anyhentai.com 142.anyhentai.com
@@ -2521,8 +2521,8 @@
 104.26.2.8 animeidhentai.com www.animeidhentai.com
 
 # [z-lib.org]
-5.182.211.50 z-lib.org
-5.182.211.50 singlelogin.org
+5.182.211.50 z-lib.org www.z-lib.org
+5.182.211.50 singlelogin.org www.singlelogin.org
 
 # [kimochi.info]
 104.27.146.55 kimochi.info www.kimochi.info
@@ -2531,4 +2531,4 @@
 54.221.253.74 codeply.com www.codeply.com
 
 # [nijicollage.xyz]
-104.31.94.44 nijicollage.xyz
+104.31.94.44 nijicollage.xyz www.nijicollage.xyz
