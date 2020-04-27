@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/github/last-commit/bebasid/bebasid.svg?style=flat-square">
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?style=flat-square">
     <img src="https://img.shields.io/github/contributors/bebasid/bebasid?style=flat-square">
+    [![Build Status](https://dev.azure.com/andraantariksa/Bebasin/_apis/build/status/andraantariksa.bebasin?branchName=master)](https://dev.azure.com/andraantariksa/Bebasin/_build/latest?definitionId=4&branchName=master)
 </p>
 
 <p align="center">
