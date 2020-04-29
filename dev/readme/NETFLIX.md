@@ -20,14 +20,14 @@ Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI unt
 
 - [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#goodbyedpi)
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
-- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#powertunnel)
 
 Rekomendasi: GoodbyeDPI
 
 ## Linux
 
 - [GreenTunnel](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gt.zip) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-linux)
-- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#powertunnel)
 - [zapret](https://github.com/bol-van/zapret)
 
 Rekomendasi: GreenTunnel
@@ -35,7 +35,7 @@ Rekomendasi: GreenTunnel
 ## MacOS
 
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-mac)
-- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases)
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#powertunnel)
 
 Rekomendasi: GreenTunnel
 
@@ -209,4 +209,81 @@ bebasid-gt start
 
 Berhentikan
 bebasid-gt stop
+```
+
+## PowerTunnel
+
+### Bahan
+- [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases/latest)
+- Java Runtime Environment (JRE) 7+
+
+Rekomendasi [JRE 8](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
+
+### Langkah:
+1. Install JRE dan pastikan JRE sudah terpasang.
+```
+$ java -version
+```
+2. Unduh PowerTunnel terbaru. [[Link]]((https://github.com/krlvm/PowerTunnel/releases/latest))
+
+3. Buat _file_ bernama ```government-blacklist.txt``` di dalam 1 direktori ```PowerTunnel.jar```.
+```
+$ ls
+government-blacklist.txt  PowerTunnel.jar
+```
+
+4. Isi _file_ ```government-blacklist.txt``` dengan teks di bawah. Kemudian, _save_.
+```
+netflix.com
+nflxso.net
+netflix.co.id
+netflix.net
+nflxext.com
+nflximg.com
+nflxvideo.net
+```
+
+5. Nyalakan PowerTunnel (_GUI Mode_)
+```
+java -jar PowerTunnel.jar
+```
+
+6. Nyalakan dan jalankan PowerTunnel (_Console Mode_)
+```
+java -jar PowerTunnel.jar -start -console
+```
+
+7. Nyalakan dan jalankan PowerTunnel (_Console Mode_) tanpa _Auto Proxy_ di Windows.
+```
+java -jar PowerTunnel.jar -start -console -disable-auto-proxy-setup
+```
+
+Referensi:
+```
+$ java -jar PowerTunnel.jar -help
+Available params:
+ -help - display help
+ -start - starts server right after load
+ -console - console mode, without UI
+ -government-blacklist-from [URL] - automatically fill government blacklist from URL
+ -use-dns-sec - enables DNSSec mode with the Google DNS servers
+ -use-doh-resolver [URL] - enables DNS over HTTPS resolver
+ -disallow-invalid-packets - HTTP packets without Host header will be thrown out (unrecommended)
+ -full-chunking - enables chunking the whole packets
+ -mix-host-case - enables 'Host' header case mix (unstable)
+ -send-payload [length] - to bypass HTTP blocking, 21 is recommended
+ -chunk-size [size] - sets size of one chunk
+ -ip [IP Address] - sets IP Address
+ -port [Port] - sets port
+ -with-web-ui [appendix] - enables Web UI at http://powertunnelmonitor[appendix].info
+ -disable-auto-proxy-setup - disables auto proxy setup on Windows
+ -auto-proxy-setup-win-ie - auto proxy setup using IE instead of native API on Windows
+ -full-output-mirroring - fully mirrors system output to the log
+ -set-scale-factor [n] - sets DPI scale factor (for testing purposes)
+ -disable-journal - disables journal
+ -disable-tray - disables tray icon
+ -disable-native-lf - disables native L&F (when UI enabled)
+ -disable-ui-scaling - disables UI scaling (when UI enabled)
+ -disable-updater - disables the update notifier
+ -debug - enables debug
 ```
