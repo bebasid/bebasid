@@ -78,7 +78,7 @@ install_tunnel(){
       echo "App: Homebrew, tmux, cURL, Java (PowerTunnel) / NodeJS(Green Tunnel)"
       echo "Tunnel yang akan dipasang : $1"
       read -p "Apakah anda yakin ingin melanjutkan pemasangan (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-      if ! [[ -x command -v brew ]]; then
+      if ! [[ -x $(command -v brew) ]]; then
         loadin 0.01 "Memulai pemasangan Homebrew"
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
       elif ! [[ -x command -v tmux ]]; then
@@ -87,10 +87,10 @@ install_tunnel(){
       fi
       case $1 in
         "Green Tunnel" )
-          if ! [[ -x command -v node ]]; then
+          if ! [[ -x $(command -v node) ]]; then
             loadin 0.01 "Memulai pemasangan NodeJS dan NPM"
             brew install node
-          elif ! [[ -x command -v gt ]]; then
+          elif ! [[ -x $(command -v gt) ]]; then
             loadin 0.01 "Memulai pemasangan Green Tunnel"
             npm i -g green-tunnel
           fi
@@ -98,7 +98,7 @@ install_tunnel(){
           break
           ;;
         "PowerTunnel" )
-          if ! [[ -x command -v java ]]; then
+          if ! [[ -x $(command -v java) ]]; then
             brew tap caskroom/cask
             brew tap caskroom/versions
             brew cask install java
