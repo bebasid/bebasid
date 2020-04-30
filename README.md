@@ -18,49 +18,62 @@
 <p align="center">
     <a href="https://discord.gg/q7AAX3W"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&style=for-the-badge"></a>
 </p>
+<p align="center">
+    <a href="README.en.md">Read the README in English here</a>
+</p>
 
-bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia (Internet Positif) dengan memanfaatkan [hosts](https://en.wikipedia.org/wiki/Hosts_(file)). 
+---
 
-# bebasid
+## Daftar Isi
+
+- [Daftar Isi](#daftar-isi)
+- [bebasid](#bebasid)
+  - [Graphical user interface (GUI)](#graphical-user-interface-gui)
+  - [Command-line interface (CLI)](#command-line-interface-cli)
+  - [Netflix](#netflix)
+- [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
+- [Soal Sering Ditanyakan](#soal-sering-ditanyakan)
+- [Traktir Kami Kopi](#traktir-kami-kopi)
+- [Lisensi](#lisensi)
+
+---
+
+## bebasid
+
+bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
 
 ### Graphical user interface (GUI)
 
-Untuk menggunakan versi GUI dari aplikasi ini, silakan menuju situs web [bebasid](https://bebasid.github.io).
-
-Aplikasi ini sangat aman, silakan lihat rinciannya di [VirusTotal](https://www.virustotal.com/gui/file/86d99300c58942ce06f5e05f7cf4241f3fcf64f5737f5201e34934345ea56121/detection).
+Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin). Untuk saat ini, Bebasin masih dalam tahap eksperimen.
 
 ### Command-line interface (CLI)
 
-Untuk panduan penggunaan versi CLI, silakan menuju [USAGE.md](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
+Untuk panduan penggunaan versi CLI, silakan menuju [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 ### Netflix
-Untuk cara menembus blokiran Netflix, silakan menuju [NETFLIX.md](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
 
-# Berkontribusi
+Untuk cara menembus blokiran Netflix, silakan menuju [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
 
-Untuk membantu pengembangan bebasid, silakan menuju [CONTRIBUTING.md](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
+## Cara Berkontribusi, Pertanyaan atau Permintaan
 
-Untuk melakukan request dan melaporkan adanya bug, silakan membuka issue [di sini](https://github.com/bebasid/bebasid/issues/new/choose).
+Untuk membantu pengembangan bebasid, silakan menuju [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
 
-# Soal sering ditanyakan
-Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di Discord atau membuka issue baru.
+Untuk melakukan request dan melaporkan adanya bug, silakan [membuka issue baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
-# Lisensi
-bebasid dilisensikan di bawah MIT. Lihat [LICENSE](https://github.com/bebasid/bebasid/blob/master/LICENSE) untuk informasi lebih lanjut.
+## Soal Sering Ditanyakan
 
-Sebelum menggunakan aplikasi ini, Anda wajib mematuhi peraturan yang kami buat dan dengan menggunakan aplikasi ini, Anda berarti menerima segala akibat yang ditimbulkan. Lihat [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di Discord atau sebelum membuka issue baru.
 
-# Traktir kami kopi
-Bantu proyek ini tetap berjalan dengan cara berdonasi. Untuk caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
+## Traktir Kami Kopi
+
+Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
 
 <img src="https://raw.githubusercontent.com/bebasid/bebasid.github.io/master/resources/img/SOTO PAK SALAM.png" alt="QRIS">
 
+## Lisensi
 
-# Daftar tugas
-- [X] Menambahkan format dukungan untuk sistem operasi Android
-- [ ] Memperbaiki bebasid.android
-- [X] Membuat dan memisahkan menjadi hosts.sfw
-- [ ] Memperbaiki bug di hosts.sfw
-- [ ] Membuat module bebasid-magisk
-- [X] Rilis alpha bebasid-gt -> integrasi ke aplikasi bebasid
-- [X] Memperbaiki bug versi cli
+bebasid [terlisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE)
+
+---
+
+Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
