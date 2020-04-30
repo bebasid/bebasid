@@ -13,6 +13,7 @@ loadin(){
   echo
 }
 install_tunnel(){
+  getUname=$(uname -s)
   case $getUname in
     Linux* )
       if [[ -e /etc/debian_version ]]; then
@@ -36,7 +37,6 @@ install_tunnel(){
               sudo rm -rf nodesource_setup.sh
               sudo apt update
               sudo npm i -g green-tunnel
-              break
               ;;
             "PowerTunnel" )
               if sudo curl -o ~/.bebasid/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.10/PowerTunnel.jar; then
@@ -45,7 +45,6 @@ install_tunnel(){
                 echo "Tidak dapat mengambil file PowerTunnel"
                 exit 1
               fi
-              break
               ;;
           esac
           ;;
@@ -56,7 +55,6 @@ install_tunnel(){
             "Green Tunnel" )
               sudo pacman -S npm
               sudo npm i -g green-tunnel
-              break
               ;;
             "PowerTunnel" )
               sudo pacman -S jre-openjdk
@@ -66,12 +64,10 @@ install_tunnel(){
                 echo "Tidak dapat mengambil file PowerTunnel"
                 exit 1
               fi
-              break
               ;;
           esac
           ;;
         esac
-      break
       ;;
     Darwin* )
       echo "Script ini hanya work untuk MacOS High Sierra hingga yang terbaru"
@@ -81,7 +77,7 @@ install_tunnel(){
       if ! [[ -x $(command -v brew) ]]; then
         loadin 0.01 "Memulai pemasangan Homebrew"
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-      elif ! [[ -x command -v tmux ]]; then
+      elif ! [[ -x $(command -v tmux) ]]; then
         loadin 0.01 "Memulai pemasangan tmux"
         brew install tmux
       fi
@@ -95,15 +91,14 @@ install_tunnel(){
             npm i -g green-tunnel
           fi
           echo "INSTALASI BERHASIL"
-          break
           ;;
         "PowerTunnel" )
           if ! [[ -x $(command -v java) ]]; then
             brew tap caskroom/cask
             brew tap caskroom/versions
             brew cask install java
-          elif ! [[ -e /Applications/PowerTunnel/PowerTunnel.jar ]]; then
-            if sudo curl -o /Applications/PowerTunnel/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.10/PowerTunnel.jar; then
+          elif ! [[ -e ~/.bebasid/PowerTunnel.jar ]]; then
+            if sudo curl -L -o ~/.bebasid/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.10/PowerTunnel.jar; then
               echo "Sukses memasang PowerTunnel"
             else
               echo "Tidak dapat mengambil file PowerTunnel"
@@ -111,7 +106,6 @@ install_tunnel(){
             fi
           fi
       esac
-      break
       ;;
   esac
 }
