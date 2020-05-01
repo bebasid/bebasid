@@ -48,15 +48,15 @@ You can use [Bebasin](https://github.com/bebasid/bebasin). Currently, Bebasin is
 
 ### Command-line interface (CLI)
 
-See [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines.
+See the [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines.
 
 ### Netflix
 
-To unblock Netflix, see [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
+To unblock Netflix, See the [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
 
 ## Contributing, Question and Request
 
-See [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the contributing guidelines.
+Look [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the contributing guidelines.
 
 If you have any request or bug report, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
@@ -72,8 +72,8 @@ Help us to maintain this project by donating. You can send any nominal to the QR
 
 ## License
 
-bebasid is licensed under [MIT license](https://github.com/bebasid/bebasid/blob/master/LICENSE)
+bebasid is licensed under [MIT license](https://github.com/bebasid/bebasid/blob/master/LICENSE).
 
 ---
 
-By using this application, you are agree to follow the rules that we have create and agree to take any risks caused. For the detail, see [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+By using this application, you are agree to follow the rules that we have create and agree to take any risks caused. For the detail, See the [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
