@@ -57,7 +57,20 @@ sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/host
 
 ## BSD / macOS
 
-Buka terminal, lalu ketik atau salin kode di bawah ini lalu enter.
+Buka terminal, lalu ketik atau salin kode di bawah ini, lalu enter.
+
 ```
-sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
+# Install
+sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -o /usr/local/bin/bebasid
+
+# Kemudian berikan permission ke folder bash
+sudo chmod +x /usr/local/bin/bebasid
+
+# Bantuan
+bebasid --help
+```
+
+Alternatif (jika hanya ingin memasang file hosts):
+```
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
