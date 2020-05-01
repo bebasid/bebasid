@@ -76,6 +76,4 @@ bebasid is licensed under [MIT license](https://github.com/bebasid/bebasid/blob/
 
 ---
 
-By using this application, you are agree to follow the rules that we have create and by 
-
-Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan you are agree to take any risks caused. For the detail, see [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+By using this application, you are agree to follow the rules that we have create and agree to take any risks caused. For the detail, see [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
