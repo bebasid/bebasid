@@ -1,5 +1,4 @@
 #!/bin/bash
-# Instalasi bash bebasid untuk Linux
 
 bebasid_banner(){
   echo " _          _               _     _ "
@@ -12,19 +11,24 @@ bebasid_banner(){
   echo
 }
 about(){
-  echo "Name of File  : bebasid.sh"
-  echo "Version       : 2020.4 [Adelia] Linux Version"
+  echo "Name of File  : bebasid.sh [BETA for Darwin]"
+  echo "Version       : 2020.5 [Wicaksana] Linux/Darwin Version"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
   echo "    - Arch      : Arch Linux, Manjaro"
+  echo "    - Darwin    : MacOS Catalina"
   echo
-  echo "Built with love by icaksh for bebasid"
+  echo "Built with love by haibara for bebasid"
   echo "Thanks for gvoze32 (The Author of bebasid)"
   echo
   echo "Especially thanks to:"
-  echo "    - Linux Netflix Tester : gvoze32, LeLe"
-  echo "    - MacOS Netflix Tester : Fulk, Dan008"
+  echo "    - Dan008 and his/her MacOS"
+  echo "    - Linux Tunnel Tester : "
+  echo "        - gvoze32, LeLe"
+  echo "    - MacOS Tunnel Tester : "
+  echo "        - Fulk, farhanadji, nauli, bobbyargaa"
+  echo "        - sheenidgs, KAREEEN!"
 }
 
 # =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #
@@ -43,11 +47,15 @@ bantuan(){
     echo "app"
     echo "  renew     : Memperbarui aplikasi bebasid"
     echo "  uninstall : Menghapus aplikasi bebasid"
-    echo "netflix"
-    echo "  start     : Memulai aplikasi bypass DPI untuk akses Netflix"
-    echo "    --nb    : Memulai aplikasi bypass DPI tanpa membuka browser (ops)"
+    echo "tunnel"
+    echo "  start"
+    echo "    gt      : Memulai tunnel dengan Green Tunnel"
+    echo "    pt      : Memulai tunnel dengan PowerTunnel"
+    echo "      --nb  : Memulai aplikasi bypass DPI tanpa membuka browser (ops)"
     echo "  stop      : Memberhentikan aplikasi bypass DPI"
-    echo "  install   : Memasang aplikasi bypass DPI"
+    echo "  install"
+    echo "    gt      : Memasang Green Tunnel"
+    echo "    pt      : Memasang PowerTunnel"
     echo "block"
     echo "  [website] : Memblokir akses ke [website] (ops)" 
     echo "unblock"
@@ -64,7 +72,11 @@ bantuan(){
     echo "Copyright (c) 2020 BEBASID (under MIT License)"
     echo "by Komunitas Internet Netral Indonesia"
 }
-cakepin(){
+errorin(){
+  echo "$1"
+  exit 1
+}
+loadin(){
   for (( persenLoad = 0; persenLoad < 101; persenLoad++ )); do
     echo -ne "\\r"
     sleep $1
@@ -97,7 +109,7 @@ check_duplicate_unblock(){
   fi
 }
 cek_koneksi_dengan_internet(){
-  cakepin 0.01 "Mengecek koneksi dengan internet"
+  loadin 0.01 "Mengecek koneksi dengan internet"
   ipo="8.8.8.8"
   nee=1
   if ping -c ${nee} ${ipo} > /dev/null; then
@@ -111,7 +123,7 @@ cek_koneksi_dengan_internet(){
   fi
 }
 memulai_ulang_network(){
-  cakepin 0.01 "Memulai ulang Network Manager"
+  loadin 0.01 "Memulai ulang Network Manager"
   if [[ -e /etc/debian_version ]]; then
     source /etc/os-release
     OS=$ID # debian or ubuntu
@@ -178,7 +190,7 @@ hapus_aplikasi_bebasid(){
   read -p "Apakah anda yakin ingin menghapus BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
   echo "== MEMULAI PENGHAPUSAN APLIKASI BEBASID =="
   echo
-  cakepin 0.01 "Menghapus aplikasi BEBASID"
+  loadin 0.01 "Menghapus aplikasi BEBASID"
   if sudo rm -rf /usr/local/bin/bebasid; then
     echo
     echo "===== APLIKASI BEBASID TELAH DIHAPUS ====="
@@ -210,7 +222,7 @@ pasang_hosts_bebasid(){
   cek_koneksi_dengan_internet
   echo "== MEMULAI PEMASANGAN HOSTS BEBASID =="
   echo
-  cakepin 0.01 "Memeriksa kondisi"
+  loadin 0.01 "Memeriksa kondisi"
   if [ -e /etc/hosts.bak-bebasid ]; then
     echo "Komputer ini telah terpasang BEBASID, silahkan uninstall BEBASID terlebih dahulu"
     echo
@@ -218,7 +230,7 @@ pasang_hosts_bebasid(){
     exit 1
   else
     echo "Pastikan komputer telah terpasang cURL atau wget"
-    cakepin 0.01 "Memulai instalasi"
+    loadin 0.01 "Memulai instalasi"
     reset
     bebasid_banner
     curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md "" "-qO-"
@@ -254,7 +266,7 @@ perbarui_hosts_bebasid(){
   cek_koneksi_dengan_internet
   echo "===== MEMPERBARUI HOSTS BEBASID ======"
   echo
-  cakepin 0.01 "Memeriksa kondisi"
+  loadin 0.01 "Memeriksa kondisi"
   if [ -e /etc/hosts.bak-bebasid ]; then
     sudo rm /etc/hosts
     ambil_hosts_bebasid
@@ -268,7 +280,7 @@ perbarui_hosts_bebasid(){
 hapus_hosts_bebasid(){
   echo "=== MEMULAI PENCOPOTAN HOSTS BEBASID ==="
   echo
-  cakepin 0.01 "Memeriksa hosts cadangan"
+  loadin 0.01 "Memeriksa hosts cadangan"
   echo
   if [ -e /etc/hosts.bak-bebasid ]; then
     echo "Hosts cadangan ditemukan, memulai pencopotan BEBASID"
@@ -281,7 +293,7 @@ hapus_hosts_bebasid(){
   else
     echo "Hosts cadangan tidak ditemukan"
     read -p "Apakah anda yakin ingin menggunakan konfigurasi hosts bawaan Linux? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-    cakepin 0.01 "Pencopotan dengan konfigurasi hosts bawaan Linux"
+    loadin 0.01 "Pencopotan dengan konfigurasi hosts bawaan Linux"
     kembalikan_hosts
     memulai_ulang_network
     echo
@@ -291,51 +303,84 @@ hapus_hosts_bebasid(){
 
 # =============================================================== #
 
-mulai_streaming_netflix(){
-  if ! [[ -x $(command -v gt) ]]; then
-    echo "Green Tunnel belum terinstal, ketik bebasid --help untuk bantuan"
-    exit 1
-  else
-    if ! [[ -x $(command -v tmux) ]]; then
-      echo "Tmux belum terinstal, ketik bebasid --help untuk bantuan"
-      exit 1
-    else
-      tmux has-session -t 6f4f9a675d5c67aa28350b0276bf911d 2>/dev/null
-      if [ $? != 0 ]; then
-        tmux new-session -d -s 6f4f9a675d5c67aa28350b0276bf911d -x 252 -y 29
-      else
-        tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
-        tmux new-session -d -s 6f4f9a675d5c67aa28350b0276bf911d -x 252 -y 29
+cek_perintah_tunnel(){
+  case $1 in
+    "Green Tunnel" )
+      if ! [[ -x $(command -v gt) ]]; then
+        errorin "Green Tunnel tidak ditemukan, silakan pasang Green Tunnel terlebih dahulu"
       fi
+      ;;
+    "PowerTunnel" )
+      if ! [[ -x $(command -v java) ]]; then
+        errorin "Java tidak terpasang, silakan pasang terlebih dahulu"
+      else
+        if ! [[ -e ~/.bebasit/PowerTunnel.jar ]]; then
+          errorin "PowerTunnel tidak ditemukan, silakan pasang PowerTunnel terlebih dahulu"
+        fi
+      fi
+      ;;
+  esac
+  if ! [[ -x $(command -v tmux) ]]; then
+    errorin "Tmux tidak terpasang, silakan pasang Tmux terlebih dahulu"
+  fi
+}
+mulai_bebasid_tunnel(){
+  getUname=$(uname -s)
+  case $getUname in
+    Linux* )
       random=$(shuf -i 6000-8000 -n 1)
-      tmux split-window -v
-      bisa="no"
-      i=1
-      while [[ "$bisa" == "no" ]]; do
-        if [[ $i -eq 10 ]]; then
-          echo "Green Tunnel tidak dapat membuka blokiran terhadap Netflix"
-          echo "Silakan menggunakan metode lainnya"
-          tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
-          exit 1
-        fi
-        dns=$(curl https://two-ply-mixtures.000webhostapp.com/mendoangorengbiardapetdns.php?id=$i --silent)
-        cakepin 0.01 "[$i] Mendapatkan DNS $dns"
-        tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server $dns --system-proxy false --silent true -v 'green-tunnel:*'" Enter
-        cakepin 0.01 "Mengetes Koneksi Green Tunnel ke Netflix"
-        sleep 5
-        if curl -x "http://127.0.0.1:$random" https://www.netflix.com --max-time 4; then
-          echo "Berhasil melakukan koneksi dengan Netflix"
-          bisa="ya"
-        else
-          echo "Gagal melakukan koneksi dengan Netflix"
-          echo "Mengulang kembali koneksi dengan DNS yang berbeda"
-          tmux send-keys -t 1 C-c
-          ((i++))
-        fi
-      done
-      tmux split-window -h
+      ;;
+    Darwin* )
+      random=$(jot -r 1 6000 8000)
+      ;;
+  esac
+  cek_perintah_tunnel $1
+  tmux has-session -t bebasid-tunnel 2>/dev/null
+  if [ $? != 0 ]; then
+    tmux new-session -d -s bebasid-tunnel -x 252 -y 29
+  else
+    tmux kill-session -t bebasid-tunnel
+    tmux new-session -d -s bebasid-tunnel -x 252 -y 29
+  fi
+  tmux split-window -v
+  bisa="no"
+  i=1
+  while [[ "$bisa" == "no" ]]; do
+    if [[ $i -eq 10 ]]; then
+      echo "$1 tidak dapat membuka blokiran terhadap Netflix"
+      echo "Silakan menggunakan metode lainnya"
+      tmux kill-session -t bebasid-tunnel
+      exit 1
+    fi
+    if [[ "$1" == "Green Tunnel" ]]; then
+      dns=$(curl https://two-ply-mixtures.000webhostapp.com/gt.php?id=$i --silent)
+      loadin 0.01 "[$i] Mendapatkan DNS $dns"
+      echo "Tunnel: Green Tunnel"
+      tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server $dns --system-proxy false --silent true -v 'green-tunnel:*'" Enter
+    elif [[ "$1" == "PowerTunnel" ]]; then
+      dns=$(curl https://two-ply-mixtures.000webhostapp.com/pt.php?id=$i --silent)
+      loadin 0.01 "[$i] Mendapatkan DNS $dns"
+      echo "Tunnel: PowerTunnel"
+      db="https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/goodbyedpi/blacklist.txt"
+      tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -use-doh-resolver $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup" Enter
+    fi
+    loadin 0.01 "Mengetes Koneksi $1 ke Netflix"
+    sleep 5
+    if curl -x "http://127.0.0.1:$random" https://www.netflix.com --max-time 10; then
+      echo "Berhasil melakukan koneksi dengan Netflix"
+      bisa="ya"
+    else
+      echo "Gagal melakukan koneksi dengan Netflix"
+      echo "Mengulang kembali koneksi dengan DNS yang berbeda"
+      tmux send-keys -t 1 C-c
+      ((i++))
+    fi
+  done
+  tmux split-window -h
+  case $getUname in
+    Linux* )
       if [[ "$browser" == "no" ]]; then
-        tmux send-keys -t 2 "bebasid netflix 8e3f1bbb73f0f6c952fcf873332eae9f" Enter
+        tmux send-keys -t 2 "bebasid tunnel bebasid-tunnel-nb" Enter
       else
         if [[ -x $(command -v google-chrome-stable) ]]; then
           browser="google-chrome-stable"
@@ -344,24 +389,34 @@ mulai_streaming_netflix(){
           browser="google-chrome"
           killall chrome
         fi
-          cakepin 0.01 "Tunggu sebentar, sedang membuka $browser"
+          loadin 0.01 "Tunggu sebentar, sedang membuka $browser"
           tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
       fi
-      tmux send-keys -t 0 "bebasid netflix 6f4f9a675d5c67aa28350b0276bf911d $random" Enter
-      tmux select-pane -t 0
-      tmux a
-    fi
-  fi
+      ;;
+    Darwin* )
+      if [[ "$browser" == "no" ]]; then
+        tmux send-keys -t 2 "bebasid tunnel bebasid-tunnel-nb" Enter
+      else
+        browser="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+        killall 'Google Chrome'
+        loadin 0.01 "Tunggu sebentar, sedang membuka $browser"
+        tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+      fi
+      ;;
+  esac
+  tmux send-keys -t 0 "bebasid tunnel bebasid-tunnel $random $1" Enter
+  tmux select-pane -t 0
+  tmux a
 }
-berhenti_streaming_neflix(){
-  tmux kill-session -t 6f4f9a675d5c67aa28350b0276bf911d
+berhentikan_bebasid_tunnel(){
+  tmux kill-session -t bebasid-tunnel
 }
 pasang_aplikasi_bypass_dpi(){
   dir="install-gt.sh"
-  curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/commands/install-gt.sh "-o $dir --silent" "-O $dir -q --quiet"
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/dependencies-installer.sh "-o $dir --silent" "-O $dir -q --quiet"
   $ambil
-  sudo bash ./install-gt.sh
-  rm -rf install-gt.sh
+  sudo bash ./install-gt.sh $1
+  rm -rf install-gt.sh $1
 }
 
 # =============================================================== #
@@ -369,16 +424,16 @@ pasang_aplikasi_bypass_dpi(){
 header_bebasid_fitur(){
   echo "== MEMULAI PENGGUNAAN FITUR BEBASID =="
   echo
-  cakepin 0.01 "Memeriksa kondisi"
+  loadin 0.01 "Memeriksa kondisi"
 }
 aktifkan_fitur(){
   grepstart="$(grep -n "# \[$1]" /etc/hosts | head -n 1 | cut -d: -f1)"
   begin=$(( $grepstart + 1 ))
-  cakepin 0.01 "Memulai penulisan ulang - baris ke-$begin"
+  loadin 0.01 "Memulai penulisan ulang - baris ke-$begin"
   ekorkucing="$(sed -n "/# \[$1]/,/# \[/p" /etc/hosts | tail -n 1 | cut -d: -f1 | sed 's/[][]/\\&/g')"
   grepend="$(grep -n "$ekorkucing" /etc/hosts | tail -n 1 | cut -d: -f1)"
   end=$(( $grepend - 2 ))
-  cakepin 0.01 "Mengakhiri penulisan ulang - baris ke-$end"
+  loadin 0.01 "Mengakhiri penulisan ulang - baris ke-$end"
   sudo sed -i "$begin,$end{s/# //}" /etc/hosts
   echo "Berhasil menulis ulang baris ke-$begin hingga baris ke-$end"
 }
@@ -390,7 +445,7 @@ matikan_safesearch_google(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Matikan Fitur SafeSearch (Google dan Youtube)"
   echo
-  cakepin 0.01 "Mencari konfigurasi"
+  loadin 0.01 "Mencari konfigurasi"
   aktifkan_fitur "Matikan fitur SafeSearch Google dan Youtube"
   footer_bebasid_fitur
 }
@@ -398,7 +453,7 @@ matikan_safesearch_google(){
 #  header_bebasid_fitur
 #  echo "Fitur yang dipilih: Matikan Fitur Internet Positif"
 #  echo
-#  cakepin 0.01 "Mencari konfigurasi"
+#  loadin 0.01 "Mencari konfigurasi"
 #  aktifkan_fitur "BLOCK INTERNET POSITIF"
 #  footer_bebasid_fitur
 #}
@@ -406,21 +461,21 @@ tambahkan_localhost_osx(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost OSX"
   echo
-  cakepin 0.01 "Mencari konfigurasi"
+  loadin 0.01 "Mencari konfigurasi"
   aktifkan_fitur "MacOS localhost"
   footer_bebasid_fitur
 }
 tambahkan_localhost_linux(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost Linux"
-  cakepin 0.01 "Mencari konfigurasi localhost Linux dalam file hosts"
+  loadin 0.01 "Mencari konfigurasi localhost Linux dalam file hosts"
   aktifkan_fitur "Linux localhost"
   footer_bebasid_fitur
 }
 tambahkan_localhost_android(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost Android"
-  cakepin 0.01 "Mencari konfigurasi localhost Android dalam file hosts"
+  loadin 0.01 "Mencari konfigurasi localhost Android dalam file hosts"
   aktifkan_fitur "Android localhost"
   footer_bebasid_fitur
 }
@@ -471,7 +526,7 @@ fix_hosts(){
 }
 
 unblock_hosts(){
-cakepin 0.01 "Menuliskan domain ke dalam file hosts"
+loadin 0.01 "Menuliskan domain ke dalam file hosts"
 sudo bash -c 'cat >> /etc/hosts-own'<<EOF
 
 # [$domain]
@@ -535,7 +590,7 @@ case $1 in
     echo""
     PS3='Pilih salah satu opsi: '
     echo
-    menuUtama=("Hosts" "Fitur" "Netflix" "Aplikasi" "Bantuan" "Keluar")
+    menuUtama=("Hosts" "Fitur" "Tunnel" "Aplikasi" "Bantuan" "Keluar")
     select menuUtamaOpt in "${menuUtama[@]}"
     do
       case $menuUtamaOpt in
@@ -625,31 +680,48 @@ case $1 in
           done
           break
           ;;
-        Netflix )
+        Tunnel )
           echo
           echo "+---------------------------------------+"
-          echo "|          MENU UTAMA - NEFLIX          |"
+          echo "|          MENU UTAMA - TUNNEL          |"
           echo "+---------------------------------------+"
           echo
           PS3='Pilih salah satu opsi: '
           echo
-          menuNetflix=("Mulai Streaming Netflix" "Berhenti Streaming Netflix" "Pasang Aplikasi Bypass DPI" "Keluar")
-          select menuNetflixOpt in "${menuNetflix[@]}"
+          menuTunnel=("Mulai Tunnel DPI" "Berhentikan Tunnel DPI" "Pasang Aplikasi Tunnel DPI" "Keluar")
+          select menuTunnelOpt in "${menuTunnel[@]}"
           do
-            case $menuNetflixOpt in
-              "Mulai Streaming Netflix" )
+            case $menuTunnelOpt in
+              "Mulai Tunnel DPI" )
                 echo
-                mulai_streaming_netflix
+                mulai_bebasid_tunnel
                 break
                 ;;
-              "Berhenti Streaming Netflix" )
+              "Berhentikan Tunnel DPI" )
                 echo
-                berhenti_streaming_neflix
+                berhentikan_bebasid_tunnel
                 break
                 ;;
-              "Pasang Aplikasi Bypass DPI" )
+              "Pasang Aplikasi Tunnel DPI" )
                 echo
-                pasang_aplikasi_bypass_dpi
+                PS3='Pilih aplikasi yang ingin dipasang:'
+                echo
+                menuTunnelApp=("Green Tunnel" "PowerTunnel")
+                select menuTunnelAppOpt in "${menuTunnelApp[@]}"
+                do
+                  case $menuTunnelAppOpt in
+                    "Green Tunnel" )
+                      echo
+                      pasang_aplikasi_bypass_dpi "green-tunnel"
+                      break
+                      ;;
+                    "PowerTunnel" )
+                      echo
+                      pasang_aplikasi_bypass_dpi "powertunnel"
+                      break
+                      ;;
+                  esac
+                done
                 break
                 ;;
               #"Menu Sebelumnya" )
@@ -735,36 +807,56 @@ case $1 in
         echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
     esac
     ;;
-  netflix )
+  tunnel )
     case $2 in
       start )
-        if [[ "$3" == "--nb" ]]; then
+        if [[ "$4" == "--nb" ]]; then
           browser="no"
         else
           browser="yes"
         fi
-        mulai_streaming_netflix
+        case $3 in
+          gt )
+            mulai_bebasid_tunnel "Green Tunnel"
+            ;;
+          pt )
+            mulai_bebasid_tunnel "PowerTunnel"
+            ;;
+          * )
+          echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
+          ;;
+        esac
         ;;
       stop )
-        berhenti_streaming_neflix
+        berhentikan_bebasid_tunnel
         ;;
       install )
-        pasang_aplikasi_bypass_dpi
-        ;;
-      6f4f9a675d5c67aa28350b0276bf911d )
+      case $3 in
+        gt )
+          pasang_aplikasi_bypass_dpi "green-tunnel"
+          ;;
+        pt )
+          pasang_aplikasi_bypass_dpi "powertunnel"
+          ;;
+        * )
+          echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
+          ;;
+       esac 
+      ;;
+      bebasid-tunnel )
         reset
-        echo "Green Tunnel berhasil dibuka (127.0.0.1:$3)"
+        echo "$4 berhasil dibuka (127.0.0.1:$3)"
         echo "Walaupun terminal ini dapat ditutup"
         echo "Disarankan terminal ini jangan ditutup selama masih streaming"
         read -n 1 -s -r -p "Untuk menonaktifkan, cukup tekan [Enter]"
-        bebasid netflix stop
+        bebasid tunnel stop
         ;;
-      8e3f1bbb73f0f6c952fcf873332eae9f )
+      bebasid-tunnel-nb )
         reset
         echo "Opsi tanpa browser telah dipilih"
         echo "Silahkan mengatur sendiri proxy secara manual"
         echo "Terutama untuk Firefox"
-        read -n 1 -s -r -p ""
+        read -n 1 -s -r -p
         ;;
       * )
         echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
@@ -832,7 +924,7 @@ case $1 in
     about
     ;;
   "--version" )
-    echo "BEBASID - 2020.4 [Adelia] Linux Version"
+    echo "BEBASID - 2020.5 [Wicaksana] Linux/Darwin Beta Version"
     ;;
   * )
   echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
