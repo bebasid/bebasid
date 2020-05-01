@@ -140,11 +140,16 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 
 Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih belum bisa, hanya melalui browser saja
 
-## Green Tunnel (untuk Linux)
+## Green Tunnel atau PowerTunnel(untuk Linux)
 
 ### Bahan
 - [bebasid](https://bebasid.github.io/)
 - Chrome (opsional)
+
+### Note
+Pengisian `[aplikasi]`
+- Green Tunnel: `gt`
+- PowerTunnel : `pt` 
 
 ### Langkah:
 1. Pastikan aplikasi bebasid telah terpasang
@@ -152,24 +157,25 @@ Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih
 bebasid --help
 ```
 
-2. Install Green Tunnel lewat aplikasi (Debian dan Arch (serta turunannya))
+2. Install Tunnel lewat aplikasi (Debian dan Arch (serta turunannya))
 ```
-bebasid netflix install
+bebasid tunnel install [aplikasi]
 ```
 
 3. Jalankan perintah
 ```
 Jalankan (dengan Chrome)
-bebasid netflix start
+bebasid tunnel start [aplikasi]
 
 Jalankan (tanpa Chrome)
-bebasid netflix start --nb
+bebasid tunnel start [aplikasi] --nb
 
 Berhentikan
-bebasid netflix stop
+bebasid tunnel stop
 ```
 
-## Green Tunnel (untuk Mac)
+
+## Green Tunnel atau PowerTunnel (untuk Mac)
 
 ### Status
 Terujikan di MacOS Catalina
@@ -179,36 +185,36 @@ Terujikan di MacOS Catalina
 
 ### Bahan
 - [bebasid](https://bebasid.github.io/)
-- Aplikasi bebasid + GT
 - Chrome (wajib)
 
 ### Note
 Sebelum melakukan prosedur dibawah ini, anda bisa mengecek perkiraan apakah Netflix dapat dibypass oleh Green Tunnel atau tidak [disini](http://two-ply-mixtures.000webhostapp.com/cek_netflix.php)
 
+Pengisian `[aplikasi]`
+- Green Tunnel: `gt`
+- PowerTunnel : `pt` 
+
 ### Langkah:
-1. Pasang aplikasi bebasid + GT untuk Mac
+1. Pastikan aplikasi bebasid telah terpasang
 ```
-sudo curl -o /usr/local/bin/bebasid-gt https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/green-tunnel/gt-mac.sh
-```
-
-2. Berikan akses (_permission_)
-```
-sudo chmod +x /usr/local/bin/bebasid-gt
+bebasid --help
 ```
 
-3. Install Green Tunnel lewat Aplikasi
+2. Install Tunnel lewat aplikasi (Debian dan Arch (serta turunannya))
 ```
-bebasid-gt install
+bebasid tunnel install [aplikasi]
 ```
-NB: Perintah ini akan memasang Homebrew, NodeJS + NPM, Tmux, dan Green Tunnel dalam sistem Mac
 
-4. Jalankan perintah
+3. Jalankan perintah
 ```
 Jalankan (dengan Chrome)
-bebasid-gt start
+bebasid tunnel start [aplikasi]
+
+Jalankan (tanpa Chrome)
+bebasid tunnel start [aplikasi] --nb
 
 Berhentikan
-bebasid-gt stop
+bebasid tunnel stop
 ```
 
 ## PowerTunnel
