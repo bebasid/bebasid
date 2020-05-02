@@ -361,7 +361,7 @@ mulai_bebasid_tunnel(){
       dns=$(curl https://two-ply-mixtures.000webhostapp.com/pt.php?id=$i --silent)
       loadin 0.01 "[$i] Mendapatkan DNS $dns"
       echo "Tunnel: PowerTunnel"
-      db="https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/goodbyedpi/blacklist.txt"
+      db="https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt"
       tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -use-doh-resolver $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup" Enter
     fi
     loadin 0.01 "Mengetes Koneksi $1 ke Netflix"
@@ -856,7 +856,7 @@ case $1 in
         echo "Opsi tanpa browser telah dipilih"
         echo "Silahkan mengatur sendiri proxy secara manual"
         echo "Terutama untuk Firefox"
-        read -n 1 -s -r -p
+        read -n 1 -s -r -p ""
         ;;
       * )
         echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
