@@ -1112,10 +1112,10 @@
 104.20.137.49 celebjihad.com www.celebjihad.com
 
 # [javhd.com]
-199.80.55.247 javhd.com www.javhd.com
-199.80.55.245 secure.javhd.com
+213.174.154.216 javhd.com www.javhd.com
+213.174.154.199 secure.javhd.com
 199.167.65.10 static.javhd.com
-199.80.55.243 enter.javhd.com
+213.174.154.218 enter.javhd.com
 104.37.176.1 cdn.javhd.com cdn2.javhd.com share.javhd.com
 
 # [javbus.com]
@@ -2546,4 +2546,10 @@
 104.31.64.24 javgiga.com www.javgiga.com
 
 # [watchasian.to]
-104.27.207.92 watchasian.to www.watchasian.to
+104.27.207.92 watchasian.to www.watchasian.to www4.watchasian.to
+
+# [jav.land]
+104.18.62.209 jav.land
+
+# [jav.sh]
+104.18.43.249 jav.sh
