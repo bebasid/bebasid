@@ -131,7 +131,7 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 
 ### Bahan
 - [bebasid](https://bebasid.github.io/)
-- [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip)
+- [GoodbyeDPI](https://github.com/bebasid/bebasit/releases/download/v0.0.1/bebasit-gdpi.zip)
 
 ### Langkah:
 1. Jalankan service_install_dnsredir.cmd untuk mulai menginstall
@@ -140,7 +140,7 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 
 Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih belum bisa, hanya melalui browser saja
 
-## Green Tunnel atau PowerTunnel(untuk Linux)
+## Green Tunnel atau PowerTunnel (untuk Linux)
 
 ### Bahan
 - [bebasid](https://bebasid.github.io/)
@@ -230,7 +230,7 @@ Rekomendasi [JRE 8](https://www.oracle.com/java/technologies/javase-jre8-downloa
 ```
 $ java -version
 ```
-2. Unduh PowerTunnel terbaru. [[Link]]((https://github.com/krlvm/PowerTunnel/releases/latest))
+2. Unduh PowerTunnel terbaru. [[Link]](https://github.com/krlvm/PowerTunnel/releases/latest)
 
 3. Buat _file_ bernama ```government-blacklist.txt``` di dalam 1 direktori ```PowerTunnel.jar```.
 ```
