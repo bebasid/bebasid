@@ -217,6 +217,25 @@ Berhentikan
 bebasid tunnel stop
 ```
 
+## PowerTunnel (Windows)
+
+### Bahan
+- [Java Runtime Environment 7+](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
+- [bebasit-pt](https://github.com/bebasid/bebasit/releases/download/v0.0.1/bebasit-pt.zip)
+
+### Langkah
+1. Install JRE dan pastikan JRE telah terpasang.
+```
+C:\Users\USER>java -version
+```
+2. Jalankan ConEmu.exe untuk Windows 32-bit atau ConEmu64.exe untuk Windows 64-bit
+3. Tunggu sebentar hingga Google Chrome membuka secara otomatis
+
+### Note
+1. Pemberhentian harus dilakukan di aplikasi [menekan Enter], tidak diperbolehkan memberhentikan dengan cara menutup aplikasi [mengeklik tombol X pada bar]. Hal ini dapat menyebabkan Google Chrome akan terus terbuka menggunakan proksi.
+2. Versi PowerTunnel secara default dalam aplikasi merupakan versi yang tidak up to date, sehingga jika ingin menggunakan PowerTunnel terbaru dapat menimpa file PowerTunnel tersebut.
+3. Jika terasa berat, dapat menggunakan Custom DNS
+
 ## PowerTunnel
 
 ### Bahan
