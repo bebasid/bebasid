@@ -200,7 +200,7 @@ Pengisian `[aplikasi]`
 bebasid --help
 ```
 
-2. Install Tunnel lewat aplikasi (Debian dan Arch (serta turunannya))
+2. Install Tunnel lewat aplikasi
 ```
 bebasid tunnel install [aplikasi]
 ```
