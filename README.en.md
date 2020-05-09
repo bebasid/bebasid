@@ -16,7 +16,7 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://discord.gg/q7AAX3W"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&style=for-the-badge"></a>
+    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&style=for-the-badge"></a>
 </p>
 <p align="center">
     <a href="README.md">Baca README dalam Bahasa Indonesia disini</a>
