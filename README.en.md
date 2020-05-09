@@ -19,7 +19,7 @@
     <a href="https://discord.gg/q7AAX3W"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&style=for-the-badge"></a>
 </p>
 <p align="center">
-    <a href="README.md">Baca README dalam bahasa Indonesia disini</a>
+    <a href="README.md">Baca README dalam Bahasa Indonesia disini</a>
 </p>
 
 ---
@@ -56,15 +56,15 @@ To unblock Netflix, See the [NETFLIX](https://github.com/bebasid/bebasid/blob/ma
 
 ## Contributing, Question and Request
 
-Look [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the contributing guidelines.
+Look [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the guidelines.
 
 If you have any request or bug report, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
 ## Frequently Asked Question
 
-If you face any problem in using bebasid, please consult to [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) before asking the problem in Discord or before opening a new issue.
+If you have any problem in using bebasid/bebasin, please consult to [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) before asking the problem in Discord or opening a new issue.
 
-## Buy Us a Coffee
+## Support Us!
 
 Help us to maintain this project by donating. You can send any nominal to the QRIS code below. The donation will be used for the project development.
 
@@ -76,4 +76,4 @@ bebasid is licensed under [MIT license](https://github.com/bebasid/bebasid/blob/
 
 ---
 
-By using this application, you are agree to follow the rules that we have create and agree to take any risks caused. For the detail, See the [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+By using this application, you are agree to follow the rules that we create and agree to take any risks caused. For the detail, See for the [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
