@@ -8,15 +8,15 @@ jobs:
           LAST_COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
 
           git config --global user.email "andra.antariksa@gmail.com"
-          git config --global user.name "Andra Antariksa"
-          git clone https://andraantariksa:$(ACCESS_TOKEN)@github.com/bebasid/bebasin.git ../bebasin
+          git config --global user.name "Aaabot"
+          git clone https://aaabot:$(ACCESS_TOKEN)@github.com/bebasid/bebasin.git ../bebasin
 
           if ! cmp ../bebasin/misc/hosts releases/hosts >/dev/null 2>&1
           then
             cp releases/hosts ../bebasin/misc/hosts
 
             cd ../bebasin
-            git remote set-url origin https://andraantariksa:$(ACCESS_TOKEN)@github.com/bebasid/bebasin.git
+            git remote set-url origin https://aaabot:$(ACCESS_TOKEN)@github.com/bebasid/bebasin.git
             git add misc/hosts
             git commit -m "Sync with bebasin: " -m "$(LAST_COMMIT_MESSAGE)"
 
