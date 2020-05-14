@@ -2598,3 +2598,19 @@
 
 # [netflixparty.com]
 104.22.28.102 netflixparty.com www.netflixparty.com static.netflixparty.com
+
+# [rutracker.org]
+85.112.96.21 rack.rutracker.org zabbix.rutracker.org
+104.27.128.21 blog.rutracker.org wiki.rutracker.org adcal.rutracker.org
+104.27.128.21 generation.rutracker.org
+193.70.97.249 mx.rutracker.org
+195.82.147.50 ns.rutracker.org
+195.82.146.120 bt.rutracker.org
+195.82.146.50 mail.rutracker.org
+195.82.146.100 proxy.rutracker.org
+195.82.146.214 rutracker.org www.rutracker.org
+195.82.146.50 ns2.rutracker.org
+195.82.146.123 bt4.rutracker.org
+195.82.146.118 gitlab.rutracker.org
+195.82.146.52 feed.rutracker.org subs.rutracker.org
+195.82.147.150 ns1.rutracker.org
