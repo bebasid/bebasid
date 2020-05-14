@@ -415,7 +415,7 @@ pasang_aplikasi_bypass_dpi(){
   dir="install-gt.sh"
   curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/dependencies-installer.sh "-o $dir --silent" "-O $dir -q --quiet"
   $ambil
-  sudo bash ./install-gt.sh $1
+  bash ./install-gt.sh $1
   rm -rf install-gt.sh $1
 }
 
