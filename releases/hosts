@@ -217,7 +217,7 @@
 23.46.238.248 102skyfiregce-vimeo.akamaized.net
 
 # [thepiratebay.org]
-104.24.190.20 thepiratebay.org
+104.24.190.20 thepiratebay.org www.thepiratebay.org
 
 # [hitomi.la]
 178.17.174.221 hitomi.la www.hitomi.la
@@ -242,13 +242,13 @@
 151.80.120.115 9.rarbg.to
 
 # [rarbg.me]
-151.80.120.115 9.rarbg.me
+151.80.120.115 9.rarbg.me www.9rarbg.me
 
 # [eztv.ag]
-104.27.208.30 eztv.ag
+104.27.208.30 eztv.ag www.eztv.ag
 
 # [isohunt.to]
-104.23.204.30 isohunt.to
+104.23.204.30 isohunt.to www.isohunt.io
 
 # [4chan.org]
 104.16.117.221 4chan.org
@@ -2652,3 +2652,34 @@
 195.82.146.118 gitlab.rutracker.org
 195.82.146.52 feed.rutracker.org subs.rutracker.org
 195.82.147.150 ns1.rutracker.org
+
+# [fancentro.com]
+31.192.113.173 fancentro.com www.fancentro.com
+31.192.119.10 ns1.fancentro.com
+64.210.159.155 im2.fancentro.com
+31.192.119.14 ns2.fancentro.com
+18.194.132.150 blog.fancentro.com
+64.210.159.155 el.fancentro.com
+149.72.224.186 o30.mail.fancentro.com
+149.72.224.45 o21.mail.fancentro.com
+168.245.77.138 o22.mail.fancentro.com
+198.21.4.64 o23.mail.fancentro.com
+149.72.224.27 o24.mail.fancentro.com
+168.245.94.107 o25.mail.fancentro.com
+167.89.54.72 o26.mail.fancentro.com
+168.245.48.178 o6.mail.fancentro.com
+149.72.196.46 o27.mail.fancentro.com
+198.21.4.31 o28.mail.fancentro.com
+149.72.176.79 o29.mail.fancentro.com
+64.210.159.155 im.fancentro.com
+18.184.197.212 go.fancentro.com
+94.199.252.50 drip.fancentro.com
+165.227.76.60 swipeup.fancentro.com
+168.245.113.92 o10.mkt.fancentro.com
+168.245.107.50 o9.mkt.fancentro.com
+77.247.178.190 statz.fancentro.com
+
+# [fapforfun.net]
+104.24.126.31 fapforfun.net www.fapforfun.net
+192.254.149.119 ns1.fapforfun.net webdisk.fapforfun.net cpanel.fapforfun.net mail.fapforfun.net webmail.fapforfun.net autodiscover.fapforfun.net
+192.254.149.116 ns2.fapforfun.net
