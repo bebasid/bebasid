@@ -63,6 +63,10 @@ Jika diatas tidak mendukung, maka mau tidak mau kamu harus menggunakan VPN - [[T
 
 # TUTORIAL
 
+## bebasit (Windows, Linux, dan Mac)
+
+Petunjuk instalasi dan pemakaian bebasit dapat dilihat [di sini](http://two-ply-mixtures.000webhostapp.com/bebasit.html)
+
 ## VPN
 
 ### Bahan:
@@ -139,102 +143,6 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 3. Selesai, selamat menonton
 
 Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih belum bisa, hanya melalui browser saja
-
-## Green Tunnel atau PowerTunnel (untuk Linux)
-
-### Bahan
-- [bebasid](https://bebasid.github.io/)
-- Chrome (opsional)
-
-### Note
-Pengisian `[aplikasi]`
-- Green Tunnel: `gt`
-- PowerTunnel : `pt` 
-
-### Langkah:
-1. Pastikan aplikasi bebasid telah terpasang
-```
-bebasid --help
-```
-
-2. Install Tunnel lewat aplikasi (Debian dan Arch (serta turunannya))
-```
-bebasid tunnel install [aplikasi]
-```
-
-3. Jalankan perintah
-```
-Jalankan (dengan Chrome)
-bebasid tunnel start [aplikasi]
-
-Jalankan (tanpa Chrome)
-bebasid tunnel start [aplikasi] --nb
-
-Berhentikan
-bebasid tunnel stop
-```
-
-
-## Green Tunnel atau PowerTunnel (untuk Mac)
-
-### Status
-Terujikan di MacOS Catalina
-
-### Persyaratan Sistem
-- OSX 10.13 (High Sierra) atau lebih tinggi
-
-### Bahan
-- [bebasid](https://bebasid.github.io/)
-- Chrome (wajib)
-
-### Note
-Sebelum melakukan prosedur dibawah ini, anda bisa mengecek perkiraan apakah Netflix dapat dibypass oleh Green Tunnel atau tidak [disini](http://two-ply-mixtures.000webhostapp.com/cek_netflix.php)
-
-Pengisian `[aplikasi]`
-- Green Tunnel: `gt`
-- PowerTunnel : `pt` 
-
-### Langkah:
-1. Pastikan aplikasi bebasid telah terpasang
-```
-bebasid --help
-```
-
-2. Install Tunnel lewat aplikasi
-```
-bebasid tunnel install [aplikasi]
-```
-
-3. Jalankan perintah
-```
-Jalankan (dengan Chrome)
-bebasid tunnel start [aplikasi]
-
-Jalankan (tanpa Chrome)
-bebasid tunnel start [aplikasi] --nb
-
-Berhentikan
-bebasid tunnel stop
-```
-
-## PowerTunnel (Windows)
-
-### Bahan
-- [Java Runtime Environment 7+](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
-- [bebasit-pt](https://github.com/bebasid/bebasit/releases/download/v0.0.1/bebasit-pt.zip)
-
-### Langkah
-1. Install JRE dan pastikan JRE telah terpasang.
-```
-C:\Users\USER>java -version
-```
-2. Jalankan ConEmu.exe untuk Windows 32-bit atau ConEmu64.exe untuk Windows 64-bit
-3. Tunggu sebentar hingga Google Chrome membuka secara otomatis
-
-### Note
-1. Pemberhentian harus dilakukan di aplikasi [menekan Enter], tidak diperbolehkan memberhentikan dengan cara menutup aplikasi [mengeklik tombol X pada bar]. Hal ini dapat menyebabkan Google Chrome akan terus terbuka menggunakan proksi.
-2. Versi PowerTunnel secara default dalam aplikasi merupakan versi yang tidak up to date, sehingga jika ingin menggunakan PowerTunnel terbaru dapat menimpa file PowerTunnel tersebut.
-3. Jika terasa berat, dapat menggunakan Custom DNS
 
 ## PowerTunnel
 
