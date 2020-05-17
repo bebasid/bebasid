@@ -230,7 +230,8 @@
 185.165.243.200 t.nhentai.net i.nhentai.net webseed.nhentai.net
 
 # [gelbooru.com]
-67.202.114.141 gelbooru.com www.gelbooru.com
+208.100.28.56 gelbooru.com www.gelbooru.com
+172.64.130.27 img1.gelbooru.com
 212.8.240.5 img2.gelbooru.com simg3.gelbooru.com
 
 # [omegle.com]
@@ -2587,6 +2588,7 @@
 
 # [watchasian.to]
 104.27.207.92 watchasian.to www.watchasian.to www4.watchasian.to
+104.27.206.92 embed.watchasian.to
 
 # [jav.land]
 104.18.62.209 jav.land www.jav.land
@@ -2683,3 +2685,6 @@
 
 # [redgifs.com]
 99.86.230.34 redgifs.com www.redgifs.com
+
+# [zenra.net]
+66.199.190.206 zenra.net www.zenra.net
