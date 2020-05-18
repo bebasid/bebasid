@@ -18,26 +18,29 @@ Berikut beberapa aplikasi yang bisa digunakan untuk membypass throttling DPI unt
     
 ## Windows
 
+- [bebasit](https://github.com/bebasid/bebasit/releases/download/v1.0/bebasit-win.zip) - [[Tutorial]](https://bebasid.github.io/bebasit/#install-win)
 - [GoodbyeDPI](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gdpi.zip) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#goodbyedpi)
 - [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#powertunnel)
 
-Rekomendasi: GoodbyeDPI
+Rekomendasi: bebasit (GoodbyeDPI Method)
 
 ## Linux
 
-- [GreenTunnel](https://github.com/bebasid/bebasid/releases/download/0.0.1/bebasid-gt.zip) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-linux)
+- [bebasit](https://bebasid.github.io/bebasit/) - [[Tutorial]](https://bebasid.github.io/bebasit/#install-lin)
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#powertunnel)
 - [zapret](https://github.com/bol-van/zapret)
 
-Rekomendasi: GreenTunnel
+Rekomendasi: bebasit (GreenTunnel Method)
 
 ## MacOS
 
-- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel-untuk-mac)
+- [bebasit](https://bebasid.github.io/bebasit/) - [[Tutorial]](https://bebasid.github.io/bebasit/#install-mac)
+- [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#green-tunnel)
 - [PowerTunnel](https://github.com/krlvm/PowerTunnel/releases) - [[Tutorial]](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md#powertunnel)
 
-Rekomendasi: GreenTunnel
+Rekomendasi: bebasit (GreenTunnel Method)
 
 ## Android
 
@@ -65,71 +68,7 @@ Jika diatas tidak mendukung, maka mau tidak mau kamu harus menggunakan VPN - [[T
 
 ## bebasit (Windows, Linux, dan Mac)
 
-Petunjuk instalasi dan pemakaian bebasit dapat dilihat [di sini](http://two-ply-mixtures.000webhostapp.com/bebasit.html)
-
-## VPN
-
-### Bahan:
-- [bebasid](https://bebasid.github.io/)
-- [OpenVPN GUI](https://openvpn.net/community-downloads)
-- Config Server 1 [Indonesia TCPVPN](https://www.tcpvpn.com/vpn-server-indonesia)
-- Alternatif Config Server 2 [VPNBook](https://www.vpnbook.com/)
-- Alternatif Config Server 3 [VPN Jantit](https://www.vpnjantit.com/free-openvpn.html)
-- Alternatif Config Server 4 [ListVPN](https://www.listvpn.net/free-vpn-pptp-l2tp-asia)
-- Alternatif Config Server 5 [FreeVPN](https://freevpn.me/accounts/)
-- Alternatif Config Server 6 [SSHagan](https://www.sshagan.net/?page=vpn-servers)
-
-### Langkah:
-1. Buat SSH Indonesia di TCPVPN
-2. Isi Username dan Password
-
-```
-Account has been successfully created !
-
-Username :
-Password :
-IP :
-```
-
-3. Lihat di bawah halaman sampai ada pilihan download config .ovpn
-4. Ekstrak file di folder anda
-5. Buka OpenVPN GUI lalu import file hasil ekstrak tadi (yang ada 443)
-6. Isi Username dan Password sesuai dengan langkah kedua (sesuai dengan SSH anda)
-7. Sambungkan koneksi dan pilih 443
-8. Selesai, selamat menonton
-
-### Rekomendasi Server:
-- TCP VPN ID1
-- TCP VPN ID2
-
-Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
-
-## Wireguard
-
-### Bahan:
-- [Wireguard](https://www.wireguard.com/install/)
-- Config Server 1 [Wireguard Netflix/Torrent](https://www.fastssh.com/page/wireguard-servers/)
-- Alternatif Config Server 2 [AzireVPN](https://www.azirevpn.com/cfg/wireguard)
-- Alternatif Config Server 3 [Cryptostorm](https://cryptostorm.is/wireguard)
-- Alternatif Config Server 4 [TunSafe](https://tunsafe.com/vpn)
-
-### Langkah:
-1. Buat config Wireguard Netflix/Torrent
-2. Isi Username dan Password
-
-```
-[+] Username has been successfully created
-[+] setting an expired date.....
-[+] Account valid until ~
-[+] Account is ready to use, please check the detail below:
-```
-
-3. Lihat di bawah halaman sampai ada pilihan copy dan download config
-4. Download config dengan format .conf
-5. Buka Wireguard lalu import file yang didownload tadi
-6. Isi Username dan Password sesuai dengan langkah kedua
-7. Sambungkan koneksi
-8. Selesai, selamat menonton
+Petunjuk instalasi dan pemakaian bebasit dapat dilihat [di sini](https://bebasid.github.io/bebasit/)
 
 ## GoodbyeDPI
 
@@ -143,6 +82,47 @@ Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
 3. Selesai, selamat menonton
 
 Note: Jangan tutup selama masih streaming, untuk versi aplikasi dari store masih belum bisa, hanya melalui browser saja
+
+## Green Tunnel
+
+### Bahan
+- NodeJS
+- Green Tunnel
+
+### Langkah (GUI)
+1. Buka aplikasi Green Tunnel
+2. Nyalakan Green Tunnel
+
+### Langkah (CLI)
+1. Buka terminal
+2. Buka Green Tunnel
+```
+$ gt
+```
+
+Referensi
+```
+$ gt --help
+Usage: green-tunnel [options]
+Usage: gt [options]
+
+Options:
+  --help, -h      Show help                                            [boolean]
+  --version, -V   Show version number                                  [boolean]
+  --ip            ip address to bind proxy server[string] [default: "127.0.0.1"]
+  --port          port address to bind proxy server     [number] [default: 8000]
+  --dns-type               [string] [choices: "https", "tls"] [default: "https"]
+  --dns-server        [string] [default: "https://cloudflare-dns.com/dns-query"]
+  --silent, -s    run in silent mode                  [boolean] [default: false]
+  --verbose, -v   debug mode                              [string] [default: ""]
+  --system-proxy  automatic set system-proxy           [boolean] [default: true]
+
+Examples:
+  gt
+  gt --ip 127.0.0.1 --port 8000
+  gt --dns-server https://doh.securedns.eu/dns-query
+  gt --verbose 'green-tunnel:proxy*'
+```
 
 ## PowerTunnel
 
@@ -220,3 +200,67 @@ Available params:
  -disable-updater - disables the update notifier
  -debug - enables debug
 ```
+
+## VPN
+
+### Bahan:
+- [bebasid](https://bebasid.github.io/)
+- [OpenVPN GUI](https://openvpn.net/community-downloads)
+- Config Server 1 [Indonesia TCPVPN](https://www.tcpvpn.com/vpn-server-indonesia)
+- Alternatif Config Server 2 [VPNBook](https://www.vpnbook.com/)
+- Alternatif Config Server 3 [VPN Jantit](https://www.vpnjantit.com/free-openvpn.html)
+- Alternatif Config Server 4 [ListVPN](https://www.listvpn.net/free-vpn-pptp-l2tp-asia)
+- Alternatif Config Server 5 [FreeVPN](https://freevpn.me/accounts/)
+- Alternatif Config Server 6 [SSHagan](https://www.sshagan.net/?page=vpn-servers)
+
+### Langkah:
+1. Buat SSH Indonesia di TCPVPN
+2. Isi Username dan Password
+
+```
+Account has been successfully created !
+
+Username :
+Password :
+IP :
+```
+
+3. Lihat di bawah halaman sampai ada pilihan download config .ovpn
+4. Ekstrak file di folder anda
+5. Buka OpenVPN GUI lalu import file hasil ekstrak tadi (yang ada 443)
+6. Isi Username dan Password sesuai dengan langkah kedua (sesuai dengan SSH anda)
+7. Sambungkan koneksi dan pilih 443
+8. Selesai, selamat menonton
+
+### Rekomendasi Server:
+- TCP VPN ID1
+- TCP VPN ID2
+
+Note: Hanya aktif selama 5 hari saja. (Jika mati, bisa buat ulang).
+
+## Wireguard
+
+### Bahan:
+- [Wireguard](https://www.wireguard.com/install/)
+- Config Server 1 [Wireguard Netflix/Torrent](https://www.fastssh.com/page/wireguard-servers/)
+- Alternatif Config Server 2 [AzireVPN](https://www.azirevpn.com/cfg/wireguard)
+- Alternatif Config Server 3 [Cryptostorm](https://cryptostorm.is/wireguard)
+- Alternatif Config Server 4 [TunSafe](https://tunsafe.com/vpn)
+
+### Langkah:
+1. Buat config Wireguard Netflix/Torrent
+2. Isi Username dan Password
+
+```
+[+] Username has been successfully created
+[+] setting an expired date.....
+[+] Account valid until ~
+[+] Account is ready to use, please check the detail below:
+```
+
+3. Lihat di bawah halaman sampai ada pilihan copy dan download config
+4. Download config dengan format .conf
+5. Buka Wireguard lalu import file yang didownload tadi
+6. Isi Username dan Password sesuai dengan langkah kedua
+7. Sambungkan koneksi
+8. Selesai, selamat menonton
