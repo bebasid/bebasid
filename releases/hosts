@@ -2698,7 +2698,26 @@
 104.26.8.236 www4.dramanice.movie www6.dramanice.movie embed.dramanice.movie
 
 # [cityxguide.com]
-104.27.193.92 cityxguide.com www.cityxguide.com
+104.27.192.92 cityxguide.com www.cityxguide.com my2.cityxguide.com my3.cityxguide.com b.cityxguide.com web.cityxguide.com x.cityxguide.com my.cityxguide.com
+184.105.148.223 img111.cityxguide.com image03.cityxguide.com images.cityxguide.com
+62.210.206.151 img114a.cityxguide.com img114au.cityxguide.com
+184.105.148.225 chat.cityxguide.com gallery.cityxguide.com
+94.130.237.34 img112a.cityxguide.com
+167.114.158.79 img113a.cityxguide.com
+62.210.215.5 img115a.cityxguide.com
+94.130.88.92 img112b.cityxguide.com
+167.114.158.82 img113b.cityxguide.com
+62.210.206.226 img114b.cityxguide.com
+62.210.206.238 img115b.cityxguide.com
+176.9.27.229 img112c.cityxguide.com
+88.198.90.103 img112d.cityxguide.com
+167.114.173.83 img112e.cityxguide.com
+184.105.148.226 forum.cityxguide.com
 
 # [chatterbate.io]
 104.18.42.17 chatterbate.io www.chatterbate.io
+
+# [yifysubtitles.com]
+193.200.241.149 webdisk.yifysubtitles.com cpanel.yifysubtitles.com mail.yifysubtitles.com webmail.yifysubtitles.com autodiscover.yifysubtitles.com subtitleswww.yifysubtitles.com
+104.26.15.136 yifysubtitles.com
+104.26.14.136 www.yifysubtitles.com
