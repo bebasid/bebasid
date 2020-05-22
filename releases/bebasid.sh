@@ -169,9 +169,8 @@ perbarui_aplikasi_bebasid(){
   echo
   echo "Memulai pengambilan script bash BEBASID"
   echo
-  curl_wget http://two-ply-mixtures.000webhostapp.com/?geturl=app "--silent" "-qO- --quiet"
   dir=/usr/local/bin/bebasid
-  curl_wget $($ambil) "-o $dir --progress-bar" "-O $dir -q --show-progress --progress=bar:force"
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh "-o $dir --progress-bar" "-O $dir -q --show-progress --progress=bar:force"
   if $ambil ; then
     echo
     echo "Berhasil mengunduh script aplikasi BEBASID"
@@ -353,12 +352,12 @@ mulai_bebasid_tunnel(){
       exit 1
     fi
     if [[ "$1" == "Green Tunnel" ]]; then
-      dns=$(curl https://two-ply-mixtures.000webhostapp.com/gt.php?id=$i --silent)
+      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=gt&n=$i" --silent)
       loadin 0.01 "[$i] Mendapatkan DNS $dns"
       echo "Tunnel: Green Tunnel"
       tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server $dns --system-proxy false --silent true -v 'green-tunnel:*'" Enter
     elif [[ "$1" == "PowerTunnel" ]]; then
-      dns=$(curl https://two-ply-mixtures.000webhostapp.com/pt.php?id=$i --silent)
+      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=pt&n=$i" --silent)
       loadin 0.01 "[$i] Mendapatkan DNS $dns"
       echo "Tunnel: PowerTunnel"
       db="https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt"
@@ -500,7 +499,7 @@ echo "Berhasil memasang hosts bawaan Linux"
 grep_ip(){
   echo "Mengambil IP dari $domain"
   echo
-  curl_wget http://two-ply-mixtures.000webhostapp.com/?domain=$domain "" "-qO-"
+  curl_wget https://bebasid.herokuapp.com/?get=unblock&domain=$domain "" "-qO-"
   ip=$($ambil)
   if ! [[ "$ip" =~ ^(([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))\.){3}([1-9]?[0-9]|1[0-9][0-9]|2([0-4][0-9]|5[0-5]))$ ]]; then
   echo
