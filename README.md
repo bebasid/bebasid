@@ -28,8 +28,8 @@
 
 - [Daftar Isi](#daftar-isi)
 - [bebasid](#bebasid)
-  - [Graphical user interface (GUI)](#graphical-user-interface-gui)
-  - [Command-line interface (CLI)](#command-line-interface-cli)
+  - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
+  - [Command Line Interface (CLI)](#command-line-interface-cli)
   - [Netflix](#netflix)
 - [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
 - [Soal Sering Ditanyakan](#soal-sering-ditanyakan)
@@ -42,11 +42,15 @@
 
 bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
 
-### Graphical user interface (GUI)
+### Terminal User Interface (TUI)
 
-Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin). Untuk saat ini, Bebasin masih dalam tahap eksperimen.
+Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
-### Command-line interface (CLI)
+![Bebasin di Windows 10](https://i.imgur.com/PFC9uEO.png)
+
+*Bebasin di Windows 10*
+
+### Command Line Interface (CLI)
 
 Untuk panduan penggunaan versi CLI, silakan menuju [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 

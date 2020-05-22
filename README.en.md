@@ -28,12 +28,12 @@
 
 - [Table of Content](#table-of-content)
 - [bebasid](#bebasid)
-  - [Graphical user interface (GUI)](#graphical-user-interface-gui)
-  - [Command-line interface (CLI)](#command-line-interface-cli)
+  - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
+  - [Command Line Interface (CLI)](#command-line-interface-cli)
   - [Netflix](#netflix)
 - [Contributing, Question and Request](#contributing-question-and-request)
 - [Frequently Asked Question](#frequently-asked-question)
-- [Buy Us a Coffee](#buy-us-a-coffee)
+- [Support Us!](#support-us)
 - [License](#license)
 
 ---
@@ -42,11 +42,15 @@
 
 bebasid helps you to access restricted content that are blocked by the Indonesian government by using [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
 
-### Graphical user interface (GUI)
+### Terminal User Interface (TUI)
 
-You can use [Bebasin](https://github.com/bebasid/bebasin). Currently, Bebasin is in experimental stage.
+You can use [Bebasin](https://github.com/bebasid/bebasin).
 
-### Command-line interface (CLI)
+![Bebasin in Windows 10](https://i.imgur.com/PFC9uEO.png)
+
+*Bebasin in Windows 10*
+
+### Command Line Interface (CLI)
 
 See the [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines.
 
