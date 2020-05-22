@@ -1,0 +1,31 @@
+name: Sync
+on:
+  push:
+    branch: master
+jobs:
+  validate:
+    name: Sync with bebasin
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Sync with Bebasin
+        run: |
+          LAST_COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
+
+          git config --global user.email "andra.antariksa@gmail.com"
+          git config --global user.name "Aaabot"
+          git clone https://aaabot:${{ secrets.ACCESS_TOKEN }}@github.com/bebasid/bebasin.git ../bebasin
+
+          # If hosts is different
+          if ! cmp ../bebasin/misc/hosts releases/hosts >/dev/null 2>&1
+          then
+            cp releases/hosts ../bebasin/misc/hosts
+
+            cd ../bebasin
+            git remote set-url origin https://aaabot:${{ secrets.ACCESS_TOKEN }}@github.com/bebasid/bebasin.git
+            git add misc/hosts
+            git commit -m "Sync with bebasin: " -m "${LAST_COMMIT_MESSAGE}"
+
+            git push origin master
+          fi
