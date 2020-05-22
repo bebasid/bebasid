@@ -1,0 +1,15 @@
+name: ci
+on:
+  pull_request:
+  push:
+jobs:
+  validate:
+    name: Validate Hosts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v1
+      - name: Download validator
+        run: wget https://github.com/andraantariksa/hosts-validator/releases/download/v0.1/hosts-validator-linux.zip && unzip hosts-validator-linux.zip
+      - name: Validate hosts
+        run: sudo chmod +x hosts-validator && ./hosts-validator $(pwd)/releases/hosts
