@@ -1,7 +1,7 @@
 name: Validate
 on:
-  pull_request:
   push:
+  pull_request:
 jobs:
   validate:
     name: Validate Hosts
@@ -13,3 +13,11 @@ jobs:
         run: wget https://github.com/andraantariksa/hosts-validator/releases/download/v0.1/hosts-validator-linux.zip && unzip hosts-validator-linux.zip
       - name: Validate hosts
         run: sudo chmod +x hosts-validator && ./hosts-validator $(pwd)/releases/hosts
+      - name: Comment on Pull Requests
+        if: ${{ failure() && github.event_name == 'pull_request' }}
+        uses: unsplash/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          msg: "There's an error in the hosts grammar, please fix the error so we can merge the pull requests"
+          check_for_duplicate_msg: true
