@@ -1,4 +1,7 @@
 name: Validate
+on:
+  push:
+  pull_request:
 jobs:
   validate:
     name: Validate Hosts
@@ -11,6 +14,8 @@ jobs:
       - name: Validate hosts
         run: sudo chmod +x hosts-validator && ./hosts-validator $(pwd)/releases/hosts
   comment:
+    name: Comment if the hosts grammar are wrong
+    needs: validate
     if: ${{ failure() && github.event.pull_request == 'pull_request' }}
     runs-on: ubuntu-latest
     steps:
