@@ -11,8 +11,8 @@
     <img src="https://img.shields.io/github/contributors/bebasid/bebasid?style=flat-square">
 </p>
 <p align="center">
-    <a href="https://dev.azure.com/andraantariksa/Bebasin/_build/latest?definitionId=4&branchName=master">
-        <img src="https://dev.azure.com/andraantariksa/Bebasin/_apis/build/status/bebasid.bebasid?branchName=master" alt="Build status" />
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate">
+        <img src="https://github.com/bebasid/bebasid/workflows/Validate/badge.svg" alt="Hosts status" />
     </a>
 </p>
 <p align="center">
