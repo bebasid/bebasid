@@ -46,9 +46,9 @@ bebasid helps you to access restricted content that are blocked by the Indonesia
 
 You can use [Bebasin](https://github.com/bebasid/bebasin).
 
-![Bebasin in Windows 10](https://i.imgur.com/PFC9uEO.png)
+![Bebasin in Windows 10](https://i.imgur.com/reZApao.png)
 
-*Bebasin in Windows 10*
+*Tested Bebasin in Windows 10*
 
 ### Command Line Interface (CLI)
 
