@@ -46,9 +46,9 @@ bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah I
 
 Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
-![Bebasin di Windows 10](https://i.imgur.com/PFC9uEO.png)
+![Bebasin di Windows 10](https://i.imgur.com/reZApao.png)
 
-*Bebasin di Windows 10*
+*Diujikan Bebasin di Windows 10*
 
 ### Command Line Interface (CLI)
 
