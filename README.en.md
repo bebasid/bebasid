@@ -44,7 +44,7 @@ bebasid helps you to access restricted content that are blocked by the Indonesia
 
 ### Terminal User Interface (TUI)
 
-You can use [Bebasin](https://github.com/bebasid/bebasin).
+If you want to use Bebasin, checkout [here](https://github.com/bebasid/bebasin).
 
 ![Bebasin in Windows 10](https://i.imgur.com/reZApao.png)
 
@@ -80,4 +80,5 @@ bebasid is licensed under [MIT license](https://github.com/bebasid/bebasid/blob/
 
 ---
 
+## Terms & Conditions
 By using this application, you are agree to follow the rules that we create and agree to take any risks caused. For the detail, See for the [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
