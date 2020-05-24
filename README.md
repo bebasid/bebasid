@@ -79,5 +79,6 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim 
 bebasid [terlisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE)
 
 ---
+## Syarat & Ketentuan
 
 Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
