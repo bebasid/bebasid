@@ -26,6 +26,20 @@ Jika menemukan bug atau ingin melakukan request feature baru, dapat dilakukan de
 3b. Dengan DNS Resolver, jalankan `dnscrypt-proxy -resolve url.com`  di terminal/command line, hasil IP akan ditampilkan di layar. *(Contoh perintah resolving dengan dnscrypt)*
 4. Tambahkan ke hosts dengan format `ipaddress url.com`.
 
+### Ringkasan komit untuk berkas hosts
+
+Untuk memudahkan melakukan pencarian di riwayat komit, mohon menggunakan format ringkasan komit sebagai berikut:
+
+```
+A: example.com/Nama situs web
+M: example.com/Nama situs web
+D: example.com/Nama situs web
+```
+* `A` berarti "Add"
+* `M` berarti "Modify"
+* `D` berarti "Delete"
+* Protokol HTTP/HTTPS tidak perlu ditambahkan ke ringkasan komit.
+
 #### Referensi
 * Untuk VPN dapat menggunakan OpenVPN dan profile dari [tcpvpn.com](https://tcpvpn.com), gunakan profile Indonesia untuk memastikan IP Address yang didapat adalah IP Address untuk akses dari Indonesia.
 * Untuk DNS Resolver dapat menggunakan [DNSCrypt](https://www.dnscrypt.org/). 
