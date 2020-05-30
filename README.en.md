@@ -2,21 +2,9 @@
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
-    <img src="https://img.shields.io/github/license/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/stars/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/forks/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/issues-closed/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/last-commit/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?style=flat-square">
-    <img src="https://img.shields.io/github/contributors/bebasid/bebasid?style=flat-square">
-</p>
-<p align="center">
-    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate">
-        <img src="https://github.com/bebasid/bebasid/workflows/Validate/badge.svg" alt="Hosts status" />
-    </a>
-</p>
-<p align="center">
-    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&color=7388d9"></a>
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validate" alt="Hosts status"></a>
+    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?logo=discord&logoColor=fff&label=Discord&color=7388d9"  alt="Discord status"></a>
+    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
 </p>
 <p align="center">
     <a href="README.md">Baca README dalam Bahasa Indonesia disini</a>
