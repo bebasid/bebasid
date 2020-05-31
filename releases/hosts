@@ -1627,9 +1627,6 @@
 # [javfinder.is]
 104.18.41.224 javfinder.is www.javfinder.is www5.javfinder.is
 
-# [javfinder.sh]
-104.27.134.159 javfinder.sh www.javfinder.sh www5.javfinder.sh
-
 # [mywife.cc]
 133.242.235.248 mywife.cc www.mywife.cc biglobe.mywife.cc
 39.110.205.226 cp.mywife.cc st.mywife.cc
@@ -2432,7 +2429,10 @@
 104.26.12.200 realdoll.com www.realdoll.com
 
 # [javfinder.sh]
-104.24.110.82 javfinder.sh www.javfinder.sh
+104.27.134.159 javfinder.sh www.javfinder.sh www5.javfinder.sh
+
+# [javfinder.la]
+104.27.193.93 javfinder.la www.javfinder.la
 
 # [openloadpro.com]
 104.31.88.181 openloadpro.com www.openloadpro.com
