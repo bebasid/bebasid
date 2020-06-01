@@ -1696,7 +1696,8 @@
 104.26.7.100 raws.mangazuki.co
 
 # [thisvid.com]
-185.56.235.5 thisvid.com www.thisvid.com
+185.56.235.4 thisvid.com www.thisvid.com ns1.thisvid.com ns2.thisvid.com media.thisvid.com ns1.media.thisvid.com ns2.media.thisvid.com hostmaster.media.thisvid.com mta-sts.media.thisvid.com hostmaster.thisvid.com analytics.thisvid.com mta-sts.thisvid.com 
+88.208.3.202 ds4519-2.thisvid.com ds4519-3.thisvid.com ds4519.thisvid.com
 88.208.31.24 jupiter.thisvid.com jupiter1.thisvid.com jupiter2.thisvid.com jupiter3.thisvid.com
 
 # [bitporno.com]
@@ -2429,7 +2430,10 @@
 104.26.12.200 realdoll.com www.realdoll.com
 
 # [javfinder.sh]
-104.24.110.82 javfinder.sh www.javfinder.sh
+104.27.134.159 javfinder.sh www.javfinder.sh www5.javfinder.sh
+
+# [javfinder.la]
+104.27.193.93 javfinder.la www.javfinder.la
 
 # [openloadpro.com]
 104.31.88.181 openloadpro.com www.openloadpro.com
@@ -2734,6 +2738,7 @@
 104.31.66.89 drakorindo.co
 104.27.132.36 drakorindo.cc
 
+<<<<<<< HEAD
 #[kickasstorrent.to]
 104.22.33.168 kickasstorrents.to
 104.28.25.12 thekickasstorrents.to
@@ -2742,3 +2747,29 @@
 104.27.149.129 kickasstorrent.cr
 199.59.242.153 kat.ph
 172.67.143.252 kat.am
+=======
+# [kickasstorrent.to]
+104.247.81.53 kickasstorrents.to
+185.53.177.53 www.kickasstorrent.to
+104.28.25.12 thekickasstorrents.to
+91.195.240.126 kickass. www.kickass.cr
+104.27.152.155 katcr.to
+104.31.16.3 www.katcr.to
+104.28.0.114 kickasstorrent.cr www.kickasstorrent.cr
+199.59.242.153 kat.ph www.kat.ph srv90.kat.ph ns1.kat.ph ns2.kat.ph ns3.kat.ph ns5.kat.ph srv88.kat.ph lite.kat.ph mail.kat.ph fr.kat.ph es.kat.ph it.kat.ph pt.kat.ph ext.kat.ph se1.ext.kat.ph nl1.ext.kat.ph ns1.ext.kat.ph us1.ext.kat.ph ns2.ext.kat.ph ns3.ext.kat.ph ns4.ext.kat.ph ns5.ext.kat.ph ru.kat.ph
+104.24.112.92 kat.am www.kat.am
+
+# [pornoslon.me]
+5.45.67.119 pornoslon.me www.pornoslon.me img00.pornoslon.me img01.pornoslon.me ns1.pornoslon.me img02.pornoslon.me ns2.pornoslon.me img03.pornoslon.me ns3.pornoslon.me img04.pornoslon.me img05.pornoslon.me ns5.pornoslon.me img06.pornoslon.me img07.pornoslon.me img08.pornoslon.me img09.pornoslon.me
+5.45.76.148 ns4.pornoslon.me
+
+# [camvideos.me]
+104.26.9.144 camvideos.me
+104.26.8.144 www.camvideos.me
+
+# [pervmom.com]
+104.28.25.66 pervmom.com
+104.28.24.66 www.pervmom.com m.pervmom.com
+66.254.109.5 join.pervmom.com
+66.254.111.26 members.pervmom.com
+>>>>>>> 8db08152faad6b9e871bb5fa4f3ea7b06b031c73
