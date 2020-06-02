@@ -11,19 +11,19 @@
 # 216.58.211.3 www.google.com
 # 216.58.211.3 google.co.id
 # 216.58.211.3 www.google.co.id
-# 127.0.0.1 forcesafesearch.google.com
+# 0.0.0.0 forcesafesearch.google.com
 # 216.239.38.120 restrict.youtube.com
 
 # [BLOCK INTERNET POSITIF]
-# 127.0.0.1 cfs.uzone.id
-# 127.0.0.1 internetpositif.uzone.id
-# 127.0.0.1 uzone.id
-# 127.0.0.1 cfs2.uzone.id
-# 127.0.0.1 u-ad.info
-# 127.0.0.1 cfs.u-ad.info
-# 127.0.0.1 cfs2.uadexchange.com
-# 127.0.0.1 www.internetpositif.uzone.id
-# 127.0.0.1 www.uzone.id
+# 0.0.0.0 cfs.uzone.id
+# 0.0.0.0 internetpositif.uzone.id
+# 0.0.0.0 uzone.id
+# 0.0.0.0 cfs2.uzone.id
+# 0.0.0.0 u-ad.info
+# 0.0.0.0 cfs.u-ad.info
+# 0.0.0.0 cfs2.uadexchange.com
+# 0.0.0.0 www.internetpositif.uzone.id
+# 0.0.0.0 www.uzone.id
 
 # [MacOS localhost]
 # 127.0.0.1 localhost
@@ -54,8 +54,7 @@
 # Mulai hosts bebasid
 
 # [reddit.com]
-151.101.129.140 reddit.com
-151.101.53.140 www.reddit.com
+151.101.129.140 reddit.com www.reddit.com
 151.101.1.140 np.reddit.com
 151.101.1.140 bt.reddit.com
 151.101.1.140 m.reddit.com
@@ -65,13 +64,13 @@
 151.101.1.140 about.reddit.com
 151.101.1.140 st.reddit.com
 151.101.1.140 ssl.reddit.com
-151.101.1.140 oauth.reddit.com
+151.101.65.140 oauth.reddit.com
 151.101.1.140 out.reddit.com
 151.101.1.140 origin.reddit.com
 151.101.1.140 old.reddit.com
 151.101.1.140 sendbird.reddit.com
 151.101.1.140 new.reddit.com
-151.101.1.140 gateway.reddit.com
+151.101.65.140 gateway.reddit.com
 151.101.1.140 events.reddit.com
 52.44.97.90 alb.reddit.com
 151.101.129.140 en.reddit.com
@@ -168,8 +167,10 @@
 151.101.1.140 us.reddit.com
 151.101.1.140 fr.reddit.com
 151.101.1.140 252fwww.reddit.com
-151.101.53.140 www.redditstatic.com
+151.101.65.140 www.redditstatic.com redditstatic.com
 151.101.53.140 i.redd.it
+151.101.65.140 styles.reddit.com
+151.101.65.140 aib.reddit.com
 
 # [twitter.com]
 93.184.220.70 pbs.twimg.com
@@ -228,6 +229,7 @@
 104.27.205.92 nhentai.net www.nhentai.net
 104.27.204.92 static.nhentai.net
 185.165.243.200 t.nhentai.net i.nhentai.net webseed.nhentai.net
+172.67.220.167 nhent.ai
 
 # [gelbooru.com]
 67.202.114.141 gelbooru.com www.gelbooru.com
@@ -2762,3 +2764,13 @@
 104.28.24.66 www.pervmom.com m.pervmom.com
 66.254.109.5 join.pervmom.com
 66.254.111.26 members.pervmom.com
+
+#[porn.com]
+67.22.49.255 porn.com www.porn.com
+67.22.40.210 delivery.porn.com
+67.22.49.25 pornpremium.com
+
+#[minioppai.org]
+104.31.74.242 minioppai.org
+172.67.161.81 www.minioppai.org
+208.93.230.24 ust.chatango.com
