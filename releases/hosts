@@ -11,19 +11,19 @@
 # 216.58.211.3 www.google.com
 # 216.58.211.3 google.co.id
 # 216.58.211.3 www.google.co.id
-# 127.0.0.1 forcesafesearch.google.com
-# 216.239.38.120 restrict.youtube.com
+# 0.0.0.0 forcesafesearch.google.com
+# 0.0.0.0 restrict.youtube.com
 
 # [BLOCK INTERNET POSITIF]
-# 127.0.0.1 cfs.uzone.id
-# 127.0.0.1 internetpositif.uzone.id
-# 127.0.0.1 uzone.id
-# 127.0.0.1 cfs2.uzone.id
-# 127.0.0.1 u-ad.info
-# 127.0.0.1 cfs.u-ad.info
-# 127.0.0.1 cfs2.uadexchange.com
-# 127.0.0.1 www.internetpositif.uzone.id
-# 127.0.0.1 www.uzone.id
+# 0.0.0.0 cfs.uzone.id
+# 0.0.0.0 internetpositif.uzone.id
+# 0.0.0.0 uzone.id
+# 0.0.0.0 cfs2.uzone.id
+# 0.0.0.0 u-ad.info
+# 0.0.0.0 cfs.u-ad.info
+# 0.0.0.0 cfs2.uadexchange.com
+# 0.0.0.0 www.internetpositif.uzone.id
+# 0.0.0.0 www.uzone.id
 
 # [MacOS localhost]
 # 127.0.0.1 localhost
@@ -167,7 +167,7 @@
 151.101.1.140 us.reddit.com
 151.101.1.140 fr.reddit.com
 151.101.1.140 252fwww.reddit.com
-151.101.65.140 www.redditstatic.com redditstatic.com
+151.101.65.140 redditstatic.com www.redditstatic.com
 151.101.53.140 i.redd.it
 151.101.65.140 styles.reddit.com
 151.101.65.140 aib.reddit.com
