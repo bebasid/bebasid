@@ -12,7 +12,7 @@
 # 216.58.211.3 google.co.id
 # 216.58.211.3 www.google.co.id
 # 0.0.0.0 forcesafesearch.google.com
-# 216.239.38.120 restrict.youtube.com
+# 0.0.0.0 restrict.youtube.com
 
 # [BLOCK INTERNET POSITIF]
 # 0.0.0.0 cfs.uzone.id
@@ -167,7 +167,7 @@
 151.101.1.140 us.reddit.com
 151.101.1.140 fr.reddit.com
 151.101.1.140 252fwww.reddit.com
-151.101.65.140 www.redditstatic.com redditstatic.com
+151.101.65.140 redditstatic.com www.redditstatic.com
 151.101.53.140 i.redd.it
 151.101.65.140 styles.reddit.com
 151.101.65.140 aib.reddit.com
@@ -1698,8 +1698,9 @@
 104.26.7.100 raws.mangazuki.co
 
 # [thisvid.com]
-185.56.235.4 thisvid.com www.thisvid.com          
-118.97.116.27 media.thisvid.com
+185.56.235.4 thisvid.com www.thisvid.com ns1.thisvid.com ns2.thisvid.com media.thisvid.com ns1.media.thisvid.com ns2.media.thisvid.com hostmaster.media.thisvid.com mta-sts.media.thisvid.com hostmaster.thisvid.com analytics.thisvid.com mta-sts.thisvid.com 
+88.208.3.202 ds4519-2.thisvid.com ds4519-3.thisvid.com ds4519.thisvid.com
+88.208.31.24 jupiter.thisvid.com jupiter1.thisvid.com jupiter2.thisvid.com jupiter3.thisvid.com
 
 # [bitporno.com]
 51.91.62.129 bitporno.com www.bitporno.com
@@ -2692,7 +2693,9 @@
 
 # [redgifs.com]
 99.86.230.34 redgifs.com www.redgifs.com
-13.227.73.42 thumbs.redgifs.com
+52.54.99.135 thumbs.redgifs.com
+54.210.249.247 api.redgifs.com
+52.55.75.178 fat.redgifs.com
 
 # [zenra.net]
 66.199.190.206 zenra.net www.zenra.net
@@ -2773,6 +2776,3 @@
 104.31.74.242 minioppai.org
 172.67.161.81 www.minioppai.org
 208.93.230.24 ust.chatango.com
-
-# [camvideos.me]
-104.26.8.144 camvideos.me wwww.camvideos.me
