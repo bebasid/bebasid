@@ -12,7 +12,7 @@ bebasid_banner(){
 }
 about(){
   echo "Name of File  : bebasid.sh [BETA for Darwin]"
-  echo "Version       : 2020.5 [Wicaksana] Linux/Darwin Version"
+  echo "Version       : 2020.6 SE [Mas Agus dan Mas Pras] Linux/Darwin Version"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
@@ -56,6 +56,9 @@ bantuan(){
     echo "  install"
     echo "    gt      : Memasang Green Tunnel"
     echo "    pt      : Memasang PowerTunnel"
+    echo "  uninstall"
+    echo "    gt      : Mencopot Green Tunnel"
+    echo "    pt      : Mencopot PowerTunnel"
     echo "block"
     echo "  [website] : Memblokir akses ke [website] (ops)" 
     echo "unblock"
@@ -364,7 +367,7 @@ mulai_bebasid_tunnel(){
       tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -use-doh-resolver $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup" Enter
     fi
     loadin 0.01 "Mengetes Koneksi $1 ke Netflix"
-    sleep 5
+    sleep 10
     if curl -x "http://127.0.0.1:$random" https://www.netflix.com --max-time 10; then
       echo "Berhasil melakukan koneksi dengan Netflix"
       bisa="ya"
@@ -411,11 +414,43 @@ berhentikan_bebasid_tunnel(){
   tmux kill-session -t bebasid-tunnel
 }
 pasang_aplikasi_bypass_dpi(){
-  dir="install-gt.sh"
-  curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/dependencies-installer.sh "-o $dir --silent" "-O $dir -q --quiet"
+  dir="bebasit-installer.sh"
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/sh/bebasit-installer.sh "-o $dir --silent" "-O $dir -q --quiet"
   $ambil
-  bash ./install-gt.sh $1
-  rm -rf install-gt.sh $1
+  bash ./bebasit-installer.sh $1
+  rm -rf bebasit-installer.sh $1
+}
+
+hapus_aplikasi_bypass_dpi(){
+  dir="bebasit-uninstaller.sh"
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/sh/bebasit-uninstaller.sh "-o $dir --silent" "-O $dir -q --quiet"
+  bash ./bebasit-uninstaller.sh $1
+  rm -rf bebasit-uninstaller.sh $1
+}
+
+# =============================================================== #
+
+pasang_paket_bebasid(){
+  perbarui_aplikasi_bebasid
+  pasang_hosts_bebasid
+  pasang_aplikasi_bypass_dpi "green-tunnel"
+  pasang_aplikasi_bypass_dpi "powertunnel"
+}
+
+pasang_ulang_paket_bebasid(){
+  perbarui_aplikasi_bebasid
+  hapus_hosts_bebasid
+  hapus_aplikasi_bypass_dpi "green-tunnel"
+  hapus_aplikasi_bypass_dpi "powertunnel"
+  pasang_hosts_bebasid
+  pasang_aplikasi_bypass_dpi "green-tunnel"
+  pasang_aplikasi_bypass_dpi "powertunnel"
+}
+hapus_paket_bebasid(){
+  hapus_hosts_bebasid
+  hapus_aplikasi_bypass_dpi "green-tunnel"
+  hapus_aplikasi_bypass_dpi "powertunnel"
+  hapus_aplikasi_bebasid
 }
 
 # =============================================================== #
@@ -448,14 +483,14 @@ matikan_safesearch_google(){
   aktifkan_fitur "Matikan fitur SafeSearch Google dan Youtube"
   footer_bebasid_fitur
 }
-#matikan_uzone(){
-#  header_bebasid_fitur
-#  echo "Fitur yang dipilih: Matikan Fitur Internet Positif"
-#  echo
-#  loadin 0.01 "Mencari konfigurasi"
-#  aktifkan_fitur "BLOCK INTERNET POSITIF"
-#  footer_bebasid_fitur
-#}
+matikan_uzone(){
+  header_bebasid_fitur
+  echo "Fitur yang dipilih: Matikan Fitur Internet Positif"
+  echo
+  loadin 0.01 "Mencari konfigurasi"
+  aktifkan_fitur "BLOCK INTERNET POSITIF"
+  footer_bebasid_fitur
+}
 tambahkan_localhost_osx(){
   header_bebasid_fitur
   echo "Fitur yang dipilih: Tambahkan Localhost OSX"
@@ -589,7 +624,7 @@ case $1 in
     echo""
     PS3='Pilih salah satu opsi: '
     echo
-    menuUtama=("Hosts" "Fitur" "Tunnel" "Aplikasi" "Bantuan" "Keluar")
+    menuUtama=("Hosts" "Fitur" "Tunnel" "Aplikasi" "Paket" "Bantuan" "Keluar")
     select menuUtamaOpt in "${menuUtama[@]}"
     do
       case $menuUtamaOpt in
@@ -636,7 +671,7 @@ case $1 in
           echo "+---------------------------------------+"
           echo
           PS3='Pilih salah satu opsi: '
-          menuFitur=("Matikan Fitur SafeSearch (Google dan Youtube)" "Tambahkan Localhost OSX" "Tambahkan Localhost Linux" "Tambahkan Localhost Android" "Perbaiki Error DNS Not Resolved (Linux)" "Keluar")
+          menuFitur=("Matikan Fitur SafeSearch (Google dan Youtube)" "Matikan Fitur Internet Positif" "Tambahkan Localhost OSX" "Tambahkan Localhost Linux" "Tambahkan Localhost Android" "Perbaiki Error DNS Not Resolved (Linux)" "Keluar")
           select menuFiturOpt in "${menuFitur[@]}"
           do
             case $menuFiturOpt in
@@ -765,6 +800,56 @@ case $1 in
           done
           break
           ;;
+        Paket )
+          echo
+          echo "+---------------------------------------+"
+          echo "|           MENU UTAMA - PAKET          |"
+          echo "+---------------------------------------+"
+          echo
+          PS3='Pilih salah satu opsi: '
+          echo
+          menuPaket=("Pasang Paket BEBASID" "Pasang Ulang Paket BEBASID" "Hapus Paket BEBASID" "Keluar")
+          select menuPaketOpt in "${menuPaket[@]}"
+          do
+            case $menuPaketOpt in
+              "Pasang Paket BEBASID" )
+                echo
+                echo "BEBASID akan menginstal Hosts, Green-Tunnel, PowerTunnel, serta aplikasi yang dibutuhkan"
+                echo "Hal ini membutuhkan waktu yang tidak sebentar sehingga pastikan komputer anda memiliki cukup daya"
+                read -p "Apakah anda yakin ingin melanjutkan? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+                echo
+                pasang_paket_bebasid
+                break
+                ;;
+              "Pasang Ulang Paket BEBASID" )
+                echo
+                echo "BEBASID akan menginstal ulang Hosts, Green-Tunnel, PowerTunnel, serta aplikasi yang dibutuhkan"
+                echo "Hal ini membutuhkan waktu yang tidak sebentar sehingga pastikan komputer anda memiliki cukup daya"
+                read -p "Apakah anda yakin ingin melanjutkan? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+                echo
+                pasang_ulang_paket_bebasid
+                break
+                ;;
+              "Hapus Paket BEBASID" )
+                echo
+                echo "BEBASID akan menghapus Hosts, Green-Tunnel, PowerTunnel, serta aplikasi yang telah terpasang"
+                echo "Hal ini membutuhkan waktu yang tidak sebentar sehingga pastikan komputer anda memiliki cukup daya"
+                echo "Serta hal ini tidak dapat diurungkan"
+                read -p "Apakah anda yakin ingin melanjutkan? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
+                echo
+                hapus_paket_bebasid
+                break
+                ;;
+              #"Menu Sebelumnya" )
+              #  break
+              #  ;;
+              "Keluar" )
+                break
+                ;;
+            esac
+          done
+          break
+          ;;
         Bantuan )
           echo
           bantuan
@@ -836,6 +921,19 @@ case $1 in
           ;;
         pt )
           pasang_aplikasi_bypass_dpi "powertunnel"
+          ;;
+        * )
+          echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
+          ;;
+       esac 
+      ;;
+      uninstall )
+      case $3 in
+        gt )
+          hapus_aplikasi_bypass_dpi "green-tunnel"
+          ;;
+        pt )
+          hapus_aplikasi_bypass_dpi "powertunnel"
           ;;
         * )
           echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
@@ -923,8 +1021,42 @@ case $1 in
     about
     ;;
   "--version" )
-    echo "BEBASID - 2020.5 [Wicaksana] Linux/Darwin Beta Version"
+    echo "BEBASID - 2020.6 SE [Mas Agus dan Mas Pras]"
+    echo "Linux/Darwin Beta Version"
     ;;
+  "--hidden" )
+    echo '                                ╒▓█▓▓███▓W▄╓'
+    echo '                                 ▓▓▀  ▀▓▒▓▓▒█▓▄╖           ,▄▄'
+    echo '                        ╓╗p▓▓▓▓▓▓▓█▄▓▓▓▓▄▄▄▀▀▓▓▓▓▓██▓▓▓▓▓██▀'
+    echo '                   ,▄▓█▓▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓█▓▄▄    ▀▀▀'
+    echo '               ,g▓▓▓▓▓██▓▓▓▓▓▓▓▌▓▓▓▓▓▓▓▓▓▓▓██▓▓█▓▄╖'
+    echo '              ,&▓▓▓▒▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌▓▓▓▓██▓▓▄▄      ╓'
+    echo '            ▄▒▓▓▓▓▓█▓▓▓▓▓▓█▓▓▓▓▒▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒█▓▓▓▀█▀▓▌▓▄.,Æ▒▌'
+    echo '            █▄▓▒▒█▓▌▓▓▓▓▓▓█▓▓▓▓▓▌▀▓▓▓▓▓▓▓▓▓▓▓▓▌▒▒▀▓▒▒▒▓,  ▀▄▒▒▒▀W'
+    echo '          ╣▓▓▓▓▓▓▌▓▓▓▓▓▓▓▒▀▓▒▒▌░▀░▒▀▀▀▀╜▒▒▀▀▒@▓▄▒▒  █▓▓▓▓▓   ▌▒▓█'
+    echo '         ▐▒▓▓▓▓▓▌]▓▓▓▓▓▓█▒▄▓▒▓   ▒▀▒▄▒▒▒▒▒▒▓▓▓▓▓▓▓▓█▓▓▓▓▓▄     █▄'
+    echo '         █▓▓▓▓▓█▒▒▓▓▓▓▀▒▐▒▓▓▌▌     ≡▒░▀▀▒▄▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▄    ▀U'
+    echo '         ▌▓▓█▓▓█▒▒▒▒▒▒▒▒▒█▓▓▓█       ,╓ ▒▒▒▀▀▀▀▀█▓▓▓▓▓▓▓▓▓▓▓▀▄'
+    echo '         █▓▓▌▓▓█▒▒@▓▓▓▄▒▒▒█▓▓▓█              ╓▒∞▀▀▓▓▓▓▓▓▓██▒▄▓▓▄'
+    echo '         ▌▓▓▒▀▓█▒╫▓▓▓▓▓▓▓▒▓▌▀▀▓█▄ ,,▄╖      ▓   ,▒█▓▓▓▓▓▓▓▓▒█▓▓▓▓'
+    echo '         ║▓▓▒▒▄▒▌▒▓▓▓▓▓▓▓▓▓▓▄╖m▀  ¬┌▓U      ▀*▒    ▀▓▓█▓▓▓▓▀▓██▓█▓▄'
+    echo '         └▌▓▌▓▓▓Ñ█▒▓▓▓▓▓▓▓▓▓▓▄   ,⌐┴*         m     █▓▓█▓▓▓▓└▓█╙▓▓▓'
+    echo '          ║H▓▌▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓██,    ░░             █▓▓▓██▓▓▓██ ▐▓▓⌐'
+    echo '           █▓█▓▓▓▓▓Ñ█▓▀▓▓▓▓▓▓▓▓▓▓█▓▄,       ╓¬    ,█ ▀▓▓███▓▓▓▄  ▓█'
+    echo '           └▓▓└▀▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▀█▓░,       ▄▓▓▓▓  ▀▓▓▌ └▓▓ ┌█'
+    echo '            └▓▌ └█▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▒▒▀█░,▄▄▓▓▓└ ▀▓▓▓⌐  █▌   █▌ '
+    echo '              ▀    ▀▓▓▓▓▓█▓▓▓██▓▓▓▒▒▒▓▓▓▓██▓█ ▀▀▓▄   ╙▀⌐  U    Γ'
+    echo '               ╙      ▀▓▓▓█▀▓▓╙▓▓▓▒██▓▓▓▓▓█▓███p»▄          ╓╖'
+    echo '                        ▀▌▒▄╙▓H▐█████████▓█▀    ▓▒ v     g+█▒░█'
+    echo '                          ▀▓ └ ▐█▓▓▓██████▀ U    ▌░ └▄    %▓▄▄▀'
+    echo '                         ,⌐▄     ▀█▌Q⌐  ,█ ,▌    ▓▒   U'
+    echo '                          ≡░▀  ]  ▀█HWª██▌ ▒█    ██   ▐'
+    echo '                          └▄▒▒▓⌐   ▀█  ╙█████▌   ██ ▄▄▄H'
+    echo '                             *Γ      U   ╓████▄▄▓█ ▐██▀'
+    echo '                                       ,,,█▀  ▀▀▀ⁿ'
+    echo
+    echo '                                      GABUT WKWKWK'
+  ;;
   * )
   echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
   ;;
