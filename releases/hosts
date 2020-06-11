@@ -227,7 +227,10 @@
 
 # [nhentai.net]
 104.27.195.88 nhentai.net www.nhentai.net static.nhentai.net
-198.255.82.50 t.nhentai.net i.nhentai.net webseed.nhentai.net
+198.255.82.50 i2.nhentai.net t2.nhentai.net
+185.165.243.200 t5.nhentai.net i5.nhentai.net i.nhentai.net
+185.165.243.201 t7.nhentai.net i7.nhentai.net webseed.nhentai.net t.nhentai.net
+66.6.44.4 blog.nhentai.net
 104.27.131.13 nhent.ai
 
 # [gelbooru.com]
