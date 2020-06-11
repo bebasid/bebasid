@@ -1,7 +1,7 @@
 # Disclaimer
 
 ### Tentang
-bebasid merupakan sebuah proyek yang didirikan oleh Komunitas Internet Netral Indonesia sebagai wadah pembelajaran yang dikhususkan membahas tentang seluk beluk jaringan. Proyek bebasid dibuat dan dibentuk oleh komunitas, setiap anggota andil dalam pembuatan dan kelangsungan proyek ini. Menganut paham "dari komunitas, oleh komunitas, dan untuk komunitas."
+bebasid merupakan sebuah proyek yang didirikan oleh Komunitas Internet Netral Indonesia sebagai wadah pembelajaran yang dikhususkan membahas tentang seluk beluk jaringan. Proyek bebasid dibuat dan dibentuk oleh komunitas, setiap anggota andil dalam pembuatan dan kelangsungan proyek ini.
 
 ### Latar Belakang
 Kami sebagai komunitas tertarik dengan pengembangan bebasid dalam mengatasi pemblokiran website di Indonesia. Hal ini tentu karena pemblokiran dari Kementerian Komunikasi dan Informatika (Kominfo) memiliki celah yang cukup signifikan. Terlepas dari hal itu semua, komunitas kami juga mendukung pemblokiran dari Kominfo karena juga memiliki manfaat yang cukup baik untuk kesehatan internet Indonesia dikarenakan banyak dari mereka yang berisikan konten perjudian serta transaksi narkotika, psikotropika, dan zat adiktif lainnya.
@@ -38,42 +38,42 @@ Jika ada pertanyaan atau sanggahan mengenai hak cipta dan kelegalan hukum, silah
 ### Referensi
 Proyek ini dibuat berdasarkan pada dukungan internet netral di Indonesia. Lebih tentang internet netral: 
 
-[1] Anonim. (04/22/2015). Internet Netral #SelamatkanInternetIndonesia. [Artikel](https://www.internetnetral.com) 1(1)
+[1] Anonim. (04/22/2015). [Internet Netral #SelamatkanInternetIndonesia](https://www.internetnetral.com).
 
-[2] Eka Wirya. (08/31/2018). Netralitas Net di Indonesia. [Artikel](https://medium.com/@EkaWirya/netralitas-net-di-indonesia-43e330321ba2) 1(1)
+[2] Eka Wirya. (08/31/2018). [Netralitas Net di Indonesia](https://medium.com/@EkaWirya/netralitas-net-di-indonesia-43e330321ba2).
 
-[3] Hilman Fajrian. (06/17/2015). Dimana Indonesia dalam Netralitas Internet?. [Artikel](https://www.kompasiana.com/hilmanfajrian/55531547b67e61330b13099a/dimana-indonesia-dalam-netralitas-internet) 1(1)
+[3] Hilman Fajrian. (06/17/2015). [Dimana Indonesia dalam Netralitas Internet?](https://www.kompasiana.com/hilmanfajrian/55531547b67e61330b13099a/dimana-indonesia-dalam-netralitas-internet).
 
-[4] Fadhil Ramadhan. (08/13/2018). Karut-marut Netralitas Net. [Artikel](https://www.economica.id/2018/08/13/kajian-online-karut-marut-netralitas-net/) 1(1)
+[4] Fadhil Ramadhan. (08/13/2018). [Karut-marut Netralitas Net](https://www.economica.id/2018/08/13/kajian-online-karut-marut-netralitas-net/).
 
-[5] Olga Arisandi. (08/13/2018). Netralitas internet Di Indonesia ?. [Artikel](https://www.covesia.com/techno/baca/44833/netralitas-internet-di-indonesia-) 1(1)
+[5] Olga Arisandi. (08/13/2018). [Netralitas internet Di Indonesia ?](https://www.covesia.com/techno/baca/44833/netralitas-internet-di-indonesia-).
 
-[6] Rizky Banyualam Permana. (10/2019). NETWORK NEUTRALITY: STANDAR BARU DALAM TATA KELOLA INTERNET?*. [Jurnal PDF](https://jurnal.ugm.ac.id/jmh/article/download/30934/26915) 1(1)
+[6] Rizky Banyualam Permana. (10/2019). [NETWORK NEUTRALITY: STANDAR BARU DALAM TATA KELOLA INTERNET?*](https://jurnal.ugm.ac.id/jmh/article/download/30934/26915).
 
-[7] Reza Wahyudi. (04/25/2015). Di Indonesia, Internet Tak Perlu Adil dan Setara?. [Artikel](https://tekno.kompas.com/read/2015/04/25/08050437/Di.Indonesia.Internet.Tak.Perlu.Adil.dan.Setara.?page=all#page1) 1(1)
+[7] Reza Wahyudi. (04/25/2015). [Di Indonesia, Internet Tak Perlu Adil dan Setara?](https://tekno.kompas.com/read/2015/04/25/08050437/Di.Indonesia.Internet.Tak.Perlu.Adil.dan.Setara.?page=all#page1).
 
-[8] Edi Wahyudi. (01/05/2018). Mengenal Net Neutrality Sebagai Solusi Pemerataan Akses Internet. [Artikel](https://www.lampost.co/berita-mengenal-net-neutrality-sebagai-solusi-pemerataan-akses-internet.html) 1(1)
+[8] Edi Wahyudi. (01/05/2018). [Mengenal Net Neutrality Sebagai Solusi Pemerataan Akses Internet](https://www.lampost.co/berita-mengenal-net-neutrality-sebagai-solusi-pemerataan-akses-internet.html).
 
-[9] Alnick Nathan. (01/24/2018). Netralitas Internet dan Pertentangannya. [Artikel](http://www.balairungpress.com/2018/01/netralitas-internet-dan-pertentangannya/) 1(1)
+[9] Alnick Nathan. (01/24/2018). [Netralitas Internet dan Pertentangannya](http://www.balairungpress.com/2018/01/netralitas-internet-dan-pertentangannya/).
 
-[10] Dodi Irawan. (03/26/2019). Pengaruh Net Neutrality Terhadap Tarif Internet di Indonesia. [Artikel](https://groovy.id/pengaruh-net-neutrality-terhadap-tarif-internet-di-indonesia/60/) 1(1)
+[10] Dodi Irawan. (03/26/2019). [Pengaruh Net Neutrality Terhadap Tarif Internet di Indonesia](https://groovy.id/pengaruh-net-neutrality-terhadap-tarif-internet-di-indonesia/60/).
 
-[11] Yustinus Paat. (01/11/2020). Langgar Prinsip Net Neutrality, Telkom Group Diminta Cabut Blokir Netflix. [Artikel](https://www.beritasatu.com/digital/594838-langgar-prinsip-net-neutrality-telkom-group-diminta-cabut-blokir-netflix) 1(1)
+[11] Yustinus Paat. (01/11/2020). [Langgar Prinsip Net Neutrality, Telkom Group Diminta Cabut Blokir Netflix](https://www.beritasatu.com/digital/594838-langgar-prinsip-net-neutrality-telkom-group-diminta-cabut-blokir-netflix).
 
-[12] Alvin Bahar. (11/23/2017). Apa Itu Net Neutrality yang Lagi Rame di Amerika? Terus, Apa Indonesia Punya Net Neutrality?. [Artikel](https://hai.grid.id/read/07603420/apa-itu-net-neutrality-yang-lagi-rame-di-amerika-terus-apa-indonesia-punya-net-neutrality?page=all) 1(1)
+[12] Alvin Bahar. (11/23/2017). [Apa Itu Net Neutrality yang Lagi Rame di Amerika? Terus, Apa Indonesia Punya Net Neutrality?](https://hai.grid.id/read/07603420/apa-itu-net-neutrality-yang-lagi-rame-di-amerika-terus-apa-indonesia-punya-net-neutrality?page=all).
 
-[13] Akhlis Purnomo. (01/17/2018). Net Neutrality: Apa Itu dan Kenapa Harus Peduli?. [Artikel](https://mozilla.or.id/id/space/40-blog/240-net-neutrality-what-is-it-and-why-should-you-care-about-it.html) 1(1)
+[13] Akhlis Purnomo. (01/17/2018). [Net Neutrality: Apa Itu dan Kenapa Harus Peduli?](https://mozilla.or.id/id/space/40-blog/240-net-neutrality-what-is-it-and-why-should-you-care-about-it.html).
 
-[14] Ary Mozta. (12/11/2017). Net Neutrality: Nasibnya Di Negara Kita. [Artikel](https://mozta.com/personal-notes/net-neutrality-nasibnya-di-negara-kita/) 1(1)
+[14] Ary Mozta. (12/11/2017). [Net Neutrality: Nasibnya Di Negara Kita](https://mozta.com/personal-notes/net-neutrality-nasibnya-di-negara-kita/).
 
-[15] Naufal H. Rabbani. (10/11/2019). Pengertian dan Pengaruh Penting Net Neutrality. [Artikel](https://msdpn.id/pengertian-net-neutrality/) 1(1)
+[15] Naufal H. Rabbani. (10/11/2019). [Pengertian dan Pengaruh Penting Net Neutrality](https://msdpn.id/pengertian-net-neutrality/).
 
-[16] Konten Redaksi kumparan. (01/17/2020). Pro dan Kontra Netflix di Indonesia. [Artikel](https://kumparan.com/kumparantech/pro-dan-kontra-netflix-di-indonesia-1sepuwJUohh/full) 1(1)
+[16] Konten Redaksi kumparan. (01/17/2020). [Pro dan Kontra Netflix di Indonesia](https://kumparan.com/kumparantech/pro-dan-kontra-netflix-di-indonesia-1sepuwJUohh/full).
 
-[17] Insaf Albert Tarigan. (02/18/2016). XL Menolak Prinsip Netralitas Internet. [Artikel](https://www.medcom.id/teknologi/news-teknologi/wkBRv9gk-xl-menolak-prinsip-netralitas-internet) 1(1)
+[17] Insaf Albert Tarigan. (02/18/2016). [XL Menolak Prinsip Netralitas Internet](https://www.medcom.id/teknologi/news-teknologi/wkBRv9gk-xl-menolak-prinsip-netralitas-internet).
 
-[18] sosiotalk. (01/05/2018). Net Neutrality: Tinjauan Sosiologis tentang Netralitas Internet. [Artikel](http://sosiologis.com/net-neutrality) 1(1)
+[18] sosiotalk. (01/05/2018). [Net Neutrality: Tinjauan Sosiologis tentang Netralitas Internet](http://sosiologis.com/net-neutrality).
 
-[19] Arnold Djiwatampu. (12/30/2015). Netralitas Jaringan (Net Neutrality). [Artikel](https://mastel.id/forums/topic/netralitas-jaringan-net-neutrality/78/) 1(1)
+[19] Arnold Djiwatampu. (12/30/2015). [Netralitas Jaringan (Net Neutrality)](https://mastel.id/forums/topic/netralitas-jaringan-net-neutrality/78/).
 
-[20] Rahadian P. Paramita . (09/16/2014). Net Neutrality: Kualitas akses tanpa diskriminasi. [Artikel](https://beritagar.id/artikel/sains-tekno/net-neutrality-kualitas-akses-tanpa-diskriminasi-14692) 1(1)
+[20] Rahadian P. Paramita . (09/16/2014). [Net Neutrality: Kualitas akses tanpa diskriminasi](https://beritagar.id/artikel/sains-tekno/net-neutrality-kualitas-akses-tanpa-diskriminasi-14692).
