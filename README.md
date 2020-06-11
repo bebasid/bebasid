@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=ukuran" alt="Ukuran rilis">
 </p>
 <p align="center">
-    <a href="README.en.md">Read the README in English here</a>
+    <a href="README.en.md">Read README in English</a>
 </p>
 
 ---
