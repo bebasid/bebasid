@@ -2,7 +2,7 @@
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
-    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validasi" alt="Status hosts"></a>
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validasi" alt="Status Hosts"></a>
     <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?logo=discord&logoColor=fff&label=Discord&color=7388d9"  alt="Status Discord"></a>
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=ukuran" alt="Ukuran rilis">
 </p>
@@ -40,23 +40,23 @@ Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
 ### Command Line Interface (CLI)
 
-Untuk panduan penggunaan versi CLI, silakan menuju [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
+Untuk panduan penggunaan versi CLI, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 ### Netflix
 
-Untuk cara menembus blokiran Netflix, silakan menuju [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
+Untuk cara menembus blokiran Netflix, silakan menuju ke [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
 
 ## Cara Berkontribusi, Pertanyaan atau Permintaan
 
-Untuk membantu pengembangan bebasid, silakan menuju [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
+Untuk membantu pengembangan bebasid, silakan menuju ke [KONTRIBUSI](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
 
 Untuk melakukan request dan melaporkan adanya bug, silakan [membuka issue baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
 ## Soal Sering Ditanyakan
 
-Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di Discord atau sebelum membuka issue baru.
+Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau sebelum [membuka issue baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
-## Traktir Kami Kopi
+## Donasi Kami
 
 Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
 
@@ -64,9 +64,9 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim 
 
 ## Lisensi
 
-bebasid [terlisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE)
+bebasid dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
 
 ---
 ## Syarat & Ketentuan
 
-Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.
