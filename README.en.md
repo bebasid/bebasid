@@ -2,8 +2,8 @@
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
-    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validate" alt="Hosts status"></a>
-    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?logo=discord&logoColor=fff&label=Discord&color=7388d9"  alt="Discord status"></a>
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validation" alt="Hosts Status"></a>
+    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?logo=discord&logoColor=fff&label=Discord&color=7388d9"  alt="Discord Status"></a>
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
 </p>
 <p align="center">
@@ -32,7 +32,7 @@ bebasid helps you to access restricted content that are blocked by the Indonesia
 
 ### Terminal User Interface (TUI)
 
-If you want to use Bebasin, checkout [here](https://github.com/bebasid/bebasin/blob/master/README.en.md).
+If you want to use Bebasin, checkout right [here](https://github.com/bebasid/bebasin/blob/master/README.en.md).
 
 ![Bebasin in Windows 10](https://i.imgur.com/reZApao.png)
 
@@ -40,23 +40,23 @@ If you want to use Bebasin, checkout [here](https://github.com/bebasid/bebasin/b
 
 ### Command Line Interface (CLI)
 
-See the [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines.
+Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines.
 
 ### Netflix
 
-To unblock Netflix, See the [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
+To unblock Netflix, Please head to [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
 
 ## Contributing, Question and Request
 
-Look [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the guidelines.
+Please head to [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the contributing guidelines.
 
 If you have any request or bug report, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
 ## Frequently Asked Question
 
-If you have any problem in using bebasid/bebasin, please consult to [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) before asking the problem in Discord or opening a new issue.
+If you have any problem in using bebasid, please head to [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) before asking the problem in [Discord](https://discord.gg/EKrxZyu) or [opening a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
-## Support Us!
+## Donate Us!
 
 Help us to maintain this project by donating. You can send any nominal to the QRIS code below. The donation will be used for the project development.
 
@@ -64,7 +64,7 @@ Help us to maintain this project by donating. You can send any nominal to the QR
 
 ## License
 
-bebasid is licensed under [MIT license](https://github.com/bebasid/bebasid/blob/master/LICENSE).
+bebasid is licensed under [MIT License](https://github.com/bebasid/bebasid/blob/master/LICENSE).
 
 ---
 
