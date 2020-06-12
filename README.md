@@ -44,7 +44,7 @@ Untuk panduan penggunaan versi CLI, silakan menuju ke [PEMAKAIAN](https://github
 
 ### Netflix
 
-Untuk cara menembus blokiran Netflix, silakan menuju ke [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
+Untuk cara menembus blokiran Netflix, silakan menuju ke [BEBASIT](https://bebasid.github.io/bebasit/).
 
 ## Cara Berkontribusi, Pertanyaan atau Permintaan
 
