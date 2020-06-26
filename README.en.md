@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
 </p>
 <p align="center">
-    <a href="README.md">Baca README dalam Bahasa Indonesia</a>
+    <a href="README.md">Bacakan README dalam Bahasa Indonesia</a>
 </p>
 
 ---
