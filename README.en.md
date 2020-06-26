@@ -44,7 +44,7 @@ Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme
 
 ### Netflix
 
-To unblock Netflix, Please head to [NETFLIX](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
+To unblock Netflix, Please head to [BEBASIT](https://bebasid.github.io/bebasit).
 
 ## Contributing, Question and Request
 
