@@ -32,11 +32,9 @@ bebasid helps you to access restricted content that are blocked by the Indonesia
 
 ### Terminal User Interface (TUI)
 
-If you want to use Bebasin, checkout right [here](https://github.com/bebasid/bebasin/blob/master/README.en.md).
+If you want to use Terminal User Interface, checkout bebasin [here](https://github.com/bebasid/bebasin/blob/master/README.en.md).
 
 ![Bebasin in Windows 10](https://i.imgur.com/reZApao.png)
-
-*Tested Bebasin in Windows 10*
 
 ### Command Line Interface (CLI)
 
@@ -44,7 +42,7 @@ Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme
 
 ### Netflix
 
-To unblock Netflix, Please head to [BEBASIT](https://bebasid.github.io/bebasit).
+If you live in Indonesia as a foreigners and want to unblock Netflix, Please head to [BEBASIT](https://bebasid.github.io/bebasit).
 
 ## Contributing, Question and Request
 
