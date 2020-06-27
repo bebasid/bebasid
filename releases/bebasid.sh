@@ -20,7 +20,7 @@ about(){
   echo "    - Darwin    : MacOS Catalina"
   echo
   echo "Built with love by haibara for bebasid"
-  echo "Thanks for gvoze32 (The Author of bebasid)"
+  echo "Thanks to gvoze32"
   echo
   echo "Especially thanks to:"
   echo "    - Dan008 and his/her MacOS"
