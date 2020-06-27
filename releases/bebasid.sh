@@ -12,7 +12,7 @@ bebasid_banner(){
 }
 about(){
   echo "Name of File  : bebasid.sh [BETA for Darwin]"
-  echo "Version       : 2020.6 SE [Mas Agus dan Mas Pras] Linux/Darwin Version"
+  echo "Version       : 2020.7 [Claudia] Linux/Darwin Version"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
@@ -42,6 +42,8 @@ bantuan(){
     echo "menu        : Menampilkan opsi menu bebasid"
     echo "hosts"
     echo "  install   : Mengganti hosts bawaan dengan hosts bebasid"
+    echo "    --r18   : Mengganti hosts bawaan dengan hosts bebasid (R-18)"
+    echo "  change    : Mengubah tipe host SFW menjadi NSFW"
     echo "  update    : Memperbarui hosts bebasid"
     echo "  remove    : Menghapus hosts bebasid"
     echo "app"
@@ -127,39 +129,46 @@ cek_koneksi_dengan_internet(){
 }
 memulai_ulang_network(){
   loadin 0.01 "Memulai ulang Network Manager"
-  if [[ -e /etc/debian_version ]]; then
-    source /etc/os-release
-    OS=$ID # debian or ubuntu
-  elif [[ -e /etc/fedora-release ]]; then
-    OS=fedora
-  elif [[ -e /etc/centos-release ]]; then
-    OS=centos
-  elif [[ -e /etc/arch-release ]]; then
-    OS=arch
-  else
-    echo
-    echo "Tidak dapat memulai ulang Network Manager"
-    echo "Anda bisa memulai ulang Network Manager secara manual"
-  fi
-
-  case $OS in
-    # DEBIAN DERIVATIVE
-    "debian")
-      sudo /etc/init.d/network-manager restart
+  getUname=$(uname -s)
+  case $getUname in
+    Linux* )
+      if [[ -e /etc/debian_version ]]; then
+      source /etc/os-release
+      OS=$ID # debian or ubuntu
+      elif [[ -e /etc/fedora-release ]]; then
+        OS=fedora
+      elif [[ -e /etc/centos-release ]]; then
+        OS=centos
+      elif [[ -e /etc/arch-release ]]; then
+        OS=arch
+      else
+        echo
+        echo "Tidak dapat memulai ulang Network Manager"
+        echo "Anda bisa memulai ulang Network Manager secara manual"
+      fi
+      case $OS in
+        # DEBIAN DERIVATIVE
+        "debian")
+          sudo /etc/init.d/network-manager restart
+          ;;
+        "ubuntu")
+          sudo service network-manager restart
+          ;;
+        # RHEL DERIVATIVE
+        "centos")
+          sudo systemctl restart NetworkManager.service
+          ;;
+        "fedora")
+          sudo systemctl restart NetworkManager.service
+          ;;
+        # ARCH DERIVATIVE
+        "arch")
+          sudo systemctl restart NetworkManager.service
+          ;;
+      esac
       ;;
-    "ubuntu")
-      sudo service network-manager restart
-      ;;
-    # RHEL DERIVATIVE
-    "centos")
-      sudo systemctl restart NetworkManager.service
-      ;;
-    "fedora")
-      sudo systemctl restart NetworkManager.service
-      ;;
-    # ARCH DERIVATIVE
-    "arch")
-      sudo systemctl restart NetworkManager.service
+    Darwin* )
+      sudo killall -HUP mDNSResponder
       ;;
   esac
 }
@@ -202,10 +211,18 @@ hapus_aplikasi_bebasid(){
   fi
 }
 ambil_hosts_bebasid(){
+  case $1 in
+    "SFW" )
+      yuerel=https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw
+      ;;
+    "NSFW" )
+      yuerel=https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
+      ;;
+  esac
   echo "Memulai pengambilan file hosts BEBASID"
   echo
   dir=/etc/hosts
-  curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts "-o $dir --progress-bar" "-O $dir -q --show-progress --progress=bar:force"
+  curl_wget $yuerel "-o $dir --progress-bar" "-O $dir -q --show-progress --progress=bar:force"
   if $ambil; then
     sudo bash -c 'cat /etc/hosts-own >> /etc/hosts'
     echo
@@ -261,7 +278,7 @@ $backup
 # Konfigurasi Tambahan Pribadi
 EOF
     echo
-    ambil_hosts_bebasid
+    ambil_hosts_bebasid $1
   fi
 }
 perbarui_hosts_bebasid(){
@@ -270,8 +287,17 @@ perbarui_hosts_bebasid(){
   echo
   loadin 0.01 "Memeriksa kondisi"
   if [ -e /etc/hosts.bak-bebasid ]; then
+    echo "Mengecek tipe hosts BEBASID yang dipakai"
+    linePertama=$(sed "1q;d" /etc/hosts)
+    if ! [[ $linePertama == *"Safe"* ]]; then
+      echo "Type: NSFW"
+      type="NSFW"
+    else
+      echo "Type: SFW"
+      type="SFW"
+    fi
     sudo rm /etc/hosts
-    ambil_hosts_bebasid
+    ambil_hosts_bebasid $type
     exit 1
   else
     echo "Backup hosts asli tidak ditemukan, opsi pemasangan BEBASID akan dilakukan"
@@ -318,6 +344,19 @@ cek_perintah_tunnel(){
       else
         if ! [[ -e ~/.bebasit/PowerTunnel.jar ]]; then
           errorin "PowerTunnel tidak ditemukan, silakan pasang PowerTunnel terlebih dahulu"
+        else
+          hash=$(shasum ~/.bebasit/PowerTunnel.jar | cut -d' ' -f1)
+          while ! [[ $hash == "39956402277e04026de4990821161adb32bc8cff" ]]; do
+            echo "Sedang Mengupdate PowerTunnel"
+            if curl -L -o ~/.bebasit/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.11/PowerTunnel.jar; then
+                echo "Sukses memasang PowerTunnel"
+                hash=$(shasum ~/.bebasit/PowerTunnel.jar | cut -d' ' -f1)
+              else
+                echo "Tidak dapat mengambil file PowerTunnel"
+                exit 1
+            fi
+            hash=$(shasum ~/.bebasit/PowerTunnel.jar | cut -d' ' -f1)
+          done
         fi
       fi
       ;;
@@ -364,7 +403,7 @@ mulai_bebasid_tunnel(){
       loadin 0.01 "[$i] Mendapatkan DNS $dns"
       echo "Tunnel: PowerTunnel"
       db="https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt"
-      tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -use-doh-resolver $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup" Enter
+      tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -chunk-size 21 -use-dns-server $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup -disable-updater" Enter
     fi
     loadin 0.01 "Mengetes Koneksi $1 ke Netflix"
     sleep 10
@@ -426,31 +465,6 @@ hapus_aplikasi_bypass_dpi(){
   curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/sh/bebasit-uninstaller.sh "-o $dir --silent" "-O $dir -q --quiet"
   bash ./bebasit-uninstaller.sh $1
   rm -rf bebasit-uninstaller.sh $1
-}
-
-# =============================================================== #
-
-pasang_paket_bebasid(){
-  perbarui_aplikasi_bebasid
-  pasang_hosts_bebasid
-  pasang_aplikasi_bypass_dpi "green-tunnel"
-  pasang_aplikasi_bypass_dpi "powertunnel"
-}
-
-pasang_ulang_paket_bebasid(){
-  perbarui_aplikasi_bebasid
-  hapus_hosts_bebasid
-  hapus_aplikasi_bypass_dpi "green-tunnel"
-  hapus_aplikasi_bypass_dpi "powertunnel"
-  pasang_hosts_bebasid
-  pasang_aplikasi_bypass_dpi "green-tunnel"
-  pasang_aplikasi_bypass_dpi "powertunnel"
-}
-hapus_paket_bebasid(){
-  hapus_hosts_bebasid
-  hapus_aplikasi_bypass_dpi "green-tunnel"
-  hapus_aplikasi_bypass_dpi "powertunnel"
-  hapus_aplikasi_bebasid
 }
 
 # =============================================================== #
@@ -527,6 +541,34 @@ ff02::1 ip6-allnodes
 ff02::3 ip6-allhosts
 EOF
 echo "Berhasil memasang hosts bawaan Linux"
+}
+
+# =============================================================== #
+
+pasang_paket_bebasid(){
+  perbarui_aplikasi_bebasid
+  pasang_hosts_bebasid
+  matikan_safesearch_google
+  matikan_uzone
+  pasang_aplikasi_bypass_dpi "green-tunnel"
+  pasang_aplikasi_bypass_dpi "powertunnel"
+}
+pasang_ulang_paket_bebasid(){
+  perbarui_aplikasi_bebasid
+  hapus_hosts_bebasid
+  hapus_aplikasi_bypass_dpi "green-tunnel"
+  hapus_aplikasi_bypass_dpi "powertunnel"
+  pasang_hosts_bebasid
+  matikan_safesearch_google
+  matikan_uzone
+  pasang_aplikasi_bypass_dpi "green-tunnel"
+  pasang_aplikasi_bypass_dpi "powertunnel"
+}
+hapus_paket_bebasid(){
+  hapus_hosts_bebasid
+  hapus_aplikasi_bypass_dpi "green-tunnel"
+  hapus_aplikasi_bypass_dpi "powertunnel"
+  hapus_aplikasi_bebasid
 }
 
 # ====== OKAY, YOU CAN ADD YOUR CUSTOM FUNCTION BELOW HERE ====== #
@@ -642,6 +684,14 @@ case $1 in
             case $menuHostsOpt in
               "Pasang Hosts BEBASID" )
                 pasang_hosts_bebasid
+                break
+                ;;
+              "Pasang Hosts BEBASID (R-18)" )
+                pasang_hosts_bebasid "NSFW"
+                break
+                ;;
+              "Change Type Hosts BEBASID" )
+                ambil_hosts_bebasid "NSFW"
                 break
                 ;;
               "Perbarui Hosts BEBASID" )
@@ -867,7 +917,17 @@ case $1 in
   hosts )
     case $2 in
       install )
-        pasang_hosts_bebasid
+        case $3 in
+        "--r18" )
+          pasang_hosts_bebasid "NSFW"
+          ;;
+        * )
+          pasang_hosts_bebasid "SFW"
+          ;;
+        esac
+        ;;
+      change )
+        ambil_hosts_bebasid "NSFW"
         ;;
       update )
         perbarui_hosts_bebasid
@@ -1021,7 +1081,7 @@ case $1 in
     about
     ;;
   "--version" )
-    echo "BEBASID - 2020.6 SE [Mas Agus dan Mas Pras]"
+    echo "BEBASID - 2020.7 [Claudia]"
     echo "Linux/Darwin Beta Version"
     ;;
   "--hidden" )
@@ -1055,7 +1115,7 @@ case $1 in
     echo '                             *Γ      U   ╓████▄▄▓█ ▐██▀'
     echo '                                       ,,,█▀  ▀▀▀ⁿ'
     echo
-    echo '                                      GABUT WKWKWK'
+    echo '                                      AMI 2020 YEA!!!'
   ;;
   * )
   echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
