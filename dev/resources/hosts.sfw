@@ -1,0 +1,350 @@
+# BEBASID - Peduli Internet Netral
+# Halaman proyek: https://bebasid.github.io
+# Hosts ditulis oleh Komunitas Internet Netral
+# Dengan mengunduh BEBASID dan menggunakan aplikasi ini berarti menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut: https://github.com/bebasid/bebasid/blob/master/RULES.md
+
+# [OPTIONAL]
+# [Hapus '# ' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis]
+
+# [Matikan fitur SafeSearch Google dan Youtube]
+# 216.58.211.3 google.com
+# 216.58.211.3 www.google.com
+# 216.58.211.3 google.co.id
+# 216.58.211.3 www.google.co.id
+# 0.0.0.0 forcesafesearch.google.com
+# 0.0.0.0 restrict.youtube.com
+
+# [BLOCK INTERNET POSITIF]
+# 0.0.0.0 cfs.uzone.id
+# 0.0.0.0 internetpositif.uzone.id
+# 0.0.0.0 uzone.id
+# 0.0.0.0 cfs2.uzone.id
+# 0.0.0.0 u-ad.info
+# 0.0.0.0 cfs.u-ad.info
+# 0.0.0.0 cfs2.uadexchange.com
+# 0.0.0.0 www.internetpositif.uzone.id
+# 0.0.0.0 www.uzone.id
+
+# [MacOS localhost]
+# 127.0.0.1 localhost
+# 255.255.255.255 broadcasthost
+# ::1 localhost
+# fe80::1%lo0 localhost
+
+# [Linux localhost]
+# 127.0.0.1 localhost SystemName
+# ::1 localhost ip6-localhost ip6-loopback
+# fe00::0 ip6-localnet
+# ff00::0 ip6-mcastprefix
+# ff02::1 ip6-allnodes
+# ff02::2 ip6-allrouters
+
+# [Android localhost]
+# 127.0.0.1 localhost
+# ::1 ip6-localhost
+
+# Windows tidak perlu adanya tambahan pada hosts
+
+# DoH / DNS
+
+# [dnslify]
+185.235.81.1 doh.dnslify.com
+2a0d:4d00:81::1 doh.dnslify.com
+
+# Mulai hosts bebasid
+
+# [reddit.com]
+151.101.129.140 reddit.com www.reddit.com
+151.101.1.140 np.reddit.com
+151.101.1.140 bt.reddit.com
+151.101.1.140 m.reddit.com
+151.101.1.140 nm.reddit.com
+151.101.1.140 api.reddit.com
+151.101.1.140 e.reddit.com
+151.101.1.140 about.reddit.com
+151.101.1.140 st.reddit.com
+151.101.1.140 ssl.reddit.com
+151.101.65.140 oauth.reddit.com
+151.101.1.140 out.reddit.com
+151.101.1.140 origin.reddit.com
+151.101.1.140 old.reddit.com
+151.101.1.140 sendbird.reddit.com
+151.101.1.140 new.reddit.com
+151.101.65.140 gateway.reddit.com
+151.101.1.140 events.reddit.com
+52.44.97.90 alb.reddit.com
+151.101.129.140 en.reddit.com
+151.101.129.140 en-us.reddit.com
+151.101.129.140 test.reddit.com
+151.101.129.140 nsfw.reddit.com
+151.101.129.140 pay.reddit.com
+151.101.129.140 ww.reddit.com
+151.101.129.140 blog.reddit.com
+151.101.129.140 4x.reddit.com
+151.101.1.140 chat.reddit.com
+151.101.201.140 mod.reddit.com
+151.101.201.140 accounts.reddit.com
+151.101.53.140 v.redd.it s.reddit.com external-preview.redd.it
+151.101.189.140 preview.redd.it
+151.101.69.140 styles.redditmedia.com
+151.101.53.140 gql.reddit.com
+151.101.1.140 buttons.reddit.com
+151.101.1.140 amp.reddit.com
+151.101.1.140 rapi.reddit.com
+151.101.1.140 digg.comold.reddit.com
+151.101.1.140 fn.reddit.com
+151.101.1.140 cdn.reddit.com
+151.101.1.140 digg.comwww.reddit.com
+151.101.1.140 xa.reddit.com
+151.101.1.140 xr.reddit.com
+151.101.1.140 line.reddit.com
+151.101.1.140 imagur.reddit.com
+151.101.1.140 strapi.reddit.com
+151.101.1.140 d.reddit.com
+151.101.1.140 meta-api.reddit.com
+151.101.1.140 ads.reddit.com
+151.101.1.140 bettertouchtool.reddit.com
+151.101.1.140 pixel.reddit.com
+151.101.1.140 v21.reddit.com
+151.101.1.140 diaperedhentai.reddit.com
+151.101.1.140 abdl.reddit.com
+151.101.1.140 as.reddit.com
+151.101.1.140 i.reddit.com
+151.101.1.140 beta.reddit.com
+151.101.1.140 pepetraders.reddit.com
+151.101.1.140 so.reddit.com
+151.101.1.140 ps.reddit.com
+151.101.1.140 thumbs.reddit.com
+151.101.1.140 2fwww.reddit.com
+151.101.1.140 sp.reddit.com
+151.101.1.140 ex.reddit.com
+151.101.1.140 no.reddit.com
+151.101.1.140 h.reddit.com
+151.101.1.140 bitfinex.reddit.com
+3.208.46.58 rhs.reddit.com
+151.101.1.140 effectai.reddit.com
+151.101.1.140 toqqn.reddit.com
+151.101.1.140 pectiv.reddit.com
+151.101.1.140 dc.reddit.com
+151.101.1.140 ud.reddit.com
+151.101.1.140 security.reddit.com
+151.101.1.140 acer.reddit.com
+151.101.1.140 cc.reddit.com
+151.101.1.140 gg.reddit.com
+151.101.1.140 se.reddit.com
+151.101.1.140 habs.reddit.com
+151.101.1.140 ma.reddit.com
+151.101.1.140 eo.reddit.com
+151.101.1.140 loid.reddit.com
+151.101.1.140 es.reddit.com
+151.101.1.140 cx.reddit.com
+151.101.1.140 2fout.reddit.com
+151.101.1.140 ro.reddit.com
+151.101.1.140 news.reddit.com
+151.101.1.140 nl.reddit.com
+151.101.1.140 ol.reddit.com
+151.101.1.140 dd.reddit.com
+151.101.1.140 yogscast.reddit.com
+151.101.1.140 jwww.reddit.com
+151.101.1.140 ja.reddit.com
+151.101.1.140 tr.reddit.com
+151.101.1.140 code.reddit.com
+151.101.1.140 static.reddit.com
+151.101.1.140 2fold.reddit.com
+151.101.1.140 de.reddit.com
+151.101.1.140 initref.reddit.com
+151.101.1.140 auth.reddit.com
+151.101.1.140 22www.reddit.com
+151.101.1.140 v2.reddit.com
+151.101.1.140 dreams.reddit.com
+151.101.1.140 srs.reddit.com
+151.101.1.140 rseor3.reddit.com
+151.101.1.140 edgebucket.reddit.com
+151.101.1.140 token.reddit.com
+151.101.1.140 rabt.reddit.com
+151.101.1.140 pt.reddit.com
+151.101.1.140 sf.reddit.com
+151.101.1.140 us.reddit.com
+151.101.1.140 fr.reddit.com
+151.101.1.140 252fwww.reddit.com
+151.101.65.140 redditstatic.com www.redditstatic.com
+151.101.53.140 i.redd.it
+151.101.65.140 styles.reddit.com
+151.101.65.140 aib.reddit.com
+
+# [vimeo.com]
+151.101.50.109 i.vimeocdn.com
+151.101.64.217 developer.vimeo.com
+151.101.64.217 www.vimeo.com
+151.101.64.217 vimeo.com
+151.101.66.109 f.vimeocdn.com
+184.50.168.24 secure-c.vimeocdn.com
+151.101.48.217 player.vimeo.com
+198.245.92.39 click.email.vimeo.com
+104.156.85.217 api.vimeo.com
+80.239.137.98 a.vimeocdn.com
+151.101.17.133 fpdl.vimeocdn.com
+104.156.81.217 help.vimeo.com
+104.156.81.217 app.vimeo.com
+115.112.2.217 13skyfiregce-vimeo.akamaized.net
+23.15.138.148 gcs-vimeo.akamaized.net
+115.112.2.75 164vod-adaptive.akamaized.net 126vod-adaptive.akamaized.net 179vod-adaptive.akamaized.net
+115.112.2.72 179skyfiregce-vimeo.akamaized.net
+115.112.2.202 54vod-adaptive.akamaized.net
+115.112.2.234 108skyfiregce-vimeo.akamaized.net
+115.112.2.73 54skyfiregce-vimeo.akamaized.net
+115.112.2.251 38skyfiregce-vimeo.akamaized.net
+115.112.2.243 200vod-adaptive.akamaized.net
+115.112.2.179 200skyfiregce-vimeo.akamaized.net
+115.112.2.203 164skyfiregce-vimeo.akamaized.net
+115.112.2.80 126skyfiregce-vimeo.akamaized.net
+115.112.2.235 125skyfiregce-vimeo.akamaized.net
+115.112.2.219 125vod-adaptive.akamaized.net
+115.112.2.195 148vod-adaptive.akamaized.net
+115.112.2.35 148skyfiregce-vimeo.akamaized.net
+115.112.2.24 43skyfiregce-vimeo.akamaized.net
+115.112.2.240 43vod-adaptive.akamaized.net
+115.112.2.24 23vod-adaptive.akamaized.net
+115.112.2.78 23skyfiregce-vimeo.akamaized.net
+115.112.2.123 20skyfiregce-vimeo.akamaized.net
+115.112.2.192 20vod-adaptive.akamaized.net
+23.46.238.243 155skyfiregce-vimeo.akamaized.net
+23.46.238.248 155vod-adaptive.akamaized.net
+67.135.105.115 102vod-adaptive.akamaized.net
+23.46.238.248 102skyfiregce-vimeo.akamaized.net
+
+# [4chan.org]
+104.16.117.221 4chan.org
+104.16.117.221 www.4chan.org
+104.16.116.221 boards.4chan.org
+104.16.116.221 img.4chan.org
+104.16.118.221 rs.4chan.org
+104.16.119.221 orz.4chan.org
+104.16.116.221 static.4chan.org
+104.16.116.221 img.4chan.org
+104.16.116.221 cgi.4chan.org
+104.16.117.221 dis.4chan.org
+104.16.118.221 sys.4chan.org
+104.16.62.249 4cdn.org
+104.16.62.249 a.4cdn.org
+104.16.58.249 i.4cdn.org
+104.16.60.249 s.4cdn.org
+104.16.62.249 t.4cdn.org
+144.217.123.248 is3.4chan.org
+142.44.218.139 is2.4chan.org
+
+# [imgur.com]
+151.101.40.193 imgur.com
+151.101.40.193 i.imgur.com
+151.101.52.193 m.imgur.com
+151.101.52.193 p.imgur.com
+151.101.52.193 s.imgur.com
+151.101.52.193 store.imgur.com
+151.101.52.193 api.imgur.com
+52.206.22.38 browserevents.imgur.com
+54.164.240.173 browserevents.imgur.com
+151.101.52.193 blog.imgur.com
+104.16.51.111 help.imgur.com
+104.16.52.111 help.imgur.com
+104.16.55.111 help.imgur.com
+104.16.54.111 help.imgur.com
+104.16.53.111 help.imgur.com
+52.54.201.202 apidocs.imgur.com
+100.24.181.213 apidocs.imgur.com
+52.1.210.71 apidocs.imgur.com
+104.16.30.34 i.stack.imgur.com
+104.16.3.35 i.stack.imgur.com
+104.16.31.34 i.stack.imgur.com
+104.16.27.34 i.stack.imgur.com
+104.16.24.34 i.stack.imgur.com
+104.16.2.35 i.stack.imgur.com
+104.16.25.34 i.stack.imgur.com
+104.16.1.35 i.stack.imgur.com
+104.16.0.35 i.stack.imgur.com
+104.16.26.34 i.stack.imgur.com
+104.16.29.34 i.stack.imgur.com
+104.16.28.34 i.stack.imgur.com
+
+# [netflix.com] [Hasil riset IP berdasarkan jaringan Tri Indonesia]
+54.87.188.169 netflix.com www.netflix.com
+54.210.113.65 netflix.com www.netflix.com
+54.165.246.104 netflix.com www.netflix.com
+54.165.157.123 netflix.com www.netflix.com
+54.164.254.216 netflix.com www.netflix.com
+52.206.122.138 netflix.com www.netflix.com
+35.168.183.177 netflix.com www.netflix.com
+107.23.222.64 netflix.com www.netflix.com
+35.164.154.29 netflix.com www.netflix.com
+18.236.7.30 netflix.co.id www.netflix.co.id
+45.57.91.1 secure.netflix.com assets.nflxext.com codex.nflxext.com
+18.236.7.30 movies.netflix.com
+44.226.113.145 movies1.netflix.com
+34.218.19.240 movies2.netflix.com ir.netflix.com
+52.43.250.138 cbp-us.nccp.netflix.com
+207.45.72.201 dvd.netflix.com autocomplete.netflix.com bluray.netflix.com
+52.37.243.203 moviecontrol.netflix.com
+34.213.54.57 api.netflix.com
+54.68.2.232 www2.netflix.com
+35.161.93.216 nccp-nrdp-31.cloud.netflix.net nccp-ps3.cloud.netflix.net
+35.163.250.29 ios.nccp.netflix.com
+35.167.237.37 uiboot.netflix.com
+52.41.95.74 signup.netflix.com
+52.207.118.175 nccp-fuji.cloud.netflix.net nccp-nato.cloud.netflix.net
+104.123.71.136 mcdn.netflix.com
+52.24.207.8 api-user.netflix.com
+143.204.29.6 media.netflix.com
+52.38.152.174 help.netflix.com
+34.211.244.70 jobs.netflix.com
+207.45.72.215 nflxext.com nflximg.com
+34.218.19.240 nflxvideo.net
+107.20.175.192 nflxvideo.net
+34.252.74.1 nflxvideo.net
+46.137.171.215 nflxvideo.net
+52.31.48.193 nflxvideo.net
+204.236.236.127 nflxvideo.net
+44.226.113.145 nflxvideo.net
+50.17.247.9 nflxvideo.net
+18.236.7.30 nflxvideo.net
+52.36.243.167 api-global.netflix.com
+52.42.153.22 ichnaea.netflix.com
+35.160.69.163 account.netflix.com
+
+# [mangapanda.com]
+104.20.162.10 s5.mangapanda.com
+185.86.164.130 mangapanda.com
+104.20.162.10 s1.mangapanda.com
+104.20.163.10 s4.mangapanda.com
+185.86.164.130 www.mangapanda.com
+104.20.163.10 s3.mangapanda.com
+
+# [mangareader.net]
+185.85.189.58 mangareader.net www.mangareader.net
+104.20.140.9 s1.mangareader.net s2.mangareader.net s3.mangareader.net s4.mangareader.net s5.mangareader.net i10.mangareader.net i9.mangareader.net
+104.20.140.9 i1.mangareader.net i2.mangareader.net i3.mangareader.net i4.mangareader.net i5.mangareader.net i6.mangareader.net i7.mangareader.net i8.mangareader.net
+
+# [subscene.com]
+104.27.181.8 subscene.com www.subscene.com forum.subscene.com c.subscene.com papi.subscene.com
+104.31.3.190 v2.subscene.com u.subscene.com
+
+# [opensubtitles.org]
+104.26.8.126 opensubtitles.org www.opensubtitles.org static.opensubtitles.org blog.opensubtitles.org dl.opensubtitles.org
+104.26.9.126 forum.opensubtitles.org ads2.opensubtitles.org trac.opensubtitles.org api.opensubtitles.org
+
+# [yifysubtitles.com]
+193.200.241.149 webdisk.yifysubtitles.com cpanel.yifysubtitles.com mail.yifysubtitles.com webmail.yifysubtitles.com autodiscover.yifysubtitles.com subtitleswww.yifysubtitles.com
+104.26.15.136 yifysubtitles.com
+104.26.14.136 www.yifysubtitles.com
+
+# [thepiratebay.org]	
+104.24.190.20 thepiratebay.org
+
+# [omegle.com]
+104.23.128.76 omegle.com
+104.23.128.76 www.omegle.com
+
+# [rarbg.to]	
+185.37.100.122 rarbg.to	
+151.80.120.115 9.rarbg.to
+
+# [rarbg.me]	
+151.80.120.115 9.rarbg.me
