@@ -1895,7 +1895,8 @@
 182.22.30.252 cdn.melonbooks.com
 
 # [javx.cc]
-104.27.189.122 javx.cc www.javx.cc
+104.31.71.32 javx.cc 
+104.27.188.122 www.javx.cc
 
 # [mg-renders.net]
 75.126.100.29 mg-renders.net
@@ -2904,3 +2905,4 @@
 # [javfun.me]
 104.27.163.165 www.javfun.me www3.javfun.me www5.javfun.me
 172.67.181.246 javfun.me
+
