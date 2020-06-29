@@ -2937,3 +2937,7 @@
 104.24.100.156 player.javsun.net
 104.24.101.156 www.javsun.net
 172.67.185.227 javsun.net
+
+# [javdoe.tv]
+104.31.86.224 www.javdoe.tv cdn.javdoe.tv files.javdoe.tv
+172.67.166.93 javdoe.tv player.javdoe.tv
