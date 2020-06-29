@@ -2877,3 +2877,8 @@
 # [javhay.net]
 172.67.215.15 javhay.net
 104.27.175.42 www.javhay.net
+
+# [kaplog.com]
+95.168.192.146 ns1.kaplog.com ns2.kaplog.com
+172.67.192.49 kaplog.com 
+104.27.133.136 www.kaplog.com
