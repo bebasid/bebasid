@@ -8,7 +8,7 @@ Title BEBASID ^> %~nx0
 
 :ADMINISTRATOR_VALIDATION (
 if '%ErrorLevel%' NEQ '0' ( echo.
-echo BEBASID sedang meminta hak akses administrator 5 .
+echo BEBASID sedang mencoba meminta hak akses administrator 5 .
 timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 4 . .
 timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 3 . . .
 timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 2 . . . .
@@ -45,7 +45,7 @@ cd /d %SystemRoot%\System32\Drivers\etc\
   echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 
-echo. && echo Mengecek koneksi internet
+echo. && echo BEBASID sedang memeriksa ada tidaknya koneksi internet
 set server=www.google.com
 )
 
@@ -106,13 +106,33 @@ cls
   echo ==   PEDULI INTERNET NETRAL  ==
   echo.
   echo.
-echo (#) Apa kamu yakin ingin membuka akses pada website yang diblokir oleh internet positif?
+  echo (#) Proses pemeriksaan selesai, device kamu terhubung dengan internet
+  echo.
+	if "%version%" == "10.0" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 10
+	if "%version%" == "6.3" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 8.1
+	if "%version%" == "6.2" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 8
+	if "%version%" == "6.1" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 7
+	if "%version%" == "6.0" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows Vista
+	if "%version%" == "5.2" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows XP x64
+	if "%version%" == "5.1" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows XP
 echo.
-echo (#) Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di RULES.md
+echo (#) Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di syarat dan ketentuan
 echo.
-echo (#) Untuk mengembalikan hosts ke default, kamu cukup menekan tombol keyboard [W], kemudian tekan tombol keyboard [Enter]
+echo (#) Syarat dan Ketentuan: https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md
 echo.
-echo (#) Untuk mengonfirmasi, kamu cukup menekan salah satu tombol keyboard [Y] atau [N] kemudian tekan tombol keyboard [Enter]
+echo ===========================================================================
+echo.
+echo (!) Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
+echo.
+echo ===========================================================================
+echo.
+echo (=) Tekan tombol keyboard [Y] kemudian [Enter] jika ingin memulai proses pemasangan
+echo.
+echo (=) Tekan tombol keyboard [N] kemudian [Enter] jika ingin membatalkan dan keluar
+echo.
+echo ===========================================================================
+echo.
+echo (#) Yakin ingin melanjutkan?
 echo.
 )
 

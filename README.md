@@ -2,50 +2,71 @@
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
-    <img src="https://img.shields.io/github/license/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/stars/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/forks/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/issues-closed/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/last-commit/bebasid/bebasid.svg?style=flat-square">
-    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?style=flat-square">
-    <img src="https://img.shields.io/github/contributors/bebasid/bebasid?style=flat-square">
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validasi" alt="Status Hosts"></a>
+    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?logo=discord&logoColor=fff&label=Discord&color=7388d9"  alt="Status Discord"></a>
+    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=ukuran" alt="Ukuran rilis">
 </p>
-
 <p align="center">
-    <a href="https://discord.gg/q7AAX3W"><img src="https://img.shields.io/discord/630415907021389825?label=Discord&style=for-the-badge"></a>
+    <a href="README.en.md">Read README in English</a>
 </p>
 
-BEBASID dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia (Internet Positif) dengan memanfaatkan [hosts](https://en.wikipedia.org/wiki/Hosts_(file)). 
+---
 
-# BEBASID
+## Daftar Isi
 
-### Graphical user interface (GUI)
+- [Daftar Isi](#daftar-isi)
+- [bebasid](#bebasid)
+  - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
+  - [Command Line Interface (CLI)](#command-line-interface-cli)
+  - [Netflix](#netflix)
+- [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
+- [Soal Sering Ditanyakan](#soal-sering-ditanyakan)
+- [Traktir Kami Kopi](#traktir-kami-kopi)
+- [Lisensi](#lisensi)
 
-Untuk menggunakan versi GUI dari aplikasi ini, silakan menuju situs web [BEBASID](https://bebasid.github.io).
+---
 
-Aplikasi ini sangat aman, silakan lihat rinciannya di [VirusTotal](https://www.virustotal.com/gui/file/86d99300c58942ce06f5e05f7cf4241f3fcf64f5737f5201e34934345ea56121/detection).
+## bebasid
 
-### Command-line interface (CLI)
+bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
 
-Untuk panduan penggunaan versi CLI, silakan menuju [USAGE.md](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
+### Terminal User Interface (TUI)
+
+Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
+
+![Bebasin di Windows 10](https://i.imgur.com/reZApao.png)
+
+*Diujikan Bebasin di Windows 10*
+
+### Command Line Interface (CLI)
+
+Untuk panduan penggunaan versi CLI, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 ### Netflix
-Untuk cara menembus blokiran Netflix, silakan menuju [NETFLIX.md](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md).
 
-# Lisensi
-BEBASID dilisensikan di bawah MIT. Lihat [LICENSE](https://github.com/bebasid/bebasid/blob/master/LICENSE) untuk informasi lebih lanjut.
+Untuk cara menembus blokiran Netflix, silakan menuju ke [BEBASIT](https://bebasid.github.io/bebasit/).
 
-Sebelum menggunakan aplikasi ini, Anda wajib mematuhi peraturan yang kami buat dan dengan menggunakan aplikasi ini, Anda berarti menerima segala akibat yang ditimbulkan. Lihat [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+## Cara Berkontribusi, Pertanyaan atau Permintaan
 
-Jika menurut Anda proyek ini membantu, Anda juga bisa membantu agar proyek ini tetap berjalan dengan cara berdonasi. Selain itu, ada juga beberapa fitur yang hanya bisa didapatkan dari donasi. Untuk donasi bisa kirim saldo berapapun ke rekening DANA dengan nomor `0895395141873` a/n YUSUP MEILANSAH.
+Untuk membantu pengembangan bebasid, silakan menuju ke [KONTRIBUSI](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
 
-Untuk yang ingin request dan melaporkan adanya bug, silakan untuk membuka issue [di sini](https://github.com/bebasid/bebasid/issues/new/choose).
+Untuk melakukan request dan melaporkan adanya bug, silakan [membuka issue baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
-# Daftar tugas
-- [X] Menambahkan format dukungan untuk sistem operasi Android
-- [ ] Memperbaiki bebasid.android
-- [X] Membuat dan memisahkan menjadi hosts.sfw
-- [ ] Memperbaiki bug di hosts.sfw
-- [ ] Membuat module bebasid-magisk
-- [X] Rilis alpha bebasid-gt -> integrasi ke aplikasi bebasid
-- [X] Memperbaiki bug versi cli
+## Soal Sering Ditanyakan
+
+Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau sebelum [membuka issue baru](https://github.com/bebasid/bebasid/issues/new/choose).
+
+## Donasi Kami
+
+Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
+
+<img src="https://raw.githubusercontent.com/bebasid/bebasid.github.io/master/resources/img/SOTO PAK SALAM.png" alt="QRIS">
+
+## Lisensi
+
+bebasid dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
+
+---
+## Syarat & Ketentuan
+
+Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.
