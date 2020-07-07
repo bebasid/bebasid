@@ -278,7 +278,26 @@ $backup
 # Konfigurasi Tambahan Pribadi
 EOF
     echo
-    ambil_hosts_bebasid $1
+    if [ -z "$1" ]; then
+      PS3='Pilih salah satu tipe hosts: '
+      echo
+      typeChoice=("Safe for Work" "Not Safe for Work")
+      select typeChoiceOpt in "${typeChoice[@]}"
+      do
+        case $typeChoiceOpt in
+          "Safe for Work" )
+            ambil_hosts_bebasid "SFW"
+            break
+            ;;
+          "Not Safe for Work" )
+            ambil_hosts_bebasid "SFW"
+            break
+            ;;
+        esac
+      done
+    else
+      ambil_hosts_bebasid $1
+    fi
   fi
 }
 perbarui_hosts_bebasid(){
