@@ -18,7 +18,6 @@
 - [bebasid](#bebasid)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
-  - [Netflix](#netflix)
 - [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
 - [Soal Sering Ditanyakan](#soal-sering-ditanyakan)
 - [Traktir Kami Kopi](#traktir-kami-kopi)
@@ -41,10 +40,6 @@ Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 ### Command Line Interface (CLI)
 
 Untuk panduan penggunaan versi CLI, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
-
-### Netflix
-
-Untuk cara menembus blokiran Netflix, silakan menuju ke [BEBASIT](https://bebasid.github.io/bebasit/).
 
 ## Cara Berkontribusi, Pertanyaan atau Permintaan
 

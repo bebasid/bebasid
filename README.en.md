@@ -18,7 +18,6 @@
 - [bebasid](#bebasid)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
-  - [Netflix](#netflix)
 - [Contributing, Question and Request](#contributing-question-and-request)
 - [Frequently Asked Question](#frequently-asked-question)
 - [Support Us!](#support-us)
@@ -39,10 +38,6 @@ If you want to use Terminal User Interface, checkout bebasin [here](https://gith
 ### Command Line Interface (CLI)
 
 Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines.
-
-### Netflix
-
-If you live in Indonesia as a foreigners and want to unblock Netflix, Please head to [BEBASIT](https://bebasid.github.io/bebasit).
 
 ## Contributing, Question and Request
 
