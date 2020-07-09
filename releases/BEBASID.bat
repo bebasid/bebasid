@@ -8,11 +8,11 @@ Title BEBASID ^> %~nx0
 
 :ADMINISTRATOR_VALIDATION (
 if '%ErrorLevel%' NEQ '0' ( echo.
-echo BEBASID sedang mencoba meminta hak akses administrator 5 .
-timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 4 . .
-timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 3 . . .
-timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 2 . . . .
-timeout 1 >nul && echo. && echo Memulai proses meminta hak akses administrator 1 . . . . .
+echo bebasid sedang meminta hak akses administrator 5 .
+timeout 1 >nul && echo. && echo bebasid sedang meminta hak akses administrator 4 . .
+timeout 1 >nul && echo. && echo bebasid sedang meminta hak akses administrator 3 . . .
+timeout 1 >nul && echo. && echo bebasid sedang meminta hak akses administrator 2 . . . .
+timeout 1 >nul && echo. && echo bebasid sedang meminta hak akses administrator 1 . . . . .
 GOTO :UAC_PROMPT
  ) else ( GOTO :GOT_ADMIN )
 )
@@ -45,16 +45,15 @@ cd /d %SystemRoot%\System32\Drivers\etc\
   echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 
-echo. && echo BEBASID sedang memeriksa ada tidaknya koneksi internet
 set server=www.google.com
 )
 
 :CEK (
-echo. && echo Memulai proses ping 5 .
-timeout 1 >nul && echo. && echo Memulai proses ping 4 . .
-timeout 1 >nul && echo. && echo Memulai proses ping 3 . . .
-timeout 1 >nul && echo. && echo Memulai proses ping 2 . . . .
-timeout 1 >nul && echo. && echo Memulai proses ping 1 . . . . .
+echo. && echo bebasid sedang memeriksa ada tidaknya koneksi internet 5 .
+timeout 1 >nul && echo. && echo bebasid sedang memeriksa ada tidaknya koneksi internet 4 . .
+timeout 1 >nul && echo. && echo bebasid sedang memeriksa ada tidaknya koneksi internet 3 . . .
+timeout 1 >nul && echo. && echo bebasid sedang memeriksa ada tidaknya koneksi internet 2 . . . .
+timeout 1 >nul && echo. && echo bebasid sedang memeriksa ada tidaknya koneksi internet 1 . . . . .
 echo.
 ping %server% > NUL
 if %ERRORLEVEL%==0 (
@@ -75,21 +74,21 @@ exit
 )
 
 :CEKWIN (
-echo. && echo Mengecek versi Windows 5 .
-timeout 1 >nul && echo. && echo Mengecek versi Windows 4 . .
-timeout 1 >nul && echo. && echo Mengecek versi Windows 3 . . .
-timeout 1 >nul && echo. && echo Mengecek versi Windows 2 . . . .
-timeout 1 >nul && echo. && echo Mengecek versi Windows 1 . . . . .
+echo. && echo bebasid sedang melihat versi sistem operasi yang sedang digunakan 5 .
+timeout 1 >nul && echo. && echo bebasid sedang melihat versi sistem operasi yang sedang digunakan 4 . .
+timeout 1 >nul && echo. && echo bebasid sedang melihat versi sistem operasi yang sedang digunakan 3 . . .
+timeout 1 >nul && echo. && echo bebasid sedang melihat versi sistem operasi yang sedang digunakan 2 . . . .
+timeout 1 >nul && echo. && echo bebasid sedang melihat versi sistem operasi yang sedang digunakan 1 . . . . .
 echo.
 setlocal
 for /f "tokens=4-5 delims=. " %%i in ('ver') do set VERSION=%%i.%%j
-if "%version%" == "10.0" echo Sistem terdeteksi memakai Windows 10
-if "%version%" == "6.3" echo Sistem terdeteksi memakai Windows 8.1
-if "%version%" == "6.2" echo Sistem terdeteksi memakai Windows 8
-if "%version%" == "6.1" echo Sistem terdeteksi memakai Windows 7
-if "%version%" == "6.0" echo Sistem terdeteksi memakai Windows Vista
-if "%version%" == "5.2" echo Sistem terdeteksi memakai Windows XP x64
-if "%version%" == "5.1" echo Sistem terdeteksi memakai Windows XP
+timeout 1 >nul &&  if "%version%" == "10.0" echo ===================================== && echo Sistem terdeteksi memakai Windows 10 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+timeout 1 >nul &&  if "%version%" == "6.3" echo ===================================== && echo Sistem terdeteksi memakai Windows 8.1 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+timeout 1 >nul &&  if "%version%" == "6.2" echo ===================================== && echo Sistem terdeteksi memakai Windows 8 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+timeout 1 >nul &&  if "%version%" == "6.1" echo ===================================== && echo Sistem terdeteksi memakai Windows 7 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+timeout 1 >nul && if "%version%" == "6.0" echo ===================================== && echo Sistem terdeteksi memakai Windows Vista && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+timeout 1 >nul && if "%version%" == "5.2" echo ===================================== && echo Sistem terdeteksi memakai Windows XP x64 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+timeout 1 >nul && if "%version%" == "5.1" echo ===================================== && echo Sistem terdeteksi memakai Windows XP && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 rem etc etc
 GOTO TANYA
 )
@@ -130,6 +129,8 @@ echo (=) Tekan tombol keyboard [Y] kemudian [Enter] jika ingin memulai proses pe
 echo.
 echo (=) Tekan tombol keyboard [N] kemudian [Enter] jika ingin membatalkan dan keluar
 echo.
+echo (=) Tekan tombol keyboard [D] kemudian [Enter] jika ingin memasang/mengganti ke hosts versi penuh
+echo.
 echo ===========================================================================
 echo.
 echo (#) Yakin ingin melanjutkan?
@@ -137,9 +138,10 @@ echo.
 )
 
 :KONFIRMASI (
-SET /P yakin=[Y/N/W]? 
+SET /P yakin=[Y/N/D/W]? 
 IF /I "%yakin%" EQU "Y" GOTO YAKIN
 IF /I "%yakin%" EQU "N" GOTO TIDAK
+IF /I "%yakin%" EQU "D" GOTO PENUH
 IF /I "%yakin%" EQU "W" GOTO RESTORE
 GOTO KONFIRMASI
 )
@@ -159,7 +161,7 @@ exit
 )
 
 :DOWN2 (
-powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts', 'hosts')"
+powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw', 'hosts')"
 ipconfig /flushdns
 ipconfig /release
 ipconfig /renew
@@ -181,7 +183,7 @@ exit
 )
 
 :DOWN3 (
-powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts' -OutFile 'hosts'"
+powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw' -OutFile 'hosts'"
 ipconfig /flushdns
 ipconfig /release
 ipconfig /renew
@@ -250,6 +252,60 @@ cls
   echo ==   PEDULI INTERNET NETRAL  ==
   echo.
 echo BEBASID telah berhasil dikembalikan ke default
+echo.
+echo Tekan tombol apa saja untuk keluar
+pause >nul
+exit
+)
+
+:PENUH (
+if "%version%" == "10.0" GOTO PENUH3
+if "%version%" == "6.3" GOTO PENUH3
+if "%version%" == "6.2" GOTO PENUH3
+if "%version%" == "6.1" GOTO PENUH2
+if "%version%" == "6.0" GOTO PENUH2
+if "%version%" == "5.2" GOTO PENUH2
+if "%version%" == "5.1" GOTO PENUH2
+)
+
+:PENUH2 (
+powershell -command "(new-object System.Net.WebClient).DownloadFile('https://github.com/bebasid/bebasid/raw/master/releases/hosts', 'hosts')"
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+cls
+  echo.
+  echo   ____  _____ ____    _    ____ ___ ____  
+  echo "| __ )| ____| __ )  / \  / ___|_ _|  _ \ "
+  echo "|  _ \|  _| |  _ \ / _ \ \___ \| || | | |"
+  echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
+  echo "|____/|_____|____/_/   \_\____/___|____/ "
+  echo.
+  echo ==   PEDULI INTERNET NETRAL  ==
+  echo.
+echo BEBASID telah berhasil terpasang
+echo.
+echo Tekan tombol apa saja untuk keluar
+pause >nul
+exit
+)
+
+:PENUH3 (
+powershell -command "Invoke-WebRequest 'https://github.com/bebasid/bebasid/raw/master/releases/hosts' -OutFile 'hosts'"
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+cls
+  echo.
+  echo   ____  _____ ____    _    ____ ___ ____  
+  echo "| __ )| ____| __ )  / \  / ___|_ _|  _ \ "
+  echo "|  _ \|  _| |  _ \ / _ \ \___ \| || | | |"
+  echo "| |_) | |___| |_) / ___ \ ___) | || |_| |"
+  echo "|____/|_____|____/_/   \_\____/___|____/ "
+  echo.
+  echo ==   PEDULI INTERNET NETRAL  ==
+  echo.
+echo BEBASID telah berhasil terpasang
 echo.
 echo Tekan tombol apa saja untuk keluar
 pause >nul
