@@ -164,13 +164,13 @@ Title BEBASID ^> %~nx0
 )
 
 :RESTORE
-	if "%version%" == "10.0" call RESTORE3
-	IF "%version%" == "6.3" call RESTORE3
-	IF "%version%" == "6.2" call RESTORE3
-	if "%version%" == "6.1" call RESTORE2
-	IF "%version%" == "6.0" call RESTORE2
-	IF "%version%" == "5.2" call RESTORE2
-	IF "%version%" == "5.1" call RESTORE2
+	if "%version%" == "10.0" call :RESTORE3
+	IF "%version%" == "6.3" call :RESTORE3
+	IF "%version%" == "6.2" call :RESTORE3
+	if "%version%" == "6.1" call :RESTORE2
+	IF "%version%" == "6.0" call :RESTORE2
+	IF "%version%" == "5.2" call :RESTORE2
+	IF "%version%" == "5.1" call :RESTORE2
 	call :FLUSH
 	cls
 	call :BANNER
@@ -192,13 +192,13 @@ Title BEBASID ^> %~nx0
 )
 
 :PENUH (
-	if "%version%" == "10.0" call PENUH3
-	IF "%version%" == "6.3" call PENUH3
-	IF "%version%" == "6.2" call PENUH3
-	if "%version%" == "6.1" call PENUH2
-	IF "%version%" == "6.0" call PENUH2
-	IF "%version%" == "5.2" call PENUH2
-	IF "%version%" == "5.1" call PENUH2
+	if "%version%" == "10.0" call :PENUH3
+	IF "%version%" == "6.3" call :PENUH3
+	IF "%version%" == "6.2" call :PENUH3
+	if "%version%" == "6.1" call :PENUH2
+	IF "%version%" == "6.0" call :PENUH2
+	IF "%version%" == "5.2" call :PENUH2
+	IF "%version%" == "5.1" call :PENUH2
 	call :FLUSH
 	cls
 	call :BANNER
