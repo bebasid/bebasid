@@ -90,35 +90,47 @@ Title BEBASID ^> %~nx0
 	cls
 	call :BANNER
 	echo.
-	echo (#) Proses pemeriksaan selesai, device kamu terhubung dengan internet
+	echo [#] Proses pemeriksaan selesai, device kamu terhubung dengan internet
 	echo.
-	if "%version%" == "10.0" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 10
-	if "%version%" == "6.3" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 8.1
-	if "%version%" == "6.2" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 8
-	if "%version%" == "6.1" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows 7
-	if "%version%" == "6.0" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows Vista
-	if "%version%" == "5.2" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows XP x64
-	if "%version%" == "5.1" echo (#) Sistem yang ada pada device kamu terdeteksi memakai Windows XP
+	if "%version%" == "10.0" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 10
+	if "%version%" == "6.3" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 8.1
+	if "%version%" == "6.2" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 8
+	if "%version%" == "6.1" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 7
+	if "%version%" == "6.0" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows Vista
+	if "%version%" == "5.2" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows XP x64
+	if "%version%" == "5.1" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows XP
 	echo.
-	echo (#) Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di syarat dan ketentuan
+	echo [#] Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di syarat dan ketentuan
 	echo.
-	echo (#) Syarat dan Ketentuan: https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md
-	echo.
-	echo ===========================================================================
-	echo.
-	echo (!) Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
+	echo [#] Syarat dan Ketentuan: https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md
 	echo.
 	echo ===========================================================================
 	echo.
-	echo (=) Tekan tombol keyboard [Y] kemudian [Enter] jika ingin memulai proses pemasangan
-	echo.
-	echo (=) Tekan tombol keyboard [N] kemudian [Enter] jika ingin membatalkan dan keluar
-	echo.
-	echo (=) Tekan tombol keyboard [D] kemudian [Enter] jika ingin memasang/mengganti ke hosts versi penuh
+	>nul findstr /c:"BEBASID" C:\Windows\System32\Drivers\etc\hosts && (
+	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
+	echo [#] bebasid telah terpasang dan menggunakan mode NSFW [Tekan Y untuk merubah ke SFW]
+	) || (
+	echo [#] bebasid telah terpasang dan menggunakan mode SFW [Tekan D untuk merubah ke NSFW]
+	)
+	) || (
+	echo [#] bebasid belum terinstall
+	)
 	echo.
 	echo ===========================================================================
 	echo.
-	echo (#) Yakin ingin melanjutkan?
+	echo [!] Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
+	echo.
+	echo ===========================================================================
+	echo.
+	echo [=] Tekan tombol keyboard [Y] kemudian [Enter] jika ingin memulai proses pemasangan
+	echo.
+	echo [=] Tekan tombol keyboard [N] kemudian [Enter] jika ingin membatalkan dan keluar
+	echo.
+	echo [=] Tekan tombol keyboard [D] kemudian [Enter] jika ingin memasang/mengganti ke hosts versi penuh
+	echo.
+	echo ===========================================================================
+	echo.
+	echo [#] Yakin ingin melanjutkan?
 	echo.
 )
 
