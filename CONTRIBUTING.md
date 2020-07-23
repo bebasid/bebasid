@@ -31,15 +31,15 @@ Jika menemukan bug atau ingin melakukan request feature baru, dapat dilakukan de
 Untuk memudahkan melakukan pencarian di riwayat komit, mohon menggunakan salah satu format ringkasan komit sebagai berikut:
 
 ```
-A: example.com/Nama situs web
-M: example.com/Nama situs web
-D: example.com/Nama situs web
+A: example.com
+M: example.com
+D: example.com
 ```
 * `A` berarti "Add"
 * `M` berarti "Modify"
 * `D` berarti "Delete"
 * Protokol HTTP/HTTPS tidak perlu ditambahkan ke ringkasan komit.
-* Jika Anda ingin mengaitkan sebuah issue ke ringkasan komit, Anda bisa menggunakan format seperti ini:<br>`A: example.com/Nama situs web (#50)`
+* Jika Anda ingin mengaitkan sebuah issue ke ringkasan komit, Anda bisa menggunakan format seperti ini:<br>`A: example.com (#50)`
 
 #### Referensi
 * Untuk VPN dapat menggunakan OpenVPN dan profile dari [tcpvpn.com](https://tcpvpn.com), gunakan profile Indonesia untuk memastikan IP Address yang didapat adalah IP Address untuk akses dari Indonesia.
