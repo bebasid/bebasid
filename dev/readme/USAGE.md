@@ -24,7 +24,7 @@ Alternatif (jika ingin install melewati aplikasi atau menambahkan list hosts lai
 Install aplikasi [AdAway](https://f-droid.org/en/packages/org.adaway)
 
 ```
-https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
+https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.android
 ```
 
 Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
@@ -72,5 +72,5 @@ bebasid --help
 
 Alternatif (jika hanya ingin memasang file hosts):
 ```
-sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
+sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
 ```
