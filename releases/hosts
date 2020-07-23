@@ -2586,7 +2586,11 @@
 104.18.62.209 jav.land www.jav.land
 
 # [jav.sh]
-104.18.43.249 jav.sh www.jav.sh
+104.18.43.249 jav.sh www.jav.sh filetr.jav.sh
+104.18.42.249 player.jav.sh
+172.67.158.222 cdn.jav.sh
+104.174.0.169 smovie.pacopacomama.com
+54.192.150.45 awscc3001.r18.com
 
 # [iafd.com]
 216.118.89.130 iafd.com www.iafd.com
@@ -2990,3 +2994,7 @@
 
 # [mangadex.org]
 185.178.208.185 mangadex.org www.mangadex.org
+
+# [3xplanet.com]
+104.28.23.16 3xplanet.com www.3xplanet.com
+
