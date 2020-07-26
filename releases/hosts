@@ -948,6 +948,12 @@
 104.25.47.115 javhub.net www.javhub.net
 104.26.13.156 image.javhub.net ja.javhub.net
 
+# [javhub.co]
+172.67.70.74 www.javsub.co cpanel.javsub.co 
+104.26.12.38 mail.javsub.co webdisk.javsub.co cpcontacts.javsub.co
+104.26.13.38 javsub.co cpcalendars.javsub.co webmail.javsub.co
+45.148.120.2 dc-6ea4ce2ce839.javsub.co
+
 # [javmost.com]
 104.27.72.17 javmost.com www5.javmost.com
 
