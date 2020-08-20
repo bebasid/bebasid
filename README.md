@@ -16,6 +16,7 @@
 
 - [Daftar Isi](#daftar-isi)
 - [bebasid](#bebasid)
+  - [Graphical User Interface (GUI)](#graphical-user-interface-tui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
@@ -31,7 +32,7 @@ bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah I
 
 ### Graphical User Interface (GUI)
 
-Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0).
+Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0) untuk instalasi hosts bebasid.
 
 ![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/jutwCQb.png)
 
