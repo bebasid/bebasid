@@ -16,11 +16,12 @@
 
 - [Table of Content](#table-of-content)
 - [bebasid](#bebasid)
+  - [Graphical User Interface (GUI)](#graphical-user-interface-tui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [Contributing, Question and Request](#contributing-question-and-request)
 - [Frequently Asked Question](#frequently-asked-question)
-- [Support Us!](#support-us)
+- [Support Us!](#donate-us)
 - [License](#license)
 
 ---
@@ -28,6 +29,14 @@
 ## bebasid
 
 bebasid helps you to access restricted content that are blocked by the Indonesian government by using [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
+
+### Graphical User Interface (GUI)
+
+You can use [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0) to simplify bebasid's hosts installaton.
+
+![bebasid.exe running on Windows 10](https://i.imgur.com/jutwCQb.png)
+
+*bebasid running on Windows 10*
 
 ### Terminal User Interface (TUI)
 
