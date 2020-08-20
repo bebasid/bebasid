@@ -16,7 +16,7 @@
 
 - [Daftar Isi](#daftar-isi)
 - [bebasid](#bebasid)
-  - [Graphical User Interface (GUI)](#graphical-user-interface-tui)
+  - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
 - [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
