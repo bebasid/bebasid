@@ -29,6 +29,14 @@
 
 bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
 
+### Graphical User Interface (GUI)
+
+Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0).
+
+![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/jutwCQb.png)
+
+*antarmuka pengguna bebasid di Windows 10*
+
 ### Terminal User Interface (TUI)
 
 Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
