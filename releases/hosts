@@ -217,9 +217,11 @@
 104.24.190.20 thepiratebay.org www.thepiratebay.org
 
 # [hitomi.la]
-178.17.174.221 hitomi.la www.hitomi.la
-23.237.107.210 a.hitomi.la aa.hitomi.la atn.hitomi.la ba.hitomi.la btn.hitomi.la ca.hitomi.la
-23.237.107.210 ltn.hitomi.la streaming.hitomi.la tn.hitomi.la hf2.hitomi.la ctn.hitomi.la g.hitomi.la
+23.237.107.210 streaming.hitomi.la a.hitomi.la aa.hitomi.la btn.hitomi.la atn.hitomi.la hf3.hitomi.la la.hitomi.la 0tn.hitomi.la 0a.hitomi.la af.hitomi.la f.hitomi.la c.hitomi.la d.hitomi.la e.hitomi.la b.hitomi.la ag.hitomi.la i.hitomi.la g.hitomi.la
+23.237.36.202 hf1.hitomi.la ba.hitomi.la dev.hitomi.la ab.hitomi.la ac.hitomi.la ad.hitomi.la ae.hitomi.la ah.hitomi.la ai.hitomi.la h.hitomi.la lb.hitomi.la lc.hitomi.la ld.hitomi.la le.hitomi.la lf.hitomi.la lg.hitomi.la lh.hitomi.la li.hitomi.la
+192.240.120.10 ltn.hitomi.la hf2.hitomi.la tn.hitomi.la ca.hitomi.la ctn.hitomi.la
+178.17.174.221 hitomi.la
+
 
 # [nhentai.net]
 198.255.82.50 i.nhentai.net t.nhentai.net t2.nhentai.net i2.nhentai.net
@@ -563,9 +565,14 @@
 104.18.54.249 javlib.com www.javlib.com
 
 # [yande.re]
-188.165.205.120 yande.re www.yande.re
-51.77.247.63 files.yande.re
-188.165.205.120 assets.yande.re
+198.98.54.92 assets.yande.re files.yande.re www.yande.re yuno.yande.re yande.re ayase.yande.re direct.yande.re webmaster.yande.re
+72.11.139.6 generic.yande.re imouto.yande.re
+72.11.139.7 minecraft.yande.re
+158.69.253.199 kirino.yande.re
+72.11.139.9 gamepop.yande.re
+72.11.139.5 tlwiki.yande.re
+72.11.139.8 aegis.yande.re
+72.11.139.4 iqdb.yande.re 
 
 # [konachan.com]
 5.178.68.69 konachan.com www.konachan.com
@@ -3048,3 +3055,8 @@
 # [nanime.yt]
 172.67.133.164 nanime.yt
 104.28.19.90 www.anime.yt
+
+# [shooshtime.com}
+173.239.3.52 www.shooshtime.com secret.shooshtime.com stream.shooshtime.com content.shooshtime.com download.shooshtime.com media_secret.shooshtime.com sfw.shooshtime.com forums.shooshtime.com thumbs-01.shooshtime.com media.secret.shooshtime.com beta.shooshtime.com shooshtime.com
+199.167.66.1 videostreams.shooshtime.com
+54.236.206.131 s0zfs.shooshtime.com
