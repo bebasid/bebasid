@@ -100,6 +100,12 @@
 127.0.0.1 www.x-tags.net
 127.0.0.1 x-tags.net
 
+# [Telkomsel]
+127.0.0.1 ads.telkomsel.com
+
+# [XL]
+127.0.0.1 ibnads.xl.co.id
+
 # Mulai hosts bebasid
 
 # [reddit.com]
