@@ -3,7 +3,7 @@
 # Hosts ditulis oleh Komunitas Internet Netral
 # Dengan mengunduh BEBASID dan menggunakan aplikasi ini berarti menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut: https://github.com/bebasid/bebasid/blob/master/RULES.md
 
-# OPTIONAL
+# Optional
 # Hapus '# ' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
 
 # [Matikan fitur SafeSearch Google dan Youtube]
@@ -40,46 +40,65 @@
 185.235.81.1 doh.dnslify.com
 2a0d:4d00:81::1 doh.dnslify.com
 
-# Trackers
+# Blokir Trackers
 
 # [Indihome]
-127.0.0.1 cfs.uzone.id
-127.0.0.1 internetpositif.uzone.id
-127.0.0.1 uzone.id
-127.0.0.1 cfs2.uzone.id
-127.0.0.1 u-ad.info
-127.0.0.1 www.u-ad.info
-127.0.0.1 cfs.u-ad.info
-127.0.0.1 cfs2.uadexchange.com
-127.0.0.1 www.uadexchange.com
-127.0.0.1 uadexchange.com
-127.0.0.1 www.internetpositif.uzone.id
-127.0.0.1 www.uzone.id
-127.0.0.1 x-tags.net
-127.0.0.1 www.x-tags.net
 127.0.0.1 a01.uadexchange.com
-127.0.0.1 cdn.uzone.id
+127.0.0.1 a02.uadexchange.com
+127.0.0.1 a03.uadexchange.com
+127.0.0.1 a04.uadexchange.com
+127.0.0.1 a05.uadexchange.com
+127.0.0.1 block.uzone.id
+127.0.0.1 cdn1.uzone.id
+127.0.0.1 cdn2.uzone.id
 127.0.0.1 cdn3.uzone.id
+127.0.0.1 cdn4.uzone.id
+127.0.0.1 cdn5.uzone.id
+127.0.0.1 cdn6.uzone.id
+127.0.0.1 cdn7.uzone.id
+127.0.0.1 cfs.u-ad.info
 127.0.0.1 cfs.uzone.id
+127.0.0.1 cfs2.uadexchange.com
+127.0.0.1 cfs2.uzone.id
 127.0.0.1 csf.uzone.id
 127.0.0.1 d01.notifa.info
 127.0.0.1 d31qbv1cthcecs.cloudfront.net
 127.0.0.1 d5nxst8fruw4z.cloudfront.net
+127.0.0.1 das.uadexchange.com
+127.0.0.1 digiads.co.id
+127.0.0.1 digilife.uzone.id
 127.0.0.1 expose.uzone.id
+127.0.0.1 food.uzone.id
+127.0.0.1 internetpositif.uzone.id
+127.0.0.1 js.digiads.co.id
 127.0.0.1 kendedes.uzone.id
 127.0.0.1 mercusuar.uzone.id
-127.0.0.1 p01.notifa.info
+127.0.0.1 news.uzone.id
 127.0.0.1 notifa.info
-127.0.0.1 www.notifa.info
+127.0.0.1 p01.notifa.info
 127.0.0.1 p02.notifa.info
-127.0.0.1 p04.notifa.info
 127.0.0.1 p03.notifa.info
+127.0.0.1 p04.notifa.info
 127.0.0.1 p05.notifa.info
-127.0.0.1 usearch.co.id
-127.0.0.1 www.usearch.co.id
-127.0.0.1 welcome.indihome.co.id
+127.0.0.1 terbaru.uzone.id
+127.0.0.1 terpopuler.uzone.id
+127.0.0.1 u-ad.info
+127.0.0.1 uadexchange.com
 127.0.0.1 upoint.id
+127.0.0.1 usearch.co.id
+127.0.0.1 uzone.id
+127.0.0.1 v3.mercusuar.uzone.id
+127.0.0.1 welcome.indihome.co.id
+127.0.0.1 www.digiads.co.id
+127.0.0.1 www.internetpositif.uzone.id
+127.0.0.1 www.notifa.info
+127.0.0.1 www.u-ad.info
+127.0.0.1 www.uadexchange.com
 127.0.0.1 www.upoint.id
+127.0.0.1 www.usearch.co.id
+127.0.0.1 www.uzone.id
+127.0.0.1 www.x-tags.net
+127.0.0.1 x-tags.net
 
 # Mulai hosts bebasid
 
