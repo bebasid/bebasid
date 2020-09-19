@@ -64,7 +64,18 @@ Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](ht
 
 Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
 
-<img src="https://raw.githubusercontent.com/bebasid/bebasid.github.io/master/resources/img/SOTO PAK SALAM.png" alt="QRIS">
+<div align="center">
+<details>
+ <summary>:coffee: Traktir kita kopi</summary>
+
+</br>
+
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Status Hosts"></a>
+
+<a href="https://saweria.co/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B" alt="Status Hosts"></a>
+ 
+</details>
+</div>
 
 ## Lisensi
 
