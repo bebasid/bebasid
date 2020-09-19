@@ -64,7 +64,7 @@ Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](ht
 
 Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
 
-<div align="center">
+<div>
 <details>
  <summary>:coffee: Traktir kita kopi</summary>
 
