@@ -62,7 +62,18 @@ If you have any problem in using bebasid, please head to [FAQ](https://github.co
 
 Help us to maintain this project by donating. You can send any nominal to the QRIS code below. The donation will be used for the project development.
 
-<img src="https://raw.githubusercontent.com/bebasid/bebasid.github.io/master/resources/img/SOTO PAK SALAM.png" alt="QRIS">
+<div>
+<details>
+ <summary>:coffee: Buy us a coffee</summary>
+
+</br>
+
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Status Hosts"></a>
+
+<a href="https://saweria.co/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B" alt="Status Hosts"></a>
+ 
+</details>
+</div>
 
 ## License
 
