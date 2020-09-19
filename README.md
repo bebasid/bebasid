@@ -62,7 +62,7 @@ Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](ht
 
 ## Donasi Kami
 
-Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim nominal berapapun ke kode QRIS berikut. Donasi yang diberikan akan digunakan untuk pengembangan proyek.
+Bantu proyek ini tetap berjalan dengan cara berdonasi.
 
 <div>
 <details>
@@ -70,9 +70,9 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi. Caranya, kamu bisa kirim 
 
 </br>
 
-<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Status Hosts"></a>
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 
-<a href="https://saweria.co/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B" alt="Status Hosts"></a>
+<a href="https://saweria.co/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B"></a>
  
 </details>
 </div>
