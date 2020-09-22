@@ -13,7 +13,7 @@ bebasid_banner(){
 about(){
   echo "Name of File  : bebasid.sh"
   echo "Version       : v1.0 [Elena - Ann] Linux/Darwin Version"
-  echo "Built         : 2020.8 [Thomas]"
+  echo "Built         : 2020.9 [Evarina]"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
@@ -77,6 +77,18 @@ bantuan(){
   echo "app"
   echo "  renew     : Memperbarui aplikasi bebasid"
   echo "  uninstall : Menghapus aplikasi bebasid"
+  echo "tunnel"
+  echo "  start"
+  echo "    gt      : Memulai tunnel dengan Green Tunnel"
+  echo "    pt      : Memulai tunnel dengan PowerTunnel"
+  echo "      --nb  : Memulai aplikasi bypass DPI tanpa membuka browser (ops)"
+  echo "  stop      : Memberhentikan aplikasi bypass DPI"
+  echo "  install"
+  echo "    gt      : Memasang Green Tunnel"
+  echo "    pt      : Memasang PowerTunnel"
+  echo "  uninstall"
+  echo "    gt      : Mencopot Green Tunnel"
+  echo "    pt      : Mencopot PowerTunnel"
   echo "block"
   echo "  [website] : Memblokir akses ke [website] (ops)" 
   echo "unblock"
@@ -389,6 +401,143 @@ hapus_hosts_bebasid(){
 
 # =============================================================== #
 
+cek_perintah_tunnel(){	
+  case $1 in	
+    "Green Tunnel" )	
+      if ! [[ -x $(command -v gt) ]]; then	
+        errorin "Green Tunnel tidak ditemukan, silakan pasang Green Tunnel terlebih dahulu"	
+      fi	
+      ;;	
+    "PowerTunnel" )	
+      if ! [[ -x $(command -v java) ]]; then	
+        errorin "Java tidak terpasang, silakan pasang terlebih dahulu"	
+      else	
+        if ! [[ -e ~/.bebasit/PowerTunnel.jar ]]; then	
+          errorin "PowerTunnel tidak ditemukan, silakan pasang PowerTunnel terlebih dahulu"	
+        else	
+          hash=$(shasum ~/.bebasit/PowerTunnel.jar | cut -d' ' -f1)	
+          while ! [[ $hash == "39956402277e04026de4990821161adb32bc8cff" ]]; do	
+            echo "Sedang Mengupdate PowerTunnel"	
+            if curl -L -o ~/.bebasit/PowerTunnel.jar https://github.com/krlvm/PowerTunnel/releases/download/v1.11/PowerTunnel.jar; then	
+                echo "Sukses memasang PowerTunnel"	
+                hash=$(shasum ~/.bebasit/PowerTunnel.jar | cut -d' ' -f1)	
+              else	
+                echo "Tidak dapat mengambil file PowerTunnel"	
+                exit 1	
+            fi	
+            hash=$(shasum ~/.bebasit/PowerTunnel.jar | cut -d' ' -f1)	
+          done	
+        fi	
+      fi	
+      ;;	
+  esac	
+  if ! [[ -x $(command -v tmux) ]]; then	
+    errorin "Tmux tidak terpasang, silakan pasang Tmux terlebih dahulu"	
+  fi	
+}	
+mulai_bebasid_tunnel(){	
+  getUname=$(uname -s)	
+  case $getUname in	
+    Linux* )	
+      random=$(shuf -i 6000-8000 -n 1)	
+      ;;	
+    Darwin* )	
+      random=$(jot -r 1 6000 8000)	
+      ;;	
+  esac	
+  cek_perintah_tunnel $1	
+  tmux has-session -t bebasid-tunnel 2>/dev/null	
+  if [ $? != 0 ]; then	
+    tmux new-session -d -s bebasid-tunnel -x 252 -y 29	
+  else	
+    tmux kill-session -t bebasid-tunnel	
+    tmux new-session -d -s bebasid-tunnel -x 252 -y 29	
+  fi	
+  tmux split-window -v	
+  bisa="no"	
+  i=1	
+  while [[ "$bisa" == "no" ]]; do	
+    if [[ $i -eq 10 ]]; then	
+      echo "$1 tidak dapat membuka blokiran terhadap Netflix"	
+      echo "Silakan menggunakan metode lainnya"	
+      tmux kill-session -t bebasid-tunnel	
+      exit 1	
+    fi	
+    if [[ "$1" == "Green Tunnel" ]]; then	
+      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=gt&n=$i" --silent)	
+      loadin 0.01 "[$i] Mendapatkan DNS $dns"	
+      echo "Tunnel: Green Tunnel"	
+      tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server $dns --system-proxy false --silent true -v 'green-tunnel:*'" Enter	
+    elif [[ "$1" == "PowerTunnel" ]]; then	
+      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=pt&n=$i" --silent)	
+      loadin 0.01 "[$i] Mendapatkan DNS $dns"	
+      echo "Tunnel: PowerTunnel"	
+      db="https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt"	
+      tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -chunk-size 21 -use-dns-server $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup -disable-updater" Enter	
+    fi	
+    loadin 0.01 "Mengetes Koneksi $1 ke Netflix"	
+    sleep 10	
+    if curl -x "http://127.0.0.1:$random" https://www.netflix.com --max-time 10; then	
+      echo "Berhasil melakukan koneksi dengan Netflix"	
+      bisa="ya"	
+    else	
+      echo "Gagal melakukan koneksi dengan Netflix"	
+      echo "Mengulang kembali koneksi dengan DNS yang berbeda"	
+      tmux send-keys -t 1 C-c	
+      ((i++))	
+    fi	
+  done	
+  tmux split-window -h	
+  case $getUname in	
+    Linux* )	
+      if [[ "$browser" == "no" ]]; then	
+        tmux send-keys -t 2 "bebasid tunnel bebasid-tunnel-nb" Enter	
+      else	
+        if [[ -x $(command -v google-chrome-stable) ]]; then	
+          browser="google-chrome-stable"	
+          killall chrome	
+        elif [[ -x $(command -v google-chrome) ]]; then	
+          browser="google-chrome"	
+          killall chrome	
+        fi	
+          loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
+          tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter	
+      fi	
+      ;;	
+    Darwin* )	
+      if [[ "$browser" == "no" ]]; then	
+        tmux send-keys -t 2 "bebasid tunnel bebasid-tunnel-nb" Enter	
+      else	
+        browser="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"	
+        killall 'Google Chrome'	
+        loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
+        tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter	
+      fi	
+      ;;	
+  esac	
+  tmux send-keys -t 0 "bebasid tunnel bebasid-tunnel $random $1" Enter	
+  tmux select-pane -t 0	
+  tmux a	
+}	
+berhentikan_bebasid_tunnel(){	
+  tmux kill-session -t bebasid-tunnel	
+}	
+pasang_aplikasi_bypass_dpi(){	
+  dir="bebasit-installer.sh"	
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/sh/bebasit-installer.sh "-o $dir --silent" "-O $dir -q --quiet"	
+  $ambil	
+  bash ./bebasit-installer.sh $1	
+  rm -rf bebasit-installer.sh $1	
+}	
+hapus_aplikasi_bypass_dpi(){	
+  dir="bebasit-uninstaller.sh"	
+  curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/sh/bebasit-uninstaller.sh "-o $dir --silent" "-O $dir -q --quiet"	
+  bash ./bebasit-uninstaller.sh $1	
+  rm -rf bebasit-uninstaller.sh $1	
+}	
+
+# =============================================================== #	
+
 header_bebasid_fitur(){
   echo "== MEMULAI PENGGUNAAN FITUR BEBASID =="
   echo
@@ -578,7 +727,7 @@ case $1 in
   echo""
   PS3='Pilih salah satu opsi: '
   echo
-  menuUtama=("Hosts" "Fitur" "Aplikasi" "Paket" "Bantuan" "Keluar")
+  menuUtama=("Hosts" "Fitur" "Tunnel" "Aplikasi" "Paket" "Bantuan" "Keluar")
   select menuUtamaOpt in "${menuUtama[@]}"
   do
     case $menuUtamaOpt in
@@ -676,6 +825,60 @@ case $1 in
       done
       break
       ;;
+      Tunnel )	
+          echo	
+          echo "+---------------------------------------+"	
+          echo "|          MENU UTAMA - TUNNEL          |"	
+          echo "+---------------------------------------+"	
+          echo	
+          PS3='Pilih salah satu opsi: '	
+          echo	
+          menuTunnel=("Mulai Tunnel DPI" "Berhentikan Tunnel DPI" "Pasang Aplikasi Tunnel DPI" "Keluar")	
+          select menuTunnelOpt in "${menuTunnel[@]}"	
+          do	
+            case $menuTunnelOpt in	
+              "Mulai Tunnel DPI" )	
+                echo	
+                mulai_bebasid_tunnel	
+                break	
+                ;;	
+              "Berhentikan Tunnel DPI" )	
+                echo	
+                berhentikan_bebasid_tunnel	
+                break	
+                ;;	
+              "Pasang Aplikasi Tunnel DPI" )	
+                echo	
+                PS3='Pilih aplikasi yang ingin dipasang:'	
+                echo	
+                menuTunnelApp=("Green Tunnel" "PowerTunnel")	
+                select menuTunnelAppOpt in "${menuTunnelApp[@]}"	
+                do	
+                  case $menuTunnelAppOpt in	
+                    "Green Tunnel" )	
+                      echo	
+                      pasang_aplikasi_bypass_dpi "green-tunnel"	
+                      break	
+                      ;;	
+                    "PowerTunnel" )	
+                      echo	
+                      pasang_aplikasi_bypass_dpi "powertunnel"	
+                      break	
+                      ;;	
+                  esac	
+                done	
+                break	
+                ;;	
+              #"Menu Sebelumnya" )	
+              #  break	
+              #  ;;	
+              "Keluar" )	
+                break	
+                ;;	
+            esac	
+          done	
+          break	
+          ;;
     Aplikasi )
       echo
       echo "+---------------------------------------+"
@@ -809,6 +1012,74 @@ case $1 in
     echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
   esac
   ;;
+  tunnel )	
+    case $2 in	
+      start )	
+        if [[ "$4" == "--nb" ]]; then	
+          browser="no"	
+        else	
+          browser="yes"	
+        fi	
+        case $3 in	
+          gt )	
+            mulai_bebasid_tunnel "Green Tunnel"	
+            ;;	
+          pt )	
+            mulai_bebasid_tunnel "PowerTunnel"	
+            ;;	
+          * )	
+          echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"	
+          ;;	
+        esac	
+        ;;	
+      stop )	
+        berhentikan_bebasid_tunnel	
+        ;;	
+      install )	
+      case $3 in	
+        gt )	
+          pasang_aplikasi_bypass_dpi "green-tunnel"	
+          ;;	
+        pt )	
+          pasang_aplikasi_bypass_dpi "powertunnel"	
+          ;;	
+        * )	
+          echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"	
+          ;;	
+       esac 	
+      ;;	
+      uninstall )	
+      case $3 in	
+        gt )	
+          hapus_aplikasi_bypass_dpi "green-tunnel"	
+          ;;	
+        pt )	
+          hapus_aplikasi_bypass_dpi "powertunnel"	
+          ;;	
+        * )	
+          echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"	
+          ;;	
+       esac 	
+      ;;	
+      bebasid-tunnel )	
+        reset	
+        echo "$4 berhasil dibuka (127.0.0.1:$3)"	
+        echo "Walaupun terminal ini dapat ditutup"	
+        echo "Disarankan terminal ini jangan ditutup selama masih streaming"	
+        read -n 1 -s -r -p "Untuk menonaktifkan, cukup tekan [Enter]"	
+        bebasid tunnel stop	
+        ;;	
+      bebasid-tunnel-nb )	
+        reset	
+        echo "Opsi tanpa browser telah dipilih"	
+        echo "Silahkan mengatur sendiri proxy secara manual"	
+        echo "Terutama untuk Firefox"	
+        read -n 1 -s -r -p ""	
+        ;;	
+      * )	
+        echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"	
+    esac	
+    ;;
   block )
   if [ -z $2 ]; then
     echo "[website] tidak ditentukan"
