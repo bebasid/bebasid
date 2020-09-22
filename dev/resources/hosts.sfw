@@ -105,6 +105,9 @@
 # [XL]
 127.0.0.1 ibnads.xl.co.id
 
+# [Indosat]
+127.0.0.1 ads.indosatooredoo.com
+
 # Mulai hosts bebasid
 
 # [reddit.com]
