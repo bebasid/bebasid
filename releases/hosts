@@ -629,7 +629,7 @@
 72.11.139.9 gamepop.yande.re
 72.11.139.5 tlwiki.yande.re
 72.11.139.8 aegis.yande.re
-72.11.139.4 iqdb.yande.re 
+72.11.139.4 iqdb.yande.re
 
 # [konachan.com]
 5.178.68.69 konachan.com www.konachan.com
@@ -1323,7 +1323,7 @@
 104.31.82.250 rarbgaccess.org www.rarbgaccess.org
 
 # [rmz.cr]
-172.67.135.40 rmz.cr 
+172.67.135.40 rmz.cr
 104.28.18.114 www.rmz.cr
 162.223.88.69 dc-b0ea2b5e9b13.rmz.cr
 
@@ -3117,3 +3117,6 @@
 173.239.3.52 www.shooshtime.com secret.shooshtime.com stream.shooshtime.com content.shooshtime.com download.shooshtime.com sfw.shooshtime.com forums.shooshtime.com thumbs-01.shooshtime.com media.secret.shooshtime.com beta.shooshtime.com shooshtime.com
 199.167.66.1 videostreams.shooshtime.com
 54.236.206.131 s0zfs.shooshtime.com
+
+# [bfst.xyz]
+104.27.189.18 bfst.xyz www.bfst.xyz
