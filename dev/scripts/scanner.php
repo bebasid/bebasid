@@ -32,10 +32,10 @@ function count_line($file) {
     return $c;
 }
 
-if(empty($argv[1]){
-  echo "use command php scanner.php listdomainyangingindiunblock.txt";
-  die();
- }
+// if(empty($argv[1]){
+//   echo "use command php scanner.php listdomainyangingindiunblock.txt";
+//   die();
+//  }
 
 $file = $argv[1];
 $t = -microtime(1);
