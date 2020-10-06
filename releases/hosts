@@ -277,16 +277,14 @@
 23.237.107.210 streaming.hitomi.la a.hitomi.la aa.hitomi.la btn.hitomi.la atn.hitomi.la hf3.hitomi.la la.hitomi.la 0tn.hitomi.la 0a.hitomi.la af.hitomi.la f.hitomi.la c.hitomi.la d.hitomi.la e.hitomi.la b.hitomi.la ag.hitomi.la i.hitomi.la g.hitomi.la
 23.237.36.202 hf1.hitomi.la ba.hitomi.la dev.hitomi.la ab.hitomi.la ac.hitomi.la ad.hitomi.la ae.hitomi.la ah.hitomi.la ai.hitomi.la h.hitomi.la lb.hitomi.la lc.hitomi.la ld.hitomi.la le.hitomi.la lf.hitomi.la lg.hitomi.la lh.hitomi.la li.hitomi.la
 192.240.120.10 ltn.hitomi.la hf2.hitomi.la tn.hitomi.la ca.hitomi.la ctn.hitomi.la
-178.17.174.221 hitomi.la
-
+78.142.29.56 hitomi.la
 
 # [nhentai.net]
-198.255.82.50 i.nhentai.net t.nhentai.net t2.nhentai.net i2.nhentai.net
-185.165.243.201 webseed.nhentai.net i7.nhentai.net t7.nhentai.net
-185.165.243.200 i5.nhentai.net t5.nhentai.net sentry.nhentai.net
 104.27.195.88 nhentai.net www.i.nhentai.net tracker.nhentai.net
 104.27.194.88 www.nhentai.net static.nhentai.net
 66.6.44.4 blog.nhentai.net
+185.177.127.77 i.nhentai.net i5.nhentai.net t5.nhentai.net webseed.nhentai.net
+185.177.127.78 t.nhentai.net i7.nhentai.net t7.nhentai.net
 
 
 # [gelbooru.com]
@@ -576,41 +574,39 @@
 158.69.228.132 heaven99.spankbang.com
 
 # [dmm.com]
-103.254.144.94 stat.i3.dmm.com
-202.6.247.84 mvno.dmm.com
-203.209.151.65 akiba.dmm-make.com
-203.209.146.206 affiliate.dmm.com
-103.254.146.66 book.dmm.com
-148.251.158.116 display.dmm.com
+13.32.207.52 stat.i3.dmm.com
+52.85.144.49 mvno.dmm.com
+13.231.53.224 akiba.dmm-make.com
+157.112.86.108 affiliate.dmm.com
+52.69.221.61 book.dmm.com
+147.75.95.74 display.dmm.com
 202.6.247.195 dlsoft.dmm.com
-103.254.146.44 yell.dmm.com
 202.6.247.168 chariloto.dmm.com
-203.209.146.79 recruit.dmm.com
-157.112.85.174 www.dmm.com
-203.209.151.110 make.dmm.com
+157.112.93.16 recruit.dmm.com
+13.249.37.228 www.dmm.com
+13.249.39.65 make.dmm.com
 202.6.247.179 help.dmm.com
-203.209.151.42 media.dmm-make.com
+13.32.182.118 media.dmm-make.com
 103.254.146.118 event.dmm.com
-103.254.144.35 make-cs.dmm.com
 202.6.246.222 ad.dmm.com
-202.6.245.122 pics.dmm.com
-203.180.216.234 fx.dmm.com
-203.209.152.98 dmm.com
+202.6.246.10 pics.dmm.com
+104.121.101.160 fx.dmm.com
+13.248.196.236 dmm.com
 43.255.40.113 p-town.dmm.com
-43.255.42.79 vr-theater.dmm.com
 202.6.245.205 kouenirai.dmm.com
 202.6.245.128 lounge.dmm.com
-202.6.245.122 p.dmm.com
-103.254.145.236 robots.dmm.com
-103.254.146.85 eikaiwa.dmm.com
-203.209.147.170 mobile.dmm.com
-43.255.42.131 okan.dmm.com
+202.6.247.66 p.dmm.com
+157.112.91.141 robots.dmm.com
+54.249.32.53 eikaiwa.dmm.com
+13.32.196.158 mobile.dmm.com
 43.255.42.71 hikari.dmm.com
 
 # [dmm.co.jp]
-202.6.247.66 pics.dmm.co.jp p.dmm.co.jp pics.dmm.com
-202.6.246.32 dmm.co.jp actress.dmm.co.jp
-157.112.85.173 www.dmm.co.jp
+202.6.245.93 pics.dmm.co.jp p.dmm.co.jp
+202.6.246.10 pics.dmm.com
+13.248.196.236 dmm.co.jp
+13.249.38.162 actress.dmm.co.jp
+99.86.231.121 www.dmm.co.jp
 103.254.146.221 sample9.dmm.co.jp
 202.6.247.196 dlsoft.dmm.co.jp
 43.255.40.206 games.dmm.co.jp games.dmm.com
@@ -2117,11 +2113,11 @@
 104.31.82.117 hentai-for.me www.hentai-for.me en.hentai-for.me
 
 # [onlyfans.com]
-34.225.92.112 onlyfans.com
-54.192.209.63 cdn2.onlyfans.com
-54.192.209.58 public.onlyfans.com
+52.73.12.142 onlyfans.com
+99.84.222.51 cdn2.onlyfans.com
+99.84.222.127 public.onlyfans.com
 34.206.102.97 convert.onlyfans.com
-34.200.63.198 www.onlyfans.com
+3.91.129.170 www.onlyfans.com
 18.232.46.215 monit.onlyfans.com
 34.235.250.15 blog.onlyfans.com
 52.21.48.13 live4.onlyfans.com
@@ -2145,7 +2141,7 @@
 100.26.128.8 live0.onlyfans.com
 54.156.103.148 store.onlyfans.com
 107.23.50.158 autoconfig.onlyfans.com
-104.16.206.86 email.onlyfans.com
+104.16.207.86 email.onlyfans.com
 52.201.203.27 convert3.onlyfans.com
 52.65.72.219 stream0-dc3.onlyfans.com
 52.1.69.0 live1.onlyfans.com
@@ -2158,26 +2154,21 @@
 107.23.50.158 mail.onlyfans.com
 54.209.172.97 pg.onlyfans.com
 3.214.123.128 convert1.onlyfans.com
-18.233.73.227 stream1.onlyfans.com media2.onlyfans.com
+18.233.73.227 stream1.onlyfans.com
 34.196.112.45 stream2.onlyfans.com
-3.126.84.208 p2p2.onlyfans.com media3.onlyfans.com
+3.126.84.208 p2p2.onlyfans.com
 13.210.118.39 route0-dc3.onlyfans.com
 13.54.154.194 live0-dc3.onlyfans.com
 13.237.183.173 live1-dc3.onlyfans.com
 3.24.196.79 stream1-dc3.onlyfans.com
-3.12.97.53 route0-dc4.onlyfans.com
-3.22.163.178 stream0-dc4.onlyfans.com
-3.20.197.178 live1-dc4.onlyfans.com
-3.20.26.249 stream1-dc4.onlyfans.com media.onlyfans.com de.media.onlyfans.com sg.media.onlyfans.com uk.media.onlyfans.com main.media.onlyfans.com
-3.209.209.140 thumbs.media.onlyfans.com us.media.onlyfans.com
-54.175.88.73 netdata.onlyfans.com static.onlyfans.com webrtc.onlyfans.com upload.onlyfans.com stage.onlyfans.com bug.onlyfans.com
-34.195.42.125 personal.onlyfans.com cdn.onlyfans.com
-52.85.32.14 static.cdn.onlyfans.com new.onlyfans.com xxx.onlyfans.com soft-notify.onlyfans.com
+3.209.209.140 thumbs.media.onlyfans.com
+54.175.88.73 netdata.onlyfans.com
+34.195.42.125 personal.onlyfans.com
+13.32.207.39 static.cdn.onlyfans.com
 149.72.128.209 o1.ptr8059.onlyfans.com
 3.209.209.140 thumbs.public.onlyfans.com
-54.147.59.39 join.onlyfans.com html5.personal.onlyfans.com hashtag.personal.onlyfans.com de.upload.onlyfans.com us.upload.onlyfans.com sg.upload.onlyfans.com uk.convert.onlyfans.com de.convert.onlyfans.com ca2.convert.onlyfans.com sg.convert.onlyfans.com us.convert.onlyfans.com ca2.upload.onlyfans.com ca.convert.onlyfans.com ca.upload.onlyfans.com uk.upload.onlyfans.com ca.media.onlyfans.com ca2.media.onlyfans.com
-3.132.177.8 live0-dc4.onlyfans.com
-52.85.32.66 stream.onlyfans.com stats.onlyfans.com tracking.onlyfans.com
+54.147.59.39 join.onlyfans.com
+99.84.181.119 stream.onlyfans.com
 
 # [beeg.com]
 192.243.54.98 beeg.com www.beeg.com
@@ -3126,3 +3117,17 @@
 
 # [binance.com]
 13.224.7.78 binance.com www.binance.com
+
+# [peacetv.tv]
+95.131.68.14 peacetv.tv www.peacetv.tv mail.peacetv.tv ftp.peacetv.tv
+
+# [duga.jp]
+133.242.97.202 duga.jp www.duga.jp
+59.106.25.10 pic.duga.jp
+59.106.227.92 img.duga.jp
+59.106.25.21 affsample.duga.jp
+
+# [fleshed.com]
+104.27.181.38 fleshed.com www.fleshed.com
+172.67.215.81 media.fleshed.com
+151.139.128.11 mediav.fleshed.com
