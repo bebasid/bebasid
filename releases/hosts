@@ -2566,11 +2566,6 @@
 104.26.8.126 opensubtitles.org www.opensubtitles.org static.opensubtitles.org blog.opensubtitles.org dl.opensubtitles.org
 104.26.9.126 forum.opensubtitles.org ads2.opensubtitles.org trac.opensubtitles.org api.opensubtitles.org
 
-# [pahe.in]
-104.27.133.141 pahe.in lawas.pahe.in www.lawas.pahe.in panel.pahe.in www.panel.pahe.in
-172.67.192.118 www.pahe.in drive.pahe.in p.pahe.in link.pahe.in
-136.243.46.151 e5.pahe.in file.pahe.in ckklg.pahe.in
-
 # [anonymouse.org]
 193.200.150.82 anonymouse.org www.anonymouse.org
 
@@ -2658,10 +2653,6 @@
 
 # [leetcode.com]
 134.209.142.218 leetcode.com www.leetcode.com
-
-# [pahe.ph]
-172.67.186.112 pahe.ph
-104.31.74.158 www.pahe.ph
 
 # [javgiga.com]
 104.31.64.24 javgiga.com www.javgiga.com
