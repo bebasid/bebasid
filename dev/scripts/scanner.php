@@ -6,7 +6,7 @@
 // REQUIREMENTS: PHP 5 AND DNSUTILS (DEB) OR BIND-UTILS (RHEL)
 
 // --- HOW TO USE ---
-// RUN WITH COMMAND "php unblock.php yourfile.txt"
+// RUN WITH COMMAND "php scanner.php yourfile.txt"
 // CHANGE "yourfile.txt" WITH YOUR FILE
 
 // --- INFO ---
