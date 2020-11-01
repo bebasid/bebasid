@@ -13,7 +13,7 @@ jobs:
         run: |
           LAST_COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
 
-          git config --global user.email "andra.antariksa@gmail.com"
+          git config --global user.email "andra.antariksa+bot@gmail.com"
           git config --global user.name "Aaabot"
           git clone https://aaabot:${{ secrets.ACCESS_TOKEN }}@github.com/bebasid/bebasin.git ../bebasin
 
