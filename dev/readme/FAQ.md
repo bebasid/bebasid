@@ -33,30 +33,10 @@ Dibawah ini adalah pertanyaan dan jawaban yang seringkali diajukan saat mengalam
 - Hapus cache dan cookie
 - Restart komputer
 
-### Sudah memasang hosts bebasid, tetapi tidak dapat memutar video di Netflix
-- Apakah sudah mengikuti prosedur yang ada [disini](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md)?
-
-
 ## Penyelesaian Masalah untuk Linux
 ### Muncul "Tidak dapat terkoneksi dengan Internet" padahal terkoneksi dengan internet
 - Aplikasi bebasid gagal melakukan ping ke 8.8.8.8 dikarenakan suatu sebab (misalnya menggunakan jaringan Tri Indonesia), solusinya mengulang hingga berhasil
 
-### Sudah memasang hosts bebasid, tetapi tidak dapat memutar video di Netflix
-- Apakah sudah mengikuti prosedur yang ada [disini](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md)?
-
-### Sudah memakai Green Tunnel untuk Linux, tetapi tetap saja tidak dapat membuka Netflix di jaringan Indihome
-- Jaringan Indihome anda telah melakukan blokade sangat mendalam kepada Netflix, salah satu solusi untuk mengatasi hal ini adalah menggunakan VPN
-
-
 ## Penyelesaian Masalah untuk MacOS (OSX)
 ### Mengapa bebasid tidak bekerja di peramban Safari?
 - Peramban Safari hanya menggunakan hosts jika tercantum IPv4 dan IPv6, sedangkan bebasid hanya mencantumkan IPv4
-
-### Sudah memasang hosts bebasid, tetapi tidak dapat memutar video di Netflix
-- Apakah sudah mengikuti prosedur yang ada [disini](https://github.com/bebasid/bebasid/blob/master/dev/readme/NETFLIX.md)?
-
-### Sudah memakai Green Tunnel untuk Mac, tetapi tetap saja tidak dapat membuka Netflix di jaringan Indihome
-- Jaringan Indihome anda telah melakukan blokade sangat mendalam kepada Netflix, salah satu solusi untuk mengatasi hal ini adalah menggunakan VPN
-
-### Setelah menggunakan Green Tunnel, koneksi ke Chrome hanya dapat dibuka jika Green Tunnel dibuka
-- Google Chrome tidak tertutup sempurna sehingga Google Chrome masih berjalan diatas proxy, solusinya adalah dengan menutup semua Google Chrome dengan perintah `sudo killall 'Google Chrome'`

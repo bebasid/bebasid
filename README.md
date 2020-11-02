@@ -50,6 +50,10 @@ Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
 Untuk panduan penggunaan versi CLI, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
+### Kode Sumber
+
+Jika anda membutuhkan kode sumber bebasid (GUI), silakan menuju ke [BEBASID-SRC](https://github.com/bebasid/bebasid-src).
+
 ## Cara Berkontribusi, Pertanyaan atau Permintaan
 
 Untuk membantu pengembangan bebasid, silakan menuju ke [KONTRIBUSI](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
