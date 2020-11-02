@@ -51,7 +51,7 @@ Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme
 
 ### Source Code
 
-If you want to know bebasid source code, please head to [BEBASID-SRC](https://github.com/bebasid/bebasid-src)
+If you want to know bebasid source code, please head to [bebasid-src](https://github.com/bebasid/bebasid-src)
 
 ## Contributing, Question and Request
 

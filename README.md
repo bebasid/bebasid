@@ -19,6 +19,7 @@
   - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
+  - [Kode Sumber](#kode-sumber)
 - [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
 - [Soal Sering Ditanyakan](#soal-sering-ditanyakan)
 - [Traktir Kami Kopi](#traktir-kami-kopi)
@@ -52,7 +53,7 @@ Untuk panduan penggunaan versi CLI, silakan menuju ke [PEMAKAIAN](https://github
 
 ### Kode Sumber
 
-Jika anda membutuhkan kode sumber bebasid (GUI), silakan menuju ke [BEBASID-SRC](https://github.com/bebasid/bebasid-src).
+Jika anda membutuhkan kode sumber bebasid (GUI), silakan menuju ke repo [bebasid-src](https://github.com/bebasid/bebasid-src).
 
 ## Cara Berkontribusi, Pertanyaan atau Permintaan
 
