@@ -3479,3 +3479,9 @@
 167.89.17.90 o1.mm.jkforum.net
 35.188.24.144 v.jkforum.net
 104.20.192.74 www.jkforum.net
+
+# [jvid.com]
+104.22.20.160 jvid.com
+130.211.31.244 img.jvid.com
+35.241.42.255 staging001.jvid.com img.staging001.jvid.com
+104.22.21.160 www.jvid.com payment.jvid.com event.jvid.com support.jvid.com
