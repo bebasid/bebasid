@@ -1643,7 +1643,9 @@
 91.212.150.157 katcr.co www.katcr.co
 
 # [1337x.to]
-172.67.141.188 1337x.to www.1337x.to
+104.31.89.65 1337x.to www.1337x.to chat.1337x.to
+198.134.112.244 ssa.1337x.to
+104.31.88.65 cdn.1337x.to
 
 # [yts.lt]
 104.25.135.117 yts.lt www.yts.lt
