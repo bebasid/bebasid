@@ -3609,27 +3609,45 @@
 77.247.178.190 statz.fancentro.com
 
 # [redgifs.com]
-107.23.151.94 redgifs.com cpanel.redgifs.com mail.redgifs.com webdisk.redgifs.com webmail.redgifs.com whm.redgifs.com
-34.236.186.181 thumbs.redgifs.com thumbs1.redgifs.com
-198.134.29.39 thcf1.redgifs.com thalt1a.redgifs.com
-198.134.29.37 thcf2.redgifs.com thalt2.redgifs.com
-198.134.29.36 thcf5.redgifs.com thalt5.redgifs.com
-198.134.29.45 thcf6.redgifs.com thalt6.redgifs.com
-198.134.29.46 thcf7.redgifs.com thalt7.redgifs.com
-198.134.29.47 thcf8.redgifs.com thalt8.redgifs.com
-23.22.64.108 api.redgifs.com weblogin.redgifs.com
-143.204.94.74 filedrop.redgifs.com
-54.82.71.144 metrics.redgifs.com
-54.210.249.247 napi.redgifs.com
+198.134.29.40 thcf1.redgifs.com
+198.134.29.42 thumbs1.redgifs.com
+198.134.29.38 thcf2.redgifs.com
+198.134.29.38 thalt2.redgifs.com
 198.134.29.42 thcf3.redgifs.com
+198.134.29.42 thalt3.redgifs.com
 198.134.29.41 thcf4.redgifs.com
+198.134.29.41 thalt4.redgifs.com
+198.134.29.36 thcf5.redgifs.com
+198.134.29.36 thalt5.redgifs.com
+198.134.29.45 thcf6.redgifs.com
+198.134.29.45 thalt6.redgifs.com
+198.134.29.46 thcf7.redgifs.com
+198.134.29.46 thalt7.redgifs.com
+198.134.29.47 thcf8.redgifs.com
+198.134.29.47 thalt8.redgifs.com
 198.134.29.48 thcf9.redgifs.com
-13.225.78.44 assets.redgifs.com
-23.23.113.48 giant.redgifs.com
-13.35.193.77 www.redgifs.com
-52.55.75.178 fat.redgifs.com
-3.91.164.2 napi.redgifs.com
-52.3.180.255 px.redgifs.com
+198.134.29.48 thalt9.redgifs.com
+198.134.29.39 thalt1a.redgifs.com
+198.134.29.40 thalt1b.redgifs.com
+23.22.64.108 api.redgifs.com
+23.22.64.108 napi.redgifs.com
+23.22.64.108 weblogin.redgifs.com 
+52.222.177.111 filedrop.redgifs.com
+54.236.136.119 api-lbs.redgifs.com
+34.200.49.152 thumbs.redgifs.com
+52.5.176.155 metrics.redgifs.com
+52.222.177.86 assets.redgifs.com
+23.23.1.186 fat.redgifs.com
+3.93.159.158 giant.redgifs.com
+52.222.177.109 www.redgifs.com
+54.156.3.131 px.redgifs.com
+104.18.4.207 wibble.redgifs.com
+52.6.31.207 redgifs.com
+52.6.31.207 cpanel.redgifs.com
+52.6.31.207 mail.redgifs.com
+52.6.31.207 webdisk.redgifs.com
+52.6.31.207 webmail.redgifs.com
+52.6.31.207 whm.redgifs.com
 
 # [zenra.net]
 66.199.190.206 zenra.net www.zenra.net
