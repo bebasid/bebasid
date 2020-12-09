@@ -288,12 +288,12 @@
 185.177.127.78 i7.nhentai.net t7.nhentai.net
 185.177.127.77 i5.nhentai.net t5.nhentai.net webseed.nhentai.net t.nhentai.net
 
-
 # [gelbooru.com]
 67.202.114.141 gelbooru.com www.gelbooru.com
 104.27.134.180 img1.gelbooru.com
 212.8.240.5 img2.gelbooru.com simg3.gelbooru.com
 23.227.197.10 img3.gelbooru.com
+104.21.233.235 thumbs.gelbooru.com
 
 # [omegle.com]
 104.23.142.25 omegle.com
@@ -3620,45 +3620,37 @@
 77.247.178.190 statz.fancentro.com
 
 # [redgifs.com]
-198.134.29.40 thcf1.redgifs.com
-198.134.29.42 thumbs1.redgifs.com
-198.134.29.38 thcf2.redgifs.com
-198.134.29.38 thalt2.redgifs.com
-198.134.29.42 thcf3.redgifs.com 
+104.18.4.207 thcf1.redgifs.com
+104.18.5.207 thumbs1.redgifs.com
+104.18.4.207 thumbs2.redgifs.com
+104.18.5.207 thcf2.redgifs.com
+198.134.29.37 thalt2.redgifs.com
+104.18.5.207 thcf3.redgifs.com 
 198.134.29.42 thalt3.redgifs.com
-198.134.29.41 thcf4.redgifs.com
+104.18.4.207 thcf4.redgifs.com
 198.134.29.41 thalt4.redgifs.com
-198.134.29.36 thcf5.redgifs.com
-198.134.29.36 thalt5.redgifs.com
-198.134.29.45 thcf6.redgifs.com
+104.18.4.207 thcf5.redgifs.com
+104.18.4.207 thcf6.redgifs.com
 198.134.29.45 thalt6.redgifs.com
-198.134.29.46 thcf7.redgifs.com
+104.18.4.207 thcf7.redgifs.com
 198.134.29.46 thalt7.redgifs.com
-198.134.29.47 thcf8.redgifs.com
+104.18.4.207 thcf8.redgifs.com
 198.134.29.47 thalt8.redgifs.com
-198.134.29.48 thcf9.redgifs.com
+104.18.5.207 thcf9.redgifs.com
 198.134.29.48 thalt9.redgifs.com
 198.134.29.39 thalt1a.redgifs.com
 198.134.29.40 thalt1b.redgifs.com
-23.22.64.108 api.redgifs.com
-23.22.64.108 napi.redgifs.com
-23.22.64.108 weblogin.redgifs.com 
-52.222.177.111 filedrop.redgifs.com
-54.236.136.119 api-lbs.redgifs.com
+54.80.95.98 napi.redgifs.com
+52.203.104.232 weblogin.redgifs.com 
+52.85.134.43 filedrop.redgifs.com
+18.235.224.237 api-lbs.redgifs.com
 34.200.49.152 thumbs.redgifs.com
-52.5.176.155 metrics.redgifs.com
-52.222.177.86 assets.redgifs.com
-23.23.1.186 fat.redgifs.com
-3.93.159.158 giant.redgifs.com
-52.222.177.109 www.redgifs.com
-54.156.3.131 px.redgifs.com
-104.18.4.207 wibble.redgifs.com
-52.6.31.207 redgifs.com
-52.6.31.207 cpanel.redgifs.com
-52.6.31.207 mail.redgifs.com
-52.6.31.207 webdisk.redgifs.com
-52.6.31.207 webmail.redgifs.com
-52.6.31.207 whm.redgifs.com
+34.237.64.103 metrics.redgifs.com
+104.18.4.207 assets.redgifs.com
+3.93.94.182 fat.redgifs.com
+23.20.173.105 giant.redgifs.com
+99.86.230.125 www.redgifs.com
+52.6.45.99 redgifs.com
 
 # [zenra.net]
 66.199.190.206 zenra.net www.zenra.net
@@ -3989,7 +3981,7 @@
 104.27.189.18 bfst.xyz www.bfst.xyz
 
 # [binance.com]
-13.224.7.78 binance.com www.binance.com
+13.224.7.78 binance.com www.binance.com accounts.binance.com
 
 # [peacetv.tv]
 95.131.68.14 peacetv.tv www.peacetv.tv mail.peacetv.tv ftp.peacetv.tv
@@ -4038,3 +4030,6 @@
 
 # [pornhubdownload.com]
 104.27.157.75 pornhubdownload.com www.pornhubdownload.com
+
+# [hoodsite.com]
+104.27.194.88 hoodsite.com
