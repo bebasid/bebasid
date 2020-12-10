@@ -405,8 +405,58 @@
 104.20.135.21 r.e-hentai.org
 104.20.135.21 lofi.e-hentai.org
 
+# [cdn for xvideos & xnxx]
+8.240.242.123 vid1-l3.xvideos-cdn.com
+8.240.26.251 hls1-l3.xvideos-cdn.com
+8.240.113.251 vid2-l3.xvideos-cdn.com
+8.240.247.251 hls2-l3.xvideos-cdn.com
+8.247.113.123 vid3-l3.xvideos-cdn.com
+8.240.135.123 vid4-l3.xvideos-cdn.com
+8.252.64.123 hls4-l3.xvideos-cdn.com
+8.240.242.123 static-l3.xvideos-cdn.com
+8.240.36.123 img-l3.xvideos-cdn.com
+8.252.158.251 premiumvideo-l3.xvideos-cdn.com
+152.195.13.91 static-egc.xvideos-cdn.com
+152.195.13.88 vid-egc.xvideos-cdn.com
+89.187.177.8 cdn77-pic.xvideos-cdn.com
+69.55.53.171 static.xvideos-cdn.com
+89.187.177.17 cdn77-vid.xvideos-cdn.com
+213.174.135.2 img-ah.xvideos-cdn.com
+156.146.59.210 video-cdn77-premium.xvideos-cdn.com
+69.55.53.172 static-ss.xvideos-cdn.com
+185.93.1.143 video-cdn77-premiumtest.xvideos-cdn.com
+209.197.3.84 static-hw.xvideos-cdn.com
+209.197.3.84 img-hw.xvideos-cdn.com
+209.197.3.84 video-hw.xvideos-cdn.com
+205.185.216.10 premiumvideo-hw.xvideos-cdn.com
+209.197.3.84 hls-hw.xvideos-cdn.com
+69.28.159.172 images-llnw.xvideos-cdn.com
+8.240.242.251 vid1-l3.xnxx-cdn.com
+8.251.131.123 hls1-l3.xnxx-cdn.com
+8.251.129.251 vid2-l3.xnxx-cdn.com
+8.252.160.123 hls2-l3.xnxx-cdn.com
+8.240.135.123 vid3-l3.xnxx-cdn.com
+8.249.241.251 hls3-l3.xnxx-cdn.com
+8.240.24.123 vid4-l3.xnxx-cdn.com
+8.240.135.123 static-l3.xnxx-cdn.com
+8.252.0.251 img-l3.xnxx-cdn.com
+8.240.26.251 premiumvideo-l3.xnxx-cdn.com
+152.195.13.91 static-egc.xnxx-cdn.com
+152.195.13.89 vid-egc.xnxx-cdn.com
+152.195.13.89 img-egc.xnxx-cdn.com
+89.187.177.8 cdn77-pic.xnxx-cdn.com
+213.174.135.2 img-ah.xnxx-cdn.com
+156.146.59.216 video-cdn77-premium.xnxx-cdn.com
+69.55.53.169 static-ss.xnxx-cdn.com
+209.197.3.84 static-hw.xnxx-cdn.com
+209.197.3.84 img-hw.xnxx-cdn.com
+209.197.3.84 video-hw.xnxx-cdn.com
+205.185.216.42 premiumvideo-hw.xnxx-cdn.com
+209.197.3.84 hls-hw.xnxx-cdn.com
+
 # [xvideos.com]
 185.88.181.6 xvideos.com
+185.88.181.6 www.xvideos.com
 185.88.181.8 dl-.xvideos.com
 185.88.181.9 img100-000.xvideos.com
 185.88.181.7 porn000.xvideos.com
@@ -4031,5 +4081,5 @@
 # [pornhubdownload.com]
 104.27.157.75 pornhubdownload.com www.pornhubdownload.com
 
-# [hoodsite.com]
-104.27.194.88 hoodsite.com
+# [tokyomotion.net]
+64.187.150.197 tokyomotion.net www.tokyomotion.net
