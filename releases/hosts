@@ -276,10 +276,23 @@
 104.24.190.20 thepiratebay.org www.thepiratebay.org
 
 # [hitomi.la]
-23.237.107.210 streaming.hitomi.la a.hitomi.la aa.hitomi.la btn.hitomi.la atn.hitomi.la hf3.hitomi.la la.hitomi.la 0tn.hitomi.la 0a.hitomi.la af.hitomi.la f.hitomi.la c.hitomi.la d.hitomi.la e.hitomi.la b.hitomi.la ag.hitomi.la i.hitomi.la g.hitomi.la
-23.237.36.202 hf1.hitomi.la ba.hitomi.la dev.hitomi.la ab.hitomi.la ac.hitomi.la ad.hitomi.la ae.hitomi.la ah.hitomi.la ai.hitomi.la h.hitomi.la lb.hitomi.la lc.hitomi.la ld.hitomi.la le.hitomi.la lf.hitomi.la lg.hitomi.la lh.hitomi.la li.hitomi.la
-192.240.120.10 ltn.hitomi.la hf2.hitomi.la tn.hitomi.la ca.hitomi.la ctn.hitomi.la
+23.237.107.211 aa.hitomi.la
+23.237.107.212 ab.hitomi.la
+66.187.70.34 a.hitomi.la
+23.237.107.210 atn.hitomi.la
+23.237.54.195 ba.hitomi.la
+23.237.54.196 bb.hitomi.la
+23.237.107.210 btn.hitomi.la
+192.240.120.11 ca.hitomi.la
+192.240.120.12 cb.hitomi.la
+192.240.120.10 ctn.hitomi.la
+23.237.54.194 hf1.hitomi.la
+192.240.120.10 hf2.hitomi.la
+23.237.107.210 hf3.hitomi.la
 78.142.29.56 hitomi.la
+192.240.120.10 ltn.hitomi.la
+66.187.70.34 streaming.hitomi.la
+192.240.120.10 tn.hitomi.la
 
 # [nhentai.net]
 104.27.195.88 nhentai.net tracker.nhentai.net
@@ -378,8 +391,10 @@
 104.20.135.45 raikou1.donmai.us raikou2.donmai.us raikou3.donmai.us raikou4.donmai.us safebooru.donmai.us
 147.135.4.93 kagamihara.donmai.us
 147.135.10.29 shima.donmai.us
-104.26.10.39 cdn.donmai.us
+104.26.10.39 cdn.donmai.us saitou.donmai.us sonohara.donmai.us
 45.79.98.156 isshiki.donmai.us
+74.207.243.186 karasuma.donmai.us
+104.26.11.39 hijiribe.donmai.us testbooru.donmai.us
 
 # [bromo.com]
 94.199.249.240 bromo.com www.bromo.com
@@ -4087,3 +4102,12 @@
 
 # [tentaclerape.net]
 104.28.1.182 tentaclerape.net www.tentaclerape.net
+
+# [giantessbooru.com]
+104.28.1.182 giantessbooru.com www.giantessbooru.com
+
+# [megabooru.com]
+191.209.68.200 megabooru.com www.megabooru.com img2.megabooru.com
+
+# [hypnohub.net]
+172.67.163.9 hypnohub.net www.hypnohub.net
