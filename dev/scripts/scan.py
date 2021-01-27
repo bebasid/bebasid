@@ -76,7 +76,7 @@ def execute(file):
             lenDieHostname += 1
             print("Domain {0} tidak aktif".format(hostname))
     hostnameFile.close()
-    print("Result:\nFile\t\t: {0}\nDomain Aktif\t: {1}\nDomain Mati\t: {2}\nGagal Ditulis\t: {3}".format("hosts"+file,lenLiveHostname,lenDieHostname,lenCantWrite))
+    print("Result:\nFile\t\t: {0}\nDomain Aktif\t: {1}\nDomain Mati\t: {2}\nGagal Ditulis\t: {3}".format("hosts-"+file,lenLiveHostname,lenDieHostname,lenCantWrite))
 
 try:
     execute(argv[1])
