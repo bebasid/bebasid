@@ -106,7 +106,7 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo ===========================================================================
 	echo.
-	>nul findstr /c:"BEBASID" C:\Windows\System32\Drivers\etc\hosts && (
+	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
 	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
 	echo [#] bebasid telah terpasang dan menggunakan mode NSFW [Tekan Y untuk merubah ke SFW]
 	) || (
@@ -122,7 +122,11 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo ===========================================================================
 	echo.
+	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
+	echo [=] Tekan tombol keyboard [Y] kemudian [Enter] untuk membarui hosts
+	) || (
 	echo [=] Tekan tombol keyboard [Y] kemudian [Enter] jika ingin memulai proses pemasangan
+	)
 	echo.
 	echo [=] Tekan tombol keyboard [N] kemudian [Enter] jika ingin membatalkan dan keluar
 	echo.
@@ -166,12 +170,20 @@ Title BEBASID ^> %~nx0
 )
 
 :DOWN3 (
+	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
+	powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts' -OutFile 'hosts'"
+	) || (
 	powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw' -OutFile 'hosts'"
+	)
 	exit /b 0
 )
 
 :DOWN2 (
+	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
+	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts', 'hosts')"
+	) || (
 	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw', 'hosts')"
+	)
 	exit /b 0
 )
 
@@ -222,12 +234,12 @@ Title BEBASID ^> %~nx0
 )
 
 :PENUH3 (
-	powershell -command "Invoke-WebRequest 'https://github.com/bebasid/bebasid/raw/master/releases/hosts' -OutFile 'hosts'"
+	powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts' -OutFile 'hosts'"
 	exit /b 0
 )
 
 :PENUH2 (
-	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://github.com/bebasid/bebasid/raw/master/releases/hosts', 'hosts')"
+	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts', 'hosts')"
 	exit /b 0
 )
 
