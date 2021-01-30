@@ -3320,7 +3320,9 @@
 67.227.202.204 redbled.com www.redbled.com
 
 # [warashi-asian-pornstars.fr]
-51.15.172.59 warashi-asian-pornstars.fr www.warashi-asian-pornstars.fr
+51.15.172.59 warashi-asian-pornstars.fr 
+51.15.172.59 www.warashi-asian-pornstars.fr
+51.15.172.59 forum.warashi-asian-pornstars.fr
 
 # [999dice.com]
 46.28.207.158 999dice.com www.999dice.com
@@ -4755,3 +4757,33 @@
 188.92.41.44 www.oddsportal.com
 188.92.41.44 oddsportal.com
 188.92.41.36 datalb.oddsportal.com
+
+# [evozi.com]
+51.210.99.13 gra02.evozi.com
+141.101.120.10 storage.evozi.com
+141.101.120.11 blog.evozi.com
+141.101.120.10 ssh.evozi.com
+141.101.120.10 api.evozi.com
+141.101.120.11 api-apk.evozi.com
+141.101.120.10 api-apk-dl.evozi.com
+141.101.120.11 mail.evozi.com
+51.77.161.250 udp.evozi.com
+141.101.120.10 apps.evozi.com
+141.101.120.10 account.evozi.com
+141.101.120.10 pru.evozi.com
+141.101.120.11 www.evozi.com
+141.101.120.10 evozi.com
+141.101.120.10 gra01.evozi.com
+141.101.120.10 api-apk-2.evozi.com
+141.101.120.10 storage2.evozi.com
+141.101.120.10 api-apk-3.evozi.com
+141.101.120.10 api-apk-4.evozi.com
+141.101.120.10 api-apk-5.evozi.com
+141.101.120.10 api-apk-6.evozi.com
+141.101.120.10 ad.evozi.com
+141.101.120.10 external.evozi.com
+141.101.120.10 newsletters.evozi.com
+141.101.120.10 plus.evozi.com
+141.101.120.10 fly.evozi.com
+141.101.120.10 vpn.evozi.com
+141.101.120.10 dev.evozi.com
