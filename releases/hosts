@@ -4652,6 +4652,17 @@
 52.84.229.70 c2c.binance.com
 52.84.229.69 c2c.binance.com
 52.84.150.34 academy.binance.com
+
+# [binance.org]
+52.84.229.114 bsc-dataseed.binance.org
+52.84.229.7 bsc-dataseed.binance.org
+52.84.229.69 bsc-dataseed.binance.org
+52.84.229.97 bsc-dataseed.binance.org
+52.84.229.104 bsc-dataseed1.binance.org
+52.84.229.36 bsc-dataseed1.binance.org
+52.84.229.57 bsc-dataseed1.binance.org
+52.84.229.68 bsc-dataseed1.binance.org
+
 # [peacetv.tv]
 95.131.68.14 peacetv.tv www.peacetv.tv mail.peacetv.tv ftp.peacetv.tv
 
