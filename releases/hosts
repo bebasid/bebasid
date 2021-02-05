@@ -857,8 +857,54 @@
 185.120.69.181 dev.face-rec.xvideos.com
 
 # [paheal.net]
-208.97.151.195 paheal.net www.paheal.net
-5.79.66.75 rule34.paheal.net
+208.97.151.195 rule63.paheal.net
+217.79.242.19 rule34.paheal.net
+217.79.242.19 www.rule34.paheal.net
+95.211.180.149 acacia.paheal.net
+208.97.151.195 cache.paheal.net
+95.211.136.161 olive.paheal.net
+208.97.151.195 blog.paheal.net
+208.97.151.195 www.blog.paheal.net
+217.79.242.34 peach.paheal.net
+208.97.151.195 ssh.paheal.net
+5.79.66.75 bluebell.paheal.net
+217.79.242.18 admin-forum.paheal.net
+208.97.151.195 bikeman.paheal.net
+208.97.151.195 urusan.paheal.net
+95.211.117.212 tulip.paheal.net
+85.17.120.122 iris.paheal.net
+208.97.151.195 gikoforums.paheal.net
+217.79.242.26 lotus.paheal.net
+208.97.151.195 www.paheal.net
+208.97.151.195 cosplay.paheal.net
+217.79.242.18 holly.paheal.net
+95.168.175.155 poppy.paheal.net
+95.168.175.155 rule34-data-000.paheal.net
+95.168.175.155 rule34-data-010.paheal.net
+95.168.175.155 rule34-data-001.paheal.net
+95.168.175.155 rule34-data-011.paheal.net
+95.168.175.155 rule34-data-002.paheal.net
+95.168.175.155 rule34-data-012.paheal.net
+95.168.175.155 rule34-data-003.paheal.net
+95.168.175.155 rule34-data-013.paheal.net
+95.168.175.155 rule34-data-004.paheal.net
+95.168.175.155 rule34-data-005.paheal.net
+95.168.175.155 rule34-data-006.paheal.net
+95.168.175.155 rule34-data-007.paheal.net
+95.168.175.155 rule34-data-008.paheal.net
+95.168.175.155 rule34-data-009.paheal.net
+95.168.175.155 rule34-beta.paheal.net
+95.168.175.155 rule34c.paheal.net
+95.168.175.155 dead.paheal.net
+95.168.175.155 orchid.paheal.net
+95.168.175.155 jasmine.paheal.net
+95.168.175.155 foxglove.paheal.net
+95.168.175.155 heather.paheal.net
+95.168.175.155 clover.paheal.net
+95.168.175.155 rule34c-images.paheal.net
+95.168.175.155 scarlet.paheal.net
+95.168.175.155 pansy.paheal.net
+95.168.175.155 ivy.paheal.net
 
 # [xnxx.com]
 141.0.173.174 multi.xnxx.com
@@ -2569,8 +2615,15 @@
 104.27.81.16 bestgore.com www.bestgore.com
 
 # [fanfiction.net]
-208.80.123.103 fanfiction.net
-173.205.184.6 www.fanfiction.net m.fanfiction.net
+104.18.19.242 m.fanfiction.net
+208.80.122.130 ww.fanfiction.net
+104.18.18.242 www.fanfiction.net
+104.18.19.242 dev.fanfiction.net
+149.28.85.79 fanfiction.net
+149.28.85.79 forum.fanfiction.net
+149.28.85.79 login.fanfiction.net
+149.28.85.79 www.login.fanfiction.net
+149.28.85.79 www.m.fanfiction.net
 
 # [300mbfilms.org]
 195.154.187.16 300mbfilms.org www.300mbfilms.org
@@ -4032,8 +4085,14 @@
 104.24.114.4 tfp.is www.tfp.is
 
 # [nanime.yt]
-172.67.133.164 nanime.yt
-104.28.19.90 www.anime.yt
+75.2.37.224 nanime.yt
+75.2.37.224 www.anime.yt
+
+# [nanime.in]
+104.21.90.95 n.nanime.in
+172.67.155.107 www.nanime.in
+172.67.155.107 naniplay.nanime.in
+104.21.90.95 nanime.in
 
 # [shooshtime.com}
 173.239.3.52 www.shooshtime.com secret.shooshtime.com stream.shooshtime.com content.shooshtime.com download.shooshtime.com sfw.shooshtime.com forums.shooshtime.com thumbs-01.shooshtime.com media.secret.shooshtime.com beta.shooshtime.com shooshtime.com
@@ -4806,3 +4865,7 @@
 141.101.120.10 fly.evozi.com
 141.101.120.10 vpn.evozi.com
 141.101.120.10 dev.evozi.com
+
+# [fullmatchsports.co]
+172.67.171.233 fullmatchsports.co
+172.67.171.233 www.fullmatchsports.co
