@@ -526,9 +526,7 @@ mulai_bebasid_tunnel(){
           elif [[ -x $(command -v brave-browser) ]]; then	
             browser="brave-browser"	
             killall brave	
-          fi	
-            loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
-            tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+          fi
           ;;
         esac
       loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
