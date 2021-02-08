@@ -530,7 +530,11 @@ mulai_bebasid_tunnel(){
           ;;
         esac
       loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
-      tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+      if [[ "$browser" == "firefox" ]]; then
+        tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random -ProfileManager" Enter
+      else
+        tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+      fi
       fi	
       ;;	
     Darwin* )	
