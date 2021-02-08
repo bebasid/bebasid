@@ -435,6 +435,16 @@ cek_perintah_tunnel(){
     errorin "Tmux tidak terpasang, silakan pasang Tmux terlebih dahulu"	
   fi	
 }	
+pilih_browser() {
+  echo "=========================="
+  echo "      PILIH BROWSER       "
+  echo "=========================="
+  echo "1. Google Chrome"
+  echo "2. Firefox"
+  echo "3. Brave Browser"
+  echo -n "Pilih 1-3: "
+
+}
 mulai_bebasid_tunnel(){	
   getUname=$(uname -s)	
   case $getUname in	
@@ -493,15 +503,38 @@ mulai_bebasid_tunnel(){
       if [[ "$browser" == "no" ]]; then	
         tmux send-keys -t 2 "bebasid tunnel bebasid-tunnel-nb" Enter	
       else	
-        if [[ -x $(command -v google-chrome-stable) ]]; then	
-          browser="google-chrome-stable"	
-          killall chrome	
-        elif [[ -x $(command -v google-chrome) ]]; then	
-          browser="google-chrome"	
-          killall chrome	
-        fi	
+        pilih_browser
+        read number
+        case $number in
+        1)
+          if [[ -x $(command -v google-chrome-stable) ]]; then	
+            browser="google-chrome-stable"	
+            killall chrome	
+          elif [[ -x $(command -v google-chrome) ]]; then	
+            browser="google-chrome"	
+            killall chrome	
+          fi	
+            loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
+            tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+          ;;
+        2)
+          browser="firefox"
+          killall firefox
           loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
-          tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter	
+          tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+          ;;
+        3)
+          if [[ -x $(command -v brave-browser-stable) ]]; then	
+            browser="brave-browser-stable"	
+            killall brave	
+          elif [[ -x $(command -v brave-browser) ]]; then	
+            browser="brave-browser"	
+            killall brave	
+          fi	
+            loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
+            tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+          ;;
+        esac
       fi	
       ;;	
     Darwin* )	
