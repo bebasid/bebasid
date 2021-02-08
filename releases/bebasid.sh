@@ -513,15 +513,11 @@ mulai_bebasid_tunnel(){
           elif [[ -x $(command -v google-chrome) ]]; then	
             browser="google-chrome"	
             killall chrome	
-          fi	
-            loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
-            tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+          fi
           ;;
         2)
           browser="firefox"
           killall firefox
-          loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
-          tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
           ;;
         3)
           if [[ -x $(command -v brave-browser-stable) ]]; then	
@@ -535,6 +531,8 @@ mulai_bebasid_tunnel(){
             tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
           ;;
         esac
+      loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
+      tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
       fi	
       ;;	
     Darwin* )	
