@@ -513,6 +513,9 @@ mulai_bebasid_tunnel(){
           elif [[ -x $(command -v google-chrome) ]]; then	
             browser="google-chrome"	
             killall chrome	
+          else
+            tmux send-keys -t 1 C-c
+            errorin "Browser tidak ditemukan"
           fi
           ;;
         2)
@@ -526,15 +529,26 @@ mulai_bebasid_tunnel(){
           elif [[ -x $(command -v brave-browser) ]]; then	
             browser="brave-browser"	
             killall brave	
+          else
+            tmux send-keys -t 1 C-c
+            errorin "Browser tidak ditemukan"
           fi
           ;;
+        *)
+          tmux send-keys -t 1 C-c
+          errorin "Browser tidak dipilih"
         esac
       loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
-      if [[ "$browser" == "firefox" ]]; then
-        tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random -ProfileManager" Enter
-      else
-        tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
-      fi
+        if [[ "$browser" == "firefox" ]]; then
+          firefox -CreateProfile bebasit
+          firefoxDir=$(ls $HOME/.mozilla/firefox/ | grep bebasit)
+          rm -rf $HOME/.mozilla/firefox/$firefoxDir/prefs.js
+          touch $HOME/.mozilla/firefox/$firefoxDir/prefs.js
+          echo -e 'user_pref("network.proxy.http", "127.0.0.1");\nuser_pref("network.proxy.http_port", '$random');\nuser_pref("network.proxy.type", 1);' > $HOME/.mozilla/firefox/$firefoxDir/prefs.js
+          tmux send-keys -t 2 "$browser netflix.com -P bebasit" Enter
+        else
+          tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+        fi
       fi	
       ;;	
     Darwin* )	
