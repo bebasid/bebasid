@@ -1,9 +1,7 @@
 # Cara Penggunaan
 ## Windows
 
-Jalankan bebasid.bat dengan "Run as administrator", kemudian ikuti instruksi yang ada.
-
-Untuk instalasi secara manual, bisa copy file hosts bebasid ke
+Salin file hosts bebasid ke
 ```
 C:\Windows\System32\drivers\etc
 ```
