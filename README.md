@@ -47,7 +47,9 @@ Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
 *antarmuka pengguna Bebasin di Windows 10*
 
-### Batch Script
+### Command Line Interface (CLI)
+
+#### Batch Script
 
 Anda dapat menggunakan aplikasi [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.0).
 
@@ -55,9 +57,7 @@ Anda dapat menggunakan aplikasi [bebasid batch script](https://github.com/bebasi
 
 *antarmuka pengguna bebasid batch script di Windows 10*
 
-### Command Line Interface (CLI)
-
-Untuk panduan penggunaan versi CLI, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
+Untuk panduan penggunaan versi CLI di platform lain, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 ### Kode Sumber
 
