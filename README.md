@@ -19,6 +19,7 @@
   - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
+    - [Batch Script](#batch-script)
   - [Kode Sumber](#kode-sumber)
 - [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
 - [Soal Sering Ditanyakan](#soal-sering-ditanyakan)
