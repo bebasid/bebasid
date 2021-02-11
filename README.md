@@ -45,7 +45,15 @@ Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
 ![Bebasin di Windows 10](https://i.imgur.com/reZApao.png)
 
-*Diujikan Bebasin di Windows 10*
+*antarmuka pengguna Bebasin di Windows 10*
+
+### Batch Script
+
+Anda dapat menggunakan aplikasi [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.0).
+
+![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
+
+*antarmuka pengguna bebasid batch script di Windows 10*
 
 ### Command Line Interface (CLI)
 
