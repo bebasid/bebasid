@@ -19,6 +19,7 @@
   - [Graphical User Interface (GUI)](#graphical-user-interface-tui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
+    - [Batch Script](#batch-script)
   - [Source Code](#source-code)
 - [Contributing, Question and Request](#contributing-question-and-request)
 - [Frequently Asked Question](#frequently-asked-question)
@@ -35,9 +36,7 @@ bebasid helps you to access restricted content that are blocked by the Indonesia
 
 You can use [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0) to simplify bebasid's hosts installaton.
 
-![bebasid.exe running on Windows 10](https://i.imgur.com/jutwCQb.png)
-
-*bebasid running on Windows 10*
+![bebasid running on Windows 10](https://i.imgur.com/jutwCQb.png)
 
 ### Terminal User Interface (TUI)
 
@@ -47,7 +46,13 @@ If you want to use Terminal User Interface, checkout bebasin [here](https://gith
 
 ### Command Line Interface (CLI)
 
-Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines.
+#### Batch Script
+
+You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.0) app.
+
+![bebasid.bat running on Windows 10](https://i.imgur.com/CrnySId.png)
+
+Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines on another platform.
 
 ### Source Code
 
