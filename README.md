@@ -38,15 +38,11 @@ Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/rel
 
 ![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/jutwCQb.png)
 
-*antarmuka pengguna bebasid di Windows 10*
-
 ### Terminal User Interface (TUI)
 
 Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
 ![Bebasin di Windows 10](https://i.imgur.com/reZApao.png)
-
-*antarmuka pengguna Bebasin di Windows 10*
 
 ### Command Line Interface (CLI)
 
@@ -55,8 +51,6 @@ Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 Anda dapat menggunakan aplikasi [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.0).
 
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
-
-*antarmuka pengguna bebasid batch script di Windows 10*
 
 Untuk panduan penggunaan versi CLI di platform lain, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
