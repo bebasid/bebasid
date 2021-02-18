@@ -130,8 +130,6 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo [=] Tekan tombol keyboard [N] kemudian [Enter] jika ingin membatalkan dan keluar
 	echo.
-	echo [=] Tekan tombol keyboard [D] kemudian [Enter] jika ingin memasang/mengganti ke hosts versi penuh
-	echo.
 	echo ===========================================================================
 	echo.
 	echo [#] Yakin ingin melanjutkan?
