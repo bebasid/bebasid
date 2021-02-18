@@ -4846,15 +4846,13 @@
 52.68.175.51 launchpad-0-0.binance.com
 13.112.57.27 binance.com
 52.84.150.34 www.binance.com
-52.84.229.63 ftp.binance.com
-52.84.229.30 ftp.binance.com
-52.84.229.21 ftp.binance.com
-52.84.229.29 ftp.binance.com
+99.84.233.130 ftp.binance.com
 52.84.229.117 c2c.binance.com
 52.84.229.30 c2c.binance.com
 52.84.229.70 c2c.binance.com
 52.84.229.69 c2c.binance.com
 52.84.150.34 academy.binance.com
+99.84.233.191 accounts.binance.com
 
 # [binance.org]
 52.84.229.114 bsc-dataseed.binance.org
