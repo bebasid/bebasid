@@ -90,6 +90,10 @@ Title BEBASID ^> %~nx0
 	cls
 	call :BANNER
 	echo.
+	echo ===========================================================================
+	echo.
+	echo ===PERANGKAT===
+	echo.
 	echo [#] Proses pemeriksaan selesai, device kamu terhubung dengan internet
 	echo.
 	if "%version%" == "10.0" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 10
@@ -100,27 +104,17 @@ Title BEBASID ^> %~nx0
 	if "%version%" == "5.2" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows XP x64
 	if "%version%" == "5.1" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows XP
 	echo.
+	echo ===========================================================================
+	echo.
+	echo ===PERSETUJUAN===
+	echo.
 	echo [#] Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di syarat dan ketentuan
 	echo.
 	echo [#] Syarat dan Ketentuan: https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md
 	echo.
 	echo ===========================================================================
 	echo.
-	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
-	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
-	echo [#] bebasid telah terpasang dan menggunakan mode NSFW [Tekan Y untuk merubah ke SFW]
-	) || (
-	echo [#] bebasid telah terpasang dan menggunakan mode SFW [Tekan D untuk merubah ke NSFW]
-	)
-	) || (
-	echo [#] bebasid belum terinstall
-	)
-	echo.
-	echo ===========================================================================
-	echo.
-	echo [!] Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
-	echo.
-	echo ===========================================================================
+	echo ===PERINTAH===
 	echo.
 	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
 	echo [=] Tekan tombol keyboard [Y] kemudian [Enter] untuk membarui hosts
@@ -132,15 +126,32 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo ===========================================================================
 	echo.
+	echo ===STATUS===
+	echo.
+	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
+	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
+	echo [#] bebasid telah terpasang dan menggunakan mode NSFW [Tekan E untuk merubah ke SFW]
+	) || (
+	echo [#] bebasid telah terpasang dan menggunakan mode SFW [Tekan D untuk merubah ke NSFW]
+	)
+	) || (
+	echo [#] bebasid belum terinstall
+	)
+	echo.
+	echo [!] Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
+	echo.
+	echo ===========================================================================
+	echo.
 	echo [#] Yakin ingin melanjutkan?
 	echo.
 )
 
 :KONFIRMASI (
-	SET /P yakin=[Y/N/D/W]? 
+	SET /P yakin=[Y/N/D/E/W]? 
 	IF /I "%yakin%" EQU "Y" GOTO YAKIN
 	IF /I "%yakin%" EQU "N" GOTO TIDAK
 	IF /I "%yakin%" EQU "D" GOTO PENUH
+	IF /I "%yakin%" EQU "E" GOTO LITE
 	IF /I "%yakin%" EQU "W" GOTO RESTORE
 	GOTO KONFIRMASI
 )
@@ -238,6 +249,34 @@ Title BEBASID ^> %~nx0
 
 :PENUH2 (
 	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts', 'hosts')"
+	exit /b 0
+)
+
+:LITE (
+	if "%version%" == "10.0" call :LITE3
+	IF "%version%" == "6.3" call :LITE3
+	IF "%version%" == "6.2" call :LITE3
+	if "%version%" == "6.1" call :LITE2
+	IF "%version%" == "6.0" call :LITE2
+	IF "%version%" == "5.2" call :LITE2
+	IF "%version%" == "5.1" call :LITE2
+	call :FLUSH
+	cls
+	call :BANNER
+	echo BEBASID telah berhasil terpasang
+	echo.
+	echo Tekan tombol apa saja untuk keluar
+	pause >nul
+	exit
+)
+
+:LITE3 (
+	powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw' -OutFile 'hosts'"
+	exit /b 0
+)
+
+:LITE2 (
+	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw', 'hosts')"
 	exit /b 0
 )
 
