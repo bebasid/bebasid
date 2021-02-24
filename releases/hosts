@@ -4185,8 +4185,13 @@
 # [manhwa18.com]
 104.24.96.143 www.manhwa18.com a.manhwa18.com
 104.24.97.143 manhwa18.com
-172.67.148.31 cdn.manhwa18.com
-104.24.96.143 cdn2.manhwa18.com
+104.21.8.246	cdn.manhwa18.com
+104.21.8.246	cdn2.manhwa18.com
+103.224.182.242	cdn.mahwa18.net cdn2.mahwa18.net cdn3.mahwa18.net cdn4.mahwa18.net cdn5.mahwa18.net cdn6.mahwa18.net cdn7.mahwa18.net cdn8.mahwa18.net cdn9.mahwa18.net cdn10.mahwa18.net
+
+# [Toonily.com]
+104.26.13.191	www.toonily.com toonily.com
+104.26.13.191	cdn.toonily.com
 
 # [yespornplease.to]
 104.18.44.226 yespornplease.to www.yespornplease.to
