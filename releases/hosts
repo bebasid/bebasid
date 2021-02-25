@@ -304,10 +304,10 @@
 
 # [gelbooru.com]
 67.202.114.141 gelbooru.com www.gelbooru.com
-104.27.134.180 img1.gelbooru.com
-212.8.240.5 img2.gelbooru.com simg3.gelbooru.com
-23.227.197.10 img3.gelbooru.com
-104.21.233.235 thumbs.gelbooru.com
+104.21.233.236 img1.gelbooru.com
+104.21.233.236 img2.gelbooru.com
+104.21.233.236 thumbs.gelbooru.com
+104.21.233.235 img3.gelbooru.com
 
 # [omegle.com]
 104.23.142.25 omegle.com
@@ -429,7 +429,7 @@
 8.247.113.123 vid3-l3.xvideos-cdn.com
 8.240.135.123 vid4-l3.xvideos-cdn.com
 8.252.64.123 hls4-l3.xvideos-cdn.com
-8.240.242.123 static-l3.xvideos-cdn.com
+8.250.191.251 static-l3.xvideos-cdn.com
 8.240.36.123 img-l3.xvideos-cdn.com
 8.252.158.251 premiumvideo-l3.xvideos-cdn.com
 152.195.13.91 static-egc.xvideos-cdn.com
@@ -3464,12 +3464,12 @@
 104.18.39.251 7mmtv.tv  www.7mmtv.tv
 163.172.90.92 file.7mmtv.tv
 163.172.215.71 video.7mmtv.tv
-163.172.20.146	file2.7mmtv.tv
-163.172.45.107	file3.7mmtv.tv
-163.172.45.127	file4.7mmtv.tv
-195.154.113.42	file5.7mmtv.tv
-195.154.113.43	file6.7mmtv.tv
-163.172.20.146	file7.7mmtv.tv file8.7mmtv.tv file9.7mmtv.tv file10.7mmtv.tv file11.7mmtv.tv file12.7mmtv.tv file13.7mmtv.tv file14.7mmtv.tv file15.7mmtv.tv file16.7mmtv.tv file17.7mmtv.tv file18.7mmtv.tv file19.7mmtv.tv file20.7mmtv.tv
+163.172.20.146 file2.7mmtv.tv
+163.172.45.107 file3.7mmtv.tv
+163.172.45.127 file4.7mmtv.tv
+195.154.113.42 file5.7mmtv.tv
+195.154.113.43 file6.7mmtv.tv
+163.172.20.146 file7.7mmtv.tv file8.7mmtv.tv file9.7mmtv.tv file10.7mmtv.tv file11.7mmtv.tv file12.7mmtv.tv file13.7mmtv.tv file14.7mmtv.tv file15.7mmtv.tv file16.7mmtv.tv file17.7mmtv.tv file18.7mmtv.tv file19.7mmtv.tv file20.7mmtv.tv
 
 # [thisav.com]
 104.27.196.89 thisav.com www.thisav.com
@@ -4185,8 +4185,13 @@
 # [manhwa18.com]
 104.24.96.143 www.manhwa18.com a.manhwa18.com
 104.24.97.143 manhwa18.com
-172.67.148.31 cdn.manhwa18.com
-104.24.96.143 cdn2.manhwa18.com
+104.21.8.246 cdn.manhwa18.com
+104.21.8.246 cdn2.manhwa18.com
+103.224.182.242 cdn.mahwa18.net cdn2.mahwa18.net cdn3.mahwa18.net cdn4.mahwa18.net cdn5.mahwa18.net cdn6.mahwa18.net cdn7.mahwa18.net cdn8.mahwa18.net cdn9.mahwa18.net cdn10.mahwa18.net
+
+# [toonily.com]
+104.26.13.191 www.toonily.com toonily.com
+104.26.13.191 cdn.toonily.com
 
 # [yespornplease.to]
 104.18.44.226 yespornplease.to www.yespornplease.to
