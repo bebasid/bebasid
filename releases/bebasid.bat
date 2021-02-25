@@ -92,7 +92,7 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo ===========================================================================
 	echo.
-	echo ===PERANGKAT===
+	echo ===INFORMASI PERANGKAT===
 	echo.
 	echo [#] Proses pemeriksaan selesai, device kamu terhubung dengan internet
 	echo.
@@ -138,11 +138,14 @@ Title BEBASID ^> %~nx0
 	echo [#] bebasid belum terinstall
 	)
 	echo.
+	echo ===========================================================================
+	echo.
+	echo ===PERINTAH LAIN===
 	echo [!] Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
 	echo.
 	echo ===========================================================================
 	echo.
-	echo [#] Yakin ingin melanjutkan?
+	echo [#] Pilih perintah:
 	echo.
 )
 
