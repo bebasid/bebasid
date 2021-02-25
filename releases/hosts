@@ -421,7 +421,7 @@
 104.20.135.21 r.e-hentai.org
 104.20.135.21 lofi.e-hentai.org
 
-# [cdn for xvideos & xnxx]
+# [cdn for xvideos.com & xnxx.com]
 8.240.25.251 vid1-l3.xvideos-cdn.com
 8.240.143.123 hls1-l3.xvideos-cdn.com
 8.252.17.123 vid2-l3.xvideos-cdn.com
@@ -2599,6 +2599,53 @@
 185.107.81.233 www.sterry1960.motherless.com
 185.107.81.233 bugmenot20.motherless.com
 185.107.81.233 motherless.com
+
+# [cdn for motherless.com]
+185.107.81.233 www.motherlessmedia.com
+69.16.175.10 cdn.avatars.motherlessmedia.com
+185.107.81.233 cdn4.avatars.motherlessmedia.com
+46.166.191.228 cdn2.avatars.motherlessmedia.com
+67.22.52.94 cdn5-avatars.motherlessmedia.com
+198.72.6.50 avatars.motherlessmedia.com
+205.185.208.154 cdn.videos.motherlessmedia.com
+185.107.81.233 cdn4.videos.motherlessmedia.com
+46.166.191.233 cdn2.videos.motherlessmedia.com
+64.210.147.118 cdn5-videos.motherlessmedia.com
+69.16.175.42 cdn.images.motherlessmedia.com
+67.22.52.94 cdn5.images.motherlessmedia.com
+185.107.81.233 cdn4.images.motherlessmedia.com
+67.22.52.90 cdn5-images.motherlessmedia.com
+69.16.175.10 cdn.thumbs.motherlessmedia.com
+67.22.52.92 cdn5.thumbs.motherlessmedia.com
+185.107.81.233 cdn4.thumbs.motherlessmedia.com
+46.166.191.228 cdn2.thumbs.motherlessmedia.com
+67.22.52.92 cdn5-thumbs.motherlessmedia.com
+198.72.6.51 thumbs.motherlessmedia.com
+185.107.81.233 cdn4-r.motherlessmedia.com
+205.185.208.154 cdn.motherlessmedia.com
+4.34.200.236 s9.motherlessmedia.com
+4.34.200.235 s8.motherlessmedia.com
+4.34.200.237 s18.motherlessmedia.com
+4.34.200.231 s7.motherlessmedia.com
+4.34.200.241 s17.motherlessmedia.com
+4.34.200.230 s6.motherlessmedia.com
+4.34.200.240 s16.motherlessmedia.com
+4.34.200.229 s5.motherlessmedia.com
+4.34.200.239 s15.motherlessmedia.com
+208.94.149.4 ns4.motherlessmedia.com
+4.34.200.228 s4.motherlessmedia.com
+185.107.81.233 cdn4.motherlessmedia.com
+4.34.200.238 s14.motherlessmedia.com
+4.34.200.227 s3.motherlessmedia.com
+4.34.200.237 s13.motherlessmedia.com
+4.34.200.226 s2.motherlessmedia.com
+4.34.200.234 s12.motherlessmedia.com
+208.80.124.4 ns1.motherlessmedia.com
+4.34.200.225 s1.motherlessmedia.com
+4.34.200.233 s11.motherlessmedia.com
+208.94.148.4 ns0.motherlessmedia.com
+4.34.200.232 s10.motherlessmedia.com
+185.107.81.233 motherlessmedia.com
 
 # [camwhoreshd.com]
 104.28.11.227 camwhoreshd.com www.camwhoreshd.com
