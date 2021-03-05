@@ -341,6 +341,7 @@
 64.38.230.2 buystromectol.highwebmedia.com
 64.38.230.2 www.fremdwort.xml.highwebmedia.com
 64.38.230.2 www.profile.html.highwebmedia.com
+64.38.230.2 www.rollbanner-14905.html.highwebmedia.com
 64.38.230.2 16viruswall.highwebmedia.com
 64.38.230.2 viruswall.highwebmedia.com
 64.38.230.2 www.izmail.highwebmedia.com
@@ -3339,8 +3340,14 @@
 104.31.88.65 cdn.1337x.to
 
 # [yts.lt]
-104.25.135.117 yts.lt www.yts.lt
-109.236.84.193 img.yts.lt
+104.21.11.120 yts.lt 
+104.21.11.120 www.yts.lt
+172.67.166.3 img.yts.lt
+
+# [ytx.mx]
+172.67.72.176 yts.mx
+172.67.72.176 www.yts.mx
+109.236.84.193 img.ys.mx
 
 # [gojav.xyz]
 104.31.79.158 gojav.xyz www.gojav.xyz
@@ -6369,3 +6376,18 @@
 207.148.124.79 www.ryuugames.com
 207.148.124.79 webmail.ryuugames.com
 207.148.124.79 ryuugames.com
+
+# [hentaikuindo.pw]
+94.177.203.174 hentaikuindo.pw
+94.177.203.174 www.hentaikuindo.pw
+94.177.203.174 s1.hentaikuindo.pw
+
+# [pornsos.com]
+78.140.141.187 pornsos.com
+78.140.141.189 www.pornsos.com
+69.16.175.10 go.pornsos.com
+
+# [oploverz.in]
+104.21.84.181 www.oploverz.in
+104.21.84.181 oploverz.in
+104.21.84.181 st.oploverz.in
