@@ -4862,7 +4862,7 @@
 54.248.206.222 bstream.binance.com
 52.84.150.39 api.binance.com
 13.32.6.13 info.binance.com
-
+  
 # [binance.org]
 52.84.229.114 bsc-dataseed.binance.org
 52.84.229.7 bsc-dataseed.binance.org
@@ -4872,6 +4872,8 @@
 52.84.229.36 bsc-dataseed1.binance.org
 52.84.229.57 bsc-dataseed1.binance.org
 52.84.229.68 bsc-dataseed1.binance.org
+99.84.208.52 community.binance.org
+185.199.110.153 docs.binance.org
 
 # [peacetv.tv]
 95.131.68.14 peacetv.tv www.peacetv.tv mail.peacetv.tv ftp.peacetv.tv
