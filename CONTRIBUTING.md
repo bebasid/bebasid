@@ -12,7 +12,7 @@ Setiap kontribusi yang dilakukan akan mengikuti lisensi yang berlaku, yaitu [Lis
 Jika menemukan kutu atau ingin melakukan permintaan fitur baru, dapat dilakukan dengan [membuka isu baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
 ### Membantu pengembangan / perbaikan
-1. Lakukan __fork__ pada repositori ini.
+1. Lakukan _fork_ pada repositori ini.
 2. Buat cabang (_branch_) baru pada repositori tersebut.
 3. Lakukan pengembangan / perbaikan.
 4. Lakukan pengujian pada perubahan / perbaikan.
