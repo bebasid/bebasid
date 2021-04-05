@@ -28,7 +28,7 @@ Jika menemukan bug atau ingin melakukan request feature baru, dapat dilakukan de
 
 ### Ringkasan komit untuk berkas hosts
 
-Untuk memudahkan melakukan pencarian di riwayat komit, mohon menggunakan salah satu format ringkasan komit sebagai berikut:
+Untuk memudahkan pengguna dalam melakukan pencarian di riwayat komit, mohon gunakan salah satu format ringkasan komit sebagai berikut:
 
 ```
 A: example.com
