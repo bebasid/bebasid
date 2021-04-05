@@ -16,39 +16,39 @@
 
 - [Daftar Isi](#daftar-isi)
 - [bebasid](#bebasid)
-  - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
-  - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
-  - [Command Line Interface (CLI)](#command-line-interface-cli)
-    - [Batch Script](#batch-script)
+  - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
+  - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
+  - [Antarmuka Baris Perintah (CLI)](#antarmuka-baris-perintah-cli)
+    - [Skrip Batch](#skrip-batch)
   - [Kode Sumber](#kode-sumber)
-- [Cara Berkontribusi, Pertanyaan atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
-- [Soal Sering Ditanyakan](#soal-sering-ditanyakan)
-- [Traktir Kami Kopi](#traktir-kami-kopi)
+- [Cara Berkontribusi, Pertanyaan, atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
+- [Soal Sering Ditanya](#soal-sering-ditanya)
+- [Berdonasi](#berdonasi)
 - [Lisensi](#lisensi)
 
 ---
 
 ## bebasid
 
-bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
+bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
 
-### Graphical User Interface (GUI)
+### Antarmuka Pengguna Grafis (GUI)
 
 Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0) untuk instalasi hosts bebasid.
 
 ![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/jutwCQb.png)
 
-### Terminal User Interface (TUI)
+### Antarmuka Pengguna Terminal (TUI)
 
 Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
 
 ![Bebasin di Windows 10](https://i.imgur.com/reZApao.png)
 
-### Command Line Interface (CLI)
+### Antarmuka Baris Perintah (CLI)
 
-#### Batch Script
+#### Skrip Batch
 
-Anda dapat menggunakan aplikasi [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.0).
+Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0).
 
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
 
@@ -56,32 +56,32 @@ Untuk panduan penggunaan versi CLI di sistem operasi lain, silakan menuju ke [PE
 
 ### Kode Sumber
 
-Jika anda membutuhkan kode sumber bebasid (GUI), silakan menuju ke repo [bebasid-src](https://github.com/bebasid/bebasid-src).
+Jika Anda membutuhkan kode sumber bebasid (GUI), silakan menuju ke repo [bebasid-src](https://github.com/bebasid/bebasid-src).
 
-## Cara Berkontribusi, Pertanyaan atau Permintaan
+## Cara Berkontribusi, Pertanyaan, atau Permintaan
 
 Untuk membantu pengembangan bebasid, silakan menuju ke [KONTRIBUSI](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
 
-Untuk melakukan request dan melaporkan adanya bug, silakan [membuka issue baru](https://github.com/bebasid/bebasid/issues/new/choose).
+Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka isu baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
-## Soal Sering Ditanyakan
+## Soal Sering Ditanya
 
-Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau sebelum [membuka issue baru](https://github.com/bebasid/bebasid/issues/new/choose).
+Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau sebelum [membuka isu baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
-## Donasi Kami
+## Berdonasi
 
 Bantu proyek ini tetap berjalan dengan cara berdonasi.
 
 <div>
 <details>
- <summary>:coffee: Traktir kita kopi</summary>
+ <summary>:coffee: Traktir kami kopi</summary>
 
 </br>
 
 <a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 
 <a href="https://saweria.co/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B"></a>
- 
+
 </details>
 </div>
 
@@ -92,4 +92,4 @@ bebasid dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/b
 ---
 ## Syarat & Ketentuan
 
-Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.
+Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat halaman [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
