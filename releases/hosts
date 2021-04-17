@@ -107,6 +107,11 @@
 
 # [Indosat]
 127.0.0.1 ads.indosatooredoo.com
+127.0.0.1 netsafe.indosatm2.com
+
+# [ssoap2day.to]
+172.64.109.22 ssoap2day.to
+172.64.109.22 www.ssoap2day.to
 
 # Mulai hosts bebasid
 
