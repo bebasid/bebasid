@@ -107,6 +107,7 @@
 
 # [Indosat]
 127.0.0.1 ads.indosatooredoo.com
+127.0.0.1 netsafe.indosatm2.com
 
 # Mulai hosts bebasid
 
@@ -832,6 +833,15 @@
 151.101.65.140 aib.reddit.com
 151.101.41.140 layers-svc.reddit.com
 151.101.209.140 snoovatar.reddit.com
+
+# [ssoap2day.to]
+172.64.109.22 ssoap2day.to www.ssoap2day.to
+
+# [launchpad.binance.com]
+99.86.38.8 launchpad.binance.com www.launchpad.binance.com
+99.86.38.10 launchpad.binance.com www.launchpad.binance.com
+99.86.38.38 launchpad.binance.com www.launchpad.binance.com
+99.86.38.111 launchpad.binance.com www.launchpad.binance.com
 
 # [vimeo.com]
 151.101.50.109 i.vimeocdn.com
