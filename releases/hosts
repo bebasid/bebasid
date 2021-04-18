@@ -907,12 +907,30 @@
 192.240.120.10 tn.hitomi.la
 
 # [nhentai.net]
-104.27.195.88 nhentai.net tracker.nhentai.net
-104.27.194.88 www.nhentai.net static.nhentai.net
+104.27.195.88 static.nhentai.net
+185.177.127.77 webseed.nhentai.net
+104.27.195.88 sentry.nhentai.net
+104.27.195.88 tracker.nhentai.net
 66.6.44.4 blog.nhentai.net
-198.255.82.50 i.nhentai.net
-185.177.127.78 i7.nhentai.net t7.nhentai.net
-185.177.127.77 i5.nhentai.net t5.nhentai.net webseed.nhentai.net t.nhentai.net
+104.27.194.88 www.nhentai.net
+104.27.194.88 nhentai.net
+185.177.127.78 www.i.nhentai.net
+185.177.127.78 i.nhentai.net
+198.255.82.50 i1.nhentai.net
+198.255.82.50 i2.nhentai.net
+198.255.82.50 i3.nhentai.net
+198.255.82.50 i4.nhentai.net
+185.177.127.77 i5.nhentai.net
+185.177.127.77 i6.nhentai.net
+185.177.127.78 i7.nhentai.net
+198.255.82.50 t.nhentai.net
+198.255.82.50 t1.nhentai.net
+198.255.82.50 t2.nhentai.net
+198.255.82.50 t3.nhentai.net
+198.255.82.50 t4.nhentai.net
+185.177.127.77 t5.nhentai.net
+185.177.127.77 t6.nhentai.net
+185.177.127.78 t7.nhentai.net
 
 # [gelbooru.com]
 67.202.114.141 gelbooru.com www.gelbooru.com
