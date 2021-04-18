@@ -4411,15 +4411,32 @@
 104.18.54.65 mangadex.com www.mangadex.com
 
 # [hanime.tv]
-104.24.30.59 uploads.hanime.tv ark.hanime.tv cdn.hanime.tv search.hanime.tv hr.hanime.tv
-104.24.30.59 oberon.hanime.tv m.hanime.tv tapi.hanime.tv htv3.hanime.tv hw.hanime.tv
-172.64.166.6 weeb.hanime.tv
-172.64.167.6 members.hanime.tv www.hanime.tv player.hanime.tv player2.hanime.tv player3.hanime.tv
-104.28.24.161 search.htv-services.com uploader.htv-services.com
-104.31.95.124 hanime.tv
-104.28.8.205 search.freeanimehentai.net
-104.28.8.124 cdn.freeanimehentai.net
-104.28.9.124 i2.freeanimehentai.net
+172.64.109.19 player.hanime.tv
+172.64.108.19 members.hanime.tv
+172.64.108.19 www.hanime.tv
+172.64.108.19 hanime.tv
+172.64.108.19 search.hanime.tv
+172.64.108.19 hr.hanime.tv
+172.64.108.19 ark.hanime.tv
+172.64.108.19 uploads.hanime.tv
+172.64.108.19 cdn.hanime.tv
+172.64.108.19 mods.hanime.tv
+172.64.108.19 mindgeek-dashboard.hanime.tv
+172.64.108.19 vip.hanime.tv
+172.64.108.19 live.hanime.tv
+172.64.108.19 www.live.hanime.tv
+172.64.108.19 oberon.hanime.tv
+172.64.108.19 m.hanime.tv
+172.64.108.19 tapi.hanime.tv
+172.64.108.19 htv3.hanime.tv
+172.64.108.19 hw.hanime.tv
+172.64.108.19 weeb.hanime.tv
+172.64.108.19 player2.hanime.tv
+172.64.108.19 player3.hanime.tv
+172.67.169.86 search.htv-services.com
+172.67.169.86 uploader.htv-services.com
+104.21.87.103 www.htv-services.com
+104.21.87.103 htv-services.com
 
 # [porncorn.co]
 5.254.97.172 porncorn.co www.porncorn.co
@@ -4835,7 +4852,8 @@
 67.205.25.100 littlewhitebutterflies.co www.littlewhitebutterflies.co
 
 # [nekopoi.care]
-104.31.66.84 nekopoi.care www.nekopoi.care
+104.21.89.32 nekopoi.care
+104.21.89.32 www.nekopoi.care
 
 # [hentaimanga.info]
 104.24.98.113 hentaimanga.info www.hentaimanga.info
