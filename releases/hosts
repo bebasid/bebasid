@@ -885,7 +885,23 @@
 23.46.238.248 102skyfiregce-vimeo.akamaized.net
 
 # [thepiratebay.org]
-104.24.190.20 thepiratebay.org www.thepiratebay.org
+162.159.136.6 m.thepiratebay.org
+162.159.137.6 www.thepiratebay.org
+162.159.137.6 thepiratebay.org
+162.159.137.6 200.thepiratebay.org
+162.159.137.6 ns0.thepiratebay.org
+162.159.137.6 static.thepiratebay.org
+162.159.137.6 upl.thepiratebay.org
+162.159.137.6 tracker.thepiratebay.org
+162.159.137.6 a.tracker.thepiratebay.org
+162.159.137.6 tpb.tracker.thepiratebay.org
+162.159.137.6 open.tracker.thepiratebay.org
+162.159.137.6 vip.tracker.thepiratebay.org
+162.159.137.6 tv.tracker.thepiratebay.org
+162.159.137.6 eztv.tracker.thepiratebay.org
+162.159.137.6 rss.thepiratebay.org
+162.159.137.6 torrents.thepiratebay.org
+162.159.137.6 upload.thepiratebay.org
 
 # [hitomi.la]
 23.237.107.211 aa.hitomi.la
@@ -946,13 +962,25 @@
 52.216.177.170 i.omegle.com
 
 # [rarbg.to]
-151.80.120.114 1.rarbg.to 3.rarbg.to 6.rarbg.to 7.rarbg.to 8.rarbg.to 9.rarbg.to
-185.37.100.119 ns4.rarbg.to
+151.80.120.114 1.rarbg.to
+151.80.120.114 2.rarbg.to
+151.80.120.114 3.rarbg.to
+151.80.120.114 4.rarbg.to
+151.80.120.114 5.rarbg.to
+151.80.120.114 6.rarbg.to
+151.80.120.114 7.rarbg.to
+151.80.120.114 8.rarbg.to
+151.80.120.115 9.rarbg.to
+151.80.120.115 10.rarbg.to
+151.80.120.115 11.rarbg.to
 109.201.133.27 mail.rarbg.to
-185.37.100.122 www.rarbg.to rarbg.to
-
-# [rarbg.me]
-151.80.120.115 9.rarbg.me www.9rarbg.me
+109.201.133.27 tracker.rarbg.to
+185.37.100.122 www.rarbg.to
+185.37.100.122 rarbg.to
+185.37.100.119 ns1.rarbg.to
+185.37.100.119 ns2.rarbg.to
+185.37.100.119 ns3.rarbg.to
+185.37.100.119 ns4.rarbg.to
 
 # [eztv.ag]
 104.27.208.30 eztv.ag www.eztv.ag
@@ -4714,10 +4742,23 @@
 172.67.141.188 cdn.1337x.to chat.1337x.to www.1337x.to 1337x.to
 104.21.9.48 www.1337x.to 1337x.to
 
-# [ytx.mx]
-172.67.72.176 yts.mx
-172.67.72.176 www.yts.mx
-109.236.84.193 img.yts.mx
+# [yts.lt]
+104.21.11.120 yts.lt 
+104.21.11.120 www.yts.lt
+172.67.166.3 img.yts.lt
+172.67.166.3 www.img.yts.lt
+
+# [yts.mx]
+104.26.6.75 yts.mx
+104.26.6.75 www.yts.mx
+212.8.242.150 img.yts.mx
+212.8.242.150 www.img.yts.mx
+
+# [yts.ag]
+172.67.202.48 www.yts.ag 
+172.67.202.48 yts.ag 
+172.67.202.48 www.img.yts.ag 
+172.67.202.48 img.yts.ag
 
 # [gojav.xyz]
 104.31.79.158 gojav.xyz www.gojav.xyz
@@ -7772,26 +7813,95 @@
 78.140.141.189 www.pornsos.com
 69.16.175.10 go.pornsos.com
 
+# [oploverz.in]
+104.21.84.181 www.oploverz.in
+172.67.195.179 oploverz.in
+104.21.84.181 st.oploverz.in
+
+# [3xplanet.net]
+104.21.4.7 3xplanet.net
+104.21.4.7 cpanel.3xplanet.net
+172.67.131.111 www.3xplanet.net
+104.21.4.7 cpcalendars.3xplanet.net
+104.21.4.7 cpcontacts.3xplanet.net
+104.21.4.7 mail.3xplanet.net
+104.21.4.7 webdisk.3xplanet.net
+104.21.4.7 webmail.3xplanet.net
+
 # [javdatabase.com]
 62.171.165.197 javdatabase.com www.javdatabase.com
 
 # [joyhentai.com]
-104.21.4.227 www.joyhentai.com joyhentai.com www.ja.joyhentai.com ja.joyhentai.com
+104.21.4.227 www.joyhentai.com 
+104.21.4.227 joyhentai.com 
+104.21.4.227 www.ja.joyhentai.com 
+104.21.4.227 ja.joyhentai.com
 
 # [avideo.com]
-23.111.153.242 www.avideo.com avideo.com www.platform.avideo.com platform.avideo.com www.demo.avideo.com demo.avideo.com
+104.21.63.105 www.avideo.com
+5.180.25.128 free.avideo.com
+5.180.25.128 mobile.avideo.com
+104.21.63.105 beta.avideo.com
+5.180.25.128 plugins.avideo.com
+5.180.27.227 demo.avideo.com
+5.180.27.227 www.demo.avideo.com
+23.111.153.226 new.avideo.com
+192.99.46.228 encoder4.avideo.com
+192.99.46.228 live.avideo.com
+192.99.46.228 encoder6.avideo.com
+192.99.46.228 encoder5.avideo.com
+192.99.46.228 encoder3.avideo.com
+192.99.46.228 encoder2.avideo.com
+192.99.46.228 encoder1.avideo.com
+23.111.153.226 avideo.com
+173.203.187.183 webmail.avideo.com
+192.99.46.228 tutorials.avideo.com
+51.222.106.150 meet.avideo.com
+104.21.63.105 storage1.avideo.com
+172.67.170.143 storage2.avideo.com
+104.21.63.105 storage3.avideo.com
+104.21.63.105 search.avideo.com
+172.67.170.143 flix.avideo.com
+104.21.63.105 network.avideo.com
+23.111.153.242 platform.avideo.com
+23.111.153.242 www.platform.avideo.com
+104.27.132.210 git.platform.avideo.com
+104.21.63.105 dev3.avideo.com
+104.21.63.105 dev2.avideo.com
+104.21.63.105 dev.avideo.com
+104.21.63.105 git.avideo.com
 
 # [3xpla.net]
-104.21.233.224 www.3xpla.net 3xpla.net
+104.21.233.223 www.3xpla.net
+104.21.233.223 update.3xpla.net
+104.21.233.223 3xpla.net
+104.21.233.224 cpanel.3xpla.net
+104.21.233.224 test.3xpla.net
+104.21.233.224 www.update.3xpla.net
+104.21.233.224 an-gallery.3xpla.net
+104.21.233.224 www.an-gallery.3xpla.net
+104.21.233.224 cpcalendars.3xpla.net
+104.21.233.224 cpcontacts.3xpla.net
+104.21.233.224 mail.3xpla.net
+104.21.233.224 webdisk.3xpla.net
+104.21.233.224 webmail.3xpla.net
+104.21.233.224 3xplanet.3xpla.net
+104.21.233.224 www.3xplanet.3xpla.net
+104.21.233.224 www.test.3xpla.net
+104.21.233.224 backup1.3xpla.net
 
 # [s-jav.com]
-104.21.15.229 www.s-jav.com s-jav.com
+45.148.121.130 s-jav.com
+45.148.121.130 www.s-jav.com 
+45.148.121.130 uncensored.s-jav.com
+45.148.121.130 www.uncensored.s-jav.com
 
 # [javhhh.com]
 172.67.194.5 javhhh.com www.javhhh.com
 
 # [jav-uncensored.net]
-104.21.27.26 jav-uncensored.net www.jav-uncensored.net
+45.148.121.130 jav-uncensored.net 
+45.148.121.130 www.jav-uncensored.net
 
 # [9anime.to]
 172.64.175.26 9anime.to
