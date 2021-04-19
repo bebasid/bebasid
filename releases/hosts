@@ -962,13 +962,25 @@
 52.216.177.170 i.omegle.com
 
 # [rarbg.to]
-151.80.120.114 1.rarbg.to 3.rarbg.to 6.rarbg.to 7.rarbg.to 8.rarbg.to 9.rarbg.to
-185.37.100.119 ns4.rarbg.to
+151.80.120.114 1.rarbg.to
+151.80.120.114 2.rarbg.to
+151.80.120.114 3.rarbg.to
+151.80.120.114 4.rarbg.to
+151.80.120.114 5.rarbg.to
+151.80.120.114 6.rarbg.to
+151.80.120.114 7.rarbg.to
+151.80.120.114 8.rarbg.to
+151.80.120.115 9.rarbg.to
+151.80.120.115 10.rarbg.to
+151.80.120.115 11.rarbg.to
 109.201.133.27 mail.rarbg.to
-185.37.100.122 www.rarbg.to rarbg.to
-
-# [rarbg.me]
-151.80.120.115 9.rarbg.me www.9rarbg.me
+109.201.133.27 tracker.rarbg.to
+185.37.100.122 www.rarbg.to
+185.37.100.122 rarbg.to
+185.37.100.119 ns1.rarbg.to
+185.37.100.119 ns2.rarbg.to
+185.37.100.119 ns3.rarbg.to
+185.37.100.119 ns4.rarbg.to
 
 # [eztv.ag]
 104.27.208.30 eztv.ag www.eztv.ag
