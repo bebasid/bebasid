@@ -885,7 +885,23 @@
 23.46.238.248 102skyfiregce-vimeo.akamaized.net
 
 # [thepiratebay.org]
-162.159.137.6 thepiratebay.org www.thepiratebay.org m.thepiratebay.org
+162.159.136.6 m.thepiratebay.org
+162.159.137.6 www.thepiratebay.org
+162.159.137.6 thepiratebay.org
+162.159.137.6 200.thepiratebay.org
+162.159.137.6 ns0.thepiratebay.org
+162.159.137.6 static.thepiratebay.org
+162.159.137.6 upl.thepiratebay.org
+162.159.137.6 tracker.thepiratebay.org
+162.159.137.6 a.tracker.thepiratebay.org
+162.159.137.6 tpb.tracker.thepiratebay.org
+162.159.137.6 open.tracker.thepiratebay.org
+162.159.137.6 vip.tracker.thepiratebay.org
+162.159.137.6 tv.tracker.thepiratebay.org
+162.159.137.6 eztv.tracker.thepiratebay.org
+162.159.137.6 rss.thepiratebay.org
+162.159.137.6 torrents.thepiratebay.org
+162.159.137.6 upload.thepiratebay.org
 
 # [hitomi.la]
 23.237.107.211 aa.hitomi.la
