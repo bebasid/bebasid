@@ -6476,6 +6476,15 @@
 168.245.107.50 o9.mkt.fancentro.com
 77.247.178.190 statz.fancentro.com
 
+# [erome.com]
+198.27.67.122 erome.com www.erome.com
+158.69.250.91 s1.erome.com
+158.69.250.74 s2.erome.com
+158.69.251.197 s3.erome.com
+158.69.250.92 s4.erome.com
+104.21.235.105 s5.erome.com
+104.21.235.106 s6.erome.com s7.erome.com s8.erome.com s9.erome.com s10.erome.com s11.erome.com s12.erome.com s13.erome.com
+
 # [redgifs.com]
 104.18.4.207 thcf1.redgifs.com
 104.18.5.207 thumbs1.redgifs.com
@@ -6498,7 +6507,9 @@
 198.134.29.39 thalt1a.redgifs.com
 198.134.29.40 thalt1b.redgifs.com
 54.80.95.98 napi.redgifs.com
-52.203.104.232 weblogin.redgifs.com
+# 52.203.238.133 weblogin.redgifs.com
+107.23.124.18 weblogin.redgifs.com
+# 3.226.118.75 weblogin.redgifs.com
 52.85.134.43 filedrop.redgifs.com
 18.235.224.237 api-lbs.redgifs.com
 34.200.49.152 thumbs.redgifs.com
@@ -6506,8 +6517,10 @@
 104.18.4.207 assets.redgifs.com
 3.93.94.182 fat.redgifs.com
 23.20.173.105 giant.redgifs.com
-99.86.230.125 www.redgifs.com
-52.6.45.99 redgifs.com
+104.18.5.207 redgifs.com www.redgifs.com
+104.18.4.207 redgifs.com www.redgifs.com
+104.18.5.207 api.redgifs.com
+104.18.4.207 api.redgifs.com
 
 # [zenra.net]
 66.199.190.206 zenra.net www.zenra.net
