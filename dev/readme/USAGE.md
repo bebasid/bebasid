@@ -22,7 +22,7 @@ Alternatif (jika ingin install melewati aplikasi atau menambahkan list hosts lai
 Install aplikasi [AdAway](https://f-droid.org/en/packages/org.adaway)
 
 ```
-https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.android
+https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
 ```
 
 Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
