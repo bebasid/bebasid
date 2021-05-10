@@ -6296,7 +6296,15 @@
 104.26.11.48 store.mydramalist.com
 
 # [nyafuu.org]
-104.27.169.208 archive.nyafuu.org
+104.21.87.97 archive-media-0.nyafuu.org
+104.21.87.97 archive-media-1.nyafuu.org
+104.21.87.97 archive.nyafuu.org
+104.21.87.97 www.nyafuu.org
+94.23.219.194 mail.nyafuu.org
+94.23.219.194 cloud.nyafuu.org
+104.21.87.97 archive-media.nyafuu.org
+172.67.169.49 nyafuu.org
+94.23.219.194 work.nyafuu.org
 
 # [imgur.com]
 151.101.40.193 imgur.com
@@ -8287,3 +8295,13 @@
 140.174.2.118 www.login.sakuralive.com
 140.174.1.94 sakuralive.com
 140.174.1.94 www.sakuralive.com
+
+# [gravuretube.net]
+104.21.19.120 cpanel.gravuretube.net
+104.21.19.120 gravuretube.net
+95.211.171.131 mail.gravuretube.net
+95.211.171.131 webdisk.gravuretube.net
+95.211.171.131 webmail.gravuretube.net
+172.67.186.37 www.gravuretube.net
+104.21.19.120 cpcalendars.gravuretube.net
+104.21.19.120 cpcontacts.gravuretube.net
