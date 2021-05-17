@@ -4893,11 +4893,40 @@
 104.18.33.27 javhiv.net www.javhiv.net
 
 # [rule34.xxx]
-104.25.223.113 rule34.xxx www.rule34.xxx hk.rule34.xxx img.rule34.xxx
-185.180.221.231 webmc.rule34.xxx
+104.26.0.234 img.rule34.xxx
+104.26.0.234 img1.rule34.xxx
+104.26.0.234 img2.rule34.xxx
+104.26.0.234 img3.rule34.xxx
+104.26.0.234 cloud.rule34.xxx
+5.178.68.89 game.rule34.xxx
+172.67.68.251 aimg.rule34.xxx
+212.8.240.6 bimg.rule34.xxx
+104.26.1.234 cloudimg.rule34.xxx
+89.233.106.186 simg.rule34.xxx
+104.26.0.234 wimg.rule34.xxx
+104.26.0.234 hk.rule34.xxx
 89.233.106.186 webm.rule34.xxx
 209.58.190.226 hkwebm.rule34.xxx
+23.227.197.18 uswebm.rule34.xxx
 190.2.148.183 wwebm.rule34.xxx
+172.67.68.251 us.rule34.xxx
+5.178.68.126 dev.rule34.xxx
+104.26.1.234 www.rule34.xxx
+104.26.1.234 tokyo.rule34.xxx
+85.208.110.18 tokyowebm.rule34.xxx
+104.26.1.234 rule34.xxx
+104.26.0.234 cw1.rule34.xxx
+104.26.0.234 sw1.rule34.xxx
+89.233.106.186 webmc.rule34.xxx
+89.233.106.186 webmd.rule34.xxx
+89.233.106.186 webme.rule34.xxx
+89.233.106.186 webmf.rule34.xxx
+5.178.68.126 status.rule34.xxx
+104.26.0.234 www.img.rule34.xxx
+5.178.68.89 games.rule34.xxx
+104.26.1.234 shop.rule34.xxx
+104.26.1.234 www.shop.rule34.xxx
+104.26.1.234 postmaster.rule34.xxx
 
 # [hleecher.tk]
 104.236.82.224 hleecher.tk www.hleecher.tk
