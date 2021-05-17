@@ -4733,8 +4733,16 @@
 104.28.15.98 erogedownload.com www.erogedownload.com
 
 # [fapforfun.com]
-104.24.126.31 fapforfun.net www.fapforfun.net
-192.254.149.119 ns1.fapforfun.net webdisk.fapforfun.net cpanel.fapforfun.net mail.fapforfun.net webmail.fapforfun.net autodiscover.fapforfun.net
+104.21.38.109 fapforfun.net
+104.21.38.109 www.fapforfun.net
+192.254.149.119 autodiscover.fapforfun.net
+192.254.149.119 cpanel.fapforfun.net
+192.254.149.119 mail.fapforfun.net
+192.254.149.119 webdisk.fapforfun.net
+192.254.149.119 webmail.fapforfun.net
+104.21.38.109 fap.fapforfun.net
+104.21.38.109 www.fap.fapforfun.net
+192.254.149.119 ns1.fapforfun.net
 192.254.149.116 ns2.fapforfun.net
 
 # [video.fc2.com]
@@ -5332,7 +5340,10 @@
 209.54.51.89 mangagamer.com www.mangagamer.com
 
 # [hpjav.tv]
-104.27.156.190 hpjav.tv www.hpjav.tv
+104.21.52.198 www.hpjav.tv
+104.21.52.198 m.hpjav.tv
+172.67.203.93 hpjav.tv
+172.67.203.93 img.hpjav.tv
 
 # [tokyomotion.net]
 64.187.151.194 tokyomotion.net www.tokyomotion.net
@@ -5347,7 +5358,19 @@
 138.201.226.141 anime-pictures.net www.anime-pictures.net
 
 # [narutopixxx.com]
-208.167.227.185 narutopixxx.com www.narutopixxx.com
+208.167.227.185 narutopixxx.com
+208.167.227.185 www2.narutopixxx.com
+208.167.227.185 2a.narutopixxx.com
+208.167.227.185 shared.narutopixxx.com
+208.167.227.185 imap.narutopixxx.com
+208.167.227.185 ftp.narutopixxx.com
+208.167.227.185 www.narutopixxx.com
+208.167.227.185 com252fdns252fwww.narutopixxx.com
+208.167.227.185 robtex.com252fdns252fwww.narutopixxx.com
+208.167.227.185 htmlwww.narutopixxx.com
+208.167.227.185 com.htmlwww.narutopixxx.com
+208.167.227.185 comwww.narutopixxx.com
+208.167.227.185 wwww.narutopixxx.com
 
 # [watchjavonline.com]
 104.18.60.49 watchjavonline.com www.watchjavonline.com
