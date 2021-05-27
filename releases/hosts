@@ -983,10 +983,22 @@
 185.37.100.119 ns4.rarbg.to
 
 # [eztv.ag]
-104.27.208.30 eztv.ag www.eztv.ag
+172.67.146.47 eztv.ag
+172.67.146.47 www.eztv.ag
 
 # [isohunt.to]
-104.23.204.30 isohunt.to www.isohunt.io
+185.225.18.165 blog.isohunt.to
+185.225.18.165 webdisk.isohunt.to
+185.225.18.165 cpanel.isohunt.to
+185.225.18.165 mail.isohunt.to
+185.225.18.165 webmail.isohunt.to
+185.225.18.165 www.isohunt.to
+185.225.18.165 isoplex.isohunt.to
+185.225.18.165 openbay.isohunt.to
+185.225.18.165 isohunt.to
+185.225.18.165 www.isoplex.isohunt.to
+185.225.18.165 www.blog.isohunt.to
+185.225.18.165 www.openbay.isohunt.to
 
 # [4chan.org]
 104.16.117.221 4chan.org
@@ -1588,7 +1600,8 @@
 31.192.117.132 cs.pornhub.phncdn.com
 
 # [tbib.org]
-104.31.90.62 tbib.org www.tbib.org
+104.21.234.125 www.tbib.org
+104.21.234.125 tbib.org
 
 # [xhamster.com]
 104.18.156.3 xhamster.com
@@ -2353,61 +2366,116 @@
 104.17.168.60 mail.xhamster7.com
 104.17.168.60 xhamster7.com
 
-# [javfor.me]
-104.25.219.15 javfor.me www.javfor.me
-104.25.219.15 cdn.hdporn4.me
-
 # [javfind.com]
-104.24.125.127 javfind.com www.javfind.com
+104.21.68.125 img1.javfind.com
+172.67.195.135 img.javfind.com
+104.21.68.125 cdn.javfind.com
+104.21.68.125 www.javfind.com
+104.21.68.125 javfind.com
 
 # [bejav.net]
-104.28.4.81 bejav.net www.bejav.net
+104.21.234.163 www.bejav.net
+104.21.234.162 bejav.net
 
 # [akiba-online.com]
-89.248.169.70 akiba-online.com www.akiba-online.com
+91.208.184.151 www.akiba-online.com
+111.90.150.224 akiba-online.com
 
 # [r18.com]
-202.6.246.238 r18.com www.r18.com
-104.18.10.15 pics.r18.com
-54.239.132.76 awscc3001.r18.com
-54.239.132.55 awspv3001.r18.com
+143.204.202.71 awscc3001.r18.com
+157.112.94.11 pv3001.r18.com
+99.86.2.59 awspv3001.r18.com
+54.238.250.21 i3.r18.com
+35.72.219.208 stg-i3.r18.com
+35.244.197.142 trac.i3.r18.com
+157.112.92.33 media.r18.com
+18.177.79.118 mlic.r18.com
+104.18.197.45 cflstc.r18.com
+143.204.202.121 kaigaiad.r18.com
 157.112.92.33 affiliate.r18.com
-66.6.32.22 blog.r18.com
+54.178.246.35 blog.r18.com
+202.6.246.243 api.r18.com
+202.6.246.250 mail.r18.com
+13.32.21.68 pics.r18.com
+104.18.196.45 assets.r18.com
+13.113.12.252 mediarights.r18.com
+52.197.215.75 news.r18.com
+104.18.24.203 www.r18.com
+104.18.24.203 r18.com
+202.6.246.169 stg-www.r18.com
+157.112.92.135 my.r18.com
 
 # [donmai.us]
-104.20.134.45 donmai.us www.donmai.us danbooru.donmai.us
-104.20.135.45 raikou1.donmai.us raikou2.donmai.us raikou3.donmai.us raikou4.donmai.us safebooru.donmai.us
-147.135.4.93 kagamihara.donmai.us
-147.135.10.29 shima.donmai.us
-104.26.10.39 cdn.donmai.us saitou.donmai.us sonohara.donmai.us
-45.79.98.156 isshiki.donmai.us
-74.207.243.186 karasuma.donmai.us
-104.26.11.39 hijiribe.donmai.us testbooru.donmai.us
+104.26.10.39 raikou1.donmai.us
+172.67.70.99 raikou2.donmai.us
+172.67.70.99 raikou3.donmai.us
+104.26.11.39 raikou4.donmai.us
+104.26.10.39 shima.donmai.us
+172.67.70.99 kagamihara.donmai.us
+104.26.10.39 sonohara.donmai.us
+104.26.11.39 hijiribe.donmai.us
+172.67.70.99 isshiki.donmai.us
+104.26.10.39 saitou.donmai.us
+104.26.10.39 safebooru.donmai.us
+172.67.70.99 danbooru.donmai.us
+104.26.11.39 testbooru.donmai.us
+104.26.10.39 www.donmai.us
+104.26.10.39 donmai.us
+147.135.10.99 mail.donmai.us
+116.202.128.97 kinako.donmai.us
 
 # [bromo.com]
-94.199.249.240 bromo.com www.bromo.com
+66.254.114.234 www.bromo.com
+66.254.114.234 bromo.com
+207.246.147.192 www.cams.bromo.com
+207.246.147.247 cams.bromo.com
 
 # [hentai2read.com]
-104.20.62.168 hentai2read.com www.hentai2read.com
+162.220.60.244 stella.hentai2read.com
+69.46.2.161 satera.hentai2read.com
+23.111.165.42 ashe.hentai2read.com
+209.133.222.18 lilith.hentai2read.com
+104.20.61.168 m.hentai2read.com
+104.20.62.168 forum.hentai2read.com
+209.133.209.139 feilen.hentai2read.com
+69.46.2.161 akeno.hentai2read.com
+104.20.62.168 www.hentai2read.com
+104.20.61.168 hentai2read.com
 
 # [vipergirls.to]
-104.25.190.118 vipergirls.to www.vipergirls.to
+80.82.65.13 mail.vipergirls.to
+104.21.234.59 www.vipergirls.to
+104.21.234.59 vipergirls.to
 
 # [fakku.net]
-104.20.209.29 fakku.net www.fakku.net
-104.20.208.29 t.fakku.net
-66.6.32.22 tumblr.fakku.net
-23.227.38.64 store.fakku.net
-104.20.208.29 books.fakku.net
+172.67.16.94 media.fakku.net
+172.67.16.94 upload.fakku.net
+34.74.164.239 wholesale.fakku.net
+23.227.38.74 store.fakku.net
+104.20.41.171 img.fakku.net
+104.20.41.171 callback.fakku.net
+34.202.59.252 email.fakku.net
+172.67.16.94 books.fakku.net
+104.20.40.171 t.fakku.net
+104.20.41.171 www.fakku.net
+104.20.41.171 fakku.net
 
 # [e-hentai.org]
-104.24.255.11 e-hentai.org www.e-hentai.org
+94.100.24.71 upload.e-hentai.org
+104.20.135.21 g.e-hentai.org
+104.20.134.21 lofi.e-hentai.org
+178.162.139.18 api.e-hentai.org
+94.100.24.77 xml.e-hentai.org
+94.100.24.79 ul.e-hentai.org
+94.100.18.243 forum.e-hentai.org
+94.100.24.79 repo.e-hentai.org
+104.20.134.21 r.e-hentai.org
 94.100.18.243 forums.e-hentai.org
-94.100.24.81 upload.e-hentai.org
-104.237.196.116 g.e-hentai.org
-81.171.20.5 api.e-hentai.org
-104.20.135.21 r.e-hentai.org
-104.20.135.21 lofi.e-hentai.org
+94.100.18.246 forumtest.e-hentai.org
+104.20.25.172 hv.e-hentai.org
+94.100.24.79 ulv.e-hentai.org
+104.20.134.21 www.e-hentai.org
+104.20.134.21 e-hentai.org
 
 # [xvideos.com]
 185.120.69.181 dev.face-rec.xvideos.com
@@ -2865,24 +2933,77 @@
 185.88.181.53 xnxx.com
 
 # [sankakucomplex.com]
-208.100.24.252 sankakucomplex.com
-208.100.27.32 chan.sankakucomplex.com
-208.100.47.78 images.sankakucomplex.com
-208.100.47.75 data.sankakucomplex.com
-208.100.24.246 c.sankakucomplex.com
-208.100.24.254 cs.sankakucomplex.com
-208.100.24.252 www.sankakucomplex.com
-208.100.27.32 idol.sankakucomplex.com
+208.100.24.246 c1.sankakucomplex.com
+208.100.47.78 img1.sankakucomplex.com
+208.100.24.246 i1.sankakucomplex.com
+208.100.24.246 c2.sankakucomplex.com
+208.100.47.78 img2.sankakucomplex.com
+208.100.24.246 i2.sankakucomplex.com
+208.100.24.252 ns2.sankakucomplex.com
+208.100.24.252 v2.sankakucomplex.com
+208.100.24.247 beta-v2.sankakucomplex.com
+208.100.24.247 capi-v2.sankakucomplex.com
+208.100.24.246 c3.sankakucomplex.com
 208.100.47.78 img3.sankakucomplex.com
+208.100.24.246 i3.sankakucomplex.com
+208.100.24.246 c4.sankakucomplex.com
 208.100.47.78 img4.sankakucomplex.com
-208.100.47.78 img.sankakucomplex.com
-208.100.47.75 charts.sankakucomplex.com
+208.100.24.246 i4.sankakucomplex.com
+208.100.24.252 6.sankakucomplex.com
+208.100.24.251 a.sankakucomplex.com
+208.100.24.252 cha.sankakucomplex.com
 208.100.47.75 extra.sankakucomplex.com
+208.100.47.75 data.sankakucomplex.com
+208.100.24.247 beta.sankakucomplex.com
+208.100.24.246 capi-beta.sankakucomplex.com
+208.100.24.252 xn--chan-e4dyv7dya.sankakucomplex.com
+208.100.24.252 capi-v2b.sankakucomplex.com
+208.100.24.246 iqdb.sankakucomplex.com
+208.100.24.246 c.sankakucomplex.com
+208.100.24.250 d.sankakucomplex.com
+208.100.24.252 just.email.android.sankakucomplex.com
+208.100.24.247 white.sankakucomplex.com
+208.100.47.78 img.sankakucomplex.com
+208.100.24.245 testing.sankakucomplex.com
 208.100.24.246 i.sankakucomplex.com
-208.100.24.246 cstats.sankakucomplex.com
-208.100.24.254 is.sankakucomplex.com
-208.100.24.254 beta.sankakucomplex.com
+208.100.24.246 capi.sankakucomplex.com
+208.100.24.246 iapi.sankakucomplex.com
+208.100.24.247 black.sankakucomplex.com
+208.100.27.32 idol.sankakucomplex.com
+208.100.24.252 forum.sankakucomplex.com
+208.100.24.252 han.sankakucomplex.com
+208.100.27.32 chan.sankakucomplex.com
+208.100.24.252 llchan.sankakucomplex.com
+208.100.24.252 idolchan.sankakucomplex.com
+208.100.24.252 shan.sankakucomplex.com
+208.100.24.252 cahn.sankakucomplex.com
+208.100.24.247 login.sankakucomplex.com
+208.100.24.251 munin.sankakucomplex.com
+208.100.24.254 cso.sankakucomplex.com
+208.100.24.246 cup.sankakucomplex.com
+208.100.24.246 iup.sankakucomplex.com
 208.100.24.254 s.sankakucomplex.com
+208.100.27.32 cas.sankakucomplex.com
+208.100.24.254 cs.sankakucomplex.com
+208.100.24.252 ads.sankakucomplex.com
+208.100.24.252 www.ads.sankakucomplex.com
+208.100.47.78 images.sankakucomplex.com
+208.100.24.254 is.sankakucomplex.com
+208.100.24.252 chans.sankakucomplex.com
+208.100.24.252 sss.sankakucomplex.com
+208.100.24.246 cstats.sankakucomplex.com
+208.100.24.246 istats.sankakucomplex.com
+208.100.47.75 charts.sankakucomplex.com
+208.100.24.252 www.test.sankakucomplex.com
+208.100.24.252 ww.sankakucomplex.com
+208.100.24.252 www.sankakucomplex.com
+208.100.24.252 2fwww.sankakucomplex.com
+208.100.24.247 beta-ads.sankakucomplex.com
+208.100.24.252 sankakucomplex.com
+208.100.24.252 matrix.sankakucomplex.com
+208.100.24.254 content.sankakucomplex.com
+208.100.27.32 legacy.sankakucomplex.com
+208.100.24.252 classic.sankakucomplex.com
 
 # [spankbang.com]
 104.20.41.98 static.spankbang.com a-eng.spankbang.com m.spankbang.com spankbang.com www.spankbang.com cdnthumb3.spankbang.com cdnthumb1.spankbang.com cdnthumb.spankbang.com cdnthumb2.spankbang.com id.spankbang.com cdnthumb3.spankbang.com cdnthumb4.spankbang.com cdnthumb5.spankbang.com
@@ -3021,20 +3142,235 @@
 43.255.42.71 hikari.dmm.com
 
 # [dmm.co.jp]
-202.6.245.93 pics.dmm.co.jp p.dmm.co.jp
-202.6.246.10 pics.dmm.com
-13.248.196.236 dmm.co.jp
-13.249.38.162 actress.dmm.co.jp
-99.86.231.121 www.dmm.co.jp
+43.255.42.82 ns0.dmm.co.jp
+13.32.21.74 cc3001.dmm.co.jp
+13.32.21.80 ec3001.dmm.co.jp
+202.6.245.38 doujin01.dmm.co.jp
+43.255.41.82 ebook02.dmm.co.jp
+202.6.245.39 doujin02.dmm.co.jp
+203.209.148.40 ns32.dmm.co.jp
+43.255.41.189 sample2.dmm.co.jp
+35.190.114.164 trac.i3.dmm.co.jp
+43.255.41.114 aosdl014.dmm.co.jp
+43.255.42.180 ns5.dmm.co.jp
+157.112.92.78 livechat5.dmm.co.jp
+157.112.90.154 aosdl008.dmm.co.jp
 103.254.146.221 sample9.dmm.co.jp
+2.16.186.59 dl.aka.dmm.co.jp
+203.209.149.59 aqua.dmm.co.jp
+3.115.231.162 yyc.dmm.co.jp
+3.115.231.162 www.yyc.dmm.co.jp
+202.6.246.231 ad.dmm.co.jp
+65.9.58.202 mobile.dmm.co.jp
+202.6.247.110 androidgame.dmm.co.jp
+52.192.95.239 igetgacha-netgame.dmm.co.jp
+103.254.145.143 pachinko-app-content-netgame.dmm.co.jp
+157.112.86.142 widget-api.dmm.co.jp
+54.238.233.148 book.dmm.co.jp
+3.115.225.139 unlimited.book.dmm.co.jp
+13.113.56.146 stg.book.dmm.co.jp
+143.204.202.118 trial.book.dmm.co.jp
+13.32.21.49 al.dmm.co.jp
+65.9.69.52 special.dmm.co.jp
+13.32.21.32 api.special.dmm.co.jp
+143.204.202.44 admin.special.dmm.co.jp
+103.254.145.199 ppm.dmm.co.jp
+13.231.118.172 dtm.dmm.co.jp
+13.115.116.92 uid.dtm.dmm.co.jp
+13.32.21.94 cdn.dtm.dmm.co.jp
+157.112.86.94 dojin.dmm.co.jp
+13.115.1.103 admin.dmm.co.jp
+13.32.21.99 c.kakunin.dmm.co.jp
+54.238.231.126 mail-information.dmm.co.jp
+3.114.173.68 stg-mail-information.dmm.co.jp
+202.6.247.149 auction.dmm.co.jp
+65.9.69.80 video.dmm.co.jp
+157.112.94.12 pics.litevideo.dmm.co.jp
+202.6.246.10 p.dmm.co.jp
+65.9.69.33 cdj.dap.dmm.co.jp
+35.72.160.253 cn.dap.dmm.co.jp
+13.32.21.61 cdn.dap.dmm.co.jp
+202.6.247.178 help.dmm.co.jp
+99.86.2.88 imp.dmm.co.jp
+65.9.69.55 viera-app.dmm.co.jp
+65.9.69.3 api-viera-app.dmm.co.jp
+202.6.244.151 sp.dmm.co.jp
+202.6.246.154 cashier.dmm.co.jp
+203.209.147.87 banner.dmm.co.jp
+157.112.86.81 pr.dmm.co.jp
+202.6.246.10 pics.dmm.co.jp
+43.255.40.206 games.dmm.co.jp
+13.32.21.116 ad.games.dmm.co.jp
+43.255.40.207 personal.games.dmm.co.jp
+43.255.43.155 mission.games.dmm.co.jp
+143.204.202.93 cdn.p.games.dmm.co.jp
+99.86.2.96 cdn.pics.games.dmm.co.jp
+13.32.21.18 v.games.dmm.co.jp
+43.255.40.212 pc-play.games.dmm.co.jp
+65.9.58.70 mobile-freegames.dmm.co.jp
+43.255.42.84 terms.dmm.co.jp
+52.197.1.87 actress.dmm.co.jp
+157.112.88.58 swiss.dmm.co.jp
+65.9.69.46 ebook-assets.dmm.co.jp
+43.255.41.224 doujin-assets.dmm.co.jp
+103.254.145.233 avatar-contents.dmm.co.jp
+52.198.179.108 accounts.dmm.co.jp
+157.112.86.135 news.dmm.co.jp
+157.112.86.134 image-news.dmm.co.jp
 202.6.247.196 dlsoft.dmm.co.jp
-43.255.40.206 games.dmm.co.jp games.dmm.com
+157.112.86.226 evelt.dmm.co.jp
+202.6.246.152 point.dmm.co.jp
+99.86.2.45 widget-view.dmm.co.jp
+99.86.0.63 www.dmm.co.jp
+99.86.0.63 dmm.co.jp
+148.251.158.116 display.dmm.co.jp
+99.86.2.120 form.dmm.co.jp
+54.250.128.72 dev-accounts.dmm.co.jp
+43.255.41.80 ebook01.dmm.co.jp
+43.255.41.110 ebook03.dmm.co.jp
+43.255.41.111 ebook04.dmm.co.jp
+65.9.69.47 dev.review.dmm.co.jp
+143.204.202.63 stg.review.dmm.co.jp
+99.86.2.106 train.digdevice.dmm.co.jp
+65.9.69.13 stg.train.digdevice.dmm.co.jp
+65.9.69.54 dev.train.digdevice.dmm.co.jp
+54.250.59.178 api.prediction-chariloto.admin.dmm.co.jp
+54.250.163.98 api.stg-prediction-chariloto.admin.dmm.co.jp
+52.197.196.178 stg-prediction-chariloto.admin.dmm.co.jp
+18.178.230.5 prediction-chariloto.admin.dmm.co.jp
+13.32.21.12 review.dmm.co.jp
+13.112.29.149 stg-webdgp-gameplayer.games.dmm.co.jp
+65.9.69.88 stg2.special.dmm.co.jp
+54.92.87.235 stg-cn.dap.dmm.co.jp
+52.194.9.224 voc.admin.dmm.co.jp
+3.113.38.122 stg-accounts.dmm.co.jp
+52.192.183.204 stress-accounts.dmm.co.jp
+99.86.2.103 stg.special.dmm.co.jp
+143.204.202.53 stg-cdj.dap.dmm.co.jp
+65.9.69.59 stg-s-keirin.admin.dmm.co.jp
+52.197.196.178 stg-keirin.admin.dmm.co.jp
+52.69.204.175 prd.kakunin.dmm.co.jp
+13.32.21.52 qa.stg.train.digdevice.dmm.co.jp
+99.86.2.58 stg-admin.special.dmm.co.jp
+99.86.2.69 stg.widget-view.dmm.co.jp
+143.204.202.62 stg-api.special.dmm.co.jp
+54.65.41.109 dev.kakunin.dmm.co.jp
+52.198.48.102 stg.kakunin.dmm.co.jp
+13.32.21.67 stg.viera-app.dmm.co.jp
+143.204.202.36 stg.api-viera-app.dmm.co.jp
+157.112.92.134 my.dmm.co.jp
+178.250.2.146 mkmree.dmm.co.jp
+13.32.21.22 dev.widget-view.dmm.co.jp
+13.32.21.76 stg.video.dmm.co.jp
+13.32.21.57 dev.video.dmm.co.jp
+99.86.2.124 stg.imp.dmm.co.jp
+13.32.21.5 pre.viera-app.dmm.co.jp
+54.248.162.249 stg.actress.dmm.co.jp
+52.193.87.56 dev.actress.dmm.co.jp
+52.199.250.28 tag-api.dmm.co.jp
+65.9.69.62 max.dmm.co.jp
+13.113.12.252 mediarights.dmm.co.jp
+54.150.108.13 credit.dmm.co.jp
+52.69.232.254 dev-credit.dmm.co.jp
+52.193.5.38 stg-credit.dmm.co.jp
+18.178.178.225 sandbox-credit.dmm.co.jp
+143.204.202.5 stg.al.dmm.co.jp
+18.179.238.255 stg-tag-api.dmm.co.jp
+124.35.5.136 sp.194964.dmm.co.jp
+124.35.5.135 194964.dmm.co.jp
+34.117.147.70 stg-pigeon.i3.dmm.co.jp
+35.244.197.142 pigeon.i3.dmm.co.jp
+2.16.107.41 image.mk-ma.dmm.co.jp
+143.204.202.21 stg.form.dmm.co.jp
+18.178.230.5 book-admin.dmm.co.jp
+52.197.196.178 stg.book-admin.dmm.co.jp
+52.197.196.178 dev-keirin.admin.dmm.co.jp
+34.117.218.185 stg-trac-i3.dmm.co.jp
+52.194.70.74 movie-api.games.dmm.co.jp
+99.86.2.112 contents.movie-api.games.dmm.co.jp
+143.204.202.128 contents.stg-movie-api.games.dmm.co.jp
+54.250.194.17 stg-movie-api.games.dmm.co.jp
+13.114.109.102 dev-movie-api.games.dmm.co.jp
+13.32.21.119 contents.dev-movie-api.games.dmm.co.jp
+54.64.155.168 dev-crm.admin.dmm.co.jp
+143.204.202.104 p.games.dmm.co.jp
+65.9.69.6 dev.al.dmm.co.jp
+54.95.63.4 play-cloud.games.dmm.co.jp
+54.249.54.31 dev-play-cloud.games.dmm.co.jp
+13.230.182.2 pre-play-cloud.games.dmm.co.jp
+54.250.8.195 monitor.teamlabplanets.admin.dmm.co.jp
+13.112.239.216 rundeck.teamlabplanets.admin.dmm.co.jp
+13.115.37.9 member.teamlabplanets.admin.dmm.co.jp
+13.111.101.49 view.mk-ma.dmm.co.jp
+18.178.226.172 pre-stg-play-cloud.games.dmm.co.jp
+18.180.222.64 stg-play-cloud.games.dmm.co.jp
+13.111.99.93 cloud.mk-ma.dmm.co.jp
+54.92.100.229 rundeck.stg.teamlabplanets.admin.dmm.co.jp
+54.238.24.180 member.stg.teamlabplanets.admin.dmm.co.jp
+13.111.100.49 click.mk-ma.dmm.co.jp
+18.178.230.5 crm.admin.dmm.co.jp
+54.64.155.168 stg-crm.admin.dmm.co.jp
+13.231.15.186 kakunin.dmm.co.jp
+13.115.177.2 dev-api.unlimited.book.dmm.co.jp
+18.180.57.83 dev.unlimited.book.dmm.co.jp
+18.181.93.59 api.unlimited.book.dmm.co.jp
+54.64.189.29 stg.unlimited.book.dmm.co.jp
+52.192.6.145 stg-api.unlimited.book.dmm.co.jp
+157.112.92.29 agent-livechat.dmm.co.jp
+157.112.92.77 chatmodels.dmm.co.jp
+65.9.69.120 image-api.games.dmm.co.jp
+13.32.21.67 stg-image-api.games.dmm.co.jp
+52.199.159.91 prd-accounts.dmm.co.jp
+52.192.148.50 top.dmm.co.jp
+157.112.86.109 affiliate.dmm.co.jp
+203.104.250.51 ssl.lite.yyc.dmm.co.jp
+203.209.147.169 mobilechat.dmm.co.jp
+65.9.58.208 mtn-mobile.dmm.co.jp
+203.209.147.208 mtn-mobilechat.dmm.co.jp
+202.6.245.39 mp.dmm.co.jp
+157.112.86.31 dmp.dmm.co.jp
+211.196.73.4 p-xtasy.dmm.co.jp
+157.112.86.144 stg-widget-view.dmm.co.jp
+203.104.250.55 ssl.m.yyc.dmm.co.jp
+203.104.250.50 ssl.yyc.dmm.co.jp
+52.199.102.239 publus.book-admin.dmm.co.jp
+157.112.92.45 viera-api.dmm.co.jp
+157.112.92.46 aquos.dmm.co.jp
+54.64.155.168 stg-100man.admin.dmm.co.jp
+18.178.230.5 100man.admin.dmm.co.jp
+52.197.196.178 dev-100man.admin.dmm.co.jp
+43.255.42.36 tv-api.dmm.co.jp
+18.180.90.206 dev-payment.dmm.co.jp
+13.112.199.239 stg-payment.dmm.co.jp
+13.115.1.103 purchase.admin.dmm.co.jp
+202.6.247.126 sns-api2.dmm.co.jp
+202.6.247.205 admin.sns.dmm.co.jp
+157.112.92.88 pcmax-api.dmm.co.jp
+65.9.58.202 mtn-mobile-freegames.dmm.co.jp
+52.197.196.178 stg-hikari.admin.dmm.co.jp
+157.112.92.76 yahoo.dmm.co.jp
+203.209.147.76 api-nettv.dmm.co.jp
+157.112.86.14 cp-auction.dmm.co.jp
+202.6.247.113 sns-api.dmm.co.jp
+157.112.92.88 ikkr-api.dmm.co.jp
+157.112.86.95 adojin.dmm.co.jp
+202.6.247.83 twit.dmm.co.jp
+157.112.92.66 lcmodel.dmm.co.jp
+157.112.92.88 yyc-api.dmm.co.jp
+43.255.42.87 ip1.dmm.co.jp
+43.255.42.45 ipadmin.dmm.co.jp
+43.255.42.98 owner.dmm.co.jp
+43.255.42.45 ipowner.dmm.co.jp
+202.6.245.196 fasp.dmm.co.jp
+202.6.247.112 sns.dmm.co.jp
 
 # [javlibrary.com]
-104.18.62.228 javlibrary.com www.javlibrary.com
+172.67.164.190 www.javlibrary.com
+172.67.164.190 javlibrary.com
 
 # [javlib.com]
-104.18.54.249 javlib.com www.javlib.com
+172.67.158.216 www.javlib.com
+172.67.158.216 javlib.com
 
 # [yande.re]
 198.98.54.92 assets.yande.re files.yande.re www.yande.re yuno.yande.re yande.re ayase.yande.re direct.yande.re webmaster.yande.re
@@ -3047,13 +3383,18 @@
 72.11.139.4 iqdb.yande.re
 
 # [konachan.com]
-5.178.68.69 konachan.com www.konachan.com
+172.67.131.252 www.konachan.com
+104.21.4.105 konachan.com
 
 # [tsumino.com]
-104.28.3.29 tsumino.com www.tsumino.com content.tsumino.com
+104.21.235.215 content.tsumino.com
+104.21.235.215 www.tsumino.com
+104.21.235.215 tsumino.com
 
 # [porneq.com]
-163.172.85.31 porneq.com www.porneq.com
+163.172.45.231 beta.porneq.com
+163.172.45.231 www.porneq.com
+163.172.45.231 porneq.com
 
 # [newgrounds.com]
 51.79.77.158 panda0-0.newgrounds.com
@@ -3565,25 +3906,144 @@
 
 
 # [mofos.com]
-216.18.168.90 members2.mofos.com
-66.254.112.121 mofos.com
-64.210.135.70 static.mofos.com
-216.18.168.88 www.mofos.com
-66.254.112.121 enter.mofos.com
+66.254.114.234 mofos.com
+66.254.112.121 i0.mofos.com
+66.254.122.23 i1.mofos.com
+66.254.112.121 fhg2.mofos.com
+66.254.122.16 i2.mofos.com
+66.254.112.121 member2.mofos.com
+66.254.112.121 membres2.mofos.com
+66.254.114.234 members2.mofos.com
+66.254.122.18 i3.mofos.com
+208.99.95.17 emailer3.mofos.com
+66.254.112.121 t7.mofos.com
+66.254.112.121 www.tube8.mofos.com
+66.254.112.121 2a.mofos.com
+66.254.112.121 ma.mofos.com
+66.254.114.234 site-ma.mofos.com
+66.254.112.121 www.ma.mofos.com
+66.254.112.121 www.pornhub.mofos.com
+66.254.122.17 static.mofos.com
+66.254.112.121 2fstatic.mofos.com
+66.254.112.121 embed.mofos.com
+66.254.114.234 land.mofos.com
+66.254.114.234 preprod.mofos.com
+66.254.112.121 www.redtube.mofos.com
+66.254.112.121 free.mofos.com
+66.254.114.210 mobile.mofos.com
+66.254.112.121 pete.mofos.com
+204.8.234.212 live.mofos.com
+66.254.112.121 beeg.mofos.com
+66.254.100.195 fhg.mofos.com
+66.254.112.121 hfhg.mofos.com
+66.254.112.121 billing.mofos.com
+66.254.112.121 www.wiki.mofos.com
+208.99.83.54 api.mofos.com
+146.82.205.48 mail.mofos.com
+66.254.112.121 gmail.mofos.com
+66.254.114.234 m.mofos.com
+66.254.112.121 www.pass-m.mofos.com
+8.247.219.125 cdn1.m.mofos.com
+67.26.43.253 cdn2.m.mofos.com
+67.26.43.253 cdn3.m.mofos.com
+66.254.103.99 porntubepublic.m.mofos.com
+216.18.171.166 gui.m.mofos.com
+66.254.114.234 m.kastit.com.m.mofos.com
+66.254.114.234 enter.m.mofos.com
+66.254.112.121 0am.mofos.com
+66.254.112.121 www.spankwire.com.mofos.com
+66.254.112.121 exxxtrasmall.com.mofos.com
+66.254.112.121 randy-maugans.porns-been-good-to-me.exxxtrasmall.com.mofos.com
+66.254.112.121 www.mofos.com.mofos.com
+66.254.112.121 n.mofos.com
+66.254.112.121 indian.mofos.com
+64.88.249.105 origin.mofos.com
+66.254.112.121 tourorigin.mofos.com
+66.254.112.121 www.login.mofos.com
+66.254.112.121 www.xvideo.mofos.com
+66.254.112.121 yahoo.mofos.com
+66.254.112.121 imap.mofos.com
+66.254.112.121 www.qqq.mofos.com
+216.18.168.184 probiller.mofos.com
+66.254.114.234 enter.mofos.com
+66.254.112.121 www.twitter.mofos.com
+66.254.112.121 smtp.tr.mofos.com
+66.254.122.20 pics.mofos.com
+66.254.112.121 pcs.mofos.com
+66.254.100.195 ads.mofos.com
+66.254.100.195 feeds.mofos.com
+66.254.112.121 galleries.mofos.com
+66.254.112.121 iframes.mofos.com
+66.254.112.121 www.cams.mofos.com
+208.99.83.54 cms.mofos.com
+66.254.114.234 members.mofos.com
+66.254.112.121 www.account-members.mofos.com
+66.254.112.121 merbers.mofos.com
+192.0.2.0 trailers.mofos.com
+64.88.252.118 nyc-v1.trailers.mofos.com
+66.254.112.121 trtrailers.mofos.com
+192.0.2.0 scripts.mofos.com
+66.254.114.210 liveshows.mofos.com
+66.254.112.121 starlet.mofos.com
+66.254.114.161 support.mofos.com
+66.254.112.121 yutu.mofos.com
+64.88.252.120 dev.mofos.com
+66.254.114.234 www.mofos.com
+66.254.114.234 mofos.com
+66.254.112.121 mx.mofos.com
+66.254.112.121 secure.mofos.com
 
 # [a-ads.com]
-104.25.250.34 a-ads.com www.a-ads.com
+5.9.10.165 adv0.a-ads.com
+178.63.91.50 db1.a-ads.com
+176.9.2.173 app1.a-ads.com
+176.9.125.108 adv1.a-ads.com
+85.10.200.158 adv2.a-ads.com
+85.10.201.130 adv3.a-ads.com
+148.251.53.118 adv4.a-ads.com
+213.239.209.209 adv5.a-ads.com
+148.251.13.139 adv6.a-ads.com
+213.239.209.209 static.a-ads.com
+213.239.209.209 ad.a-ads.com
+213.239.209.209 acceptable.a-ads.com
+172.104.233.20 chef.a-ads.com
+213.239.209.209 click.a-ads.com
+172.65.251.114 help.a-ads.com
+52.218.61.180 files.a-ads.com
+172.65.245.131 status.a-ads.com
+127.0.0.1 int.a-ads.com
+104.26.14.247 www.a-ads.com
+172.65.225.161 links.help.a-ads.com
+104.26.15.247 a-ads.com
 
 # [mangapanda.com]
-104.20.162.10 s5.mangapanda.com
-185.86.164.130 mangapanda.com
-104.20.162.10 s1.mangapanda.com
-104.20.163.10 s4.mangapanda.com
-185.86.164.130 www.mangapanda.com
-104.20.163.10 s3.mangapanda.com
+172.67.206.115 i10.mangapanda.com
+104.21.77.93 i1.mangapanda.com
+104.21.77.93 s1.mangapanda.com
+172.67.206.115 i2.mangapanda.com
+172.67.206.115 s2.mangapanda.com
+104.21.77.93 i3.mangapanda.com
+104.21.77.93 s3.mangapanda.com
+104.21.77.93 i4.mangapanda.com
+104.21.77.93 s4.mangapanda.com
+104.21.77.93 i995.mangapanda.com
+104.21.77.93 i5.mangapanda.com
+104.21.77.93 s5.mangapanda.com
+172.67.206.115 i996.mangapanda.com
+172.67.206.115 i6.mangapanda.com
+172.67.206.115 i997.mangapanda.com
+104.21.77.93 i7.mangapanda.com
+104.21.77.93 i998.mangapanda.com
+172.67.206.115 i8.mangapanda.com
+104.21.77.93 i999.mangapanda.com
+104.21.77.93 i9.mangapanda.com
+172.67.206.115 ad.mangapanda.com
+93.123.73.162 json.mangapanda.com
+93.123.73.162 www.mangapanda.com
+93.123.73.162 mangapanda.com
 
 # [tanix.net]
-104.25.40.116 tanix.net www.tanix.net
+104.25.226.38 tanix.net www.tanix.net
 
 # [heavy.com]
 192.0.79.34 heavy.com www.heavy.com
@@ -3613,10 +4073,30 @@
 104.28.8.24 mp4hentai.com www.mp4hentai.com
 
 # [raw.senmanga.com]
-104.28.10.14 raw.senmanga.com
+172.67.140.159 www.raw.senmanga.com
+104.21.27.15 raw.senmanga.com
 
 # [rotten.com]
-216.218.248.135 rotten.com www.rotten.com
+216.218.248.136 www2.rotten.com
+216.218.248.232 vagina.rotten.com
+216.218.248.179 omerta.rotten.com
+216.218.248.232 dickweed.rotten.com
+216.218.248.136 orifice.rotten.com
+216.218.248.232 coke.rotten.com
+216.218.248.136 smoke.rotten.com
+216.218.248.183 deadpool.rotten.com
+216.218.248.196 search.deadpool.rotten.com
+216.218.248.183 rss.deadpool.rotten.com
+216.218.248.136 awful.rotten.com
+216.218.248.220 fotm.rotten.com
+216.218.248.145 unicum.rotten.com
+216.218.248.232 vatican.rotten.com
+216.218.248.136 peasant.rotten.com
+216.218.248.135 www.rotten.com
+216.218.248.135 rotten.com
+216.218.248.136 terrify.rotten.com
+199.59.242.153 daily.rotten.com
+216.218.248.185 poetry.rotten.com
 
 # [hentaimama.io]
 104.18.54.140 hentaimama.io www.hentaimama.io
@@ -4612,9 +5092,12 @@
 5.44.219.124 asexon.com www.asexon.com
 
 # [avgle.com]
-104.27.154.26 avgle.com
-104.27.155.26 www.avgle.com
-213.174.135.3 static-clst.avgle.com www.static-clst.avgle.com
+192.243.59.20 sub2.avgle.com
+198.134.112.242 sub.avgle.com
+172.64.105.12 api.avgle.com
+213.174.135.4 static-clst.avgle.com
+172.64.104.12 www.avgle.com
+172.64.104.12 avgle.com
 
 # [tuoi69.com]
 104.27.178.187 tuoi69.com www.tuoi69.com
@@ -4689,12 +5172,30 @@
 109.236.86.128 files2.gamesofdesire.com
 
 # [luscious.net]
-185.93.1.7 luscious.net www.luscious.net
-104.25.247.113 members.luscious.net
-185.93.0.18 assets.luscious.net
-185.152.66.6 cdna.luscious.net cdni.luscious.net
-185.93.0.18 cdnio.luscious.net
-195.181.162.3 cdnvo.luscious.net
+89.187.167.5 w640.luscious.net
+89.187.167.5 w1680.luscious.net
+195.181.175.51 w1024.luscious.net
+195.181.164.14 w315.luscious.net
+195.181.175.52 cdna.luscious.net
+172.67.70.144 beta.luscious.net
+108.61.65.146 upload.luscious.net
+104.26.3.49 old.luscious.net
+185.59.221.24 cdni.luscious.net
+185.59.221.22 api.luscious.net
+142.250.184.211 mail.luscious.net
+52.36.78.216 email.luscious.net
+172.67.70.144 m.luscious.net
+108.61.65.146 anon.luscious.net
+195.181.164.15 cdnio.luscious.net
+195.181.175.55 cdnvo.luscious.net
+185.59.221.26 images.luscious.net
+89.187.167.6 gifs.luscious.net
+108.61.65.146 members.luscious.net
+195.181.175.55 assets.luscious.net
+108.61.65.146 chat.luscious.net
+108.61.65.146 www.luscious.net
+104.26.2.49 legacy.luscious.net
+172.67.70.144 luscious.net
 
 # [ice-porn.com]
 199.182.111.134 ice-porn.com www.ice-porn.com
@@ -8179,47 +8680,26 @@
 172.67.141.164 www.jav-uncensored.net
 
 # [9anime.to]
-172.64.175.26 9anime.to
-172.64.175.26 wwv.9anime.to
-172.64.175.26 www.9anime.to
-172.64.175.26 www1.9anime.to
-172.64.174.26 www2.9anime.to
-172.64.174.26 www3.9anime.to
-172.64.175.26 www4.9anime.to
-172.64.174.26 www5.9anime.to
-172.64.174.26 www6.9anime.to
-172.64.174.26 www7.9anime.to
-172.64.174.26 www8.9anime.to
-172.64.174.26 www9.9anime.to
-172.64.174.26 www10.9anime.to
-172.64.174.26 www11.9anime.to
-172.64.174.26 www12.9anime.to
-172.64.174.26 www13.9anime.to
+104.21.233.127 www1.9anime.to
+104.21.233.127 www2.9anime.to
+104.21.233.128 www3.9anime.to
+104.21.233.128 www4.9anime.to
+104.21.233.127 www8.9anime.to
+104.21.233.128 www.9anime.to
+104.21.233.128 9anime.to
 
 # [9anime.ru]
-172.67.170.25 9anime.ru
-172.67.170.25 www.9anime.ru
-104.21.39.88 www1.9anime.ru
-104.21.39.88 www2.9anime.ru
-104.21.39.88 www3.9anime.ru
-104.21.39.88 www4.9anime.ru
-104.21.39.88 www5.9anime.ru
-104.21.39.88 www6.9anime.ru
-104.21.39.88 www7.9anime.ru
-104.21.39.88 www8.9anime.ru
+172.67.162.169 www8.9anime.ru
+104.21.15.136 www.9anime.ru
+104.21.15.136 9anime.ru
 
 # [9anime.pw]
-104.21.55.218 9anime.pw
+172.67.173.113 9anime.pw
 104.21.55.218 www.9anime.pw
-104.21.55.218 mail.9anime.pw
 
 # [9anime.at]
 104.21.14.164 9anime.at
-104.21.14.164 www.9anime.at
-104.21.14.164 cpanel.9anime.at
-104.21.14.164 mail.9anime.at
-104.21.14.164 webdisk.9anime.at
-104.21.14.164 webmail.9anime.at
+172.67.160.15 www.9anime.at
 
 # [9anime.video]
 172.67.194.84 9anime.video
@@ -8478,11 +8958,6 @@
 211.13.210.123 member.graphis.ne.jp
 115.166.151.29 lists.graphis.ne.jp
 
-# [pandajago.com]
-185.59.220.199 m.pandajago.com
-185.59.220.198 www.pandajago.com
-185.59.220.198 pandajago.com
-
 # [chaturbate.wiki]
 104.21.65.140 chaturbate.wiki
 172.67.163.229 www.chaturbate.wiki
@@ -8529,6 +9004,59 @@
 # [idlix.com]
 172.67.216.6 idlix.com www.idlix.com
 104.21.78.45 mail.idlix.com
+
+# [javtrust.com]
+172.67.170.194 javtrust.com
+172.67.170.194 www.javtrust.com
+
+# [soap2day.to]
+104.26.9.88 www.soap2day.to
+104.26.9.88 soap2day.to
+
+# [soap2day.im]
+104.26.7.50 www.soap2day.im
+104.26.7.50 soap2day.im
+
+# [soap2day.ac]
+104.21.25.101 soap2day.ac
+104.21.25.101 www.soap2day.ac
+
+# [soap2day.se]
+172.67.70.35 www.soap2day.se
+172.67.70.35 soap2day.se
+
+# [s2dfree.to]
+104.21.66.166 www.s2dfree.to
+104.21.66.166 s2dfree.to
+
+# [s2dfree.cc]
+104.21.61.42 www.s2dfree.cc
+104.21.61.42 s2dfree.cc
+
+# [s2dfree.de]
+104.21.34.115 www.s2dfree.de
+104.21.34.115 s2dfree.de
+
+# [s2dfree.is]
+104.26.14.113 www.s2dfree.is
+104.26.14.113 s2dfree.is
+
+# [s2dfree.in]
+104.21.20.65 www.s2dfree.in
+104.21.20.65 s2dfree.in
+
+# [s2dfree.nl]
+104.21.45.177 www.s2dfree.nl
+104.21.45.177 s2dfree.nl
+
+# [javtiful.com]
+172.67.70.107 www.javtiful.com
+157.90.183.249 jtmoney.javtiful.com
+104.26.10.109 javtiful.com
+
+# [javgg.net]
+104.21.19.157 www.javgg.net
+104.21.19.157 javgg.net
 
 # [tenor.com]
 54.186.152.33 gateway-tenor-us-west-1.tenor.com

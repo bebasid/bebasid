@@ -324,12 +324,30 @@
 104.16.28.34 i.stack.imgur.com
 
 # [mangapanda.com]
-104.20.162.10 s5.mangapanda.com
-185.86.164.130 mangapanda.com
-104.20.162.10 s1.mangapanda.com
-104.20.163.10 s4.mangapanda.com
-185.86.164.130 www.mangapanda.com
-104.20.163.10 s3.mangapanda.com
+172.67.206.115 i10.mangapanda.com
+104.21.77.93 i1.mangapanda.com
+104.21.77.93 s1.mangapanda.com
+172.67.206.115 i2.mangapanda.com
+172.67.206.115 s2.mangapanda.com
+104.21.77.93 i3.mangapanda.com
+104.21.77.93 s3.mangapanda.com
+104.21.77.93 i4.mangapanda.com
+104.21.77.93 s4.mangapanda.com
+104.21.77.93 i995.mangapanda.com
+104.21.77.93 i5.mangapanda.com
+104.21.77.93 s5.mangapanda.com
+172.67.206.115 i996.mangapanda.com
+172.67.206.115 i6.mangapanda.com
+172.67.206.115 i997.mangapanda.com
+104.21.77.93 i7.mangapanda.com
+104.21.77.93 i998.mangapanda.com
+172.67.206.115 i8.mangapanda.com
+104.21.77.93 i999.mangapanda.com
+104.21.77.93 i9.mangapanda.com
+172.67.206.115 ad.mangapanda.com
+93.123.73.162 json.mangapanda.com
+93.123.73.162 www.mangapanda.com
+93.123.73.162 mangapanda.com
 
 # [mangareader.net]
 185.85.189.58 mangareader.net www.mangareader.net
@@ -349,16 +367,51 @@
 104.26.15.136 yifysubtitles.com
 104.26.14.136 www.yifysubtitles.com
 
-# [thepiratebay.org]	
-104.24.190.20 thepiratebay.org
+# [thepiratebay.org]
+162.159.136.6 m.thepiratebay.org
+162.159.137.6 www.thepiratebay.org
+162.159.137.6 thepiratebay.org
+162.159.137.6 200.thepiratebay.org
+162.159.137.6 ns0.thepiratebay.org
+162.159.137.6 static.thepiratebay.org
+162.159.137.6 upl.thepiratebay.org
+162.159.137.6 tracker.thepiratebay.org
+162.159.137.6 a.tracker.thepiratebay.org
+162.159.137.6 tpb.tracker.thepiratebay.org
+162.159.137.6 open.tracker.thepiratebay.org
+162.159.137.6 vip.tracker.thepiratebay.org
+162.159.137.6 tv.tracker.thepiratebay.org
+162.159.137.6 eztv.tracker.thepiratebay.org
+162.159.137.6 rss.thepiratebay.org
+162.159.137.6 torrents.thepiratebay.org
+162.159.137.6 upload.thepiratebay.org
 
 # [omegle.com]
-104.23.128.76 omegle.com
-104.23.128.76 www.omegle.com
+104.23.142.25 omegle.com
+104.23.140.25 www.omegle.com
+72.14.176.197 log.omegle.com logs.omegle.com
+52.216.177.170 i.omegle.com
 
-# [rarbg.to]	
-185.37.100.122 rarbg.to	
+# [rarbg.to]
+151.80.120.114 1.rarbg.to
+151.80.120.114 2.rarbg.to
+151.80.120.114 3.rarbg.to
+151.80.120.114 4.rarbg.to
+151.80.120.114 5.rarbg.to
+151.80.120.114 6.rarbg.to
+151.80.120.114 7.rarbg.to
+151.80.120.114 8.rarbg.to
 151.80.120.115 9.rarbg.to
+151.80.120.115 10.rarbg.to
+151.80.120.115 11.rarbg.to
+109.201.133.27 mail.rarbg.to
+109.201.133.27 tracker.rarbg.to
+185.37.100.122 www.rarbg.to
+185.37.100.122 rarbg.to
+185.37.100.119 ns1.rarbg.to
+185.37.100.119 ns2.rarbg.to
+185.37.100.119 ns3.rarbg.to
+185.37.100.119 ns4.rarbg.to
 
 # [rarbg.me]	
 151.80.120.115 9.rarbg.me
@@ -979,3 +1032,245 @@
 99.84.233.191 accounts.binance.com
 54.248.206.222 bstream.binance.com
 52.84.150.39 api.binance.com
+
+# [idlix.com]
+172.67.216.6 idlix.com www.idlix.com
+104.21.78.45 mail.idlix.com
+
+# [soap2day.to]
+104.26.9.88 www.soap2day.to
+104.26.9.88 soap2day.to
+
+# [soap2day.im]
+104.26.7.50 www.soap2day.im
+104.26.7.50 soap2day.im
+
+# [soap2day.ac]
+104.21.25.101 soap2day.ac
+104.21.25.101 www.soap2day.ac
+
+# [soap2day.se]
+172.67.70.35 www.soap2day.se
+172.67.70.35 soap2day.se
+
+# [s2dfree.to]
+104.21.66.166 www.s2dfree.to
+104.21.66.166 s2dfree.to
+
+# [s2dfree.cc]
+104.21.61.42 www.s2dfree.cc
+104.21.61.42 s2dfree.cc
+
+# [s2dfree.de]
+104.21.34.115 www.s2dfree.de
+104.21.34.115 s2dfree.de
+
+# [s2dfree.is]
+104.26.14.113 www.s2dfree.is
+104.26.14.113 s2dfree.is
+
+# [s2dfree.in]
+104.21.20.65 www.s2dfree.in
+104.21.20.65 s2dfree.in
+
+# [s2dfree.nl]
+104.21.45.177 www.s2dfree.nl
+104.21.45.177 s2dfree.nl
+
+# [torrents.io]
+172.67.70.228 torrents.io www.torrents.io
+
+# [zooqle.com]
+104.26.14.84 zooqle.com www.zooqle.com
+
+# [ssoap2day.to]
+172.64.109.22 ssoap2day.to www.ssoap2day.to
+
+# [launchpad.binance.com]
+99.86.38.8 launchpad.binance.com www.launchpad.binance.com
+99.86.38.10 launchpad.binance.com www.launchpad.binance.com
+99.86.38.38 launchpad.binance.com www.launchpad.binance.com
+99.86.38.111 launchpad.binance.com www.launchpad.binance.com
+
+# [eztv.ag]
+172.67.146.47 eztv.ag
+172.67.146.47 www.eztv.ag
+
+# [isohunt.to]
+185.225.18.165 blog.isohunt.to
+185.225.18.165 webdisk.isohunt.to
+185.225.18.165 cpanel.isohunt.to
+185.225.18.165 mail.isohunt.to
+185.225.18.165 webmail.isohunt.to
+185.225.18.165 www.isohunt.to
+185.225.18.165 isoplex.isohunt.to
+185.225.18.165 openbay.isohunt.to
+185.225.18.165 isohunt.to
+185.225.18.165 www.isoplex.isohunt.to
+185.225.18.165 www.blog.isohunt.to
+185.225.18.165 www.openbay.isohunt.to
+
+# [raw.senmanga.com]
+172.67.140.159 www.raw.senmanga.com
+104.21.27.15 raw.senmanga.com
+
+# [9anime.to]
+104.21.233.127 www1.9anime.to
+104.21.233.127 www2.9anime.to
+104.21.233.128 www3.9anime.to
+104.21.233.128 www4.9anime.to
+104.21.233.127 www8.9anime.to
+104.21.233.128 www.9anime.to
+104.21.233.128 9anime.to
+
+# [9anime.ru]
+172.67.162.169 www8.9anime.ru
+104.21.15.136 www.9anime.ru
+104.21.15.136 9anime.ru
+
+# [9anime.pw]
+172.67.173.113 9anime.pw
+104.21.55.218 www.9anime.pw
+
+# [9anime.at]
+104.21.14.164 9anime.at
+172.67.160.15 www.9anime.at
+
+# [9anime.video]
+172.67.194.84 9anime.video
+104.21.44.29 static.9anime.video
+104.21.44.29 test.9anime.video
+172.67.194.84 www.9anime.video
+104.21.44.29 www1.9anime.video
+172.67.194.84 www2.9anime.video
+
+# [9anime.page]
+172.67.188.41 9anime.page
+172.67.188.41 static.9anime.page
+104.21.81.38 test.9anime.page
+104.21.81.38 www.9anime.page
+104.21.81.38 www1.9anime.page
+104.21.81.38 www2.9anime.page
+
+# [9anime.life]
+172.67.186.36 9anime.life
+172.67.186.36 static.9anime.life
+172.67.186.36 test.9anime.life
+172.67.186.36 www.9anime.life
+172.67.186.36 www1.9anime.life
+104.21.19.119 www2.9anime.life
+
+# [9anime.live]
+104.21.73.172 9anime.live
+104.21.73.172 static.9anime.live
+172.67.164.77 test.9anime.live
+172.67.164.77 www.9anime.live
+172.67.164.77 www1.9anime.live
+172.67.164.77 www2.9anime.live
+
+# [9anime.one]
+104.21.93.172 9anime.one
+104.21.93.172 static.9anime.one
+104.21.93.172 test.9anime.one
+104.21.93.172 www.9anime.one
+172.67.213.68 www1.9anime.one
+172.67.213.68 www2.9anime.one
+
+# [9anime.love]
+104.21.10.76 9anime.love
+104.21.10.76 www.9anime.love
+
+# [9anime.app]
+172.67.144.185 9anime.app
+104.21.28.73 www.9anime.app
+
+# [9anime.zone]
+104.27.164.87 9anime.zone
+104.21.85.93 static.9anime.zone
+104.21.85.93 test.9anime.zone
+172.67.204.63 www.9anime.zone
+172.67.204.63 www1.9anime.zone
+104.21.85.93 www2.9anime.zone
+
+# [streamable.com]
+151.101.193.63 www.streamable.com streamable.com
+151.101.65.63 www.streamable.com streamable.com
+151.101.1.63 www.streamable.com streamable.com
+151.101.129.63 www.streamable.com streamable.com
+52.7.214.1 www.transcoder10.streamable.com
+52.204.120.157 www.transcoder20.streamable.com transcoder20.streamable.com
+34.203.185.182 www.transcoder11.streamable.com transcoder11.streamable.com
+18.210.206.10  www.transcoder21.streamable.com transcoder21.streamable.com
+34.199.33.116 www.transcoder31.streamable.com transcoder31.streamable.com
+151.101.113.63 www.cdn-emb1.streamable.com cdn-emb1.streamable.com
+52.44.142.50 www.transcoder1.streamable.com transcoder1.streamable.com
+151.101.113.95 www.cdn-w1.streamable.com cdn-w1.streamable.com
+34.204.253.127 www.transcoder12.streamable.com transcoder12.streamable.com
+3.223.115.98 www.transcoder22.streamable.com transcoder22.streamable.com
+62.113.194.2 www.cdn-e2.streamable.com cdn-e2.streamable.com
+185.59.220.197 www.staging-cdn-e2.streamable.com staging-cdn-e2.streamable.com
+185.59.220.194 www.staging-cdn2.streamable.com staging-cdn2.streamable.com
+18.235.227.232 www.transcoder2.streamable.com transcoder2.streamable.com
+151.101.113.63 www.cdn-w2.streamable.com cdn-w2.streamable.com
+34.225.24.158 www.transcoder13.streamable.com transcoder13.streamable.com
+52.71.90.230 www.transcoder33.streamable.com transcoder33.streamable.com
+52.44.145.218 www.transcoder3.streamable.com transcoder3.streamable.com
+34.230.252.241 www.transcoder14.streamable.com transcoder14.streamable.com
+167.89.118.52 www.url2174.streamable.com url2174.streamable.com
+52.44.181.6 www.transcoder4.streamable.com transcoder4.streamable.com
+52.1.208.219 www.transcoder15.streamable.com transcoder15.streamable.com
+52.2.90.187 www.transcoder5.streamable.com transcoder5.streamable.com
+18.205.255.25 www.transcoder26.streamable.com transcoder26.streamable.com
+52.44.154.37 www.transcoder6.streamable.com transcoder6.streamable.com
+34.194.27.102 www.transcoder17.streamable.com transcoder17.streamable.com
+52.44.187.235 www.transcoder7.streamable.com transcoder7.streamable.com
+34.232.178.212 www.transcoder18.streamable.com transcoder18.streamable.com
+52.44.4.67 www.transcoder8.streamable.com transcoder8.streamable.com
+34.236.58.113 www.transcoder19.streamable.com transcoder19.streamable.com
+52.6.140.113 www.transcoder9.streamable.com transcoder9.streamable.com
+185.59.220.198 www.data.streamable.com data.streamable.com
+18.233.127.134 www.realtime.streamable.com realtime.streamable.com
+151.101.113.95 www.staging.streamable.com staging.streamable.com
+89.187.169.26 www.thumbs-streamable-staging.streamable.com thumbs-streamable-staging.streamable.com
+104.236.15.248 www.publisher-staging.streamable.com publisher-staging.streamable.com
+89.187.169.15 www.cdn-ws-staging.streamable.com cdn-ws-staging.streamable.com
+52.44.151.251 www.chat-staging.streamable.com chat-staging.streamable.com
+18.213.183.96 www.api.streamable.com api.streamable.com
+62.113.194.2 www.2k.streamable.com 2k.streamable.com
+3.213.67.251 www.feedback.streamable.com feedback.streamable.com
+89.187.169.26 www.b-cdn.streamable.com b-cdn.streamable.com b-cdn.streamable.com b-cdn.streamable.com
+185.59.220.194 www.staging-cdn.streamable.com staging-cdn.streamable.com
+52.1.52.35 www.admin.streamable.com admin.streamable.com
+104.236.15.248 www.help.streamable.com help.streamable.com
+151.139.128.11 www.staging-sp.streamable.com staging-sp.streamable.com
+104.236.15.248 www.publisher.streamable.com publisher.streamable.com
+62.113.194.2 www.statics.streamable.com statics.streamable.com
+13.225.78.116 www.images.streamable.com images.streamable.com
+3.213.67.251 www.features.streamable.com features.streamable.com
+104.236.15.248 www.tools.streamable.com tools.streamable.com
+185.59.220.197 www.terms.streamable.com terms.streamable.com
+151.101.113.95 www.careers.streamable.com careers.streamable.com
+18.196.95.178 www.publishers.streamable.com publishers.streamable.com
+52.215.192.131 www.status.streamable.com status.streamable.com
+52.44.4.52 www.chat.streamable.com chat.streamable.com
+18.233.127.134 www.socket.streamable.com socket.streamable.com
+50.16.128.128 www.support.streamable.com support.streamable.com
+185.59.220.194 www.cdn-b-east.streamable.com cdn-b-east.streamable.com
+13.225.78.46 www.cdn-cf-east.streamable.com cdn-cf-east.streamable.com
+185.93.1.241 www.cdn-sh-east.streamable.com cdn-sh-east.streamable.com
+185.59.220.199 www.cdn-shi-east.streamable.com cdn-shi-east.streamable.com
+185.59.220.193 www.thumbs-streamable-local-east.streamable.com thumbs-streamable-local-east.streamable.com
+185.59.220.197 www.staging-cdn-east.streamable.com staging-cdn-east.streamable.com
+62.113.194.12 www.thumbs-east.streamable.com thumbs-east.streamable.com thumbs-streamables-east.streamable.com thumbs-streamables-east.streamable.com
+185.59.220.198 www.cdn-ws-east.streamable.com cdn-ws-east.streamable.com
+185.93.1.241 www.cdn-b-west.streamable.com cdn-b-west.streamable.com
+13.225.78.116 www.cdn-cf-west.streamable.com cdn-cf-west.streamable.com
+89.187.185.21 www.cdn-sh-west.streamable.com cdn-sh-west.streamable.com
+151.139.128.11 www.cdn-sp-west.streamable.com cdn-sp-west.streamable.com
+89.187.169.26 www.thumbs-west.streamable.com thumbs-west.streamable.com
+151.101.1.63 www.streamable.com streamable.com
+52.202.82.178 www.ajax.streamable.com ajax.streamable.com
+185.59.220.194 www.privacy.streamable.com privacy.streamable.com
+104.236.15.248 www.gallery.streamable.com gallery.streamable.com
+35.202.21.90 www.try.streamable.com try.streamable.com
+50.23.99.148 www.cdn-staging-media.streamable.com cdn-staging-media.streamable.com
