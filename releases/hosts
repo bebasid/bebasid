@@ -8529,3 +8529,27 @@
 # [idlix.com]
 172.67.216.6 idlix.com www.idlix.com
 104.21.78.45 mail.idlix.com
+
+# [tenor.com]
+54.186.152.33 gateway-tenor-us-west-1.tenor.com
+151.101.114.49 media1.tenor.com
+13.32.24.4 media.tenor.com
+151.101.114.217 qa.tenor.com
+142.250.185.193 c.tenor.com
+99.86.3.92 g.tenor.com
+52.5.181.79 blog.tenor.com
+44.235.11.204 api.tenor.com
+44.235.11.204 admin-api.tenor.com
+52.37.176.73 qa-admin-api.tenor.com
+35.83.89.87 dev-api.tenor.com
+52.36.111.111 stark.tenor.com
+99.86.3.92 touchpal.tenor.com
+44.237.206.201 stride-app.tenor.com
+35.83.17.88 webview-helpers.tenor.com
+13.32.21.112 skypebot.tenor.com
+143.204.202.112 facebookbot.tenor.com
+52.88.95.44 viberbot.tenor.com
+151.101.114.217 www.tenor.com
+151.101.130.217 tenor.com
+143.204.202.112 facebookbot-webhook.tenor.com
+52.5.181.79 www.blog.tenor.com
