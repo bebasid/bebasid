@@ -7522,10 +7522,16 @@
 151.101.112.193 sentry.imgur.com
 151.101.112.193 api.imgur.com
 151.101.112.193 i.imgur.com
+151.101.208.193 m.imgur.com
+151.101.248.193 p.imgur.com
+151.101.248.193 s.imgur.com
 52.6.144.53 browserevents.imgur.com
 50.17.225.53 rt.imgur.com
 151.101.112.193 store.imgur.com
 151.101.112.193 g00.imgur.com
+52.6.144.53 browserevents.imgur.com
+151.101.248.193 blog.imgur.com
+104.16.51.111 help.imgur.com
 
 # [kissmanga.com]
 104.25.45.113 kissmanga.com www.kissmanga.com
