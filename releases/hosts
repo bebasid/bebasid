@@ -6972,8 +6972,15 @@
 104.24.101.202 123europix.pro
 
 # [subscene.com]
-104.27.207.92 subscene.com www.subscene.com forum.subscene.com u.subscene.com
-104.27.206.92 v2.subscene.com c.subscene.com mail.subscene.com
+104.27.207.92 subscene.com
+104.27.206.92 mail.subscene.com
+104.27.206.92 v2.subscene.com
+104.27.206.92 c.subscene.com
+104.27.206.92 papi.subscene.com
+104.27.207.92 forum.subscene.com
+104.27.206.92 u.subscene.com
+104.27.207.92 www.subscene.com
+104.27.206.92 www4.subscene.com
 
 # [addic7ed.com]
 46.105.102.174 addic7ed.com www.addic7ed.com
