@@ -3387,9 +3387,14 @@
 104.21.4.105 konachan.com
 
 # [tsumino.com]
-104.21.235.215 content.tsumino.com
+104.21.235.216 content.tsumino.com
+104.21.235.216 tsumino.com
 104.21.235.215 www.tsumino.com
-104.21.235.215 tsumino.com
+104.21.235.216 r34.tsumino.com
+104.21.235.216 core.staging.tsumino.com
+104.21.235.216 cdn.staging.tsumino.com
+104.21.235.216 corestaging.tsumino.com
+104.21.235.216 cdnstaging.tsumino.com
 
 # [porneq.com]
 163.172.45.231 beta.porneq.com
@@ -5364,7 +5369,8 @@
 
 # [nyaa.si]
 198.251.89.38 sukebei.nyaa.si
-185.178.208.182 www.nyaa.si nyaa.si
+185.178.208.182 www.nyaa.si
+185.178.208.182 nyaa.si
 
 # [sex.com]
 15.222.131.21 sex.com www.sex.com hd.sex.com m.sex.com video.sex.com gay.sex.com upload.sex.com premium.sex.com city.sex.com cdn.sex.com
@@ -8744,8 +8750,11 @@
 104.27.152.42 erocool.com www.erocool.com
 
 # [webtoon.xyz]
-104.28.22.5 webtoon.xyz www.webtoon.xyz test.webtoon.xyz
-104.28.23.5 cdn1.webtoon.xyz
+172.67.144.247 www.webtoon.xyz
+51.161.115.81 mail.webtoon.xyz
+104.21.95.129 webtoon.xyz
+172.67.144.247 test.webtoon.xyz
+104.21.0.209 cdn1.webtoon.xyz
 
 # [liveonscore.tv]
 89.35.39.187 liveonscore.tv www.liveonscore.tv chat.liveonscore.tv
