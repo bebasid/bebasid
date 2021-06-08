@@ -975,6 +975,17 @@
 185.177.127.77 t6.nhentai.net
 185.177.127.78 t7.nhentai.net
 
+# [nhentai.io]
+172.67.148.18 nhentai.io
+104.21.12.149 www.nhentai.io
+104.21.12.149 autodiscover.nhentai.io
+104.21.12.149 cpanel.nhentai.io
+104.21.12.149 cpcalendars.nhentai.io
+104.21.12.149 cpcontacts.nhentai.io
+104.21.12.149 mail.nhentai.io
+104.21.12.149 webdisk.nhentai.io
+104.21.12.149 webmail.nhentai.io
+
 # [hentaihaven.com]
 104.21.34.238 www.hentaihaven.com
 172.67.166.85 hentaihaven.com
