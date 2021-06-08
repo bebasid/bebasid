@@ -996,6 +996,14 @@
 172.64.204.18 www.hentaihaven.xxx
 172.64.204.18 play.hentaihaven.xxx
 
+# [hentaihaven.org]
+104.21.75.6 hentaihaven.org
+104.27.158.225 www.hentaihaven.org
+104.27.158.225 piwik.hentaihaven.org
+104.27.158.225 forum.hentaihaven.org
+104.27.158.225 tools.hentaihaven.org
+104.27.158.225 status.hentaihaven.org
+
 # [gelbooru.com]
 67.202.114.141 gelbooru.com www.gelbooru.com
 104.21.233.236 img1.gelbooru.com
