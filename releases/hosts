@@ -904,23 +904,50 @@
 162.159.137.6 upload.thepiratebay.org
 
 # [hitomi.la]
-23.237.107.211 aa.hitomi.la
-23.237.107.212 ab.hitomi.la
-66.187.70.34 a.hitomi.la
-23.237.107.210 atn.hitomi.la
-23.237.54.195 ba.hitomi.la
-23.237.54.196 bb.hitomi.la
-23.237.107.210 btn.hitomi.la
-192.240.120.11 ca.hitomi.la
-192.240.120.12 cb.hitomi.la
-192.240.120.10 ctn.hitomi.la
-23.237.54.194 hf1.hitomi.la
+23.237.55.90 hf1.hitomi.la
 192.240.120.10 hf2.hitomi.la
 23.237.107.210 hf3.hitomi.la
-78.142.29.56 hitomi.la
-192.240.120.10 ltn.hitomi.la
+66.187.70.34 a.hitomi.la
+23.237.107.210 aa.hitomi.la
+23.237.54.194 ba.hitomi.la
+192.240.120.10 ca.hitomi.la
+23.237.107.210 ab.hitomi.la
+23.237.55.90 bb.hitomi.la
+192.240.120.10 cb.hitomi.la
 66.187.70.34 streaming.hitomi.la
 192.240.120.10 tn.hitomi.la
+23.237.107.210 atn.hitomi.la
+23.237.107.210 btn.hitomi.la
+192.240.120.10 ctn.hitomi.la
+192.240.120.10 ltn.hitomi.la
+23.237.54.194 dev.hitomi.la
+78.142.29.56 hitomi.la
+23.237.107.210 0a.hitomi.la
+23.237.107.210 la.hitomi.la
+23.237.54.194 b.hitomi.la
+192.240.120.10 c.hitomi.la
+192.240.120.10 d.hitomi.la
+192.240.120.10 e.hitomi.la
+192.240.120.10 f.hitomi.la
+192.240.120.10 af.hitomi.la
+192.240.120.10 g.hitomi.la
+192.240.120.10 ag.hitomi.la
+66.187.70.34 i.hitomi.la
+192.240.120.10 0tn.hitomi.la
+23.237.107.210 ac.hitomi.la
+23.237.107.210 ad.hitomi.la
+23.237.107.210 ae.hitomi.la
+23.237.107.210 ah.hitomi.la
+23.237.107.210 ai.hitomi.la
+192.240.120.10 h.hitomi.la
+23.237.107.210 lb.hitomi.la
+23.237.107.210 lc.hitomi.la
+23.237.107.210 ld.hitomi.la
+23.237.107.210 le.hitomi.la
+23.237.107.210 lf.hitomi.la
+23.237.107.210 lg.hitomi.la
+23.237.107.210 lh.hitomi.la
+23.237.107.210 li.hitomi.la
 
 # [nhentai.net]
 104.27.195.88 static.nhentai.net
@@ -947,6 +974,16 @@
 185.177.127.77 t5.nhentai.net
 185.177.127.77 t6.nhentai.net
 185.177.127.78 t7.nhentai.net
+
+# [hentaihaven.com]
+104.21.34.238 www.hentaihaven.com
+172.67.166.85 hentaihaven.com
+
+# [hentaihaven.xxx]
+192.124.249.18 hentaihaven.xxx
+172.64.204.18 www1.hentaihaven.xxx
+172.64.204.18 www.hentaihaven.xxx
+172.64.204.18 play.hentaihaven.xxx
 
 # [gelbooru.com]
 67.202.114.141 gelbooru.com www.gelbooru.com
