@@ -837,12 +837,6 @@
 # [ssoap2day.to]
 172.64.109.22 ssoap2day.to www.ssoap2day.to
 
-# [launchpad.binance.com]
-99.86.38.8 launchpad.binance.com www.launchpad.binance.com
-99.86.38.10 launchpad.binance.com www.launchpad.binance.com
-99.86.38.38 launchpad.binance.com www.launchpad.binance.com
-99.86.38.111 launchpad.binance.com www.launchpad.binance.com
-
 # [vimeo.com]
 151.101.50.109 i.vimeocdn.com
 151.101.64.217 developer.vimeo.com
@@ -8754,9 +8748,15 @@
 52.84.229.69 c2c.binance.com
 52.84.150.34 academy.binance.com
 99.84.233.191 accounts.binance.com
-54.248.206.222 bstream.binance.com
+54.199.197.105 bstream.binance.com
 52.84.150.39 api.binance.com
 13.32.6.13 info.binance.com
+99.86.38.8 launchpad.binance.com www.launchpad.binance.com
+99.86.38.10 launchpad.binance.com www.launchpad.binance.com
+99.86.38.38 launchpad.binance.com www.launchpad.binance.com
+99.86.38.111 launchpad.binance.com www.launchpad.binance.com
+18.180.93.253 nbstream.binance.com
+18.182.221.227 stream.binance.com
 
 # [binance.org]
 52.84.229.114 bsc-dataseed.binance.org
@@ -9668,3 +9668,6 @@
 # [hitprn.com]
 104.21.16.20 hitprn.com
 172.67.165.246 www.hitprn.com
+
+# [sg.apexmc.co]
+139.99.62.142 sg.apexmc.co
