@@ -7762,39 +7762,50 @@
 104.21.235.106 s6.erome.com s7.erome.com s8.erome.com s9.erome.com s10.erome.com s11.erome.com s12.erome.com s13.erome.com
 
 # [redgifs.com]
-104.18.4.207 thcf1.redgifs.com
-104.18.5.207 thumbs1.redgifs.com
-104.18.4.207 thumbs2.redgifs.com
+104.18.5.207 thcf1.redgifs.com
+104.18.4.207 thumbs1.redgifs.com
 104.18.5.207 thcf2.redgifs.com
-198.134.29.37 thalt2.redgifs.com
+104.18.4.207 thumbs2.redgifs.com
 104.18.5.207 thcf3.redgifs.com
-198.134.29.42 thalt3.redgifs.com
 104.18.4.207 thcf4.redgifs.com
-198.134.29.41 thalt4.redgifs.com
 104.18.4.207 thcf5.redgifs.com
 104.18.4.207 thcf6.redgifs.com
-198.134.29.45 thalt6.redgifs.com
-104.18.4.207 thcf7.redgifs.com
-198.134.29.46 thalt7.redgifs.com
+104.18.5.207 thcf7.redgifs.com
 104.18.4.207 thcf8.redgifs.com
-198.134.29.47 thalt8.redgifs.com
 104.18.5.207 thcf9.redgifs.com
-198.134.29.48 thalt9.redgifs.com
-198.134.29.39 thalt1a.redgifs.com
-198.134.29.40 thalt1b.redgifs.com
-54.80.95.98 napi.redgifs.com
-107.23.124.18 weblogin.redgifs.com
-52.85.134.43 filedrop.redgifs.com
-18.235.224.237 api-lbs.redgifs.com
-34.200.49.152 thumbs.redgifs.com
-34.237.64.103 metrics.redgifs.com
-104.18.4.207 assets.redgifs.com
-3.93.94.182 fat.redgifs.com
-23.20.173.105 giant.redgifs.com
-104.18.5.207 redgifs.com www.redgifs.com
-104.18.4.207 redgifs.com www.redgifs.com
 104.18.5.207 api.redgifs.com
-104.18.4.207 api.redgifs.com
+34.233.31.199 napi.redgifs.com
+107.22.110.135 weblogin.redgifs.com
+104.18.4.207 filedrop.redgifs.com
+107.22.110.135 api-lbs.redgifs.com
+104.18.4.207 thumbs.redgifs.com
+52.22.175.90 metrics.redgifs.com
+104.18.4.207 assets.redgifs.com
+104.18.4.207 www.redgifs.com
+52.22.175.90 px.redgifs.com
+104.18.5.207 userpic.redgifs.com
+104.18.5.207 redgifs.com
+104.18.4.207 staging.redgifs.com
+104.18.4.207 failoverp.redgifs.com
+104.18.5.207 thumbsupstream.redgifs.com
+104.18.5.207 thalt2.redgifs.com
+104.18.5.207 thalt3.redgifs.com
+104.18.5.207 thalt4.redgifs.com
+104.18.5.207 thalt5.redgifs.com
+104.18.5.207 thalt6.redgifs.com
+104.18.5.207 thalt7.redgifs.com
+104.18.5.207 thalt8.redgifs.com
+104.18.5.207 thalt9.redgifs.com
+104.18.5.207 thalt1a.redgifs.com
+104.18.5.207 thalt1b.redgifs.com
+52.22.175.90 fat.redgifs.com
+52.22.175.90 giant.redgifs.com
+52.22.175.90 wibble.redgifs.com
+104.18.5.207 cpanel.redgifs.com
+104.18.5.207 mail.redgifs.com
+107.22.110.135 webdisk.redgifs.com
+107.22.110.135 webmail.redgifs.com
+107.22.110.135 whm.redgifs.com
 
 # [zenra.net]
 66.199.190.206 zenra.net www.zenra.net
@@ -9676,3 +9687,25 @@
 93.104.211.211 bokepindohot.pw
 93.104.211.211 www.bokepindohot.pw
 93.104.211.211 img.bokepindohot.pw
+
+# [lookmovie.io]
+5.182.209.79 lookmovie.io
+37.49.229.175 metrika.lookmovie.io
+185.51.247.239 www.lookmovie.io
+37.187.198.122 crypto.lookmovie.io
+104.16.234.163 r.lookmovie.io
+104.16.234.163 img.lookmovie.io
+37.187.198.122 0xxviii.lookmovie.io
+37.187.198.122 mail.lookmovie.io
+
+# [bato.to]
+172.67.75.112 bato.to
+104.26.10.246 static.bato.to
+46.227.67.84 upload.bato.to
+104.26.10.246 id.bato.to
+104.26.10.246 publish.bato.to
+104.26.10.246 sso.bato.to
+46.227.67.84 z-img-03.bato.to
+46.227.67.84 z-img-05.bato.to
+172.67.75.112 www.bato.to
+46.227.67.84 o2.bato.to
