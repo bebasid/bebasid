@@ -714,7 +714,8 @@
 209.197.3.84 hls-hw.xnxx-cdn.com
 
 # [reddit.com]
-151.101.129.140 reddit.com www.reddit.com
+151.101.1.140 reddit.com
+151.101.249.140 www.reddit.com
 151.101.1.140 np.reddit.com
 151.101.1.140 bt.reddit.com
 151.101.1.140 m.reddit.com
