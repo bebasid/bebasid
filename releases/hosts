@@ -8837,7 +8837,8 @@
 64.187.150.197 tokyomotion.net www.tokyomotion.net
 
 # [tentaclerape.net]
-104.28.1.182 tentaclerape.net www.tentaclerape.net
+172.67.150.158 tentaclerape.net
+104.21.30.57 www.tentaclerape.net
 
 # [giantessbooru.com]
 104.28.1.182 giantessbooru.com www.giantessbooru.com
@@ -9712,3 +9713,8 @@
 
 # [live-nba.stream]
 104.21.53.64 live-nba.stream
+
+# [mcstories.com]
+173.230.145.124 mcstories.com
+173.230.145.124 www.mcstories.com
+65.19.175.50 mail.mcstories.com
