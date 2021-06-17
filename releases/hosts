@@ -9715,6 +9715,10 @@
 # [live-nba.stream]
 104.21.53.64 live-nba.stream
 
+# [freefeds.com]
+104.21.235.51 freefeds.com
+104.21.235.51 www.freefeds.com
+
 # [mcstories.com]
 173.230.145.124 mcstories.com
 173.230.145.124 www.mcstories.com
