@@ -9710,6 +9710,7 @@
 
 # [bato.to]
 172.67.75.112 bato.to
+104.26.11.246 bato.to
 104.26.10.246 static.bato.to
 46.227.67.84 upload.bato.to
 104.26.10.246 id.bato.to
@@ -9718,7 +9719,9 @@
 46.227.67.84 z-img-03.bato.to
 46.227.67.84 z-img-05.bato.to
 172.67.75.112 www.bato.to
+104.26.11.246 www.bato.to
 46.227.67.84 o2.bato.to
+104.26.10.246 webapp.bato.to
 
 # [live-nba.stream]
 104.21.53.64 live-nba.stream
@@ -9762,3 +9765,11 @@
 104.21.78.180 webmail.hesgoal.tv
 104.21.78.180 whm.hesgoal.tv
 104.21.78.180 www.hesgoal.tv
+
+# [imhentai.xxx]
+172.67.71.114 imhentai.xxx
+104.26.12.229 m1.imhentai.xxx
+104.26.12.229 m2.imhentai.xxx
+104.26.12.229 m3.imhentai.xxx
+104.26.12.229 m4.imhentai.xxx
+104.26.12.229 m5.imhentai.xxx
