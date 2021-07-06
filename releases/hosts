@@ -6921,8 +6921,17 @@
 64.237.54.186 www.cfake.com
 
 # [8muses.com]
-104.25.51.19 8muses.com
-104.25.51.19 www.8muses.com
+104.21.235.65 comics.8muses.com
+104.21.235.66 www.8muses.com
+104.21.235.66 8muses.com
+104.21.235.65 www.8muses.com
+185.5.52.197 mail.8muses.com
+104.21.235.65 beta.8muses.com
+104.21.235.65 re.8muses.com
+104.21.235.65e gg.8muses.com
+104.21.235.65 th.8muses.com
+104.21.235.65 m.8muses.com
+104.21.235.65 s.8muses.com
 
 # [minnano-av.com]
 82.221.105.23 minnano-av.com www.minnano-av.com
