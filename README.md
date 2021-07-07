@@ -3,8 +3,10 @@
 </p>
 <p align="center">
     <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validasi" alt="Status Hosts"></a>
-    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?logo=discord&logoColor=fff&label=Discord&color=7388d9"  alt="Status Discord"></a>
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=ukuran" alt="Ukuran rilis">
+</p>
+<p align="center">
+    <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Discord Banner 4"/></a>
 </p>
 <p align="center">
     <a href="README.en.md">Read README in English</a>
