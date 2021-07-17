@@ -7534,8 +7534,27 @@
 209.133.222.18 hentai2w.com www.hentai2w.com
 
 # [kisscosplay.moe]
-104.31.88.39 kisscosplay.moe www.kisscosplay.moe
-104.31.88.39 cdn.kisscosplay.moe cdn2.kisscosplay.moe cdn3.kisscosplay.moe v2.kisscosplay.moe
+172.67.214.219 www.kisscosplay.moe
+104.31.88.39 www.kisscosplay.moe
+104.21.16.165 v2.kisscosplay.moe
+104.31.88.39 v2.kisscosplay.moe
+104.21.16.165 kisscosplay.moe
+104.31.88.39 kisscosplay.moe
+104.21.16.165 hls1.kisscosplay.moe
+104.21.16.165 hls2.kisscosplay.moe
+104.21.16.165 stream.kisscosplay.moe
+104.21.16.165 cdn.kisscosplay.moe
+104.31.88.39 cdn.kisscosplay.moe
+104.21.16.165 cdn2.kisscosplay.moe 
+104.31.88.39 cdn2.kisscosplay.moe 
+104.21.16.165 cdn3.kisscosplay.moe
+104.31.88.39 cdn3.kisscosplay.moe
+
+# [kisscos.net]
+104.21.36.205 kisscos.net
+172.67.199.76 kisscos.net
+104.21.36.205 www.kisscos.net
+172.67.199.76 www.kisscos.net
 
 # [tabootube.xxx]
 104.28.30.12 tabootube.xxx www.tabootube.xxx
@@ -10933,3 +10952,9 @@
 216.239.36.21 www.pusatporn18.com
 216.239.38.21 pusatporn18.com
 216.239.38.21 www.pusatporn18.com
+
+# [buffstreams.tv]
+45.178.6.110 www.buffstreams.tv
+199.189.27.78 www.buffstreams.tv
+45.178.6.110 buffstreams.tv
+199.189.27.78 buffstreams.tv
