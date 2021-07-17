@@ -5413,8 +5413,14 @@
 104.20.43.57 o.8ch.net
 
 # [rarbgaccess.org]
-104.21.59.138 rarbgaccess.org www.rarbgaccess.org
-172.67.178.114 rarbgaccess.org www.rarbgaccess.org
+104.21.37.126 rarbgaccess.org 
+104.21.37.126 www.rarbgaccess.org
+104.21.59.138 rarbgaccess.org 
+104.21.59.138 www.rarbgaccess.org
+172.67.178.114 rarbgaccess.org 
+172.67.178.114 www.rarbgaccess.org
+172.67.208.30 rarbgaccess.org 
+172.67.208.30 www.rarbgaccess.org
 
 # [rmz.cr]
 172.67.135.40 rmz.cr
