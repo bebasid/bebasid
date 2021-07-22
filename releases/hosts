@@ -10005,8 +10005,13 @@
 
 # [fullmatchsports.co]
 172.67.171.233 fullmatchsports.co
-104.21.95.253 www.fullmatchsports.co
+172.67.171.233 www.fullmatchsports.co
 172.67.171.233 en.fullmatchsports.co
+172.67.171.233 us.fullmatchsports.co
+104.21.95.253 fullmatchsports.co
+104.21.95.253 www.fullmatchsports.co
+104.21.95.253 en.fullmatchsports.co
+104.21.95.253 us.fullmatchsports.co
 
 # [muchohentai.com]
 104.27.206.92 static3.muchohentai.com
