@@ -12544,10 +12544,10 @@
 52.58.78.16 glamourtop.com
 
 # [gnog.net]
-208.91.197.27 _dmarc.mx.mx.mx.gnog.net
-208.91.197.27 _dmarc.mx.gnog.net
-208.91.197.27 _dmarc.mx.mx.mx.mx.gnog.net
-208.91.197.27 _dmarc.mx.mx.mx.mx.mx.gnog.net
+208.91.197.27 dmarc.mx.mx.mx.gnog.net
+208.91.197.27 dmarc.mx.gnog.net
+208.91.197.27 dmarc.mx.mx.mx.mx.gnog.net
+208.91.197.27 dmarc.mx.mx.mx.mx.mx.gnog.net
 208.91.197.27 www.gnog.net
 208.91.197.27 mx.mx.mx.mx.mx.gnog.net
 208.91.197.27 mx.mx.mx.mx.gnog.net
