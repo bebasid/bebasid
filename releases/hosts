@@ -12590,11 +12590,11 @@
 65.254.227.224 hilola.com
 
 # [hitda.com]
-13.58.168.69 _dmarc.mx.mx.hitda.com
-3.130.158.209 _dmarc.mx.hitda.com
-3.130.158.209 _dmarc.mx.mx.mx.hitda.com
-3.133.163.136 _dmarc.mx.mx.mx.mx.hitda.com
-3.130.158.209 _dmarc.mx.mx.mx.mx.mx.hitda.com
+13.58.168.69 dmarc.mx.mx.hitda.com
+3.130.158.209 dmarc.mx.hitda.com
+3.130.158.209 dmarc.mx.mx.mx.hitda.com
+3.133.163.136 dmarc.mx.mx.mx.mx.hitda.com
+3.130.158.209 dmarc.mx.mx.mx.mx.mx.hitda.com
 3.130.158.209 www.hitda.com
 3.130.158.209 mx.mx.mx.mx.mx.hitda.com
 3.130.158.209 mx.mx.mx.mx.hitda.com
