@@ -5921,8 +5921,16 @@
 216.189.151.222 savido.net www.savido.net
 
 # [bakabt.me]
-104.28.18.24 bakabt.me www.bakabt.me
+104.28.18.24 bakabt.me 
+104.28.18.24 www.bakabt.me
+104.21.2.173 bakabt.me 
+104.21.2.173 www.bakabt.me
 91.218.112.57 tracker.bakabt.me
+78.142.29.192 tracker.bakabt.me
+104.21.2.173 blog.bakabt.me
+104.21.2.173 wiki.bakabt.me
+104.21.2.173 forums.bakabt.me
+104.21.2.173 dev.bakabt.me
 
 # [javdude.com]
 104.25.141.104 javdude.com www.javdude.com
