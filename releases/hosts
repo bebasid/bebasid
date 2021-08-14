@@ -1751,12 +1751,12 @@
 152.195.34.118 ci.phncdn.com
 64.210.137.102 ew.phncdn.com
 69.16.175.10 dw.phncdn.com
-205.185.208.142 phncdn.com 
-205.185.208.142 www.phncdn.com 
-205.185.208.142 di.phncdn.com 
-205.185.208.142 dv.phncdn.com 
-205.185.208.142 dl.phncdn.com 
-205.185.208.142 cdn1d-static-shared.phncdn.com 
+205.185.208.142 phncdn.com
+205.185.208.142 www.phncdn.com
+205.185.208.142 di.phncdn.com
+205.185.208.142 dv.phncdn.com
+205.185.208.142 dl.phncdn.com
+205.185.208.142 cdn1d-static-shared.phncdn.com
 205.185.208.142 cv.phncdn.com
 205.185.208.142 dd1.phncdn.com
 205.185.208.142 de1.phncdn.com
@@ -6436,9 +6436,9 @@
 216.189.151.222 savido.net www.savido.net
 
 # [bakabt.me]
-104.28.18.24 bakabt.me 
+104.28.18.24 bakabt.me
 104.28.18.24 www.bakabt.me
-104.21.2.173 bakabt.me 
+104.21.2.173 bakabt.me
 104.21.2.173 www.bakabt.me
 91.218.112.57 tracker.bakabt.me
 78.142.29.192 tracker.bakabt.me
@@ -6845,7 +6845,7 @@
 104.21.9.48 www.1337x.to 1337x.to
 
 # [yts.lt]
-104.21.11.120 yts.lt 
+104.21.11.120 yts.lt
 104.21.11.120 www.yts.lt
 172.67.166.3 img.yts.lt
 172.67.166.3 www.img.yts.lt
@@ -6857,9 +6857,9 @@
 212.8.242.150 www.img.yts.mx
 
 # [yts.ag]
-172.67.202.48 www.yts.ag 
-172.67.202.48 yts.ag 
-172.67.202.48 www.img.yts.ag 
+172.67.202.48 www.yts.ag
+172.67.202.48 yts.ag
+172.67.202.48 www.img.yts.ag
 172.67.202.48 img.yts.ag
 
 # [gojav.xyz]
@@ -6877,13 +6877,13 @@
 104.20.43.57 o.8ch.net
 
 # [rarbgaccess.org]
-104.21.37.126 rarbgaccess.org 
+104.21.37.126 rarbgaccess.org
 104.21.37.126 www.rarbgaccess.org
-104.21.59.138 rarbgaccess.org 
+104.21.59.138 rarbgaccess.org
 104.21.59.138 www.rarbgaccess.org
-172.67.178.114 rarbgaccess.org 
+172.67.178.114 rarbgaccess.org
 172.67.178.114 www.rarbgaccess.org
-172.67.208.30 rarbgaccess.org 
+172.67.208.30 rarbgaccess.org
 172.67.208.30 www.rarbgaccess.org
 
 # [rmz.cr]
@@ -8933,8 +8933,20 @@
 # [dougasukie.jp]
 104.31.64.232 dougasukie.jp www.dougasukie.jp
 
+# [semprot.com]
+104.21.234.221 v1.semprot.com
+104.21.234.220 www.semprot.com
+104.21.234.220 semprot.com
+104.21.234.221 www.semprot.com
+104.21.234.221 semprot.com
+104.21.234.221 ns2.semprot.com
+104.21.234.221 m.semprot.com
+
 # [semprotku.com]
-104.24.99.53 semprotku.com www.semprotku.com
+104.21.54.164 semprotku.com 
+104.21.54.164 www.semprotku.com
+172.67.140.102 semprotku.com 
+172.67.140.102 www.semprotku.com
 
 # [r34anim.com]
 67.205.57.218 r34anim.com www.r34anim.com
@@ -9015,8 +9027,8 @@
 104.21.16.165 stream.kisscosplay.moe
 104.21.16.165 cdn.kisscosplay.moe
 104.31.88.39 cdn.kisscosplay.moe
-104.21.16.165 cdn2.kisscosplay.moe 
-104.31.88.39 cdn2.kisscosplay.moe 
+104.21.16.165 cdn2.kisscosplay.moe
+104.31.88.39 cdn2.kisscosplay.moe
 104.21.16.165 cdn3.kisscosplay.moe
 104.31.88.39 cdn3.kisscosplay.moe
 
@@ -10194,9 +10206,9 @@
 104.27.187.227 rapidporngator.com www.rapidporngator.com
 
 # [javgiga.com]
-172.67.222.216 javgiga.com 
-172.67.222.216 static.javgiga.com 
-172.67.222.216 test.javgiga.com 
+172.67.222.216 javgiga.com
+172.67.222.216 static.javgiga.com
+172.67.222.216 test.javgiga.com
 172.67.222.216 www.javgiga.com
 172.67.222.216 www1.javgiga.com
 172.67.222.216 www2.javgiga.com
@@ -11415,13 +11427,13 @@
 54.64.239.183 www1.api.binance.com
 54.64.239.183 mx1.api.binance.com
 175.41.220.212 launchpad-0-0.binance.com
-99.86.38.8 launchpad.binance.com 
+99.86.38.8 launchpad.binance.com
 99.86.38.8 www.launchpad.binance.com
-99.86.38.10 launchpad.binance.com 
+99.86.38.10 launchpad.binance.com
 99.86.38.10 www.launchpad.binance.com
-99.86.38.38 launchpad.binance.com 
+99.86.38.38 launchpad.binance.com
 99.86.38.38 www.launchpad.binance.com
-99.86.38.111 launchpad.binance.com 
+99.86.38.111 launchpad.binance.com
 99.86.38.111 www.launchpad.binance.com
 52.194.156.8 antivirusmx0.binance.com
 175.41.220.212 y.api-0-0.binance.com
@@ -12709,9 +12721,9 @@
 62.171.165.197 javdatabase.com www.javdatabase.com
 
 # [joyhentai.com]
-104.21.4.227 www.joyhentai.com 
-104.21.4.227 joyhentai.com 
-104.21.4.227 www.ja.joyhentai.com 
+104.21.4.227 www.joyhentai.com
+104.21.4.227 joyhentai.com
+104.21.4.227 www.ja.joyhentai.com
 104.21.4.227 ja.joyhentai.com
 
 # [avideo.com]
@@ -12769,7 +12781,7 @@
 
 # [s-jav.com]
 104.26.3.7 s-jav.com
-172.67.68.211 www.s-jav.com 
+172.67.68.211 www.s-jav.com
 104.26.3.7 uncensored.s-jav.com
 172.67.68.211 www.uncensored.s-jav.com
 
@@ -13135,7 +13147,7 @@
 172.67.73.63 db.raidforums.com
 104.26.12.239 zoom.raidforums.com
 104.26.12.239 cdn.raidforums.com
-172.67.73.63 stats.raidforums.com	
+172.67.73.63 stats.raidforums.com
 172.67.73.63 www.raidforums.com
 104.26.12.239 raidforums.com
 104.26.12.239 www.db.raidforums.com
@@ -13143,6 +13155,7 @@
 # [idlix.com]
 172.67.216.6 idlix.com www.idlix.com
 104.21.78.45 mail.idlix.com
+172.67.154.114 idlix.xyz
 
 # [javtrust.com]
 172.67.170.194 javtrust.com
