@@ -8418,9 +8418,20 @@
 # [dougasukie.jp]
 104.31.64.232 dougasukie.jp www.dougasukie.jp
 
-# [semprot]
-104.21.234.221 semprot.com www.semprot.com
-104.21.54.164 semprotku.com www.semprotku.com
+# [semprot.com]
+104.21.234.221 v1.semprot.com
+104.21.234.220 www.semprot.com
+104.21.234.220 semprot.com
+104.21.234.221 www.semprot.com
+104.21.234.221 semprot.com
+104.21.234.221 ns2.semprot.com
+104.21.234.221 m.semprot.com
+
+# [semprotku.com]
+104.21.54.164 semprotku.com 
+104.21.54.164 www.semprotku.com
+172.67.140.102 semprotku.com 
+172.67.140.102 www.semprotku.com
 
 # [r34anim.com]
 67.205.57.218 r34anim.com www.r34anim.com
