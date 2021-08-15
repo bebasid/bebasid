@@ -36,9 +36,25 @@
 
 # DoH / DNS
 
-# [dnslify]
+# [dnslify.com]
+185.235.80.5 chronograf.dnslify.com
+2002:b9eb:5005:0:0:0:0:0 chronograf.dnslify.com
 185.235.81.1 doh.dnslify.com
 2a0d:4d00:81::1 doh.dnslify.com
+185.235.81.1 resolver1.ns.dnslify.net
+2a0d:4d00:81::1 resolver1.ns.dnslify.net
+185.235.81.13 auth3.ns.dnslify.com
+2002:b9eb:510d:0:0:0:0:0 auth3.ns.dnslify.com
+185.235.81.1 one.ns.dnslify.com
+2a0d:4d00:81::1 one.ns.dnslify.com
+185.235.81.0 zero.ns.dnslify.com
+2002:b9eb:5100:0:0:0:0:0 zero.ns.dnslify.com
+104.21.3.186 stats.dnslify.com
+2002:6815:03ba:0:0:0:0:0 stats.dnslify.com
+104.21.3.186 www.dnslify.com
+2002:6815:03ba:0:0:0:0:0 www.dnslify.com
+104.21.3.186 dnslify.com
+2002:6815:03ba:0:0:0:0:0 dnslify.com
 
 # Blokir Trackers
 
@@ -14885,55 +14901,6 @@
 172.64.201.15 www.supjav.com
 104.21.233.191 img.supjav.com
 104.21.233.191 www.img.supjav.com
-
-# [qwant.com]
-194.187.168.35 mail1.qwant.com
-194.187.168.35 qwantbot-35-168-187-194.qwant.com
-194.187.168.115 s1.qwant.com
-194.187.168.115 qwantbot-115-168-187-194.qwant.com
-194.187.168.109 s2.qwant.com
-194.187.168.109 qwantbot-109-168-187-194.qwant.com
-194.187.168.65 betterweb.qwant.com
-194.187.168.65 qwantbot-65-168-187-194.qwant.com
-194.187.168.99 maintenance.qwant.com
-194.187.168.99 qwantbot-99-168-187-194.qwant.com
-194.187.168.110 lite.qwant.com
-194.187.168.110 qwantbot-110-168-187-194.qwant.com
-194.187.168.134 f.qwant.com
-194.187.168.134 qwantbot-134-168-187-194.qwant.com
-194.187.168.117 blog.qwant.com
-194.187.168.117 qwantbot-117-168-187-194.qwant.com
-194.187.168.106 api.qwant.com
-194.187.168.106 qwantbot-106-168-187-194.qwant.com
-194.187.168.131 school.qwant.com
-194.187.168.131 qwantbot-131-168-187-194.qwant.com
-194.187.168.118 m.qwant.com
-194.187.168.118 qwantbot-118-168-187-194.qwant.com
-194.187.168.117 pressroom.qwant.com
-194.187.168.117 qwantbot-117-168-187-194.qwant.com
-194.187.168.117 help.qwant.com
-194.187.168.117 qwantbot-117-168-187-194.qwant.com
-194.187.168.98 api.seller.qwant.com
-194.187.168.98 qwantbot-98-168-187-194.qwant.com
-194.187.168.85 newsletter.qwant.com
-194.187.168.85 smtp1.qwant.com
-194.187.168.101 s.qwant.com
-194.187.168.101 qwantbot-101-168-187-194.qwant.com
-194.187.168.72 downloads.qwant.com
-194.187.168.72 qwantbot-72-168-187-194.qwant.com
-194.187.168.108 boards.qwant.com
-194.187.168.108 qwantbot-108-168-187-194.qwant.com
-194.187.168.107 videos.qwant.com
-194.187.168.107 qwantbot-107-168-187-194.qwant.com
-194.187.168.68 developers.qwant.com
-194.187.168.68 qwantbot-68-168-187-194.qwant.com
-194.187.168.117 about.qwant.com
-194.187.168.117 qwantbot-117-168-187-194.qwant.com
-194.187.168.100 www.qwant.com
-194.187.168.100 qwant.com
-194.187.168.100 qwantbot-100-168-187-194.qwant.com
-194.187.168.67 bugbounty.qwant.com
-194.187.168.67 qwantbot-67-168-187-194.qwant.com
 
 # [github.com]
 140.82.113.3 github.com
