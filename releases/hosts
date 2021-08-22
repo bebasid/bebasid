@@ -8787,8 +8787,26 @@
 99.84.254.72 manyvids.com www.manyvids.com
 
 # [jav.guru]
-104.25.143.28 jav.guru www.jav.guru
+104.26.9.156 ns1.jav.guru
+104.26.8.156 www.jav.guru
+104.25.143.28 www.jav.guru
+104.26.8.156 jav.guru
+104.25.143.28 jav.guru 
 104.25.142.28 static.jav.guru
+104.26.9.156 hentai.jav.guru
+104.25.142.28 mail.jav.guru
+104.26.9.156 testo.jav.guru
+104.25.142.28 server.jav.guru
+104.26.9.156 pics.jav.guru
+104.25.142.28 test.jav.guru
+
+# [javsts.com]
+172.67.134.127 cdn.javsts.com
+104.21.9.187 cdn.javsts.com
+172.67.134.127 javsts.com
+104.21.9.187 javsts.com
+172.67.134.127 www.javsts.com
+104.21.9.187 www.javsts.com
 
 # [bbcsreborn.com]
 159.65.137.142 bbcsreborn.com www.bbcsreborn.com
