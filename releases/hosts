@@ -15746,3 +15746,16 @@
 # [samehadaku.care]
 172.67.156.147 samehadaku.care
 172.67.156.147 www.samehadaku.care
+
+# [mitraasc.com]
+139.162.253.32 link.mitraasc.com
+104.21.93.242 trader.mitraasc.com
+172.67.216.224 www.trader.mitraasc.com
+198.38.91.12 backoffice.mitraasc.com
+198.38.91.12 www.backoffice.mitraasc.com
+204.93.160.31 testuser.mitraasc.com
+204.93.160.31 testadmin.mitraasc.com
+204.93.160.31 www.testuser.mitraasc.com
+204.93.160.31 www.testadmin.mitraasc.com
+198.38.91.12 ristretto4-3.my-virtual-panel.com
+204.93.160.31 SR-Esx06.my-virtual-panel.com
