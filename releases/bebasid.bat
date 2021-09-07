@@ -97,14 +97,14 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo [#] Proses pemeriksaan selesai, perangkat kamu terhubung dengan internet
 	echo.
-	if "%version%" == "11.0" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows 11
-	if "%version%" == "10.0" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows 10
-	if "%version%" == "6.3" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows 8.1
-	if "%version%" == "6.2" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows 8
-	if "%version%" == "6.1" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows 7
-	if "%version%" == "6.0" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows Vista
-	if "%version%" == "5.2" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows XP x64
-	if "%version%" == "5.1" echo [#] Sistem yang ada pada perangkat kamu terdeteksi memakai Windows XP
+	if "%version%" == "11.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 11
+	if "%version%" == "10.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 10
+	if "%version%" == "6.3" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8.1
+	if "%version%" == "6.2" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8
+	if "%version%" == "6.1" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 7
+	if "%version%" == "6.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows Vista
+	if "%version%" == "5.2" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows XP x64
+	if "%version%" == "5.1" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows XP
 	echo.
 	echo ===========================================================================
 	echo.
