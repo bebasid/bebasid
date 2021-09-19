@@ -13645,19 +13645,26 @@
 
 # [bato.to]
 172.67.75.112 bato.to
+172.67.75.112 www.bato.to
 104.26.11.246 bato.to
+104.26.11.246 www.bato.to
+104.26.10.246 bato.to
+104.26.10.246 www.bato.to
 104.26.10.246 static.bato.to
+172.67.75.112 static.bato.to
 46.227.67.84 upload.bato.to
 104.26.10.246 id.bato.to
 104.26.10.246 publish.bato.to
 104.26.10.246 sso.bato.to
 46.227.67.84 z-img-03.bato.to
 46.227.67.84 z-img-05.bato.to
-172.67.75.112 www.bato.to
-104.26.11.246 www.bato.to
 46.227.67.84 o2.bato.to
 104.26.10.246 webapp.bato.to
-104.26.10.246 xcdn-203.bato.to xcdn-209.bato.to xcdn-212.bato.to xcdn-223.bato.to xcdn-226.bato.to
+104.26.10.246 xcdn-203.bato.to 
+104.26.10.246 xcdn-209.bato.to 
+104.26.10.246 xcdn-212.bato.to 
+104.26.10.246 xcdn-223.bato.to 
+104.26.10.246 xcdn-226.bato.to
 
 # [live-nba.stream]
 104.21.53.64 live-nba.stream
