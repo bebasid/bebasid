@@ -1430,23 +1430,19 @@
 162.159.137.6 upload.thepiratebay.org
 
 # [hitomi.la]
+78.142.29.56 hitomi.la
+78.142.29.56 www.hitomi.la
 23.237.55.90 hf1.hitomi.la
-23.237.54.194 hf1.hitomi.la
 23.237.54.194 hf1.hitomi.la
 192.240.120.10 hf2.hitomi.la
 23.237.107.210 hf3.hitomi.la
 66.187.70.34 a.hitomi.la
 23.237.107.210 a.hitomi.la
-23.237.107.210 aa.hitomi.la
 23.237.54.194 aa.hitomi.la
 23.237.107.211 aa.hitomi.la
-23.237.54.194 ba.hitomi.la
 192.240.120.10 ba.hitomi.la
 23.237.54.195 ba.hitomi.la
-192.240.120.10 ca.hitomi.la
 23.237.107.210 ca.hitomi.la
-192.240.120.11 ca.hitomi.la
-23.237.107.210 ab.hitomi.la
 23.237.54.194 ab.hitomi.la
 23.237.107.212 ab.hitomi.la
 23.237.55.90 bb.hitomi.la
@@ -1467,33 +1463,6 @@
 23.237.107.210 ctn.hitomi.la
 192.240.120.10 ltn.hitomi.la
 23.237.54.194 dev.hitomi.la
-78.142.29.56 hitomi.la
-23.237.107.210 0a.hitomi.la
-23.237.107.210 la.hitomi.la
-23.237.54.194 b.hitomi.la
-192.240.120.10 c.hitomi.la
-192.240.120.10 d.hitomi.la
-192.240.120.10 e.hitomi.la
-192.240.120.10 f.hitomi.la
-192.240.120.10 af.hitomi.la
-192.240.120.10 g.hitomi.la
-192.240.120.10 ag.hitomi.la
-66.187.70.34 i.hitomi.la
-192.240.120.10 0tn.hitomi.la
-23.237.107.210 ac.hitomi.la
-23.237.107.210 ad.hitomi.la
-23.237.107.210 ae.hitomi.la
-23.237.107.210 ah.hitomi.la
-23.237.107.210 ai.hitomi.la
-192.240.120.10 h.hitomi.la
-23.237.107.210 lb.hitomi.la
-23.237.107.210 lc.hitomi.la
-23.237.107.210 ld.hitomi.la
-23.237.107.210 le.hitomi.la
-23.237.107.210 lf.hitomi.la
-23.237.107.210 lg.hitomi.la
-23.237.107.210 lh.hitomi.la
-23.237.107.210 li.hitomi.la
 
 # [nhentai.net]
 104.27.195.88 static.nhentai.net
@@ -13411,6 +13380,8 @@
 104.27.186.143 static.akiba-online.com
 
 # [oddsportal.com]
+188.92.41.44 oddsportal.com
+188.92.41.44 www.oddsportal.com
 188.92.41.44 fb.oddsportal.com
 188.92.41.44 rb.oddsportal.com
 188.92.41.44 sb.oddsportal.com
@@ -13419,10 +13390,9 @@
 188.92.40.102 i.oddsportal.com
 5.189.168.226 dino.oddsportal.com
 74.119.118.149 hiuplq.oddsportal.com
+178.250.0.157 hiuplq.oddsportal.com
 188.92.41.44 widgets.oddsportal.com
 188.92.41.44 advert.oddsportal.com
-188.92.41.44 www.oddsportal.com
-188.92.41.44 oddsportal.com
 188.92.41.36 datalb.oddsportal.com
 
 # [evozi.com]
