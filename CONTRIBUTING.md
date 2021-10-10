@@ -31,7 +31,7 @@ Jika menemukan kutu atau ingin melakukan permintaan fitur baru, dapat dilakukan 
 Untuk memudahkan pengguna dalam melakukan pencarian di riwayat komit, mohon gunakan salah satu format ringkasan komit sebagai berikut:
 
 ```
-A: example.com
+A: https://keywordspy.com 3.86.171.97
 M: example.com
 D: example.com
 ```
