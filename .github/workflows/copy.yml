@@ -1,7 +1,9 @@
 name: copy files
-on: [push]
+on: 
+  push:
+    branch: master
+    
 jobs:
-
   build:
     name: Build
     runs-on: ubuntu-latest
