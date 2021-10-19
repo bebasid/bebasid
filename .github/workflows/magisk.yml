@@ -31,8 +31,10 @@ jobs:
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           cd releases
+          ls -l
           git add bebasid-magisk.zip
           git commit -m "Sync magisk module: " -m "${LAST_COMMIT_MESSAGE}"
-          git push origin master
-env:
-  GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.UPDATE_TOKEN }}
