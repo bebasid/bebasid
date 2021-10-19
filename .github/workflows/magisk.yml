@@ -24,6 +24,5 @@ jobs:
           git add releases/bebasid-magisk.zip
           git commit -m "Sync magisk module: " -m "${LAST_COMMIT_MESSAGE}"
           git push origin master
-          fi
-   env:
-      GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
+env:
+  GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
