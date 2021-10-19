@@ -33,7 +33,7 @@ jobs:
           cd releases
           ls -l
           git add bebasid-magisk.zip
-          git commit -m "${LAST_COMMIT_MESSAGE}"
+          git commit -m "Magisk sync: ${LAST_COMMIT_MESSAGE}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
