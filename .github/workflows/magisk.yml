@@ -1,0 +1,29 @@
+name: Magisk
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Copy hosts to magisk dir
+      run: cp releases/hosts dev/magisk/
+    - name: Zip magisk dir
+      run: |
+        cd dev/magisk
+        zip -r bebasid-magisk.zip *
+    - name: Move bebasid-magisk to releases
+      run: mv dev/magisk/bebasid-magisk.zip releases/
+    - name: Sync
+        run: |
+          LAST_COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
+          git config --global user.email "gvoze32@yahoo.com"
+          git config --global user.name "zksbot"
+          git add releases/bebasid-magisk.zip
+          git commit -m "Sync magisk module: " -m "${LAST_COMMIT_MESSAGE}"
+          git push origin master
+          fi
+   env:
+      GITHUB_TOKEN: ${{ secrets.UPDATE_TOKEN }}
