@@ -14,10 +14,16 @@ jobs:
       run: |
         cd dev/magisk
         zip -r bebasid-magisk.zip *
+        ls -l
     - name: Move bebasid-magisk to releases
       run: mv dev/magisk/bebasid-magisk.zip releases/
-    - name: Sync
+    - name: Get changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v10.1
+    - name: Dockerfile has changed rebuild and test
+      if: contains(steps.changed-files.outputs.modified_files, 'releases/hosts')
       run: |
+          echo "hosts file has been modified."
           LAST_COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
