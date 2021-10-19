@@ -17,7 +17,7 @@ jobs:
     - name: Move bebasid-magisk to releases
       run: mv dev/magisk/bebasid-magisk.zip releases/
     - name: Sync
-        run: |
+      run: |
           LAST_COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
