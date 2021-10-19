@@ -15,7 +15,13 @@ ipconfig /flushdns
 
 ## Android (Uji Coba)
 
+### Root
+
+**Manual**
+
 Salin file hosts dan paste di folder /etc kemudian restart HP.
+
+**Adaway**
 
 Alternatif (jika ingin install melewati aplikasi atau menambahkan list hosts lain)
 
@@ -29,7 +35,15 @@ Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
 
 Centang opsi "Allow Redirections" di Settings.
 
-**Cara di atas memerlukan akses root, jika HP belum diroot, bisa memakai cara ini.**
+**Magisk**
+
+Buka Magisk lalu pilih menu "Module".
+
+Selanjutnya klik tanda "+" lalu cari module bebasid-magisk.zip.
+
+Klik tombol "Reboot" untuk memulai menerapkan module tersebut.
+
+### Non-Root
 
 Install aplikasi [Hosts Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change), buka aplikasinya, klik "Hosts Settings", lalu pilih hosts. Kemudian jalankan.
 
