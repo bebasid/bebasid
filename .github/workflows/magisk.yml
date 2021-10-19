@@ -16,18 +16,22 @@ jobs:
         zip -r bebasid-magisk.zip *
         ls -l
     - name: Move bebasid-magisk to releases
-      run: mv dev/magisk/bebasid-magisk.zip releases/
+      run: |
+        mv dev/magisk/bebasid-magisk.zip releases/
+        cd releases
+        ls -l
     - name: Get changed files
       id: changed-files
       uses: tj-actions/changed-files@v10.1
-    - name: Dockerfile has changed rebuild and test
+    - name: Validating hosts changes, run next command if it is true
       if: contains(steps.changed-files.outputs.modified_files, 'releases/hosts')
       run: |
           echo "hosts file has been modified."
           LAST_COMMIT_MESSAGE="$(git log -1 --pretty=%B)"
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
-          git add releases/bebasid-magisk.zip
+          cd releases
+          git add bebasid-magisk.zip
           git commit -m "Sync magisk module: " -m "${LAST_COMMIT_MESSAGE}"
           git push origin master
 env:
