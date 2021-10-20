@@ -7913,8 +7913,9 @@
 219.113.141.216 gyutto.com www.gyutto.com
 
 # [loverslab.com]
-104.25.91.15 loverslab.com www.loverslab.com
-104.25.91.15 static.loverslab.com cdn.loverslab.com
+104.26.0.96 loverslab.com www.loverslab.com
+172.67.71.146 static.loverslab.com cdn.loverslab.com
+104.26.1.96 archive.loverslab.com
 
 # [erogedownload.com]
 104.28.15.98 erogedownload.com www.erogedownload.com
