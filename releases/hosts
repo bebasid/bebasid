@@ -7973,8 +7973,14 @@
 # [yts.mx]
 104.26.6.75 yts.mx
 104.26.6.75 www.yts.mx
-212.8.242.150 img.yts.mx
-212.8.242.150 www.img.yts.mx
+104.31.16.9 yts.mx
+104.31.16.9 www.yts.mx
+104.31.16.120 yts.mx
+104.31.16.120 www.yts.mx
+104.31.16.120 img.yts.mx
+104.31.16.120 www.img.yts.mx
+104.31.16.9 img.yts.mx
+104.31.16.9 www.img.yts.mx
 
 # [yts.ag]
 172.67.202.48 www.yts.ag
