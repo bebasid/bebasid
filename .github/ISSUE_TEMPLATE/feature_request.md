@@ -7,5 +7,7 @@ assignees: 'nxzlem'
 
 ---
 
-**Ketentuan**
-Pastikan website yang akan direquest belum tersedia di hosts
+<!--
+Terima kasih telah melaporkan masalah!
+Pastikan website yang akan direquest belum tersedia pada daftar hosts
+-->
