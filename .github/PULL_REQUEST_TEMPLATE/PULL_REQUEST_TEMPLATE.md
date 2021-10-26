@@ -1,15 +1,15 @@
 ---
 name: Ketentuan
 about: Pull request rules.
-title: 'Penambahan Situs/Fitur'
+title: 'Penambahan/Perbaikan'
 labels: ''
 assignees: ''
 
 ---
 
-Ketentuan Pull Request:
-- Jika sebelumnya terdapat pull request, silahkan ubah file yang ada di pull tersebut
-- Untuk format pull khusus bug, silahkan tambahkan line baru atau sekedar edit di bagian ip/domainnya saja
-- Untuk format pull khusus add, silahkan tambahkan line baru lengkap dengan nama website diatasnya, seperti yang sudah ada
+Ketentuan Pull Request: (Centang jika sudah sesuai)
+- [ ] Sudah sesuai format penulisan.
+- [ ] Domain (jika baru), belum ada di hosts.
+- [ ] Tidak terdapat duplikat pull request.
 
-Terima kasih sudah berkontribusi dalam pengembangan komunitas aplikasi ini
+Terima kasih sudah berkontribusi dalam pengembangan komunitas aplikasi ini.
