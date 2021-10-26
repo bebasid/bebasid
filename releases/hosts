@@ -4250,6 +4250,7 @@
 185.88.181.53 xnxx.com
 
 # [sankakucomplex.com]
+89.187.185.163 iv.sankakucomplex.com
 208.100.24.246 c1.sankakucomplex.com
 208.100.47.78 img1.sankakucomplex.com
 208.100.24.246 i1.sankakucomplex.com
@@ -17757,3 +17758,14 @@
 206.189.52.23 elastic-stg.ghost.org
 206.189.52.23 gscan-k8s.ghost.org
 206.189.52.23 insidechat.ghost.org
+
+# [cricfree.live]
+185.233.186.25 cricfree.live
+185.233.186.25 www.cricfree.live
+185.233.186.104 cricfree.live
+185.233.186.104 www.cricfree.live
+185.233.186.104 mail.cricfree.live
+185.233.186.104 pop.cricfree.live
+185.233.186.104 ftp.cricfree.live
+185.233.186.104 smtp.cricfree.live
+185.233.186.104 hostmaster.cricfree.live
