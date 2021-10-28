@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: zofrex/mirror-branch@v1
+      - uses: zofrex/mirror-branch
         with:
           target-branch: main
