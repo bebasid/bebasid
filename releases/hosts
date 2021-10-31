@@ -17769,3 +17769,19 @@
 185.233.186.104 ftp.cricfree.live
 185.233.186.104 smtp.cricfree.live
 185.233.186.104 hostmaster.cricfree.live
+
+# [javbabe.net]
+104.21.80.129 javbabe.net
+104.21.80.129 www.javbabe.net
+104.21.80.129 ww1.javbabe.net
+172.67.181.80 javbabe.net
+172.67.181.80 www.javbabe.net
+172.67.181.80 ww1.javbabe.net
+
+# [chinababe.net]
+104.21.62.181 chinababe.net
+104.21.62.181 www.chinababe.net
+104.21.62.181 ww1.chinababe.net
+172.67.138.2 chinababe.net
+172.67.138.2 www.chinababe.net
+172.67.138.2 ww1.chinababe.net
