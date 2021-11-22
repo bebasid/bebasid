@@ -14927,10 +14927,10 @@
 216.239.38.21 www.pusatporn18.com
 
 # [buffstreams.tv]
-45.178.6.110 www.buffstreams.tv
+45.178.6.100 buffstreams.tv
 199.189.27.78 www.buffstreams.tv
-45.178.6.110 buffstreams.tv
-199.189.27.78 buffstreams.tv
+45.178.6.78 buffstreams.tv
+45.178.6.100 www.buffstreams.tv
 
 # [openloadmov.net]
 172.67.140.27 openloadmov.net
@@ -17949,3 +17949,53 @@
 185.183.97.132 removals.cumonprintedpics.com
 185.22.174.3 mail.cumonprintedpics.com
 185.183.97.132 removal.cumonprintedpics.com
+
+# [vipleague.tv]
+45.178.6.148 vipleague.tv
+45.178.6.148 www.vipleague.tv
+45.178.6.102 vipleague.tv
+45.178.6.102 www.vipleague.tv
+46.28.201.34 vipleague.tv
+46.28.201.34 www.vipleague.tv
+45.178.6.148 de.vipleague.tv
+45.178.5.227 de.vipleague.tv
+45.178.6.148 nl.vipleague.tv
+46.28.201.34 nl.vipleague.tv
+45.178.6.102 en.vipleague.tv
+45.178.6.102 jp.vipleague.tv
+45.178.6.148 es.vipleague.tv
+45.178.5.227 es.vipleague.tv
+45.178.6.148 it.vipleague.tv
+45.178.5.227 it.vipleague.tv
+45.178.6.102 ar.vipleague.tv
+46.28.201.34 ar.vipleague.tv
+45.178.6.102 fr.vipleague.tv
+46.28.201.34 fr.vipleague.tv
+45.178.6.102 ja.vipleague.tv
+45.178.5.227 ja.vipleague.tv
+45.178.6.102 pt.vipleague.tv
+45.178.5.227 pt.vipleague.tv
+
+# [smutba.se]
+89.41.169.226 www.smutba.se
+89.41.169.226 smutba.se
+89.41.169.226 tasks.smutba.se
+89.41.169.226 sfw.smutba.se
+89.41.169.226 alpha.smutba.se
+149.210.249.171 stats.smutba.se
+136.144.216.133 influxdb.smutba.se
+136.144.232.6 stream.smutba.se
+136.144.137.54 a.smutba.se
+37.230.98.146 riot.smutba.se
+37.230.98.146 matrix.smutba.se
+89.41.171.86 next.smutba.se
+37.97.232.171 pleroma.smutba.se
+89.41.169.5 beta.smutba.se
+136.144.204.10 jay.smutba.se
+178.18.94.181 dev.smutba.se
+37.97.232.171 pleroma.smutba.se
+89.41.169.226 web1.smutba.se
+89.41.169.226 butts.smutba.se
+89.41.169.226 omega.smutba.se
+89.41.169.226 toot.smutba.se
+89.41.169.226 haip.smutba.se
