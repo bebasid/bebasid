@@ -17081,10 +17081,13 @@
 104.21.26.137 sub.himovies.to
 
 # [footybite.cc]
-104.21.43.220 footybite.cc
-104.21.43.220 www.footybite.cc
+172.64.104.28 footybite.cc
+172.64.104.28 www.footybite.cc
+172.64.105.28 footybite.cc
+172.64.105.28 www.footybite.cc
 172.67.186.97 footybite.cc
 172.67.186.97 www.footybite.cc
+172.64.104.28 live.footybite.cc
 
 # [rockstargames.com]
 178.79.227.128 prod1.rockstargames.com
@@ -17999,3 +18002,31 @@
 89.41.169.226 omega.smutba.se
 89.41.169.226 toot.smutba.se
 89.41.169.226 haip.smutba.se
+
+# [footysaga.com]
+104.21.4.220 footysaga.com
+104.21.4.220 www.footysaga.com
+172.67.132.137 footysaga.com
+172.67.132.137 www.footysaga.com
+
+# [soccerstreams.net]
+172.67.162.60 soccerstreams.net
+172.67.162.60 www.soccerstreams.net
+104.21.81.148 soccerstreams.net
+104.21.81.148 www.soccerstreams.net
+104.21.81.148 live.soccerstreams.net
+172.67.162.60 live.soccerstreams.net
+172.67.162.60 redditts.soccerstreams.net
+104.21.81.148 reedditt.soccerstreams.net
+172.67.162.60 redi1.soccerstreams.net
+104.21.81.148 reddiit.soccerstreams.net
+172.67.162.60 reddiit.soccerstreams.net
+172.67.162.60 reddi.soccerstreams.net
+172.67.162.60 reddits.soccerstreams.net
+172.67.162.60 reddit.soccerstreams.net
+172.67.162.60 reditt.soccerstreams.net
+172.67.162.60 rediitt.soccerstreams.net
+104.21.81.148 vpn.soccerstreams.net
+104.21.81.148 wp.soccerstreams.net
+104.21.81.148 cdn.soccerstreams.net
+104.21.81.148 mail.soccerstreams.net
