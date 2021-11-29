@@ -6151,7 +6151,14 @@
 23.130.192.131 wetmelon.com www.wetmelon.com
 
 # [javhd.pro]
-104.28.2.147 javhd.pro www.javhd.pro
+104.21.32.40 javhd.pro
+104.21.32.40 www.javhd.pro
+172.67.182.201 javhd.pro
+172.67.182.201 www.javhd.pro
+
+# [javhd.sex]
+172.67.68.127 javhd.sex
+172.67.68.127 www.javhd.sex
 
 # [scanlover.com]
 172.105.211.133 scanlover.com www.scanlover.com
@@ -18030,3 +18037,9 @@
 104.21.81.148 wp.soccerstreams.net
 104.21.81.148 cdn.soccerstreams.net
 104.21.81.148 mail.soccerstreams.net
+
+# [worldsrc.net]
+104.21.23.205 worldsrc.net
+104.21.23.205 www.worldsrc.net
+172.67.213.64 worldsrc.net
+172.67.213.64 www.worldsrc.net
