@@ -54,7 +54,8 @@ You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/t
 
 ![bebasid.bat running on Windows 10](https://i.imgur.com/CrnySId.png)
 
-Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for the CLI guidelines on other operating system.
+### Other
+Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for more usage guidelines.
 
 ### Source Code
 
