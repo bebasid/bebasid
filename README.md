@@ -54,7 +54,8 @@ Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid
 
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
 
-Untuk panduan penggunaan versi CLI di sistem operasi lain, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
+### Lainnya
+Untuk panduan penggunaan lainnya, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 ### Kode Sumber
 
