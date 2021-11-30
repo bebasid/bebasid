@@ -1,5 +1,5 @@
-# Cara Penggunaan
-## Windows
+# Cara Penggunaan Lainnya
+## Windows (Manual)
 
 Salin file hosts bebasid ke
 ```
@@ -35,7 +35,7 @@ Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
 
 Centang opsi "Allow Redirections" di Settings.
 
-**Magisk**
+**Magisk** (Disarankan)
 
 Buka Magisk lalu pilih menu "Module".
 
