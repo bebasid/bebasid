@@ -3794,27 +3794,46 @@
 104.20.134.21 e-hentai.org
 
 # [xvideos.com]
+185.88.181.2 xvideos.com
+185.88.181.2 www.xvideos.com
+185.88.181.6 xvideos.com
+185.88.181.6 www.xvideos.com
+185.88.181.7 xvideos.com
+185.88.181.7 www.xvideos.com
+185.88.181.8 xvideos.com
+185.88.181.8 www.xvideos.com
 185.120.69.181 dev.face-rec.xvideos.com
 185.120.69.181 images.face-rec.xvideos.com
 185.120.69.181 reports.face-rec.xvideos.com
 141.0.168.57 webmaster-tools.xvideos.com
 178.79.245.171 porn.im.4e2e4000.8399749.x.xvideos.com
+69.164.15.212 porn.im.4e2e4000.8399749.x.xvideos.com
 178.79.253.40 porn.im.1f3369e2.938329.x.xvideos.com
+178.79.224.128 porn.im.1f3369e2.938329.x.xvideos.com
 87.248.203.19 porn.im.52d06500.20431419.x.xvideos.com
+178.79.246.20 porn.im.52d06500.20431419.x.xvideos.com
 117.121.249.31 download.im.8d00ad00.7360419.x.xvideos.com
+69.164.15.51 download.im.8d00ad00.7360419.x.xvideos.com
 117.121.249.197 porn.im.42577300.5920448.x.xvideos.com
+69.28.178.40 porn.im.42577300.5920448.x.xvideos.com
 111.119.29.174 porn.im.31f35900.8438147.x.xvideos.com
 208.111.181.47 porn.im.187241ee.370047.x.xvideos.com
+208.111.181.242 porn.im.187241ee.370047.x.xvideos.com
 208.111.181.242 porn.im.18ccd858.370047.x.xvideos.com
+69.164.15.232 porn.im.18ccd858.370047.x.xvideos.com
 117.121.249.11 porn.im.42578287.1846786.x.xvideos.com
+69.164.15.203 porn.im.42578287.1846786.x.xvideos.com
 178.79.244.61 porn.im.4e2e4000.6878056.x.xvideos.com
 68.142.115.146 porn.im.4adccf00.13493185.x.xvideos.com
 178.79.213.56 porn1-im-1fd2d000-23453556-mp4.x.xvideos.com
 117.121.249.31 download.im.8d00ad7a.63493.x.xvideos.com
+69.28.150.179 download.im.8d00ad7a.63493.x.xvideos.com
 41.63.68.207 download.im.294b5600.22393761.x.xvideos.com
 178.79.246.102 porn.im.4e2e4000.8690770.x.xvideos.com
+69.28.150.138 porn.im.4e2e4000.8690770.x.xvideos.com
 69.55.57.146 mail.support.xvideos.com
 185.88.181.2 support.xvideos.com
+185.88.181.3 support.xvideos.com
 141.0.175.10 links.news.xvideos.com
 168.245.121.65 o1.sg.news.xvideos.com
 141.0.168.248 chat-group-test-master.xvideos.com
@@ -4176,9 +4195,12 @@
 185.88.181.8 porn000.xvideos.com
 185.88.181.8 img100-000.xvideos.com
 185.88.181.8 dl-.xvideos.com
-185.88.181.8 www.xvideos.com
-185.88.181.7 xvideos.com
-185.88.181.2 xvideos.com
+204.8.234.243 cams.xvideos.com
+185.88.181.3 content.admin.xvideos.com
+136.244.107.13 www.www--xvideos.com
+136.244.107.13 www--xvideos.com
+185.88.181.3 blog.xvideos.com
+168.245.7.176 o7.ptr1818.games.xvideos.com
 
 # [paheal.net]
 208.97.151.195 rule63.paheal.net
@@ -8079,9 +8101,13 @@
 91.212.150.157 katcr.co www.katcr.co
 
 # [1337x.to]
-198.134.112.242 ssa.1337x.to
-172.67.141.188 cdn.1337x.to chat.1337x.to www.1337x.to 1337x.to
-104.21.9.48 www.1337x.to 1337x.to
+104.31.16.11 1337x.to
+104.31.16.11 www.1337x.to
+104.31.16.118 1337x.to
+104.31.16.118 www.1337x.to
+198.134.112.241 ssa.1337x.to
+104.31.16.118 chat.1337x.to
+104.31.16.118 cdn.1337x.to
 
 # [yts.lt]
 104.21.11.120 yts.lt
@@ -18314,3 +18340,7 @@
 88.208.52.132 beta.hqporner.com
 88.208.52.132 beta-m.hqporner.com
 45.133.44.4 fastporndelivery.hqporner.com
+
+# [movies123.show]
+104.21.85.65 movies123.show
+104.21.85.65 www.movies123.show
