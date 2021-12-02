@@ -32,7 +32,7 @@
 
 ## bebasid
 
-bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
+bebasid dapat membantu membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
 
 ### Antarmuka Pengguna Grafis (GUI)
 
