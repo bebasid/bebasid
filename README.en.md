@@ -32,7 +32,7 @@
 
 ## bebasid
 
-bebasid helps you to access restricted content that are blocked by the Indonesian government by using [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
+bebasid helps you to access restricted content that are blocked by using [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
 
 ### Graphical User Interface (GUI)
 
