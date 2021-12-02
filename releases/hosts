@@ -13957,16 +13957,40 @@
 99.84.73.108 server-99-84-73-108.hio50.r.cloudfront.net
 
 # [binance.org]
+13.225.165.77 binance.org
+13.225.165.77 www.binance.org
+13.32.54.128 binance.org
+13.32.54.128 www.binance.org
+18.66.122.55 binance.org
+18.66.122.55 www.binance.org
 52.84.229.114 bsc-dataseed.binance.org
 52.84.229.7 bsc-dataseed.binance.org
 52.84.229.69 bsc-dataseed.binance.org
 52.84.229.97 bsc-dataseed.binance.org
+76.223.50.140 bsc-dataseed.binance.org
 52.84.229.104 bsc-dataseed1.binance.org
 52.84.229.36 bsc-dataseed1.binance.org
 52.84.229.57 bsc-dataseed1.binance.org
 52.84.229.68 bsc-dataseed1.binance.org
+13.248.174.76 bsc-dataseed1.binance.org
 99.84.208.52 community.binance.org
+52.222.214.3 community.binance.org
 185.199.110.153 docs.binance.org
+76.223.50.140 bsc-dataseed2.binance.org
+18.66.112.49 dataseed4.binance.org
+76.223.50.140 bsc-dataseed4.binance.org
+18.66.180.25 dex-asiapacific.binance.org
+18.66.180.73 dex-atlantic.binance.org
+52.222.214.48 ud.binance.org
+18.66.180.95 api.binance.org
+18.66.139.15 dex-european.binance.org
+18.66.122.83 explorer.binance.org
+18.66.180.104 testnet-explorer.binance.org
+18.66.139.43 wallet.binance.org
+52.222.214.30 testnet.binance.org
+18.66.97.91 dex.binance.org
+52.222.214.96 testnet-dex.binance.org
+54.227.122.203 support.binance.org
 
 # [peacetv.tv]
 95.131.68.14 peacetv.tv www.peacetv.tv mail.peacetv.tv ftp.peacetv.tv
@@ -18344,7 +18368,3 @@
 # [movies123.show]
 104.21.85.65 movies123.show
 104.21.85.65 www.movies123.show
-
-# [binance.org]
-13.225.165.77 binance.org
-13.225.165.77 www.binance.org
