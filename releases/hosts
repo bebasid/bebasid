@@ -4412,6 +4412,7 @@
 208.100.24.252 relay.sankakucomplex.com
 208.100.24.252 mailrelay.sankakucomplex.com
 185.59.220.194 v.sankakucomplex.com
+185.152.67.139 v.sankakucomplex.com
 208.100.24.252 app1.sankakucomplex.com
 208.100.47.78 secure.remotesysadmin.com
 208.100.41.73 smtp2.sankakucomplex.com
@@ -14153,6 +14154,20 @@
 104.21.95.253 en.fullmatchsports.co
 104.21.95.253 us.fullmatchsports.co
 
+# [fullmatchsports.cc]
+172.67.171.233 fullmatchsports.cc
+172.67.171.233 www.fullmatchsports.cc
+104.21.95.253 fullmatchsports.cc
+104.21.95.253 www.fullmatchsports.cc
+172.67.187.58 fullmatchsports.cc
+172.67.187.58 www.fullmatchsports.cc
+172.67.173.221 fullmatchsports.cc
+172.67.173.221 www.fullmatchsports.cc
+172.67.171.233 en.fullmatchsports.cc
+104.21.95.253 en.fullmatchsports.cc
+172.67.171.233 us.fullmatchsports.cc
+104.21.95.253 us.fullmatchsports.cc
+
 # [muchohentai.com]
 104.27.206.92 static3.muchohentai.com
 104.27.207.92 static4.muchohentai.com
@@ -18369,3 +18384,7 @@
 # [movies123.show]
 104.21.85.65 movies123.show
 104.21.85.65 www.movies123.show
+
+# [simontok.vip]
+172.67.189.7 simontok.vip
+172.67.189.7 www.simontok.vip
