@@ -7477,12 +7477,21 @@
 5.44.219.124 asexon.com www.asexon.com
 
 # [avgle.com]
-192.243.59.20 sub2.avgle.com
-198.134.112.242 sub.avgle.com
-172.64.105.12 api.avgle.com
-213.174.135.4 static-clst.avgle.com
-172.64.104.12 www.avgle.com
 172.64.104.12 avgle.com
+172.64.104.12 www.avgle.com
+104.21.43.62 avgle.com
+104.21.43.62 www.avgle.com
+162.159.137.85 avgle.com
+162.159.137.85 www.avgle.com
+198.134.112.242 sub.avgle.com
+198.134.112.243 sub.avgle.com
+192.243.59.12 sub2.avgle.com
+192.243.59.20 sub2.avgle.com
+172.64.105.12 api.avgle.com
+172.67.221.113 api.avgle.com
+198.134.112.241 sub.avgle.com
+213.174.135.3 static.avgle.com
+45.133.44.9 static-clst.avgle.com
 
 # [tuoi69.com]
 104.27.178.187 tuoi69.com www.tuoi69.com
@@ -7502,7 +7511,7 @@
 # [javhd.com]
 213.174.154.216 javhd.com www.javhd.com
 213.174.154.199 secure.javhd.com
-199.167.65.10 static.javhd.com
+89.187.183.19 static.javhd.com
 213.174.154.218 enter.javhd.com
 104.37.176.1 cdn.javhd.com cdn2.javhd.com share.javhd.com
 
@@ -18419,3 +18428,56 @@
 104.21.30.42 www.otakudesu.vip
 94.237.78.13 otakudesu.vip
 94.237.78.13 www.otakudesu.vip
+
+# [av01.tv]
+172.67.69.56 av01.tv
+172.67.69.56 www.av01.tv
+104.26.3.106 av01.tv
+104.26.3.106 www.av01.tv
+51.79.19.197 cdn.av01.tv
+149.56.240.217 cdn.av01.tv
+93.186.202.45 img1.av01.tv
+51.15.10.123 img1.av01.tv
+217.79.181.42 static.av01.tv
+51.15.10.123 static.av01.tv
+172.106.10.238 h-charles-cdn.av01.tv
+172.106.200.174 h-boy-cdn.av01.tv
+172.106.200.162 h-adam-cdn.av01.tv
+45.35.33.242 hot.av01.tv
+172.67.69.56 en.av01.tv
+172.67.69.56 media.av01.tv
+172.67.69.56 jp.av01.tv
+104.26.3.106 staging.av01.tv
+217.79.181.42 cdn-static.av01.tv
+51.79.19.197 cdn-d.av01.tv
+
+# [iw01.xyz]
+104.21.233.207 iw01.xyz
+104.21.233.207 www.iw01.xyz
+104.21.233.208 img1.iw01.xyz
+
+# [givemenbastreams.com]
+104.21.235.146 givemenbastreams.com
+104.21.235.145 www.givemenbastreams.com
+104.21.235.145 givemenbastreams.com
+104.21.235.146 www.givemenbastreams.com
+104.21.235.146 g.givemenbastreams.com
+104.21.235.145 g.givemenbastreams.com
+
+# [nbabite.com]
+104.21.81.53 nbabite.com
+104.21.81.53 www.nbabite.com
+172.67.138.218 nbabite.com
+172.67.138.218 www.nbabite.com
+172.67.134.245 nbabite.com
+172.67.134.245 www.nbabite.com
+172.67.138.218 livescore.nbabite.com
+172.67.134.245 livescore.nbabite.com
+95.217.73.36 mx12.nbabite.com
+172.67.138.218 home.nbabite.com
+172.67.134.245 home.nbabite.com
+172.67.134.245 reddit.nbabite.com
+172.67.134.245 scor.nbabite.com
+172.67.134.245 score.nbabite.com
+172.67.134.245 redditt.nbabite.com
+172.67.138.218 red.nbabite.com
