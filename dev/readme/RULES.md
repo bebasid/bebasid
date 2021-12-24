@@ -1,4 +1,4 @@
-# Disclaimer
+# Syarat & Ketentuan
 
 ### Tentang
 bebasid merupakan sebuah proyek yang didirikan oleh Komunitas Internet Netral Indonesia sebagai wadah pembelajaran yang dikhususkan membahas tentang seluk beluk jaringan. Proyek bebasid dibuat dan dibentuk oleh komunitas, setiap anggota andil dalam pembuatan dan kelangsungan proyek ini.
