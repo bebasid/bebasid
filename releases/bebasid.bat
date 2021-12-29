@@ -75,8 +75,7 @@ Title BEBASID ^> %~nx0
 	echo.
 	setlocal
 	for /f "tokens=4-5 delims=. " %%i in ('ver') do set VERSION=%%i.%%j
-	timeout 1 >nul &&  if "%version%" == "11.0" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 11 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
-	timeout 1 >nul &&  if "%version%" == "10.0" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 10 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul &&  if "%version%" == "10.0" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 10/11 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 	timeout 1 >nul &&  if "%version%" == "6.3" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 8.1 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 	timeout 1 >nul &&  if "%version%" == "6.2" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 8 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 	timeout 1 >nul &&  if "%version%" == "6.1" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 7 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
@@ -97,8 +96,7 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo [#] Proses pemeriksaan selesai, perangkat kamu terhubung dengan internet
 	echo.
-	if "%version%" == "11.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 11
-	if "%version%" == "10.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 10
+	if "%version%" == "10.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 10/11
 	if "%version%" == "6.3" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8.1
 	if "%version%" == "6.2" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8
 	if "%version%" == "6.1" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 7
@@ -162,7 +160,6 @@ Title BEBASID ^> %~nx0
 )
 
 :YAKIN (
-	if "%version%" == "11.0" call :DOWN3
 	if "%version%" == "10.0" call :DOWN3
 	IF "%version%" == "6.3" call :DOWN3
 	IF "%version%" == "6.2" call :DOWN3
@@ -203,7 +200,6 @@ Title BEBASID ^> %~nx0
 )
 
 :RESTORE
-	if "%version%" == "11.0" call :RESTORE3
 	if "%version%" == "10.0" call :RESTORE3
 	IF "%version%" == "6.3" call :RESTORE3
 	IF "%version%" == "6.2" call :RESTORE3
@@ -232,7 +228,6 @@ Title BEBASID ^> %~nx0
 )
 
 :PENUH (
-	if "%version%" == "11.0" call :PENUH3
 	if "%version%" == "10.0" call :PENUH3
 	IF "%version%" == "6.3" call :PENUH3
 	IF "%version%" == "6.2" call :PENUH3
@@ -261,7 +256,6 @@ Title BEBASID ^> %~nx0
 )
 
 :LITE (
-	if "%version%" == "11.0" call :LITE3
 	if "%version%" == "10.0" call :LITE3
 	IF "%version%" == "6.3" call :LITE3
 	IF "%version%" == "6.2" call :LITE3
