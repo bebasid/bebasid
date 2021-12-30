@@ -75,7 +75,9 @@ Title BEBASID ^> %~nx0
 	echo.
 	setlocal
 	for /f "tokens=4-5 delims=. " %%i in ('ver') do set VERSION=%%i.%%j
-	timeout 1 >nul &&  if "%version%" == "10.0" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 10/11 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	for /f "tokens=4-7 delims=. " %%i in ('ver') do set VERSIONTEN=%%k
+	timeout 1 >nul &&  if "%versionten%" geq "2200" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 11 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul &&  if "%versionten%" leq "2200" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 10 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 	timeout 1 >nul &&  if "%version%" == "6.3" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 8.1 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 	timeout 1 >nul &&  if "%version%" == "6.2" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 8 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 	timeout 1 >nul &&  if "%version%" == "6.1" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 7 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
@@ -96,7 +98,8 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo [#] Proses pemeriksaan selesai, perangkat kamu terhubung dengan internet
 	echo.
-	if "%version%" == "10.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 10/11
+	if "%versionten%" geq "2200" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 11
+	if "%versionten%" leq "2200" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 10
 	if "%version%" == "6.3" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8.1
 	if "%version%" == "6.2" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8
 	if "%version%" == "6.1" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 7
