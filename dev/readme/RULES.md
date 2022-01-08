@@ -1,4 +1,4 @@
-# Disclaimer
+# Syarat & Ketentuan
 
 ### Tentang
 bebasid merupakan sebuah proyek yang didirikan oleh Komunitas Internet Netral Indonesia sebagai wadah pembelajaran yang dikhususkan membahas tentang seluk beluk jaringan. Proyek bebasid dibuat dan dibentuk oleh komunitas, setiap anggota andil dalam pembuatan dan kelangsungan proyek ini.
@@ -8,7 +8,7 @@ Kami sebagai komunitas tertarik dengan pengembangan bebasid dalam mengatasi pemb
 
 Hal lain yang membuat komunitas kami tertarik dalam pengembangan serta pembaruan adalah pemblokiran internet di Indonesia sungguh mengancam kebebasan berekspresi dan demokrasi. Hal ini dikarenakan negara layaknya seperti mengatur halal dan haram dalam penggunaan internet. Disaat negara lain sudah membangun jaringan optik, membangun teknologi 5G, membangun hal-hal mengenai luar angkasa, negara Indonesia masih berkutat untuk memikirkan pemblokiran akses internet dengan anggaran bermilyar-milyar karena urusan moral. Anggaran yang bermilyar-milyar tersebut ternyata masih dapat ditembus hanya dengan suatu aplikasi dengan pengkodingan yang tidak rumit.
 
-Selain itu beberapa waktu yang lalu, kami menemukan bahwa salah satu pihak swasta pernah melakukan 'inject' iklan dan layanan ke dalam jaringan dan diterapkan langsung di css website, bahkan sampai pernah ada kasus bitcoin miner yang disisipkan. Hal ini sangat mengganggu sekali,kami sebagai komunitas mencoba untuk mengatasi hal tersebut dengan aplikasi kami karena hal tersebut sudah masuk ranah ilegal dan kami berhak atas hak kami yang sudah membayar setiap bulan dengan di awal pengajuan langganan tidak ada persetujuan atas hal tersebut dan malah disisipkan secara paksa tanpa diketahui pengguna.
+Selain itu beberapa waktu yang lalu, kami menemukan bahwa salah satu pihak swasta pernah melakukan 'inject' iklan dan layanan ke dalam jaringan dan diterapkan langsung di css website, bahkan sampai pernah ada kasus script penambang bitcoin yang disisipkan. Hal ini sangat mengganggu sekali, kami sebagai komunitas mencoba untuk mengatasi hal tersebut dengan aplikasi kami karena hal tersebut sudah masuk ranah ilegal dan kami berhak atas hak kami yang sudah membayar setiap bulan dengan di awal pengajuan langganan tidak ada persetujuan atas hal tersebut dan malah disisipkan secara paksa tanpa diketahui pengguna.
 
 ### Tujuan
 Proyek bebasid dikhususkan untuk tujuan mendukung kebebasan dan kenetralan dalam berinternet di Indonesia serta sebagai pengujian dan riset mengenai celah yang ada di dalam sistem jaringan di Indonesia. Tujuan lain dari proyek ini adalah untuk sebagai komunitas belajar tentang seluk beluk jaringan yang ada di Indonesia. Anggota dapat menggunakan akses organisasi sebagai media belajar sehingga lebih efektif.
@@ -26,14 +26,14 @@ Pengguna wajib berusia minimal delapan belas tahun ke atas untuk bisa menggunaka
 Pengguna sangat dilarang menggunakan proyek untuk tujuan ilegal atau kejahatan dan segala hal yang dapat melanggar hukum.
 
 ### Surat Somasi
-Aplikasi ini disediakan sebagaimana adanya. Dalam keadaan apapun, Komunitas Internet Netral Indonesia sebagai organisasi pengembang dan pengurus bebasid menyangkal semua jaminan, tersurat maupun tersirat, dan tidak bertanggung jawab atas kerusakan, penyalahgunaan kepercayaan dan konsekuensi yang mungkin timbul dari penggunaan proyek ini (termasuk kerusakan karena kehilangan keuntungan bisnis, gangguan bisnis, hilangnya informasi bisnis, cedera pribadi, atau kerugian lainnya). Merupakan tanggung jawab pengguna sendiri untuk mematuhi semua hukum setempat yang ada. Pengguna dipersilahkan menyewakan, mendistribusikan, memodifikasi, menjual atau mentransfer proyek kepada pihak ketiga.
+Aplikasi ini disediakan sebagaimana adanya. Dalam keadaan apapun, Komunitas Internet Netral Indonesia sebagai organisasi pengembang dan pengurus bebasid menyangkal semua jaminan, tersurat maupun tersirat, dan tidak bertanggung jawab atas kerusakan, penyalahgunaan kepercayaan dan konsekuensi yang mungkin timbul dari penggunaan proyek ini (termasuk kerusakan karena kehilangan keuntungan bisnis, gangguan bisnis, hilangnya informasi bisnis, cedera pribadi, atau kerugian lainnya). Merupakan tanggung jawab pengguna sendiri untuk mematuhi semua hukum setempat yang ada. Pengguna dipersilahkan menyewakan, mendistribusikan, memodifikasi, menjual atau mentransfer proyek kepada pihak ketiga tanpa membawa nama bebasid maupun komunitas.
 
 ### Penolakan
 Pengguna bertanggung jawab atas keamanan komputer pengguna sendiri, karma sendiri, dosa sendiri, atas tindakannya sendiri dan beberapa hal yang telah disebutkan di atas. Jika pengguna mengacaukan sesuatu atau melanggar hukum apa pun saat menggunakan proyek ini, itu adalah kesalahan pengguna.
 
 Pengguna bertanggung jawab atas kepemilikan aplikasi, menggunakan aplikasi ini berarti hak kepemilikan pindah ke pengguna. bebasid merupakan proyek open source di bawah lisensi [MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
 
-Jika ada pertanyaan atau sanggahan mengenai hak cipta dan kelegalan hukum, silahkan mengirimkan email ke bebasid@telegmail.com.
+Jika ada pertanyaan atau sanggahan mengenai hak cipta dan kelegalan hukum, silahkan mengirimkan email ke bebasid@hotmail.com.
 
 ### Referensi
 Proyek ini dibuat berdasarkan pada dukungan internet netral di Indonesia. Lebih tentang internet netral: 

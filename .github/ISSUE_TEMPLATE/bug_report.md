@@ -3,9 +3,14 @@ name: Laporkan Bug
 about: Laporkan bug mengenai situs.
 title: '[BUG] example.com'
 labels: 'bug'
-assignees: ''
+assignees: 'nxzlem'
 
 ---
+
+<!--
+Terima kasih telah melaporkan masalah!
+Pastikan website yang akan dilaporkan tidak terdapat duplikat atau belum dibuka issue oleh pengguna lain
+-->
 
 **Deskripsi mengenai bug**
 Deskripsi yang jelas dan ringkas tentang apa yang terjadi.

@@ -3,9 +3,11 @@ name: Request Situs Baru
 about: Request situs baru untuk ditambahkan
 title: '[REQ] example.com'
 labels: 'request'
-assignees: ''
+assignees: 'nxzlem'
 
 ---
 
-**Ketentuan**
-Pastikan website yang akan direquest belum tersedia di hosts
+<!--
+Terima kasih telah melaporkan masalah!
+Pastikan website yang akan direquest belum tersedia pada daftar hosts
+-->

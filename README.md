@@ -3,8 +3,10 @@
 </p>
 <p align="center">
     <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validasi" alt="Status Hosts"></a>
-    <a href="https://discord.gg/EKrxZyu"><img src="https://img.shields.io/discord/630415907021389825?logo=discord&logoColor=fff&label=Discord&color=7388d9"  alt="Status Discord"></a>
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=ukuran" alt="Ukuran rilis">
+</p>
+<p align="center">
+    <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Discord Banner 4"/></a>
 </p>
 <p align="center">
     <a href="README.en.md">Read README in English</a>
@@ -30,7 +32,7 @@
 
 ## bebasid
 
-bebasid dapat membantu membuka halaman situs web yang diblokir oleh pemerintah Indonesia dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
+bebasid dapat membantu membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
 
 ### Antarmuka Pengguna Grafis (GUI)
 
@@ -52,7 +54,8 @@ Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid
 
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
 
-Untuk panduan penggunaan versi CLI di sistem operasi lain, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
+### Lainnya
+Untuk panduan penggunaan lainnya, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 ### Kode Sumber
 
@@ -80,7 +83,7 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 
 <a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 
-<a href="https://saweria.co/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B"></a>
 
 </details>
 </div>
