@@ -11361,14 +11361,14 @@
 77.247.181.42 xxxbunker.com www.xxxbunker.com
 
 # [japaneseasmr.com]
-104.31.72.78 japaneseasmr.com
-104.31.72.78 www.japaneseasmr.com
 172.64.199.11 japaneseasmr.com
 172.64.199.11 www.japaneseasmr.com
-172.64.198.11 japaneseasmr.com
-172.64.198.11 www.japaneseasmr.com
-172.64.198.11 mail.japaneseasmr.com
+162.159.137.85 japaneseasmr.com
+162.159.137.85 www.japaneseasmr.com
+162.159.138.85 japaneseasmr.com
+162.159.138.85 www.japaneseasmr.com
 172.64.199.11 sfw.japaneseasmr.com
+162.159.137.85 mail.japaneseasmr.com
 
 # [ceporn.net]
 104.31.91.157 ceporn.net www.ceporn.net
