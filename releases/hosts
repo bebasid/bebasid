@@ -1431,6 +1431,8 @@
 
 # [hitomi.la]
 185.165.169.231 hitomi.la
+185.165.169.231 www.hitomi.la
+78.142.29.56 hitomi.la
 78.142.29.56 www.hitomi.la
 23.237.55.90 hf1.hitomi.la
 23.237.54.194 hf1.hitomi.la
@@ -1440,6 +1442,7 @@
 23.237.107.210 a.hitomi.la
 23.237.54.194 aa.hitomi.la
 23.237.107.211 aa.hitomi.la
+23.237.107.210 ba.hitomi.la
 192.240.120.10 ba.hitomi.la
 23.237.54.195 ba.hitomi.la
 23.237.107.210 ca.hitomi.la
@@ -1447,13 +1450,15 @@
 23.237.54.194 ab.hitomi.la
 23.237.107.212 ab.hitomi.la
 23.237.107.210 bb.hitomi.la
+23.237.55.90 bb.hitomi.la
 192.240.120.10 bb.hitomi.la
 23.237.54.196 bb.hitomi.la
 192.240.120.10 cb.hitomi.la
 23.237.107.210 cb.hitomi.la
 192.240.120.12 cb.hitomi.la
-66.187.70.34 streaming.hitomi.la
 23.237.54.194 streaming.hitomi.la
+23.237.107.210 streaming.hitomi.la
+66.187.70.34 streaming.hitomi.la
 192.240.120.10 tn.hitomi.la
 23.237.54.194 tn.hitomi.la
 23.237.107.210 atn.hitomi.la
@@ -1462,7 +1467,7 @@
 192.240.120.10 btn.hitomi.la
 192.240.120.10 ctn.hitomi.la
 23.237.107.210 ctn.hitomi.la
-23.237.54.194 ltn.hitomi.la
+23.237.107.210 ltn.hitomi.la
 23.237.54.194 dev.hitomi.la
 
 # [nhentai.net]
