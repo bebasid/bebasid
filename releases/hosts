@@ -6915,8 +6915,8 @@
 104.24.102.38 pornhd3x.to www.pornhd3x.to
 
 # [dlsite.com]
-35.72.83.101 dlsite.com
-52.192.120.153 dlsite.com
+18.182.101.11 dlsite.com
+138.113.69.46 www.dlsite.com
 52.68.10.147 twinkle.dlsite.com
 18.182.84.254 www.stg.dlsite.com
 54.249.85.89 circle.upload001.dlsite.com
@@ -7007,8 +7007,6 @@
 52.68.46.63 support.dlsite.com
 118.238.212.55 trial.gaku.dlsite.com
 52.198.192.25 adv.dlsite.com
-151.101.14.132 www.dlsite.com
-151.101.2.217 www.dlsite.com
 35.75.122.124 maniax.dlsite.com
 13.231.82.190 maniax.dlsite.com
 52.193.166.102 play.dlsite.com
@@ -7137,27 +7135,6 @@
 13.111.110.8 mta8.mg.dlsite.com
 13.111.110.9 mta9.mg.dlsite.com
 13.111.110.1 mta.mg.dlsite.com
-35.72.83.101 ec2-35-72-83-101.ap-northeast-1.compute.amazonaws.com
-13.231.82.190 ec2-13-231-82-190.ap-northeast-1.compute.amazonaws.com
-18.179.96.227 ec2-18-179-96-227.ap-northeast-1.compute.amazonaws.com
-52.196.187.127 ec2-52-196-187-127.ap-northeast-1.compute.amazonaws.com
-3.113.233.62 ec2-3-113-233-62.ap-northeast-1.compute.amazonaws.com
-52.194.147.188 ec2-52-194-147-188.ap-northeast-1.compute.amazonaws.com
-176.32.95.183 ec2-176-32-95-183.ap-northeast-1.compute.amazonaws.com
-54.65.18.140 ec2-54-65-18-140.ap-northeast-1.compute.amazonaws.com
-52.69.238.56 ec2-52-69-238-56.ap-northeast-1.compute.amazonaws.com
-52.68.10.147 ec2-52-68-10-147.ap-northeast-1.compute.amazonaws.com
-3.115.143.191 ec2-3-115-143-191.ap-northeast-1.compute.amazonaws.com
-18.182.84.254 ec2-18-182-84-254.ap-northeast-1.compute.amazonaws.com
-18.179.70.141 ec2-18-179-70-141.ap-northeast-1.compute.amazonaws.com
-54.92.65.17 ec2-54-92-65-17.ap-northeast-1.compute.amazonaws.com
-52.219.136.164 s3-website-ap-northeast-1.amazonaws.com
-18.181.114.132 ec2-18-181-114-132.ap-northeast-1.compute.amazonaws.com
-54.65.6.225 ec2-54-65-6-225.ap-northeast-1.compute.amazonaws.com
-13.231.60.22 ec2-13-231-60-22.ap-northeast-1.compute.amazonaws.com
-52.68.46.63 ec2-52-68-46-63.ap-northeast-1.compute.amazonaws.com
-54.168.144.173 ec2-54-168-144-173.ap-northeast-1.compute.amazonaws.com
-54.249.37.92 ec2-54-249-37-92.ap-northeast-1.compute.amazonaws.com
 
 # [hentai.cafe]
 104.25.23.115 hentai.cafe www.hentai.cafe
@@ -8198,9 +8175,38 @@
 64.188.56.172 tubestack.com www.tubestack.com
 
 # [hentai-foundry.com]
-142.44.146.192 www.hentai-foundry.com hentai-foundry.com
-162.251.61.54 img.hentai-foundry.com thumbs.hentai-foundry.com pictures.hentai-foundry.com avatars.hentai-foundry.com
-142.44.146.192 forums.hentai-foundry.com
+15.235.11.113 hentai-foundry.com
+15.235.11.113 www.hentai-foundry.com
+15.235.11.113 ns1.hentai-foundry.com
+158.69.187.60 ns2.hentai-foundry.com
+142.44.139.14 mx1.hentai-foundry.com
+142.44.139.14 mx2.hentai-foundry.com
+15.235.11.113 cdn.hentai-foundry.com
+162.251.61.54 thumbs.hentai-foundry.com
+62.212.85.200 thumbs.hentai-foundry.com
+62.212.85.200 thumbs1.hentai-foundry.com
+62.212.85.200 thumbs10.hentai-foundry.com
+62.212.85.200 thumbs13.hentai-foundry.com
+23.239.113.98 thumbs14.hentai-foundry.com
+23.239.113.98 thumbs15.hentai-foundry.com
+23.239.113.98 thumbs16.hentai-foundry.com
+209.58.139.42 thumbs17.hentai-foundry.com
+162.251.61.54 pictures.hentai-foundry.com
+62.212.85.200 pictures.hentai-foundry.com
+62.212.85.200 pictures1.hentai-foundry.com
+62.212.85.200 pictures10.hentai-foundry.com
+23.239.113.98 pictures14.hentai-foundry.com
+209.58.139.42 pictures17.hentai-foundry.com
+15.235.11.113 rc.hentai-foundry.com
+158.69.187.60 img.hentai-foundry.com
+62.212.85.200 img.hentai-foundry.com
+198.50.206.252 webmail.hentai-foundry.com
+162.251.61.54 profiles.hentai-foundry.com
+62.212.85.200 profiles.hentai-foundry.com
+15.235.11.113 forums.hentai-foundry.com
+162.251.61.54 avatars.hentai-foundry.com
+62.212.85.200 avatars.hentai-foundry.com
+158.69.187.62 dev.hentai-foundry.com
 
 # [subdesu-h.net]
 104.28.7.119 subdesu-h.net www.subdesu-h.net
