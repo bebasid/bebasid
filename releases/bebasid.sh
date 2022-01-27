@@ -102,7 +102,7 @@ bantuan(){
   echo "Apabila setelah pemasangan bebasid terjadi error DNS Not Resolved,"
   echo "Mohon untuk segera menggunakan fitur fix yang ada di menu"
   echo
-  echo "Copyright (c) 2020 BEBASID (under MIT License)"
+  echo "Copyright (c) "$(date +%Y)" BEBASID (under MIT License)"
   echo "by Komunitas Internet Netral Indonesia"
 }
 errorin(){
@@ -167,6 +167,8 @@ memulai_ulang_network(){
     OS=fedora
     elif [[ -e /etc/centos-release ]]; then
     OS=centos
+    elif [[ -e /etc/rockylinux-release ]]; then
+    OS=rockylinux
     elif [[ -e /etc/arch-release ]]; then
     OS=arch
     else
@@ -187,6 +189,9 @@ memulai_ulang_network(){
       sudo systemctl restart NetworkManager.service
       ;;
     "fedora")
+      sudo systemctl restart NetworkManager.service
+      ;;
+    "rockylinux")
       sudo systemctl restart NetworkManager.service
       ;;
     # ARCH DERIVATIVE
