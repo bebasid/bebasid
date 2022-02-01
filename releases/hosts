@@ -14186,12 +14186,18 @@
 18.66.180.95 api.binance.org
 18.66.139.15 dex-european.binance.org
 18.66.122.83 explorer.binance.org
-18.66.180.104 testnet-explorer.binance.org
+99.84.248.9 testnet-explorer.binance.org
 18.66.139.43 wallet.binance.org
-52.222.214.30 testnet.binance.org
+99.84.248.90 testnet.binance.org
 18.66.97.91 dex.binance.org
 52.222.214.96 testnet-dex.binance.org
 54.227.122.203 support.binance.org
+18.181.159.75 data-seed-prebsc-1-s1.binance.org
+52.31.163.228 data-seed-prebsc-1-s2.binance.org
+3.222.247.91 data-seed-prebsc-1-s3.binance.org
+54.249.72.114 data-seed-prebsc-2-s1.binance.org
+54.229.83.48 data-seed-prebsc-2-s2.binance.org
+3.217.23.67 data-seed-prebsc-2-s3.binance.org
 
 # [peacetv.tv]
 95.131.68.14 peacetv.tv www.peacetv.tv mail.peacetv.tv ftp.peacetv.tv
@@ -18665,3 +18671,25 @@
 195.201.117.97 usbprint.freeweb.hu
 195.201.117.97 www.usbprint.freeweb.hu
 217.65.97.109 stat.www.freeweb.hu
+
+# [hentaivideo.tube]
+178.132.2.137 hentaivideo.tube
+178.132.2.137 www.hentaivideo.tube
+
+# [letmejerk.com]
+104.26.12.114 letmejerk.com
+104.26.12.114 www.letmejerk.com
+172.67.68.168 0.letmejerk.com
+172.67.68.168 1.letmejerk.com
+172.67.68.168 2.letmejerk.com
+172.67.68.168 3.letmejerk.com
+172.67.68.168 cdn-static.letmejerk.com
+104.26.12.114 de.letmejerk.com
+104.26.12.114 mail.letmejerk.com
+172.67.68.168 nl.letmejerk.com
+104.26.13.114 in.letmejerk.com
+172.67.68.168 poster.letmejerk.com
+172.67.68.168 thumbs.letmejerk.com
+172.67.68.168 cdn-pics.letmejerk.com
+104.26.12.114 it.letmejerk.com
+172.67.68.168 stt.letmejerk.com
