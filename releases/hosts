@@ -18357,12 +18357,14 @@
 185.155.128.24 www.slimewave.com
 
 # [weakstreams.com]
-104.21.233.164 weakstreams.com
-104.21.233.164 www.weakstreams.com
 104.21.233.163 weakstreams.com
 104.21.233.163 www.weakstreams.com
+104.21.233.164 weakstreams.com
+104.21.233.164 www.weakstreams.com
 172.67.137.152 weakstreams.com
 172.67.137.152 www.weakstreams.com
+188.114.97.7 weakstreams.com
+188.114.97.7 www.weakstreams.com
 
 # [mangahub.io]
 172.67.68.41 mangahub.io
@@ -18824,3 +18826,239 @@
 # [ustvgo.tv]
 94.242.50.72 ustvgo.tv
 94.242.50.72 www.ustvgo.tv
+
+# [pasukankakek.fun]
+2.57.90.16 pasukankakek.fun
+2.57.90.16 www.pasukankakek.fun
+142.250.184.211 pasukankakek.fun
+142.250.184.211 www.pasukankakek.fun
+
+# [60fps.xyz]
+172.67.184.122 60fps.xyz
+172.67.184.122 www.60fps.xyz
+104.21.92.8 60fps.xyz
+104.21.92.8 www.60fps.xyz
+104.21.92.8 cpanel.60fps.xyz
+104.21.92.8 cpcalendars.60fps.xyz
+104.21.92.8 cpcontacts.60fps.xyz
+104.21.92.8 mail.60fps.xyz
+104.21.92.8 webdisk.60fps.xyz
+104.21.92.8 webmail.60fps.xyz
+
+# [bdnewszh.com]
+172.67.151.151 bdnewszh.com
+172.67.151.151 www.bdnewszh.com
+172.67.151.151 mail.bdnewszh.com
+172.67.151.151 api.bdnewszh.com
+172.67.151.151 www.api.bdnewszh.com
+172.67.151.151 cpanel.bdnewszh.com
+104.21.48.125 cpanel.bdnewszh.com
+172.67.151.151 cpcalendars.bdnewszh.com
+172.67.151.151 cpcontacts.bdnewszh.com
+172.67.151.151 webdisk.bdnewszh.com
+104.21.48.125 webdisk.bdnewszh.com
+172.67.151.151 webmail.bdnewszh.com
+104.21.48.125 webmail.bdnewszh.com
+172.67.151.151 ftp.bdnewszh.com
+172.67.151.151 pop.bdnewszh.com
+172.67.151.151 smtp.bdnewszh.com
+
+# [cr7soccer.club]
+192.64.117.118 cr7soccer.club
+192.64.117.118 www.cr7soccer.club
+
+# [cyfostreams.com]
+172.67.199.201 cyfostreams.com
+172.67.199.201 www.cyfostreams.com
+104.21.21.182 cyfostreams.com
+104.21.21.182 www.cyfostreams.com
+104.21.21.182 cpanel.cyfostreams.com
+104.21.21.182 cpcalendars.cyfostreams.com
+104.21.21.182 cpcontacts.cyfostreams.com
+104.21.21.182 mail.cyfostreams.com
+104.21.21.182 webdisk.cyfostreams.com
+104.21.21.182 webmail.cyfostreams.com
+
+# [dzeko11.net]
+35.227.151.78 dzeko11.net
+35.227.151.78 www.dzeko11.net
+35.227.151.78 api.dzeko11.net
+35.227.151.78 consol.dzeko11.net
+35.227.151.78 cpanel.dzeko11.net
+35.227.151.78 cpcalendars.dzeko11.net
+35.227.151.78 cpcontacts.dzeko11.net
+35.227.151.78 mail.dzeko11.net
+35.227.151.78 webdisk.dzeko11.net
+35.227.151.78 webmail.dzeko11.net
+35.227.151.78 v1.dzeko11.net
+35.227.151.78 www.v1.dzeko11.net
+35.227.151.78 novi.dzeko11.net
+35.227.151.78 www.novi.dzeko11.net
+
+# [elixx.xyz]
+104.21.69.54 elixx.xyz
+104.21.69.54 www.elixx.xyz
+172.67.204.232 elixx.xyz
+172.67.204.232 www.elixx.xyz
+
+# [freelive365.com]
+172.67.139.96 freelive365.com
+172.67.139.96 www.freelive365.com
+172.67.139.96 guide.freelive365.com
+172.67.139.96 stream.freelive365.com
+172.67.139.96 forum.freelive365.com
+172.67.139.96 vip.freelive365.com
+172.67.139.96 www.freelive365.com
+172.67.139.96 hot.freelive365.com
+172.67.139.96 test.freelive365.com
+
+# [iwizwig.online]
+162.0.235.140 iwizwig.online
+162.0.235.140 www.iwizwig.online
+162.0.235.140 testing.iwizwig.online
+162.0.235.140 www.testing.iwizwig.online
+162.0.235.140 mail.iwizwig.online
+
+# [matchtime.co]
+172.67.200.250 matchtime.co
+172.67.200.250 www.matchtime.co
+45.86.190.115 cdn.matchtime.co
+
+# [myoplay.club]
+172.64.160.17 myoplay.club
+172.64.160.17 www.myoplay.club
+104.21.235.56 myoplay.club
+104.21.235.56 www.myoplay.club
+172.64.161.17 myoplay.club
+172.64.161.17 www.myoplay.club
+172.64.161.17 forum.myoplay.club
+
+# [nflscoop.net]
+104.21.91.84 nflscoop.net
+104.21.91.84 www.nflscoop.net
+172.67.213.72 nflscoop.net
+172.67.213.72 www.nflscoop.net
+172.67.213.72 autodiscover.nflscoop.net
+172.67.213.72 cpanel.nflscoop.net
+172.67.213.72 cpcalendars.nflscoop.net
+172.67.213.72 cpcontacts.nflscoop.net
+172.67.213.72 mail.nflscoop.net
+172.67.213.72 webdisk.nflscoop.net
+172.67.213.72 webmail.nflscoop.net
+
+# [nizarstream.com]
+198.54.119.112 nba.nizarstream.com
+198.54.119.112 www.nba.nizarstream.com
+162.0.212.3 nizarstream.com
+162.0.212.3 www.nizarstream.com
+198.54.119.112 soccers.nizarstream.com
+198.54.119.112 www.soccers.nizarstream.com
+198.54.119.112 soccer.nizarstream.com
+198.54.119.112 www.soccer.nizarstream.com
+198.54.119.112 nizarstream.com
+198.54.119.112 tennis.nizarstream.com
+198.54.119.112 www.tennis.nizarstream.com
+198.54.119.112 ufc.nizarstream.com
+198.54.119.112 www.ufc.nizarstream.com
+198.54.119.112 mma.nizarstream.com
+198.54.119.112 www.mma.nizarstream.com
+198.54.119.112 motogp.nizarstream.com
+198.54.119.112 www.motogp.nizarstream.com
+198.54.119.112 nhl.nizarstream.com
+198.54.119.112 www.nhl.nizarstream.com
+198.54.119.112 mlb.nizarstream.com
+198.54.119.112 www.mlb.nizarstream.com
+198.54.119.112 nfl.nizarstream.com
+198.54.119.112 www.nfl.nizarstream.com
+198.54.119.112 www.nba.nizarstream.com
+198.54.119.112 live.nizarstream.com
+198.54.119.112 www.live.nizarstream.com
+198.54.119.112 cdn.nizarstream.com
+198.54.119.112 www.cdn.nizarstream.com
+198.54.119.112 formula1.nizarstream.com
+198.54.119.112 www.formula1.nizarstream.com
+198.54.119.112 boxing.nizarstream.com
+198.54.119.112 www.boxing.nizarstream.com
+
+# [pawastreams.live]
+104.21.4.230 pawastreams.live
+104.21.4.230 www.pawastreams.live
+172.67.132.148 pawastreams.live
+172.67.132.148 www.pawastreams.live
+172.67.132.148 kill.pawastreams.live
+172.67.132.148 flu.pawastreams.live
+
+# [poscitech.com]
+104.21.24.249 poscitech.com
+104.21.24.249 www.poscitech.com
+172.67.221.62 poscitech.com
+172.67.221.62 www.poscitech.com
+172.67.221.62 autodiscover.poscitech.com
+172.67.221.62 cpanel.poscitech.com
+172.67.221.62 cpcalendars.poscitech.com
+172.67.221.62 cpcontacts.poscitech.com
+172.67.221.62 mail.poscitech.com
+172.67.221.62 webdisk.poscitech.com
+172.67.221.62 webmail.poscitech.com
+172.67.221.62 ftp.poscitech.com
+172.67.221.62 sporetstream.poscitech.com
+172.67.221.62 www.sporetstream.poscitech.com
+172.67.221.62 hallmarkmoviesfree.poscitech.com
+172.67.221.62 www.hallmarkmoviesfree.poscitech.com
+172.67.221.62 gomoviezhd.poscitech.com
+172.67.221.62 www.gomoviezhd.poscitech.com
+172.67.221.62 putlocker4ufree.poscitech.com
+172.67.221.62 www.putlocker4ufree.poscitech.com
+172.67.221.62 5moviesfree.poscitech.com
+172.67.221.62 www.5moviesfree.poscitech.com
+
+# [soccer24hd.com]
+104.21.234.230 soccer24hd.com
+104.21.234.230 www.soccer24hd.com
+104.21.234.230 ww.soccer24hd.com
+104.21.234.231 embed.soccer24hd.com
+213.152.183.70 live.soccer24hd.com
+104.21.234.231 m.soccer24hd.com
+
+# [sportinglive.co]
+185.7.33.56 sportinglive.co
+185.7.33.56 www.sportinglive.co
+185.7.33.56 cpanel.sportinglive.co
+185.7.33.56 cpcalendars.sportinglive.co
+185.7.33.56 cpcontacts.sportinglive.co
+185.7.33.56 mail.sportinglive.co
+185.7.33.56 webdisk.sportinglive.co
+185.7.33.56 webmail.sportinglive.co
+
+# [sportsio.xyz]
+104.21.20.158 sportsio.xyz
+104.21.20.158 www.sportsio.xyz
+172.67.193.46 sportsio.xyz
+172.67.193.46 www.sportsio.xyz
+172.67.193.46 cpanel.sportsio.xyz
+172.67.193.46 cpcalendars.sportsio.xyz
+172.67.193.46 cpcontacts.sportsio.xyz
+172.67.193.46 mail.sportsio.xyz
+104.21.20.158 mail.sportsio.xyz
+104.21.20.158 webdisk.sportsio.xyz
+172.67.193.46 webdisk.sportsio.xyz
+172.67.193.46 webmail.sportsio.xyz
+104.21.20.158 webmail.sportsio.xyz
+
+# [streameast.one]
+216.239.36.21 streameast.one
+216.239.36.21 www.streameast.one
+
+# [techoreels.com]
+172.64.171.28 techoreels.com
+172.64.171.28 www.techoreels.com
+172.67.149.90 techoreels.com
+172.67.149.90 www.techoreels.com
+172.64.170.28 techoreels.com
+172.64.170.28 www.techoreels.com
+
+# [uhdstreams.club]
+104.21.20.201 uhdstreams.club
+104.21.20.201 www.uhdstreams.club
+172.67.194.97 uhdstreams.club
+172.67.194.97 www.uhdstreams.club
