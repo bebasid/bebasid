@@ -15351,10 +15351,13 @@
 194.233.84.231 mail.pusatporn18.com
 
 # [buffstreams.tv]
-45.178.6.100 buffstreams.tv
-199.189.27.78 www.buffstreams.tv
 45.178.6.78 buffstreams.tv
+45.178.6.78 www.buffstreams.tv
+45.178.6.100 buffstreams.tv
 45.178.6.100 www.buffstreams.tv
+199.189.27.78 buffstreams.tv
+199.189.27.78 www.buffstreams.tv
+45.178.6.78 my.buffstreams.tv
 
 # [openloadmov.net]
 172.67.140.27 openloadmov.net
