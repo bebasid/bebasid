@@ -7545,8 +7545,15 @@
 192.110.161.10 static1.e621.net
 
 # [doujins.com]
-185.72.157.185 doujins.com www.doujins.com
+185.72.157.185 doujins.com 
+185.72.157.185 www.doujins.com
+185.72.157.185 www5.doujins.com
+185.72.157.188 static.doujins.com
 199.195.199.28 static.doujins.com
+185.72.157.185 kibana.doujins.com
+185.72.157.185 admin.doujins.com
+185.72.157.185 beta.doujins.com
+185.72.157.185 es.doujins.com
 
 # [javdoe.com]
 104.18.39.249 javdoe.com www.javdoe.com
@@ -19118,3 +19125,16 @@
 172.67.171.10 www.ask4movie.io
 104.21.63.158 ask4movie.io
 104.21.63.158 www.ask4movie.io
+
+# [hentai0.com]
+185.72.157.33 hentai0.com
+185.72.157.33 www.hentai0.com
+185.72.157.33 m.hentai0.com
+185.72.157.33 static.hentai0.com
+
+# [camcam.cc]
+198.204.241.2 camcam.cc
+198.204.241.2 www.camcam.cc
+198.204.241.2 old.camcam.cc
+198.204.241.2 www.old.camcam.cc
+198.204.241.2 photos.camcam.cc
