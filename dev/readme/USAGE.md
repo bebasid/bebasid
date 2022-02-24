@@ -21,14 +21,14 @@ ipconfig /flushdns
 
 Salin file hosts dan paste di folder /etc kemudian restart HP.
 
-**Adaway**
+**AdAway**
 
 Alternatif (jika ingin install melewati aplikasi atau menambahkan list hosts lain)
 
 Install aplikasi [AdAway](https://f-droid.org/en/packages/org.adaway)
 
 ```
-https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.android
+https://sekedus.github.io/project/bebasid-adaway/hosts.txt
 ```
 
 Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
