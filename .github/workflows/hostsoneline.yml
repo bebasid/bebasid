@@ -10,8 +10,7 @@ jobs:
     - name: Get one line hosts data from source
       run: |
         cd releases
-        curl -s https://sekedus.github.io/project/bebasid-adaway/hosts.txt
-        mv hosts.txt hostsoneline
+        curl -o hostsoneline https://sekedus.github.io/project/bebasid-adaway/hosts.txt
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
