@@ -1,15 +1,16 @@
 name: Hostsoneline
 on:
   schedule:
-    - cron: '33 5 * * 3'
+    - cron: '41 5 * * 3'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - uses: szenius/set-timezone@v1.0
+    - name: Set local timezone to Indonesia
+      uses: szenius/set-timezone@v1.0
       with:
         timezoneLinux: "Asia/Indonesia"
+    - uses: actions/checkout@v1
     - name: Get one line hosts data from source
       run: |
         cd releases
