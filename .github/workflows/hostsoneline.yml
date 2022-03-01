@@ -1,4 +1,4 @@
-name: hostsoneline
+name: Hostsoneline
 on:
   schedule:
     - cron: '40 16 * * 2'
