@@ -1,7 +1,7 @@
 name: hostsoneline
 on:
   schedule:
-    - cron: '18 16 * * 2'
+    - cron: '40 16 * * 2'
 jobs:
   build:
     runs-on: ubuntu-latest
