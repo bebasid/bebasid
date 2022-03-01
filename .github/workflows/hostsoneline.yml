@@ -1,7 +1,7 @@
 name: Hostsoneline
 on:
   schedule:
-    - cron: '40 16 * * 2'
+    - cron: '32 16 * * 2'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,6 +11,11 @@ jobs:
       run: |
         cd releases
         curl -o hostsoneline https://sekedus.github.io/project/bebasid-adaway/hosts.txt
+        git config --global user.email "gvoze32@yahoo.com"
+        git config --global user.name "zksbot"
+        ls -l
+        git add hostsoneline
+        git commit -m "Update Hostsoneline"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
