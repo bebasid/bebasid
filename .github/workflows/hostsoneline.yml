@@ -1,7 +1,7 @@
 name: Hostsoneline
 on:
   schedule:
-    - cron: '41 5 * * 3'
+    - cron: '43 5 * * 3'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,7 +9,7 @@ jobs:
     - name: Set local timezone to Indonesia
       uses: szenius/set-timezone@v1.0
       with:
-        timezoneLinux: "Asia/Indonesia"
+        timezoneLinux: "Asia/Jakarta"
     - uses: actions/checkout@v1
     - name: Get one line hosts data from source
       run: |
