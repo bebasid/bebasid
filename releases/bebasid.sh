@@ -102,7 +102,7 @@ bantuan(){
   echo "Apabila setelah pemasangan bebasid terjadi error DNS Not Resolved,"
   echo "Mohon untuk segera menggunakan fitur fix yang ada di menu"
   echo
-  echo "Copyright (c) "$(date +%Y)" BEBASID (under MIT License)"
+  echo "Copyright (c) 2019-"$(date +%Y)" BEBASID (under MIT License)"
   echo "by Komunitas Internet Netral Indonesia"
 }
 errorin(){
