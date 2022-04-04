@@ -28,7 +28,7 @@ Alternatif (jika ingin install melewati aplikasi atau menambahkan list hosts lai
 Install aplikasi [AdAway](https://f-droid.org/en/packages/org.adaway)
 
 ```
-https://sekedus.github.io/project/bebasid-adaway/hosts.txt
+https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
 ```
 
 Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
