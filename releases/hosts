@@ -12608,7 +12608,8 @@
 94.23.219.194 work.nyafuu.org
 
 # [imgur.com]
-151.101.60.193 imgur.com
+199.232.192.193 imgur.com
+199.232.192.193 www.imgur.com
 151.101.112.193 0.imgur.com
 151.101.112.193 000000.imgur.com
 151.101.112.193 kylecrane1000.imgur.com
@@ -13120,10 +13121,10 @@
 151.101.112.193 sen.imgur.com
 151.101.112.193 sentry.imgur.com
 151.101.112.193 api.imgur.com
-151.101.112.193 i.imgur.com
+151.101.184.193 i.imgur.com
 151.101.208.193 m.imgur.com
 151.101.248.193 p.imgur.com
-151.101.248.193 s.imgur.com
+199.232.76.193 s.imgur.com
 52.6.144.53 browserevents.imgur.com
 50.17.225.53 rt.imgur.com
 151.101.112.193 store.imgur.com
@@ -13131,6 +13132,11 @@
 52.6.144.53 browserevents.imgur.com
 151.101.248.193 blog.imgur.com
 104.16.51.111 help.imgur.com
+167.89.42.222 o443.mail.welcome.imgur.com
+167.89.102.75 o621.mail.msg.imgur.com
+151.101.24.193 bak.imgur.com
+151.101.40.193 backup.imgur.com
+167.89.42.224 o442.mail.notifications.imgur.com
 
 # [kissmanga.com]
 104.25.45.113 kissmanga.com
