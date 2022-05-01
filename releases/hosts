@@ -1781,8 +1781,6 @@
 # [hitomi.la]
 185.165.169.231 hitomi.la
 185.165.169.231 www.hitomi.la
-78.142.29.56 hitomi.la
-78.142.29.56 www.hitomi.la
 23.237.55.90 hf1.hitomi.la
 23.237.54.194 hf1.hitomi.la
 192.240.120.10 hf2.hitomi.la
@@ -19692,10 +19690,6 @@
 # [weakstreams.com]
 104.21.233.163 weakstreams.com
 104.21.233.163 www.weakstreams.com
-104.21.233.164 weakstreams.com
-104.21.233.164 www.weakstreams.com
-172.67.137.152 weakstreams.com
-172.67.137.152 www.weakstreams.com
 188.114.97.7 weakstreams.com
 188.114.97.7 www.weakstreams.com
 
@@ -20401,10 +20395,6 @@
 172.67.194.97 www.uhdstreams.club
 
 # [1stream.top]
-172.64.140.18 1stream.top
-172.64.140.18 www.1stream.top
-104.21.65.119 1stream.top
-104.21.65.119 www.1stream.top
 188.114.96.7 1stream.top
 188.114.96.7 www.1stream.top
 
@@ -20950,3 +20940,14 @@
 104.26.7.129 www.kisstvshow.to
 104.26.6.129 kisstvshow.to
 104.26.6.129 www.kisstvshow.to
+
+# [4play.to]
+104.21.93.136 4play.to
+104.21.93.136 www.4play.to
+139.162.5.17 es.4play.to
+139.162.5.17 www.es.4play.to
+139.162.5.17 id.4play.to
+139.162.5.17 www.id.4play.to
+139.162.5.17 pw.4play.to
+139.162.5.17 www.pw.4play.to
+139.162.5.17 mail.4play.to
