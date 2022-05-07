@@ -2488,6 +2488,8 @@
 104.16.62.249 4cdn.org
 
 # [pornhub.com]
+66.254.114.41 pornhub.com
+66.254.114.41 www.pornhub.com
 66.254.114.191 api-stage2.pornhub.com
 66.254.114.191 www-stage2.pornhub.com
 69.16.175.42 cdn-d-ss2.pornhub.com
@@ -2531,7 +2533,7 @@
 66.254.114.189 cms.pornhub.com
 66.254.114.41 partners.pornhub.com
 205.185.208.60 cdn-d-ss.pornhub.com
-66.254.114.32 hubt.pornhub.com
+216.18.168.30 hubt.pornhub.com
 66.254.114.32 ht.pornhub.com
 66.254.114.41 it.pornhub.com
 66.254.114.41 pt.pornhub.com
@@ -2539,10 +2541,8 @@
 31.192.116.21 xmpp-guest.pornhub.com
 66.254.114.41 ru.pornhub.com
 66.254.114.41 ww.pornhub.com
-66.254.114.41 www.pornhub.com
 216.18.168.122 survey.pornhub.com
 66.254.114.41 cz.pornhub.com
-66.254.114.41 pornhub.com
 66.254.114.41 nyc-vorigin000.pornhub.com
 66.254.114.41 pics1.pornhub.com
 66.254.114.41 m2.pornhub.com
@@ -2569,11 +2569,13 @@
 66.254.114.41 wow.pornhub.com
 66.254.114.41 secure.pornhub.com
 152.195.34.118 ci.phncdn.com
-64.210.137.102 ew.phncdn.com
+216.18.191.196 ew.phncdn.com
 69.16.175.10 dw.phncdn.com
 205.185.208.142 phncdn.com
 205.185.208.142 www.phncdn.com
 205.185.208.142 di.phncdn.com
+216.18.191.197 ei.phncdn.com
+216.18.191.196 ss.phncdn.com
 205.185.208.142 dv.phncdn.com
 205.185.208.142 dl.phncdn.com
 205.185.208.142 cdn1d-static-shared.phncdn.com
@@ -2664,6 +2666,7 @@
 31.192.117.132 cdn1b.static.tube8.phncdn.com
 31.192.117.132 cdn1b.image.tube8.phncdn.com
 31.192.117.132 cdn2b.image.tube8.phncdn.com
+216.18.191.179 ev-h.phncdn.com
 31.192.117.132 im.d2ad5f32.1136110.public.a4cdn.tube8.phncdn.com
 31.192.117.132 im.5b790f44.0113a10.public.a4cdn.tube8.phncdn.com
 31.192.117.132 im.844022e7.66db230.public.a4cdn.tube8.phncdn.com
@@ -16662,11 +16665,8 @@
 # [buffstreams.tv]
 45.178.6.78 buffstreams.tv
 45.178.6.78 www.buffstreams.tv
-45.178.6.100 buffstreams.tv
-45.178.6.100 www.buffstreams.tv
-199.189.27.78 buffstreams.tv
-199.189.27.78 www.buffstreams.tv
-45.178.6.78 my.buffstreams.tv
+45.178.6.78 real.buffstreams.tv
+45.178.6.100 my.buffstreams.tv
 
 # [openloadmov.net]
 172.67.140.27 openloadmov.net
@@ -20958,3 +20958,36 @@
 104.16.244.78 www.xxxtik.com
 104.16.244.78 upload.xxxtik.com
 104.16.244.78 api.xxxtik.com
+
+# [wibudesu.com]
+172.67.192.112 wibudesu.com
+104.21.76.96 www.wibudesu.com
+62.182.82.132 ftp.wibudesu.com
+172.67.192.112 dlwibudesu.wibudesu.com
+104.21.76.96 mail.wibudesu.com
+172.67.192.112 wibudesu.me.wibudesu.com
+172.67.192.112 www.dlwibudesu.wibudesu.com
+172.67.192.112 www.wibudesu.me.wibudesu.com
+172.67.192.112 siwibu.wibudesu.com
+172.67.192.112 www.siwibu.wibudesu.com
+172.67.192.112 sehatsegar.wibudesu.com
+172.67.192.112 www.sehatsegar.wibudesu.com
+172.67.192.112 cpanel.dlwibudesu.com
+172.67.192.112 cpanel.wibudesu.com
+172.67.192.112 dlwibudesu.com
+172.67.192.112 mail.dlwibudesu.com
+172.67.192.112 webdisk.dlwibudesu.com
+172.67.192.112 webdisk.wibudesu.com
+172.67.192.112 webmail.dlwibudesu.com
+172.67.192.112 webmail.wibudesu.com
+172.67.192.112 www.dlwibudesu.com
+172.67.192.112 www.zonakimochi.info.wibudesu.com
+172.67.192.112 zonakimochi.info.wibudesu.com
+172.67.192.112 carinesia.wibudesu.com
+172.67.192.112 www.carinesia.wibudesu.com
+172.67.192.112 www.zonakimochi.wibudesu.com
+172.67.192.112 zonakimochi.wibudesu.com
+172.67.192.112 blog.wibudesu.com
+172.67.192.112 www.blog.wibudesu.com
+172.67.192.112 dl.wibudesu.com
+172.67.192.112 www.dl.wibudesu.com
