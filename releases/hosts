@@ -782,17 +782,13 @@
 209.197.3.84 hls-hw.xnxx-cdn.com
 
 # [reddit.com]
-151.101.1.140 reddit.com
-151.101.1.140 www.reddit.com
 151.101.193.140 reddit.com
 151.101.193.140 www.reddit.com
-151.101.249.140 reddit.com
-151.101.249.140 www.reddit.com
 151.101.1.140 np.reddit.com
 151.101.1.140 bt.reddit.com
 151.101.1.140 m.reddit.com
 151.101.1.140 nm.reddit.com
-151.101.1.140 api.reddit.com
+151.101.193.140 api.reddit.com
 151.101.1.140 e.reddit.com
 151.101.1.140 about.reddit.com
 151.101.1.140 st.reddit.com
@@ -11632,10 +11628,22 @@
 5.226.177.120 poker.bet365.com
 
 # [javcl.com]
-104.26.9.246 www.javcl.com
+104.26.9.246 javcl.com
+172.67.71.192 www.javcl.com
 104.26.9.246 cdn.javcl.com
-172.67.71.192 javcl.com
 172.67.71.192 hls.javcl.com
+
+# [javmovs.com]
+188.114.96.10 javmovs.com
+172.67.173.238 www.javmovs.com
+
+# [javhqd.com]
+172.67.185.88 javhqd.com
+172.67.185.88 www.javhqd.com
+
+# [javole.com]
+207.148.122.80 javole.com
+207.148.122.80 www.javole.com
 
 # [youav.com]
 104.27.130.127 youav.com
@@ -20996,3 +21004,8 @@
 172.67.146.60 webcamrips.com
 104.21.87.207 www.webcamrips.com
 172.67.179.62 mail.webcamrips.com
+
+# [flyfuk.com]
+104.21.60.27 flyfuk.com
+104.21.60.27 www.flyfuk.com
+51.89.192.48 cdn1.flyfuk.com
