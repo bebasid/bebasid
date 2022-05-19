@@ -7436,7 +7436,7 @@
 151.101.14.132 ssl.dlsite.com
 151.101.2.217 ssl.dlsite.com
 52.69.85.159 dream.dlsite.com
-3.113.168.55 ci-en.dlsite.com
+35.74.172.210 ci-en.dlsite.com
 52.219.16.104 trial.origin.dlsite.com
 52.219.136.164 trial.origin.dlsite.com
 18.179.224.5 www.origin.dlsite.com
@@ -7742,16 +7742,26 @@
 216.189.151.222 www.savido.net
 
 # [bakabt.me]
-104.28.18.24 bakabt.me
-104.28.18.24 www.bakabt.me
-104.21.2.173 bakabt.me
-104.21.2.173 www.bakabt.me
-91.218.112.57 tracker.bakabt.me
+188.114.97.10 bakabt.me
+188.114.97.10 www.bakabt.me
+217.23.4.109 srv03.bakabt.me
+188.114.97.10 june.bakabt.me
+188.114.97.10 blog.bakabt.me
+188.114.96.10 march.bakabt.me
+172.67.129.125 wiki.bakabt.me
+188.114.97.10 april.bakabt.me
+188.114.96.10 december.bakabt.me
+188.114.97.10 september.bakabt.me
+188.114.97.10 november.bakabt.me
+188.114.96.10 october.bakabt.me
 78.142.29.192 tracker.bakabt.me
-104.21.2.173 blog.bakabt.me
-104.21.2.173 wiki.bakabt.me
-104.21.2.173 forums.bakabt.me
-104.21.2.173 dev.bakabt.me
+172.67.129.125 forums.bakabt.me
+188.114.97.10 august.bakabt.me
+172.67.129.125 dev.bakabt.me
+188.114.97.10 may.bakabt.me
+188.114.97.10 july.bakabt.me
+188.114.96.10 january.bakabt.me
+188.114.97.10 february.bakabt.me
 
 # [javdude.com]
 104.25.141.104 javdude.com
@@ -11223,18 +11233,8 @@
 99.84.254.72 www.manyvids.com
 
 # [jav.guru]
-104.26.9.156 ns1.jav.guru
-104.26.8.156 www.jav.guru
-104.25.143.28 www.jav.guru
-104.26.8.156 jav.guru
-104.25.143.28 jav.guru
-104.25.142.28 static.jav.guru
-104.26.9.156 hentai.jav.guru
-104.25.142.28 mail.jav.guru
-104.26.9.156 testo.jav.guru
-104.25.142.28 server.jav.guru
-104.26.9.156 pics.jav.guru
-104.25.142.28 test.jav.guru
+172.67.71.187 jav.guru
+172.67.71.187 www.jav.guru
 
 # [javsts.com]
 172.67.134.127 cdn.javsts.com
