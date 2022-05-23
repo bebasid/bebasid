@@ -812,8 +812,8 @@
 151.101.129.140 blog.reddit.com
 151.101.129.140 4x.reddit.com
 151.101.1.140 chat.reddit.com
-151.101.201.140 mod.reddit.com
-151.101.201.140 accounts.reddit.com
+151.101.193.140 mod.reddit.com
+151.101.193.140 accounts.reddit.com
 151.101.53.140 v.redd.it
 151.101.53.140 s.reddit.com
 151.101.53.140 external-preview.redd.it
@@ -1445,8 +1445,7 @@
 34.236.168.19 diagnostics.redditmedia.com
 151.101.193.140 styles.redditmedia.com
 151.101.13.140 styles.redditmedia.com
-3.216.253.247 oops.redditmedia.com
-52.2.61.151 oops.redditmedia.com
+54.85.174.42 oops.redditmedia.com
 54.88.69.229 events.redditmedia.com
 54.88.69.229 www.events.redditmedia.com
 52.45.120.237 events.redditmedia.com
