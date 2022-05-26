@@ -2349,11 +2349,13 @@
 
 # [gelbooru.com]
 67.202.114.141 gelbooru.com
-67.202.114.141 www.gelbooru.com
-104.21.233.236 img1.gelbooru.com
-104.21.233.236 img2.gelbooru.com
-104.21.233.236 thumbs.gelbooru.com
-104.21.233.235 img3.gelbooru.com
+188.114.97.10 www.gelbooru.com
+188.114.97.10 img1.gelbooru.com
+67.202.114.141 img1b.gelbooru.com
+172.107.228.194 img3.gelbooru.com
+172.107.228.194 video-cdn3.gelbooru.com
+67.202.114.141 webm.gelbooru.com
+188.114.97.10 ja.gelbooru.com
 
 # [omegle.com]
 104.23.142.25 omegle.com
@@ -9203,7 +9205,7 @@
 89.233.106.186 webm.rule34.xxx
 209.58.190.226 hkwebm.rule34.xxx
 23.227.197.18 uswebm.rule34.xxx
-190.2.148.183 wwebm.rule34.xxx
+89.233.106.186 wwebm.rule34.xxx
 172.67.68.251 us.rule34.xxx
 5.178.68.126 dev.rule34.xxx
 104.26.1.234 www.rule34.xxx
