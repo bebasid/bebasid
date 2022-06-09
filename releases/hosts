@@ -1,5 +1,5 @@
 # BEBASID - Peduli Internet Netral
-# Halaman proyek: https://bebasid.github.io
+# Halaman proyek: https://bebasid.comc
 # Hosts ditulis oleh Komunitas Internet Netral
 # Dengan mengunduh BEBASID dan menggunakan aplikasi ini berarti menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut: https://github.com/bebasid/bebasid/blob/master/RULES.md
 
@@ -784,8 +784,7 @@
 209.197.3.84 hls-hw.xnxx-cdn.com
 
 # [reddit.com]
-151.101.193.140 reddit.com
-151.101.193.140 www.reddit.com
+199.232.45.140 reddit.com
 151.101.1.140 np.reddit.com
 151.101.1.140 bt.reddit.com
 151.101.1.140 m.reddit.com
