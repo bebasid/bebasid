@@ -12495,13 +12495,14 @@
 104.31.73.65 www.usagoals.video
 
 # [kshow123.net]
-104.27.150.41 kshow123.net
-104.27.150.41 www.kshow123.net
-104.27.150.41 icdn.kshow123.net
-104.27.150.41 api3.kshow123.net
-104.27.150.41 api.kshow123.net
-104.27.150.41 api2.kshow123.net
-104.27.150.41 load.kshow123.net
+172.67.214.134 kshow123.net
+172.67.214.134 www.kshow123.net
+104.21.78.19 api.kshow123.net
+104.21.78.19 api1.kshow123.net
+172.67.214.134 api2.kshow123.net
+172.67.214.134 api3.kshow123.net
+172.67.214.134 load.kshow123.net
+172.67.214.134 icdn.kshow123.net
 
 # [ashemaletube.com]
 213.174.148.157 ashemaletube.com
