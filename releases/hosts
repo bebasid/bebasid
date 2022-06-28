@@ -9593,10 +9593,15 @@
 64.111.208.101 www.belugacdn.com
 
 # [fakehub.com]
-216.18.168.76 fakehub.com
-216.18.168.76 www.fakehub.com
-64.210.135.70 static-ht.fakehubcontent.com
-64.210.135.70 ht.fakehubcontent.com
+66.254.114.234 fakehub.com
+66.254.114.234 www.fakehub.com
+208.99.90.244j mail.fakehub.com
+216.18.168.232 oin.fakehub.com
+208.99.90.244 server.fakehub.com
+207.246.147.250 cams.fakehub.com
+207.246.147.249 www.cams.fakehub.com
+6.254.114.161 support.fakehub.com
+204.8.234.212 live.fakehub.com
 
 # [twistys.com]
 216.18.168.69 twistys.com
