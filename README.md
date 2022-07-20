@@ -19,14 +19,16 @@
 - [Daftar Isi](#daftar-isi)
 - [bebasid](#bebasid)
   - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
-  - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
+  - [Antarmuka Pengguna Terminal (TUI) [In Development]](#antarmuka-pengguna-terminal-tui-in-development)
   - [Antarmuka Baris Perintah (CLI)](#antarmuka-baris-perintah-cli)
     - [Skrip Batch](#skrip-batch)
+  - [Lainnya](#lainnya)
   - [Kode Sumber](#kode-sumber)
 - [Cara Berkontribusi, Pertanyaan, atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
 - [Soal Sering Ditanya](#soal-sering-ditanya)
 - [Berdonasi](#berdonasi)
 - [Lisensi](#lisensi)
+- [Syarat & Ketentuan](#syarat--ketentuan)
 
 ---
 
@@ -40,11 +42,11 @@ Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/rel
 
 ![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/jutwCQb.png)
 
-### Antarmuka Pengguna Terminal (TUI)
+### Antarmuka Pengguna Terminal (TUI) [In Development]
 
-Anda dapat menggunakan aplikasi [Bebasin](https://github.com/bebasid/bebasin).
+Anda dapat mencoba aplikasi [Bebasin](https://github.com/mochidaz/bebasin) yang sedang dalam pengembangan.
 
-![Bebasin di Windows 10](https://i.imgur.com/reZApao.png)
+![Bebasin di Linux](https://i.imgur.com/qwHji4w.png)
 
 ### Antarmuka Baris Perintah (CLI)
 
