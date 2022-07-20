@@ -163,7 +163,7 @@
 127.0.0.1 www.x-tags.net
 127.0.0.1 x-tags.net
 127.0.0.1 aduankonten.id
-127.0.0.1 amanlabuh.aduankonten.id
+127.0.0.1 lamanlabuh.aduankonten.id
 
 # [Telkomsel]
 127.0.0.1 ads.telkomsel.com
@@ -21630,3 +21630,12 @@
 81.171.8.123 f1.cambro.tv
 46.165.211.16 dev.cambro.tv
 46.165.211.16 www.dev.cambro.tv
+
+# [c1ne.co]
+104.21.235.213 c1ne.co
+104.21.235.214 www.c1ne.co
+94.130.227.63 s3.c1ne.co
+5.161.53.191 s1.c1ne.co
+104.21.235.214 v1.c1ne.co
+46.101.134.84 s2.c1ne.co
+104.21.235.214 dev.c1ne.co
