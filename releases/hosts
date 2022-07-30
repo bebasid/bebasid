@@ -22160,3 +22160,21 @@
 23.75.238.160 steamcommunity.com
 23.75.236.251 www.steamcommunity.com
 23.213.161.85 cdn.steamcommunity.com
+
+# Steam Static [akamai.steamstatic.com/cloudflare.steamstatic.com]
+23.216.55.46 community.akamai.steamstatic.com
+23.216.55.62 community.akamai.steamstatic.com
+96.7.129.14 store.akamai.steamstatic.com
+96.7.129.23 store.akamai.steamstatic.com
+96.7.129.39 cdn.akamai.steamstatic.com
+96.7.129.35 cdn.akamai.steamstatic.com
+103.10.124.162 cm1-sgp1.cm.steampowered.com
+103.10.124.163 cm2-sgp1.cm.steampowered.com
+103.10.124.165 cm4-sgp1.cm.steampowered.com
+103.10.124.121 cm6-sgp1.cm.steampowered.com
+104.101.152.167 steam-chat.com
+23.9.92.219 steam-chat.com
+104.18.37.23 cdn.cloudflare.steamstatic.com store.cloudflare.steamstatic.com community.cloudflare.steamstatic.com
+172.64.150.233 cdn.cloudflare.steamstatic.com store.cloudflare.steamstatic.com community.cloudflare.steamstatic.com
+96.7.129.36 avatars.akamai.steamstatic.com
+96.7.129.15 avatars.akamai.steamstatic.com
