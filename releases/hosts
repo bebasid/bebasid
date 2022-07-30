@@ -22110,6 +22110,7 @@
 64.4.246.109 www.stage2d0061.stage.paypal.com
 
 # [steampowered.com]
+
 104.130.132.85 cafe.steampowered.com
 104.130.132.85 cafesupport.steampowered.com
 104.130.132.85 compliance.steampowered.com
@@ -22156,12 +22157,14 @@
 104.130.132.85 support.origin.steampowered.com
 
 # [steamcommunity.com]
+
 23.213.161.80 media.steamcommunity.com
 23.75.238.160 steamcommunity.com
 23.75.236.251 www.steamcommunity.com
 23.213.161.85 cdn.steamcommunity.com
 
 # [akamai.steamstatic.com/cloudflare.steamstatic.com]
+
 23.216.55.46 community.akamai.steamstatic.com
 23.216.55.62 community.akamai.steamstatic.com
 96.7.129.14 store.akamai.steamstatic.com
