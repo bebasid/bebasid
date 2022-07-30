@@ -22854,3 +22854,15 @@
 104.111.214.249 fc.qa.www.origin.com
 104.111.214.249 qa.www.origin.com
 72.32.53.22 stage.connect.origin.com
+
+# [yahoo.com]
+74.6.231.21 yahoo.com
+98.137.11.164 www.yahoo.com
+69.147.88.7 id.yahoo.com
+69.147.88.7 mail.yahoo.com
+69.147.88.8 messenger.yahoo.com
+98.137.11.163 in.yahoo.com
+74.6.231.20 my.yahoo.com
+74.6.231.21 us.yahoo.com
+69.147.88.7 es.yahoo.com
+69.147.88.8 uk.yahoo.com
