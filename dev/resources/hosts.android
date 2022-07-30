@@ -3561,3 +3561,14 @@
 89.187.185.163 apccdn.allporncomic.com
 172.64.130.13 www.allporncomic.com
 89.187.185.163 vidcdn.allporncomic.com
+
+# [store.steampowered.com steam.com cloudflare.steamstatic.com steamcommunity.com]
+43.129.23.233 steam.com www.steam.com
+23.220.112.114 store.steampowered.com
+172.64.150.233 store.cloudflare.steamstatic.com
+172.64.150.233 avatars.cloudflare.steamstatic.com
+172.64.150.233 cdn.cloudflare.steamstatic.com
+104.18.37.23 cdn.cloudflare.steamstatic.com
+104.18.37.23 avatars.cloudflare.steamstatic.com
+104.18.37.23 store.cloudflare.steamstatic.com
+104.105.229.19 steamcommunity.com
