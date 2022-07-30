@@ -22780,6 +22780,27 @@
 
 # [steampowered.com]
 
+104.101.153.239 steamcommunity.com api.steampowered.com help.steampowered.com
+23.3.84.108 store.steampowered.com
+104.18.42.33 support.steampowered.com
+172.64.145.223 support.steampowered.com
+104.101.152.167 steamgames.com steampowered.com
+23.216.55.46 community.akamai.steamstatic.com
+23.216.55.62 community.akamai.steamstatic.com
+96.7.129.14 store.akamai.steamstatic.com
+96.7.129.23 store.akamai.steamstatic.com
+96.7.129.39 cdn.akamai.steamstatic.com
+96.7.129.35 cdn.akamai.steamstatic.com
+103.10.124.162 cm1-sgp1.cm.steampowered.com
+103.10.124.163 cm2-sgp1.cm.steampowered.com
+103.10.124.165 cm4-sgp1.cm.steampowered.com
+103.10.124.121 cm6-sgp1.cm.steampowered.com
+104.101.152.167 steam-chat.com
+23.9.92.219 steam-chat.com
+104.18.37.23 cdn.cloudflare.steamstatic.com store.cloudflare.steamstatic.com community.cloudflare.steamstatic.com
+172.64.150.233 cdn.cloudflare.steamstatic.com store.cloudflare.steamstatic.com community.cloudflare.steamstatic.com
+96.7.129.36 avatars.akamai.steamstatic.com
+96.7.129.15 avatars.akamai.steamstatic.com
 104.130.132.85 cafe.steampowered.com
 104.130.132.85 cafesupport.steampowered.com
 104.130.132.85 compliance.steampowered.com
@@ -22788,8 +22809,6 @@
 104.130.132.85 link.steampowered.com
 104.130.132.85 steamvr.steampowered.com
 104.130.132.85 storehelp.steampowered.com
-104.18.42.33 support.steampowered.com
-23.35.228.101 store.steampowered.com
 208.64.202.52 smtp-10-tuk1.steampowered.com
 208.64.202.36 smtp.steampowered.com
 208.64.202.40 steammail.steampowered.com
@@ -22806,8 +22825,6 @@
 208.64.202.55 smtp-11-tuk1.steampowered.com
 193.108.153.14 media.steampowered.com
 23.75.238.160 api.steampowered.com
-23.75.238.160 help.steampowered.com
-23.75.236.251 steampowered.com
 23.75.236.251 storefront.steampowered.com
 23.75.236.251 www.steampowered.com
 104.111.240.72 partner.steampowered.com
