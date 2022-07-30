@@ -75,13 +75,15 @@ Title BEBASID ^> %~nx0
 	echo.
 	setlocal
 	for /f "tokens=4-5 delims=. " %%i in ('ver') do set VERSION=%%i.%%j
-	timeout 1 >nul &&  if "%version%" == "10.0" echo ===================================== && echo Sistem terdeteksi memakai Windows 10 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
-	timeout 1 >nul &&  if "%version%" == "6.3" echo ===================================== && echo Sistem terdeteksi memakai Windows 8.1 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
-	timeout 1 >nul &&  if "%version%" == "6.2" echo ===================================== && echo Sistem terdeteksi memakai Windows 8 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
-	timeout 1 >nul &&  if "%version%" == "6.1" echo ===================================== && echo Sistem terdeteksi memakai Windows 7 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
-	timeout 1 >nul && if "%version%" == "6.0" echo ===================================== && echo Sistem terdeteksi memakai Windows Vista && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
-	timeout 1 >nul && if "%version%" == "5.2" echo ===================================== && echo Sistem terdeteksi memakai Windows XP x64 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
-	timeout 1 >nul && if "%version%" == "5.1" echo ===================================== && echo Sistem terdeteksi memakai Windows XP && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	for /f "tokens=4-7 delims=. " %%i in ('ver') do set VERSIONTEN=%%k
+	timeout 1 >nul &&  if "%versionten%" geq "2200" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 11 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul &&  if "%versionten%" lss "2200" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 10 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul &&  if "%version%" == "6.3" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 8.1 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul &&  if "%version%" == "6.2" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 8 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul &&  if "%version%" == "6.1" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows 7 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul && if "%version%" == "6.0" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows Vista && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul && if "%version%" == "5.2" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows XP x64 && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
+	timeout 1 >nul && if "%version%" == "5.1" echo ===================================== && echo Sistem operasi terdeteksi memakai Windows XP && echo ===================================== && echo. && echo Mohon tunggu sebentar, bebasid sedang menyiapkan bahan yang diperlukan . . . .
 	rem etc etc
 	GOTO TANYA
 )
@@ -90,15 +92,24 @@ Title BEBASID ^> %~nx0
 	cls
 	call :BANNER
 	echo.
-	echo [#] Proses pemeriksaan selesai, device kamu terhubung dengan internet
+	echo ===========================================================================
 	echo.
-	if "%version%" == "10.0" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 10
-	if "%version%" == "6.3" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 8.1
-	if "%version%" == "6.2" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 8
-	if "%version%" == "6.1" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows 7
-	if "%version%" == "6.0" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows Vista
-	if "%version%" == "5.2" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows XP x64
-	if "%version%" == "5.1" echo [#] Sistem yang ada pada device kamu terdeteksi memakai Windows XP
+	echo ===INFORMASI PERANGKAT===
+	echo.
+	echo [#] Proses pemeriksaan selesai, perangkat kamu terhubung dengan internet
+	echo.
+	if "%versionten%" geq "2200" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 11
+	if "%versionten%" lss "2200" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 10
+	if "%version%" == "6.3" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8.1
+	if "%version%" == "6.2" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 8
+	if "%version%" == "6.1" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows 7
+	if "%version%" == "6.0" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows Vista
+	if "%version%" == "5.2" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows XP x64
+	if "%version%" == "5.1" echo [#] Sistem operasi yang ada pada perangkat kamu terdeteksi memakai Windows XP
+	echo.
+	echo ===========================================================================
+	echo.
+	echo ===PERSETUJUAN===
 	echo.
 	echo [#] Dengan melanjutkan berarti secara langsung dan tidak langsung, kamu menyetujui apa yang ada di syarat dan ketentuan
 	echo.
@@ -106,21 +117,7 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo ===========================================================================
 	echo.
-	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
-	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
-	echo [#] bebasid telah terpasang dan menggunakan mode NSFW [Tekan Y untuk merubah ke SFW]
-	) || (
-	echo [#] bebasid telah terpasang dan menggunakan mode SFW [Tekan D untuk merubah ke NSFW]
-	)
-	) || (
-	echo [#] bebasid belum terinstall
-	)
-	echo.
-	echo ===========================================================================
-	echo.
-	echo [!] Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
-	echo.
-	echo ===========================================================================
+	echo ===PERINTAH===
 	echo.
 	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
 	echo [=] Tekan tombol keyboard [Y] kemudian [Enter] untuk membarui hosts
@@ -130,19 +127,37 @@ Title BEBASID ^> %~nx0
 	echo.
 	echo [=] Tekan tombol keyboard [N] kemudian [Enter] jika ingin membatalkan dan keluar
 	echo.
-	echo [=] Tekan tombol keyboard [D] kemudian [Enter] jika ingin memasang/mengganti ke hosts versi penuh
+	echo ===========================================================================
+	echo.
+	echo ===STATUS===
+	echo.
+	>nul findstr /c:"bebasid" C:\Windows\System32\Drivers\etc\hosts && (
+	>nul findstr /c:"pornhub" C:\Windows\System32\Drivers\etc\hosts && (
+	echo [#] bebasid telah terpasang dan menggunakan mode NSFW [Tekan E untuk merubah ke SFW]
+	) || (
+	echo [#] bebasid telah terpasang dan menggunakan mode SFW [Tekan D untuk merubah ke NSFW]
+	)
+	) || (
+	echo [#] bebasid belum terinstall
+	)
 	echo.
 	echo ===========================================================================
 	echo.
-	echo [#] Yakin ingin melanjutkan?
+	echo ===PERINTAH LAIN===
+	echo [!] Tekan tombol keyboard [W], kemudian [Enter] jika ingin mengembalikan hosts ke default
+	echo.
+	echo ===========================================================================
+	echo.
+	echo [#] Pilih perintah:
 	echo.
 )
 
 :KONFIRMASI (
-	SET /P yakin=[Y/N/D/W]? 
+	SET /P yakin=[Y/N/D/E/W]? 
 	IF /I "%yakin%" EQU "Y" GOTO YAKIN
 	IF /I "%yakin%" EQU "N" GOTO TIDAK
 	IF /I "%yakin%" EQU "D" GOTO PENUH
+	IF /I "%yakin%" EQU "E" GOTO LITE
 	IF /I "%yakin%" EQU "W" GOTO RESTORE
 	GOTO KONFIRMASI
 )
@@ -240,6 +255,34 @@ Title BEBASID ^> %~nx0
 
 :PENUH2 (
 	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts', 'hosts')"
+	exit /b 0
+)
+
+:LITE (
+	if "%version%" == "10.0" call :LITE3
+	IF "%version%" == "6.3" call :LITE3
+	IF "%version%" == "6.2" call :LITE3
+	if "%version%" == "6.1" call :LITE2
+	IF "%version%" == "6.0" call :LITE2
+	IF "%version%" == "5.2" call :LITE2
+	IF "%version%" == "5.1" call :LITE2
+	call :FLUSH
+	cls
+	call :BANNER
+	echo BEBASID telah berhasil terpasang
+	echo.
+	echo Tekan tombol apa saja untuk keluar
+	pause >nul
+	exit
+)
+
+:LITE3 (
+	powershell -command "Invoke-WebRequest 'https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw' -OutFile 'hosts'"
+	exit /b 0
+)
+
+:LITE2 (
+	powershell -command "(new-object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw', 'hosts')"
 	exit /b 0
 )
 
