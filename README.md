@@ -36,13 +36,13 @@
 
 bebasid dapat membantu membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
 
-### Antarmuka Pengguna Grafis (GUI)
+### Antarmuka Pengguna Grafis (GUI) [Dalam Pengembangan]
 
-Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0) untuk instalasi hosts bebasid.
+Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1) yang sedang dalam pengembangan untuk instalasi hosts bebasid.
 
-![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/jutwCQb.png)
+![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/Bcq0rgm.png)
 
-### Antarmuka Pengguna Terminal (TUI) [In Development]
+### Antarmuka Pengguna Terminal (TUI) [Dalam Pengembangan]
 
 Anda dapat mencoba aplikasi [Bebasin](https://github.com/mochidaz/bebasin) yang sedang dalam pengembangan.
 
@@ -52,7 +52,7 @@ Anda dapat mencoba aplikasi [Bebasin](https://github.com/mochidaz/bebasin) yang 
 
 #### Skrip Batch
 
-Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0).
+Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1).
 
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
 
