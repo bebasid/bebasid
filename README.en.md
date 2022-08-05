@@ -36,21 +36,21 @@ bebasid helps you to access restricted content that are blocked by using [_hosts
 
 ### Graphical User Interface (GUI)
 
-You can use [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.0) to simplify bebasid's hosts installaton.
+You can use [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1) to simplify bebasid's hosts installaton.
 
-![bebasid running on Windows 10](https://i.imgur.com/jutwCQb.png)
+![bebasid running on Windows 10](https://i.imgur.com/Bcq0rgm.png)
 
 ### Terminal User Interface (TUI)
 
-If you want to use Terminal User Interface, checkout bebasin [here](https://github.com/bebasid/bebasin/blob/master/README.en.md).
+If you want to use Terminal User Interface, checkout bebasin [here](https://github.com/mochidaz/bebasin).
 
-![Bebasin in Windows 10](https://i.imgur.com/reZApao.png)
+![Bebasin on Linux](https://i.imgur.com/qwHji4w.png)
 
 ### Command Line Interface (CLI)
 
 #### Batch Script
 
-You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.0) app.
+You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.1) app.
 
 ![bebasid.bat running on Windows 10](https://i.imgur.com/CrnySId.png)
 
