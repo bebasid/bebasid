@@ -18,10 +18,9 @@
 
 - [Table of Content](#table-of-content)
 - [bebasid](#bebasid)
-  - [Graphical User Interface (GUI)](#graphical-user-interface-tui)
+  - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
-    - [Batch Script](#batch-script)
   - [Source Code](#source-code)
 - [Contributing, Question and Request](#contributing-question-and-request)
 - [Frequently Asked Question](#frequently-asked-question)
@@ -47,8 +46,6 @@ If you want to use Terminal User Interface, checkout bebasin [here](https://gith
 ![Bebasin on Linux](https://i.imgur.com/qwHji4w.png)
 
 ### Command Line Interface (CLI)
-
-#### Batch Script
 
 You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.1) app.
 
