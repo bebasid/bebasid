@@ -13,7 +13,7 @@ ipconfig /renew
 ipconfig /flushdns
 ```
 
-## Android (Uji Coba)
+## Android
 
 ### Root
 
