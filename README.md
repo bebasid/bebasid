@@ -19,9 +19,8 @@
 - [Daftar Isi](#daftar-isi)
 - [bebasid](#bebasid)
   - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
-  - [Antarmuka Pengguna Terminal (TUI) [In Development]](#antarmuka-pengguna-terminal-tui-in-development)
+  - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
   - [Antarmuka Baris Perintah (CLI)](#antarmuka-baris-perintah-cli)
-    - [Skrip Batch](#skrip-batch)
   - [Lainnya](#lainnya)
   - [Kode Sumber](#kode-sumber)
 - [Cara Berkontribusi, Pertanyaan, atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
@@ -36,21 +35,19 @@
 
 bebasid dapat membantu membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
 
-### Antarmuka Pengguna Grafis (GUI) [Dalam Pengembangan]
+### Antarmuka Pengguna Grafis (GUI)
 
-Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1) yang sedang dalam pengembangan untuk instalasi hosts bebasid.
+Anda dapat menggunakan aplikasi [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1) untuk instalasi hosts bebasid.
 
 ![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/Bcq0rgm.png)
 
-### Antarmuka Pengguna Terminal (TUI) [Dalam Pengembangan]
+### Antarmuka Pengguna Terminal (TUI)
 
 Anda dapat mencoba aplikasi [Bebasin](https://github.com/mochidaz/bebasin) yang sedang dalam pengembangan.
 
 ![Bebasin di Linux](https://i.imgur.com/qwHji4w.png)
 
 ### Antarmuka Baris Perintah (CLI)
-
-#### Skrip Batch
 
 Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1).
 
