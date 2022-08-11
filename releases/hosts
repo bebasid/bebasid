@@ -5808,7 +5808,7 @@
 157.112.93.16 recruit.dmm.com
 202.6.247.195 dlsoft.dmm.com
 147.75.95.76 display.dmm.com
-54.192.150.129 book.dmm.com
+18.65.25.29 book.dmm.com
 157.112.86.108 affiliate.dmm.com
 13.224.174.32 mvno.dmm.com
 65.8.158.88 stat.i3.dmm.com
@@ -23801,3 +23801,28 @@
 # [junmeitu.com]
 104.21.42.194 junmeitu.com
 104.21.42.194 www.junmeitu.com
+
+# [momswap.com]
+172.64.149.11 momswap.com
+172.64.149.11 www.momswap.com
+104.26.9.239 join.momswap.com
+104.26.9.239 members.momswap.com
+
+# [shoplyfter.com]
+172.64.145.249 shoplyfter.com
+172.64.145.249 www.shoplyfter.com
+104.27.207.92 m.shoplyfter.com
+104.18.42.7 join.shoplyfter.com
+104.27.207.92 members.shoplyfter.com
+104.18.42.7 old.members.shoplyfter.com
+104.18.42.7 stage.members.shoplyfter.com
+
+# [shoplyftermylf.com]
+104.26.5.240 shoplyftermylf.com
+104.26.5.240 www.shoplyftermylf.com
+172.67.73.41 join.shoplyftermylf.com
+172.67.73.41 members.shoplyftermylf.com
+
+# [craigslist.org]
+208.82.238.130 jakarta.craigslist.org
+208.82.238.130 www.jakarta.craigslist.org
