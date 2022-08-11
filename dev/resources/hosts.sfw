@@ -1,7 +1,7 @@
 # BEBASID - Peduli Internet Netral (Safe for Work)
 # Halaman proyek: https://bebasid.github.io
 # Hosts ditulis oleh Komunitas Internet Netral
-# Dengan mengunduh BEBASID dan menggunakan aplikasi ini berarti menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut: https://github.com/bebasid/bebasid/blob/master/RULES.md
+# Dengan mengunduh BEBASID dan menggunakan aplikasi ini berarti menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut: https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md
 
 # Optional
 # Hapus '# ' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
@@ -413,12 +413,12 @@
 185.37.100.119 ns3.rarbg.to
 185.37.100.119 ns4.rarbg.to
 
-# [rarbg.me]	
+# [rarbg.me]
 151.80.120.115 9.rarbg.me
 
 # [1337x.to]
-104.31.89.65 1337x.to 
-104.31.89.65 www.1337x.to 
+104.31.89.65 1337x.to
+104.31.89.65 www.1337x.to
 198.134.112.244 ssa.1337x.to
 104.31.89.65 chat.1337x.to
 104.31.88.65 cdn.1337x.to
