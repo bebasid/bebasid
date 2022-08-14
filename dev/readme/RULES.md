@@ -54,7 +54,7 @@ Proyek ini dibuat berdasarkan pada dukungan internet netral di Indonesia. Lebih 
 
 [8] Edi Wahyudi. (01/05/2018). [Mengenal Net Neutrality Sebagai Solusi Pemerataan Akses Internet](https://www.lampost.co/berita-mengenal-net-neutrality-sebagai-solusi-pemerataan-akses-internet.html).
 
-[9] Alnick Nathan. (01/24/2018). [Netralitas Internet dan Pertentangannya](http://www.balairungpress.com/2018/01/netralitas-internet-dan-pertentangannya/).
+[9] Alnick Nathan. (01/24/2018). [Netralitas Internet dan Pertentangannya](https://www.balairungpress.com/2018/01/netralitas-internet-dan-pertentangannya/).
 
 [10] Dodi Irawan. (03/26/2019). [Pengaruh Net Neutrality Terhadap Tarif Internet di Indonesia](https://groovy.id/pengaruh-net-neutrality-terhadap-tarif-internet-di-indonesia/60/).
 
@@ -72,7 +72,7 @@ Proyek ini dibuat berdasarkan pada dukungan internet netral di Indonesia. Lebih 
 
 [17] Insaf Albert Tarigan. (02/18/2016). [XL Menolak Prinsip Netralitas Internet](https://www.medcom.id/teknologi/news-teknologi/wkBRv9gk-xl-menolak-prinsip-netralitas-internet).
 
-[18] sosiotalk. (01/05/2018). [Net Neutrality: Tinjauan Sosiologis tentang Netralitas Internet](http://sosiologis.com/net-neutrality).
+[18] sosiotalk. (01/05/2018). [Net Neutrality: Tinjauan Sosiologis tentang Netralitas Internet](https://sosiologis.com/net-neutrality).
 
 [19] Arnold Djiwatampu. (12/30/2015). [Netralitas Jaringan (Net Neutrality)](https://mastel.id/forums/topic/netralitas-jaringan-net-neutrality/78/).
 
