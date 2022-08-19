@@ -15104,20 +15104,16 @@
 104.21.235.103 cdn4.manhwa18.net
 
 # [toonily.com]
-104.26.13.191 cdn.toonily.com
-104.26.12.191 cdn.toonily.com
-104.26.13.191 www.toonily.com
-104.26.12.191 www.toonily.com
-172.67.72.131 www.toonily.com
-104.26.13.191 toonily.com
-172.67.72.131 toonily.com
 104.26.12.191 toonily.com
-159.89.98.98 status.toonily.com
-104.26.12.191 cdn3.toonily.com
-159.89.98.98 ad.toonily.com
-104.26.12.191 cdn2.toonily.com
+172.67.72.131 www.toonily.com
+172.67.72.131 cdn.toonily.com
+172.67.72.131 origin.toonily.com
+172.67.72.131 status.toonily.com
+172.67.72.131 cdn3.toonily.com
+172.67.72.131 ad.toonily.com
+172.67.72.131 cdn2.toonily.com
 172.67.72.131 pnl.toonily.com
-159.89.98.98 webmail.toonily.com
+172.67.72.131 webmail.toonily.com
 172.67.72.131 t3h3.toonily.com
 
 # [yespornplease.to]
