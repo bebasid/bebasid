@@ -8964,15 +8964,25 @@
 96.127.179.210 spro4.fcomet.com
 
 # [f95zone.to]
-104.26.6.12 f95zone.to
-104.26.6.12 www.f95zone.to
-104.26.6.12 static.f95zone.to
-104.26.6.12 attachments.f95zone.to
+190.115.31.182 f95zone.to
+190.115.31.182 www.f95zone.to
+104.21.34.109 dev.f95zone.to
+190.115.31.182 static.f95zone.to
+107.189.12.110 attachments-void.f95zone.to
+172.67.159.164 discord.f95zone.to
+5.180.211.202 eu01.storage.f95zone.to
+205.178.182.34 attachments.f95zone.to
+172.67.159.164 status.f95zone.to
+172.67.159.164 heartbeat.f95zone.to
+190.115.31.182 preview.f95zone.to
+216.18.219.43 s1-iray.f95zone.to
 
 # [e621.net]
-104.24.10.70 e621.net
-104.24.10.70 www.e621.net
-192.110.161.10 static1.e621.net
+104.26.5.231 e621.net
+172.67.70.38 www.e621.net
+172.67.70.38 static1.e621.net
+172.67.70.38 app1.e621.net
+172.67.70.38 app2.e621.net
 
 # [doujins.com]
 185.72.157.185 doujins.com
