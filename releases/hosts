@@ -6,7 +6,7 @@
 # Optional
 # Hapus '#' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
 
-# [Matikan fitur SafeSearch Google dan Youtube]
+# Matikan fitur SafeSearch Google dan Youtube
 # 216.58.211.3 google.com
 # 216.58.211.3 www.google.com
 # 216.58.211.3 google.co.id
@@ -14,6 +14,7 @@
 # 127.0.0.1 forcesafesearch.google.com
 # 127.0.0.1 restrict.youtube.com
 
+# localhost
 # [MacOS localhost]
 # 127.0.0.1 localhost
 # 255.255.255.255 broadcasthost
@@ -32,80 +33,11 @@
 # 127.0.0.1 localhost
 # ::1 ip6-localhost
 
-# Windows tidak perlu adanya tambahan pada hosts
+# [Windows localhost]
 
 # DoH / DNS
 
-# [DNSlify]
-185.235.80.5 chronograf.dnslify.com
-2002:b9eb:5005:0:0:0:0:0 chronograf.dnslify.com
-185.235.81.1 doh.dnslify.com
-2a0d:4d00:81::1 doh.dnslify.com
-185.235.81.1 resolver1.ns.dnslify.net
-2a0d:4d00:81::1 resolver1.ns.dnslify.net
-185.235.81.13 auth3.ns.dnslify.com
-2002:b9eb:510d:0:0:0:0:0 auth3.ns.dnslify.com
-185.235.81.1 one.ns.dnslify.com
-2a0d:4d00:81::1 one.ns.dnslify.com
-185.235.81.0 zero.ns.dnslify.com
-2002:b9eb:5100:0:0:0:0:0 zero.ns.dnslify.com
-104.21.3.186 stats.dnslify.com
-2002:6815:03ba:0:0:0:0:0 stats.dnslify.com
-104.21.3.186 www.dnslify.com
-2002:6815:03ba:0:0:0:0:0 www.dnslify.com
-104.21.3.186 dnslify.com
-2002:6815:03ba:0:0:0:0:0 dnslify.com
-
-# [Cloudflare]
-104.16.248.249 28mozilla.cloudflare-dns.com
-104.16.248.249 0.cloudflare-dns.com
-104.18.47.232 stackpathdns.net.cloudflare-dns.com
-104.16.249.249 mozill.cloudflare-dns.com
-1.0.0.1 1dot1dot1dot1.cloudflare-dns.com
-172.64.156.24 one.one.one.cloudflare-dns.com
-104.16.249.249 comchrome.cloudflare-dns.com
-104.16.249.249 qamozilla.cloudflare-dns.com
-104.16.249.249 maroc.cloudflare-dns.com
-104.16.249.249 main.cloudflare-dns.com
-104.16.248.249 ns8.cloudflare-dns.com
-104.16.249.249 commozilla.cloudflare-dns.com
-104.16.249.249 muzeipixivsource.cloudflare-dns.com
-104.16.248.249 two.cloudflare-dns.com
-104.16.248.249 cloudflare.cloudflare-dns.com
-104.16.248.249 connectmozilla.cloudflare-dns.com
-104.16.249.249 anonmask.cloudflare-dns.com
-104.16.248.249 dot1dot1dot1.cloudflare-dns.com
-104.18.47.232 algin.ns.cloudflare-dns.com
-104.16.248.249 de.cloudflare-dns.com
-86.109.1.91 proxy.odoh.cloudflare-dns.com
-104.16.248.249 1001.cloudflare-dns.com
-1.0.0.1 1dot1dot1dot1.cloudflare-dns.com
-1.0.0.3 family.cloudflare-dns.com
-104.16.249.249 1.cloudflare-dns.com
-172.64.144.73 opera.cloudflare-dns.com
-162.159.1.33 ns2.cloudflare-dns.com
-104.16.248.249 1dot0dot0dot1.cloudflare-dns.com
-104.18.42.171 chrome.cloudflare-dns.com
-104.19.216.50 azure.cloudflare-dns.com
-104.16.248.249 1111.cloudflare-dns.com
-104.16.248.249 odoh.cloudflare-dns.com
-104.16.248.249 mozilla.cloudflare-dns.com
-104.18.47.232 1.1.1.1.cloudflare-dns.com
-1.0.0.2 security.cloudflare-dns.com
-104.16.248.249 www.cloudflare-dns.com
-162.159.2.9 ns3.cloudflare-dns.com
-147.75.197.193 proxy-ny.odoh.cloudflare-dns.com
-104.16.249.249 bc81c677f335277f324c3ce13a.cloudflare-dns.com
-172.64.156.24 1.0.0.1.cloudflare-dns.com
-104.18.47.232 0.1.cloudflare-dns.com
-162.159.0.33 ns1.cloudflare-dns.com
-172.64.156.24 1.1.cloudflare-dns.com
-104.16.249.249 niverkox.cloudflare-dns.com
-104.18.152.237 tor.cloudflare-dns.com
-104.16.249.249 cloudflare-dns.com
-
-# Blokir Trackers
-
+# Blokir Pelacak
 # [Indihome]
 127.0.0.1 a01.uadexchange.com
 127.0.0.1 a02.uadexchange.com
