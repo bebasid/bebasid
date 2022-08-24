@@ -2,7 +2,7 @@
 name: Laporkan Bug
 about: Laporkan bug mengenai situs.
 title: '[BUG] example.com'
-labels: 'bug'
+labels: 'bug, sites'
 assignees: 'nxzlem'
 
 ---
