@@ -5438,7 +5438,7 @@
 157.112.86.107 ip.affiliate.dmm.com
 104.71.84.221 dev.fx.dmm.com
 104.74.56.20 trade.kabu.dmm.com
-104.74.34.244 kabu.dmm.com
+104.69.174.77 kabu.dmm.com
 54.192.150.19 stg.digstatic.dmm.com
 52.68.177.65 dev.kakunin.dmm.com
 3.113.171.182 a.mvno.dmm.com
@@ -5457,7 +5457,7 @@
 52.193.240.129 pre-admin-wsdgp.games.dmm.com
 13.231.34.2 pre-api-wsdgp.games.dmm.com
 104.74.56.13 press.bitcoin.dmm.com
-104.74.62.247 bitcoin.dmm.com
+104.122.22.151 bitcoin.dmm.com
 13.224.174.87 dev.api-mission.games.dmm.com
 13.224.174.102 stg.review.dmm.com
 13.35.138.72 dev.review.dmm.com
@@ -5626,7 +5626,7 @@
 133.18.209.205 1466344891.fintech.dmm.com
 52.198.205.33 reviewapis-alb.dmm.com
 153.153.176.211 mp.hikari.dmm.com
-104.74.58.32 banusy.dmm.com
+104.71.35.179 banusy.dmm.com
 52.194.122.224 pachinko-netgame.dmm.com
 13.35.138.58 stg.special.dmm.com
 13.224.174.117 stg-admin.special.dmm.com
@@ -5730,22 +5730,24 @@
 13.35.138.96 lounge.dmm.com
 202.6.245.205 kouenirai.dmm.com
 157.112.92.101 p-town.dmm.com
-104.74.55.154 fx.dmm.com
+23.9.186.91 fx.dmm.com
 103.254.145.161 pics.dmm.com
 202.6.246.222 ad.dmm.com
 103.254.146.118 event.dmm.com
 202.6.247.179 help.dmm.com
 13.35.138.77 make.dmm.com
-13.224.169.17 www.dmm.com
+52.85.55.57 www.dmm.com
 157.112.93.16 recruit.dmm.com
 202.6.247.195 dlsoft.dmm.com
 147.75.95.76 display.dmm.com
 18.65.25.29 book.dmm.com
 157.112.86.108 affiliate.dmm.com
 13.224.174.32 mvno.dmm.com
-65.8.158.88 stat.i3.dmm.com
+52.84.251.59 stat.i3.dmm.com
 13.248.196.236 dmm.com
 35.194.122.208 akiba.dmm-make.com
+35.74.17.54 cn.dap.dmm.com
+54.192.116.55 cdj.dap.dmm.com
 
 # [dmm.co.jp]
 18.179.216.43 stg.lc-applicant.dmm.co.jp
@@ -6118,7 +6120,7 @@
 13.224.174.53 dev-accounts.dmm.co.jp
 54.192.150.118 form.dmm.co.jp
 147.75.95.76 display.dmm.co.jp
-13.224.182.183 www.dmm.co.jp
+52.85.57.76 www.dmm.co.jp
 65.8.158.17 widget-view.dmm.co.jp
 202.6.246.152 point.dmm.co.jp
 157.112.86.226 evelt.dmm.co.jp
@@ -22732,3 +22734,15 @@
 # [rawmanga.cc]
 104.21.32.8 rawmanga.cc
 104.21.32.8 www.rawmanga.cc
+
+# [priconne-redive.jp]
+54.192.116.128 priconne-redive.jp
+54.192.116.128 www.priconne-redive.jp
+server-108-159-227-65.ord56.r.cloudfront.net
+203.104.108.141 mana.priconne-redive.jp
+99.84.238.97 comic.priconne-redive.jp
+18.65.25.94 anime.priconne-redive.jp
+54.192.116.118 dmg.priconne-redive.jp
+65.8.158.118 shindan.priconne-redive.jp
+99.84.238.94 app-info.priconne-redive.jp
+52.84.93.11 fes.priconne-redive.jp
