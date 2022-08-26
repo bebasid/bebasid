@@ -15184,7 +15184,10 @@
 104.27.189.18 www.bfst.xyz
 
 # [binance.com]
-13.33.33.5 pay.binance.com
+54.192.116.14 pay.binance.com
+13.227.62.8 merchant.binance.com
+13.224.250.111 accounts.binance.com
+13.227.62.69 card.binance.com
 52.193.248.239 sensors0-1.binance.com
 52.196.90.77 op005avr4leeudg6.support-0-1.binance.com
 3.114.80.39 kr-0-1.binance.com
@@ -15699,7 +15702,7 @@
 52.196.90.77 beta.binance.com
 52.196.90.77 a.binance.com
 52.196.90.77 abi80.binance.com
-18.155.62.83 academy.binance.com
+52.84.251.230 academy.binance.com
 3.114.80.39 acceso-2.binance.com
 52.193.248.239 accounting0.binance.com
 52.196.90.77 accounting-0.binance.com
@@ -15837,7 +15840,7 @@
 52.193.177.244 nbstream.binance.com
 54.65.15.129 bstream.binance.com
 3.114.80.39 bugs0.binance.com
-13.33.33.114 c2c.binance.com
+52.84.251.30 c2c.binance.com
 52.193.248.239 static.binance.com
 52.196.90.77 pandemic.binance.com
 3.114.80.39 elastic.binance.com
@@ -15997,8 +16000,8 @@
 52.196.90.77 launchpad-3.binance.com
 52.193.248.239 launchpad-7-2.binance.com
 52.193.248.239 launchpad-30.binance.com
-52.193.248.239 www.launchpad.binance.com
-18.155.68.34 launchpad.binance.com
+13.112.105.187 www.launchpad.binance.com
+52.84.251.129 launchpad.binance.com
 3.114.80.39 liveupdate.binance.com
 3.114.80.39 llb1i3.stream6-2.binance.com
 3.114.80.39 login00.binance.com
@@ -16047,7 +16050,7 @@
 52.196.90.77 ops0.binance.com
 52.198.204.150 opsstream.binance.com
 52.196.90.77 ov4gr198hu.launchpad-53.binance.com
-13.33.33.114 p2p.binance.com
+52.84.251.30 p2p.binance.com
 3.114.80.39 p78.login23.binance.com
 52.193.248.239 pc59-3.binance.com
 52.193.248.239 pc210.binance.com
@@ -16073,7 +16076,7 @@
 52.193.248.239 rb5ocbahnsvbpa1h.support00.binance.com
 52.193.248.239 redis-3.binance.com
 52.193.248.239 remote.binance.com
-13.224.250.85 research.binance.com
+13.227.254.12 research.binance.com
 52.196.90.77 resource0-0.binance.com
 52.193.248.239 resource00.binance.com
 3.114.80.39 resource2-5.binance.com
@@ -16511,6 +16514,9 @@
 3.114.80.39 zm4uwfnyx7atk.sensors5-3.binance.com
 13.32.54.128 binance.org
 13.112.105.187 binance.com
+54.192.116.31 bin.bnbstatic.com
+52.219.16.116 binance.charity
+13.33.33.50 www.binance.charity
 
 # [peacetv.tv]
 95.131.68.14 peacetv.tv
@@ -22745,3 +22751,38 @@
 65.8.158.118 shindan.priconne-redive.jp
 99.84.238.94 app-info.priconne-redive.jp
 52.84.93.11 fes.priconne-redive.jp
+
+# [trustwallet.com]
+104.20.73.207 trustwallet.com
+172.67.18.31 www.trustwallet.com
+172.67.18.31 governance.trustwallet.com
+104.20.74.207 api.trustwallet.com
+172.67.18.31 link.trustwallet.com
+104.20.74.207 files.trustwallet.com
+104.20.73.207 support.trustwallet.com
+172.67.18.31 community.trustwallet.com
+3.213.254.45 redeem.trustwallet.com
+104.20.73.207 market.trustwallet.com
+3.226.182.14 assets.trustwallet.com
+54.162.128.250 api.assets.trustwallet.com
+18.66.122.84 naming.trustwallet.com
+18.66.122.84 www.naming.trustwallet.com
+104.18.1.145 developer.trustwallet.com
+104.20.73.207 backend-search.trustwallet.com
+104.20.73.207 backend.trustwallet.com
+104.20.73.207 share.trustwallet.com
+104.20.73.207 help.trustwallet.com
+104.20.73.207 join.trustwallet.com
+104.20.73.207 ask.trustwallet.com
+104.20.74.207 api2.trustwallet.com
+104.20.73.207 dapps.trustwallet.com
+104.20.73.207 community2.trustwallet.com
+104.20.73.207 platform.trustwallet.com
+104.20.73.207 secure.trustwallet.com
+104.20.73.207 www.secure.trustwallet.com
+104.20.73.207 status.trustwallet.com
+104.20.73.207 blockatlas.trustwallet.com
+104.20.73.207 ping.trustwallet.com
+104.20.73.207 desktop.trustwallet.com
+104.20.73.207 wallet-connect.trustwallet.com
+104.20.74.207 test-api.trustwallet.com
