@@ -10311,6 +10311,20 @@
 66.254.114.161 support.realitykings.com
 199.88.61.105 securetest.realitykings.com
 204.8.234.212 live.realitykings.com
+205.185.216.42 media-public-hw.project1content.com
+64.210.136.5 imageservice-assets-ht.project1content.com
+64.210.136.5 images-assets-ht.project1content.com
+64.210.136.7 image-service-ht.project1content.com
+64.210.136.7 media-public-ht.project1content.com
+64.210.136.1 static-ma-ht.project1content.com
+64.210.136.6 static-landing-assets.project1content.com
+64.210.136.7 onenavigation-ht.project1content.com
+64.210.136.7 onelist-ht.project1content.com
+64.210.147.37 prog-public-ht.project1content.com
+66.254.114.234 site-api.project1service.com
+66.254.114.234 join.project1service.com
+66.254.114.234 waf.project1service.com
+66.254.114.234 adn.project1service.com
 
 # [rk.com]
 216.18.168.81 rk.com
@@ -22764,3 +22778,34 @@
 104.20.73.207 desktop.trustwallet.com
 104.20.73.207 wallet-connect.trustwallet.com
 104.20.74.207 test-api.trustwallet.com
+
+# [familysinners.com]
+66.254.114.234 familysinners.com
+66.254.114.234 www.familysinners.com
+66.254.114.161 support.familysinners.com
+
+# [sweetsinner.com]
+66.254.114.234 sweetsinner.com
+66.254.114.234 www.sweetsinner.com
+66.254.114.234 tour1.sweetsinner.com
+66.254.114.234 landing.sweetsinner.com
+66.254.114.234 m.sweetsinner.com
+66.254.114.234 tour.sweetsinner.com
+66.254.114.234 tt.sweetsinner.com
+
+# [familyhookups.com]
+66.254.114.234 familyhookups.com
+66.254.114.234 www.familyhookups.com
+99.192.202.245 join.familyhookups.com
+66.254.114.57 probiller.familyhookups.com
+66.254.114.57 www.probiller.familyhookups.com
+
+# [sexyhub.com]
+66.254.114.234 sexyhub.com
+66.254.114.234 www.sexyhub.com
+207.246.147.189 cams.sexyhub.com
+207.246.147.249 www.cams.sexyhub.com
+204.8.234.212 live.sexyhub.com
+208.99.90.244 tour.stage.sexyhub.com
+216.18.168.232 join.sexyhub.com
+66.254.114.161 support.sexyhub.com
