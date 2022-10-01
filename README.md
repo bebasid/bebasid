@@ -31,9 +31,9 @@
 
 ---
 
-## bebasid
+## Mengenai bebasid
 
-bebasid dapat membantu membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
+Dengan bebasid, anda dapat membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
 
 ### Antarmuka Pengguna Grafis (GUI)
 
@@ -94,4 +94,4 @@ bebasid dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/b
 ---
 ## Syarat & Ketentuan
 
-Dengan menggunakan aplikasi ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat halaman [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+Dengan menggunakan aplikasi ini, Anda setuju untuk mematuhi peraturan yang telah kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat halaman [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
