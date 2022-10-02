@@ -14377,6 +14377,7 @@
 172.64.147.37 assets.redgifs.com
 104.16.171.253 auth-staging.redgifs.com
 104.16.170.253 auth.redgifs.com
+104.18.40.219 thumbs4.redgifs.com
 
 # [zenra.net]
 66.199.190.206 zenra.net
@@ -22138,6 +22139,7 @@
 66.42.79.209 admyjiwfwp.okx.com
 66.42.79.209 acdywaycloudwp.okx.com
 104.196.157.119 learn.okx.com
+13.35.125.92 static.okx.com
 18.167.80.6 okx.com
 
 # [paraswap.io]
@@ -22148,8 +22150,10 @@
 13.115.182.240 www.paraswap.io
 13.236.8.149 status.paraswap.io
 99.86.178.108 paraswap.io
+13.35.125.70 app.paraswap.io
 
 # [aave.com]
+104.21.62.62 app.aave.com
 172.67.220.166 learn.aave.com
 104.21.62.62 www.aave.com
 104.18.0.145 developers.aave.com
