@@ -76,7 +76,7 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 
 <div>
 <details>
- <summary>:coffee: Traktir kami kopi</summary>
+ <summary>:coffee: Traktir kami kopi.</summary>
 
 </br>
 
