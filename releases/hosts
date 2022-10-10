@@ -1604,7 +1604,7 @@
 34.149.146.247 akamai.prod.skyfire.vimeo.com
 151.101.64.217 directory.vimeo.com
 54.196.16.164 authy.vimeo.com
-151.101.0.217 www.vimeo.com
+162.159.138.60 www.vimeo.com
 151.101.192.217 tv.vimeo.com
 13.35.149.31 checkout-dev.vimeo.com
 34.117.138.66 datum-dev.vimeo.com
@@ -1649,7 +1649,7 @@
 142.250.66.180 leatherback.vimeo.com
 151.101.0.217 hollaback.vimeo.com
 34.120.211.227 videoapi.vimeo.com
-151.101.64.217 api.vimeo.com
+162.159.138.60 api.vimeo.com
 151.101.64.217 search.vimeo.com
 52.10.225.232 billing.vimeo.com
 151.101.64.217 making.vimeo.com
@@ -1686,7 +1686,7 @@
 35.241.12.128 dev.starlord.vimeo.com
 34.107.213.235 starlord-prod.vimeo.com
 35.244.141.179 hub.vimeo.com
-151.101.64.217 vimeo.com
+162.159.128.61 vimeo.com
 
 # [thepiratebay.org]
 162.159.136.6 m.thepiratebay.org
