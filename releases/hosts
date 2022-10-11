@@ -4028,21 +4028,25 @@
 104.20.41.171 fakku.net
 
 # [e-hentai.org]
-94.100.24.71 upload.e-hentai.org
+104.20.135.21 e-hentai.org
+104.20.134.21 www.e-hentai.org
+94.100.18.249 upload.e-hentai.org
+94.100.18.249 www.upload.e-hentai.org
 104.20.135.21 g.e-hentai.org
 104.20.134.21 lofi.e-hentai.org
-178.162.139.18 api.e-hentai.org
-94.100.24.77 xml.e-hentai.org
-94.100.24.79 ul.e-hentai.org
-94.100.18.243 forum.e-hentai.org
-94.100.24.79 repo.e-hentai.org
-104.20.134.21 r.e-hentai.org
-94.100.18.243 forums.e-hentai.org
+81.171.10.55 api.e-hentai.org
+37.48.89.16 xml.e-hentai.org
+172.67.0.127 ul.e-hentai.org
+172.67.0.127 forum.e-hentai.org
+104.20.134.21 repo.e-hentai.org
+104.20.134.21 www.repo.e-hentai.org
+172.67.0.127 r.e-hentai.org
+104.20.135.21 forums.e-hentai.org
 94.100.18.246 forumtest.e-hentai.org
-104.20.25.172 hv.e-hentai.org
-94.100.24.79 ulv.e-hentai.org
-104.20.134.21 www.e-hentai.org
-104.20.134.21 e-hentai.org
+104.20.19.172 hv.e-hentai.org
+172.67.0.127 ulv.e-hentai.org
+94.100.18.244 shingata.e-hentai.org
+94.100.18.249 upld.e-hentai.org
 
 # [xvideos.com]
 185.88.181.2 xvideos.com
@@ -11738,8 +11742,19 @@
 104.28.27.152 www.javmobile.net
 
 # [e-hentai.me]
-104.31.11.173 e-hentai.me
-104.31.11.173 www.e-hentai.me
+104.21.233.165 e-hentai.me
+104.21.233.166 www.e-hentai.me
+104.21.233.165 dstl.e-hentai.me
+163.172.197.218 s3.e-hentai.me
+104.21.233.166 g.e-hentai.me
+104.21.233.166 cdn2.e-hentai.me
+104.21.233.166 hub.e-hentai.me
+104.21.233.166 disk.e-hentai.me
+185.51.247.97 mail.e-hentai.me
+104.21.233.166 tl.e-hentai.me
+104.21.233.166 stream.e-hentai.me
+104.21.233.166 iocdn.e-hentai.me
+104.21.233.166 ru.e-hentai.me
 
 # [hentaibedta.net]
 172.67.217.44 hentaibedta.net
