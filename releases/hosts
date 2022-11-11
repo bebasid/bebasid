@@ -16102,8 +16102,8 @@
 104.21.4.7 webmail.3xplanet.net
 
 # [javdatabase.com]
-62.171.165.197 javdatabase.com
-62.171.165.197 www.javdatabase.com
+172.67.200.42 www.javdatabase.com
+104.21.74.67 javdatabase.com
 
 # [joyhentai.com]
 104.21.4.227 www.joyhentai.com
@@ -18524,18 +18524,14 @@
 45.178.5.205 www.socceronline.me
 
 # [sportshub.stream]
-172.67.206.95 sportshub.stream
-172.67.206.95 www.sportshub.stream
-104.21.22.181 sportshub.stream
-104.21.22.181 www.sportshub.stream
-104.21.57.109 sportshub.stream
-104.21.57.109 www.sportshub.stream
-104.21.22.181 buff.sportshub.stream
-104.21.22.181 www.buff.sportshub.stream
-104.21.57.109 buff.sportshub.stream
-104.21.57.109 www.buff.sportshub.stream
-173.249.29.107 buff.sportshub.stream
-173.249.29.107 www.buff.sportshub.stream
+172.67.220.114 www.buff.sportshub.stream
+172.67.220.114 fr.sportshub.stream
+104.21.67.100 live.sportshub.stream
+172.67.220.114 www.sportshub.stream
+104.21.67.100 reddit.sportshub.stream
+172.67.220.114 www.fr.sportshub.stream
+172.67.220.114 buff.sportshub.stream
+104.21.67.100 sportshub.stream
 
 # [ripple.stream]
 172.67.134.122 ripple.stream
@@ -22196,3 +22192,28 @@
 46.182.108.2 static.nubiles-porn.com
 172.98.95.130 images.nubiles-porn.com
 184.170.255.11 members.nubiles-porn.com
+
+# [nbalives.tv]
+172.67.164.250 www.nbalives.tv
+172.67.164.250 stream.nbalives.tv
+172.67.164.250 nbalives.tv
+
+# [mexc.com]
+104.18.248.37 support.mexc.com
+72.247.81.96 api.mexc.com
+23.206.238.90 chat.mexc.com
+72.247.81.147 wbs.mexc.com
+108.128.238.226 event.mexc.com
+72.247.81.171 promote.mexc.com
+54.250.131.45 jpush.mexc.com
+3.228.175.149 blog.mexc.com
+23.206.238.73 contract.mexc.com
+23.206.238.81 otc.mexc.com
+23.206.238.98 futures.mexc.com
+23.206.238.96 travel-rule.mexc.com
+72.247.81.33 mchat.mexc.com
+23.206.238.209 affiliates.mexc.com
+23.206.238.65 m.mexc.com
+72.247.81.144 www.mexc.com
+72.247.81.40 futures.testnet.mexc.com
+43.154.82.226 mexc.com
