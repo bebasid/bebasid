@@ -16820,9 +16820,9 @@
 
 # [buffstreams.tv]
 45.178.6.78 buffstreams.tv
-45.178.6.78 www.buffstreams.tv
-45.178.6.78 real.buffstreams.tv
-45.178.6.100 my.buffstreams.tv
+45.178.6.100 www.buffstreams.tv
+45.178.6.100 real.buffstreams.tv
+45.178.6.78 my.buffstreams.tv
 
 # [openloadmov.net]
 172.67.140.27 openloadmov.net
@@ -22279,3 +22279,7 @@
 # [koushoku.org]
 172.67.142.138 koushoku.org
 104.21.79.60 www.koushoku.org
+
+# [yalla-shoot.video]
+172.67.145.124 yalla-shoot.video
+104.21.71.145 www.yalla-shoot.video
