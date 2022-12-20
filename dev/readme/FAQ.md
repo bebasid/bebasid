@@ -4,7 +4,7 @@ Dibawah ini adalah pertanyaan dan jawaban yang seringkali diajukan saat mengalam
 
 ## Pertanyaan Umum
 ### Bagaimana cara kerja bebasid?
-- bebasid bekerja dengan cara memetakan hostname ke alamat IP dalam file hosts sehingga untuk akses ke hostname yang diblokir tidak ke DNS, melainkan langsung di resolve oleh file hosts
+- bebasid bekerja dengan cara memetakan hostname ke alamat IP dalam file hosts sehingga untuk akses ke hostname yang diblokir tidak ke DNS, melainkan langsung diresolve oleh file hosts
 
 ### Adakah batasan maksimum dalam file hosts
 - Hasil riset kami pada tahun 2019 menunjukkan bahwa file hosts dengan konten lebih dari sekitar 1 juta domain yand diblokir oleh Internet Positif (18 MB file dengan format txt) akan menunjukkan error "DNS Not Resolved" terhadap domain lain yang tidak tercantum dalam file hosts alias internet hanya dapat mengakses domain yang tercatat dalam file hosts
@@ -23,6 +23,9 @@ Dibawah ini adalah pertanyaan dan jawaban yang seringkali diajukan saat mengalam
 ### Error saat menginstall menggunakan aplikasi bebasid
 - Laporkan masalah ini ke Discord bebasid
 - Gunakan pemasangan file hosts secara manual
+
+### Aplikasi jalan sekejap/sebentar setelah dibuka tetapi langsung keluar/exit
+- Hapus file hosts dan hosts-bebasid.bak di folder C:\Windows\System32\drivers\etc kemudian buka kembali aplikasi.
 
 ### File hosts tidak terpasang, padahal sudah menggunakan aplikasi bebasid
 - Seringkali aplikasi Antivirus seperti Kaspersky mengembalikan file hosts menjadi default
