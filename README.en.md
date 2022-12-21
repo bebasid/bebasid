@@ -2,7 +2,7 @@
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
-    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/workflow/status/bebasid/bebasid/Validate?logo=github&logoColor=fff&label=validation" alt="Hosts Status"></a>
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validation" alt="Hosts Status"></a>
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
 </p>
 <p align="center">
