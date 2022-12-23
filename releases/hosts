@@ -675,19 +675,19 @@
 8.240.148.251 vid4-l3.xvideos-cdn.com
 67.27.115.123 hls4-l3.xvideos-cdn.com
 8.240.143.123 static-l3.xvideos-cdn.com
-8.240.36.123 img-l3.xvideos-cdn.com
+67.26.57.251 img-l3.xvideos-cdn.com
 67.27.114.251 premiumvideo-l3.xvideos-cdn.com
 152.195.62.10 static-egc.xvideos-cdn.com
 152.195.62.8 vid-egc.xvideos-cdn.com
-89.187.163.22 cdn77-pic.xvideos-cdn.com
+89.187.163.66 cdn77-pic.xvideos-cdn.com
 69.55.53.170 static.xvideos-cdn.com
 89.187.163.82 cdn77-vid.xvideos-cdn.com
 213.174.135.2 img-ah.xvideos-cdn.com
 89.187.163.38 video-cdn77-premium.xvideos-cdn.com
-69.55.53.171 static-ss.xvideos-cdn.com
+69.55.53.168 static-ss.xvideos-cdn.com
 89.187.162.18 video-cdn77-premiumtest.xvideos-cdn.com
 209.197.3.84 static-hw.xvideos-cdn.com
-205.185.216.10 img-hw.xvideos-cdn.com
+94.46.155.35 img-hw.xvideos-cdn.com
 205.185.216.10 premiumvideo-hw.xvideos-cdn.com
 209.197.3.84 video-hw.xvideos-cdn.com
 209.197.3.84 hls-hw.xvideos-cdn.com
@@ -4528,7 +4528,7 @@
 185.88.181.53 xnxx.com
 
 # [sankakucomplex.com]
-143.244.49.178 iv.sankakucomplex.com
+143.244.49.177 iv.sankakucomplex.com
 208.100.24.246 c1.sankakucomplex.com
 208.100.47.78 img1.sankakucomplex.com
 208.100.24.246 i1.sankakucomplex.com
@@ -5671,7 +5671,7 @@
 35.190.8.92 dev.spinnaker.digapi.dmm.com
 34.98.118.217 dev.digapi.dmm.com
 40.115.232.16 honey.fintech.dmm.com
-18.176.68.33 apidgp-gameplayer.games.dmm.com
+13.114.237.216 apidgp-gameplayer.games.dmm.com
 199.36.158.100 atlas-report.dmm.com
 35.73.86.199 owner-admin.games.dmm.com
 35.201.126.102 stg.spinnaker.digapi.dmm.com
@@ -5702,7 +5702,7 @@
 13.35.148.124 mobile.dmm.com
 13.115.123.167 eikaiwa.dmm.com
 157.112.91.141 robots.dmm.com
-103.254.145.161 p.dmm.com
+103.254.145.160 p.dmm.com
 13.35.138.96 lounge.dmm.com
 202.6.245.205 kouenirai.dmm.com
 157.112.92.101 p-town.dmm.com
@@ -5719,10 +5719,10 @@
 18.65.25.29 book.dmm.com
 157.112.86.108 affiliate.dmm.com
 13.224.174.32 mvno.dmm.com
-52.84.251.59 stat.i3.dmm.com
+54.192.116.71 stat.i3.dmm.com
 13.248.196.236 dmm.com
 35.194.122.208 akiba.dmm-make.com
-35.74.17.54 cn.dap.dmm.com
+54.65.90.123 cn.dap.dmm.com
 54.192.116.55 cdj.dap.dmm.com
 
 # [dmm.co.jp]
@@ -6104,8 +6104,8 @@
 157.112.86.134 image-news.dmm.co.jp
 157.112.86.135 news.dmm.co.jp
 13.35.138.29 accounts.dmm.co.jp
-54.192.150.90 doujin-assets.dmm.co.jp
-54.192.150.29 ebook-assets.dmm.co.jp
+13.33.88.73 doujin-assets.dmm.co.jp
+13.35.8.3 ebook-assets.dmm.co.jp
 157.112.88.58 swiss.dmm.co.jp
 52.197.27.59 actress.dmm.co.jp
 43.255.42.84 terms.dmm.co.jp
@@ -6118,7 +6118,7 @@
 43.255.40.207 personal.games.dmm.co.jp
 65.8.158.64 ad.games.dmm.co.jp
 54.192.150.6 games.dmm.co.jp
-202.6.246.10 pics.dmm.co.jp
+202.6.244.93 pics.dmm.co.jp
 157.112.86.81 pr.dmm.co.jp
 203.209.147.87 banner.dmm.co.jp
 202.6.246.154 cashier.dmm.co.jp
@@ -6127,10 +6127,10 @@
 54.192.150.92 viera-app.dmm.co.jp
 65.8.158.101 imp.dmm.co.jp
 202.6.247.178 help.dmm.co.jp
-65.8.158.19 cdn.dap.dmm.co.jp
-35.74.17.54 cn.dap.dmm.co.jp
-13.224.174.4 cdj.dap.dmm.co.jp
-103.254.145.149 p.dmm.co.jp
+13.227.254.48 cdn.dap.dmm.co.jp
+52.197.219.193 cn.dap.dmm.co.jp
+54.192.116.111 cdj.dap.dmm.co.jp
+103.254.144.30 p.dmm.co.jp
 157.112.94.11 pics.litevideo.dmm.co.jp
 54.192.150.109 video.dmm.co.jp
 202.6.247.149 auction.dmm.co.jp
@@ -6166,7 +6166,7 @@
 13.35.138.32 cc3001.dmm.co.jp
 43.255.42.82 ns0.dmm.co.jp
 18.182.117.224 rcv.ixd.dmm.co.jp
-13.248.196.236 dmm.co.jp
+13.35.15.132 dmm.co.jp
 
 # [javlibrary.com]
 172.67.164.190 www.javlibrary.com
@@ -19158,7 +19158,8 @@
 
 # [movies123.show]
 104.21.85.65 movies123.show
-104.21.85.65 www.movies123.show
+172.67.203.15 www.movies123.show
+104.21.85.65 static.movies123.show
 
 # [simontok.vip]
 172.67.189.7 simontok.vip
@@ -22195,24 +22196,24 @@
 172.67.164.250 nbalives.tv
 
 # [mexc.com]
-104.18.248.37 support.mexc.com
-72.247.81.96 api.mexc.com
-23.206.238.90 chat.mexc.com
-72.247.81.147 wbs.mexc.com
-108.128.238.226 event.mexc.com
-72.247.81.171 promote.mexc.com
+3.115.141.177 mexc.com
+103.121.18.219 www.mexc.com
+104.18.249.37 support.mexc.com
+23.50.117.184 api.mexc.com
+202.169.45.232 chat.mexc.com
+103.121.18.200 wbs.mexc.com
+52.212.68.12 event.mexc.com
+72.247.81.35 promote.mexc.com
 54.250.131.45 jpush.mexc.com
-3.228.175.149 blog.mexc.com
-23.206.238.73 contract.mexc.com
-23.206.238.81 otc.mexc.com
-23.206.238.98 futures.mexc.com
-23.206.238.96 travel-rule.mexc.com
-72.247.81.33 mchat.mexc.com
-23.206.238.209 affiliates.mexc.com
-23.206.238.65 m.mexc.com
-72.247.81.144 www.mexc.com
+34.226.32.201 blog.mexc.com
+72.247.81.58 contract.mexc.com
+72.247.81.160 otc.mexc.com
+202.169.45.240 futures.mexc.com
+72.247.81.83 travel-rule.mexc.com
+112.78.159.10 mchat.mexc.com
+103.121.18.225 affiliates.mexc.com
+72.247.81.89 m.mexc.com
 72.247.81.40 futures.testnet.mexc.com
-43.154.82.226 mexc.com
 
 # [johren.games]
 46.51.234.112 johren.games
@@ -22308,3 +22309,83 @@
 # [iframe.tv]
 104.21.14.94 iframe.tv
 104.21.14.94 www.iframe.tv
+
+# [tubespice.com]
+104.21.78.251 tubespice.com
+172.67.138.229 www.tubespice.com
+104.21.78.251 es.tubespice.com
+
+# [pornstarbyface.com]
+67.211.221.195 pornstarbyface.com
+67.211.221.195 www.pornstarbyface.com
+67.211.221.195 ipv4.pornstarbyface.com
+67.211.221.195 mail.pornstarbyface.com
+67.211.221.195 mta-sts.mail.pornstarbyface.com
+
+# [vipleague.st]
+45.178.6.102 vipleague.st
+45.178.6.148 www.vipleague.st
+
+# [hentairox.com]
+172.67.181.57 hentairox.com
+104.21.40.76 www.hentairox.com
+172.67.181.57 m1.hentairox.com
+104.21.40.76 m2.hentairox.com
+172.67.181.57 m3.hentairox.com
+104.21.40.76 m4.hentairox.com
+172.67.181.57 m5.hentairox.com
+104.21.40.76 m6.hentairox.com
+172.67.181.57 m7.hentairox.com
+
+# [soccercatch.com]
+172.67.145.52 soccercatch.com
+104.21.28.91 www.soccercatch.com
+
+# [missav.com]
+172.66.41.44 missav.com
+172.66.42.212 www.missav.com
+88.208.29.90 live.missav.com
+169.150.207.217 thumbnail.missav.com
+138.199.46.66 preview.missav.com
+169.150.207.211 video.missav.com
+156.146.56.170 cover.missav.com
+156.146.56.168 netflav.missav.com
+139.99.63.197 static.missav.com
+156.146.56.171 cdn.missav.com
+156.146.56.161 article.missav.com
+88.208.29.90 aaaa.live.missav.com
+88.208.29.90 ar.live.missav.com
+88.208.29.90 bbbb.live.missav.com
+88.208.29.90 cccc.live.missav.com
+88.208.29.90 creative.live.missav.com
+88.208.29.90 cs.live.missav.com
+88.208.29.90 cz.live.missav.com
+88.208.29.90 de.live.missav.com
+88.208.29.90 el.live.missav.com
+88.208.29.90 en.live.missav.com
+88.208.29.90 es.live.missav.com
+88.208.29.90 fr.live.missav.com
+88.208.29.90 gate.live.missav.com
+88.208.29.90 gizmovr.live.missav.com
+88.208.29.90 go.live.missav.com
+88.208.29.90 gr.live.missav.com
+88.208.29.90 hu.live.missav.com
+88.208.29.90 it.live.missav.com
+88.208.29.90 ja.live.missav.com
+88.208.29.90 jp.live.missav.com
+88.208.29.90 live.missav.com
+88.208.29.90 nb.live.missav.com
+88.208.29.90 nl.live.missav.com
+88.208.29.90 no.live.missav.com
+88.208.29.90 pl.live.missav.com
+88.208.29.90 pt.live.missav.com
+88.208.29.90 ro.live.missav.com
+88.208.29.90 ru.live.missav.com
+88.208.29.90 sv.live.missav.com
+88.208.29.90 sw.live.missav.com
+88.208.29.90 tr.live.missav.com
+88.208.29.90 video.live.missav.com
+88.208.29.90 vr.live.missav.com
+88.208.29.90 webxr.live.missav.com
+88.208.29.90 www.live.missav.com
+88.208.29.90 zh.live.missav.com
