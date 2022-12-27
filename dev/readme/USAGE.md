@@ -1,10 +1,11 @@
 # Cara Penggunaan Lainnya
 ## Windows (Manual)
 
-Salin file hosts bebasid ke
+Salinkan Hosts dari [BEBASID](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts), lalu tempelkan ke
 ```
 C:\Windows\System32\drivers\etc
 ```
+Untuk membukakan isi file hosts nya, silakan coba pake Notepad biasa atau Notepad++.
 Jika halaman masih belum bisa terbuka, silahkan lakukan flush dns di cmd.
 
 ```
