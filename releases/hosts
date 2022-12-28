@@ -7,10 +7,11 @@
 # Hapus '#' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
 
 # Matikan fitur SafeSearch Google dan Youtube
-# 216.58.211.3 google.com
-# 216.58.211.3 www.google.com
-# 216.58.211.3 google.co.id
-# 216.58.211.3 www.google.co.id
+# 142.250.4.113 google.com
+# 74.125.68.147 www.google.com
+# 142.250.4.113 google.co.id
+# 74.125.68.147 www.google.co.id
+# 172.253.118.93 www.youtube.com
 # 127.0.0.1 forcesafesearch.google.com
 # 127.0.0.1 restrict.youtube.com
 
@@ -94,7 +95,6 @@
 127.0.0.1 www.uzone.id
 127.0.0.1 www.x-tags.net
 127.0.0.1 x-tags.net
-127.0.0.1 aduankonten.id
 127.0.0.1 lamanlabuh.aduankonten.id
 
 # [Telkomsel]
