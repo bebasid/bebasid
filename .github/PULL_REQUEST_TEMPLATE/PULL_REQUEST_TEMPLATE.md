@@ -3,7 +3,7 @@ name: Ketentuan
 about: Pull request rules.
 title: 'Penambahan/Perbaikan'
 labels: ''
-reviewers: 'nxzlem'
+reviewers: 'nxzlem, SlashyID'
 assignees: ''
 
 
