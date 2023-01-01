@@ -3,7 +3,7 @@ name: Request Situs Baru
 about: Request situs baru untuk ditambahkan
 title: '[REQ] example.com'
 labels: 'request, sites'
-assignees: 'nxzlem'
+assignees: 'nxzlem, SlashyID'
 
 ---
 
