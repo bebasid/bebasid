@@ -22363,3 +22363,19 @@
 88.208.29.90 webxr.live.missav.com
 88.208.29.90 www.live.missav.com
 88.208.29.90 zh.live.missav.com
+
+# [ Deepcoin ]
+52.84.150.53 deepcoin.com
+13.224.250.15 www.deepcoin.com
+13.224.250.24 net-wapi.deepcoin.com
+13.224.250.26 api.deepcoin.com
+13.224.250.58 net-wss.deepcoin.com
+
+# [ Bingx.com ]
+104.18.0.241 bingx.com
+104.18.1.241 www.bingx.com
+104.18.0.241 static-app.bingx.com
+104.18.1.241 api-base.bingx.com
+104.18.0.241 support.bingx.com
+
+
