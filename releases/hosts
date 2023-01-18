@@ -13525,18 +13525,19 @@
 104.21.235.106 s12.erome.com
 104.21.235.106 s13.erome.com
 
-# [redgifs.com]
-104.18.40.219 staging.redgifs.com
-104.18.40.219 userpic.redgifs.com
-172.64.147.37 www.redgifs.com
-104.18.40.219 assets.redgifs.com
-172.64.147.37 filedrop.redgifs.com
-172.64.147.37 api.redgifs.com
-104.18.40.219 redgifs.com
+# [redgifs.com] 
+104.18.40.219 staging.redgifs.com 
+104.18.40.219 userpic.redgifs.com 
+172.64.147.37 www.redgifs.com 
+104.18.40.219 assets.redgifs.com 
+172.64.147.37 filedrop.redgifs.com 
+172.64.147.37 api.redgifs.com 
+104.18.40.219 redgifs.com 
 172.64.147.37 assets.redgifs.com
-104.16.171.253 auth-staging.redgifs.com
-104.16.170.253 auth.redgifs.com
-104.18.40.219 thumbs4.redgifs.com
+104.16.171.253 auth-staging.redgifs.com 
+104.16.170.253 auth.redgifs.com 
+172.64.147.37 thumbs4.redgifs.com
+172.64.147.37 v3.redgifs.com
 
 # [zenra.net]
 66.199.190.206 zenra.net
