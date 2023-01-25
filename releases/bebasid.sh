@@ -182,7 +182,7 @@ memulai_ulang_network(){
       sudo /etc/init.d/network-manager restart
       ;;
     "ubuntu")
-      sudo service network-manager restart
+      sudo service NetworkManager restart
       ;;
     # RHEL DERIVATIVE
     "centos")
