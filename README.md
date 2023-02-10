@@ -1,5 +1,6 @@
 <p align="center">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png" alt="BEBASID LOGO" width="330">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
     <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validasi" alt="Status Hosts"></a>
@@ -33,7 +34,7 @@
 
 ## bebasid
 
-Dengan bebasid, anda dapat membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)).
+Dengan bebasid, anda dapat membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
 
 ### Antarmuka Pengguna Grafis (GUI)
 
@@ -54,6 +55,7 @@ Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
 
 ### Lainnya
+
 Untuk panduan penggunaan lainnya, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
 
 ### Kode Sumber
@@ -92,6 +94,7 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 bebasid dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
 
 ---
+
 ## Syarat & Ketentuan
 
 Dengan menggunakan aplikasi bebasid, Anda dianggap telah membaca, memahami, serta menyetujui semua peraturan yang telah kami buat dan Anda menerima segala akibat yang akan ditimbulkan. Jika Anda tidak menyetujui untuk menerima peraturan yang ada, maka Anda tidak diperkenankan untuk menggunakan aplikasi bebasid. Untuk selengkapnya tentang aturan, Anda dapat melihatnya di halaman [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).

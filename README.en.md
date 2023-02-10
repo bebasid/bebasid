@@ -1,5 +1,6 @@
 <p align="center">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png" alt="BEBASID LOGO" width="330">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
     <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validation" alt="Hosts Status"></a>
@@ -31,7 +32,7 @@
 
 ## bebasid
 
-with bebasid, you can access any restricted content that is blocked by using [_hosts file_](https://en.wikipedia.org/wiki/Hosts_(file)). 
+with bebasid, you can access any restricted content that is blocked by using [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
 
 ### Graphical User Interface (GUI)
 
@@ -52,6 +53,7 @@ You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/t
 ![bebasid.bat running on Windows 10](https://i.imgur.com/CrnySId.png)
 
 ### Other
+
 Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for more usage guidelines.
 
 ### Source Code
@@ -81,7 +83,7 @@ Help us to maintain this project by donating.
 <a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 
 <a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
- 
+
 </details>
 </div>
 
@@ -92,4 +94,5 @@ bebasid is licensed under [MIT License](https://github.com/bebasid/bebasid/blob/
 ---
 
 ## Terms & Conditions
+
 By using the bebasid application, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the bebasid application. For more about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
