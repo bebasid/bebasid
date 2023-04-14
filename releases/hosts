@@ -7986,7 +7986,7 @@
 18.181.24.122 booksl.dlsite.com
 163.171.127.16 ssl.dlsite.com
 52.69.85.159 dream.dlsite.com
-52.196.109.170 ci-en.dlsite.com
+54.64.79.98 ci-en.dlsite.com
 52.219.197.43 trial.origin.dlsite.com
 18.179.224.5 www.origin.dlsite.com
 35.75.180.136 login.dlsite.com
@@ -8526,8 +8526,8 @@
 104.25.59.110 www.cosplayjav.pl
 
 # [iwara.tv]
-66.206.15.50 iwara.tv
-66.206.15.50 www.iwara.tv
+172.67.71.154 iwara.tv
+104.26.12.96 www.iwara.tv
 51.15.61.17 api.staging.iwara.tv
 51.15.179.227 defosuke.iwara.tv
 163.172.86.188 teto.iwara.tv
@@ -22234,3 +22234,7 @@
 # [xidol.net]
 172.104.35.220 xidol.net
 172.104.35.220 www.xidol.net
+
+# [9anime.id]
+104.21.62.120 9anime.id
+172.67.223.133 www.9anime.id
