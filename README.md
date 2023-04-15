@@ -1,6 +1,6 @@
 <p align="center">
     <b>Untuk ISP yang memakai DPI, silahkan gunakan <a href="https://github.com/bebasid/bebasit">BebasIT</a> untuk membypass DPI nya</b>
-    <br><sup>Ciri-ciri ISP anda memakai DPI: keredirect ke lamanlabuh.aduankonten.id atau keluar ERR_CONNECTION_RESET/PR_CONNECT_RESET_ERROR</sup>
+    <br><sup>Ciri-ciri ISP anda memakai DPI: keredirect ke <a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a> atau keluar ERR_CONNECTION_RESET/PR_CONNECT_RESET_ERROR</sup>
 </p>
 <p align="center">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
