@@ -1,5 +1,5 @@
 <p align="center">
-    <b>Untuk ISP yang memakai DPI, silahkan gunakan <a href="https://github.com/bebasid/bebasit">BebasIT</a> untuk membypass DPI nya</b>
+    <b>Untuk ISP yang memakai DPI, silahkan gunakan <a href="https://github.com/bebasid/bebasit">BebasIT</a> untuk membypass DPI atau nyalakan IPv6 jika ISP anda support</b>
     <br><sup>Ciri-ciri ISP anda memakai DPI: keredirect ke <a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a> atau keluar ERR_CONNECTION_RESET/PR_CONNECT_RESET_ERROR</sup>
 </p>
 <p align="center">
