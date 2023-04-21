@@ -716,6 +716,31 @@
 209.197.3.84 hls-hw.xnxx-cdn.com
 
 # [reddit.com]
+# IPv6 untuk bypass DPI Kominfo (Jika ISP anda support)
+2a04:4e42:48::396 reddit.com
+2a04:4e42:48::396 www.reddit.com
+2a04:4e42:48::396 np.reddit.com
+2a04:4e42:48::396 bt.reddit.com
+2a04:4e42:48::396 old.reddit.com
+2a04:4e42:48::396 new.reddit.com
+2a04:4e42:48::396 m.reddit.com
+2a04:4e42:48::396 nm.reddit.com
+2a04:4e42:48::396 api.reddit.com
+2a04:4e42:48::396 e.reddit.com
+2a04:4e42:48::396 about.reddit.com
+2a04:4e42:48::396 ssl.reddit.com
+2a04:4e42:48::396 st.reddit.com
+2a04:4e42:48::396 oauth.reddit.com
+2a04:4e42:48::396 en.reddit.com
+2a04:4e42:48::396 pay.reddit.com
+2a04:4e42:48::396 chat.reddit.com
+2a04:4e42:48::396 mod.reddit.com
+2a04:4e42:48::396 accounts.reddit.com
+2a04:4e42:48::396 sendbird.reddit.com
+2a04:4e42:48::396 new.reddit.com
+2a04:4e42:48::396 events.reddit.com
+2a04:4e42:48::396 amp.reddit.com
+# IPv4
 151.101.193.140 reddit.com
 151.101.65.140 www.reddit.com
 151.101.1.140 np.reddit.com
