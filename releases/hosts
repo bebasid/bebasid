@@ -22265,17 +22265,25 @@
 172.67.223.133 www.9anime.id
 
 # [loverslab.com]
-  # IPv6
+# IPv6
 2606:4700:20::681a:160 loverslab.com
 2606:4700:20::681a:160 www.loverslab.com
 2606:4700:20::681a:160 static.loverslab.com
-  # IPv4
+# IPv4
 104.26.1.96 loverslab.com
 104.26.0.96 www.loverslab.com
 172.67.71.146 static.loverslab.com
 
 # [dikgames.com]
-  # IPv6
+# IPv6
 2606:4700:3030::ac43:9c1c dikgames.com
-  # IPv4
+# IPv4
 172.67.156.28 dikgames.com
+
+# [9anime.gs]
+# IPv6
+2606:4700:3035::ac43:955d 9anime.gs
+2606:4700:3035::6815:2fad www.9anime.gs
+# IPv4
+104.21.47.173 9anime.gs
+172.67.149.93 www.9anime.gs
