@@ -22285,3 +22285,15 @@
 # IPv4
 104.21.47.173 9anime.gs
 172.67.149.93 www.9anime.gs
+
+# [animepahe.com]
+# IPv6
+2606:4700:3034::ac43:b66c animepahe.com
+2606:4700:3035::6815:4bdf www.animepahe.com
+2606:4700:3034::ac43:b66c i.animepahel.com
+2606:4700:3035::6815:aa3 animepahe.ru
+# IPv4
+104.21.75.223 animepahe.com
+172.67.182.108 www.animepahe.com
+104.21.75.223 i.animepahe.com
+104.21.10.163 animepahe.ru
