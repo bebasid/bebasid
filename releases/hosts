@@ -22307,3 +22307,11 @@
 104.18.5.43 coinbase.com
 104.18.5.43 www.coinbase.com
 104.18.5.43 assets.coinbase.com
+
+# [neosubs.net]
+# IPv4
+2606:4700:3032::6815:5871 neosubs.net
+2606:4700:3036::ac43:b124 www.neosubs.net
+# IPv6
+172.67.177.36 neosubs.net
+104.21.88.113 www.neosubs.net
