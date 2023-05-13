@@ -723,6 +723,7 @@
 2a04:4e42:48::396 bt.reddit.com
 2a04:4e42:48::396 old.reddit.com
 2a04:4e42:48::396 new.reddit.com
+2a04:4e42:48::396 ssl.reddit.com
 2a04:4e42:48::396 m.reddit.com
 2a04:4e42:48::396 nm.reddit.com
 2a04:4e42:48::396 api.reddit.com
@@ -740,6 +741,8 @@
 2a04:4e42:48::396 new.reddit.com
 2a04:4e42:48::396 events.reddit.com
 2a04:4e42:48::396 amp.reddit.com
+2a04:4e42:48::396 gql.reddit.com
+2a04:4e42:48::396 gateway.reddit.com
 # IPv4
 151.101.193.140 reddit.com
 151.101.65.140 www.reddit.com
@@ -879,6 +882,7 @@
 199.232.45.140 covid19-mx0.reddit.com
 199.232.45.140 1.reddit.com
 199.232.45.140 tls-test-1.reddit.com
+54.236.109.236 gql-realtime.reddit.com
 199.232.45.140 01.reddit.com
 199.232.45.140 fa-01.reddit.com
 199.232.45.140 kr-01.reddit.com
@@ -10503,11 +10507,11 @@
 160.16.73.194 pic03.nijie.info
 
 # [camwhores.tv]
-5.61.57.81 camwhores.tv
-5.61.57.81 www.camwhores.tv
+138.124.181.16 camwhores.tv
+138.124.181.16 www.camwhores.tv
 5.61.57.81 upload.camwhores.tv
-5.61.57.81 cdn.camwhores.tv
-5.61.57.81 www.cdn.camwhores.tv
+138.124.181.17 cdn.camwhores.tv
+138.124.181.17 www.cdn.camwhores.tv
 
 # [myfreecams.com]
 207.229.73.118 myfreecams.com
