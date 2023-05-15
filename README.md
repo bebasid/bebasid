@@ -1,7 +1,7 @@
 <p align="center">
-    <b>Untuk ISP yang memakai DPI, silahkan gunakan <a href="https://github.com/bebasid/bebasit">BebasIT</a> untuk membypass DPI atau nyalakan IPv6 jika ISP anda support</b>
-    <br><sup>Ciri-ciri ISP anda memakai DPI: keredirect ke <a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a> atau keluar ERR_CONNECTION_RESET/PR_CONNECT_RESET_ERROR</sup><br>
-    <b>Bypass DPI Kominfo di router</b><br>
+    <b>Untuk ISP yang memakai DPI, gunakan <a href="https://github.com/bebasid/bebasit">bebasit</a> untuk melewati DPI atau menyalakan IPv6 jika ISP-nya mendukung.</b>
+    <br><sup>Ciri-Ciri ISP anda menggunakan DPI: HTTP mengalihkan ke <a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a> atau HTTPS keluar ERR_CONNECTION_RESET/PR_CONNECT_RESET_ERROR</sup><br>
+    <b>Bypass DPI Kominfo di Modem/Router:</b><br>
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md">OpenWRT</a> |
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md">MikroTik</a>
 </p>
