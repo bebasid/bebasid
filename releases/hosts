@@ -7,10 +7,10 @@
 # Hapus '#' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
 
 # Matikan fitur SafeSearch Google dan Youtube
-# 142.250.4.113 google.com
-# 74.125.68.147 www.google.com
-# 142.250.4.113 google.co.id
-# 74.125.68.147 www.google.co.id
+ 142.250.4.113 google.com
+ 74.125.68.147 www.google.com
+ 142.250.4.113 google.co.id
+ 74.125.68.147 www.google.co.id
 # 172.253.118.93 www.youtube.com
 # 127.0.0.1 forcesafesearch.google.com
 # 127.0.0.1 restrict.youtube.com
@@ -4363,7 +4363,11 @@
 185.88.181.53 xnxx.com
 
 # [sankakucomplex.com]
-143.244.49.177 iv.sankakucomplex.com
+# IPv6
+2400:52e0:1a01::1001:1 v.sankakucomplex.com
+2400:52e0:1a01::1001:1 iv.sankakucomplex.com
+# IPv4
+143.244.50.212 iv.sankakucomplex.com
 208.100.24.246 c1.sankakucomplex.com
 208.100.47.78 img1.sankakucomplex.com
 208.100.24.246 i1.sankakucomplex.com
@@ -4501,8 +4505,7 @@
 208.100.24.252 2ww.sankakucomplex.com
 208.100.24.252 relay.sankakucomplex.com
 208.100.24.252 mailrelay.sankakucomplex.com
-185.59.220.194 v.sankakucomplex.com
-185.152.67.139 v.sankakucomplex.com
+143.244.50.91 v.sankakucomplex.com
 208.100.24.252 app1.sankakucomplex.com
 208.100.47.78 secure.remotesysadmin.com
 208.100.41.73 smtp2.sankakucomplex.com
