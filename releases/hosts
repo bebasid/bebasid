@@ -7,10 +7,10 @@
 # Hapus '#' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
 
 # Matikan fitur SafeSearch Google dan Youtube
- 142.250.4.113 google.com
- 74.125.68.147 www.google.com
- 142.250.4.113 google.co.id
- 74.125.68.147 www.google.co.id
+# 142.250.4.113 google.com
+# 74.125.68.147 www.google.com
+# 142.250.4.113 google.co.id
+# 74.125.68.147 www.google.co.id
 # 172.253.118.93 www.youtube.com
 # 127.0.0.1 forcesafesearch.google.com
 # 127.0.0.1 restrict.youtube.com
@@ -46,13 +46,6 @@
 127.0.0.1 a04.uadexchange.com
 127.0.0.1 a05.uadexchange.com
 127.0.0.1 block.uzone.id
-127.0.0.1 cdn1.uzone.id
-127.0.0.1 cdn2.uzone.id
-127.0.0.1 cdn3.uzone.id
-127.0.0.1 cdn4.uzone.id
-127.0.0.1 cdn5.uzone.id
-127.0.0.1 cdn6.uzone.id
-127.0.0.1 cdn7.uzone.id
 127.0.0.1 cfs.u-ad.info
 127.0.0.1 cfs.uzone.id
 127.0.0.1 cfs2.uadexchange.com
@@ -83,7 +76,6 @@
 127.0.0.1 uadexchange.com
 127.0.0.1 upoint.id
 127.0.0.1 usearch.co.id
-127.0.0.1 uzone.id
 127.0.0.1 v3.mercusuar.uzone.id
 127.0.0.1 welcome.indihome.co.id
 127.0.0.1 www.digiads.co.id
@@ -92,7 +84,6 @@
 127.0.0.1 www.uadexchange.com
 127.0.0.1 www.upoint.id
 127.0.0.1 www.usearch.co.id
-127.0.0.1 www.uzone.id
 127.0.0.1 www.x-tags.net
 127.0.0.1 x-tags.net
 127.0.0.1 lamanlabuh.aduankonten.id
