@@ -79,6 +79,8 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka 
 
 Jika mengalami permasalahan saat menggunakan bebasid, silakan menuju ke [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) sebelum menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau sebelum [membuka isu baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
+Atau anda bisa email ke `dukungan@bebasid.com`
+
 ## Berdonasi
 
 Bantu proyek ini tetap berjalan dengan cara berdonasi.
