@@ -1,7 +1,7 @@
 <p align="center">
-    <b>For ISP that implemented DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP support it.</b>
+    <b>For ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
     <br><sup>Signs if your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
-    <b>Bypass MCI DPI on Modem/Router (in Indonesian):</b><br>
+    <b>Bypass DPI on Modem/Router (in Indonesian):</b><br>
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md">OpenWRT</a> |
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md">MikroTik</a>
 </p>
@@ -16,11 +16,11 @@
     <a href="#"><img src="https://img.shields.io/static/v1?label=year%20released:&message=2019&color=yellowgreen&style=plastic%22"></a>
     <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validation" alt="Hosts status"></a>
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
-    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watcher%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
+    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
     <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a>
 </p>
 <p align="center">
-    <a href="README.md">Indonesia</a> | <b>English</b> (this one)
+    <a href="README.md">Indonesia</a> | <b>English</b>
 </p>
 
 ---
