@@ -20,7 +20,7 @@
     <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
 </p>
 <p align="center">
-    <b>Indonesia</b> | <a href="README.en.md">English</a> (outdated)
+    <b>Indonesia</b> (ini) | <a href="README.en.md">English</a>
 </p>
 
 ---
