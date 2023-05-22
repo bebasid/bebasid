@@ -13,10 +13,10 @@
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join BEBASID Discord"></a>
  </p>
 <p align="center">
-    <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2019&color=yellowgreen&style=plastic%22"></a>
-    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validasi" alt="Hosts status"></a>
-    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=ukuran" alt="Release size">
-    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
+    <a href="#"><img src="https://img.shields.io/static/v1?label=year%20released:&message=2019&color=yellowgreen&style=plastic%22"></a>
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validation" alt="Hosts status"></a>
+    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
+    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watcher%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
     <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
 </p>
 <p align="center">
