@@ -1,16 +1,26 @@
 <p align="center">
+    <b>For ISP that implemented DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP support it.</b>
+    <br><sup>Signs if your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
+    <b>Bypass MCI DPI on Modem/Router (in Indonesian):</b><br>
+    <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md">OpenWRT</a> |
+    <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md">MikroTik</a>
+</p>
+<p align="center">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
 </p>
 <p align="center">
-    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validation" alt="Hosts Status"></a>
-    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
+<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join BEBASID Discord"></a>
+ </p>
+<p align="center">
+    <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2019&color=yellowgreen&style=plastic%22"></a>
+    <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validasi" alt="Hosts status"></a>
+    <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=ukuran" alt="Release size">
+    <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
+    <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
 </p>
 <p align="center">
-    <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Discord Banner 4"/></a>
-</p>
-<p align="center">
-    <a href="README.md">Bacakan README dalam Bahasa Indonesia</a>
+    <a href="README.md">Indonesia</a> | <b>English</b> (this one)
 </p>
 
 ---
@@ -32,7 +42,7 @@
 
 ## bebasid
 
-with bebasid, you can access any restricted content that is blocked by using [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
+With bebasid, you can access any restricted content that is blocked by using [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
 
 ### Graphical User Interface (GUI)
 
@@ -42,7 +52,7 @@ You can use [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1) to s
 
 ### Terminal User Interface (TUI)
 
-If you want to use Terminal User Interface, checkout bebasin [here](https://github.com/mochidaz/bebasin).
+If you want to use Terminal User Interface, check bebasin [here](https://github.com/mochidaz/bebasin) which is under development.
 
 ![Bebasin on Linux](https://i.imgur.com/qwHji4w.png)
 
@@ -69,6 +79,8 @@ If you have any request or bug report, please [open a new issue](https://github.
 ## Frequently Asked Question
 
 If you have any problem in using bebasid, please head to [FAQ](https://github.com/bebasid/bebasid/blob/master/dev/readme/FAQ.md) before asking the problem in [Discord](https://discord.gg/EKrxZyu) or [opening a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
+
+Or you can email to `dukungan@bebasid.com` with subject **BebasID: [Your problem/question]**
 
 ## Donate Us!
 
