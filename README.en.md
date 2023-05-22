@@ -17,7 +17,7 @@
     <a href="https://github.com/bebasid/bebasid/actions?query=workflow%3AValidate"><img src="https://img.shields.io/github/actions/workflow/status/bebasid/bebasid/validate.yml?branch=master&logo=github&logoColor=fff&label=validation" alt="Hosts status"></a>
     <img src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?label=size" alt="Release size">
     <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watcher%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
-    <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
+    <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a>
 </p>
 <p align="center">
     <a href="README.md">Indonesia</a> | <b>English</b> (this one)
