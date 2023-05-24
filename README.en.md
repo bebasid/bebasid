@@ -1,6 +1,6 @@
 <p align="center">
-    <b>For ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
-    <br><sup>Signs if your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
+    <b>For an ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
+    <br><sup>Signs that your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI on Modem/Router:</b><br>
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.en.md">OpenWRT</a> |
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md">MikroTik</a>
