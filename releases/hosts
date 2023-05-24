@@ -22327,3 +22327,28 @@
 104.18.228.238 degoo.com
 104.18.229.238 www.deego.com
 108.179.232.166 karaoke.deego.com
+
+# [startmail.com]
+# IPv6
+2a02:22a0:bbb6:1d00::1001:443 startmail.com
+2a02:22a0:bbb6:1d00::1001:443 web.startmail.com
+2a02:22a0:bbb6:1d00::1001:443 www.startmail.com
+2a02:22a0:bbb6:1d00::1001:443 mail.startmail.com
+# IPv4
+145.131.90.136 startmail.com
+145.131.90.136 www.startmail.com
+145.131.90.152 web.startmail.com
+145.131.90.136 mail.startmail.com
+176.74.238.228 sentry.startmail.com
+
+# [psa.re]
+# IPv6
+2606:4700:3032::6815:1b67 www.psa.re
+2606:4700:3032::6815:1b67 psa.re
+# IPv4
+104.21.27.103 psa.re
+104.21.27.103 www.psa.re
+
+# [batotoo.com]
+185.225.113.115 batotoo.com
+185.225.113.115 www.batotoo.com
