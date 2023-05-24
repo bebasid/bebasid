@@ -10,53 +10,62 @@ bebasid_banner(){
   echo "=====  PEDULI INTERNET NETRAL  ====="
   echo
 }
+
+OS="Linux/Darwin Version"
+
+# ====================== VERSION AND BUILT ====================== #
+
+VERSION="v1.1 [Elena - Elli]"
+
+# Version Codename: vx.y [Girl Name - Special Name]
+#   Female Western Name FL  (x):
+#     0 : A,B,C,D (has been used)
+#     1 : E
+#     2 : F
+#     3 : G
+#     4 : H
+#     etc : etc
+#
+#   Special Name (HMBTN/SV) (y):
+#     0 : Ann
+#     1 : Elli
+#     2 : Karen
+#     3 : Mary
+#     4 : Popuri
+#     5 : Abigail
+#     6 : Emily
+#     7 : Haley
+#     8 : Leah
+#     9 : Aja
+#
+# NB: Use minor update instead major update
+
+# =============================     ============================= #
+
+BUILT="2023.5 [Fiona]"
+
+# Build Codename: Year.Month [Name/Trending Topic]
+#
+# If month is 6 or 12, use Trending Topic
+#   Example:  Mas Agus dan Mas Pras
+#
+# If month is even, use Boys Name (Z-A)
+#   Example:  Zlatan
+#
+# If month is odd, use Girls Name (A-Z)
+#   Example:  Annia
+
+# ============================= --- ============================= #
+
 about(){
   echo "Name of File  : bebasid.sh"
-  echo "Version       : v1.0 [Elena - Ann] Linux/Darwin Version"
-  echo "Built         : 2020.9 [Evarina]"
+  echo "Version       : $VERSION $OS"
+  echo "Built         : $BUILT"
   echo "Tested on     :"
   echo "    - Debian    : Debian, Ubuntu, Linux Mint"
   echo "    - RHEL      : CentOS, Fedora"
   echo "    - Arch      : Arch Linux, Manjaro"
   echo "    - Darwin    : MacOS Catalina"
-  echo
-  echo "Built with love by haibara"
-}
-rules(){
-  echo "Version Codename: vx.y [Girl Name - Special Name]"
-  echo "[Female Western Name - Special Name]"
-  echo "  Female Western Name FL  (x):"
-  echo "    0 : A,B,C,D (has been used)"
-  echo "    1 : E"
-  echo "    2 : F"
-  echo "    3 : G"
-  echo "    4 : H"
-  echo "    etc : etc"
-  echo
-  echo "  Special Name (HMBTN/SV) (y):"
-  echo "    0 : Ann"
-  echo "    1 : Elli"
-  echo "    2 : Karen"
-  echo "    3 : Mary"
-  echo "    4 : Popuri"
-  echo "    5 : Abigail"
-  echo "    6 : Emily"
-  echo "    7 : Haley"
-  echo "    8 : Leah"
-  echo "    9 : Aja"
-  echo
-  echo "NB: Use minor update instead major update"
-  echo
-  echo "Build Codename: Year.Month [Name/Trending Topic]"
-  echo
-  echo "If month is 6 or 12, use Trending Topic"
-  echo "  Example:  Mas Agus dan Mas Pras"
-  echo
-  echo "If month is even, use Boys Name (Z-A)"
-  echo "  Example:  Zlatan"
-  echo
-  echo "If month is odd, use Girls Name (A-Z)"
-  echo "  Example:  Annia"
 }
 
 # =========== DON'T CHANGE THE ORDER OF THIS FUNCTION =========== #
@@ -1194,42 +1203,8 @@ case $1 in
   about
   ;;
   "--version" )
-  echo "BEBASID v1.0 [Elena - Ann]"
-  echo "Linux/Darwin Version"
-  ;;
-  "--hidden" )
-  echo '                                ╒▓█▓▓███▓W▄╓'
-  echo '                                 ▓▓▀  ▀▓▒▓▓▒█▓▄╖           ,▄▄'
-  echo '                        ╓╗p▓▓▓▓▓▓▓█▄▓▓▓▓▄▄▄▀▀▓▓▓▓▓██▓▓▓▓▓██▀'
-  echo '                   ,▄▓█▓▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓█▓▄▄    ▀▀▀'
-  echo '               ,g▓▓▓▓▓██▓▓▓▓▓▓▓▌▓▓▓▓▓▓▓▓▓▓▓██▓▓█▓▄╖'
-  echo '              ,&▓▓▓▒▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▌▓▓▓▓██▓▓▄▄      ╓'
-  echo '            ▄▒▓▓▓▓▓█▓▓▓▓▓▓█▓▓▓▓▒▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒█▓▓▓▀█▀▓▌▓▄.,Æ▒▌'
-  echo '            █▄▓▒▒█▓▌▓▓▓▓▓▓█▓▓▓▓▓▌▀▓▓▓▓▓▓▓▓▓▓▓▓▌▒▒▀▓▒▒▒▓,  ▀▄▒▒▒▀W'
-  echo '          ╣▓▓▓▓▓▓▌▓▓▓▓▓▓▓▒▀▓▒▒▌░▀░▒▀▀▀▀╜▒▒▀▀▒@▓▄▒▒  █▓▓▓▓▓   ▌▒▓█'
-  echo '         ▐▒▓▓▓▓▓▌]▓▓▓▓▓▓█▒▄▓▒▓   ▒▀▒▄▒▒▒▒▒▒▓▓▓▓▓▓▓▓█▓▓▓▓▓▄     █▄'
-  echo '         █▓▓▓▓▓█▒▒▓▓▓▓▀▒▐▒▓▓▌▌     ≡▒░▀▀▒▄▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▄    ▀U'
-  echo '         ▌▓▓█▓▓█▒▒▒▒▒▒▒▒▒█▓▓▓█       ,╓ ▒▒▒▀▀▀▀▀█▓▓▓▓▓▓▓▓▓▓▓▀▄'
-  echo '         █▓▓▌▓▓█▒▒@▓▓▓▄▒▒▒█▓▓▓█              ╓▒∞▀▀▓▓▓▓▓▓▓██▒▄▓▓▄'
-  echo '         ▌▓▓▒▀▓█▒╫▓▓▓▓▓▓▓▒▓▌▀▀▓█▄ ,,▄╖      ▓   ,▒█▓▓▓▓▓▓▓▓▒█▓▓▓▓'
-  echo '         ║▓▓▒▒▄▒▌▒▓▓▓▓▓▓▓▓▓▓▄╖m▀  ¬┌▓U      ▀*▒    ▀▓▓█▓▓▓▓▀▓██▓█▓▄'
-  echo '         └▌▓▌▓▓▓Ñ█▒▓▓▓▓▓▓▓▓▓▓▄   ,⌐┴*         m     █▓▓█▓▓▓▓└▓█╙▓▓▓'
-  echo '          ║H▓▌▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓██,    ░░             █▓▓▓██▓▓▓██ ▐▓▓⌐'
-  echo '           █▓█▓▓▓▓▓Ñ█▓▀▓▓▓▓▓▓▓▓▓▓█▓▄,       ╓¬    ,█ ▀▓▓███▓▓▓▄  ▓█'
-  echo '           └▓▓└▀▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▀█▓░,       ▄▓▓▓▓  ▀▓▓▌ └▓▓ ┌█'
-  echo '            └▓▌ └█▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▒▒▀█░,▄▄▓▓▓└ ▀▓▓▓⌐  █▌   █▌ '
-  echo '              ▀    ▀▓▓▓▓▓█▓▓▓██▓▓▓▒▒▒▓▓▓▓██▓█ ▀▀▓▄   ╙▀⌐  U    Γ'
-  echo '               ╙      ▀▓▓▓█▀▓▓╙▓▓▓▒██▓▓▓▓▓█▓███p»▄          ╓╖'
-  echo '                        ▀▌▒▄╙▓H▐█████████▓█▀    ▓▒ v     g+█▒░█'
-  echo '                          ▀▓ └ ▐█▓▓▓██████▀ U    ▌░ └▄    %▓▄▄▀'
-  echo '                         ,⌐▄     ▀█▌Q⌐  ,█ ,▌    ▓▒   U'
-  echo '                          ≡░▀  ]  ▀█HWª██▌ ▒█    ██   ▐'
-  echo '                          └▄▒▒▓⌐   ▀█  ╙█████▌   ██ ▄▄▄H'
-  echo '                             *Γ      U   ╓████▄▄▓█ ▐██▀'
-  echo '                                       ,,,█▀  ▀▀▀ⁿ'
-  echo
-  echo '                          KIMI NO UNMEI NO HITO WA BOKU JANAI :")'
-  echo '                      TSURAI KEDO INAMENAI, TEMO HANAREGATAI NO SA :")'
+  echo "BEBASID $VERSION"
+  echo "$OS"
   ;;
   * )
   echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
