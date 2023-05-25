@@ -19,6 +19,10 @@
     <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
     <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
 </p>
+<p align="center">Donasi kami:</br>
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+ </p>
 <p align="center">
     <b>Indonesia</b> | <a href="README.en.md">English</a>
 </p>
@@ -65,11 +69,11 @@ Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid
 
 ### Lainnya
 
-Untuk panduan penggunaan lainnya, silakan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md).
+Untuk panduan penggunaan lainnya, silahkan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) jika anda memahami tersebut.
 
 ### Kode Sumber
 
-Jika Anda membutuhkan kode sumber bebasid (GUI), silakan menuju ke repo [bebasid-src](https://github.com/bebasid/bebasid-src).
+Jika anda membutuhkan kode sumber bebasid (GUI), silahkan menuju ke repo [bebasid-src](https://github.com/bebasid/bebasid-src) untuk menggunakannya.
 
 ## Cara Berkontribusi, Pertanyaan, atau Permintaan
 
