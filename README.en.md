@@ -19,6 +19,10 @@
     <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
     <a href="https://github.com/bebasid/bebasid/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a>
 </p>
+<p align="center">Our donation:</br>
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+ </p>
 <p align="center">
     <a href="README.md">Indonesia</a> | <b>English</b>
 </p>
@@ -27,7 +31,6 @@
 
 ## Table of Content
 
-- [Table of Content](#table-of-content)
 - [bebasid](#bebasid)
   - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
@@ -44,29 +47,29 @@
 
 With bebasid, you can access any restricted content that is blocked by using [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
 
-### Graphical User Interface (GUI)
+### <ins>Graphical User Interface (GUI)</ins>
 
 You can use [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1) to simplify bebasid's hosts installaton.
 
 ![bebasid running on Windows 10](https://i.imgur.com/Bcq0rgm.png)
 
-### Terminal User Interface (TUI)
+### <ins>Terminal User Interface (TUI)</ins>
 
 If you want to use Terminal User Interface, check bebasin [here](https://github.com/mochidaz/bebasin) which is under development.
 
 ![Bebasin on Linux](https://i.imgur.com/qwHji4w.png)
 
-### Command Line Interface (CLI)
+### <ins>Command Line Interface (CLI)</ins>
 
 You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/tag/v1.1) app.
 
 ![bebasid.bat running on Windows 10](https://i.imgur.com/CrnySId.png)
 
-### Other
+### <ins>Other</ins>
 
 Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for more usage guidelines.
 
-### Source Code
+### <ins>Source Code</ins>
 
 If you want to know bebasid source code, please head to [bebasid-src](https://github.com/bebasid/bebasid-src)
 
