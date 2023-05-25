@@ -27,7 +27,6 @@
 
 ## Daftar Isi
 
-- [Daftar Isi](#daftar-isi)
 - [bebasid](#bebasid)
   - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
   - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
@@ -35,7 +34,7 @@
   - [Lainnya](#lainnya)
   - [Kode Sumber](#kode-sumber)
 - [Cara Berkontribusi, Pertanyaan, atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
-- [Soal Sering Ditanya](#soal-sering-ditanya)
+  - [Soal Sering Ditanya](#soal-sering-ditanya)
 - [Berdonasi](#berdonasi)
 - [Lisensi](#lisensi)
 - [Syarat & Ketentuan](#syarat--ketentuan)
@@ -76,7 +75,7 @@ Jika Anda membutuhkan kode sumber bebasid (GUI), silakan menuju ke repo [bebasid
 
 Untuk membantu pengembangan bebasid, silakan menuju ke [KONTRIBUSI](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md).
 
-Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka isu baru](https://github.com/bebasid/bebasid/issues/new/choose).
+Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka isu baru](https://github.com/bebasid/bebasid/issues/new/choose).
 
 ## Soal Sering Ditanya
 
