@@ -35,7 +35,7 @@
   - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
   - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
   - [Antarmuka Baris Perintah (CLI)](#antarmuka-baris-perintah-cli)
-  - [Lainnya](#lainnya)
+  - [Metode Lainnya](#metode-lainnya)
   - [Kode Sumber](#kode-sumber)
 - [Cara Berkontribusi, Pertanyaan, atau Permintaan](#cara-berkontribusi-pertanyaan-atau-permintaan)
   - [Soal Sering Ditanya](#soal-sering-ditanya)
@@ -67,7 +67,7 @@ Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid
 
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
 
-### <ins>Lainnya</ins>
+### <ins>Metode Lainnya</ins>
 
 Untuk panduan penggunaan lainnya, silahkan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) jika anda memahami tersebut.
 
