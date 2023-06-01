@@ -1,12 +1,13 @@
 # Cara Penggunaan Lainnya
 ## Windows (Manual)
 
-Salinkan Hosts dari [BEBASID](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts), lalu tempelkan ke
+1. Salinkan [Hosts dari BEBASID](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts), lalu tempelkan ke:
 ```
 C:\Windows\System32\drivers\etc
 ```
-Untuk membukakan isi file hosts nya, silakan coba pake Notepad biasa atau Notepad++.
-Jika halaman masih belum bisa terbuka, silahkan lakukan flush dns di cmd.
+*Untuk membukakan isi file hosts tersebut, silahkan pake bawaan Windows ([Notepad](https://apps.microsoft.com/store/detail/windows-notepad/9MSMLRH6LZF3)) atau program pihak ketiga ([Notepad++](https://notepad-plus-plus.org/downloads/)) jika mau melihat didalam [hosts file-nya](https://en.wikipedia.org/wiki/Hosts_(file)).*
+
+2. Jika halaman masih belum bisa terbuka, silahkan melakukan **Flush DNS** di **Command Prompt**.
 
 ```
 ipconfig /release
@@ -16,74 +17,75 @@ ipconfig /flushdns
 
 ## Android
 
-### Root
+### <ins>Root</ins>
+*Pastikan jika perangkatmu sudah di root. Jika belum, silahkan menuju ke langkah [Non-Root](#non-root) untuk memakainya.*
 
-**Manual**
+**Magisk (Disarankan):**
 
-Salin file hosts dan paste di folder /etc kemudian restart HP.
+1. Bukakan Aplikasi **Magisk**, lalu pilih menu **"Module"**.
+2. Selanjutnya klik tanda **"+"** lalu cari module `bebasid-magisk.zip`.
+3. Lalu, pencet tombol **"Reboot"** untuk memulaikan menerap module `bebasid-magisk.zip` tersebut.
 
-**AdAway**
+AdAway:
 
-Alternatif (jika ingin install melewati aplikasi atau menambahkan list hosts lain)
-
-Install aplikasi [AdAway](https://f-droid.org/en/packages/org.adaway)
+1. Install aplikasi [AdAway](https://f-droid.org/en/packages/org.adaway).
 
 ```
 https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
 ```
 
-Buka aplikasinya, pilih Add, kemudian salin kode diatas lalu tambahkan.
+2. Bukakan aplikasinya, pilih **"Add"**, kemudian salinkan [Hosts dari BEBASID](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts), lalu tambahkan setelah menempelkan link hosts bebasid.
 
-Centang opsi "Allow Redirections" di Settings.
+3. Centangkan opsi **"Allow Redirections"** di **Pengaturan**/**Settings**.
 
-**Magisk** (Disarankan)
+Manual:
 
-Buka Magisk lalu pilih menu "Module".
+Alternatif *(Jika ingin install melewati file manager atau menambahkan list hosts lain)*
 
-Selanjutnya klik tanda "+" lalu cari module bebasid-magisk.zip.
+Salinkan [Hosts dari BEBASID](https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts) dan tempelkan di folder `/etc/` bagian `hosts`, kemudian restart HP.
 
-Klik tombol "Reboot" untuk memulai menerapkan module tersebut.
+### <ins>Non-Root</ins>
 
-### Non-Root
-
-Install aplikasi [Hosts Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change), buka aplikasinya, klik "Hosts Settings", lalu pilih hosts. Kemudian jalankan.
+1. Install aplikasi [Hosts Go](https://play.google.com/store/apps/details?id=dns.hosts.server.change) yang ada di Play Store. 
+2. Setelah install, bukakan aplikasi Hosts Go. 
+3. Klik **"Hosts Settings"**, lalu pilih **hosts**. Kemudian jalankan didalam aplikasi Hosts Go.
 
 ## Linux
 
-Buka terminal, lalu ketik atau salin kode di bawah ini, lalu enter.
+Buka **Terminal** di Linux, ikuti langkah-langkahnya dan salinkan kode di bawah ini, lalu pencet tombol enter di keyboard-mu.
 
 ```
-# Install
+# Install:
 sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -O /usr/local/bin/bebasid
 
-# Kemudian berikan permission ke folder bash
+# Kemudian berikan perizinan ke folder bash:
 sudo chmod +x /usr/local/bin/bebasid
 
-# Bantuan
+# Bantuan:
 bebasid --help
 ```
 
-Alternatif (jika hanya ingin memasang file hosts):
+Alternatif (*Jika hanya ingin memasang file hosts)*:
 ```
 sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
 
 ## BSD / macOS
 
-Buka terminal, lalu ketik atau salin kode di bawah ini, lalu enter.
+Buka **Terminal** di BSD/macOS, ikuti langkah-langkahnya dan salinkan kode di bawah ini, lalu pencet tombol enter di keyboard-mu.
 
 ```
-# Install
+# Install:
 sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -o /usr/local/bin/bebasid
 
-# Kemudian berikan permission ke folder bash
+# Kemudian berikan perizinan ke folder bash:
 sudo chmod +x /usr/local/bin/bebasid
 
-# Bantuan
+# Bantuan:
 bebasid --help
 ```
 
-Alternatif (jika hanya ingin memasang file hosts):
+Alternatif *(Jika hanya ingin memasang file hosts)*:
 ```
 sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
 ```
