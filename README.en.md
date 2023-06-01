@@ -35,6 +35,7 @@
   - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
   - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
   - [Command Line Interface (CLI)](#command-line-interface-cli)
+  - [Other Thing](#other-thing)
   - [Source Code](#source-code)
 - [Contributing, Question and Request](#contributing-question-and-request)
 - [Frequently Asked Question](#frequently-asked-question)
@@ -67,7 +68,7 @@ You can use [bebasid batch script](https://github.com/bebasid/bebasid/releases/t
 
 ### <ins>Other</ins>
 
-Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for more usage guidelines.
+Please head to [USAGE](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) for more usage methods.
 
 ### <ins>Source Code</ins>
 
