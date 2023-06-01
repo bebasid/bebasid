@@ -6,7 +6,7 @@ Copy Hosts from [BEBASID](https://raw.githubusercontent.com/bebasid/bebasid/mast
 C:\Windows\System32\drivers\etc
 ```
 To open the hosts file, use built-in Notepad or Notepad++.
-If your desired page is still unable to open, you can flush your dns on cmd.
+If your are still unable to open the page, you can flush your DNS on the Command Prompt.
 
 ```
 ipconfig /release
@@ -20,7 +20,7 @@ ipconfig /flushdns
 
 **Manual**
 
-Copy the hosts file and paste to /etc folder then restart your phone.
+Copy the hosts file and paste to /etc folder and then restart your phone.
 
 **AdAway**
 
@@ -32,7 +32,7 @@ Install [AdAway](https://f-droid.org/en/packages/org.adaway)
 https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
 ```
 
-Open the app, choose Add, then copy above code and add them.
+Open the app, choose Add, then copy above code and paste them.
 
 Turn on "Allow Redirections" on Settings.
 
@@ -42,7 +42,7 @@ Open Magisk then choose "Module" menu.
 
 After that, tap "+" and then find the bebasid-magisk.zip module.
 
-Tap "Reboot" to start implementing that module.
+Tap "Reboot" to start implementing the module.
 
 ### Non-Root
 
@@ -51,7 +51,7 @@ Install [Hosts Go](https://play.google.com/store/apps/details?id=dns.hosts.serve
 
 ## Linux
 
-Open terminal, type or copy the command below, then enter.
+Open the terminal, type or copy the command below, then enter.
 
 ```
 # Install
@@ -64,14 +64,14 @@ sudo chmod +x /usr/local/bin/bebasid
 bebasid --help
 ```
 
-Alternative (if you just want to install hosts file):
+Alternative (if you just want to install the hosts file):
 ```
 sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
 
 ## BSD / macOS
 
-Open terminal, type or copy the command below, then enter.
+Open the terminal, type or copy the command below, then enter.
 
 ```
 # Install
@@ -84,7 +84,7 @@ sudo chmod +x /usr/local/bin/bebasid
 bebasid --help
 ```
 
-Alternative (if you just want to install hosts file):
+Alternative (if you just want to install the hosts file):
 ```
 sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
 ```
