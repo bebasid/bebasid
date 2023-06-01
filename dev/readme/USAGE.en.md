@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
 
 Open the app, choose Add, then copy above code and paste them.
 
-Turn on "Allow Redirections" on Settings.
+Turn on "Allow Redirections" in Settings.
 
 **Magisk** (Recommended)
 
