@@ -69,7 +69,7 @@ Anda dapat menggunakan aplikasi [skrip batch bebasid](https://github.com/bebasid
 
 ### <ins>Metode Lainnya</ins>
 
-Untuk panduan penggunaan lainnya, silahkan menuju ke [PEMAKAIAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) jika anda memahami tersebut.
+Untuk panduan penggunaan lainnya, silahkan menuju ke [PENGGUNAAN LAINNYA](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) jika anda memahami pemakaian tersebut.
 
 ### <ins>Kode Sumber</ins>
 
