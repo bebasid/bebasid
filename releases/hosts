@@ -22102,10 +22102,12 @@
 # [1stream.eu]
 104.21.82.51 1stream.eu
 
-# [vipstand.se]
-45.178.6.109 www.vipstand.se
-45.178.6.109 vipstand.se
-212.8.250.185 mail.vipstand.se
+# [vipstand.st]
+45.178.7.141 vipstand.st
+45.178.7.141 www.vipstand.st
+45.178.6.109 www.vipstand.st
+45.178.6.109 vipstand.st
+212.8.250.185 mail.vipstand.st
 
 # [streamers.watch]
 104.21.82.9 streamers.watch
