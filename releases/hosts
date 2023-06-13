@@ -22366,3 +22366,19 @@
 
 # [22win88.com]
 178.253.47.246 22win88.com
+
+# [edoujin.net]
+# IPv6
+2606:4700:3033::ac43:c8d1 edoujin.net
+2606:4700:3037::6815:15da www.edoujin.net
+# IPv4
+172.67.200.209 edoujin.net
+104.21.21.218 www.edoujin.net
+
+# [fbox.to]
+# IPv6
+2606:4700:3031::6815:e57 fbox.to
+2606:4700:3034::ac43:9e86 www.fbox.to
+# IPv4
+172.67.158.134 fbox.to
+104.21.14.87 www.fbox.to
