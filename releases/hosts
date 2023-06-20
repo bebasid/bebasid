@@ -15892,13 +15892,13 @@
 109.206.161.228 cert.upornia.com
 188.72.255.22 ndcu.upornia.com
 109.206.161.228 dev.upornia.com
-172.64.195.23 www.upornia.com
+109.206.171.6 www.upornia.com
 139.162.186.80 4.dvl.upornia.com
 139.162.186.80 member.4.dvl.upornia.com
 139.162.151.246 member.staging.upornia.com
 139.162.148.185 m.feature.ssl.d.dvl.upornia.com
 139.162.148.185 www.feature.ssl.d.dvl.upornia.com
-172.64.194.23 upornia.com
+109.206.171.6 upornia.com
 139.162.186.80 8.dvl.upornia.com
 139.162.186.80 member.8.dvl.upornia.com
 139.162.186.80 7.dvl.upornia.com
@@ -16520,10 +16520,10 @@
 104.21.19.157 javgg.net
 
 # [pornzog.com]
-213.174.135.24 pornzog.com
-213.174.135.24 www.pornzog.com
-213.174.135.24 tn.pornzog.com
-213.174.135.24 tn1.pornzog.com
+172.64.192.12 pornzog.com
+172.64.193.12 www.pornzog.com
+45.133.44.24 tn.pornzog.com
+45.133.44.25 tn1.pornzog.com
 
 # [vrporn.com]
 69.16.175.42 mcdn1.vrporn.com
