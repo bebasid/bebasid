@@ -1,4 +1,13 @@
 <p align="center">
+    <b>BebasID is sponsored by</b><br><br>
+        <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="250">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="250">
+    </a><br>
+    <i>A freedom oriented and neutral VPS provider for your need</i><br>
+    <a href="https://delapan.click/store/vps-ssd-kvm">Starting from Rp 50k</a>
+</p>
+<hr>
+<p align="center">
     <b>Untuk ISP yang memakai DPI, gunakan <a href="https://github.com/bebasid/bebasit">bebasit</a> untuk melewati DPI atau menyalakan IPv6 jika ISP-nya mendukung.</b>
     <br><sup>Ciri-Ciri ISP anda menggunakan DPI: HTTP mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> atau HTTPS keluar <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI Kominfo di Modem/Router:</b><br>
