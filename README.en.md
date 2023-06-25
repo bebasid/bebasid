@@ -7,7 +7,7 @@
     <m>Starting from <b>Rp. 50.000,00</b></m>.</br>
     <a href="https://delapan.click/store/vps-ssd-kvm">See the complete VPS packages </a>
 </p>
-
+<hr>
 <p align="center">
     <b>For an ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
     <br><sup>Signs that your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
