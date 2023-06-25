@@ -1,10 +1,11 @@
 <p align="center">
-    <b>BebasID is sponsored by</b><br><br>
-        <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="250">
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="250">
+    <b><ins>BebasID ini telah disponsori oleh</ins>:</b><br><br>
+        <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330">
     </a><br>
-    <i>A freedom oriented and neutral VPS provider for your need</i><br>
-    <a href="https://delapan.click/store/vps-ssd-kvm">Starting from Rp 50k</a>
+    <i>Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.</i></br>
+    <m>Dimulai dari <b>Rp. 50.000,00</b></m>.</br>
+    <a href="https://delapan.click/store/vps-ssd-kvm">Lihat paket langganan VPS selengkapnya</a>.
 </p>
 <hr>
 <p align="center">
@@ -15,8 +16,8 @@
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md">MikroTik</a>
 </p>
 <p align="center">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.png#gh-light-mode-only" alt="BEBASID LOGO" width="330">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.png#gh-dark-mode-only" alt="BEBASID LOGO" width="330">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="445">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="445">
 </p>
 <p align="center">
     <b>Indonesia</b> | <a href="README.en.md">English</a>
