@@ -22382,3 +22382,13 @@
 # IPv4
 172.67.158.134 fbox.to
 104.21.14.87 www.fbox.to
+
+# [anonfiles.com]
+# IPv6
+2001:678:b30:4::8 api.anonfiles.com
+2001:678:b30:4::c anonfiles.com
+2001:678:b30:4::e www.anonfiles.com
+# IPv4
+45.154.253.154 api.anonfiles.com
+45.154.253.152 anonfiles.com
+45.154.253.150 www.anonfiles.com
