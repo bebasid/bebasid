@@ -1,5 +1,5 @@
 <p align="center">
-    <b>BebasDNS is sponsored by Atharva</b><br><br>
+    <b>BebasID is sponsored by Atharva</b><br><br>
         <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330">
     </a><br>
