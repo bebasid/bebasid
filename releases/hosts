@@ -18850,10 +18850,16 @@
 172.67.74.74 webmail.animopron.com
 
 # [rule34video.com]
-185.178.208.167 rule34video.com
-185.178.208.167 www.rule34video.com
-185.178.208.167 dev.rule34video.com
+# IPv6
+2606:4700:21::681b:cb59 rule34video.com
+2606:4700:21::681b:cb59 www.rule34video.com
+# IPv4
+104.27.203.89 rule34video.com
+104.27.203.89 www.rule34video.com
 104.27.203.89 dev.rule34video.com
+50.7.180.98 ams03-prem.rule34video.com
+51.159.105.152 r34par02.rule34video.com
+62.210.88.40 r34par01.rule34video.com
 51.158.154.34 r34par11-822.rule34video.com
 51.158.153.240 r34par12-788.rule34video.com
 51.15.174.107 r34par02-965.rule34video.com
