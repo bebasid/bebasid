@@ -22429,3 +22429,12 @@
 # [bet365]
 5.226.179.10 bet365.com
 5.226.179.10 www.bet365.com
+
+# yandex
+5.255.255.80 yandex.com
+5.255.255.80 yandex.ru
+5.255.255.80 dzen.ru
+
+# Steam
+23.206.220.117 store.steampowered.com
+23.206.220.117 steampowered.com
