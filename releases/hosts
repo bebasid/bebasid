@@ -2081,14 +2081,22 @@
 104.21.24.177 www.hentai2.org
 
 # [gelbooru.com]
+# IPv6
+2607:f128:53::44 gelbooru.com
+2606:4700:3038::6815:ea05 www.gelbooru.com
+2606:4700:3038::6815:ea05 img1.gelbooru.com
+2606:4700:3038::6815:ea04 img3.gelbooru.com
+2606:4700:3038::6815:ea04 ja.gelbooru.com
+2a00:1098:2b::1:6cb5:8f47 video-cdn3.gelbooru.com
+# IPv4
 67.202.114.141 gelbooru.com
-188.114.97.10 www.gelbooru.com
-188.114.97.10 img1.gelbooru.com
+104.21.234.4 www.gelbooru.com
+104.21.234.5 img1.gelbooru.com
 67.202.114.141 img1b.gelbooru.com
-172.107.228.194 img3.gelbooru.com
-172.107.228.194 video-cdn3.gelbooru.com
+104.21.234.5 img3.gelbooru.com
+108.181.143.71 video-cdn3.gelbooru.com
 67.202.114.141 webm.gelbooru.com
-188.114.97.10 ja.gelbooru.com
+104.21.234.5 ja.gelbooru.com
 
 # [omegle.com]
 104.23.142.25 omegle.com
@@ -22419,11 +22427,3 @@
 # [bet365]
 5.226.179.10 bet365.com
 5.226.179.10 www.bet365.com
-
-# [x.com]
-# IPv4
-104.18.16.213 x.com
-104.18.17.213 www.x.com
-# IPv6
-2606:4700::6812:11d5 x.com
-2606:4700::6812:10d5 www.x.com
