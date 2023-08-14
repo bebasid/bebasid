@@ -20467,6 +20467,18 @@
 31.220.104.237 nightly.jasmr.net
 188.114.96.3 live.jasmr.net
 
+# [catbox.moe-ipv6]
+2a00:1098:2b::1:6cb5:1427 catbox.moe
+2a00:1098:2b::1:6cb5:1427 www.catbox.moe
+2a00:1098:2b::1:6cb5:1427 files.catbox.moe
+2a00:1098:2c::5:6cb5:1424 litter.catbox.moe
+2a00:1098:2b::1:8ac5:db60 amqstore.catbox.moe
+2a00:1098:2c::5:6cb5:7c89 nl.catbox.moe
+2a00:1098:2c::5:6cb5:1427 nofun.catbox.moe
+2a00:1098:2c::5:6cb5:1427 qt.catbox.moe
+2a00:1098:2c::5:9f41:4de9 status.catbox.moe
+2a01:4f8:c2c:123f:64:5:cebd:d671 store.catbox.moe
+
 # [catbox.moe]
 107.160.74.131 catbox.moe
 107.160.74.131 www.catbox.moe
