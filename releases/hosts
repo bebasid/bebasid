@@ -22250,3 +22250,14 @@
 # [bet365]
 5.226.179.10 bet365.com
 5.226.179.10 www.bet365.com
+
+# [nudostar.com]
+# IPv6
+2606:4700:20::681a:93 nudostar.com
+2606:4700:20::681a:93 www.nudostar.com
+2606:4700:20::ac43:4a40 cdn2.nudostar.com
+# IPv4
+172.67.74.64 nudostar.com
+104.26.1.147 www.nudostar.com
+104.26.0.147 cdn2.nudostar.com
+88.208.31.2 cdn.nudostar.com
