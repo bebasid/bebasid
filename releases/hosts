@@ -39,13 +39,18 @@
 # DoH / DNS
 
 # Blokir Pelacak
-# [Indihome]
+## Kominf*ck:
+147.139.211.126 lamanlabuh.aduankonten.id
+147.139.211.126   202.89.117.64
+147.139.211.126   103.154.123.132
+147.139.211.126   139.255.196.196
+## ISPs:
+### [Telkomsel/Indihome]
 127.0.0.1 a01.uadexchange.com
 127.0.0.1 a02.uadexchange.com
 127.0.0.1 a03.uadexchange.com
 127.0.0.1 a04.uadexchange.com
 127.0.0.1 a05.uadexchange.com
-127.0.0.1 block.uzone.id
 127.0.0.1 cfs.u-ad.info
 127.0.0.1 cfs.uzone.id
 127.0.0.1 cfs2.uadexchange.com
@@ -59,10 +64,8 @@
 127.0.0.1 digilife.uzone.id
 127.0.0.1 expose.uzone.id
 127.0.0.1 food.uzone.id
-127.0.0.1 internetpositif.uzone.id
 127.0.0.1 js.digiads.co.id
 127.0.0.1 kendedes.uzone.id
-127.0.0.1 mercusuar.uzone.id
 127.0.0.1 news.uzone.id
 127.0.0.1 notifa.info
 127.0.0.1 p01.notifa.info
@@ -86,21 +89,27 @@
 127.0.0.1 www.usearch.co.id
 127.0.0.1 www.x-tags.net
 127.0.0.1 x-tags.net
-147.139.211.126 lamanlabuh.aduankonten.id
-
-# [Telkomsel]
 127.0.0.1 ads.telkomsel.com
-
-# [XL]
+147.139.211.126 mercusuar.uzone.id
+147.139.211.126 block.uzone.id
+147.139.211.126 internetpositif.uzone.id
+147.139.211.126 v3.mercusuar.uzone.id
+147.139.211.126    36.86.63.185
+### [XL/Fiber/Liveon/Lite]
 127.0.0.1 ibnads.xl.co.id
-
-# [Indosat]
+### [Indosat/Hifi]
 127.0.0.1 ads.indosatooredoo.com
-127.0.0.1 netsafe.indosatm2.com
+147.139.211.126 netsafe.indosatm2.com
+### [MyRepublic]
+147.139.211.126    158.140.186.3
+### [CBN]
+147.139.211.126    210.210.178.70
+### [Biznet Home/Metronet]
+147.139.211.126    202.169.44.80
 
-# Aturan
-# Format penulisan satu ip dan satu domain/subdomain dalam satu baris
-# [IP][Spasi][Domain/Subdomain]
+# Aturan:
+# Format penulisan satu ip dan satu domain/subdomain dalam satu baris.
+# [IP][Spasi][Domain/Subdomain/IP]
 
 # Mulai hosts bebasid
 
@@ -658,6 +667,10 @@
 208.94.148.4 ns0.motherlessmedia.com
 4.34.200.232 s10.motherlessmedia.com
 185.107.81.233 motherlessmedia.com
+### [CDN XNXX]
+89.187.163.117 static-cdn77.xnxx-cdn.com
+69.55.53.168 static-ss.xnxx-cdn.com
+138.199.14.10 cdn77-pic.xnxx-cdn.com
 8.240.25.251 vid1-l3.xvideos-cdn.com
 8.240.143.123 hls1-l3.xvideos-cdn.com
 8.252.17.123 vid2-l3.xvideos-cdn.com
@@ -21951,6 +21964,7 @@
 
 # [1stream.eu]
 104.21.235.139 1stream.eu
+104.21.235.139 www.1stream.eu
 
 # [vipstand.st]
 45.178.7.141 vipstand.st
@@ -22050,14 +22064,14 @@
 88.208.29.90 www.live.missav.com
 88.208.29.90 zh.live.missav.com
 
-# [ Deepcoin ]
+# [deepcoin.com]
 52.84.150.53 deepcoin.com
 13.224.250.15 www.deepcoin.com
 13.224.250.24 net-wapi.deepcoin.com
 13.224.250.26 api.deepcoin.com
 13.224.250.58 net-wss.deepcoin.com
 
-# [ Bingx.com ]
+# [bingx.com]
 104.18.0.241 bingx.com
 104.18.1.241 www.bingx.com
 104.18.0.241 static-app.bingx.com
@@ -22066,9 +22080,11 @@
 
 # [nana.my.id]
 104.21.75.105 nana.my.id
+104.21.75.105 www.nana.my.id
 
 # [erogedownload.com]
 104.21.73.37 erogedownload.com
+104.21.73.37 www.erogedownload.com
 
 # [realbooru.com]
 104.21.233.193 realbooru.com
@@ -22076,6 +22092,7 @@
 
 # [bling2.com]
 8.219.131.184 bling2.com
+8.219.131.184 www.bling2.com
 
 # [anoboy.ninja]
 172.67.150.174 anoboy.ninja
@@ -22083,6 +22100,7 @@
 
 # [otomi-games.com]
 172.67.206.156 otomi-games.com
+172.67.206.156 www.otomi-games.com
 
 # [socialmediagirls.com]
 185.178.208.164 socialmediagirls.com
@@ -22113,58 +22131,60 @@
 172.67.223.133 www.9anime.id
 
 # [loverslab.com]
-# IPv6
-2606:4700:20::681a:160 loverslab.com
-2606:4700:20::681a:160 www.loverslab.com
-2606:4700:20::681a:160 static.loverslab.com
-# IPv4
+### IPv4
 104.26.1.96 loverslab.com
 104.26.0.96 www.loverslab.com
 172.67.71.146 static.loverslab.com
+### IPv6
+2606:4700:20::681a:160 loverslab.com
+2606:4700:20::681a:160 www.loverslab.com
+2606:4700:20::681a:160 static.loverslab.com
 
 # [dikgames.com]
-# IPv6
-2606:4700:3030::ac43:9c1c dikgames.com
-# IPv4
+### IPv4
 172.67.156.28 dikgames.com
+104.21.34.75 www.dikgames.com
+### IPv6
+2606:4700:3030::ac43:9c1c dikgames.com
+2606:4700:3032::6815:224b www.dikgames.com
 
 # [9anime.gs]
-# IPv6
-2606:4700:3035::ac43:955d 9anime.gs
-2606:4700:3035::6815:2fad www.9anime.gs
-# IPv4
+### IPv4
 104.21.47.173 9anime.gs
 172.67.149.93 www.9anime.gs
+### IPv6
+2606:4700:3035::ac43:955d 9anime.gs
+2606:4700:3035::6815:2fad www.9anime.gs
 
 # [animepahe.com]
-# IPv6
-2606:4700:3034::ac43:b66c animepahe.com
-2606:4700:3035::6815:4bdf www.animepahe.com
-2606:4700:3034::ac43:b66c i.animepahel.com
-2606:4700:3035::6815:aa3 animepahe.ru
-# IPv4
+### IPv4
 104.21.75.223 animepahe.com
 172.67.182.108 www.animepahe.com
 104.21.75.223 i.animepahe.com
 104.21.10.163 animepahe.ru
+### IPv6
+2606:4700:3034::ac43:b66c animepahe.com
+2606:4700:3035::6815:4bdf www.animepahe.com
+2606:4700:3034::ac43:b66c i.animepahel.com
+2606:4700:3035::6815:aa3 animepahe.ru
 
 # [coinbase.com]
-# IPv6
-2606:4700::6812:42b coinbase.com
-2606:4700::6812:52b www.coinbase.com
-2606:4700::6812:52b assets.coinbase.com
-# IPv4
+### IPv4
 104.18.5.43 coinbase.com
 104.18.5.43 www.coinbase.com
 104.18.5.43 assets.coinbase.com
+### IPv6
+2606:4700::6812:42b coinbase.com
+2606:4700::6812:52b www.coinbase.com
+2606:4700::6812:52b assets.coinbase.com
 
 # [neosubs.net]
-# IPv4
-2606:4700:3032::6815:5871 neosubs.net
-2606:4700:3036::ac43:b124 www.neosubs.net
-# IPv6
+### IPv4
 172.67.177.36 neosubs.net
 104.21.88.113 www.neosubs.net
+### IPv6
+2606:4700:3032::6815:5871 neosubs.net
+2606:4700:3036::ac43:b124 www.neosubs.net
 
 # [degoo.com]
 104.18.228.238 degoo.com
@@ -22172,25 +22192,25 @@
 108.179.232.166 karaoke.deego.com
 
 # [startmail.com]
-# IPv6
-2a02:22a0:bbb6:1d00::1001:443 startmail.com
-2a02:22a0:bbb6:1d00::1001:443 web.startmail.com
-2a02:22a0:bbb6:1d00::1001:443 www.startmail.com
-2a02:22a0:bbb6:1d00::1001:443 mail.startmail.com
-# IPv4
+### IPv4
 145.131.90.136 startmail.com
 145.131.90.136 www.startmail.com
 145.131.90.152 web.startmail.com
 145.131.90.136 mail.startmail.com
 176.74.238.228 sentry.startmail.com
+### IPv6
+2a02:22a0:bbb6:1d00::1001:443 startmail.com
+2a02:22a0:bbb6:1d00::1001:443 web.startmail.com
+2a02:22a0:bbb6:1d00::1001:443 www.startmail.com
+2a02:22a0:bbb6:1d00::1001:443 mail.startmail.com
 
 # [psa.re]
-# IPv6
-2606:4700:3032::6815:1b67 www.psa.re
-2606:4700:3032::6815:1b67 psa.re
-# IPv4
+### IPv4
 104.21.27.103 psa.re
 104.21.27.103 www.psa.re
+### IPv6
+2606:4700:3032::6815:1b67 www.psa.re
+2606:4700:3032::6815:1b67 psa.re
 
 # [batotoo.com]
 185.225.113.115 batotoo.com
@@ -22208,40 +22228,23 @@
 178.253.47.246 22win88.com
 
 # [edoujin.net]
-# IPv6
-2606:4700:3033::ac43:c8d1 edoujin.net
-2606:4700:3037::6815:15da www.edoujin.net
-# IPv4
+### IPv4
 172.67.200.209 edoujin.net
 104.21.21.218 www.edoujin.net
+### IPv6
+2606:4700:3033::ac43:c8d1 edoujin.net
+2606:4700:3037::6815:15da www.edoujin.net
 
 # [fbox.to]
-# IPv6
-2606:4700:3031::6815:e57 fbox.to
-2606:4700:3034::ac43:9e86 www.fbox.to
-# IPv4
+### IPv4
 172.67.158.134 fbox.to
 104.21.14.87 www.fbox.to
+### IPv6
+2606:4700:3031::6815:e57 fbox.to
+2606:4700:3034::ac43:9e86 www.fbox.to
 
 # [anonfiles.com]
-# IPv6
-2001:678:b30:4::8 api.anonfiles.com
-2001:678:b30:4::c anonfiles.com
-2001:678:b30:4::e www.anonfiles.com
-2a12:1e01:0:5::22 cdn-141.anonfiles.com
-2a12:1e01:0:5::23 cdn-142.anonfiles.com
-2a12:1e01:0:5::24 cdn-143.anonfiles.com
-2a12:1e01:0:5::25 cdn-144.anonfiles.com
-2a12:1e01:0:5::26 cdn-145.anonfiles.com
-2a12:1e01:0:5::27 cdn-146.anonfiles.com
-2a12:1e01:0:5::28 cdn-147.anonfiles.com
-2a12:1e01:0:5::29 cdn-148.anonfiles.com
-2a12:1e01:0:5::2a cdn-149.anonfiles.com
-2a12:1e01:0:5::2b cdn-150.anonfiles.com
-2a12:1e01:0:5::2c cdn-151.anonfiles.com
-2a12:1e01:0:5::2d cdn-152.anonfiles.com
-2a12:1e01:0:5::2e cdn-153.anonfiles.com
-# IPv4
+### IPv4
 45.154.253.154 api.anonfiles.com
 45.154.253.152 anonfiles.com
 45.154.253.150 www.anonfiles.com
@@ -22258,23 +22261,47 @@
 195.96.151.44 cdn-151.anonfiles.com
 195.96.151.45 cdn-152.anonfiles.com
 195.96.151.46 cdn-153.anonfiles.com
+### IPv6
+2001:678:b30:4::8 api.anonfiles.com
+2001:678:b30:4::c anonfiles.com
+2001:678:b30:4::e www.anonfiles.com
+2a12:1e01:0:5::22 cdn-141.anonfiles.com
+2a12:1e01:0:5::23 cdn-142.anonfiles.com
+2a12:1e01:0:5::24 cdn-143.anonfiles.com
+2a12:1e01:0:5::25 cdn-144.anonfiles.com
+2a12:1e01:0:5::26 cdn-145.anonfiles.com
+2a12:1e01:0:5::27 cdn-146.anonfiles.com
+2a12:1e01:0:5::28 cdn-147.anonfiles.com
+2a12:1e01:0:5::29 cdn-148.anonfiles.com
+2a12:1e01:0:5::2a cdn-149.anonfiles.com
+2a12:1e01:0:5::2b cdn-150.anonfiles.com
+2a12:1e01:0:5::2c cdn-151.anonfiles.com
+2a12:1e01:0:5::2d cdn-152.anonfiles.com
+2a12:1e01:0:5::2e cdn-153.anonfiles.com
 
-# [bet365]
+# [bet365.com]
 5.226.179.10 bet365.com
 5.226.179.10 www.bet365.com
 
 # [nudostar.com]
-# IPv6
+### IPv6
 2606:4700:20::681a:93 nudostar.com
 2606:4700:20::681a:93 www.nudostar.com
 2606:4700:20::ac43:4a40 cdn2.nudostar.com
-# IPv4
+### IPv4
 172.67.74.64 nudostar.com
 104.26.1.147 www.nudostar.com
 104.26.0.147 cdn2.nudostar.com
 88.208.31.2 cdn.nudostar.com
 
-# [CDN XNXX]
-89.187.163.117 static-cdn77.xnxx-cdn.com
-69.55.53.168 static-ss.xnxx-cdn.com
-138.199.14.10 cdn77-pic.xnxx-cdn.com
+# [flixhq.to]
+### IPv4
+104.21.10.216 flixhq.to
+172.67.131.188 www.flixhq.to
+104.21.10.216 img.flixhq.to
+172.67.131.188 www.img.flixhq.to
+### IPv6
+2606:4700:3035::6815:ad8 flixhq.to
+2606:4700:3035::ac43:83bc www.flixhq.to
+2606:4700:3035::6815:ad8 img.flixhq.to
+2606:4700:3035::ac43:83bc www.img.flixhq.to
