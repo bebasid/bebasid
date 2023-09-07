@@ -3,7 +3,7 @@ name: Laporkan Bug
 about: Laporkan bug mengenai situs.
 title: '[BUG] example.com'
 labels: 'bug, sites'
-assignees: 'SlashyID'
+assignees: 'ryukora'
 
 ---
 
@@ -19,5 +19,5 @@ Deskripsi yang jelas dan ringkas tentang apa yang terjadi.
 Jika ada, tambahkan ss untuk membantu menjelaskan mengenai bug.
 
 **Device**
- - OS: [cth. Windows 7]
- - Browser [cth. Chrome, Firefox]
+ - OS: [cth. Windows 10, Mac OS X]
+ - Browser [cth. Chrome, Firefox, Edge]
