@@ -1389,6 +1389,9 @@
 172.64.109.22 www.ssoap2day.to
 
 # [vimeo.com]
+2a05:dfc7:bca0:6464::a29f:8a3c vimeo.com
+2a05:dfc7:bca0:6464::a29f:8a3c www.vimeo.com
+2a05:dfc7:bca0:c064::a29f:803d api.vimeo.com
 34.111.254.241 staging.skyfire.vimeo.com
 34.117.125.162 dash-ingest-dev.cloud.vimeo.com
 35.190.9.195 live-tls.cloud.vimeo.com
@@ -20485,6 +20488,7 @@
 2a00:1098:2b::1:6cb5:1427 www.catbox.moe
 2a00:1098:2b::1:6cb5:1427 files.catbox.moe
 2a00:1098:2c::5:6cb5:1424 litter.catbox.moe
+2a05:dfc7:bca0:c064::6cb5:1424 litterbox.catbox.moe
 2a00:1098:2b::1:8ac5:db60 amqstore.catbox.moe
 2a00:1098:2c::5:6cb5:7c89 nl.catbox.moe
 2a00:1098:2c::5:6cb5:1427 nofun.catbox.moe
