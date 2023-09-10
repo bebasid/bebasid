@@ -1,7 +1,11 @@
 # BEBASID - Peduli Internet Netral
-# Halaman proyek: https://bebasid.github.io
+# Situs resmi kami: https://bebasid.com
 # Hosts ditulis oleh Komunitas Internet Netral
 # Dengan mengunduh BEBASID dan menggunakan aplikasi ini berarti menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut: https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md
+
+# [ PERINGATAN ]
+# Jika provider anda menggunakan DPI (Deep Packet Inspection), maka anda perlu menggunakan software bypass DPI sebelum menggunakan hosts kami
+# Untuk info lebih lanjut, silahkan baca https://bebasid.com/kominfudge
 
 # Optional
 # Hapus '#' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
