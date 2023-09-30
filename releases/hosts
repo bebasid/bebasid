@@ -20488,16 +20488,15 @@
 188.114.96.3 live.jasmr.net
 
 # [catbox.moe-ipv6]
-2a00:1098:2b::1:6cb5:1427 catbox.moe
-2a00:1098:2b::1:6cb5:1427 www.catbox.moe
-2a00:1098:2b::1:6cb5:1427 files.catbox.moe
+2a01:4f8:c2c:123f:64:5:6cb5:1423 catbox.moe
+2a00:1098:2c::5:6cb5:1423 www.catbox.moe
+2a00:1098:2c::5:6cb5:1423 files.catbox.moe
 2a00:1098:2c::5:6cb5:1424 litter.catbox.moe
-2a05:dfc7:bca0:c064::6cb5:1424 litterbox.catbox.moe
-2a00:1098:2b::1:8ac5:db60 amqstore.catbox.moe
-2a00:1098:2c::5:6cb5:7c89 nl.catbox.moe
-2a00:1098:2c::5:6cb5:1427 nofun.catbox.moe
-2a00:1098:2c::5:6cb5:1427 qt.catbox.moe
-2a00:1098:2c::5:9f41:4de9 status.catbox.moe
+2a01:4f8:c2c:123f:64:5:8ac5:db60 amqstore.catbox.moe
+2a01:4f8:c2c:123f:64:5:6cb5:7c89 nl.catbox.moe
+2a00:1098:2c::5:6cb5:1423 nofun.catbox.moe
+2a01:4f8:c2c:123f:64:5:6cb5:1423 qt.catbox.moe
+2a01:4f8:c2c:123f:64:5:9f41:4de9 status.catbox.moe
 2a01:4f8:c2c:123f:64:5:cebd:d671 store.catbox.moe
 
 # [catbox.moe]
@@ -22370,3 +22369,17 @@
 172.64.150.27 verify.stake.com
 104.18.4.116 news.stake.com
 104.18.4.116 www.news.stake.com
+
+# [pdfcoffee.com]
+# IPv6
+2606:4700:3037::6815:3098 pdfcoffee.com
+2606:4700:3037::6815:3098 www.pdfcoffee.com
+# IPv4
+104.21.48.152 pdfcoffee.com
+172.67.153.91 www.pdfcoffee.com
+
+# [ksk.moe]
+# IPv6
+2606:4700:3036::6815:151e ksk.moe
+# IPv4
+172.67.196.7 ksk.moe
