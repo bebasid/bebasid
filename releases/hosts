@@ -45,9 +45,6 @@
 # Blokir Pelacak
 ## Kominf*ck:
 147.139.211.126 lamanlabuh.aduankonten.id
-147.139.211.126   202.89.117.64
-147.139.211.126   103.154.123.132
-147.139.211.126   139.255.196.196
 ## ISPs:
 ### [Telkomsel/Indihome]
 127.0.0.1 a01.uadexchange.com
@@ -20875,11 +20872,11 @@
 190.115.31.142 thumbs.kemono.party
 190.115.31.142 data.kemono.party
 190.115.31.142 research.kemono.party
-190.115.31.142 c1.kemono.party
-190.115.31.142 c2.kemono.party
-190.115.31.142 c3.kemono.party
-190.115.31.142 c4.kemono.party
-190.115.31.142 c5.kemono.party
+91.149.227.1 c1.kemono.party
+91.149.227.2 c2.kemono.party
+91.149.227.3 c3.kemono.party
+91.149.227.4 c4.kemono.party
+91.149.227.5 c5.kemono.party
 
 # [deepnude.cc]
 104.21.82.80 deepnude.cc
