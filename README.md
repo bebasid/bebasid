@@ -1,3 +1,15 @@
+<div align="center">
+    <img src="https://static.thenounproject.com/png/237668-200.png" width="64px"><br><br>
+    <b>Untuk Penyedia Jasa Internet / Internet Service Provider (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Deep Packet Inspection (DPI)</a>, harap gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI. Atau dengan menyalakan versi 6 dari Protokol Internet / Internet Protocol version 6 (IPv6), agar DNS-nya bisa terpaksa jika ISP-nya mendukung.</b></br>
+    <br><b><code>Ciri-ciri ISP-nya menggunakan DPI:</code></b></br></br> <b>Protokol HTTP</b> mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code>.</br> Sedangkan <b>Protokol HTTPS</b> keluar ke <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>. </br> <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">Lihat penjelasan tentang DPI selengkapnya</a>.<br></br>
+    <b><code>Cara melewati DPI Kominfo di Modem/Router:</code></b></br></br>
+<table>
+  <tr>
+    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="24"/> OpenWRT</td>
+    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://cdn.discordapp.com/attachments/381569782257811456/1147154206063611994/Sb0qyQ88hIP9IdDM.png" width="16"/> MikroTik</td>
+</table>
+</div>
+<hr>
 <p align="center">
     <b><code><a href=#bebasid>BebasID</a> ini telah disponsori oleh:</code></b><br><br>
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330" href="https://atharva.co.id" target="_blank" alt="Website Provider Atharva">
@@ -9,16 +21,13 @@
 </p>
 <hr>
 <div align="center">
-    <b>Untuk Penyedia Jasa Internet / Internet Service Provider (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Deep Packet Inspection (DPI)</a>, harap gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI. Atau dengan menyalakan versi 6 dari Protokol Internet / Internet Protocol version 6 (IPv6), agar DNS-nya bisa terpaksa jika ISP-nya mendukung.</b></br>
-    <br><b><code>Ciri-ciri ISP-nya menggunakan DPI:</code></b></br></br> <b>Protokol HTTP</b> mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code>.</br> Sedangkan <b>Protokol HTTPS</b> mengerluarkan ke <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>. </br> <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">Lihat penjelasan tentang DPI selengkapnya</a>.<br></br>
-    <b><code>Cara melewati DPI Kominfo di Modem/Router:</code></b></br></br>
-<table>
-  <tr>
-    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="24"/> OpenWRT</td>
-    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://cdn.discordapp.com/attachments/381569782257811456/1147154206063611994/Sb0qyQ88hIP9IdDM.png" width="16"/> MikroTik</td>
-</table>
-</div>
-<hr>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" width="320px"><br><br>
+    <b>Untuk membuka vercel.app, silahkan gunakan DoH/DoT BebasID yang dikhususkan untuk membuka vercel dikarenakan domain vercel.app terlalu banyak untuk disematkan di Host BebasID</b><br><br>
+    <p><b>DoH: </b><code>https://vercel.dns.bebasid.com/dns-query</code></p>
+    <p><b>DoT: </b><code>vercel.dns.bebasid.com</code></p>
+    <a href="https://github.com/bebasid/bebasid/blob/master/dev/readme/vercel.md">Cara Menggunakan Klik Disini...</a>
+    <hr>
+</div><br>
 <p align="center"><code>KINI Memperkenalkan:</code></br></br>
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.svg#gh-light-mode-only" alt="bebasID White Logo" width="445">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.svg#gh-dark-mode-only" alt="bebasID Black Logo" width="445"></br>
