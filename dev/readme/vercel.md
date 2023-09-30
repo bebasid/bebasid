@@ -68,3 +68,9 @@
       - Pergi ke pengaturan handphone anda masing-masing
       - Cari settingan DNS Pribadi / Private DNS
       - Masukan `vercel.dns.bebasid.com` dan klik OK/Save
+<br><br><br>
+
+### Jika anda masih mempunyai pertanyaan, silahkan gabung Discord kami
+  <a href="https://discord.gg/EKrxZyu" rel="nofollow" style="text-align: center; margin:2% auto;">
+            <img class="discord" src="https://camo.githubusercontent.com/82ad315ab53d897c96ac232fe1a5cee370e6bf4c9d17cf1f50e1f29759bcae82/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3633303431353930373032313338393832352f7769646765742e706e673f7374796c653d62616e6e657232" alt="Join Discord BEBASID" data-canonical-src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2">
+        </a>
