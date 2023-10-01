@@ -20,14 +20,7 @@
     <a href="https://delapan.click/store/vps-ssd-kvm">Lihat paket langganan VPS selengkapnya</a>.
 </p>
 <hr>
-<div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" width="320px"><br><br>
-    <b>Untuk membuka vercel.app, silahkan gunakan DoH/DoT BebasID yang dikhususkan untuk membuka vercel dikarenakan domain vercel.app terlalu banyak untuk disematkan di Host BebasID</b><br><br>
-    <p><b>DoH: </b><code>https://vercel.dns.bebasid.com/dns-query</code></p>
-    <p><b>DoT: </b><code>vercel.dns.bebasid.com</code></p>
-    <a href="https://github.com/bebasid/bebasid/blob/master/dev/readme/vercel.md">Cara Menggunakan Klik Disini...</a>
-    <hr>
-</div><br>
+<br>
 <p align="center"><code>KINI Memperkenalkan:</code></br></br>
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.svg#gh-light-mode-only" alt="bebasID White Logo" width="445">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.svg#gh-dark-mode-only" alt="bebasID Black Logo" width="445"></br>
