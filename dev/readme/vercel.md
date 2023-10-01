@@ -33,7 +33,7 @@
           - Cari settingan Secure DNS dan pada bagian **With**, pilih **Custom**
           - Masukan `https://vercel.dns.bebasid.com/dns-query`
 3.  Jika anda ingin memasang DNS nya di smartphone anda, silahkan cari settingan **DNS Pribadi / Private DNS** dan masukan `vercel.dns.bebasid.com`
-4.  Untuk pengguna CBN dan Indosat HI-FI, jika cara diatas masih tidak berfungsi silahkan coba bypass DPI di provider anda masing-masing dengan tool dibawah ini
+4.  Untuk pengguna Indihome, CBN dan Indosat HI-FI, jika cara diatas masih tidak berfungsi silahkan coba bypass DPI di provider anda masing-masing dengan tool dibawah ini karena provider tersebut menggunakan DPI untuk memblokir 
        - GoodbyeDPI
        - PowerTunnel
        - GreenTunnel
