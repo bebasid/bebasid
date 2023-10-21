@@ -20,17 +20,9 @@
     <a href="https://delapan.click/store/vps-ssd-kvm">See the complete VPS packages </a>
 </p>
 <hr>
-<div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" width="320px"><br><br>
-    <b>To access vercel.app, please use BebasID DoH/DoT that specialized to unblock vercel because vercel.app domains are too much to be included in BebasID list</b><br><br>
-    <p><b>DoH: </b><code>https://vercel.dns.bebasid.com/dns-query</code></p>
-    <p><b>DoT: </b><code>vercel.dns.bebasid.com</code></p>
-    <a href="https://github.com/bebasid/bebasid/blob/master/dev/readme/vercel.md">How To Use Click Here...</a>
-    <hr>
-</div><br>
 <p align="center"><code>KINI Introducing:</code></br></br>
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="445">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="445">
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="445"><br>
     <i>Helping you surfing securely and without limit!</i>
 </p>
 <p align="center">
