@@ -33,7 +33,7 @@ Pengguna bertanggung jawab atas keamanan komputer pengguna sendiri, karma sendir
 
 Pengguna bertanggung jawab atas kepemilikan aplikasi, menggunakan aplikasi ini berarti hak kepemilikan pindah ke pengguna. bebasid merupakan proyek open source di bawah lisensi [MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
 
-Jika ada pertanyaan atau sanggahan mengenai hak cipta dan kelegalan hukum, silahkan mengirimkan email ke bebasid@hotmail.com.
+Jika ada pertanyaan atau sanggahan mengenai hak cipta dan kelegalan hukum, silahkan mengirimkan email ke admin@bebasid.com.
 
 ### Referensi
 Proyek ini dibuat berdasarkan pada dukungan internet netral di Indonesia. Lebih tentang internet netral: 
