@@ -5,6 +5,7 @@
 
 # [ PERINGATAN ]
 # Jika provider anda menggunakan DPI (Deep Packet Inspection), maka anda wajib menggunakan software bypass DPI sebelum menggunakan hosts kami
+# Ciri-ciri provider menggunakan DPI: Keluar halaman lamanlabuh.aduankonten.id atau ERR_CONNECTION_RESET
 # Untuk info lebih lanjut, silahkan baca https://github.com/bebasid/kominfudge
 
 # Optional
@@ -22377,3 +22378,8 @@
 2606:4700:3036::6815:151e ksk.moe
 # IPv4
 172.67.196.7 ksk.moe
+
+# [DeviantArt]
+13.226.120.97 deviantart.com
+18.64.18.50 www.deviantart.com
+34.209.188.140 support.deviantart.com
