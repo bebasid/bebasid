@@ -19516,46 +19516,14 @@
 104.26.12.114 it.letmejerk.com
 172.67.68.168 stt.letmejerk.com
 
-# [pahe.li]
-192.124.249.26 pahe.li
-192.124.249.26 www.pahe.li
-
-# [pahe.stream]
-104.21.75.248 pahe.stream
-104.21.75.248 www.pahe.stream
-172.67.173.55 pahe.stream
-172.67.173.55 www.pahe.stream
-172.67.184.15 pahe.stream
-172.67.184.15 www.pahe.stream
-51.77.33.176 cpanel.pahe.stream
-104.21.30.158 cdn10.pahe.stream
-172.67.184.15 cdn10.pahe.stream
-172.67.177.125 www.cdn10.pahe.stream
-172.67.184.15 www.cdn10.pahe.stream
-46.101.121.244 dev.pahe.stream
-172.67.177.125 downloadfilm.pahe.stream
-172.67.184.15 downloadfilm.pahe.stream
-172.67.177.125 www.downloadfilm.pahe.stream
-188.114.97.7 www.downloadfilm.pahe.stream
-151.139.128.11 ns5.pahe.stream
-151.139.128.11 ns10.pahe.stream
-172.67.177.125 server.pahe.stream
-
 # [pahe.in]
-104.21.60.55 pahe.in
+136.243.46.151 e5.pahe.in
 104.21.60.55 www.pahe.in
 172.67.192.118 pahe.in
-172.67.192.118 www.pahe.in
-136.243.46.151 e5.pahe.in
-172.67.192.118 p.pahe.in
-172.67.192.118 drive.pahe.in
-172.67.192.118 link.pahe.in
-172.67.192.118 file.pahe.in
-172.67.192.118 ckklg.pahe.in
-172.67.192.118 lawas.pahe.in
-172.67.192.118 www.lawas.pahe.in
-172.67.192.118 panel.pahe.in
-172.67.192.118 www.panel.pahe.in
+
+# [pahe.li]
+172.67.193.46 www.pahe.li
+172.67.193.46 pahe.li
 
 # [naughtyblog.org]
 104.26.10.33 naughtyblog.org
