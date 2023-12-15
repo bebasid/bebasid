@@ -138,6 +138,7 @@
 # 127.0.0.1 cc-api-data.adobe.io
 # 127.0.0.1 pojvrj7ho5.adobe.io
 # 127.0.0.1 m59b4msyph.adobe.io
+# 127.0.0.1 7g2gzgk9g1.adobe.io
 # 127.0.0.1 ic.adobe.io
 
 # Aturan:
@@ -25443,3 +25444,82 @@
 104.238.220.140 s.postimg.cc
 104.238.221.169 I.postimg.cc
 46.229.175.90 postimg.cc
+
+# [manga18.club]
+172.67.71.233 azmin.manga18.club
+172.67.71.233 www.manga18.club
+104.26.6.113 s3.manga18.club
+104.26.7.113 s1.manga18.club
+104.26.7.113 s2.manga18.club
+172.67.71.233 manga18.club
+
+# [hypixel.net]
+209.222.114.10 rewards.web-staging.hypixel.net
+209.222.114.13 chi-hp-housing1.hypixel.net
+209.222.114.41 rewards-staging.hypixel.net
+209.222.114.61 looking-glass.hypixel.net
+172.64.149.62 staging-store.hypixel.net
+104.17.17.42 gdpr-requests.hypixel.net
+104.18.136.17 staticassets.hypixel.net
+209.222.114.53 lookingglass.hypixel.net
+104.18.136.17 forumassets.hypixel.net
+209.222.114.13 mc.teleport.hypixel.net
+104.18.136.17 storeassets.hypixel.net
+209.222.114.20 web-staging.hypixel.net
+209.222.114.20 mailserver.hypixel.net
+209.222.114.20 goliathdev.hypixel.net
+209.222.114.37 saservers.hypixel.net
+104.17.17.42 translate.hypixel.net
+104.17.17.42 developer.hypixel.net
+209.222.114.41 portfolio.hypixel.net
+209.222.114.20 pendrell.hypixel.net
+104.18.136.17 redirect.hypixel.net
+209.222.114.12 patchbot.hypixel.net
+209.222.114.49 mailgate.hypixel.net
+209.222.114.61 webdisk.hypixel.net
+104.18.136.17 goliath.hypixel.net
+209.222.114.20 jupiter.hypixel.net
+104.18.136.17 rewards.hypixel.net
+104.18.136.17 monitor.hypixel.net
+104.17.17.42 support.hypixel.net
+104.17.17.42 metrics.hypixel.net
+209.222.114.29 oldsite.hypixel.net
+209.222.114.37 netmail.hypixel.net
+209.222.114.31 mantis.hypixel.net
+209.222.114.41 survey.hypixel.net
+209.222.114.12 meta01.hypixel.net
+209.222.114.8 tunnel.hypixel.net
+209.222.114.13 meta02.hypixel.net
+209.222.114.12 webmin.hypixel.net
+18.66.255.112 status.hypixel.net
+104.16.156.65 store.hypixel.net
+209.222.114.29 meta3.hypixel.net
+209.222.114.60 press.hypixel.net
+209.222.114.20 stage.hypixel.net
+209.222.114.40 orion.hypixel.net
+209.222.114.37 smtp2.hypixel.net
+209.222.114.12 jboss.hypixel.net
+209.222.114.229 alpha.hypixel.net
+104.18.136.17 stats.hypixel.net
+209.222.114.53 glass.hypixel.net
+104.17.17.42 wiki.hypixel.net
+209.222.114.41 shop.hypixel.net
+104.17.17.42 vote.hypixel.net
+209.222.114.20 mx03.hypixel.net
+209.222.114.61 lync.hypixel.net
+209.222.114.37 link.hypixel.net
+209.222.114.19 www7.hypixel.net
+104.17.17.42 repo.hypixel.net
+209.222.114.60 ops.hypixel.net
+209.222.114.41 vip.hypixel.net
+104.18.136.17 www.hypixel.net
+104.18.136.17 api.hypixel.net
+172.65.206.20 git.hypixel.net
+104.17.17.42 dev.hypixel.net
+209.222.114.41 ms.hypixel.net
+51.222.29.53 ts.hypixel.net
+104.17.17.42 pp.hypixel.net
+104.17.17.42 my.hypixel.net
+209.222.114.12 ww.hypixel.net
+209.222.114.41 vc.hypixel.net
+104.18.136.17 hypixel.net
