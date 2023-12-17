@@ -226,7 +226,7 @@ Bantu proyek ini agar VPS [BebasDNS / BebasID DNS](https://github.com/bebasid/be
 
 ## Lisensi
 
-[BebasID](#bebasid) dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
+[BebasID](#bebasid) telah lisensikan dibawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE) tersebut.
 
 ## Syarat dan Ketentuan
 
