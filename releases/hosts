@@ -752,6 +752,7 @@
 205.185.216.10 premiumvideo-hw.xnxx-cdn.com
 209.197.3.84 video-hw.xnxx-cdn.com
 209.197.3.84 hls-hw.xnxx-cdn.com
+151.101.1.140 preview.redd.it
 
 # [reddit.com]
 # IPv6 untuk bypass DPI Kominfo (Jika ISP anda support)
@@ -920,7 +921,9 @@
 199.232.45.140 covid19-mx0.reddit.com
 199.232.45.140 1.reddit.com
 199.232.45.140 tls-test-1.reddit.com
-54.236.109.236 gql-realtime.reddit.com
+34.227.43.171 gql-realtime.reddit.com
+34.232.83.114 gql-realtime.reddit.com
+52.1.131.78 gql-realtime.reddit.com
 199.232.45.140 01.reddit.com
 199.232.45.140 fa-01.reddit.com
 199.232.45.140 kr-01.reddit.com
