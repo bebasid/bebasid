@@ -4,7 +4,8 @@
    <br></br>
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>
-    <b>Untuk Wi-Fi / Servis Provider Internet (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Inspeksi Paket Dalam (DPI)</a>, harap gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.</b></br>
+       <b>Untuk Wi-Fi / Provider (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Inspeksi Paket Dalam (DPI)</a>, harap gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.</b></br><br>
+    <p><b>Bagi Provider ISP yang menggunakan <a href="https://www.jsn.net.id/">JSN</a> dan memblokir domain DoH/DoT, silahkan kontak kami di [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.</b></p><br>
 <br><b><code>Ciri-ciri ISP menggunakan DPI:</code></b></br></br>
 <table align="center">
 <thead>
