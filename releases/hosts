@@ -25525,7 +25525,16 @@
 104.17.17.42 my.hypixel.net
 209.222.114.12 ww.hypixel.net
 209.222.114.41 vc.hypixel.net
+209.222.114.57 proxy.hypixel.net
 104.18.136.17 hypixel.net
+
+# [hypixel.io]
+209.222.114.8 mt.mc.production.hypixel.io
+209.222.114.24 looking-glass.hypixel.io
+209.222.114.28 api.hypixel.io
+209.222.114.54 mc.hypixel.io
+209.222.114.56 lg.hypixel.io
+104.17.17.42 hypixel.io
 
 # [rlsbb.ru]
 172.67.189.6 wordpress.rlsbb.ru
