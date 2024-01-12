@@ -3,14 +3,14 @@
 # Hosts ditulis oleh Komunitas Internet Netral Indonesia
 # Dengan mengunduh BEBASID dan menggunakan aplikasi ini berarti menerima dan setuju untuk terikat dan mematuhi ketentuan yang berada di dalam halaman berikut: https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md
 
-# [PERINGATAN SEBELUM MENGGUNAKAN HOSTS]
-# Untuk Wi-Fi / Servis Provider Internet (ISP) yang memakai Inspeksi Paket Dalam (DPI), harap gunakan BebasIT / BebasID-IT sebelum menggunakan hosts kami
+# [PEMBERITAHUAN SEBELUM MENGGUNAKAN HOSTS]
+# Untuk Wi-Fi / Provider (ISP) yang memakai Inspeksi Paket Dalam (DPI), harap gunakan BebasIT / BebasID IT sebelum menggunakan hosts kami
 # Ciri-ciri ISP menggunakan DPI: 
-# - lamanlabuh.aduankonten.id: Keluar halaman yang dialihkan jika menggunakan Protokol HTTP
-# - Sedangkan "ERR_CONNECTION_RESET / PR_CONNECT_RESET_ERROR": Keluar halaman yang dialihkan jika menggunakan Protokol HTTPS
-# Lihat penjelasan tentang DPI selengkapnya: https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md
-# Cara melewati/bypass DPI atau Lamanlabuh, ada di link https://github.com/bebasid/bebasit
-# Untuk info lebih lanjut, silahkan baca https://github.com/bebasid/kominfudge untuk memahami ISP apa saja yang sudah menggunakan fitur DPI
+# - "lamanlabuh.aduankonten.id": Mengeluarkan halaman yang dialihkan jika menggunakan Protokol HTTP
+# - Sedangkan "ERR_CONNECTION_RESET / PR_CONNECT_RESET_ERROR": Mengeluarkan halaman yang dialihkan jika menggunakan Protokol HTTPS
+# Lihat penjelasan lengkap tentang DPI sebagai berikut: https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md
+# Untuk tutorial cara melewati/bypass DPI atau Lamanlabuh, silahkan ke link https://github.com/bebasid/bebasit
+# Sebagai info lebih lanjut, silahkan baca ke https://github.com/bebasid/kominfudge untuk memahami ISP segala sesuatu yang sudah menggunakan fitur DPI
 
 # Optional
 # Hapus '#' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
