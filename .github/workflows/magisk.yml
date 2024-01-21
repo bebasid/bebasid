@@ -22,7 +22,7 @@ jobs:
         ls -l
     - name: Get changed files
       id: changed-files
-      uses: tj-actions/changed-files@v10.1
+      uses: tj-actions/changed-files@v41
     - name: Validating hosts changes, run next command if it is true
       if: contains(steps.changed-files.outputs.modified_files, 'releases/hosts')
       run: |
