@@ -16,9 +16,7 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/2019-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
 
-<img alt="Static Badge" src="https://img.shields.io/github/size/bebasid/bebasid/releases/hosts.svg?color=white&style=for-the-badge&logo=sequelize&logoColor=white&label=Ukuran&labelColor=222">
-
-### Sosial
+<br>
 
 <a href="https://discord.gg/bebasid-630415907021389825">
     <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
@@ -32,8 +30,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
 </a>
 
-### Sumbang
-Bantu proyek ini agar VPS [BebasDNS](https://github.com/bebasid/bebasdns/blob/main/README.md#bebasdns-bebasid-dns) dan proyek BebasID lain tetap berjalan dengan cara berdonasi.
+<br>
 
 <a href="https://trakteer.id/bebasidbykini">
     <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
@@ -47,11 +44,11 @@ Bantu proyek ini agar VPS [BebasDNS](https://github.com/bebasid/bebasdns/blob/ma
 ## Sponsor
 | <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="380"> <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="380"> |
 |-|
-| [atharva.co.id](https://www.atharva.co.id) |
+| <p align="center">[atharva.co.id](https://www.atharva.co.id)</p> |
 
 | ![Atharva Cloud Light Mode](dev/resources/logo-atharva-cloud-black.png#gh-light-mode-only) ![Atharva Cloud Dark Mode](dev/resources/logo-atharva-cloud-whitepng.png#gh-dark-mode-only) |
 | - |
-| [atharva.cloud](https://www.atharva.cloud) |
+| <p align="center">[atharva.cloud](https://www.atharva.cloud)</p> |
 
 *Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
 
