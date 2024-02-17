@@ -61,9 +61,6 @@ Dimulai dari **Rp. 50.000,00**.
 > Untuk Provider (ISP) yang memakai DPI, harap baca [ini](#pemberitahuan-tentang-dpi).
 
 ## Daftar Isi
-
-- [Sponsor](#sponsor)
-- [](#)
 - [Daftar Isi](#daftar-isi)
 - [BebasID](#bebasid)
     - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
