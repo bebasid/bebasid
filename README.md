@@ -65,10 +65,13 @@ Dimulai dari **Rp. 50.000,00**.
 
 ## Daftar Isi
 
+- [Sponsor](#sponsor)
+- [](#)
+- [Daftar Isi](#daftar-isi)
 - [BebasID](#bebasid)
-  - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
-  - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
-  - [Antarmuka Baris Perintah (CLI)](#antarmuka-baris-perintah-cli)
+    - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
+    - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
+    - [Antarmuka Baris Perintah (CLI)](#antarmuka-baris-perintah-cli)
   - [Metode Lain](#metode-lain)
 - [Berkontribusi, Pertanyaan, atau Permintaan](#berkontribusi-pertanyaan-atau-permintaan)
   - [Pemberitahuan tentang DPI](#pemberitahuan-tentang-dpi)
@@ -119,7 +122,7 @@ Bagi Provider ISP yang menggunakan [JSN](https://www.jsn.net.id/) dan memblokir 
 **Ciri-ciri ISP menggunakan DPI:**
 | Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
 |:-|:-|
-| <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/http-lamanlabuh-result.png" alt="HTTP Lamanlabuh Result" width="16"> | <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/https-connection-reset.png" alt="HTTPS Connection Reset Result" width="16"> |
+| <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/http-lamanlabuh-result.png" alt="HTTP Lamanlabuh Result"> | <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/https-connection-reset.png" alt="HTTPS Connection Reset Result"> |
 
 [Lihat penjelasan tentang DPI selengkapnya](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md).
 
