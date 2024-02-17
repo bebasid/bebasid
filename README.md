@@ -137,3 +137,13 @@ Jika Anda mengalami masalah saat menggunakan BebasID, silakan tanyakan di [Disco
 
 ## Syarat dan Ketentuan
 Dengan menggunakan aplikasi BebasID, Anda dianggap telah membaca, memahami, serta menyetujui semua peraturan yang telah kami buat. Jika Anda tidak menyetujui peraturan tersebut, maka Anda tidak diperkenankan menggunakan aplikasi BebasID. Untuk informasi lebih lanjut tentang aturan yang berlaku, Anda dapat mengunjungi halaman [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+
+<br>
+
+<p align="center">Bagikan proyek ini</p>
+<div id="sosial">
+ <p align="center">
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasid"><img src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=twitter&logoColor=black"/></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasid"><img src="https://img.shields.io/badge/Facebook-white?style=for-the-badge&logo=facebook&logoColor=black"/></a>
+ </p>
+</div>
