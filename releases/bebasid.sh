@@ -15,7 +15,7 @@ OS="Linux/Darwin Version"
 
 # ====================== VERSION AND BUILT ====================== #
 
-VERSION="v1.1 [Elena - Elli]"
+VERSION="v1.2 [Elena - Karen]"
 
 # Version Codename: vx.y [Girl Name - Special Name]
 #   Female Western Name FL  (x):
@@ -42,7 +42,7 @@ VERSION="v1.1 [Elena - Elli]"
 
 # =============================     ============================= #
 
-BUILT="2023.5 [Fiona]"
+BUILT="2024.2 [Santoso Semaput]"
 
 # Build Codename: Year.Month [Name/Trending Topic]
 #
@@ -88,16 +88,16 @@ bantuan(){
   echo "  uninstall : Menghapus aplikasi bebasid"
   echo "tunnel"
   echo "  start"
-  echo "    gt      : Memulai tunnel dengan Green Tunnel"
   echo "    pt      : Memulai tunnel dengan PowerTunnel"
+  echo "    sd      : Memulai tunnel dengan Spoof DPI"
   echo "      --nb  : Memulai aplikasi bypass DPI tanpa membuka browser (ops)"
   echo "  stop      : Memberhentikan aplikasi bypass DPI"
   echo "  install"
-  echo "    gt      : Memasang Green Tunnel"
   echo "    pt      : Memasang PowerTunnel"
+  echo "    sd      : Memasang Spoof DPI"
   echo "  uninstall"
-  echo "    gt      : Mencopot Green Tunnel"
   echo "    pt      : Mencopot PowerTunnel"
+  echo "    sd      : Memasang Spoof DPI"
   echo "block"
   echo "  [website] : Memblokir akses ke [website] (ops)" 
   echo "unblock"
@@ -417,11 +417,6 @@ hapus_hosts_bebasid(){
 
 cek_perintah_tunnel(){	
   case $1 in	
-    "Green Tunnel" )	
-      if ! [[ -x $(command -v gt) ]]; then	
-        errorin "Green Tunnel tidak ditemukan, silakan pasang Green Tunnel terlebih dahulu"	
-      fi	
-      ;;	
     "PowerTunnel" )	
       if ! [[ -x $(command -v java) ]]; then	
         errorin "Java tidak terpasang, silakan pasang terlebih dahulu"	
@@ -444,6 +439,11 @@ cek_perintah_tunnel(){
         fi	
       fi	
       ;;	
+    "Spoof DPI" )	
+      if ! [[ -e ~/.bebasit/spoof-dpi ]]; then 
+        errorin "Spoof DPI tidak ditemukan, silakan pasang Spoof DPI terlebih dahulu"
+      fi
+      ;;   
   esac	
   if ! [[ -x $(command -v tmux) ]]; then	
     errorin "Tmux tidak terpasang, silakan pasang Tmux terlebih dahulu"	
@@ -482,30 +482,30 @@ mulai_bebasid_tunnel(){
   i=1	
   while [[ "$bisa" == "no" ]]; do	
     if [[ $i -eq 10 ]]; then	
-      echo "$1 tidak dapat membuka blokiran terhadap Netflix"	
+      echo "$1 tidak dapat membuka blokiran DPI"	
       echo "Silakan menggunakan metode lainnya"	
       tmux kill-session -t bebasid-tunnel	
       exit 1	
-    fi	
-    if [[ "$1" == "Green Tunnel" ]]; then	
-      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=gt&n=$i" --silent)	
-      loadin 0.01 "[$i] Mendapatkan DNS $dns"	
-      echo "Tunnel: Green Tunnel"	
-      tmux send-keys -t 1 "gt --ip 127.0.0.1 --port $random --dns-server $dns --system-proxy false --silent true -v 'green-tunnel:*'" Enter	
-    elif [[ "$1" == "PowerTunnel" ]]; then	
+    fi
+    if [[ "$1" == "PowerTunnel" ]]; then	
       dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=pt&n=$i" --silent)	
       loadin 0.01 "[$i] Mendapatkan DNS $dns"	
       echo "Tunnel: PowerTunnel"	
       db="https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt"	
       tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -chunk-size 21 -use-dns-server $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup -disable-updater" Enter	
+    elif [[ "$1" == "Spoof DPI" ]]; then	
+      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=sd&n=$i" --silent)	
+      loadin 0.01 "[$i] Mendapatkan DNS $dns"	
+      echo "Tunnel: Spoof DPI"	
+      tmux send-keys -t 1 "~/.bebasit/spoof-dpi --dns=$dns --addr=127.0.0.1 --port=$random --debug=true --no-banner=true --timeout=0" Enter	
     fi	
-    loadin 0.01 "Mengetes Koneksi $1 ke Netflix"	
+    loadin 0.01 "Mengetes Koneksi $1 ke Reddit"	
     sleep 10	
-    if curl -x "http://127.0.0.1:$random" https://www.netflix.com --max-time 10; then	
-      echo "Berhasil melakukan koneksi dengan Netflix"	
+    if curl -x "http://127.0.0.1:$random" https://www.reddit.com --max-time 10; then	
+      echo "Berhasil melakukan koneksi dengan Reddit"	
       bisa="ya"	
     else	
-      echo "Gagal melakukan koneksi dengan Netflix"	
+      echo "Gagal melakukan koneksi dengan Reddit"	
       echo "Mengulang kembali koneksi dengan DNS yang berbeda"	
       tmux send-keys -t 1 C-c	
       ((i++))	
@@ -559,9 +559,9 @@ mulai_bebasid_tunnel(){
           rm -rf $HOME/.mozilla/firefox/$firefoxDir/prefs.js
           touch $HOME/.mozilla/firefox/$firefoxDir/prefs.js
           echo -e 'user_pref("network.proxy.http", "127.0.0.1");\nuser_pref("network.proxy.http_port", '$random');\nuser_pref("network.proxy.type", 1);' > $HOME/.mozilla/firefox/$firefoxDir/prefs.js
-          tmux send-keys -t 2 "$browser netflix.com -P bebasit" Enter
+          tmux send-keys -t 2 "$browser -P bebasit" Enter
         else
-          tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter
+          tmux send-keys -t 2 "$browser --proxy-server=127.0.0.1:$random" Enter
         fi
       fi	
       ;;	
@@ -572,7 +572,7 @@ mulai_bebasid_tunnel(){
         browser="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"	
         killall 'Google Chrome'	
         loadin 0.01 "Tunggu sebentar, sedang membuka $browser"	
-        tmux send-keys -t 2 "$browser netflix.com --proxy-server=127.0.0.1:$random" Enter	
+        tmux send-keys -t 2 "$browser bebasid.com --proxy-server=127.0.0.1:$random" Enter	
       fi	
       ;;	
   esac	
@@ -900,7 +900,24 @@ case $1 in
             case $menuTunnelOpt in	
               "Mulai Tunnel DPI" )	
                 echo	
-                mulai_bebasid_tunnel	
+                PS3='Pilih aplikasi yang ingin digunakan:'	
+                echo	
+                menuTunnelApp=("PowerTunnel" "Spoof DPI")	
+                select menuTunnelAppOpt in "${menuTunnelApp[@]}"	
+                do	
+                  case $menuTunnelAppOpt in	
+                    "PowerTunnel" )	
+                      echo	
+                      mulai_bebasid_tunnel "PowerTunnel"	
+                      break	
+                      ;;	
+                    "Spoof DPI" )	
+                      echo	
+                      mulai_bebasid_tunnel "Spoof DPI"	
+                      break	
+                      ;;	
+                  esac	
+                done	
                 break	
                 ;;	
               "Berhentikan Tunnel DPI" )	
@@ -912,18 +929,18 @@ case $1 in
                 echo	
                 PS3='Pilih aplikasi yang ingin dipasang:'	
                 echo	
-                menuTunnelApp=("Green Tunnel" "PowerTunnel")	
+                menuTunnelApp=("PowerTunnel" "Spoof DPI")	
                 select menuTunnelAppOpt in "${menuTunnelApp[@]}"	
                 do	
                   case $menuTunnelAppOpt in	
-                    "Green Tunnel" )	
-                      echo	
-                      pasang_aplikasi_bypass_dpi "green-tunnel"	
-                      break	
-                      ;;	
                     "PowerTunnel" )	
                       echo	
                       pasang_aplikasi_bypass_dpi "powertunnel"	
+                      break	
+                      ;;	
+                    "Spoof DPI" )	
+                      echo	
+                      pasang_aplikasi_bypass_dpi "spoof-dpi"	
                       break	
                       ;;	
                   esac	
@@ -1082,12 +1099,12 @@ case $1 in
           browser="yes"	
         fi	
         case $3 in	
-          gt )	
-            mulai_bebasid_tunnel "Green Tunnel"	
-            ;;	
           pt )	
             mulai_bebasid_tunnel "PowerTunnel"	
             ;;	
+          sd )	
+            mulai_bebasid_tunnel "Spoof DPI"	
+            ;;
           * )	
           echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"	
           ;;	
@@ -1097,12 +1114,12 @@ case $1 in
         berhentikan_bebasid_tunnel	
         ;;	
       install )	
-      case $3 in	
-        gt )	
-          pasang_aplikasi_bypass_dpi "green-tunnel"	
-          ;;	
+      case $3 in		
         pt )	
           pasang_aplikasi_bypass_dpi "powertunnel"	
+          ;;
+        sd )	
+          pasang_aplikasi_bypass_dpi "spoof-dpi"	
           ;;	
         * )	
           echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"	
@@ -1111,11 +1128,11 @@ case $1 in
       ;;	
       uninstall )	
       case $3 in	
-        gt )	
-          hapus_aplikasi_bypass_dpi "green-tunnel"	
-          ;;	
         pt )	
           hapus_aplikasi_bypass_dpi "powertunnel"	
+          ;;	
+        sd )	
+          hapus_aplikasi_bypass_dpi "spoof-dpi"	
           ;;	
         * )	
           echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"	
