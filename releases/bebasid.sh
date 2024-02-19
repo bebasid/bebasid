@@ -97,7 +97,7 @@ bantuan(){
   echo "    sd      : Memasang Spoof DPI"
   echo "  uninstall"
   echo "    pt      : Mencopot PowerTunnel"
-  echo "    sd      : Memasang Spoof DPI"
+  echo "    sd      : Mencopot Spoof DPI"
   echo "block"
   echo "  [website] : Memblokir akses ke [website] (ops)" 
   echo "unblock"
