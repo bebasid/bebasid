@@ -1,0 +1,23 @@
+{
+    "bebasit" : {
+        "dns" : {
+            "sd" : [
+                    "dns.bebasid.com",
+                    "dns.google.com",
+                    "1dot1dot1dot1.cloudflare-dns.com",
+                    "doh.tiarap.org",
+                    "dns.adguard.com",
+                    "doh-de.blahdns.com"
+            ],
+            "pt" : [
+                    "https://dns.bebasid.com/dns-query/",
+                    "https://dns.google.com/dns-query/",
+                    "https://1dot1dot1dot1.cloudflare-dns.com/dns-query/",
+                    "https://doh.tiarap.org/dns-query/",
+                    "https://dns.adguard.com/dns-query/",
+                    "https://doh-de.blahdns.com/dns-query/"
+                    
+            ]
+        }
+    }
+}
