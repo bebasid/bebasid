@@ -448,6 +448,9 @@ cek_perintah_tunnel(){
   if ! [[ -x $(command -v tmux) ]]; then	
     errorin "Tmux tidak terpasang, silakan pasang Tmux terlebih dahulu"	
   fi	
+  if ! [[ -x $(command -v jq) ]]; then	
+    errorin "jq tidak terpasang, silakan pasang jq terlebih dahulu"	
+  fi	
 }	
 pilih_browser() {
   echo "=========================="
@@ -479,22 +482,22 @@ mulai_bebasid_tunnel(){
   fi	
   tmux split-window -v	
   bisa="no"	
-  i=1	
+  i=0
   while [[ "$bisa" == "no" ]]; do	
-    if [[ $i -eq 10 ]]; then	
+    if [[ $i -eq 8 ]]; then	
       echo "$1 tidak dapat membuka blokiran DPI"	
       echo "Silakan menggunakan metode lainnya"	
       tmux kill-session -t bebasid-tunnel	
       exit 1	
     fi
     if [[ "$1" == "PowerTunnel" ]]; then	
-      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=pt&n=$i" --silent)	
+      dns=$(curl "https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/bebasid.json" --silent | jq -r '.bebasit.dns.pt['$i']')	
       loadin 0.01 "[$i] Mendapatkan DNS $dns"	
       echo "Tunnel: PowerTunnel"	
       db="https://raw.githubusercontent.com/bebasid/bebasit/master/dependencies/goodbyedpi/blacklist.txt"	
       tmux send-keys -t 1 "java -jar ~/.bebasit/PowerTunnel.jar -start -console -government-blacklist-from $db -chunk-size 21 -use-dns-server $dns -ip 127.0.0.1 -port $random -debug -disable-auto-proxy-setup -disable-updater" Enter	
     elif [[ "$1" == "Spoof DPI" ]]; then	
-      dns=$(curl "https://bebasid.herokuapp.com/?get=dns&dns=sd&n=$i" --silent)	
+      dns=$(curl "https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/bebasid.json" --silent | jq -r '.bebasit.dns.sd['$i']')	
       loadin 0.01 "[$i] Mendapatkan DNS $dns"	
       echo "Tunnel: Spoof DPI"	
       tmux send-keys -t 1 "~/.bebasit/spoof-dpi --dns=$dns --addr=127.0.0.1 --port=$random --debug=true --no-banner=true --timeout=0" Enter	
@@ -593,6 +596,7 @@ pasang_aplikasi_bypass_dpi(){
 hapus_aplikasi_bypass_dpi(){	
   dir="bebasit-uninstaller.sh"	
   curl_wget https://raw.githubusercontent.com/bebasid/bebasit/master/sh/bebasit-uninstaller.sh "-o $dir --silent" "-O $dir -q --quiet"	
+  $ambil
   bash ./bebasit-uninstaller.sh $1	
   rm -rf bebasit-uninstaller.sh $1	
 }	
