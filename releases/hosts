@@ -27038,3 +27038,13 @@
 104.21.61.51 pahe.ph
 2606:4700:3036::ac43:ce7c www.pahe.ph
 104.21.61.51 www.pahe.ph
+
+# [CDN Statically]
+2a04:4e42:48::347 cdn.statically.io
+199.232.45.91 cdn.statically.io
+
+# [studocu.com]
+34.243.171.214 studocu.com
+54.76.222.46 www.studocu.com
+35.242.209.60 jobs.studocu.com
+52.51.182.128 api.studocu.com
