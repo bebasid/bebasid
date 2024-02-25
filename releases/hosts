@@ -27032,3 +27032,9 @@
 104.18.41.212 co.hltv.org
 172.64.146.44 i.hltv.org
 172.64.146.44 hltv.org
+
+# [pahe.ph]
+2606:4700:3036::ac43:ce7c pahe.ph
+104.21.61.51 pahe.ph
+2606:4700:3036::ac43:ce7c www.pahe.ph
+104.21.61.51 www.pahe.ph
