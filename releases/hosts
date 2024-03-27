@@ -20,6 +20,10 @@
 # 74.125.68.147 www.google.com
 # 142.250.4.113 google.co.id
 # 74.125.68.147 www.google.co.id
+# 2404:6800:4003:c11::68 www.google.com
+# 2404:6800:4003:c00::66 google.com
+# 2404:6800:4003:c11::68 www.google.co.id
+# 2404:6800:4003:c00::66 google.co.id
 # 172.253.118.93 www.youtube.com
 # 127.0.0.1 forcesafesearch.google.com
 # 127.0.0.1 restrict.youtube.com
@@ -96,24 +100,17 @@
 127.0.0.1 www.x-tags.net
 127.0.0.1 x-tags.net
 127.0.0.1 ads.telkomsel.com
-147.139.211.126 mercusuar.uzone.id
-147.139.211.126 block.uzone.id
-147.139.211.126 internetpositif.uzone.id
-147.139.211.126 v3.mercusuar.uzone.id
-147.139.211.126    36.86.63.185
+127.0.0.1 mercusuar.uzone.id
+127.0.0.1 block.uzone.id
+127.0.0.1 internetpositif.uzone.id
+127.0.0.1 v3.mercusuar.uzone.id
 ### [Firstmedia]
 127.0.0.1 fm1.firstmedia.com
 ### [XL/Fiber/Liveon/Lite]
 127.0.0.1 ibnads.xl.co.id
 ### [Indosat/Hifi]
 127.0.0.1 ads.indosatooredoo.com
-147.139.211.126 netsafe.indosatm2.com
-### [MyRepublic]
-147.139.211.126    158.140.186.3
-### [CBN]
-147.139.211.126    210.210.178.70
-### [Biznet Home/Metronet]
-147.139.211.126    202.169.44.80
+127.0.0.1 netsafe.indosatm2.com
 
 # [CCStopper]
 # 127.0.0.1 52.22.41.97
