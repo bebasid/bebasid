@@ -27048,3 +27048,29 @@
 54.76.222.46 www.studocu.com
 35.242.209.60 jobs.studocu.com
 52.51.182.128 api.studocu.com
+
+# [1stream.top]
+# IPv6
+2606:4700:3032::ac43:851d 1stream.top
+2606:4700:3032::6815:dd2 www.1stream.top
+# IPv4
+172.67.133.29 1stream.top
+104.21.13.210 www.1stream.top
+
+# [totalsportek.to]
+# IPv6
+2606:4700:3037::6815:1f12 totalsportek.to
+2606:4700:3037::6815:1f12 www.totalsportek.to
+# IPv4
+104.21.31.18 totalsportek.to
+172.67.174.165 www.totalsportek.to
+
+# [streameast.app]
+# IPv6
+2606:4700:3034::6815:541d streameast.app
+2606:4700:3032::ac43:b961 www.streameast.app
+2606:4700:3032::ac43:b961 the.streameast.app
+# IPv4
+172.67.185.97 streameast.app
+104.21.84.29 www.streameast.app
+104.21.84.29 the.streameast.app
