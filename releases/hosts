@@ -22817,6 +22817,11 @@
 69.16.230.42 givemeredditstreams.com
 69.16.230.42 www.givemeredditstreams.com
 
+# [givemeredditstreams.xyz]
+104.21.31.128 apksite.givemeredditstreams.xyz
+172.67.176.135 givemeredditstreams.xyz
+172.67.176.135 www.givemeredditstreams.xyz
+
 # [buffstream.io]
 172.67.149.87 buffstream.io
 104.21.47.168 www.buffstream.io
@@ -27094,8 +27099,3 @@
 172.67.185.97 streameast.app
 104.21.84.29 www.streameast.app
 104.21.84.29 the.streameast.app
-
-# [givemeredditstreams.xyz]
-104.21.31.128 apksite.givemeredditstreams.xyz
-172.67.176.135 givemeredditstreams.xyz
-172.67.176.135 www.givemeredditstreams.xyz
