@@ -16902,6 +16902,14 @@
 45.178.6.100 real.buffstreams.tv
 45.178.6.78 my.buffstreams.tv
 
+# [buffstreams.sx]
+45.178.6.100 buffstreams.sx
+45.178.6.78 www.buffstreams.sx
+
+# [buffstreams.app]
+172.67.187.75 www.buffstreams.app
+172.67.187.75 buffstreams.app
+
 # [openloadmov.net]
 172.67.140.27 openloadmov.net
 104.21.73.39 www.openloadmov.net
@@ -22159,8 +22167,16 @@
 172.67.221.47 www.rebahin.xn--tckwe
 
 # [1stream.eu]
-104.21.235.139 1stream.eu
-104.21.235.139 www.1stream.eu
+104.21.235.83 1stream.eu
+104.21.235.83 www.1stream.eu
+
+# [1stream.top]
+172.67.133.29 1stream.top
+104.21.13.210 www.1stream.top
+
+# [1stream.soccer]
+104.21.235.83 1stream.soccer
+104.21.235.83 www.1stream.soccer
 
 # [vipstand.pm]
 212.8.250.185 mail.vipstand.pm
@@ -22783,7 +22799,23 @@
 172.67.189.144 www.fabtech.work
 
 # [givemeredditstreams.com]
-104.21.30.167 givemeredditstreams.com
+69.16.230.42 www.redditz.givemeredditstreams.com
+69.16.230.42 reddits.givemeredditstreams.com
+69.16.230.42 redditz.givemeredditstreams.com
+69.16.230.42 domain.givemeredditstreams.com
+69.16.230.42 reddit.givemeredditstreams.com
+69.16.230.42 live2.givemeredditstreams.com
+69.16.230.42 links.givemeredditstreams.com
+69.16.230.42 sport.givemeredditstreams.com
+69.16.230.42 cloud.givemeredditstreams.com
+69.16.230.42 watch.givemeredditstreams.com
+69.16.230.42 live3.givemeredditstreams.com
+69.16.230.42 live.givemeredditstreams.com
+69.16.230.42 gmrs.givemeredditstreams.com
+76.223.26.96 ww12.givemeredditstreams.com
+69.16.230.42 mma.givemeredditstreams.com
+69.16.230.42 givemeredditstreams.com
+69.16.230.42 www.givemeredditstreams.com
 
 # [buffstream.io]
 172.67.149.87 buffstream.io
@@ -23033,10 +23065,6 @@
 185.225.113.29 batotoo.com
 185.225.113.51 www.batotoo.com
 185.225.113.115 cf.batotoo.com
-
-# [buffstreams.sx]
-45.178.6.100 buffstreams.sx
-45.178.6.78 www.buffstreams.sx
 
 # [22bet.com]
 94.241.132.4 22bet.com
@@ -27049,14 +27077,6 @@
 35.242.209.60 jobs.studocu.com
 52.51.182.128 api.studocu.com
 
-# [1stream.top]
-# IPv6
-2606:4700:3032::ac43:851d 1stream.top
-2606:4700:3032::6815:dd2 www.1stream.top
-# IPv4
-172.67.133.29 1stream.top
-104.21.13.210 www.1stream.top
-
 # [totalsportek.to]
 # IPv6
 2606:4700:3037::6815:1f12 totalsportek.to
@@ -27074,3 +27094,8 @@
 172.67.185.97 streameast.app
 104.21.84.29 www.streameast.app
 104.21.84.29 the.streameast.app
+
+# [givemeredditstreams.xyz]
+104.21.31.128 apksite.givemeredditstreams.xyz
+172.67.176.135 givemeredditstreams.xyz
+172.67.176.135 www.givemeredditstreams.xyz
