@@ -89,3 +89,7 @@ Alternatif *(Jika hanya ingin memasang file hosts)*:
 ```
 sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
 ```
+
+## Lintas anjungan
+
+[SwitchHosts](https://github.com/oldj/SwitchHosts) - Aplikasi untuk manajemen & pengalihan host.
