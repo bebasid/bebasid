@@ -147,6 +147,408 @@
 
 # Mulai hosts bebasid
 
+# [SPORTS]
+# [latifistreams.com]
+172.67.194.67 www.latifistreams.com
+104.21.65.234 latifistreams.com
+
+# [crichd.tv]
+104.21.235.76 fc8.crichd.tv
+104.21.235.75 fc2.crichd.tv
+104.21.235.76 pc7.crichd.tv
+104.21.235.75 one.crichd.tv
+104.21.235.75 web.crichd.tv
+104.21.235.76 v8.crichd.tv
+104.21.235.75 v5.crichd.tv
+104.21.235.76 fc.crichd.tv
+104.21.235.76 b5.crichd.tv
+104.21.235.75 b6.crichd.tv
+104.21.235.75 b3.crichd.tv
+104.21.235.76 v4.crichd.tv
+104.21.235.76 m4.crichd.tv
+104.21.235.75 cf.crichd.tv
+104.21.235.75 fx.crichd.tv
+104.21.235.75 v2.crichd.tv
+104.21.235.76 v6.crichd.tv
+104.21.235.75 fs.crichd.tv
+104.21.235.75 m2.crichd.tv
+104.21.235.76 b7.crichd.tv
+104.21.235.76 nv.crichd.tv
+104.21.235.75 mh.crichd.tv
+104.21.235.76 mc.crichd.tv
+104.21.235.76 v3.crichd.tv
+104.21.235.75 me.crichd.tv
+104.21.235.75 jx.crichd.tv
+104.21.235.76 m7.crichd.tv
+104.21.235.75 b8.crichd.tv
+104.21.235.75 en.crichd.tv
+104.21.235.75 x.crichd.tv
+104.21.235.75 m.crichd.tv
+104.21.235.76 1.crichd.tv
+104.21.235.75 e.crichd.tv
+104.21.235.75 a.crichd.tv
+104.21.235.75 w.crichd.tv
+104.21.235.75 p.crichd.tv
+104.21.235.75 c.crichd.tv
+104.21.235.75 h.crichd.tv
+104.21.235.76 s.crichd.tv
+104.21.235.75 k.crichd.tv
+104.21.235.76 b.crichd.tv
+104.21.235.76 crichd.tv
+
+# [vipbox.lc]
+45.178.4.170 www.vipbox.lc
+45.178.6.101 el.vipbox.lc
+45.178.4.170 ar.vipbox.lc
+45.178.4.170 fr.vipbox.lc
+45.178.4.170 pt.vipbox.lc
+45.178.4.170 it.vipbox.lc
+45.178.7.138 de.vipbox.lc
+45.178.6.101 ja.vipbox.lc
+45.178.6.101 nl.vipbox.lc
+45.178.6.101 es.vipbox.lc
+45.178.7.138 vipbox.lc
+
+# [viprow.nu]
+45.178.6.108 2fwww.viprow.nu
+45.178.5.132 ww17.viprow.nu
+45.178.6.108 wwww.viprow.nu
+45.178.6.149 ww6.viprow.nu
+45.178.5.132 www.viprow.nu
+45.178.6.108 ww1.viprow.nu
+45.178.6.108 dot.viprow.nu
+45.178.6.149 en.viprow.nu
+45.178.6.149 es.viprow.nu
+45.178.6.108 ar.viprow.nu
+45.178.5.132 it.viprow.nu
+45.178.6.149 fr.viprow.nu
+45.178.5.132 pt.viprow.nu
+45.178.6.108 nl.viprow.nu
+45.178.6.108 de.viprow.nu
+45.178.6.149 ja.viprow.nu
+45.178.5.132 viprow.nu
+
+# [1stream.eu]
+104.21.235.84 www.1stream.eu
+104.21.235.83 1stream.eu
+
+# [aesport.tv]
+45.11.56.8 primarysrv.aesport.tv
+38.104.169.186 download.aesport.tv
+172.67.212.46 dev-db.aesport.tv
+104.21.67.44 image.aesport.tv
+104.21.67.44 demo.aesport.tv
+172.67.212.46 dev.aesport.tv
+172.67.212.46 cms.aesport.tv
+172.67.212.46 www.aesport.tv
+172.64.80.1 aesport.tv
+
+# [sportshd.sx]
+109.205.187.139 www.sportshd.sx
+104.21.1.86 cfr.sportshd.sx
+109.205.187.139 sportshd.sx
+
+# [streamed.su]
+104.21.12.61 streamed.su
+
+# [footybite.cc]
+104.21.61.207 www1.footybite.cc
+104.21.61.207 www.footybite.cc
+104.21.61.207 footybite.cc
+
+# [strikeout.im]
+45.178.6.104 strikeout.im
+
+# [vipleague.im]
+45.178.6.110 www.vipleague.im
+45.178.6.110 fr.vipleague.im
+45.178.6.147 it.vipleague.im
+45.178.6.147 ja.vipleague.im
+45.178.5.131 es.vipleague.im
+45.178.5.131 pt.vipleague.im
+45.178.5.131 nl.vipleague.im
+45.178.6.110 ar.vipleague.im
+45.178.6.147 de.vipleague.im
+45.178.6.110 vipleague.im
+
+# [vipleague.la]
+45.178.6.102 www.vipleague.la
+45.178.6.102 nl.vipleague.la
+45.178.6.102 pt.vipleague.la
+45.178.4.171 ar.vipleague.la
+45.178.6.102 de.vipleague.la
+45.178.4.171 it.vipleague.la
+45.178.6.102 ja.vipleague.la
+45.178.6.102 fr.vipleague.la
+45.178.4.171 es.vipleague.la
+45.178.4.171 vipleague.la
+
+# [720pstream.nu]
+172.67.206.139 cdn.720pstream.nu
+45.178.6.172 720pstream.nu
+
+# [freesports.to]
+104.21.65.68 www.freesports.to
+172.67.159.8 freesports.to
+
+# [nhlstream.net]
+104.21.57.64 new.nhlstream.net
+104.21.57.64 old.nhlstream.net
+172.67.189.95 www.nhlstream.net
+104.21.57.64 nhlstream.net
+
+# [streameast.to]
+172.64.80.1 www.streameast.to
+104.21.34.181 v1.streameast.to
+104.21.34.181 v2.streameast.to
+104.21.34.181 streameast.to
+
+# [dudestream.com]
+104.21.3.185 www.dudestream.com
+172.67.131.23 dudestream.com
+
+# [rojadirecta.eu]
+104.21.39.239 www.blog.rojadirecta.eu
+172.67.150.145 channel.rojadirecta.eu
+104.21.39.239 blog.rojadirecta.eu
+172.67.150.145 www.rojadirecta.eu
+104.21.39.239 ita.rojadirecta.eu
+104.21.39.239 it.rojadirecta.eu
+172.67.150.145 gr.rojadirecta.eu
+172.67.150.145 ut.rojadirecta.eu
+172.67.150.145 es.rojadirecta.eu
+172.67.150.145 rojadirecta.eu
+
+# [motogpstream.me]
+45.178.5.206 www.motogpstream.me
+45.178.5.206 motogpstream.me
+
+# [p2pstreams.live]
+172.67.164.191 www.p2pstreams.live
+104.21.41.118 p2pstreams.live
+
+# [socceronline.me]
+45.178.6.106 www.socceronline.me
+45.178.5.205 socceronline.me
+
+# [totalsportek.to]
+104.21.31.18 worldcup.totalsportek.to
+104.21.31.18 watch.totalsportek.to
+104.21.31.18 live.totalsportek.to
+172.67.174.165 www.totalsportek.to
+172.67.174.165 totalsportek.to
+
+# [thehomesport.com]
+104.21.96.113 www.thehomesport.com
+104.21.96.113 thehomesport.com
+
+# [totalsportek.pro]
+104.21.25.25 www.totalsportek.pro
+104.21.25.25 totalsportek.pro
+
+# [worldstreams.net]
+172.67.133.99 www.worldstreams.net
+104.21.5.120 en.worldstreams.net
+172.67.133.99 worldstreams.net
+
+# [olympicstreams.me]
+45.178.7.139 www.olympicstreams.me
+45.178.7.139 olympicstreams.me
+
+# [firstsrowsports.tv]
+91.224.59.37 www.firstsrowsports.tv
+91.224.59.37 firstsrowsports.tv
+
+# [rakettvv.blogspot.com]
+172.253.122.132 rakettvv.blogspot.com
+
+# [watchkobestreams.info]
+185.255.122.14 cpcalendars.watchkobestreams.info
+185.255.122.14 cpcontacts.watchkobestreams.info
+185.255.122.14 webmail.watchkobestreams.info
+185.255.122.14 webdisk.watchkobestreams.info
+185.255.122.14 cpanel.watchkobestreams.info
+185.255.122.14 mail.watchkobestreams.info
+185.255.122.14 www.watchkobestreams.info
+185.255.122.14 watchkobestreams.info
+
+# [vipstand.pm]
+212.8.250.185 mail.vipstand.pm
+45.178.7.141 www.vipstand.pm
+45.178.6.109 vipstand.pm
+
+# [niaomea.me]
+45.178.6.170 niaomea.me
+45.178.6.170 www.niaomea.me
+104.21.18.169 sts.niaomea.me
+172.67.182.195 img.niaomea.me
+172.67.182.195 ww2.niaomea.me
+172.67.182.195 cdn.niaomea.me
+
+# [stream2watch.com]
+172.67.38.41 play.stream2watch.com
+104.22.50.226 live.stream2watch.com
+104.22.50.226 www.stream2watch.com
+172.67.38.41 tv.stream2watch.com
+172.67.38.41 ww.stream2watch.com
+104.22.50.226 i.stream2watch.com
+104.22.50.226 stream2watch.com
+
+# [soccerlive.app]
+172.67.220.49 watch.soccerlive.app
+104.21.86.131 www.soccerlive.app
+172.67.220.49 soccerlive.app
+
+# [time4tv.online]
+172.67.204.104 www.time4tv.online
+104.21.93.43 time4tv.online
+
+# [vipleague.st]
+45.178.6.102 vipleague.st
+45.178.6.148 www.vipleague.st
+
+# [TORRENTS]
+# [1337x.to]
+104.31.16.11 chat.1337x.to
+104.31.16.118 cdn.1337x.to
+104.31.16.118 www.1337x.to
+104.31.16.118 1337x.to
+
+# [glodls.to]
+104.31.16.2 glostatus.glodls.to
+104.31.16.2 venturead.glodls.to
+104.31.16.2 imghost.glodls.to
+104.31.16.127 forums2.glodls.to
+104.31.16.127 fbgroup.glodls.to
+104.31.16.127 tracker.glodls.to
+104.31.16.127 forums.glodls.to
+104.31.16.127 paedia.glodls.to
+104.31.16.127 forum.glodls.to
+104.31.16.2 smdb.glodls.to
+77.88.21.37 mail.glodls.to
+104.31.16.127 www.glodls.to
+104.31.16.2 mg.glodls.to
+104.31.16.127 glodls.to
+
+# [magnetdl.com]
+91.219.239.180 mail.magnetdl.com
+172.67.153.238 www.magnetdl.com
+172.67.153.238 magnetdl.com
+
+# [torlock2.com]
+104.31.16.120 www.torlock2.com
+104.31.16.9 torlock2.com
+
+# [rutracker.org]
+162.244.80.135 mail.rutracker.org
+104.21.32.39 wiki.rutracker.org
+104.21.32.39 www.rutracker.org
+172.67.182.196 rutracker.org
+
+# [limetorrents.lol]
+104.21.19.143 www.limetorrents.lol
+104.21.19.143 limetorrents.lol
+
+# [torrentgalaxy.to]
+185.100.87.46 www.torrentgalaxy.to
+185.100.87.46 torrentgalaxy.to
+
+# [torrentseeker.com]
+104.21.235.149 www.torrentseeker.com
+104.21.235.149 torrentseeker.com
+
+# [thepiratebay.org]
+162.159.136.6 m.thepiratebay.org
+162.159.137.6 www.thepiratebay.org
+162.159.137.6 thepiratebay.org
+162.159.137.6 200.thepiratebay.org
+162.159.137.6 ns0.thepiratebay.org
+162.159.137.6 static.thepiratebay.org
+162.159.137.6 upl.thepiratebay.org
+162.159.137.6 tracker.thepiratebay.org
+162.159.137.6 a.tracker.thepiratebay.org
+162.159.137.6 tpb.tracker.thepiratebay.org
+162.159.137.6 open.tracker.thepiratebay.org
+162.159.137.6 vip.tracker.thepiratebay.org
+162.159.137.6 tv.tracker.thepiratebay.org
+162.159.137.6 eztv.tracker.thepiratebay.org
+162.159.137.6 rss.thepiratebay.org
+162.159.137.6 torrents.thepiratebay.org
+162.159.137.6 upload.thepiratebay.org
+
+# [pussytorrents.org]
+104.24.122.105 imageservice.pussytorrents.org
+104.24.122.105 www.pussytorrents.org
+104.24.123.105 pussytorrents.org
+95.211.75.8 mail.pussytorrents.org
+
+# [thekickasstorrents.to]
+104.31.16.11 thekickasstorrents.to
+104.31.16.11 www.thekickasstorrents.to
+
+# [torrentdownloads.me]
+104.27.212.30 torrentdownloads.me
+104.27.212.30 www.torrentdownloads.me
+
+# [torrentz2.eu]
+104.28.24.5 torrentz2.eu
+104.28.24.5 www.torrentz2.eu
+
+# [torrents.io]
+172.67.70.228 torrents.io
+172.67.70.228 www.torrents.io
+
+# [yts.mx]
+104.26.6.75 yts.mx
+104.26.6.75 www.yts.mx
+104.31.16.9 yts.mx
+104.31.16.9 www.yts.mx
+104.31.16.120 yts.mx
+104.31.16.120 www.yts.mx
+104.31.16.120 img.yts.mx
+104.31.16.120 www.img.yts.mx
+104.31.16.9 img.yts.mx
+104.31.16.9 www.img.yts.mx
+
+# [rarbg.to]
+151.80.120.114 1.rarbg.to
+151.80.120.114 2.rarbg.to
+151.80.120.114 3.rarbg.to
+151.80.120.114 4.rarbg.to
+151.80.120.114 5.rarbg.to
+151.80.120.114 6.rarbg.to
+151.80.120.114 7.rarbg.to
+151.80.120.114 8.rarbg.to
+151.80.120.115 9.rarbg.to
+151.80.120.115 10.rarbg.to
+151.80.120.115 11.rarbg.to
+109.201.133.27 mail.rarbg.to
+109.201.133.27 tracker.rarbg.to
+185.37.100.122 www.rarbg.to
+185.37.100.122 rarbg.to
+185.37.100.119 ns1.rarbg.to
+185.37.100.119 ns2.rarbg.to
+185.37.100.119 ns3.rarbg.to
+185.37.100.119 ns4.rarbg.to
+
+# [eztv.ag]
+172.67.146.47 eztv.ag
+172.67.146.47 www.eztv.ag
+
+# [isohunt.to]
+185.225.18.165 blog.isohunt.to
+185.225.18.165 webdisk.isohunt.to
+185.225.18.165 cpanel.isohunt.to
+185.225.18.165 mail.isohunt.to
+185.225.18.165 webmail.isohunt.to
+185.225.18.165 www.isohunt.to
+185.225.18.165 isoplex.isohunt.to
+185.225.18.165 openbay.isohunt.to
+185.225.18.165 isohunt.to
+185.225.18.165 www.isoplex.isohunt.to
+185.225.18.165 www.blog.isohunt.to
+185.225.18.165 www.openbay.isohunt.to
+
 # [CDNs]
 104.19.242.83 roomimg.stream.highwebmedia.com
 104.16.93.42 static-assets.highwebmedia.com
@@ -752,6 +1154,9 @@
 205.185.216.10 premiumvideo-hw.xnxx-cdn.com
 209.197.3.84 video-hw.xnxx-cdn.com
 209.197.3.84 hls-hw.xnxx-cdn.com
+
+# [SOCIAL]
+# [PORN]
 
 # [redd.it]
 151.101.1.140 external-preview.redd.it
@@ -1575,25 +1980,6 @@
 35.244.141.179 hub.vimeo.com
 162.159.128.61 vimeo.com
 
-# [thepiratebay.org]
-162.159.136.6 m.thepiratebay.org
-162.159.137.6 www.thepiratebay.org
-162.159.137.6 thepiratebay.org
-162.159.137.6 200.thepiratebay.org
-162.159.137.6 ns0.thepiratebay.org
-162.159.137.6 static.thepiratebay.org
-162.159.137.6 upl.thepiratebay.org
-162.159.137.6 tracker.thepiratebay.org
-162.159.137.6 a.tracker.thepiratebay.org
-162.159.137.6 tpb.tracker.thepiratebay.org
-162.159.137.6 open.tracker.thepiratebay.org
-162.159.137.6 vip.tracker.thepiratebay.org
-162.159.137.6 tv.tracker.thepiratebay.org
-162.159.137.6 eztv.tracker.thepiratebay.org
-162.159.137.6 rss.thepiratebay.org
-162.159.137.6 torrents.thepiratebay.org
-162.159.137.6 upload.thepiratebay.org
-
 # [hitomi.la]
 88.80.31.197 hitomi.la
 45.95.235.43 www.hitomi.la
@@ -2150,133 +2536,6 @@
 104.21.234.103 www.gelbooru.com
 104.21.234.103 ja.gelbooru.com
 104.21.234.102 gelbooru.com
-
-# [omegle.com]
-104.23.142.25 omegle.com
-104.23.140.25 www.omegle.com
-72.14.176.197 log.omegle.com
-72.14.176.197 logs.omegle.com
-52.216.177.170 i.omegle.com
-
-# [rarbg.to]
-151.80.120.114 1.rarbg.to
-151.80.120.114 2.rarbg.to
-151.80.120.114 3.rarbg.to
-151.80.120.114 4.rarbg.to
-151.80.120.114 5.rarbg.to
-151.80.120.114 6.rarbg.to
-151.80.120.114 7.rarbg.to
-151.80.120.114 8.rarbg.to
-151.80.120.115 9.rarbg.to
-151.80.120.115 10.rarbg.to
-151.80.120.115 11.rarbg.to
-109.201.133.27 mail.rarbg.to
-109.201.133.27 tracker.rarbg.to
-185.37.100.122 www.rarbg.to
-185.37.100.122 rarbg.to
-185.37.100.119 ns1.rarbg.to
-185.37.100.119 ns2.rarbg.to
-185.37.100.119 ns3.rarbg.to
-185.37.100.119 ns4.rarbg.to
-
-# [eztv.ag]
-172.67.146.47 eztv.ag
-172.67.146.47 www.eztv.ag
-
-# [isohunt.to]
-185.225.18.165 blog.isohunt.to
-185.225.18.165 webdisk.isohunt.to
-185.225.18.165 cpanel.isohunt.to
-185.225.18.165 mail.isohunt.to
-185.225.18.165 webmail.isohunt.to
-185.225.18.165 www.isohunt.to
-185.225.18.165 isoplex.isohunt.to
-185.225.18.165 openbay.isohunt.to
-185.225.18.165 isohunt.to
-185.225.18.165 www.isoplex.isohunt.to
-185.225.18.165 www.blog.isohunt.to
-185.225.18.165 www.openbay.isohunt.to
-
-# [4chan.org]
-144.217.129.129 is2.4chan.org
-144.217.123.248 is2.4chan.org
-142.44.218.139 is2.4chan.org
-144.217.123.248 ip248.ip-144-217-123.net
-104.225.112.136 dc-6cd34d0cd746.4chan.org
-104.19.129.108 static.4chan.org
-104.19.128.108 static.4chan.org
-104.16.116.221 static.4chan.org
-104.19.129.108 find.4chan.org
-104.19.128.108 find.4chan.org
-104.19.128.108 img.4chan.org
-104.16.116.221 img.4chan.org
-74.114.154.18 blog.4chan.org
-104.19.128.108 cgi.4chan.org
-104.16.116.221 cgi.4chan.org
-104.19.129.108 api.4chan.org
-104.19.128.108 api.4chan.org
-49.212.27.40 j.4chan.org
-162.248.222.38 mail.4chan.org
-162.248.222.38 oms.4chan.org
-104.19.129.108 team.4chan.org
-104.19.128.108 team.4chan.org
-142.250.186.51 p.4chan.org
-104.19.128.108 zip.4chan.org
-104.19.129.108 thumbs.4chan.org
-104.19.128.108 thumbs.4chan.org
-104.19.129.108 0.thumbs.4chan.org
-104.19.128.108 0.thumbs.4chan.org
-104.19.128.108 1.thumbs.4chan.org
-104.19.128.108 boards.4chan.org
-104.16.116.221 boards.4chan.org
-104.19.129.108 images.4chan.org
-104.19.128.108 images.4chan.org
-104.19.129.108 dis.4chan.org
-104.19.128.108 dis.4chan.org
-104.16.117.221 dis.4chan.org
-104.19.129.108 ims.4chan.org
-104.19.128.108 ims.4chan.org
-162.248.222.38 oms.4chan.org
-104.19.129.108 rs.4chan.org
-104.19.128.108 rs.4chan.org
-104.16.118.221 rs.4chan.org
-104.19.129.108 reports.4chan.org
-104.19.128.108 reports.4chan.org
-104.19.129.108 status.4chan.org
-104.19.128.108 status.4chan.org
-104.19.128.108 sys.4chan.org
-104.16.118.221 sys.4chan.org
-104.19.128.108 v.4chan.org
-104.19.128.108 www.4chan.org
-104.16.117.221 www.4chan.org
-104.19.128.108 currency.4chan.org
-104.19.129.108 orz.4chan.org
-104.19.128.108 orz.4chan.org
-104.16.119.221 orz.4chan.org
-104.19.129.108 4chan.org
-104.16.117.221 4chan.org
-144.217.123.248 is3.4chan.org
-144.217.129.129 is3.4chan.org
-144.217.129.129 is.4chan.org
-104.19.128.108 content.4chan.org
-104.16.62.249 a.4cdn.org
-104.16.58.249 a.4cdn.org
-104.16.62.249 i.4cdn.org
-104.16.58.249 i.4cdn.org
-104.16.61.249 s.4cdn.org
-104.16.60.249 s.4cdn.org
-104.16.58.249 s.4cdn.org
-104.16.62.249 t.4cdn.org
-104.16.60.249 t.4cdn.org
-104.16.58.249 t.4cdn.org
-104.16.58.249 0.t.4cdn.org
-104.16.60.249 1.t.4cdn.org
-104.16.58.249 1.t.4cdn.org
-104.16.61.249 www.4cdn.org
-104.16.58.249 www.4cdn.org
-104.16.61.249 4cdn.org
-104.16.59.249 4cdn.org
-104.16.62.249 4cdn.org
 
 # [pornhub.com]
 66.254.114.41 pornhub.com
@@ -9618,40 +9877,6 @@
 185.36.100.195 pornolab.net
 185.36.100.195 www.pornolab.net
 
-# [katcr.co]
-91.212.150.157 katcr.co
-91.212.150.157 www.katcr.co
-
-# [1337x.to]
-104.31.16.118 1337x.to
-104.31.16.11 www.1337x.to
-104.31.16.11 chat.1337x.to
-104.31.16.118 cdn.1337x.to
-
-# [yts.lt]
-104.21.11.120 yts.lt
-104.21.11.120 www.yts.lt
-172.67.166.3 img.yts.lt
-172.67.166.3 www.img.yts.lt
-
-# [yts.mx]
-104.26.6.75 yts.mx
-104.26.6.75 www.yts.mx
-104.31.16.9 yts.mx
-104.31.16.9 www.yts.mx
-104.31.16.120 yts.mx
-104.31.16.120 www.yts.mx
-104.31.16.120 img.yts.mx
-104.31.16.120 www.img.yts.mx
-104.31.16.9 img.yts.mx
-104.31.16.9 www.img.yts.mx
-
-# [yts.ag]
-172.67.202.48 www.yts.ag
-172.67.202.48 yts.ag
-172.67.202.48 www.img.yts.ag
-172.67.202.48 img.yts.ag
-
 # [gojav.xyz]
 104.31.79.158 gojav.xyz
 104.31.79.158 www.gojav.xyz
@@ -11722,10 +11947,6 @@
 208.99.83.18 cartoonpornvideos.com
 208.99.83.18 www.cartoonpornvideos.com
 
-# [limetorrents.cc]
-104.31.17.3 limetorrents.cc
-104.31.17.3 limetorrents.cc
-
 # [sxyprn.com]
 104.21.58.198 sxyprn.com
 104.21.58.198 www.sxyprn.com
@@ -12234,10 +12455,6 @@
 104.225.112.136 ims.4channel.org
 104.225.112.136 136.112.225.104.ptr.anycast.net
 
-# [torrentdownloads.me]
-104.27.212.30 torrentdownloads.me
-104.27.212.30 www.torrentdownloads.me
-
 # [topwebmodels.com]
 74.206.162.148 topwebmodels.com
 74.206.162.148 www.topwebmodels.com
@@ -12532,10 +12749,6 @@
 104.26.15.17 ohentai.org
 104.26.15.17 www.ohentai.org
 
-# [torrentgalaxy.to]
-185.100.87.40 torrentgalaxy.to
-185.100.87.40 www.torrentgalaxy.to
-
 # [toomics.com]
 64.62.198.195 toomics.com
 64.62.198.195 www.toomics.com
@@ -12547,32 +12760,6 @@
 # [pornktube.com]
 212.32.236.86 pornktube.com
 212.32.236.86 www.pornktube.com
-
-# [livesoccers.tv]
-104.31.13.161 livesoccers.tv
-104.31.13.161 www.livesoccers.tv
-
-# [60fps.live]
-104.31.1.176 60fps.live
-104.31.1.176 www.60fps.live
-
-# [stream-cr7.net]
-104.24.109.24 stream-cr7.net
-104.24.109.24 www.stream-cr7.net
-
-# [rojadirecta.me]
-176.56.226.176 rojadirecta.me
-176.56.226.176 www.rojadirecta.me
-
-# [myfeed2all.eu]
-80.82.70.121 myfeed2all.eu
-80.82.70.121 www.myfeed2all.eu
-
-# [usagoals.net]
-104.18.39.6 usagoals.net
-104.18.39.6 www.usagoals.net
-104.31.73.65 usagoals.video
-104.31.73.65 www.usagoals.video
 
 # [kshow123.net]
 172.67.214.134 kshow123.net
@@ -12640,10 +12827,6 @@
 # [141jav.com]
 104.31.7.180 141jav.com
 104.31.7.180 www.141jav.com
-
-# [psarips.one]
-104.27.168.213 psarips.one
-104.27.168.213 www.psarips.one
 
 # [fap-nation.com]
 104.25.72.6 fap-nation.com
@@ -12714,10 +12897,6 @@
 103.97.141.226 idfl.me
 103.97.141.226 www.idfl.me
 103.97.141.226 m.idfl.me
-
-# [torrentz2.eu]
-104.28.24.5 torrentz2.eu
-104.28.24.5 www.torrentz2.eu
 
 # [kimcartoon.to]
 104.26.5.133 kimcartoon.to
@@ -13276,10 +13455,6 @@
 104.25.45.113 kissmanga.com
 104.25.45.113 www.kissmanga.com
 
-# [torrents.io]
-172.67.70.228 torrents.io
-172.67.70.228 www.torrents.io
-
 # [zooqle.com]
 104.26.14.84 zooqle.com
 104.26.14.84 www.zooqle.com
@@ -13585,27 +13760,6 @@
 104.22.28.102 www.netflixparty.com
 104.22.28.102 static.netflixparty.com
 
-# [rutracker.org]
-85.112.96.21 rack.rutracker.org
-85.112.96.21 zabbix.rutracker.org
-104.27.128.21 blog.rutracker.org
-104.27.128.21 wiki.rutracker.org
-104.27.128.21 adcal.rutracker.org
-104.27.128.21 generation.rutracker.org
-193.70.97.249 mx.rutracker.org
-195.82.147.50 ns.rutracker.org
-195.82.146.120 bt.rutracker.org
-195.82.146.50 mail.rutracker.org
-195.82.146.100 proxy.rutracker.org
-195.82.146.214 rutracker.org
-195.82.146.214 www.rutracker.org
-195.82.146.50 ns2.rutracker.org
-195.82.146.123 bt4.rutracker.org
-195.82.146.118 gitlab.rutracker.org
-195.82.146.52 feed.rutracker.org
-195.82.146.52 subs.rutracker.org
-195.82.147.150 ns1.rutracker.org
-
 # [fancentro.com]
 31.192.113.173 fancentro.com
 31.192.113.173 www.fancentro.com
@@ -13723,19 +13877,9 @@
 104.26.15.136 yifysubtitles.com
 104.26.14.136 www.yifysubtitles.com
 
-# [pussytorrents.org]
-104.24.122.105 imageservice.pussytorrents.org
-104.24.122.105 www.pussytorrents.org
-104.24.123.105 pussytorrents.org
-95.211.75.8 mail.pussytorrents.org
-
 # [drakorindo.co]
 104.31.66.89 drakorindo.co
 104.27.132.36 drakorindo.cc
-
-# [thekickasstorrents.to]
-104.31.16.11 thekickasstorrents.to
-104.31.16.11 www.thekickasstorrents.to
 
 # [pornoslon.me]
 5.45.67.119 pornoslon.me
@@ -16935,11 +17079,6 @@
 161.35.203.109 webmail.f1livegp.me
 161.35.203.109 aws.f1livegp.me
 
-# [olympicstreams.me]
-162.219.178.134 olympicstreams.me
-45.178.5.228 olympicstreams.me
-162.219.178.134 www.olympicstreams.me
-
 # [17porn.com]
 119.28.187.215 17porn.com
 
@@ -18491,15 +18630,6 @@
 172.67.168.74 proxy.himovies.to
 104.21.26.137 sub.himovies.to
 
-# [footybite.cc]
-172.64.104.28 footybite.cc
-172.64.104.28 www.footybite.cc
-172.64.105.28 footybite.cc
-172.64.105.28 www.footybite.cc
-172.67.186.97 footybite.cc
-172.67.186.97 www.footybite.cc
-172.64.104.28 live.footybite.cc
-
 # [freesexgame.com]
 104.21.44.4 freesexgame.com
 104.21.44.4 www.freesexgame.com
@@ -18597,10 +18727,6 @@
 216.239.38.21 www.60mins.online
 142.250.184.211 60mins.online
 142.250.184.211 www.60mins.online
-
-# [socceronline.me]
-45.178.5.205 socceronline.me
-45.178.5.205 www.socceronline.me
 
 # [sportshub.stream]
 172.67.220.114 www.buff.sportshub.stream
@@ -20236,31 +20362,6 @@
 141.94.200.42 s29.pixxxels.cc
 141.94.130.128 s9.pixxxels.cc
 
-# [livekoora.online]
-142.250.189.179 ma.livekoora.online
-142.250.189.179 ekoora.livekoora.online
-172.67.168.251 arkoora.livekoora.online
-142.250.189.179 koora.livekoora.online
-142.250.189.179 foot.livekoora.online
-142.250.189.179 pro.livekoora.online
-172.67.168.251 livekora.livekoora.online
-172.67.168.251 free.livekoora.online
-172.67.168.251 net.livekoora.online
-172.67.168.251 ar.livekoora.online
-142.250.189.179 ultra.livekoora.online
-142.250.189.179 goals.livekoora.online
-172.67.168.251 live.livekoora.online
-172.67.168.251 www.livekoora.online
-142.250.189.179 www1.livekoora.online
-142.250.189.179 livekoora.online
-142.250.191.83 kora.livekoora.online
-142.250.189.211 fc.livekoora.online
-172.67.195.187 akoora.livekooora.online
-
-# [oploverz.fan]
-172.67.205.17 oploverz.fan
-172.67.205.17 www.oploverz.fan
-
 # [rin.ru]
 91.201.40.166 rin.ru
 91.201.40.166 www.rin.ru
@@ -20675,17 +20776,6 @@
 149.72.143.172 o2991.abmail.notifications.livexlive.com
 151.101.2.133 iheartjudahandthelion.livexlive.com
 35.184.195.213 dev.livexlive.com
-
-# [live-yalla-shoot.com]
-104.21.17.233 new.live-yalla-shoot.com
-172.67.178.168 extra.live-yalla-shoot.com
-172.67.178.168 hd.live-yalla-shoot.com
-172.67.178.168 www.live-yalla-shoot.com
-104.21.17.233 today.live-yalla-shoot.com
-172.67.178.168 play.live-yalla-shoot.com
-104.21.17.233 as.live-yalla-shoot.com
-172.67.178.168 matches.live-yalla-shoot.com
-172.67.178.168 live-yalla-shoot.com
 
 # [kisstvshow.to]
 104.26.7.129 kisstvshow.to
@@ -22160,70 +22250,6 @@
 104.21.35.126 rebahin.xn--tckwe
 172.67.221.47 www.rebahin.xn--tckwe
 
-# [1stream.eu]
-104.21.235.83 1stream.eu
-104.21.235.83 www.1stream.eu
-
-# [1stream.top]
-172.67.133.29 1stream.top
-104.21.13.210 www.1stream.top
-
-# [1stream.soccer]
-104.21.235.83 1stream.soccer
-104.21.235.83 www.1stream.soccer
-
-# [vipstand.pm]
-212.8.250.185 mail.vipstand.pm
-45.178.7.141 www.vipstand.pm
-45.178.6.109 vipstand.pm
-
-# [niaomea.me]
-45.178.6.170 niaomea.me
-45.178.6.170 www.niaomea.me
-104.21.18.169 sts.niaomea.me
-172.67.182.195 img.niaomea.me
-172.67.182.195 ww2.niaomea.me
-172.67.182.195 cdn.niaomea.me
-
-# [stream2watch.com]
-172.67.38.41 play.stream2watch.com
-104.22.50.226 live.stream2watch.com
-104.22.50.226 www.stream2watch.com
-172.67.38.41 tv.stream2watch.com
-172.67.38.41 ww.stream2watch.com
-104.22.50.226 i.stream2watch.com
-104.22.50.226 stream2watch.com
-
-# [dlhd.sx]
-104.21.93.65 www.dlhd.sx
-104.21.93.65 dlhd.sx
-
-# [vipleague.la]
-45.178.4.171 www.vipleague.la
-45.178.4.171 ja.vipleague.la
-45.178.6.102 ar.vipleague.la
-45.178.4.171 es.vipleague.la
-45.178.6.148 nl.vipleague.la
-45.178.6.102 pt.vipleague.la
-45.178.6.102 it.vipleague.la
-45.178.4.171 de.vipleague.la
-45.178.6.148 fr.vipleague.la
-45.178.6.102 vipleague.la
-
-# [soccerlive.app]
-172.67.220.49 watch.soccerlive.app
-104.21.86.131 www.soccerlive.app
-172.67.220.49 soccerlive.app
-
-# [720pstream.nu]
-45.178.6.172 www.720pstream.nu
-104.21.50.134 cdn.720pstream.nu
-45.178.6.172 720pstream.nu
-
-# [time4tv.online]
-172.67.204.104 www.time4tv.online
-104.21.93.43 time4tv.online
-
 # [iframe.tv]
 199.59.243.225 domaincontrolpanel.iframe.tv
 172.234.25.151 administration.iframe.tv
@@ -22673,10 +22699,6 @@
 67.211.221.195 mail.pornstarbyface.com
 67.211.221.195 mta-sts.mail.pornstarbyface.com
 
-# [vipleague.st]
-45.178.6.102 vipleague.st
-45.178.6.148 www.vipleague.st
-
 # [hentairox.com]
 172.67.181.57 hentairox.com
 104.21.40.76 www.hentairox.com
@@ -22687,10 +22709,6 @@
 172.67.181.57 m5.hentairox.com
 104.21.40.76 m6.hentairox.com
 172.67.181.57 m7.hentairox.com
-
-# [soccercatch.com]
-172.67.145.52 soccercatch.com
-104.21.28.91 www.soccercatch.com
 
 # [missav.com]
 172.66.41.44 missav.com
@@ -23044,14 +23062,6 @@
 2a02:22a0:bbb6:1d00::1001:443 web.startmail.com
 2a02:22a0:bbb6:1d00::1001:443 www.startmail.com
 2a02:22a0:bbb6:1d00::1001:443 mail.startmail.com
-
-# [psa.re]
-### IPv4
-104.21.27.103 psa.re
-104.21.27.103 www.psa.re
-### IPv6
-2606:4700:3032::6815:1b67 www.psa.re
-2606:4700:3032::6815:1b67 psa.re
 
 # [batotoo.com]
 185.225.113.51 app-marker.batotoo.com
@@ -27076,14 +27086,6 @@
 35.242.209.60 jobs.studocu.com
 52.51.182.128 api.studocu.com
 
-# [totalsportek.to]
-# IPv6
-2606:4700:3037::6815:1f12 totalsportek.to
-2606:4700:3037::6815:1f12 www.totalsportek.to
-# IPv4
-104.21.31.18 totalsportek.to
-172.67.174.165 www.totalsportek.to
-
 # [streameast.app]
 # IPv6
 2606:4700:3034::6815:541d streameast.app
@@ -27108,3 +27110,24 @@
 172.67.197.49 autodiscover.everia.club
 104.21.74.36 www.everia.club
 172.67.197.49 everia.club
+
+# [4cdn.org]
+104.17.31.87 1.t.4cdn.org
+104.17.27.87 www.4cdn.org
+192.99.66.37 is.4cdn.org
+104.17.27.87 s.4cdn.org
+104.17.27.87 t.4cdn.org
+104.17.28.87 a.4cdn.org
+104.17.29.87 i.4cdn.org
+104.17.29.87 4cdn.org
+
+# [4chan.org]
+104.19.143.99 static.4chan.org
+104.19.143.99 thumbs.4chan.org
+74.114.154.18 blog.4chan.org
+162.248.222.38 mail.4chan.org
+158.69.18.72 is2.4chan.org
+104.19.142.99 ims.4chan.org
+162.248.222.38 oms.4chan.org
+142.250.191.115 p.4chan.org
+104.19.143.99 4chan.org
