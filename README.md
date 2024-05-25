@@ -58,7 +58,8 @@ Dimulai dari **Rp. 50.000,00**.
 
 ##
 > [!IMPORTANT]  
-> Untuk Provider (ISP) yang memakai DPI, harap baca [ini](#pemberitahuan-tentang-dpi).
+> Untuk Provider (ISP) yang memakai DPI, harap baca [ini](#pemberitahuan-tentang-dpi).<br><br>
+> Kami tidak akan menfasilitasi hal illegal seperti Judi Online, Kami bertujuan untuk netralitas internet, bukan melawan hukum dan merugikan masyarakat. Sehingga <b>Kami tidak akan menghiraukan permintaan untuk menambah situs judol ke host kami.</b>
 
 ## Daftar Isi
 - [Daftar Isi](#daftar-isi)
