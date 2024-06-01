@@ -49,7 +49,7 @@
 
 # Blokir Pelacak
 ## Kominfo Lamanlabuh:
-147.139.211.126 lamanlabuh.aduankonten.id
+0.0.0.0 lamanlabuh.aduankonten.id
 ## ISPs:
 ### [Telkomsel/Indihome]
 127.0.0.1 a01.uadexchange.com
@@ -27126,6 +27126,7 @@
 162.248.222.38 oms.4chan.org
 142.250.191.115 p.4chan.org
 104.19.143.99 4chan.org
+104.19.143.99 boards.4chan.org
 
 # [bybit.com]
 47.128.211.64 bybit.com
