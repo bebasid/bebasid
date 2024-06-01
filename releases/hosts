@@ -96,24 +96,20 @@
 127.0.0.1 www.x-tags.net
 127.0.0.1 x-tags.net
 127.0.0.1 ads.telkomsel.com
-147.139.211.126 mercusuar.uzone.id
-147.139.211.126 block.uzone.id
-147.139.211.126 internetpositif.uzone.id
-147.139.211.126 v3.mercusuar.uzone.id
-147.139.211.126    36.86.63.185
+127.0.0.1 mercusuar.uzone.id
+127.0.0.1 block.uzone.id
+127.0.0.1 internetpositif.uzone.id
+127.0.0.1 v3.mercusuar.uzone.id
+127.0.0.1 internetpositif.id
 ### [Firstmedia]
 127.0.0.1 fm1.firstmedia.com
 ### [XL/Fiber/Liveon/Lite]
 127.0.0.1 ibnads.xl.co.id
 ### [Indosat/Hifi]
 127.0.0.1 ads.indosatooredoo.com
-147.139.211.126 netsafe.indosatm2.com
+127.0.0.1 netsafe.indosatm2.com
 ### [MyRepublic]
-147.139.211.126    158.140.186.3
-### [CBN]
-147.139.211.126    210.210.178.70
-### [Biznet Home/Metronet]
-147.139.211.126    202.169.44.80
+127.0.0.1 block.myrepublic.co.id
 
 # [CCStopper]
 # 127.0.0.1 52.22.41.97
@@ -27137,3 +27133,7 @@
 3.1.111.83 bybit.com
 23.48.107.74 www.bybit.com
 23.48.107.40 www.bybit.com
+
+# [simpcity.su]
+186.2.163.153 simpcity.su
+186.2.163.153 www.simpcity.su
