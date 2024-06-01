@@ -18,7 +18,7 @@ jobs:
       - name: Update Domainlist from Issue
         run: |
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
-          echo -e "$domain" >> domainlist
+          echo -e "$domain" >> dev/domainlist
           echo "Domain $domain added to domainlist."
       - name: Install Dependencies
         run: |
