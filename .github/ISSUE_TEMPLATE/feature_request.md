@@ -1,9 +1,10 @@
----
 name: Request Situs Baru
-about: Request situs baru untuk ditambahkan ke dalam daftar
+description: Request situs baru untuk ditambahkan ke dalam daftar
 title: '[REQ] example.com'
-labels: 'request, sites'
-assignees:
+labels: 
+  - request
+  - sites
+assignees: 
   - gvoze32
   - ryukora
 body:
