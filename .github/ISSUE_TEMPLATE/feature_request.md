@@ -1,13 +1,60 @@
 ---
 name: Request Situs Baru
-about: Request situs baru untuk ditambahkan
+about: Request situs baru untuk ditambahkan ke dalam daftar
 title: '[REQ] example.com'
 labels: 'request, sites'
-assignees: 'ryukora, gvoze32'
-
+assignees:
+  - gvoze32
+  - ryukora
+body:
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: Masukkan domain
+      placeholder: example.com
+    validations:
+      required: true
+  - type: textarea
+    id: alasan
+    attributes:
+      label: Alasan
+      description: Berikan Alasan
+    validations:
+      required: true
+  - type: input
+    id: isp
+    attributes:
+      label: ISP Apa yang anda gunakan
+      placeholder: Telkom, IndiHome, dll.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Sistem Operasi (OS)
+      description: Masukkan sistem operasi yang Anda gunakan.
+      placeholder: Windows 11, macOS, Debian Linux
+    validations:
+      required: true
+  - type: textarea
+    id: optional-comment
+    attributes:
+      label: Komentar
+  - type: checkboxes
+    id: validate
+    attributes:
+      label: Validasi
+      description: Dengan mengirimkan isu ini, Anda telah melihat dan memastikan bahwa domain yang Anda masukkan tidak ada di dalam daftar [domainlist](https://github.com/bebasid/bebasid/blob/main/dev/domainlist) dan berstatus "Ada" serta mempunyai keterangan "Blocked" pada [database blokir](https://trustpositif.kominfo.go.id/check).
+      options:
+        - label: Saya telah melihat dan memastikan bahwa domain yang saya masukkan tidak ada di dalam daftar domainlist
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Kode Etik
+      description: Dengan mengirimkan isu ini, Anda setuju untuk mengikuti [Kode Etik](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md)
+      options:
+        - label: Saya menyetujui untuk mengikuti Kode Etik proyek ini
+          required: true
 ---
-
-<!--
-Terima kasih telah melaporkan masalah!
-Pastikan website yang akan direquest belum tersedia pada daftar hosts
--->

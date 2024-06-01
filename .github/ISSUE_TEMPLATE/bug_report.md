@@ -19,5 +19,5 @@ Deskripsi yang jelas dan ringkas tentang apa yang terjadi.
 Jika ada, tambahkan ss untuk membantu menjelaskan mengenai bug.
 
 **Device**
- - OS: [cth. Windows 10, Mac OS X]
+ - OS: [cth. Windows 11, Mac OS X]
  - Browser [cth. Chrome, Firefox, Edge]
