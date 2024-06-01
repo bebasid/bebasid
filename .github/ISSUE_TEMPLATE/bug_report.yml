@@ -11,13 +11,13 @@ body:
     attributes:
       value: |
         Terima kasih telah melaporkan adanya masalah!
+        
         Pastikan website yang akan dilaporkan tidak terdapat duplikat issue.
   - type: input
     id: deskripsi
     attributes:
       label: Deskripsi mengenai bug
       description: Deskripsi jelas dan ringkas tentang apa yang terjadi.
-      placeholder: Masalah
     validations:
       required: true
   - type: textarea
@@ -25,7 +25,6 @@ body:
     attributes:
       label: Screenshot
       description: Jika ada, tambahkan screenshot untuk membantu menjelaskan mengenai bug.
-      placeholder: Screenshot
   - type: input
     id: os
     attributes:
