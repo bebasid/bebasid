@@ -49,7 +49,7 @@
 
 # Blokir Pelacak
 ## Kominfo Lamanlabuh:
-0.0.0.0 lamanlabuh.aduankonten.id
+103.87.68.198 lamanlabuh.aduankonten.id
 ## ISPs:
 ### [Telkomsel/Indihome]
 127.0.0.1 a01.uadexchange.com
@@ -22881,11 +22881,15 @@
 172.67.182.108 www.animepahe.com
 104.21.75.223 i.animepahe.com
 104.21.10.163 animepahe.ru
+172.67.140.95 i.animepahe.ru
+104.21.10.163 www.animepahe.ru
 ### IPv6
 2606:4700:3034::ac43:b66c animepahe.com
 2606:4700:3035::6815:4bdf www.animepahe.com
-2606:4700:3034::ac43:b66c i.animepahel.com
+2606:4700:3034::ac43:b66c i.animepahe.com
 2606:4700:3035::6815:aa3 animepahe.ru
+2606:4700:3030::ac43:8c5f i.animepahe.ru
+2606:4700:3035::6815:aa3 www.animepahe.ru
 
 # [coinbase.com]
 104.18.38.60 polygon-mumbai-infura.wallet.coinbase.com
