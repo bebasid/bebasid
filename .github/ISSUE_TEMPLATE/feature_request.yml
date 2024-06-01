@@ -21,6 +21,7 @@ body:
     attributes:
       label: Alasan
       description: Berikan Alasan
+      placeholder: Alasan
     validations:
       required: true
   - type: input
@@ -42,6 +43,7 @@ body:
     id: optional-comment
     attributes:
       label: Komentar
+      placeholder: Komentar
   - type: checkboxes
     id: validate
     attributes:
