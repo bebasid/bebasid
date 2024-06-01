@@ -1,4 +1,3 @@
----
 name: Request Situs Baru
 about: Request situs baru untuk ditambahkan ke dalam daftar
 title: '[REQ] example.com'
@@ -57,4 +56,3 @@ body:
       options:
         - label: Saya menyetujui untuk mengikuti Kode Etik proyek ini
           required: true
----
