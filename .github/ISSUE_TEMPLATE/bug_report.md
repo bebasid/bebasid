@@ -5,8 +5,6 @@ title: '[BUG] example.com'
 labels: 'bug, sites'
 assignees: 'ryukora'
 
----
-
 <!--
 Terima kasih telah melaporkan masalah!
 Pastikan website yang akan dilaporkan tidak terdapat duplikat atau belum dibuka issue oleh pengguna lain

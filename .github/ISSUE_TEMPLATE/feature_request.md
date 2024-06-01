@@ -1,3 +1,4 @@
+---
 name: Request Situs Baru
 about: Request situs baru untuk ditambahkan ke dalam daftar
 title: '[REQ] example.com'
