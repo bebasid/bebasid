@@ -14473,21 +14473,6 @@
 204.44.192.54 www.zone-archive.com
 204.44.192.54 zone-archive.com
 
-# [bybit.com]
-23.54.18.161 api2.bybit.com
-13.224.2.33 ws2.bybit.com
-220.242.169.190 static.bybit.com
-23.54.18.161 affiliate.bybit.com
-23.54.18.194 api.bybit.com
-23.54.18.194 app-api.bybit.com
-220.242.169.190 chat.bybit.com
-23.54.18.194 testnet.bybit.com
-23.54.18.194 api2-testnet.bybit.com
-220.242.169.190 static-testnet.bybit.com
-23.54.18.161 www.bybit.com
-107.178.254.45 explore.bybit.com
-104.16.51.111 help.bybit.com
-
 # [akiba-online.com]
 111.90.150.229 akiba-online.com
 91.208.184.151 www.akiba-online.com
