@@ -23766,3 +23766,22 @@
 104.18.33.108 www.kucoin.com
 104.18.33.108 m.kucoin.com
 108.156.120.48 kucoin.com
+
+# [coinex.com]
+104.18.32.67 download.wallet.coinex.com
+104.16.53.111 support.wallet.coinex.com
+172.64.155.189 static.wallet.coinex.com
+104.16.53.111 announcement.coinex.com
+64.31.23.250 sol.wallet.coinex.com
+172.64.155.189 api.wallet.coinex.com
+104.18.32.67 perpetual.coinex.com
+104.18.32.67 explorer.coinex.com
+104.18.248.37 support.coinex.com
+104.18.32.67 socket.coinex.com
+172.64.155.189 wallet.coinex.com
+172.64.155.189 vault.coinex.com
+172.64.155.189 quant.coinex.com
+172.64.155.189 docs.coinex.com
+104.18.32.67 www.coinex.com
+104.18.32.67 api.coinex.com
+104.18.32.67 coinex.com
