@@ -67,21 +67,3 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.UPDATE_TOKEN }}
-      - name: Create commit comment
-        uses: peter-evans/commit-comment@v3
-        env:
-          GITHUB_EVENT_PATH: ${{ github.event_path }}
-        with:
-          body: |
-            Issue #${{ github.event.issue.number }} requested by @${{ github.event.issue.user.login }} has been solved.
-            
-            Domain: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
-            
-            Reason: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '7p')
-            
-            ISP: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '11p')
-            
-            OS: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '15p')
-            
-            Comment: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '19p')
-          reactions: '+1'
