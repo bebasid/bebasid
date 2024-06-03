@@ -54,13 +54,42 @@ jobs:
         run: |
           cat hosts-hasilsorted | sudo tee -a releases/hosts > /dev/null
       - name: Commit changes
+        env:
+          issue_number: ${{ github.event.issue.number }}
+          issue_user: ${{ github.event.issue.user.login }}
         run: |
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           git add releases/hosts dev/domainlist
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
-          git commit -m "Add $domain to domainlist and hosts"
+          git commit -m "Add $domain to hosts (Issue #$issue_number requested by @$issue_user)"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.UPDATE_TOKEN }}
+      - name: Create commit comment
+        uses: peter-evans/commit-comment@v3
+        env:
+          issue_number: ${{ github.event.issue.number }}
+          issue_user: ${{ github.event.issue.user.login }}
+          issue_body: ${{ github.event.issue.body }}
+        with:
+          body: |
+            domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
+            alasan=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '7p')
+            isp=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '11p')
+            os=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '15p')
+            comment=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '19p')
+
+            Issue #$issue_number requested by @$issue_user has been solved.
+            
+            Domain: $domain
+
+            Reason: $alasan
+            
+            ISP: $isp
+            
+            OS: $os
+            
+            Comment: $comment"
+          reactions: '+1'
