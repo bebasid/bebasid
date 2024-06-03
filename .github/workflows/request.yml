@@ -70,26 +70,18 @@ jobs:
       - name: Create commit comment
         uses: peter-evans/commit-comment@v3
         env:
-          issue_number: ${{ github.event.issue.number }}
-          issue_user: ${{ github.event.issue.user.login }}
-          issue_body: ${{ github.event.issue.body }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
         with:
           body: |
-            domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
-            alasan=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '7p')
-            isp=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '11p')
-            os=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '15p')
-            comment=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '19p')
-
-            Issue #$issue_number requested by @$issue_user has been solved.
+            Issue #${{ github.event.issue.number }} requested by @${{ github.event.issue.user.login }} has been solved.
             
-            Domain: $domain
-
-            Reason: $alasan
+            Domain: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
             
-            ISP: $isp
+            Reason: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '7p')
             
-            OS: $os
+            ISP: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '11p')
             
-            Comment: $comment"
+            OS: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '15p')
+            
+            Comment: $(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '19p')
           reactions: '+1'
