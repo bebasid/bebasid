@@ -23777,3 +23777,7 @@
 # [yts.mx]
 104.31.16.120 img.yts.mx
 104.31.16.120 yts.mx
+
+# [termux.net]
+104.21.33.123 bootstrap.termux.net
+104.21.33.123 termux.net
