@@ -38,7 +38,7 @@ body:
       placeholder: Windows 11, macOS, Debian Linux
     validations:
       required: true
- - type: input
+  - type: input
     id: browser
     attributes:
       label: Browser
