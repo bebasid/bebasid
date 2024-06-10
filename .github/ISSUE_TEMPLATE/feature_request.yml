@@ -16,13 +16,18 @@ body:
       placeholder: example.com
     validations:
       required: true
-  - type: textarea
-    id: alasan
+  - type: input
+    id: deskripsi
     attributes:
       label: Alasan
       description: Berikan Alasan
     validations:
       required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot / Tambah deskripsi
+      description: Jika ada, tambahkan screenshot atau deskripsi.
   - type: input
     id: isp
     attributes:
