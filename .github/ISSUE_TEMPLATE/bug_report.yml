@@ -56,3 +56,7 @@ body:
       placeholder: Chrome, Firefox, Edge
     validations:
       required: true
+  - type: textarea
+    id: optional-comment
+    attributes:
+      label: Komentar
