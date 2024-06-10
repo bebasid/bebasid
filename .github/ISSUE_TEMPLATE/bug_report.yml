@@ -14,9 +14,17 @@ body:
         
         Pastikan website yang akan dilaporkan tidak terdapat duplikat issue.
   - type: input
+    id: domainataulain
+    attributes:
+      label: Domain atau lain
+      description: Masukkan domain atau lain
+      placeholder: example.com, ...
+    validations:
+      required: true
+  - type: input
     id: deskripsi
     attributes:
-      label: Deskripsi mengenai bug
+      label: Alasan / Deskripsi mengenai bug
       description: Deskripsi jelas dan ringkas tentang apa yang terjadi.
     validations:
       required: true
@@ -25,6 +33,13 @@ body:
     attributes:
       label: Screenshot
       description: Jika ada, tambahkan screenshot untuk membantu menjelaskan mengenai bug.
+  - type: input
+    id: isp
+    attributes:
+      label: ISP Apa yang anda gunakan
+      placeholder: Telkom, IndiHome, dll.
+    validations:
+      required: true
   - type: input
     id: os
     attributes:
