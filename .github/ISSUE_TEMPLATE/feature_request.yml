@@ -38,6 +38,14 @@ body:
       placeholder: Windows 11, macOS, Debian Linux
     validations:
       required: true
+ - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Masukkan browser yang Anda gunakan.
+      placeholder: Chrome, Firefox, Edge
+    validations:
+      required: true
   - type: textarea
     id: optional-comment
     attributes:
