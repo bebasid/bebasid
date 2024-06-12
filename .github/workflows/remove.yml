@@ -1,0 +1,38 @@
+name: Remove Issue Solver
+on:
+  issues:
+    types:
+      - labeled
+jobs:
+  domain_removal:
+    if: github.event.label.name == 'remove'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: Terima kasih atas kontribusi Anda, permintaan penghapusan domain Anda akan diterapkan pada siklus update selanjutnya.
+      - name: Remove Domain from hosts
+        run: |
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
+          sed "/$domain/d" releases/hosts > releases/hosts.tmp
+          echo "Domain $domain removed from hosts."
+      - name: Remove Domain from domainlist
+        run: |
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
+          sed -i "/$domain/d" dev/domainlist
+          echo "Domain $domain removed from domainlist."
+      - name: Commit changes
+        run: |
+          git config --global user.email "gvoze32@yahoo.com"
+          git config --global user.name "zksbot"
+          git add releases/hosts dev/domainlist
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
+          git commit -m "Remove $domain from domainlist"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.UPDATE_TOKEN }}

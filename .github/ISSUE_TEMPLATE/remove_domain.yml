@@ -1,0 +1,70 @@
+name: Penghapusan Domain
+description: Minta penghapusan situs.
+title: '[BUG] example.com'
+labels: 
+  - sites
+assignees: 
+  - gvoze32
+  - ryukora
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih telah melaporkan adanya masalah!
+        
+        Pastikan website yang akan dilaporkan tidak terdapat duplikat issue.
+  - type: input
+    id: domainataulain
+    attributes:
+      label: Domain atau lain
+      description: Masukkan domain atau lain
+      placeholder: example.com, ...
+    validations:
+      required: true
+  - type: input
+    id: deskripsi
+    attributes:
+      label: Alasan / Deskripsi mengenai website
+      description: Deskripsi jelas dan ringkas tentang apa yang terjadi.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Jika ada, tambahkan screenshot untuk membantu menjelaskan mengenai masalah website.
+  - type: input
+    id: isp
+    attributes:
+      label: ISP Apa yang anda gunakan
+      placeholder: Telkom, IndiHome, dll.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Sistem Operasi (OS)
+      description: Masukkan sistem operasi yang Anda gunakan.
+      placeholder: Windows 11, macOS, Debian Linux
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Masukkan browser yang Anda gunakan.
+      placeholder: Chrome, Firefox, Edge
+    validations:
+      required: true
+  - type: textarea
+    id: optional-comment
+    attributes:
+      label: Komentar
+  - type: checkboxes
+    id: validate
+    attributes:
+      label: Validasi
+      description: Dengan mengirimkan isu ini, Anda telah melihat dan memastikan bahwa domain yang Anda masukkan berstatus "Tidak Ada" pada [database blokir](https://trustpositif.kominfo.go.id/check).
+      options:
+        - label: Saya telah melihat dan memastikan bahwa domain yang saya masukkan ada di dalam daftar domainlist
+          required: true
