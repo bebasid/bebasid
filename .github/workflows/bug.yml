@@ -58,13 +58,10 @@ jobs:
         run: |
           remove_adjacent_empty_lines() {
               local file_path="$1"
-              local temp_file=$(mktemp)
-
-              awk 'NF || !p {print} {p = !NF}' "$file_path" > "$temp_file"
-              mv "$temp_file" "$file_path"
+              awk 'BEGIN { prev_blank=0 } { if ($0 ~ /^$/) { if (prev_blank == 0) print; prev_blank=1 } else { print; prev_blank=0 } }' "$file_path" > temp && mv temp "$file_path"
           }
 
-          file_path='releases/hosts'
+          file_path='hosts'
           remove_adjacent_empty_lines "$file_path"
       - name: Commit changes
         env:
