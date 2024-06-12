@@ -61,7 +61,7 @@ jobs:
               awk 'BEGIN { prev_blank=0 } { if ($0 ~ /^$/) { if (prev_blank == 0) print; prev_blank=1 } else { print; prev_blank=0 } }' "$file_path" > temp && mv temp "$file_path"
           }
 
-          file_path='hosts'
+          file_path='releases/hosts'
           remove_adjacent_empty_lines "$file_path"
       - name: Commit changes
         env:
