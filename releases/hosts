@@ -23690,9 +23690,6 @@
 186.2.163.153 simpcity.su
 186.2.163.153 www.simpcity.su
 
-# [spicymags.xyz]
-37.221.67.110 www.spicymags.xyz
-107.189.1.4 spicymags.xyz
 
 # [cliphunter.com]
 172.67.155.249 scluster2.cliphunter.com
@@ -24021,3 +24018,7 @@
 
 # [streamed.su]
 104.21.12.61 streamed.su
+
+# [spicymags.xyz]
+178.17.171.122 www.spicymags.xyz
+37.221.67.110 spicymags.xyz
