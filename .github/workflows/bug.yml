@@ -1,11 +1,11 @@
-name: Request Issue Solver
+name: Bug Solver
 on:
   issues:
     types:
       - labeled
 jobs:
-  scan_domains_request:
-    if: github.event.label.name == 'solve-request'
+  bug_solver:
+    if: github.event.label.name == 'solve-bug'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -14,12 +14,13 @@ jobs:
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
-          comment: Terima kasih atas kontribusi Anda, permintaan penambahan domain Anda akan segera diterapkan.
-      - name: Update Domainlist from Issue
+          comment: Terima kasih atas kontribusi Anda, permintaan koreksi domain Anda akan segera diterapkan.
+      - name: Remove Domain
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
-          echo -e "$domain" >> dev/domainlist
-          echo "Domain $domain added to domainlist."
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
+          sed "/$domain/d" releases/hosts > releases/hosts.tmp
+          rm releases/hosts
+          mv releases/hosts.tmp releases/hosts
       - name: Install Dependencies
         run: |
           sudo apt-get update
@@ -32,7 +33,7 @@ jobs:
           echo "INSTALLATION DONE - ALL SET"
       - name: Run Findomain
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
           findomain -t $domain -u hasilunsorted
       - name: Sort Subdomains
         run: |
@@ -53,16 +54,25 @@ jobs:
       - name: Release hosts
         run: |
           cat hosts-hasilsorted | sudo tee -a releases/hosts > /dev/null
+      - name: Remove Adjacent Empty Lines
+        run: |
+          remove_adjacent_empty_lines() {
+              local file_path="$1"
+              local temp_file=$(mktemp)
+
+              awk 'NF || !p {print} {p = !NF}' "$file_path" > "$temp_file"
+              mv "$temp_file" "$file_path"
+          }
+
+          file_path='releases/hosts'
+          remove_adjacent_empty_lines "$file_path"
       - name: Commit changes
-        env:
-          issue_number: ${{ github.event.issue.number }}
-          issue_user: ${{ github.event.issue.user.login }}
         run: |
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
-          git add releases/hosts dev/domainlist
+          git add releases/hosts
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
-          git commit -m "Add $domain to hosts (Issue #$issue_number requested by @$issue_user)"
+          git commit -m "Fix $domain bug (Issue #$issue_number requested by @$issue_user)"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
