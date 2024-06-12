@@ -19,8 +19,7 @@ jobs:
         run: |
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
           sed "/$domain/d" releases/hosts > releases/hosts.tmp
-          rm releases/hosts
-          mv releases/hosts.tmp releases/hosts
+          awk 'BEGIN{RS=""; ORS="\n\n"} {gsub(/\n\n+/, "\n"); print}' releases/hosts.tmp > releases/hosts
       - name: Install Dependencies
         run: |
           sudo apt-get update
@@ -54,15 +53,6 @@ jobs:
       - name: Release hosts
         run: |
           cat hosts-hasilsorted | sudo tee -a releases/hosts > /dev/null
-      - name: Remove Adjacent Empty Lines
-        run: |
-          remove_adjacent_empty_lines() {
-              local file_path="$1"
-              awk 'BEGIN { prev_blank=0 } { if ($0 ~ /^$/) { if (prev_blank == 0) print; prev_blank=1 } else { print; prev_blank=0 } }' "$file_path" > temp && mv temp "$file_path"
-          }
-
-          file_path='releases/hosts'
-          remove_adjacent_empty_lines "$file_path"
       - name: Commit changes
         env:
           issue_number: ${{ github.event.issue.number }}
