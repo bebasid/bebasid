@@ -67,6 +67,9 @@ jobs:
           file_path='releases/hosts'
           remove_adjacent_empty_lines "$file_path"
       - name: Commit changes
+        env:
+          issue_number: ${{ github.event.issue.number }}
+          issue_user: ${{ github.event.issue.user.login }}
         run: |
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
