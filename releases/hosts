@@ -11234,11 +11234,6 @@
 172.67.207.58 sxyprn.com
 172.67.207.58 www.sxyprn.com
 
-# [hentainexus.com]
-104.31.73.80 hentainexus.com
-104.31.73.80 www.hentainexus.com
-104.31.73.80 images.hentainexus.com
-104.31.73.80 dl.hentainexus.com
 
 # [betradar.com]
 3.121.0.67 betradar.com
@@ -24021,3 +24016,12 @@
 # [spicymags.xyz]
 37.221.67.110 www.spicymags.xyz
 37.221.67.110 spicymags.xyz
+
+
+
+# [hentainexus.com]
+45.43.208.21 webmail.hentainexus.com
+172.67.133.134 images.hentainexus.com
+45.43.208.21 mail.hentainexus.com
+104.21.5.154 www.hentainexus.com
+172.67.133.134 hentainexus.com
