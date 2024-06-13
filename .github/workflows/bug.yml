@@ -19,7 +19,7 @@ jobs:
         run: |
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
           sed "/$domain/d" releases/hosts > releases/hosts.tmp
-          awk 'BEGIN{RS=""; ORS="\n\n"} {gsub(/\n\n+/, "\n"); print}' releases/hosts.tmp > releases/hosts
+          sed ':a;N;$!ba;s/\n\n/\n/g' releases/hosts.tmp > releases/hosts
       - name: Install Dependencies
         run: |
           sudo apt-get update
