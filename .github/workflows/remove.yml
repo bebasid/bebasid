@@ -19,13 +19,15 @@ jobs:
         run: |
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
           sed "/$domain/d" releases/hosts > releases/hosts.tmp
-          sed ':a;N;$!ba;s/\n\n/\n/g' releases/hosts.tmp > releases/hosts
           echo "Domain $domain removed from hosts."
       - name: Remove Domain from domainlist
         run: |
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
           sed -i "/$domain/d" dev/domainlist
           echo "Domain $domain removed from domainlist."
+      - name: Rerelease hosts
+        run: |
+          sed ':a;N;$!ba;s/\n\n/\n/g' releases/hosts.tmp > releases/hosts
       - name: Commit changes
         run: |
           git config --global user.email "gvoze32@yahoo.com"
