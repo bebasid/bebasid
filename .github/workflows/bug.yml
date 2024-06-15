@@ -19,7 +19,6 @@ jobs:
         run: |
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
           sed "/$domain/d" releases/hosts > releases/hosts.tmp
-          sed ':a;N;$!ba;s/\n\n/\n/g' releases/hosts.tmp > releases/hosts
       - name: Install Dependencies
         run: |
           sudo apt-get update
@@ -53,6 +52,10 @@ jobs:
       - name: Release hosts
         run: |
           cat hosts-hasilsorted | sudo tee -a releases/hosts > /dev/null
+      - name: Rerelease hosts
+        run: |
+          sed ':a;N;$!ba;s/\n\n/\n/g' releases/hosts > releases/hosts.tmp
+          mv releases/hosts.tmp releases/hosts
       - name: Commit changes
         env:
           issue_number: ${{ github.event.issue.number }}
