@@ -92,13 +92,18 @@ Anda dapat menggunakan [aplikasi skrip batch BebasID](https://github.com/bebasid
 ![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
 
 ### Metode Lain
-**BebasID Source (Kode Sumber):**
+#### **BebasID Source (Kode Sumber):**
 Jika Anda membutuhkan kode sumber BebasID (GUI), silakan kunjungi repo [BebasID-source](https://github.com/bebasid/bebasid-src).
 
-**BebasDNS / BebasID DNS:**
+#### **BebasHosts Portable:**
+BebasHosts adalah penulisan ulang (*rewrite*) dari aplikasi BebasID untuk mengatur hosts file. Anda dapat menggunakan [aplikasi BebasHosts](https://github.com/bebasid/bebasid/raw/master/releases/BebasHosts%20Portable.zip) dengan 2 fungsi utama, yaitu:
+1. `.Host-Update.bat` digunakan untuk memodifikasi hosts file Anda dengan file hosts dari BebasID.
+2. `.Host-Reset.bat` digunakan untuk mengembalikan hosts file Anda ke kondisi default dari Windows.
+
+#### **BebasDNS / BebasID DNS:**
 Jika hosts ini tidak cocok untuk Anda, dan Anda ingin menggunakan versi DNS atau DoH/DoT, silakan kunjungi repo [BebasDNS](https://github.com/bebasid/bebasdns).
 
-**Pengguna Lainnya:**
+#### **Pengguna Lainnya:**
 Untuk panduan penggunaan lainnya, silakan kunjungi [PENGGUNAAN LAINNYA](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.md) jika Anda memahami pemakaian tersebut.
 
 ## Berkontribusi, Pertanyaan, atau Permintaan
