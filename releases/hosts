@@ -4603,7 +4603,6 @@
 52.196.74.174 lb.support.dmm.co.jp
 35.190.2.83 api.beacon.dmm.co.jp
 13.111.97.132 mta7.mk-ma.dmm.co.jp
-127.0.0.1 local.mono.dmm.co.jp
 18.239.208.26 dev.review.dmm.co.jp
 18.239.18.94 ikinukitei.dmm.co.jp
 13.111.97.133 mta8.mk-ma.dmm.co.jp
@@ -4632,7 +4631,6 @@
 35.76.76.90 voc.admin.dmm.co.jp
 13.111.88.130 mta.mk-ma.dmm.co.jp
 124.35.5.136 sp.194964.dmm.co.jp
-127.0.0.1 localhost.dmm.co.jp
 13.112.112.54 gamesshop.dmm.co.jp
 18.239.69.93 dev.games.dmm.co.jp
 54.150.28.62 crm.admin.dmm.co.jp
@@ -22396,7 +22394,6 @@
 # [hurawatch.bz]
 172.67.166.40 static.hurawatch.bz
 104.21.11.142 dev2.hurawatch.bz
-127.0.0.1 dev.hurawatch.bz
 104.21.11.142 img.hurawatch.bz
 172.67.166.40 hurawatch.bz
 
@@ -23210,85 +23207,37 @@
 66.254.114.41 m.pornhub.com
 66.254.114.41 pornhub.com
 
-
-# [hv-h.phncdn.com]
+# [phncdn.com]
 104.18.54.111 hv-h.phncdn.com
-
-# [im-h.phncdn.com]
 143.244.51.9 im-h.phncdn.com
-
-# [hm-h.phncdn.com]
 104.18.54.111 hm-h.phncdn.com
-
-# [iv-h.phncdn.com]
 143.244.51.206 iv-h.phncdn.com
-
-# [pix-cf.phncdn.com]
 104.18.49.67 pix-cf.phncdn.com
-
-# [mux-cf.phncdn.com]
 104.18.54.111 mux-cf.phncdn.com
-
-# [iv-h-tz.phncdn.com]
 143.244.51.206 iv-h-tz.phncdn.com
-
-# [im-h-tz.phncdn.com]
 143.244.51.8 im-h-tz.phncdn.com
-
-# [pix-cdn77.phncdn.com]
 143.244.51.8 pix-cdn77.phncdn.com
-
-# [mux-cdn77.phncdn.com]
 143.244.51.9 mux-cdn77.phncdn.com
 
-# [cns2.highwebmedia.com]
+# [highwebmedia.com]
 162.159.9.109 cns2.highwebmedia.com
-
-# [cns1.highwebmedia.com]
 162.159.8.207 cns1.highwebmedia.com
-
-# [emote.highwebmedia.com]
 104.16.94.42 emote.highwebmedia.com
-
-# [appdisqus.highwebmedia.com]
 104.16.94.42 appdisqus.highwebmedia.com
-
-# [report-uri.highwebmedia.com]
 104.16.94.42 report-uri.highwebmedia.com
-
-# [static-pub.highwebmedia.com]
 104.16.94.42 static-pub.highwebmedia.com
-
-# [static-assets.highwebmedia.com]
 104.16.94.42 static-assets.highwebmedia.com
-
-# [roomimg.stream.highwebmedia.com]
 104.18.176.38 roomimg.stream.highwebmedia.com
 
 # [xvideos-cdn.com]
-127.0.0.1 proxy-vid-cloudflare-non-sni.xvideos-cdn.com
 156.146.53.12 profile-pics-cdn77.xvideos-cdn.com
 156.146.53.12 cdn77-vid-mp4.xvideos-cdn.com
 143.244.51.2 static-cdn77.xvideos-cdn.com
-127.0.0.1 static-can77.xvideos-cdn.com
 94.176.183.62 gcore-vid.xvideos-cdn.com
 94.176.183.62 gcore-pic.xvideos-cdn.com
 156.146.53.13 cdn77-pic.xvideos-cdn.com
 143.244.51.203 cdn77-vid.xvideos-cdn.com
-127.0.0.1 hls10-cf.xvideos-cdn.com
-127.0.0.1 hls5-cf.xvideos-cdn.com
-127.0.0.1 hls1-cf.xvideos-cdn.com
-127.0.0.1 hls6-cf.xvideos-cdn.com
-127.0.0.1 hls3-cf.xvideos-cdn.com
-127.0.0.1 hls9-cf.xvideos-cdn.com
-127.0.0.1 hls2-cf.xvideos-cdn.com
-127.0.0.1 hls7-cf.xvideos-cdn.com
-127.0.0.1 hls4-cf.xvideos-cdn.com
-127.0.0.1 hls8-cf.xvideos-cdn.com
 156.146.53.13 img-cf.xvideos-cdn.com
-127.0.0.1 vid-cf.xvideos-cdn.com
-127.0.0.1 hls-cf.xvideos-cdn.com
-127.0.0.1 xvideos-cdn.com
 
 # [xnxx-cdn.com]
 156.146.36.6 profile-pics-cdn77.xnxx-cdn.com
@@ -23297,21 +23246,7 @@
 109.61.91.251 cdn77-vid.xnxx-cdn.com
 156.146.36.5 cdn77-pic.xnxx-cdn.com
 94.176.183.62 gcore-pic.xnxx-cdn.com
-127.0.0.1 hls10-cf.xnxx-cdn.com
-127.0.0.1 hls6-cf.xnxx-cdn.com
-127.0.0.1 hls2-cf.xnxx-cdn.com
-127.0.0.1 hls5-cf.xnxx-cdn.com
-127.0.0.1 hls9-cf.xnxx-cdn.com
-127.0.0.1 hls3-cf.xnxx-cdn.com
-127.0.0.1 hls1-cf.xnxx-cdn.com
-127.0.0.1 hls7-cf.xnxx-cdn.com
-127.0.0.1 hls8-cf.xnxx-cdn.com
-127.0.0.1 hls4-cf.xnxx-cdn.com
-127.0.0.1 hls-cf.xnxx-cdn.com
 156.146.36.5 img-cf.xnxx-cdn.com
-127.0.0.1 vid-cf.xnxx-cdn.com
-127.0.0.1 andaz.xnxx-cdn.com
-127.0.0.1 xnxx-cdn.com
 
 # [motherlessmedia.com]
 185.107.81.233 cdn4.avatars.motherlessmedia.com
