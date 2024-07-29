@@ -56,13 +56,13 @@ jobs:
       - name: Commit changes
         env:
           issue_number: ${{ github.event.issue.number }}
-          issue_user: ${{ github.event.issue.user.login }}
+          # issue_user: ${{ github.event.issue.user.login }}
         run: |
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           git add releases/hosts dev/domainlist
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
-          git commit -m "Add $domain to hosts (Issue #$issue_number requested by @$issue_user)"
+          git commit -m "Add $domain to hosts (#$issue_number)"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
