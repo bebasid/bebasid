@@ -23240,3 +23240,27 @@
 
 # [mux-cdn77.phncdn.com]
 143.244.51.9 mux-cdn77.phncdn.com
+
+# [cns2.highwebmedia.com]
+162.159.9.109 cns2.highwebmedia.com
+
+# [cns1.highwebmedia.com]
+162.159.8.207 cns1.highwebmedia.com
+
+# [emote.highwebmedia.com]
+104.16.94.42 emote.highwebmedia.com
+
+# [appdisqus.highwebmedia.com]
+104.16.94.42 appdisqus.highwebmedia.com
+
+# [report-uri.highwebmedia.com]
+104.16.94.42 report-uri.highwebmedia.com
+
+# [static-pub.highwebmedia.com]
+104.16.94.42 static-pub.highwebmedia.com
+
+# [static-assets.highwebmedia.com]
+104.16.94.42 static-assets.highwebmedia.com
+
+# [roomimg.stream.highwebmedia.com]
+104.18.176.38 roomimg.stream.highwebmedia.com
