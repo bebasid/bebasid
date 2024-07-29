@@ -23312,3 +23312,17 @@
 127.0.0.1 vid-cf.xnxx-cdn.com
 127.0.0.1 andaz.xnxx-cdn.com
 127.0.0.1 xnxx-cdn.com
+
+# [motherlessmedia.com]
+185.107.81.233 cdn4.avatars.motherlessmedia.com
+104.21.235.197 cdn5-static.motherlessmedia.com
+185.107.92.224 cdn5-thumbs.motherlessmedia.com
+185.107.81.233 cdn4.thumbs.motherlessmedia.com
+185.107.92.224 cdn5-videos.motherlessmedia.com
+185.107.81.233 cdn4.images.motherlessmedia.com
+185.107.81.233 cdn4.videos.motherlessmedia.com
+185.107.92.224 cdn5-images.motherlessmedia.com
+198.72.6.51 avatars.motherlessmedia.com
+185.107.81.233 cdn4.motherlessmedia.com
+185.107.92.224 cdn5.motherlessmedia.com
+185.107.81.233 motherlessmedia.com
