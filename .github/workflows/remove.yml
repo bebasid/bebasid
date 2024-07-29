@@ -29,12 +29,14 @@ jobs:
         run: |
           sed ':a;N;$!ba;s/\n\n/\n/g' releases/hosts.tmp > releases/hosts
       - name: Commit changes
+        env:
+          issue_number: ${{ github.event.issue.number }}
         run: |
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           git add releases/hosts dev/domainlist
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
-          git commit -m "Remove $domain from domainlist"
+          git commit -m "Remove $domain from domainlist (#$issue_number)"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
