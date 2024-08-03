@@ -1,6 +1,6 @@
 name: Penghapusan Domain
 description: Minta penghapusan situs.
-title: '[BUG] example.com'
+title: '[REM] example.com'
 labels: 
   - sites
 assignees: 
