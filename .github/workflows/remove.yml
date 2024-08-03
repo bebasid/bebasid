@@ -5,7 +5,7 @@ on:
       - labeled
 jobs:
   domain_removal:
-    if: github.event.label.name == 'remove'
+    if: github.event.label.name == 'solve-remove'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
