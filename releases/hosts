@@ -49,7 +49,7 @@
 
 # Blokir Pelacak
 ## Kominfo Lamanlabuh:
-20.243.120.225 lamanlabuh.aduankonten.id
+103.87.68.198 lamanlabuh.aduankonten.id
 ## ISPs:
 ### [Telkomsel/Indihome]
 127.0.0.1 a01.uadexchange.com
@@ -22070,7 +22070,17 @@
 209.222.114.105 d.hypixel.net
 209.222.114.122 p.hypixel.net
 209.222.114.86 c.hypixel.net
+2606:4700::6812:8811 www.hypixel.net
+2606:4700::6812:8811 hypixel.net
 104.17.17.42 hypixel.net
+209.222.115.125 mc.hypixel.net
+209.222.115.78 mc.hypixel.net
+209.222.115.96 mc.hypixel.net
+209.222.115.83 mc.hypixel.net
+209.222.115.88 mc.hypixel.net
+209.222.115.130 mc.hypixel.net
+209.222.115.126 mc.hypixel.net
+209.222.115.123 mc.hypixel.net
 
 # [rlsbb.ru]
 172.67.189.6 wordpress.rlsbb.ru
