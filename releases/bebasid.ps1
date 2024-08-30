@@ -25,6 +25,10 @@ try {
     Write-Host 'DNS cache flushed.'
 
     Write-Host 'Process completed successfully.'
+    Write-Host ''
+    Write-Host 'bebasid install/update completed successfully.'
+    Write-Host ''
+
     pause
 } catch {
     Write-Host 'An error occurred: ' + $_.Exception.Message -ForegroundColor Red
