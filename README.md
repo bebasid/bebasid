@@ -64,9 +64,9 @@ Dimulai dari **Rp. 50.000,00**.
 ## Daftar Isi
 - [Daftar Isi](#daftar-isi)
 - [BebasID](#bebasid)
-    - [Antarmuka Pengguna Grafis (GUI)](#antarmuka-pengguna-grafis-gui)
-    - [Antarmuka Pengguna Terminal (TUI)](#antarmuka-pengguna-terminal-tui)
-    - [Antarmuka Baris Perintah (CLI)](#antarmuka-baris-perintah-cli)
+    - [Windows](#windows)
+    - [Linux](#linux)
+    - [macOS](#macos)
   - [Metode Lain](#metode-lain)
 - [Berkontribusi, Pertanyaan, atau Permintaan](#berkontribusi-pertanyaan-atau-permintaan)
   - [Pemberitahuan tentang DPI](#pemberitahuan-tentang-dpi)
@@ -76,30 +76,64 @@ Dimulai dari **Rp. 50.000,00**.
 ## BebasID
 Dengan BebasID, anda dapat membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
 
-#### Antarmuka Pengguna Grafis (GUI)
+### Windows
+#### Antarmuka Pengguna Grafis (GUI) - Sedang Perbaikan
+<!---
 Anda dapat menggunakan [aplikasi BebasID](https://github.com/bebasid/bebasid/releases/tag/v1.1) untuk menginstal hosts BebasID.
 
 ![bebasid.exe dijalankan di Windows 10](https://i.imgur.com/Bcq0rgm.png)
 
-#### Antarmuka Pengguna Terminal (TUI)
-Anda dapat mencoba [aplikasi BebasIN](https://github.com/mochidaz/bebasin) yang sedang dalam pengembangan.
+Jika Anda membutuhkan kode sumber BebasID (GUI), silakan kunjungi repo [BebasID-src](https://github.com/bebasid/bebasid-src).
+-->
+*Informasi status perbaikan: [BebasID-src](https://github.com/bebasid/bebasid-src)*
 
-![Bebasin di Linux](https://i.imgur.com/qwHji4w.png)
+#### PowerShell - Direkomendasikan
+```
+Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.ps1 | iex`"" -Verb RunAs -Wait
+```
 
-#### Antarmuka Baris Perintah (CLI)
-Anda dapat menggunakan [aplikasi skrip batch BebasID](https://github.com/bebasid/bebasid/releases/tag/v1.1).
-
-![bebasid.bat dijalankan di Windows 10](https://i.imgur.com/CrnySId.png)
-
-### Metode Lain
-#### **BebasID Source (Kode Sumber):**
-Jika Anda membutuhkan kode sumber BebasID (GUI), silakan kunjungi repo [BebasID-source](https://github.com/bebasid/bebasid-src).
-
-#### **BebasHosts Portable:**
+#### BebasHosts Portable
 BebasHosts adalah penulisan ulang (*rewrite*) dari aplikasi BebasID untuk mengatur hosts file. Anda dapat menggunakan [aplikasi BebasHosts](https://github.com/bebasid/bebasid/raw/master/releases/BebasHosts%20Portable.zip) dengan 2 fungsi utama, yaitu:
 1. `.Host-Update.bat` digunakan untuk memodifikasi hosts file Anda dengan file hosts dari BebasID.
 2. `.Host-Reset.bat` digunakan untuk mengembalikan hosts file Anda ke kondisi default dari Windows.
 
+### Linux
+#### BebasID Shell
+Pasang
+```
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -O /usr/local/bin/bebasid && sudo chmod +x /usr/local/bin/bebasid
+```
+Bantuan
+```
+bebasid --help
+```
+
+#### Hanya Pasang
+```
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
+```
+
+### macOS
+#### BebasID Shell
+Pasang
+```
+sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -o /usr/local/bin/bebasid && sudo chmod +x /usr/local/bin/bebasid
+```
+
+Bantuan
+```
+bebasid --help
+```
+
+#### Hanya Pasang
+```
+sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
+```
+
+### Lintas anjungan
+[SwitchHosts](https://github.com/oldj/SwitchHosts) - Aplikasi untuk manajemen & pengalihan host.
+
+### Metode Lain
 #### **BebasDNS / BebasID DNS:**
 Jika hosts ini tidak cocok untuk Anda, dan Anda ingin menggunakan versi DNS atau DoH/DoT, silakan kunjungi repo [BebasDNS](https://github.com/bebasid/bebasdns).
 
