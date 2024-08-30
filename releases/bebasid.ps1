@@ -1,15 +1,3 @@
-function Test-Admin {
-    $currentIdentity = [System.Security.Principal.WindowsIdentity]::GetCurrent()
-    $principal = New-Object System.Security.Principal.WindowsPrincipal($currentIdentity)
-    return $principal.IsInRole([System.Security.Principal.WindowsBuiltinRole]::Administrator)
-}
-
-if (-not (Test-Admin)) {
-    $arguments = $args -join ' '
-    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`" $arguments" -Verb RunAs
-    exit
-}
-
 $url = 'https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts'
 $tempPath = "$env:TEMP\hosts"
 $destPath = 'C:\Windows\System32\drivers\etc\hosts'
