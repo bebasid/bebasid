@@ -1,3 +1,8 @@
+if (-not [bool](Test-Path "$env:windir\System32\WindowsPowerShell\v1.0\powershell.exe")) {
+    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
+    exit
+}
+
 $url = 'https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts'
 $tempPath = "$env:TEMP\hosts"
 $destPath = 'C:\Windows\System32\drivers\etc\hosts'
