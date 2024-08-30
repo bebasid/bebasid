@@ -13,15 +13,15 @@ try {
     Write-Host 'Copied hosts file successfully.'
 
     Write-Host 'Releasing IP configuration...'
-    ipconfig /release
+    ipconfig /release | Out-Null; 
     Write-Host 'IP configuration released.'
 
     Write-Host 'Renewing IP configuration...'
-    ipconfig /renew
+    ipconfig /renew | Out-Null; 
     Write-Host 'IP configuration renewed.'
 
     Write-Host 'Flushing DNS cache...'
-    ipconfig /flushdns
+    ipconfig /flushdns | Out-Null; 
     Write-Host 'DNS cache flushed.'
 
     Write-Host 'Process completed successfully.'
