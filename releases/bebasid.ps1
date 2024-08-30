@@ -1,5 +1,13 @@
-if (-not [bool](Test-Path "$env:windir\System32\WindowsPowerShell\v1.0\powershell.exe")) {
-    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
+function Test-Admin {
+    $currentIdentity = [System.Security.Principal.WindowsIdentity]::GetCurrent()
+    $principal = New-Object System.Security.Principal.WindowsPrincipal($currentIdentity)
+    return $principal.IsInRole([System.Security.Principal.WindowsBuiltinRole]::Administrator)
+}
+
+if (-not (Test-Admin)) {
+    # Restart script with elevated privileges
+    $args = @("`"$PSCommandPath`"" + " " + $args -join ' ')
+    Start-Process powershell -ArgumentList $args -Verb RunAs
     exit
 }
 
