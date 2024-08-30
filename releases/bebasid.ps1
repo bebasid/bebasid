@@ -5,9 +5,8 @@ function Test-Admin {
 }
 
 if (-not (Test-Admin)) {
-    # Restart script with elevated privileges
-    $args = @("`"$PSCommandPath`"" + " " + $args -join ' ')
-    Start-Process powershell -ArgumentList $args -Verb RunAs
+    $arguments = $args -join ' '
+    Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`" $arguments" -Verb RunAs
     exit
 }
 
