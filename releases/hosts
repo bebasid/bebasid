@@ -20624,11 +20624,6 @@
 104.19.143.99 4chan.org
 104.19.143.99 boards.4chan.org
 
-# [bybit.com]
-47.128.211.64 bybit.com
-3.1.111.83 bybit.com
-23.48.107.74 www.bybit.com
-23.48.107.40 www.bybit.com
 
 # [simpcity.su]
 186.2.163.153 simpcity.su
@@ -21560,10 +21555,8 @@
 104.21.234.102 ja.gelbooru.com
 104.21.234.102 gelbooru.com
 
-
 # [hurawatch.art]
 104.21.46.228 hurawatch.art
-
 # [erome.com]
 104.27.194.88 avatar.erome.com
 51.161.87.147 devfr.erome.com
@@ -21779,3 +21772,17 @@
 51.79.30.188 v7.erome.com
 104.27.195.88 s8.erome.com
 198.27.74.167 erome.com
+# [bybit.com]
+138.113.26.146 orbrchampions2023.bybit.com
+149.72.112.151 o3711.mail.promo.bybit.com
+43.152.1.115 static-testnet.bybit.com
+23.62.46.170 announcements.bybit.com
+167.89.123.124 url319.mail.bybit.com
+167.89.92.88 o1.ptr7130.bybit.com
+23.62.46.182 testnet.bybit.com
+43.152.1.200 static.bybit.com
+23.62.46.170 help.bybit.com
+23.62.46.170 api2.bybit.com
+23.62.46.182 www.bybit.com
+23.62.46.182 i.bybit.com
+52.76.252.234 bybit.com
