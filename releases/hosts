@@ -2765,9 +2765,6 @@
 104.21.234.163 www.bejav.net
 104.21.234.162 bejav.net
 
-# [akiba-online.com]
-91.208.184.152 akiba-online.com
-91.208.184.152 www.akiba-online.com
 
 # [r18.com]
 143.204.202.71 awscc3001.r18.com
@@ -11458,10 +11455,6 @@
 204.44.192.54 www.zone-archive.com
 204.44.192.54 zone-archive.com
 
-# [akiba-online.com]
-111.90.150.229 akiba-online.com
-91.208.184.151 www.akiba-online.com
-104.27.186.143 static.akiba-online.com
 
 # [oddsportal.com]
 188.92.41.44 oddsportal.com
@@ -21801,22 +21794,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # [sl.ero-labs.com]
 104.18.19.62 sl.ero-labs.com
 # [91.ero-labs.com]
@@ -21945,3 +21922,7 @@
 104.18.18.62 edensrittergrenze.ero-labs.com
 # [kyonyuufantasyburst.ero-labs.com]
 104.18.19.62 kyonyuufantasyburst.ero-labs.com
+# [akiba-online.com]
+185.165.168.68 status.akiba-online.com
+91.202.5.89 www.akiba-online.com
+91.202.5.89 akiba-online.com
