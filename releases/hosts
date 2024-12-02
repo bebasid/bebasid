@@ -6571,29 +6571,6 @@
 104.21.235.46 keruberosu.mangadex.com
 104.21.235.46 fuyu.mangadex.com
 
-# [hanime.tv]
-172.64.109.19 player.hanime.tv
-172.64.108.19 members.hanime.tv
-172.64.108.19 www.hanime.tv
-172.64.108.19 hanime.tv
-172.64.108.19 search.hanime.tv
-172.64.108.19 hr.hanime.tv
-172.64.108.19 ark.hanime.tv
-172.64.108.19 uploads.hanime.tv
-172.64.108.19 cdn.hanime.tv
-172.64.108.19 mods.hanime.tv
-172.64.108.19 mindgeek-dashboard.hanime.tv
-172.64.108.19 vip.hanime.tv
-172.64.108.19 live.hanime.tv
-172.64.108.19 www.live.hanime.tv
-172.64.108.19 oberon.hanime.tv
-172.64.108.19 m.hanime.tv
-172.64.108.19 tapi.hanime.tv
-172.64.108.19 htv3.hanime.tv
-172.64.108.19 hw.hanime.tv
-172.64.108.19 weeb.hanime.tv
-172.64.108.19 player2.hanime.tv
-172.64.108.19 player3.hanime.tv
 172.67.169.86 search.htv-services.com
 172.67.169.86 uploader.htv-services.com
 104.21.87.103 www.htv-services.com
@@ -21786,14 +21763,6 @@
 
 
 
-
-
-
-
-
-
-
-
 # [sl.ero-labs.com]
 104.18.19.62 sl.ero-labs.com
 # [91.ero-labs.com]
@@ -21926,7 +21895,6 @@
 185.165.168.68 status.akiba-online.com
 91.202.5.89 www.akiba-online.com
 91.202.5.89 akiba-online.com
-
 # [mangadex.org]
 45.129.229.1 uploads.mangadex.org
 45.129.229.2 forums.mangadex.org
@@ -21939,3 +21907,10 @@
 45.129.229.14 ns2.mangadex.org
 45.129.229.2 og.mangadex.org
 45.129.229.2 mangadex.org
+# [hanime.tv]
+104.21.234.244 members.hanime.tv
+104.21.234.244 player2.hanime.tv
+104.21.234.244 player3.hanime.tv
+104.21.234.244 player.hanime.tv
+104.21.234.244 www.hanime.tv
+104.21.234.244 hanime.tv
