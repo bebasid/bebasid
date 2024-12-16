@@ -66,7 +66,7 @@ Dimulai dari **Rp. 50.000,00**.
 - [BebasID](#bebasid)
     - [Windows](#windows)
     - [Linux](#linux)
-    - [macOS](#android)
+    - [Android](#android)
     - [macOS](#macos)
   - [Metode Lain](#metode-lain)
 - [Berkontribusi, Pertanyaan, atau Permintaan](#berkontribusi-pertanyaan-atau-permintaan)
