@@ -66,6 +66,7 @@ Dimulai dari **Rp. 50.000,00**.
 - [BebasID](#bebasid)
     - [Windows](#windows)
     - [Linux](#linux)
+    - [Android](#android)
     - [macOS](#macos)
   - [Metode Lain](#metode-lain)
 - [Berkontribusi, Pertanyaan, atau Permintaan](#berkontribusi-pertanyaan-atau-permintaan)
@@ -112,6 +113,12 @@ bebasid --help
 ```
 sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
 ```
+
+### Android
+#### Bindhosts (Module Magisk)
+Pasang module [bindhosts](https://github.com/backslashxx/bindhosts) ke Magisk, KernelSU atau APatch.
+Tambahkan hosts ke bindhosts dan jalankan action menggunakan WebUI [seperti ini](https://imgur.com/a/FGUN2P9).
+Jika anda menggunakan Magisk, gunakan [KSU WebUI](https://github.com/5ec1cff/KsuWebUIStandalone) untuk mengakses WebUI dari bindhosts.
 
 ### macOS
 #### BebasID Shell
