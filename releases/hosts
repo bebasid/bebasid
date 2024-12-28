@@ -10038,41 +10038,6 @@
 104.20.72.110 txxx.com
 104.20.72.110 www.txxx.com
 
-# [eporner.com]
-82.192.65.65 eporner.com
-82.192.65.65 www.eporner.com
-185.132.134.85 static-eu-cdn.eporner.com
-212.8.243.172 dash-s3-n10-nl-cdn.eporner.com
-185.132.134.87 dash-s2-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s-n10-nl-cdn.eporner.com
-82.192.65.67 eu-cdn.eporner.com
-185.132.134.130 dash-s4-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s5-n10-nl-cdn.eporner.com
-185.132.134.87 s2-n10-nl-cdn.eporner.com
-82.192.65.67 s-n10-nl-cdn.eporner.com
-185.132.134.130 s4-n10-nl-cdn.eporner.com
-82.192.65.67 s5-n10-nl-cdn.eporner.com
-212.8.243.172 s3-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s6-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s7-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s8-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s9-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s10-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s11-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s12-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s13-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s14-n10-nl-cdn.eporner.com
-82.192.65.67 dash-s15-n10-nl-cdn.eporner.com
-82.192.65.67 s6-n10-nl-cdn.eporner.com
-82.192.65.67 s7-n10-nl-cdn.eporner.com
-82.192.65.67 s8-n10-nl-cdn.eporner.com
-82.192.65.67 s9-n10-nl-cdn.eporner.com
-82.192.65.67 s10-n10-nl-cdn.eporner.com
-82.192.65.67 s11-n10-nl-cdn.eporner.com
-82.192.65.67 s12-n10-nl-cdn.eporner.com
-82.192.65.67 s13-n10-nl-cdn.eporner.com
-82.192.65.67 s14-n10-nl-cdn.eporner.com
-82.192.65.67 s15-n10-nl-cdn.eporner.com
 
 # [7mm.tv]
 104.27.146.208 7mm.tv
@@ -21759,10 +21724,6 @@
 
 
 
-
-
-
-
 # [sl.ero-labs.com]
 104.18.19.62 sl.ero-labs.com
 # [91.ero-labs.com]
@@ -21914,22 +21875,59 @@
 104.21.234.244 player.hanime.tv
 104.21.234.244 www.hanime.tv
 104.21.234.244 hanime.tv
-
 # [remywiki.com]
 185.41.243.37 www.silentblue.remywiki.com
 185.41.243.37 silentblue.remywiki.com
 185.41.243.37 www.remywiki.com
 185.41.243.37 remywiki.com
-
 # [aplaybox.com]
 47.100.234.157 details.aplaybox.com
 180.163.146.100 oss.aplaybox.com
 180.163.140.235 www.aplaybox.com
 101.132.108.33 api.aplaybox.com
 47.100.234.157 aplaybox.com
-
 # [termux.net]
 104.21.33.123 root-packages.termux.net
 104.21.33.123 x11-packages.termux.net
 104.21.33.123 bootstrap.termux.net
 172.67.162.138 termux.net
+# [eporner.com]
+94.75.220.5 static-ovh-cdn.eporner.com
+15.235.225.84 static-key-cdn.eporner.com
+88.208.20.10 creative.cams.eporner.com
+94.75.220.5 static-cdn.eporner.com
+88.208.20.10 video.cams.eporner.com
+109.71.161.136 www.live.eporner.com
+88.208.20.10 www.cams.eporner.com
+185.98.55.81 pt.cams.eporner.com
+185.98.55.81 es.cams.eporner.com
+185.98.55.81 it.cams.eporner.com
+88.208.20.10 ar.cams.eporner.com
+88.208.20.10 ja.cams.eporner.com
+185.98.55.81 ro.cams.eporner.com
+185.98.55.81 cs.cams.eporner.com
+185.98.55.81 el.cams.eporner.com
+88.208.20.10 fr.cams.eporner.com
+88.208.20.10 jp.cams.eporner.com
+88.208.20.10 sv.cams.eporner.com
+88.208.20.10 cz.cams.eporner.com
+88.208.20.10 hu.cams.eporner.com
+185.98.55.81 br.cams.eporner.com
+88.208.20.10 zh.cams.eporner.com
+185.98.55.81 tr.cams.eporner.com
+88.208.20.10 go.cams.eporner.com
+185.98.55.81 de.cams.eporner.com
+185.98.55.81 nl.cams.eporner.com
+88.208.20.10 ko.cams.eporner.com
+185.98.55.81 en.cams.eporner.com
+88.208.20.10 ru.cams.eporner.com
+185.98.55.81 no.cams.eporner.com
+185.98.55.81 vr.cams.eporner.com
+88.208.20.10 pl.cams.eporner.com
+51.178.229.173 gvideo.eporner.com
+109.71.161.136 live.eporner.com
+85.17.15.4 smtp.eporner.com
+88.208.20.10 cams.eporner.com
+94.75.220.1 new.eporner.com
+213.227.135.42 mx.eporner.com
+94.75.220.1 eporner.com
