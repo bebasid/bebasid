@@ -21927,3 +21927,9 @@
 180.163.140.235 www.aplaybox.com
 101.132.108.33 api.aplaybox.com
 47.100.234.157 aplaybox.com
+
+# [termux.net]
+104.21.33.123 root-packages.termux.net
+104.21.33.123 x11-packages.termux.net
+104.21.33.123 bootstrap.termux.net
+172.67.162.138 termux.net
