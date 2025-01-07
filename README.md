@@ -42,18 +42,21 @@
 </p>
 
 ## Sponsor
-| <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="380"> <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="380"> |
-|-|
-| <p align="center">[atharva.co.id](https://www.atharva.co.id)</p> |
-
-| ![Atharva Cloud Light Mode](dev/resources/logo-atharva-cloud-black.png#gh-light-mode-only) ![Atharva Cloud Dark Mode](dev/resources/logo-atharva-cloud-whitepng.png#gh-dark-mode-only) |
-| - |
-| <p align="center">[atharva.cloud](https://www.atharva.cloud)</p> |
 
 *Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
 
+| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+|-|
+| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
+| - |
+| <p align="center">[qdei.co](https://qdei.co)</p> |
+
+<!--
 Dimulai dari **Rp. 50.000,00**.  
 [Lihat paket langganan VPS selengkapnya](https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite)
+//-->
 </div>
 
 ##
@@ -170,7 +173,7 @@ Bagi Provider ISP yang menggunakan [JSN](https://www.jsn.net.id/) dan memblokir 
 **Tutorial cara melewati/bypass DPI atau Lamanlabuh menggunakan Modem/Router atau di Sistem Operasi (OS):**
 
 **Modem/Router:**
-| <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://cdn.discordapp.com/attachments/381569782257811456/1147154206063611994/Sb0qyQ88hIP9IdDM.png" width="16"/> MikroTik</a> |
+| <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://i.imgur.com/DLGa8wW.png" width="16"/> MikroTik</a> |
 |:-|:-|
 
 **Sistem Operasi (OS):**
@@ -185,12 +188,12 @@ Jika Anda mengalami masalah saat menggunakan BebasID, silakan tanyakan di [Disco
 ## Syarat dan Ketentuan
 Dengan menggunakan aplikasi BebasID, Anda dianggap telah membaca, memahami, serta menyetujui semua peraturan yang telah kami buat. Jika Anda tidak menyetujui peraturan tersebut, maka Anda tidak diperkenankan menggunakan aplikasi BebasID. Untuk informasi lebih lanjut tentang aturan yang berlaku, Anda dapat mengunjungi halaman [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
 
-<br>
+---
 
 <p align="center">Bagikan proyek ini</p>
 <div id="sosial">
  <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasid"><img src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=twitter&logoColor=black"/></a>
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasid"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasid"><img src="https://img.shields.io/badge/Facebook-white?style=for-the-badge&logo=facebook&logoColor=black"/></a>
  </p>
 </div>
