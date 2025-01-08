@@ -167,7 +167,7 @@ Untuk melaporkan masalah atau mengajukan permintaan fitur, silakan [buka isu bar
 
 Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
 
-Bagi Provider ISP yang menggunakan [JSN](https://www.jsn.net.id/) dan memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
+Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
 
 **Ciri-ciri ISP menggunakan DPI:**
 | Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
