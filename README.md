@@ -55,11 +55,11 @@
 |-|
 | <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
 
+<!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
 | - |
 | <p align="center">[qdei.co](https://qdei.co)</p> |
 
-<!--
 Dimulai dari **Rp. 50.000,00**.  
 [Lihat paket langganan VPS selengkapnya](https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite)
 //-->
