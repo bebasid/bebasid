@@ -20164,22 +20164,6 @@
 209.222.115.126 mc.hypixel.net
 209.222.115.123 mc.hypixel.net
 
-# [rlsbb.ru]
-172.67.189.6 wordpress.rlsbb.ru
-172.67.189.6 comment.rlsbb.ru
-172.67.189.6 archive.rlsbb.ru
-104.21.43.240 search.rlsbb.ru
-172.67.189.6 panel.rlsbb.ru
-172.67.189.6 old4.rlsbb.ru
-104.21.43.240 old3.rlsbb.ru
-172.67.189.6 nfo1.rlsbb.ru
-172.67.189.6 test.rlsbb.ru
-104.21.43.240 old2.rlsbb.ru
-172.67.189.6 img.rlsbb.ru
-172.67.189.6 log.rlsbb.ru
-172.67.189.6 www.rlsbb.ru
-104.21.43.240 old.rlsbb.ru
-172.67.189.6 rlsbb.ru
 
 # [livescore.com]
 34.149.248.107 www.gcp-dev-notification-push-android.livescore.com
@@ -21942,3 +21926,23 @@
 172.67.151.75 pay.nicekkk.com
 104.21.12.19 www.nicekkk.com
 104.21.12.19 nicekkk.com
+
+# [rlsbb.ru]
+104.31.16.7 wordpress2.rlsbb.ru
+104.31.16.122 comment2.rlsbb.ru
+104.31.16.122 comment.rlsbb.ru
+104.31.16.7 archive.rlsbb.ru
+104.31.16.7 panel2.rlsbb.ru
+104.31.16.122 search.rlsbb.ru
+104.31.16.7 panel.rlsbb.ru
+104.31.16.7 old4.rlsbb.ru
+104.31.16.122 old3.rlsbb.ru
+104.31.16.122 old5.rlsbb.ru
+104.31.16.7 nfo1.rlsbb.ru
+104.31.16.7 post.rlsbb.ru
+104.31.16.122 old2.rlsbb.ru
+104.31.16.7 log.rlsbb.ru
+104.31.16.7 img.rlsbb.ru
+104.31.16.7 www.rlsbb.ru
+104.31.16.122 old.rlsbb.ru
+104.31.16.7 rlsbb.ru
