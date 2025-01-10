@@ -4,11 +4,17 @@
 | <img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> [Indonesia](README.md) | <img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> **English** |
 |-|-|
 
-<p align="center"><code>KINI Introducing:</code></br></br>
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-black.svg#gh-light-mode-only" alt="BEBASID LOGO" width="445">
-    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo.svg#gh-dark-mode-only" alt="BEBASID LOGO" width="445"><br>
+<p align="center">
+    <img src="dev/resources/logo-black.svg#gh-light-mode-only" alt="BebasID Logo White" width="445">
+    <img src="dev/resources/logo.svg#gh-dark-mode-only" alt="BebasID Logo Black" width="445"><br>
     <i>Helping you surfing securely and without limit!</i>
 </p>
+
+<a href="#">
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=TODAY+%5BWATCHERS+%2F+TOTAL%5D&edge_flat=true"/>
+</a>
+
+<br>
 
 <a href="LICENSE">
     <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
@@ -42,17 +48,21 @@
 </p>
 
 ## Sponsor
-| <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="380"> <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="380"> |
+
+*A freedom oriented and neutral VPS provider for your need.*
+
+| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
 |-|
-| <p align="center">[atharva.co.id](https://www.atharva.co.id)</p> |
+| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
 
-| ![Atharva Cloud Light Mode](dev/resources/logo-atharva-cloud-black.png#gh-light-mode-only) ![Atharva Cloud Dark Mode](dev/resources/logo-atharva-cloud-whitepng.png#gh-dark-mode-only) |
+<!--
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
 | - |
-| <p align="center">[atharva.cloud](https://www.atharva.cloud)</p> |
+| <p align="center">[qdei.co](https://qdei.co)</p> |
 
-*A freedom oriented and neutral VPS provider for your need*
 Starting from <b>Rp. **50.000,00**.
 [See the complete VPS packages](https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite)
+//-->
 </div>
 
 
@@ -64,52 +74,88 @@ Starting from <b>Rp. **50.000,00**.
 ## Table of Content
 - [Table of Content](#table-of-content)
 - [BebasID](#bebasid)
-  - [Graphical User Interface (GUI)](#graphical-user-interface-gui)
-  - [Terminal User Interface (TUI)](#terminal-user-interface-tui)
-  - [Command Line Interface (CLI)](#command-line-interface-cli)
+    - [Windows](#windows)
+    - [Linux](#linux)
+    - [Android](#android)
+    - [macOS](#macos)
  - [Other Methods](#other-methods)
 - [Contributing, Question and Request](#contributing-question-and-request)
  - [Announcement Concerning DPI](#announcement-concerning-dpi)
  - [Frequently Asked Question](#frequently-asked-question)
 - [Terms and Conditions](#terms-and-conditions)
 
----
-
 ## BebasID
-
 With BebasID, you can access any restricted content that is blocked by using [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
 
-### <ins>Graphical User Interface (GUI)</ins>
-
+### Windows
+#### <ins>Graphical User Interface (GUI) - Under Construction</ins>
+<!---
 You can use [bebasid](https://github.com/bebasid/bebasid/releases/tag/v1.1) to simplify BebasID's hosts installaton.
 
-![bebasid running on Windows 10](https://i.imgur.com/Bcq0rgm.png)
+![bebasid.exe running on Windows 10](https://i.imgur.com/Bcq0rgm.png)
 
-### <ins>Terminal User Interface (TUI)</ins>
+If you need the source code of BebasID (GUI), please visit our repo [BebasID-src](https://github.com/bebasid/bebasid-src).
+-->
+*Work-in-progress information: [BebasID-src](https://github.com/bebasid/bebasid-src)*
 
-If you want to use Terminal User Interface, check BebasIN [here](https://github.com/mochidaz/bebasin) which is under development.
+#### PowerShell - Recommended
+```
+Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.ps1 | iex`"" -Verb RunAs -Wait
+```
 
-![Bebasin on Linux](https://i.imgur.com/qwHji4w.png)
-
-### <ins>Command Line Interface (CLI)</ins>
-
-You can use [BebasID batch script](https://github.com/bebasid/bebasid/releases/tag/v1.1) app.
-
-![bebasid.bat running on Windows 10](https://i.imgur.com/CrnySId.png)
-
-### <ins>Other Methods</ins>
-#### <code>BebasID Source:</code>
-If you need the source code for BebasID (GUI), please visit the [BebasID-source](https://github.com/bebasid/bebasid-src) repo to use it.
-
-#### **BebasHosts Portable:**
+#### BebasHosts Portable
 BebasHosts is a rewrite of BebasID software to adjust the hosts file. You can use the [BebasHosts software](https://github.com/bebasid/bebasid/raw/master/releases/BebasHosts%20Portable.zip) with 2 primary functions:
 1. `.Host-Update.bat` used to modify the hosts file with hosts file from BebasID.
 2. `.Host-Reset.bat` used to revert the hosts file back to the original Windows hosts file.
 
-#### <code>BebasDNS / BebasID DNS:</code>
+### Linux
+#### BebasID Shell
+Install
+```
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -O /usr/local/bin/bebasid && sudo chmod +x /usr/local/bin/bebasid
+```
+Help
+```
+bebasid --help
+```
+
+#### Install Only
+```
+sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
+```
+
+### Android
+#### Bindhosts (Magisk Module)
+Install [bindhosts] module(https://github.com/backslashxx/bindhosts) with Magisk, KernelSU or APatch.
+Add hosts to bindhosts and run with WebUI [like this](https://imgur.com/a/FGUN2P9).
+If you are using Magisk, use [KSU WebUI](https://github.com/5ec1cff/KsuWebUIStandalone) to access WebUI from bindhosts.
+
+### macOS
+#### BebasID Shell
+Install
+```
+sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/bebasid.sh -o /usr/local/bin/bebasid && sudo chmod +x /usr/local/bin/bebasid
+```
+
+Help
+```
+bebasid --help
+```
+
+#### Install Only
+```
+sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -o /etc/hosts
+```
+
+### Multiple Hosts
+[SwitchHosts](https://github.com/oldj/SwitchHosts) - Application for management & host redirection.
+
+### Other Methods
+
+#### **BebasDNS / BebasID DNS**:
 If this hosts is not suitable for you, and using DNS or DoH/DoT version please visit the [BebasDNS](https://github.com/bebasid/bebasdns) repo to use it.
 
-#### <code>Other Usages:</code>
+#### **Other Usages**:
 For other usage tutorial, please visit [OTHER USAGES](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.en.md) if you understand the usages.
 
 ## Contributing, Question and Request
@@ -143,11 +189,11 @@ For an ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebas
 
 ### Frequently Asked Question
 
-If you have any problem in using bebasid, you can ask on [Discord](https://discord.gg/EKrxZyu) or you can email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com).
+If you have any problem in using BebasID, you can ask on [Discord](https://discord.gg/EKrxZyu) or you can email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com).
 
 ## Terms and Conditions
 
-By using the bebasid application, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the bebasid application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+By using the BebasID application, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
 
 <br>
 
