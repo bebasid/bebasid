@@ -7,7 +7,7 @@
 <p align="center">
     <img src="dev/resources/logo-black.svg#gh-light-mode-only" alt="BebasID Logo White" width="445">
     <img src="dev/resources/logo.svg#gh-dark-mode-only" alt="BebasID Logo Black" width="445"><br>
-    <i>Helping you surfing securely and without limit!</i>
+    <i>Helping you surf securely and without limit!</i>
 </p>
 
 <a href="#">
@@ -17,10 +17,10 @@
 <br>
 
 <a href="LICENSE">
-    <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=License&labelColor=222">
 </a>
 
-<img alt="Static Badge" src="https://img.shields.io/badge/2019-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
+<img alt="Static Badge" src="https://img.shields.io/badge/2019-white?style=for-the-badge&logo=fireship&logoColor=white&label=Released&labelColor=222">
 
 <br>
 
@@ -39,17 +39,17 @@
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
 </a>
 
 <a href="https://saweria.co/bebasid">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
 </a>
 </p>
 
 ## Sponsor
 
-*A freedom oriented and neutral VPS provider for your need.*
+*A freedom-oriented and neutral VPS provider for your needs.*
 
 | <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
 |-|
@@ -69,7 +69,7 @@ Starting from <b>Rp. **50.000,00**.
 ##
 > [!IMPORTANT]  
 > For ISP that implementing DPI, please read [this](#announcement-concerning-dpi).<br><br>
-> We do not support illegal activities such as online gambling, We strive for internet netrality, not to break the law. Because of that <b>We will ignore request to add online gambling site to our host.</b>
+> We do not support illegal activities such as online gambling. We strive for internet neutrality, not to break the law. Because of that, <b> we will ignore the request to add an online gambling site to our host. </b>
 
 ## Table of Content
 - [Table of Content](#table-of-content)
@@ -79,7 +79,7 @@ Starting from <b>Rp. **50.000,00**.
     - [Android](#android)
     - [macOS](#macos)
  - [Other Methods](#other-methods)
-- [Contributing, Question and Request](#contributing-question-and-request)
+- [Contributing, Question, and Request](#contributing-question-and-request)
  - [Announcement Concerning DPI](#announcement-concerning-dpi)
  - [Frequently Asked Question](#frequently-asked-question)
 - [Terms and Conditions](#terms-and-conditions)
@@ -105,8 +105,8 @@ Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Comm
 
 #### BebasHosts Portable
 BebasHosts is a rewrite of BebasID software to adjust the hosts file. You can use the [BebasHosts software](https://github.com/bebasid/bebasid/raw/master/releases/BebasHosts%20Portable.zip) with 2 primary functions:
-1. `.Host-Update.bat` used to modify the hosts file with hosts file from BebasID.
-2. `.Host-Reset.bat` used to revert the hosts file back to the original Windows hosts file.
+1. `.Host-Update.bat` is used to modify the hosts file with the hosts file from BebasID.
+2. `.Host-Reset.bat` reverts the hosts file to the original Windows hosts file.
 
 ### Linux
 #### BebasID Shell
@@ -126,9 +126,9 @@ sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/host
 
 ### Android
 #### Bindhosts (Magisk Module)
-Install [bindhosts] module(https://github.com/backslashxx/bindhosts) with Magisk, KernelSU or APatch.
+Install [bindhosts](https://github.com/backslashxx/bindhosts) module with Magisk, KernelSU or APatch.
 Add hosts to bindhosts and run with WebUI [like this](https://imgur.com/a/FGUN2P9).
-If you are using Magisk, use [KSU WebUI](https://github.com/5ec1cff/KsuWebUIStandalone) to access WebUI from bindhosts.
+If you use Magisk, use [KSU WebUI](https://github.com/5ec1cff/KsuWebUIStandalone) to access WebUI from bindhosts.
 
 ### macOS
 #### BebasID Shell
@@ -156,9 +156,9 @@ sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/host
 If this hosts is not suitable for you, and using DNS or DoH/DoT version please visit the [BebasDNS](https://github.com/bebasid/bebasdns) repo to use it.
 
 #### **Other Usages**:
-For other usage tutorial, please visit [OTHER USAGES](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.en.md) if you understand the usages.
+For other usage tutorials, please visit [OTHER USAGES](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.en.md) if you understand the usage.
 
-## Contributing, Question and Request
+## Contributing, Question, and Request
 
 Please head to [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the contributing guidelines.
 
@@ -193,11 +193,11 @@ If you have any problem in using BebasID, you can ask on [Discord](https://disco
 
 ## Terms and Conditions
 
-By using the BebasID application, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+By using the BebasID application, you are deemed to have read, understood, and agreed to all the rules we have made and accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
 
 <br>
 
-<p align="center">Share this project/p>
+<p align="center">Share this project</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasid"><img src="https://img.shields.io/badge/Twitter-white?style=for-the-badge&logo=twitter&logoColor=black"/></a>
