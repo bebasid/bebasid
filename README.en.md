@@ -11,7 +11,7 @@
 </p>
 
 <a href="#">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=TODAY+%5BWATCHERS+%2F+TOTAL%5D&edge_flat=true"/>
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=WATCHERS+%5BTODAY+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
 
 <br>
