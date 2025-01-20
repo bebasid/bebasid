@@ -16172,25 +16172,6 @@
 172.98.95.130 images.nubiles-porn.com
 184.170.255.11 members.nubiles-porn.com
 
-# [mexc.com]
-3.115.141.177 mexc.com
-103.121.18.219 www.mexc.com
-104.18.249.37 support.mexc.com
-23.50.117.184 api.mexc.com
-202.169.45.232 chat.mexc.com
-103.121.18.200 wbs.mexc.com
-52.212.68.12 event.mexc.com
-72.247.81.35 promote.mexc.com
-54.250.131.45 jpush.mexc.com
-34.226.32.201 blog.mexc.com
-72.247.81.58 contract.mexc.com
-72.247.81.160 otc.mexc.com
-202.169.45.240 futures.mexc.com
-72.247.81.83 travel-rule.mexc.com
-112.78.159.10 mchat.mexc.com
-103.121.18.225 affiliates.mexc.com
-72.247.81.89 m.mexc.com
-72.247.81.40 futures.testnet.mexc.com
 
 # [johren.games]
 46.51.234.112 johren.games
@@ -21926,7 +21907,6 @@
 172.67.151.75 pay.nicekkk.com
 104.21.12.19 www.nicekkk.com
 104.21.12.19 nicekkk.com
-
 # [rlsbb.ru]
 104.31.16.7 wordpress2.rlsbb.ru
 104.31.16.122 comment2.rlsbb.ru
@@ -21946,7 +21926,6 @@
 104.31.16.7 www.rlsbb.ru
 104.31.16.122 old.rlsbb.ru
 104.31.16.7 rlsbb.ru
-
 # [iherb.com]
 172.64.149.245 catalog1.app.iherb.com
 216.198.53.1 information.iherb.com
@@ -21981,3 +21960,30 @@
 104.18.38.11 www.iherb.com
 172.64.149.245 ru.iherb.com
 172.64.149.245 iherb.com
+# [mexc.com]
+23.53.11.197 futures.testnet.mexc.com
+23.205.104.60 travel-rule.mexc.com
+23.45.181.170 affiliates.mexc.com
+3.167.88.112 wbs-maker.mexc.com
+23.53.11.203 contract.mexc.com
+23.53.11.209 referral.mexc.com
+3.171.139.107 wbs-api.mexc.com
+104.18.248.37 support.mexc.com
+23.53.11.218 futures.mexc.com
+23.207.202.184 promote.mexc.com
+23.218.218.171 aevent.mexc.com
+23.205.104.51 cevent.mexc.com
+23.207.202.192 devent.mexc.com
+23.205.104.61 mevent.mexc.com
+54.250.131.45 jpush.mexc.com
+127.0.0.1 event.mexc.com
+23.53.11.208 mchat.mexc.com
+23.218.218.168 blog.mexc.com
+23.53.11.219 chat.mexc.com
+23.53.35.207 api.mexc.com
+23.205.104.61 wbs.mexc.com
+23.218.218.182 www.mexc.com
+23.53.35.12 p2p.mexc.com
+23.53.35.202 otc.mexc.com
+23.218.218.140 m.mexc.com
+52.195.75.105 mexc.com
