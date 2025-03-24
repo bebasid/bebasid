@@ -13260,11 +13260,6 @@
 185.225.18.165 isohunt.to
 185.225.18.165 www.isohunt.to
 
-# [manhwa18.cc]
-172.67.151.63 www.manhwa18.cc
-172.67.151.63 manhwa18.cc
-104.21.0.154 www.manhwa18.cc
-104.21.0.154 manhwa18.cc
 
 # [indoxxi.com]
 104.21.19.102 indoxxi.com
@@ -21834,7 +21829,6 @@
 51.222.29.53 ts.hypixel.net
 104.18.136.17 hypixel.net
 
-
 # [coolmic.me]
 68.70.205.2 fr-anime-contents.coolmic.me
 68.70.205.4 anime-contents.coolmic.me
@@ -21848,3 +21842,10 @@
 108.138.64.70 stg.coolmic.me
 52.85.151.49 fr.coolmic.me
 18.67.39.4 coolmic.me
+# [manhwa18.cc]
+104.21.96.1 cdn12.manhwa18.cc
+104.21.80.1 cdn02.manhwa18.cc
+104.21.48.1 cdn11.manhwa18.cc
+104.21.80.1 cdn01.manhwa18.cc
+104.21.80.1 www.manhwa18.cc
+104.21.80.1 manhwa18.cc
