@@ -185,7 +185,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 |:-|:-|
 
 **Sistem Operasi (OS):**
-| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
+| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/windows-11-icon-logo-png_seeklogo-406208.png?raw=true" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
 |:-|:-|:-|
 
 </details>
