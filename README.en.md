@@ -199,7 +199,9 @@ If you have any problems using BebasID, you can ask on [Discord](https://discord
 
 By using the BebasID application, you can read, understand, and agree to all the rules we have made and accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
 
-<br>
+<be>
+
+---
 
 <p align="center">Share this project</p>
 <div id="sosial">
