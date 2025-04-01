@@ -11,10 +11,12 @@
 </p>
 
 <a href="#">
+<!--
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasid&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=WATCHERS+%5BTODAY+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
 
 <br>
+//-->
 
 <a href="LICENSE">
     <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=License&labelColor=222">
@@ -51,9 +53,9 @@
 
 *A freedom-oriented and neutral VPS provider for your needs.*
 
-| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+| <a href="https://member.atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
 |-|
-| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+| <p align="center">[atharva.co.id](https://member.atharva.co.id)</p> |
 
 <!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
@@ -153,7 +155,7 @@ sudo curl https://raw.githubusercontent.com/bebasid/bebasid/master/releases/host
 ### Other Methods
 
 #### **BebasDNS / BebasID DNS**:
-If this hosts is not suitable for you, and using DNS or DoH/DoT version please visit the [BebasDNS](https://github.com/bebasid/bebasdns) repo to use it.
+If this hosts is unsuitable for you and you want to use DNS or the DoH/DoT version, please visit the [BebasDNS](https://github.com/bebasid/bebasdns) repo to do so.
 
 #### **Other Usages**:
 For other usage tutorials, please visit [OTHER USAGES](https://github.com/bebasid/bebasid/blob/master/dev/readme/USAGE.en.md) if you understand the usage.
@@ -168,32 +170,34 @@ If you have any request or bug report, please [open a new issue](https://github.
 <details>
 <summary>Click to open the announcement</summary>
 
-For an ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.
+For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or turn on IPv6 and force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
 
 **Signs if the ISP is using DPI:**
 | HTTP protocol redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | while the HTTPS protocol ended with `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` | 
 |:-|:-|
 | <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/http-lamanlabuh-result.png" alt="HTTP Lamanlabuh Result"> | <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/https-connection-reset.png" alt="HTTPS Connection Reset Result"> |
 
-</br> <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">See more detailed information about DPI</a>.<br></br>
+</br> <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">See more detailed information about DPI</a>.
+
+**Tutorial on how to bypass DPI or Lamanlabuh using a Modem/Router or in an Operating System (OS):**
 
 **How to bypass Kominfo DPI in Modem/Router:**
-| <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.en.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md"><img src="https://cdn.discordapp.com/attachments/381569782257811456/1147154206063611994/Sb0qyQ88hIP9IdDM.png" width="16"/> MikroTik</a> |
+| <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.en.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md"><img src="https://i.imgur.com/DLGa8wW.png" width="16"/> MikroTik</a> |
 |:-|:-|
 
 **Operating System (OS):**
-| <a href="https://github.com/bebasid/bebasit/blob/master/README.en.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.en.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.en.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
+| <a href="https://github.com/bebasid/bebasit/blob/master/README.en.md#windows"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/windows-11-icon-logo-png_seeklogo-406208.png?raw=true" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.en.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.en.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
 |:-|:-|:-|
 
 </details>
 
 ### Frequently Asked Question
 
-If you have any problem in using BebasID, you can ask on [Discord](https://discord.gg/EKrxZyu) or you can email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com).
+If you have any problems using BebasID, you can ask on [Discord](https://discord.gg/EKrxZyu) or email [`dukungan@bebasid.com`](maproblemsgan@bebasid.com).
 
 ## Terms and Conditions
 
-By using the BebasID application, you are deemed to have read, understood, and agreed to all the rules we have made and accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+By using the BebasID application, you can read, understand, and agree to all the rules we have made and accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
 
 <br>
 
