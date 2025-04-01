@@ -198,7 +198,7 @@ Dengan menggunakan aplikasi BebasID, Anda dianggap telah membaca, memahami, sert
 
 ---
 
-<p align="center">Bagikan proyek ini</p>
+<p align="center">Bagikan proyek ini!</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasid"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
