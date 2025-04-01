@@ -80,10 +80,10 @@ Starting from <b>Rp. **50.000,00**.
     - [Linux](#linux)
     - [Android](#android)
     - [macOS](#macos)
- - [Other Methods](#other-methods)
+    - [Other Methods](#other-methods)
 - [Contributing, Question, and Request](#contributing-question-and-request)
- - [Announcement Concerning DPI](#announcement-concerning-dpi)
- - [Frequently Asked Question](#frequently-asked-question)
+    - [Announcement Concerning DPI](#announcement-concerning-dpi)
+    - [Frequently Asked Question](#frequently-asked-question)
 - [Terms and Conditions](#terms-and-conditions)
 
 ## BebasID
