@@ -10527,20 +10527,6 @@
 104.21.235.106 s12.erome.com
 104.21.235.106 s13.erome.com
 
-# [redgifs.com]
-104.18.40.219 staging.redgifs.com
-104.18.40.219 userpic.redgifs.com
-172.64.147.37 www.redgifs.com
-104.18.40.219 assets.redgifs.com
-172.64.147.37 filedrop.redgifs.com
-172.64.147.37 api.redgifs.com
-104.18.40.219 redgifs.com
-172.64.147.37 assets.redgifs.com
-104.16.171.253 auth-staging.redgifs.com
-104.16.170.253 auth.redgifs.com
-172.64.147.37 thumbs4.redgifs.com
-172.64.147.37 v3.redgifs.com
-104.18.40.219 thumbs44.redgifs.com
 
 # [zenra.net]
 209.54.123.123 zenra.net
@@ -21843,9 +21829,31 @@
 104.21.80.1 cdn01.manhwa18.cc
 104.21.80.1 www.manhwa18.cc
 104.21.80.1 manhwa18.cc
-
 # [supjav.com]
 104.22.1.244 tools.supjav.com
 104.22.0.244 img.supjav.com
 104.22.0.244 www.supjav.com
 104.22.1.244 supjav.com
+# [redgifs.com]
+91.199.51.222 links.newsletters.redgifs.com
+172.64.151.133 hooks-staging.redgifs.com
+44.229.230.102 auth2-staging.redgifs.com
+104.19.167.24 auth-staging.redgifs.com
+172.64.151.133 api-staging.redgifs.com
+91.199.51.222 links.app.redgifs.com
+172.64.151.133 i-staging.redgifs.com
+156.146.53.36 userpic.redgifs.com
+104.18.36.123 staging.redgifs.com
+156.146.53.36 assets.redgifs.com
+156.146.53.33 files.redgifs.com
+35.84.88.39 auth2.redgifs.com
+44.229.230.102 auth3.redgifs.com
+156.146.53.33 media.redgifs.com
+172.64.151.133 hooks.redgifs.com
+104.19.168.24 auth.redgifs.com
+216.198.53.1 help.redgifs.com
+172.64.151.133 api.redgifs.com
+104.18.36.123 www.redgifs.com
+208.74.150.136 go.redgifs.com
+172.64.151.133 i.redgifs.com
+172.64.151.133 redgifs.com
