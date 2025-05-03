@@ -12971,13 +12971,6 @@
 104.26.10.19 adb.hiperdex.com
 104.26.10.19 raw.hiperdex.com
 
-# [supjav.com]
-172.64.200.15 supjav.com
-172.64.201.15 supjav.com
-172.64.200.15 www.supjav.com
-172.64.201.15 www.supjav.com
-104.21.233.191 img.supjav.com
-104.21.233.191 www.img.supjav.com
 
 # [gamcore.com]
 51.195.104.51 beta.gamcore.com
@@ -21850,3 +21843,9 @@
 104.21.80.1 cdn01.manhwa18.cc
 104.21.80.1 www.manhwa18.cc
 104.21.80.1 manhwa18.cc
+
+# [supjav.com]
+104.22.1.244 tools.supjav.com
+104.22.0.244 img.supjav.com
+104.22.0.244 www.supjav.com
+104.22.1.244 supjav.com
