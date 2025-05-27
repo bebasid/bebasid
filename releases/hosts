@@ -21857,3 +21857,10 @@
 208.74.150.136 go.redgifs.com
 172.64.151.133 i.redgifs.com
 172.64.151.133 redgifs.com
+
+# [archive.org]
+207.241.224.2 archive.org
+207.241.237.3 web.archive.org
+207.241.237.2 web-static.archive.org
+207.241.224.2 apollo.archive.org
+207.241.225.8 scholar.archive.org
