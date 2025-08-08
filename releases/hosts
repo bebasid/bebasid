@@ -20884,13 +20884,6 @@
 104.21.2.88 www.anime-sharing.com
 104.21.2.88 anime-sharing.com
 
-# [gelbooru.com]
-108.181.143.71 video-cdn3.gelbooru.com
-107.178.105.194 video-cdn1.gelbooru.com
-104.21.234.103 img3.gelbooru.com
-104.21.234.103 www.gelbooru.com
-104.21.234.102 ja.gelbooru.com
-104.21.234.102 gelbooru.com
 # [hurawatch.art]
 104.21.46.228 hurawatch.art
 # [erome.com]
@@ -21812,7 +21805,12 @@
 151.101.1.63 www.streamable.com
 38.32.110.58 2k.streamable.com
 151.101.65.63 streamable.com
-
 # [avwikidb.com]
 104.26.2.134 www.avwikidb.com
 172.67.75.87 avwikidb.com
+# [gelbooru.com]
+108.181.143.71 video-cdn3.gelbooru.com
+104.26.7.195 img2.gelbooru.com
+104.26.7.195 img4.gelbooru.com
+104.26.7.195 ja.gelbooru.com
+172.67.73.83 gelbooru.com
