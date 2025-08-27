@@ -11583,24 +11583,6 @@
 192.124.249.4 www.bilasport.net
 192.124.249.4 bilasport.net
 
-# [ryuugames.com]
-104.21.90.250 ryuugames.com
-104.21.90.250 www.ryuugames.com
-172.67.163.90 ryuugames.com
-172.67.163.90 www.ryuugames.com
-172.67.222.247 ryuugames.com
-172.67.222.247 www.ryuugames.com
-207.148.124.79 webdisk.ryuugames.com
-207.148.124.79 mail.ryuugames.com
-207.148.124.79 i.ryuugames.com
-207.148.124.79 cpcontacts.ryuugames.com
-207.148.124.79 cpanel.ryuugames.com
-207.148.124.79 webmail.ryuugames.com
-5.182.210.6 host.ryuugames.com
-207.148.124.79 ryuugame.ryuugames.com
-104.21.25.54 asmr.ryuugames.com
-172.67.163.90 asmr.ryuugames.com
-207.148.124.79 dc-fde393209c04.ryuugames.com
 
 # [hentaikuindo.pw]
 94.177.203.174 hentaikuindo.pw
@@ -21814,6 +21796,14 @@
 104.26.7.195 img4.gelbooru.com
 104.26.7.195 ja.gelbooru.com
 172.67.73.83 gelbooru.com
-
 # [p2p.binance.com]
 3.169.252.96 p2p.binance.com
+# [ryuugames.com]
+104.21.112.1 download.ryuugames.com
+104.21.64.1 webdisk.ryuugames.com
+104.21.80.1 cloud.ryuugames.com
+104.21.32.1 drive.ryuugames.com
+104.21.48.1 host.ryuugames.com
+104.21.16.1 asmr.ryuugames.com
+192.124.249.75 www.ryuugames.com
+192.124.249.75 ryuugames.com
