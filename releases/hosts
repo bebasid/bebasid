@@ -7863,19 +7863,6 @@
 67.205.25.100 littlewhitebutterflies.co
 67.205.25.100 www.littlewhitebutterflies.co
 
-# [nekopoi.care]
-172.64.198.13 nekopoi.care
-172.64.198.13 www.nekopoi.care
-172.64.199.13 nekopoi.care
-172.64.199.13 www.nekopoi.care
-104.21.234.208 nekopoi.care
-104.21.234.208 www.nekopoi.care
-104.21.234.209 nekopoi.care
-104.21.234.209 www.nekopoi.care
-172.64.110.8 nekopoi.care
-172.64.110.8 www.nekopoi.care
-172.64.111.8 nekopoi.care
-172.64.111.8 www.nekopoi.care
 
 # [hentaimanga.info]
 104.24.98.113 hentaimanga.info
@@ -25917,3 +25904,5 @@
 190.115.31.182 w.f95zone.to
 190.115.31.182 j.f95zone.to
 190.115.31.182 f95zone.to
+# [nekopoi.care]
+104.21.14.33 nekopoi.care
