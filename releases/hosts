@@ -10389,16 +10389,6 @@
 104.26.2.8 animeidhentai.com
 104.26.2.8 www.animeidhentai.com
 
-# [kimochi.info]
-172.64.201.32 kimochi.info
-172.64.201.32 www.kimochi.info
-172.64.200.32 kimochi.info
-172.64.200.32 www.kimochi.info
-172.64.137.13 kimochi.info
-172.64.137.13 www.kimochi.info
-172.64.200.32 mail.kimochi.info
-172.67.137.246 mail.kimochi.info
-172.64.200.32 images.kimochi.info
 
 # [nijicollage.xyz]
 104.31.94.44 nijicollage.xyz
@@ -14700,8 +14690,6 @@
 172.67.192.112 webmail.dlwibudesu.com
 172.67.192.112 webmail.wibudesu.com
 172.67.192.112 www.dlwibudesu.com
-172.67.192.112 www.zonakimochi.info.wibudesu.com
-172.67.192.112 zonakimochi.info.wibudesu.com
 172.67.192.112 carinesia.wibudesu.com
 172.67.192.112 www.carinesia.wibudesu.com
 172.67.192.112 www.zonakimochi.wibudesu.com
@@ -25940,10 +25928,11 @@
 37.19.207.37 data.streamable.com
 37.19.207.34 2k.streamable.com
 151.101.65.63 streamable.com
-
 # [hoshino.one]
 172.67.173.157 www.hoshino.one
 104.21.96.63 hoshino.one
-
 # [hdoujin.org]
 172.67.203.96 hdoujin.org
+# [kimochi.info]
+104.21.75.205 www.kimochi.info
+104.21.75.205 kimochi.info
