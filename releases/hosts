@@ -19887,17 +19887,6 @@
 104.21.74.36 www.everia.club
 172.67.197.49 everia.club
 
-# [4chan.org]
-104.19.143.99 static.4chan.org
-104.19.143.99 thumbs.4chan.org
-74.114.154.18 blog.4chan.org
-162.248.222.38 mail.4chan.org
-158.69.18.72 is2.4chan.org
-104.19.142.99 ims.4chan.org
-162.248.222.38 oms.4chan.org
-142.250.191.115 p.4chan.org
-104.19.143.99 4chan.org
-104.19.143.99 boards.4chan.org
 
 
 # [simpcity.su]
@@ -26006,6 +25995,12 @@
 5.183.209.137 comments.mangabuddy.com
 64.32.22.102 www.mangabuddy.com
 185.178.208.134 mangabuddy.com
-
 # [javxx.com]
 172.67.220.144 javxx.com
+# [4chan.org]
+162.248.222.38 mail.4chan.org
+74.114.154.18 blog.4chan.org
+162.248.222.38 oms.4chan.org
+158.69.18.72 is2.4chan.org
+142.251.35.83 p.4chan.org
+104.16.228.229 4chan.org
