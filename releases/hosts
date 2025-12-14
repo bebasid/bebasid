@@ -26004,3 +26004,11 @@
 158.69.18.72 is2.4chan.org
 142.251.35.83 p.4chan.org
 104.16.228.229 4chan.org
+
+# [asmr.one]
+104.21.50.254 prerender.asmr.one
+185.205.69.10 mta-sts.asmr.one
+104.21.50.254 sentry.asmr.one
+104.21.50.254 www.asmr.one
+104.21.50.254 api.asmr.one
+104.21.50.254 asmr.one
