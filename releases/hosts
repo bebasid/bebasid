@@ -1693,10 +1693,10 @@
 172.67.166.85 hentaihaven.com
 
 # [hentaihaven.xxx]
-172.64.204.18 hentaihaven.xxx
-172.64.204.18 www.hentaihaven.xxx
-172.64.204.18 www1.hentaihaven.xxx
-172.64.204.18 play.hentaihaven.xxx
+172.67.68.241 hentaihaven.xxx
+172.67.68.241 www.hentaihaven.xxx
+172.67.68.241 www1.hentaihaven.xxx
+172.67.68.241 play.hentaihaven.xxx
 
 # [hentaihaven.org]
 104.21.75.6 hentaihaven.org
@@ -10214,7 +10214,9 @@
 
 # [ohentai.org]
 104.26.15.17 ohentai.org
+# Alternative observed IP (kept commented to avoid ambiguous hosts resolution): 104.26.14.17 ohentai.org
 104.26.15.17 www.ohentai.org
+# Alternative observed IP (kept commented to avoid ambiguous hosts resolution): 104.26.14.17 www.ohentai.org
 
 # [toomics.com]
 64.62.198.195 toomics.com
@@ -20517,6 +20519,8 @@
 52.149.246.39 r.duckduckgo.com
 52.149.246.39 i.duckduckgo.com
 52.149.246.39 duckduckgo.com
+20.204.244.192 html.duckduckgo.com
+20.43.161.105 lite.duckduckgo.com
 
 # [xvideos.com]
 185.88.181.8 porn1-im-1fd2d000-23453556-mp4.x.xvideos.com
@@ -21613,6 +21617,8 @@
 192.124.249.75 ryuugames.com
 
 # [f95zone.to]
+104.21.66.96 f95zone.to
+104.21.66.96 www.f95zone.to
 190.115.31.182 aula34-demo-observer-downjones-chain-delegates.f95zone.to
 190.115.31.182 0610fgzdn-1104-y-https-www-clinicalkey-com.f95zone.to
 190.115.31.182 galaxy-note-2-gt-n7100-kitkat-4-4-2-root.f95zone.to
@@ -25734,7 +25740,6 @@
 190.115.31.182 k.f95zone.to
 190.115.31.182 w.f95zone.to
 190.115.31.182 j.f95zone.to
-190.115.31.182 f95zone.to
 
 # [nekopoi.care]
 104.21.14.33 nekopoi.care
@@ -25998,6 +26003,8 @@
 185.178.208.134 mangabuddy.com
 # [javxx.com]
 172.67.220.144 javxx.com
+172.67.220.144 icdn.javxx.com
+172.67.220.144 rec3.javxx.com
 # [4chan.org]
 162.248.222.38 mail.4chan.org
 74.114.154.18 blog.4chan.org
@@ -26005,6 +26012,9 @@
 158.69.18.72 is2.4chan.org
 142.251.35.83 p.4chan.org
 104.16.228.229 4chan.org
+104.16.228.229 boards.4chan.org
+104.16.228.229 sys.4chan.org
+104.18.144.7 boards.4channel.org
 
 # [asmr.one]
 104.21.50.254 prerender.asmr.one
@@ -26013,3 +26023,14 @@
 104.21.50.254 www.asmr.one
 104.21.50.254 api.asmr.one
 104.21.50.254 asmr.one
+
+# [mangapark.net]
+104.21.95.189 mangapark.net
+172.67.147.24 www.mangapark.net
+
+# [jastusa.com]
+104.26.2.24 jastusa.com
+172.67.69.33 www.jastusa.com
+
+# [naughtymachinima.com]
+69.16.244.64 www.naughtymachinima.com
