@@ -10214,9 +10214,9 @@
 
 # [ohentai.org]
 104.26.15.17 ohentai.org
-104.26.14.17 ohentai.org
+# Alternative observed IP (kept commented to avoid ambiguous hosts resolution): 104.26.14.17 ohentai.org
 104.26.15.17 www.ohentai.org
-104.26.14.17 www.ohentai.org
+# Alternative observed IP (kept commented to avoid ambiguous hosts resolution): 104.26.14.17 www.ohentai.org
 
 # [toomics.com]
 64.62.198.195 toomics.com
@@ -25740,7 +25740,6 @@
 190.115.31.182 k.f95zone.to
 190.115.31.182 w.f95zone.to
 190.115.31.182 j.f95zone.to
-190.115.31.182 f95zone.to
 
 # [nekopoi.care]
 104.21.14.33 nekopoi.care
