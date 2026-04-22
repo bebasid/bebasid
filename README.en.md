@@ -73,8 +73,8 @@ Starting from <b>Rp. **50.000,00**.
 > For ISP that implementing DPI, please read [this](#announcement-concerning-dpi).<br><br>
 > We do not support illegal activities such as online gambling. We strive for internet neutrality, not to break the law. Because of that, <b> we will ignore the request to add an online gambling site to our host. </b>
 
-## Table of Content
-- [Table of Content](#table-of-content)
+## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [BebasID](#bebasid)
     - [Windows](#windows)
     - [Linux](#linux)
@@ -83,7 +83,7 @@ Starting from <b>Rp. **50.000,00**.
     - [Other Methods](#other-methods)
 - [Contributing, Question, and Request](#contributing-question-and-request)
     - [Announcement Concerning DPI](#announcement-concerning-dpi)
-    - [Frequently Asked Question](#frequently-asked-question)
+    - [Frequently Asked Questions](#frequently-asked-questions)
 - [Terms and Conditions](#terms-and-conditions)
 
 ## BebasID
@@ -128,7 +128,7 @@ sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/host
 
 ### Android
 #### Bindhosts (Magisk Module)
-Install [bindhosts](https://github.com/backslashxx/bindhosts) module with Magisk, KernelSU or APatch.
+Install [bindhosts](https://github.com/backslashxx/bindhosts) module with Magisk, KernelSU, or APatch.
 Add hosts to bindhosts and run with WebUI [like this](https://imgur.com/a/FGUN2P9).
 If you use Magisk, use [KSU WebUI](https://github.com/5ec1cff/KsuWebUIStandalone) to access WebUI from bindhosts.
 
@@ -164,13 +164,13 @@ For other usage tutorials, please visit [OTHER USAGES](https://github.com/bebasi
 
 Please head to [CONTRIBUTING](https://github.com/bebasid/bebasid/blob/master/CONTRIBUTING.md) for the contributing guidelines.
 
-If you have any request or bug report, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
+If you have any requests or bug reports, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
 ### Announcement Concerning DPI
 <details>
 <summary>Click to open the announcement</summary>
 
-For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or turn on IPv6 and force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
+For Internet Service Providers (ISPs) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or turn on IPv6 and force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
 
 **Signs if the ISP is using DPI:**
 | HTTP protocol redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | while the HTTPS protocol ended with `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` | 
@@ -191,13 +191,13 @@ For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](htt
 
 </details>
 
-### Frequently Asked Question
+### Frequently Asked Questions
 
 If you have any problems using BebasID, you can ask on [Discord](https://discord.gg/EKrxZyu) or email [`dukungan@bebasid.com`](maproblemsgan@bebasid.com).
 
 ## Terms and Conditions
 
-By using the BebasID application, you can read, understand, and agree to all the rules we have made and accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
+By using the BebasID application, you can read, understand, and agree to all the rules we have made and accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use the BebasID application. For more information about the rules, you can see them on the [RULES](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) page.
 
 <be>
 
