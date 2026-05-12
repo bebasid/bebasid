@@ -5,7 +5,7 @@ labels:
   - bug
   - sites
 assignees: 
-  - ryukora
+  - galpt,ryukora
 body:
   - type: markdown
     attributes:
