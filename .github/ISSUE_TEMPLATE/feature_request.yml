@@ -5,7 +5,7 @@ labels:
   - request
   - sites
 assignees: 
-  - gvoze32
+  - galpt
   - ryukora
 body:
   - type: input
