@@ -4,7 +4,7 @@ title: '[REM] example.com'
 labels: 
   - sites
 assignees: 
-  - gvoze32
+  - galpt
   - ryukora
 body:
   - type: markdown
