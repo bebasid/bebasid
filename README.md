@@ -76,7 +76,7 @@ Dimulai dari **Rp. 50.000,00**.
 ##
 > [!IMPORTANT]  
 > Untuk Provider (ISP) yang memakai DPI, harap baca [ini](#pemberitahuan-tentang-dpi).<br><br>
-> Kami tidak akan menfasilitasi hal illegal seperti Judi Online, Kami bertujuan untuk netralitas internet, bukan melawan hukum dan merugikan masyarakat. Sehingga <b>Kami tidak akan menghiraukan permintaan untuk menambah situs judol ke host kami.</b>
+> Kami tidak akan memfasilitasi hal ilegal seperti judi online. Kami bertujuan untuk menjaga netralitas internet, bukan melawan hukum dan merugikan masyarakat. Kami tidak akan menghiraukan permintaan untuk menambah situs judol ke host kami.</b>
 
 ## Daftar Isi
 - [Daftar Isi](#daftar-isi)
@@ -89,10 +89,11 @@ Dimulai dari **Rp. 50.000,00**.
 - [Berkontribusi, Pertanyaan, atau Permintaan](#berkontribusi-pertanyaan-atau-permintaan)
   - [Pemberitahuan tentang DPI](#pemberitahuan-tentang-dpi)
   - [Pertanyaan Umum](#pertanyaan-umum)
+- [Lisensi](#lisensi)
 - [Syarat dan Ketentuan](#syarat-dan-ketentuan)
 
 ## BebasID
-Dengan BebasID, anda dapat membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
+Dengan BebasID, Anda dapat membuka halaman situs web yang diblokir dengan memanfaatkan [_hosts file_](<https://en.wikipedia.org/wiki/Hosts_(file)>).
 
 ### Windows
 #### Antarmuka Pengguna Grafis (GUI) - Sedang Perbaikan
@@ -112,7 +113,7 @@ Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Comm
 
 #### BebasHosts Portable
 BebasHosts adalah penulisan ulang (*rewrite*) dari aplikasi BebasID untuk mengatur hosts file. Anda dapat menggunakan [aplikasi BebasHosts](https://github.com/bebasid/bebasid/raw/master/releases/BebasHosts%20Portable.zip) dengan 2 fungsi utama, yaitu:
-1. `.Host-Update.bat` digunakan untuk memodifikasi hosts file Anda dengan file hosts dari BebasID.
+1. `.Host-Update.bat` digunakan untuk memodifikasi file hosts Anda dengan file hosts dari BebasID.
 2. `.Host-Reset.bat` digunakan untuk mengembalikan hosts file Anda ke kondisi default dari Windows.
 
 ### Linux
@@ -133,9 +134,9 @@ sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/host
 
 ### Android
 #### Bindhosts (Module Magisk)
-Pasang module [bindhosts](https://github.com/backslashxx/bindhosts) ke Magisk, KernelSU atau APatch.
+Pasang modul [bindhosts](https://github.com/backslashxx/bindhosts) ke Magisk, KernelSU atau APatch.
 Tambahkan hosts ke bindhosts dan jalankan action menggunakan WebUI [seperti ini](https://imgur.com/a/FGUN2P9).
-Jika anda menggunakan Magisk, gunakan [KSU WebUI](https://github.com/5ec1cff/KsuWebUIStandalone) untuk mengakses WebUI dari bindhosts.
+Jika Anda menggunakan Magisk, gunakan [KSU WebUI](https://github.com/5ec1cff/KsuWebUIStandalone) untuk mengakses WebUI dari bindhosts.
 
 ### macOS
 #### BebasID Shell
@@ -173,9 +174,9 @@ Untuk melaporkan masalah atau mengajukan permintaan fitur, silakan [buka isu bar
 <details>
 <summary>Pencet untuk buka pemberitahuan</summary>
 
-Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
+Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya terpaksa jika ISP-nya sudah mendukung.
 
-Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
+Bagi provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
 
 **Ciri-ciri ISP menggunakan DPI:**
 | Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -195,6 +196,10 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 |:-|:-|:-|
 
 </details>
+
+## Lisensi
+
+[BebasID](#bebasid) telah berlisensi di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE) tersebut.
 
 ### Pertanyaan Umum
 Jika Anda mengalami masalah saat menggunakan BebasID, silakan tanyakan di [Discord](https://discord.gg/EKrxZyu) atau kirim email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com).
