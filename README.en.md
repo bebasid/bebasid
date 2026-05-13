@@ -1,5 +1,9 @@
 <div align="center">
 
+#### BEBASID Menu
+| **BEBAS🕊️ID** | [BEBAS🕊️DNS](https://github.com/bebasid/bebasdns) | [BEBAS🕊️IT](https://github.com/bebasid/bebasit) | [K🕊️minFudge](https://github.com/bebasid/KominFudge) |
+|-|-|-|-|
+
 #### Bahasa / Language
 | <img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> [Indonesia](README.md) | <img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> **English** |
 |-|-|
@@ -49,13 +53,15 @@
 </a>
 </p>
 
+<!--
 ## Sponsor
 
 *A freedom-oriented and neutral VPS provider for your needs.*
 
-| <a href="https://member.atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
-|-|
-| <p align="center">[atharva.co.id](https://member.atharva.co.id)</p> |
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75)</a> | <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/assets/atharva-logo-white-jdBmQylO.png" width="380"></a> |
+| - | - |
+| <p align="center">[qdei.co](https://qdei.co)</p> | <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+//-->
 
 <!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
