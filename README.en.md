@@ -204,7 +204,7 @@ If you have any problems using BebasID, you can ask on [Discord](https://discord
 
 ## License
 
-[BebasID](#bebasid) is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
+[BebasID](#bebasid) is licensed under [MIT License](https://github.com/bebasid/bebasid/blob/main/LICENSE).
 
 ## Terms and Conditions
 
