@@ -1,7 +1,7 @@
 <div align="center">
 
 #### BEBASID Menu
-| **BEBAS🕊️ID** | [BEBAS🕊️DNS](https://github.com/bebasid/bebasdns/blob/main/README.en.md) | [BEBAS🕊️IT](https://github.com/bebasid/bebasit/blob/main/README.en.md) | [K🕊️minFudge](https://github.com/bebasid/KominFudge/blob/main/README.en.md) |
+| **BEBAS🕊️ID** | [BEBAS🕊️DNS](https://github.com/bebasid/bebasdns/blob/main/README.en.md) | [BEBAS🕊️IT](https://github.com/bebasid/bebasit/blob/master/README.en.md) | [K🕊️minFudge](https://github.com/bebasid/KominFudge/blob/main/README.en.md) |
 |-|-|-|-|
 
 #### Bahasa / Language
@@ -90,6 +90,7 @@ Starting from <b>Rp. **50.000,00**.
 - [Contributing, Question, and Request](#contributing-question-and-request)
     - [Announcement Concerning DPI](#announcement-concerning-dpi)
     - [Frequently Asked Questions](#frequently-asked-questions)
+- [License](#license)
 - [Terms and Conditions](#terms-and-conditions)
 
 ## BebasID
@@ -200,6 +201,10 @@ For Internet Service Providers (ISPs) that use [Deep Packet Inspection (DPI)](ht
 ### Frequently Asked Questions
 
 If you have any problems using BebasID, you can ask on [Discord](https://discord.gg/EKrxZyu) or email [`dukungan@bebasid.com`](maproblemsgan@bebasid.com).
+
+## License
+
+[BebasID](#bebasid) is licensed under [MIT License](https://github.com/bebasid/bebasid/blob/main/LICENSE).
 
 ## Terms and Conditions
 
