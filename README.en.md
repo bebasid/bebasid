@@ -1,7 +1,7 @@
 <div align="center">
 
 #### BEBASID Menu
-| **BEBAS🕊️ID** | [BEBAS🕊️DNS](https://github.com/bebasid/bebasdns) | [BEBAS🕊️IT](https://github.com/bebasid/bebasit) | [K🕊️minFudge](https://github.com/bebasid/KominFudge) |
+| **BEBAS🕊️ID** | [BEBAS🕊️DNS](https://github.com/bebasid/bebasdns/blob/main/README.en.md) | [BEBAS🕊️IT](https://github.com/bebasid/bebasit/blob/main/README.en.md) | [K🕊️minFudge](https://github.com/bebasid/KominFudge/blob/main/README.en.md) |
 |-|-|-|-|
 
 #### Bahasa / Language
