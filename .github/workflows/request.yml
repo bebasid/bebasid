@@ -15,25 +15,122 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           comment: Terima kasih atas kontribusi Anda, permintaan penambahan domain Anda akan segera diterapkan.
-      - name: Update Domainlist from Issue
+      - name: Extract Domain
         run: |
           domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          echo "$domain" >> dev/domainlist
-          echo "Domain $domain added to domainlist."
+          echo "DOMAIN=$domain" >> $GITHUB_ENV
+          echo "Domain extracted: $domain"
+      - name: Update Domainlist from Issue
+        run: |
+          echo "$DOMAIN" >> dev/domainlist
+          echo "Domain $DOMAIN added to domainlist."
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl unzip wget jq
-          curl -LO https://github.com/findomain/findomain/releases/latest/download/findomain-linux.zip
-          unzip findomain-linux.zip
-          chmod +x findomain
-          sudo mv findomain /usr/bin/findomain
-          wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/scan.py
+          sudo apt-get install -y curl unzip wget jq python3-pip git
+
+          # Semua instalasi tool bersifat opsional, skip jika gagal
+          set +e
+
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH 2>/dev/null
+          export PATH="$PATH:$(go env GOPATH)/bin" 2>/dev/null
+
+          echo "=== Installing Findomain ==="
+          (curl -sLO https://github.com/findomain/findomain/releases/latest/download/findomain-linux.zip && \
+            unzip -o findomain-linux.zip && chmod +x findomain && sudo mv findomain /usr/bin/findomain) 2>&1 || echo "[SKIP] Findomain install failed"
+
+          echo "=== Installing Subfinder ==="
+          go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest 2>&1 || echo "[SKIP] Subfinder install failed"
+
+          echo "=== Installing Amass ==="
+          go install -v github.com/owasp-amass/amass/v4/cmd/amass@latest 2>&1 || echo "[SKIP] Amass install failed"
+
+          echo "=== Installing dnssearch ==="
+          go install -v github.com/evilsocket/dnssearch@latest 2>&1 || echo "[SKIP] dnssearch install failed"
+
+          echo "=== Installing Sublist3r ==="
+          pip install sublist3r 2>&1 || echo "[SKIP] Sublist3r install failed"
+
+          echo "=== Installing Knock ==="
+          pip install knockpy 2>&1 || echo "[SKIP] Knock install failed"
+
+          echo "=== Installing DNSRecon ==="
+          pip install dnsrecon 2>&1 || echo "[SKIP] DNSRecon install failed"
+
+          echo "=== Installing SubBrute ==="
+          git clone --depth 1 https://github.com/TheRook/subbrute.git /opt/subbrute 2>&1 || echo "[SKIP] SubBrute clone failed"
+
+          echo "=== Installing Sudomy ==="
+          git clone --depth 1 https://github.com/Screetsec/Sudomy.git /opt/sudomy 2>&1 || echo "[SKIP] Sudomy clone failed"
+
+          set -e
+          wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/scan.py || cp dev/scripts/scan.py .
           echo "INSTALLATION DONE - ALL SET"
-      - name: Run Findomain
+      - name: Run Subdomain Enumeration
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          findomain -t "$domain" -u hasilunsorted
+          # Jangan exit jika ada tool yang gagal, lanjut ke tool berikutnya
+          set +e
+
+          mkdir -p results
+          escaped_domain=$(echo "$DOMAIN" | sed 's/\./\\./g')
+
+          echo "=== [1/9] Findomain ==="
+          timeout 300 findomain -t "$DOMAIN" -u results/findomain.txt 2>/dev/null && \
+            echo "Findomain: $(wc -l < results/findomain.txt) subdomains" || echo "[SKIP] Findomain"
+
+          echo "=== [2/9] Subfinder ==="
+          timeout 300 subfinder -d "$DOMAIN" -silent -o results/subfinder.txt 2>/dev/null && \
+            echo "Subfinder: $(wc -l < results/subfinder.txt) subdomains" || echo "[SKIP] Subfinder"
+
+          echo "=== [3/9] Amass (passive) ==="
+          timeout 600 amass enum -passive -d "$DOMAIN" -o results/amass.txt 2>/dev/null && \
+            echo "Amass: $(wc -l < results/amass.txt) subdomains" || echo "[SKIP] Amass"
+
+          echo "=== [4/9] Sublist3r ==="
+          timeout 300 sublist3r -d "$DOMAIN" -o results/sublist3r.txt 2>/dev/null && \
+            echo "Sublist3r: $(wc -l < results/sublist3r.txt) subdomains" || echo "[SKIP] Sublist3r"
+
+          echo "=== [5/9] Knock ==="
+          timeout 300 knockpy "$DOMAIN" 2>/dev/null | \
+            grep -oE "[a-zA-Z0-9._-]+\\.${escaped_domain}" | sort -u > results/knock.txt || true
+          [ -s results/knock.txt ] && echo "Knock: $(wc -l < results/knock.txt) subdomains" || echo "[SKIP] Knock"
+
+          echo "=== [6/9] DNSRecon ==="
+          timeout 300 dnsrecon -d "$DOMAIN" -t std 2>/dev/null | \
+            grep -oE "[a-zA-Z0-9._-]+\\.${escaped_domain}" | sort -u > results/dnsrecon.txt || true
+          [ -s results/dnsrecon.txt ] && echo "DNSRecon: $(wc -l < results/dnsrecon.txt) subdomains" || echo "[SKIP] DNSRecon"
+
+          echo "=== [7/9] SubBrute ==="
+          if [ -f /opt/subbrute/subbrute.py ]; then
+            timeout 600 python3 /opt/subbrute/subbrute.py "$DOMAIN" > results/subbrute.txt 2>/dev/null || true
+            [ -s results/subbrute.txt ] && echo "SubBrute: $(wc -l < results/subbrute.txt) subdomains" || echo "[SKIP] SubBrute"
+          else
+            echo "[SKIP] SubBrute not installed"
+          fi
+
+          echo "=== [8/9] dnssearch ==="
+          timeout 300 dnssearch -domain "$DOMAIN" 2>/dev/null | \
+            grep -oE "[a-zA-Z0-9._-]+\\.${escaped_domain}" | sort -u > results/dnssearch.txt || true
+          [ -s results/dnssearch.txt ] && echo "dnssearch: $(wc -l < results/dnssearch.txt) subdomains" || echo "[SKIP] dnssearch"
+
+          echo "=== [9/9] Sudomy ==="
+          if [ -f /opt/sudomy/sudomy ]; then
+            timeout 600 bash /opt/sudomy/sudomy -d "$DOMAIN" 2>/dev/null || true
+            find . -path "*/output/*" -name "subdomain.txt" -exec cat {} \; > results/sudomy.txt 2>/dev/null || true
+            [ -s results/sudomy.txt ] && echo "Sudomy: $(wc -l < results/sudomy.txt) subdomains" || echo "[SKIP] Sudomy"
+          else
+            echo "[SKIP] Sudomy not installed"
+          fi
+
+          # Kembali ke mode strict untuk merge
+          set -e
+
+          echo ""
+          echo "=== Merging All Results ==="
+          cat results/*.txt 2>/dev/null | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | sort -u > hasilunsorted || true
+          touch hasilunsorted
+          total=$(wc -l < hasilunsorted)
+          echo "Total unique subdomains found: $total"
       - name: Sort Subdomains
         run: |
           python - <<EOF
@@ -66,8 +163,7 @@ jobs:
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           git add releases/hosts dev/domainlist
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          git commit -m "Add $domain to hosts (#$issue_number)"
+          git commit -m "Add $DOMAIN to hosts (#$issue_number)"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
