@@ -17,7 +17,7 @@ jobs:
           comment: Terima kasih atas kontribusi Anda, permintaan koreksi domain Anda akan segera diterapkan.
       - name: Remove Domain
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain atau lain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
           sed "/$domain/d" releases/hosts > releases/hosts.tmp
           mv releases/hosts.tmp releases/hosts
       - name: Install Dependencies
@@ -32,8 +32,8 @@ jobs:
           echo "INSTALLATION DONE - ALL SET"
       - name: Run Findomain
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p')
-          findomain -t $domain -u hasilunsorted
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain atau lain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
+          findomain -t "$domain" -u hasilunsorted
       - name: Sort Subdomains
         run: |
           python - <<EOF
@@ -52,10 +52,11 @@ jobs:
           cat hosts-hasilsorted
       - name: Release hosts
         run: |
+          printf '\n' >> releases/hosts
           cat hosts-hasilsorted | sudo tee -a releases/hosts > /dev/null
       - name: Rerelease hosts
         run: |
-          sed ':a;N;$!ba;s/\n\n/\n/g' releases/hosts > releases/hosts.tmp
+          sed ':a;N;$!ba;s/\n\n\n*/\n\n/g' releases/hosts > releases/hosts.tmp
           mv releases/hosts.tmp releases/hosts
       - name: Commit changes
         env:
@@ -65,7 +66,7 @@ jobs:
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           git add releases/hosts
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain atau lain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
           git commit -m "Fix $domain bug (#$issue_number)"
       - name: Push changes
         uses: ad-m/github-push-action@master

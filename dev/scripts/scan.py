@@ -37,6 +37,9 @@ def execute(file):
     lenLiveHostname = lenDieHostname = lenCantWrite = resultHostname = 0
     print("\nMemulai Proses\n")
     for hostname in hostnameList:
+        hostname = hostname.strip()
+        if not hostname:
+            continue
         try:
             hasWritten = False
             hostnameIp = gethostbyname(hostname)
@@ -64,7 +67,7 @@ def execute(file):
                         break
             if not(hasWritten):
                 resultFile = open(os.path.join(path[0],"hosts-"+file), 'a')
-                hostsText = "\n\n# [{0}]\n{1} {2}".format(hostname,hostnameIp, hostname)
+                hostsText = "\n\n# [{0}]\n{1} {2}\n".format(hostname,hostnameIp, hostname)
                 if(resultFile.write(hostsText)):
                     lenLiveHostname += 1
                     print("Domain: {0}\nIP Address: {1}\n".format(hostname, hostnameIp))

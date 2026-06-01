@@ -17,8 +17,8 @@ jobs:
           comment: Terima kasih atas kontribusi Anda, permintaan penambahan domain Anda akan segera diterapkan.
       - name: Update Domainlist from Issue
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
-          echo -e "$domain" >> dev/domainlist
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
+          echo "$domain" >> dev/domainlist
           echo "Domain $domain added to domainlist."
       - name: Install Dependencies
         run: |
@@ -32,8 +32,8 @@ jobs:
           echo "INSTALLATION DONE - ALL SET"
       - name: Run Findomain
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
-          findomain -t $domain -u hasilunsorted
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
+          findomain -t "$domain" -u hasilunsorted
       - name: Sort Subdomains
         run: |
           python - <<EOF
@@ -52,7 +52,12 @@ jobs:
           cat hosts-hasilsorted
       - name: Release hosts
         run: |
+          printf '\n' >> releases/hosts
           cat hosts-hasilsorted | sudo tee -a releases/hosts > /dev/null
+      - name: Normalize hosts
+        run: |
+          sed ':a;N;$!ba;s/\n\n\n*/\n\n/g' releases/hosts > releases/hosts.tmp
+          mv releases/hosts.tmp releases/hosts
       - name: Commit changes
         env:
           issue_number: ${{ github.event.issue.number }}
@@ -61,7 +66,7 @@ jobs:
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           git add releases/hosts dev/domainlist
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | sed -n '3p' | tr -d '[:space:]')
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
           git commit -m "Add $domain to hosts (#$issue_number)"
       - name: Push changes
         uses: ad-m/github-push-action@master
