@@ -21588,12 +21588,6 @@
 104.26.2.134 www.avwikidb.com
 172.67.75.87 avwikidb.com
 
-# [gelbooru.com]
-108.181.143.71 video-cdn3.gelbooru.com
-104.26.7.195 img2.gelbooru.com
-104.26.7.195 img4.gelbooru.com
-104.26.7.195 ja.gelbooru.com
-172.67.73.83 gelbooru.com
 
 # [p2p.binance.com]
 3.169.252.96 p2p.binance.com
@@ -26048,3 +26042,11 @@
 # [simpcity.cr]
 190.115.31.84 www.simpcity.cr
 190.115.31.84 simpcity.cr
+
+# [gelbooru.com]
+131.143.124.72 video-cdn4.gelbooru.com
+131.143.124.74 img4.gelbooru.com
+131.143.124.72 img2.gelbooru.com
+131.143.124.72 www.gelbooru.com
+131.143.124.72 ja.gelbooru.com
+131.143.124.72 gelbooru.com
