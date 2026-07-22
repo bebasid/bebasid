@@ -200,7 +200,7 @@ For Internet Service Providers (ISPs) that use [Deep Packet Inspection (DPI)](ht
 
 ### Frequently Asked Questions
 
-If you have any problems using BebasID, you can ask on [Discord](https://discord.gg/EKrxZyu) or email [`dukungan@bebasid.com`](maproblemsgan@bebasid.com).
+If you have any problems using BebasID, you can ask on [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) / [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) or email [`dukungan@bebasid.com`](maproblemsgan@bebasid.com).
 
 ## License
 
