@@ -202,7 +202,7 @@ Bagi provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 [BebasID](#bebasid) telah berlisensi di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE) tersebut.
 
 ### Pertanyaan Umum
-Jika Anda mengalami masalah saat menggunakan BebasID, silakan tanyakan di [Discord](https://discord.gg/EKrxZyu) atau kirim email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com).
+Jika Anda mengalami masalah saat menggunakan BebasID, silakan tanyakan di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) / [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) atau kirim email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com).
 
 ## Syarat dan Ketentuan
 Dengan menggunakan aplikasi BebasID, Anda dianggap telah membaca, memahami, serta menyetujui semua peraturan yang telah kami buat. Jika Anda tidak menyetujui peraturan tersebut, maka Anda tidak diperkenankan menggunakan aplikasi BebasID. Untuk informasi lebih lanjut tentang aturan yang berlaku, Anda dapat mengunjungi halaman [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md).
