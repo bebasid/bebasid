@@ -79,8 +79,6 @@ bantuan(){
   echo "menu        : Menampilkan opsi menu bebasid"
   echo "hosts"
   echo "  install   : Mengganti hosts bawaan dengan hosts bebasid"
-  echo "    --r18   : Mengganti hosts bawaan dengan hosts bebasid (R-18)"
-  echo "  change    : Mengubah tipe host SFW menjadi NSFW"
   echo "  update    : Memperbarui hosts bebasid"
   echo "  remove    : Menghapus hosts bebasid"
   echo "app"
@@ -143,7 +141,7 @@ curl_wget(){
 check_duplicate_unblock(){
   echo "Memeriksa apakah domain $domain telah tercatat dalam file hosts"
   begin="$(grep -n "$domain" /etc/hosts | head -n 1 | cut -d: -f1)"
-  if [[ $begin>0 ]]; then
+  if [[ $begin -gt 0 ]]; then
   echo "Domain $domain telah tercatat dalam file hosts"
   echo
   echo "=== GAGAL MELAKUKAN PROSES UNBLOCK ===="
@@ -244,7 +242,7 @@ hapus_aplikasi_bebasid(){
   echo "== MEMULAI PENGHAPUSAN APLIKASI BEBASID =="
   echo
   loadin 0.01 "Menghapus aplikasi BEBASID"
-  if sudo rm -rf /usr/local/bin/bebasid; then
+  if sudo rm -f /usr/local/bin/bebasid; then
   echo
   echo "===== APLIKASI BEBASID TELAH DIHAPUS ====="
   else
@@ -253,14 +251,7 @@ hapus_aplikasi_bebasid(){
   fi
 }
 ambil_hosts_bebasid(){
-  case $1 in
-  "SFW" )
-    yuerel=https://raw.githubusercontent.com/bebasid/bebasid/master/dev/resources/hosts.sfw
-    ;;
-  "NSFW" )
-    yuerel=https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
-    ;;
-  esac
+  yuerel=https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts
   echo "Memulai pengambilan file hosts BEBASID"
   echo
   dir=/etc/hosts
@@ -292,14 +283,14 @@ pasang_hosts_bebasid(){
   else
   echo "Pastikan komputer telah terpasang cURL atau wget"
   loadin 0.01 "Memulai instalasi"
-  reset
+  clear
   bebasid_banner
   curl_wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/readme/RULES.md "" "-qO-"
   $ambil
   echo
   echo "Dengan melanjutkan berarti secara langsung dan tidak langsung, anda menyetujui apa yang tertulis diatas "
   read -p "Apakah anda yakin ingin melanjutkan pemasangan BEBASID? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-  reset
+  clear
   # Codingan "Yang Penting Jalan" 
   echo "Mengecek koneksi dengan internet"
   echo "Komputer terhubung dengan internet"
@@ -320,26 +311,7 @@ $backup
 # Konfigurasi Tambahan Pribadi
 EOF
   echo
-  if [ -z "$1" ]; then
-    PS3='Pilih salah satu tipe hosts: '
-    echo
-    typeChoice=("Safe for Work" "Not Safe for Work")
-    select typeChoiceOpt in "${typeChoice[@]}"
-    do
-    case $typeChoiceOpt in
-      "Safe for Work" )
-      ambil_hosts_bebasid "SFW"
-      break
-      ;;
-      "Not Safe for Work" )
-      ambil_hosts_bebasid "NSFW"
-      break
-      ;;
-    esac
-    done
-  else
-    ambil_hosts_bebasid $1
-  fi
+  ambil_hosts_bebasid
   fi
 }
 perbarui_hosts_bebasid(){
@@ -348,47 +320,14 @@ perbarui_hosts_bebasid(){
   echo
   loadin 0.01 "Memeriksa kondisi"
   if [ -e /etc/hosts.bak-bebasid ]; then
-  echo "Mengecek tipe hosts BEBASID yang dipakai"
-  linePertama=$(sed "1q;d" /etc/hosts)
-  if ! [[ $linePertama == *"Safe"* ]]; then
-    echo "Type: NSFW"
-    type="NSFW"
-  else
-    echo "Type: SFW"
-    type="SFW"
-  fi
   sudo rm /etc/hosts
-  ambil_hosts_bebasid $type
-  exit 1
+  ambil_hosts_bebasid
+  exit 0
   else
   errorin "hosts bebasid belum terpasang, silakan pasang hosts bebasid terlebih dahulu"
   fi
 }
-ubah_type_hosts_bebasid(){
-    cek_koneksi_dengan_internet
-    echo "====== UBAH TYPE HOSTS BEBASID  ======"
-    echo
-    loadin 0.01 "Memeriksa kondisi"
-  if [ -e /etc/hosts.bak-bebasid ]; then
-  echo "Mengecek tipe hosts BEBASID yang dipakai"
-  linePertama=$(sed "1q;d" /etc/hosts)
-  if ! [[ $linePertama == *"Safe"* ]]; then
-    echo "Type Hosts Awal: NSFW"
-            echo "Type Hosts Akan diubah ke SFW"
-    type="SFW"
-  else
-    echo "Type Hosts Awal: SFW"
-            echo "Type Hosts Akan diubah ke NSFW"
-    type="NSFW"
-  fi
-        read -p "Apakah anda yakin ingin melanjutkan? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-  sudo rm /etc/hosts
-  ambil_hosts_bebasid $type
-  exit 1
-  else
-  errorin "hosts bebasid belum terpasang, silakan pasang hosts bebasid terlebih dahulu"
-  fi
-}
+
 hapus_hosts_bebasid(){
   echo "=== MEMULAI PENCOPOTAN HOSTS BEBASID ==="
   echo
@@ -663,7 +602,7 @@ tambahkan_localhost_android(){
 }
 kembalikan_hosts(){
 sudo bash -c "cat > /etc/hosts" <<EOF
-127.0.1.1 myhostname
+127.0.1.1 $(hostname)
 127.0.0.1 localhost
 
 # The following lines are desirable for IPv6 capable hosts
@@ -789,7 +728,7 @@ case $1 in
   echo "+---------------------------------------+"
   echo "|              MENU  UTAMA              |"
   echo "+---------------------------------------+"
-  echo""
+  echo ""
   PS3='Pilih salah satu opsi: '
   echo
   menuUtama=("Hosts" "Fitur" "Tunnel" "Aplikasi" "Paket" "Bantuan" "Keluar")
@@ -812,14 +751,6 @@ case $1 in
         pasang_hosts_bebasid
         break
         ;;
-        "Pasang Hosts BEBASID (R-18)" )
-        pasang_hosts_bebasid "NSFW"
-        break
-        ;;
-        "Change Type Hosts BEBASID" )
-        ambil_hosts_bebasid "NSFW"
-        break
-        ;;
         "Perbarui Hosts BEBASID" )
         echo
         perbarui_hosts_bebasid
@@ -830,9 +761,6 @@ case $1 in
         hapus_hosts_bebasid
         break
         ;;
-        #"Menu Sebelumnya" )
-        #  break
-        #  ;;
         "Keluar" )
         break
         ;;
@@ -880,9 +808,6 @@ case $1 in
         echo
         kembalikan_hosts
         ;;
-        #"Menu Sebelumnya" )
-        #  break
-        #  ;;
         "Keluar" )
         break
         ;;
@@ -951,9 +876,6 @@ case $1 in
                 done	
                 break	
                 ;;	
-              #"Menu Sebelumnya" )	
-              #  break	
-              #  ;;	
               "Keluar" )	
                 break	
                 ;;	
@@ -983,9 +905,6 @@ case $1 in
         hapus_aplikasi_bebasid
         break
         ;;
-        #"Menu Sebelumnya" )
-        #  break
-        #  ;;
         "Keluar" )
         break
         ;;
@@ -1033,9 +952,6 @@ case $1 in
         hapus_paket_bebasid
         break
         ;;
-        #"Menu Sebelumnya" )
-        #  break
-        #  ;;
         "Keluar" )
         break
         ;;
@@ -1060,17 +976,7 @@ case $1 in
   hosts )
   case $2 in
     install )
-    case $3 in
-    "--r18" )
-      pasang_hosts_bebasid "NSFW"
-      ;;
-    * )
-      pasang_hosts_bebasid "SFW"
-      ;;
-    esac
-    ;;
-    change )
-    ubah_type_hosts_bebasid
+    pasang_hosts_bebasid
     ;;
     update )
     perbarui_hosts_bebasid
@@ -1088,7 +994,7 @@ case $1 in
     perbarui_aplikasi_bebasid
     ;;
     uninstall )
-    hapus_hosts_bebasid
+    hapus_aplikasi_bebasid
     ;;
     * )
     echo "Perintah tidak dikenali, ketik bebasid --help untuk bantuan"
@@ -1163,23 +1069,22 @@ case $1 in
     esac	
     ;;
   block )
-  if [ -z $2 ]; then
+  if [ -z "$2" ]; then
     echo "[website] tidak ditentukan"
     read -p "Masukkan website yang ingin diblock: " domain
     read -p "Apakah sudah benar? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-    grep_ip
-    unblock_hosts
+    block_hosts
   else
   domain=$2
   block_hosts
   fi
   ;;
   unblock )
-  if [ -z $2 ]; then
+  if [ -z "$2" ]; then
     echo "[website] tidak ditentukan"
     read -p "Masukkan website yang ingin diunblock: " domain
     read -p "Apakah sudah benar? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
-    check_connection
+    cek_koneksi_dengan_internet
     echo "===== MEMULAI PROSES UNBLOCK HOSTS ===="
     echo
     cek_koneksi_dengan_internet
@@ -1196,7 +1101,7 @@ case $1 in
   fi
   ;;
   localhost )
-  if [ -z $2 ]; then
+  if [ -z "$2" ]; then
     echo "[website] tidak ditentukan"
     read -p "Masukkan website yang ingin diunblock: " domain
     read -p "Apakah sudah benar? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
@@ -1215,9 +1120,6 @@ case $1 in
     fi
     localhost_hosts
   fi
-  ;;
-  "--help" )
-  bantuan
   ;;
   "--about" )
   bebasid_banner
