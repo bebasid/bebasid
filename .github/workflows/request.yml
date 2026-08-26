@@ -10,21 +10,45 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: Extract Domain
+        run: |
+          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
+          domain=$(printf '%s' "$domain" | tr '[:upper:]' '[:lower:]' | sed 's/\.$//')
+          if [ -z "$domain" ]; then
+            echo "Unable to extract domain from issue body." >&2
+            exit 1
+          fi
+          echo "DOMAIN=$domain" >> "$GITHUB_ENV"
+          echo "Domain extracted: $domain"
+      - name: Check Duplicate Domain
+        id: check_duplicate
+        run: |
+          if grep -Fxiq -- "$DOMAIN" dev/domainlist || grep -Fqi -- "# [$DOMAIN]" releases/hosts; then
+            echo "duplicate=true" >> "$GITHUB_OUTPUT"
+            echo "Duplicate domain detected: $DOMAIN"
+          else
+            echo "duplicate=false" >> "$GITHUB_OUTPUT"
+            echo "Domain is new: $DOMAIN"
+          fi
+      - name: Close Duplicate Issue
+        if: steps.check_duplicate.outputs.duplicate == 'true'
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: Domain yang diminta sudah ada di daftar domain, jadi issue ini ditutup sebagai duplikat.
       - name: Close Issue
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
           comment: Terima kasih atas kontribusi Anda, permintaan penambahan domain Anda akan segera diterapkan.
-      - name: Extract Domain
-        run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          echo "DOMAIN=$domain" >> $GITHUB_ENV
-          echo "Domain extracted: $domain"
       - name: Update Domainlist from Issue
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         run: |
           echo "$DOMAIN" >> dev/domainlist
           echo "Domain $DOMAIN added to domainlist."
       - name: Install Dependencies
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y curl unzip wget jq python3-pip git
@@ -67,6 +91,7 @@ jobs:
           wget https://raw.githubusercontent.com/bebasid/bebasid/master/dev/scripts/scan.py || cp dev/scripts/scan.py .
           echo "INSTALLATION DONE - ALL SET"
       - name: Run Subdomain Enumeration
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         run: |
           # Jangan exit jika ada tool yang gagal, lanjut ke tool berikutnya
           set +e
@@ -160,6 +185,7 @@ jobs:
           print(f"Total unique subdomains found: {len(candidates)}")
           PY
       - name: Sort Subdomains
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         run: |
           python - <<EOF
           with open('hasilunsorted', 'r') as file:
@@ -170,20 +196,24 @@ jobs:
               file.write(sorted_content)
           EOF
       - name: Run Scan
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         run: |
           python scan.py hasilsorted
           echo
           echo "Result Lists:"
           cat hosts-hasilsorted
       - name: Release hosts
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         run: |
           printf '\n' >> releases/hosts
           cat hosts-hasilsorted | sudo tee -a releases/hosts > /dev/null
       - name: Normalize hosts
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         run: |
           sed ':a;N;$!ba;s/\n\n\n*/\n\n/g' releases/hosts > releases/hosts.tmp
           mv releases/hosts.tmp releases/hosts
       - name: Commit changes
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         env:
           issue_number: ${{ github.event.issue.number }}
           # issue_user: ${{ github.event.issue.user.login }}
@@ -193,6 +223,7 @@ jobs:
           git add releases/hosts dev/domainlist
           git commit -m "Add $DOMAIN to hosts (#$issue_number)"
       - name: Push changes
+        if: steps.check_duplicate.outputs.duplicate != 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.UPDATE_TOKEN }}
