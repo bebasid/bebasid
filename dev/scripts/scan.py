@@ -36,8 +36,8 @@ def execute(file):
     lineFile = len(hostnameList)
     lenLiveHostname = lenDieHostname = lenCantWrite = resultHostname = 0
     print("\nMemulai Proses\n")
-    for hostname in hostnameList:
-        hostname = hostname.strip()
+    for raw_hostname in hostnameList:
+        hostname = raw_hostname.strip().rstrip(".").lower()
         if not hostname:
             continue
         try:
@@ -47,7 +47,8 @@ def execute(file):
             resultFileList = resultFile.readlines()
             for result in resultFileList:
                 if "# [" in result:
-                    if result.split('[', 1)[1].split(']')[0] in hostname:
+                    group_hostname = result.split('[', 1)[1].split(']', 1)[0].strip().rstrip(".").lower()
+                    if group_hostname and (hostname == group_hostname or hostname.endswith("." + group_hostname)):
                         hostnameIndex = resultFileList.index(result)
                         resultFileList[hostnameIndex+1] = "{0} {1}\n{2}".format(hostnameIp, hostname,resultFileList[hostnameIndex+1])
                         resultFile.close()

@@ -127,10 +127,38 @@ jobs:
 
           echo ""
           echo "=== Merging All Results ==="
-          cat results/*.txt 2>/dev/null | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | sort -u > hasilunsorted || true
-          touch hasilunsorted
-          total=$(wc -l < hasilunsorted)
-          echo "Total unique subdomains found: $total"
+          python - "$DOMAIN" <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+
+          domain = sys.argv[1].strip().rstrip(".").lower()
+          label = r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?"
+          domain_pattern = re.compile(rf"^{label}(?:\.{label})+$")
+          if not domain_pattern.fullmatch(domain) or len(domain) > 253:
+              raise SystemExit(f"Invalid domain: {domain!r}")
+
+          hostname_pattern = re.compile(
+              rf"(?<![a-z0-9_.-])(?:{label}\.)*{re.escape(domain)}\.?"
+              rf"(?![a-z0-9_.-])",
+              re.IGNORECASE,
+          )
+          candidates = set()
+          for result_path in sorted(Path("results").glob("*.txt")):
+              for line in result_path.read_text(
+                  encoding="utf-8", errors="ignore"
+              ).splitlines():
+                  for match in hostname_pattern.finditer(line):
+                      candidate = match.group(0).rstrip(".").lower()
+                      if len(candidate) <= 253:
+                          candidates.add(candidate)
+
+          Path("hasilunsorted").write_text(
+              "".join(f"{candidate}\n" for candidate in sorted(candidates)),
+              encoding="utf-8",
+          )
+          print(f"Total unique subdomains found: {len(candidates)}")
+          PY
       - name: Sort Subdomains
         run: |
           python - <<EOF
