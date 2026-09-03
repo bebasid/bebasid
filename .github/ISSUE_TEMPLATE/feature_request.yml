@@ -5,8 +5,6 @@ labels:
   - request
   - sites
 assignees: 
-  - galpt
-  - ryukora
 body:
   - type: input
     id: domain
