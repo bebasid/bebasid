@@ -4,8 +4,6 @@ title: '[BUG] example.com'
 labels: 
   - bug
   - sites
-assignees: 
-  - galpt,ryukora
 body:
   - type: markdown
     attributes:
