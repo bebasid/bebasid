@@ -4,7 +4,6 @@ title: '[REQ] example.com'
 labels: 
   - request
   - sites
-assignees: 
 body:
   - type: input
     id: domain
