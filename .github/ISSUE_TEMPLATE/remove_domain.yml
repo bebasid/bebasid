@@ -3,9 +3,6 @@ description: Minta penghapusan situs.
 title: '[REM] example.com'
 labels: 
   - sites
-assignees: 
-  - galpt
-  - ryukora
 body:
   - type: markdown
     attributes:
