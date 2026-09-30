@@ -38,10 +38,6 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
 </a>
 
-<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
-</a>
-
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
@@ -200,7 +196,7 @@ For Internet Service Providers (ISPs) that use [Deep Packet Inspection (DPI)](ht
 
 ### Frequently Asked Questions
 
-If you have any problems using BebasID, you can ask on [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) / [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) or email [`dukungan@bebasid.com`](maproblemsgan@bebasid.com).
+If you have any problems using BebasID, you can ask on [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or email [`dukungan@bebasid.com`](maproblemsgan@bebasid.com).
 
 ## License
 
