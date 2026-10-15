@@ -25449,3 +25449,22 @@
 172.64.235.133 api.kick.com
 172.64.235.133 id.kick.com
 162.159.235.122 kick.com
+
+# [123av.com]
+104.26.9.106 autodiscover.123av.com
+104.26.8.106 www.secure.123av.com
+172.67.73.151 secure.123av.com
+104.26.8.106 origin.123av.com
+104.26.9.106 www1.123av.com
+172.67.73.151 wiki.123av.com
+104.26.8.106 rec3.123av.com
+172.67.73.151 rec2.123av.com
+104.26.8.106 www.123av.com
+104.26.8.106 dev.123av.com
+104.26.9.106 cdn.123av.com
+172.67.73.151 bbs.123av.com
+104.26.9.106 app.123av.com
+104.26.8.106 mm.123av.com
+104.26.8.106 m.123av.com
+172.67.73.151 1.123av.com
+172.67.73.151 123av.com
