@@ -25318,13 +25318,6 @@
 216.198.54.11 cs.dlsite.com
 210.140.64.86 dlsite.com
 
-# [xasiat.com]
-185.94.237.104 mail.xasiat.com
-185.94.237.104 smtp.xasiat.com
-185.94.237.104 www.xasiat.com
-185.94.237.104 pop.xasiat.com
-185.94.237.104 ftp.xasiat.com
-185.94.237.104 xasiat.com
 
 # [mangabuddy.com]
 5.183.209.137 comments.mangabuddy.com
@@ -25468,3 +25461,11 @@
 104.26.8.106 m.123av.com
 172.67.73.151 1.123av.com
 172.67.73.151 123av.com
+
+# [xasiat.com]
+185.94.237.104 smtp.xasiat.com
+185.94.237.104 mail.xasiat.com
+172.66.171.167 www.xasiat.com
+185.94.237.104 pop.xasiat.com
+104.20.30.13 ftp.xasiat.com
+104.20.30.13 xasiat.com
