@@ -10,14 +10,15 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Domain Parser
+        run: python -m pip install -r dev/scripts/requirements-issue-domain.txt
       - name: Extract Domain
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          domain=$(printf '%s' "$domain" | tr '[:upper:]' '[:lower:]' | sed 's/\.$//')
-          if [ -z "$domain" ]; then
-            echo "Unable to extract domain from issue body." >&2
-            exit 1
-          fi
+          domain=$(python dev/scripts/issue_domain.py "$GITHUB_EVENT_PATH" "Domain")
           echo "DOMAIN=$domain" >> "$GITHUB_ENV"
           echo "Domain extracted: $domain"
       - name: Check Duplicate Domain

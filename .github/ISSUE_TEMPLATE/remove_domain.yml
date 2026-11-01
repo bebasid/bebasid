@@ -14,8 +14,8 @@ body:
     id: domainataulain
     attributes:
       label: Domain atau lain
-      description: Masukkan domain atau lain
-      placeholder: example.com, ...
+      description: Masukkan satu domain atau URL HTTP/HTTPS. Penghapusan subdomain menargetkan domain induknya.
+      placeholder: https://example.com/
     validations:
       required: true
   - type: input

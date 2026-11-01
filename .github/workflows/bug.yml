@@ -10,16 +10,22 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Domain Parser
+        run: python -m pip install -r dev/scripts/requirements-issue-domain.txt
+      - name: Extract Domain
+        run: |
+          domain=$(python dev/scripts/issue_domain.py "$GITHUB_EVENT_PATH" "Domain atau lain")
+          echo "DOMAIN=$domain" >> "$GITHUB_ENV"
+          echo "Domain extracted: $domain"
       - name: Close Issue
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
           comment: Terima kasih atas kontribusi Anda, permintaan koreksi domain Anda akan segera diterapkan.
-      - name: Extract Domain
-        run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain atau lain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          echo "DOMAIN=$domain" >> $GITHUB_ENV
-          echo "Domain extracted: $domain"
       - name: Remove Domain
         run: |
           sed "/$DOMAIN/d" releases/hosts > releases/hosts.tmp

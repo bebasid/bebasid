@@ -10,6 +10,17 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Domain Parser
+        run: python -m pip install -r dev/scripts/requirements-issue-domain.txt
+      - name: Extract Domain
+        run: |
+          domain=$(python dev/scripts/issue_domain.py "$GITHUB_EVENT_PATH" "Domain atau lain")
+          echo "DOMAIN=$domain" >> "$GITHUB_ENV"
+          echo "Domain extracted: $domain"
       - name: Close Issue
         uses: peter-evans/close-issue@v3
         with:
@@ -17,14 +28,12 @@ jobs:
           comment: Terima kasih atas kontribusi Anda, permintaan penghapusan domain Anda akan diterapkan pada siklus update selanjutnya.
       - name: Remove Domain from hosts
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain atau lain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          sed "/$domain/d" releases/hosts > releases/hosts.tmp
-          echo "Domain $domain removed from hosts."
+          sed "/$DOMAIN/d" releases/hosts > releases/hosts.tmp
+          echo "Domain $DOMAIN removed from hosts."
       - name: Remove Domain from domainlist
         run: |
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain atau lain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          sed -i "/$domain/d" dev/domainlist
-          echo "Domain $domain removed from domainlist."
+          sed -i "/$DOMAIN/d" dev/domainlist
+          echo "Domain $DOMAIN removed from domainlist."
       - name: Rerelease hosts
         run: |
           sed ':a;N;$!ba;s/\n\n\n*/\n\n/g' releases/hosts.tmp > releases/hosts
@@ -35,8 +44,7 @@ jobs:
           git config --global user.email "gvoze32@yahoo.com"
           git config --global user.name "zksbot"
           git add releases/hosts dev/domainlist
-          domain=$(jq -r '.issue.body' "$GITHUB_EVENT_PATH" | tr -d '\r' | awk '/^### Domain atau lain[[:space:]]*$/{getline;getline;print;exit}' | tr -d '[:space:]')
-          git commit -m "Remove $domain from domainlist (#$issue_number)"
+          git commit -m "Remove $DOMAIN from domainlist (#$issue_number)"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

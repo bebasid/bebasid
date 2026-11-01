@@ -9,8 +9,8 @@ body:
     id: domain
     attributes:
       label: Domain
-      description: Masukkan domain
-      placeholder: example.com
+      description: Masukkan satu domain atau URL HTTP/HTTPS. Subdomain otomatis diproses sebagai domain induknya.
+      placeholder: https://example.com/
     validations:
       required: true
   - type: input
