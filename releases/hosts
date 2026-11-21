@@ -20793,11 +20793,6 @@
 104.21.80.1 cdn01.manhwa18.cc
 104.21.80.1 www.manhwa18.cc
 104.21.80.1 manhwa18.cc
-# [supjav.com]
-104.22.1.244 tools.supjav.com
-104.22.0.244 img.supjav.com
-104.22.0.244 www.supjav.com
-104.22.1.244 supjav.com
 # [redgifs.com]
 91.199.51.222 links.newsletters.redgifs.com
 172.64.151.133 hooks-staging.redgifs.com
@@ -29473,3 +29468,9 @@
 91.195.99.122 mail.mirrored.to
 91.195.99.122 www.mirrored.to
 91.195.99.122 mirrored.to
+
+# [supjav.com]
+172.66.147.203 tools.supjav.com
+172.66.147.203 www.supjav.com
+104.20.47.3 img.supjav.com
+104.20.47.3 supjav.com
